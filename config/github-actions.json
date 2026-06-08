@@ -1,0 +1,8 @@
+{
+  "language": "zh",
+  "timezone": "Asia/Shanghai",
+  "frequency": "daily",
+  "delivery": {
+    "method": "feishu"
+  }
+}

@@ -1,4 +1,6 @@
 scripts/node_modules/
+config/local-feishu.json
+config/delivery-state.json
 .env
 *.log
 .DS_Store

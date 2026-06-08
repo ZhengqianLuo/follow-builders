@@ -8,7 +8,7 @@
 
 ## 你会得到什么
 
-每日或每周推送到你常用的通讯工具（Telegram、Discord、WhatsApp 等），包含：
+每日或每周推送到你常用的通讯工具（Telegram、飞书/Lark、Discord、WhatsApp 等），包含：
 
 - 顶级 AI 播客新节目的精华摘要
 - 26 位精选 AI 建造者在 X/Twitter 上的关键观点和洞察
@@ -25,7 +25,7 @@
 Agent 会询问你：
 - 推送频率（每日或每周）和时间
 - 语言偏好
-- 推送方式（Telegram、邮件或直接在聊天中显示）
+- 推送方式（Telegram、飞书/Lark、邮件或直接在聊天中显示）
 
 不需要任何 API key——所有内容由中心化服务统一抓取。
 设置完成后，你的第一期摘要会立即推送。
@@ -106,6 +106,74 @@ cd ~/.claude/skills/follow-builders/scripts && npm install
 2. 你的 agent 获取 feed——一次 HTTP 请求，不需要 API key
 3. 你的 agent 根据你的偏好将原始内容重新混编为易消化的摘要
 4. 摘要推送到你的通讯工具（或直接在聊天中显示）
+
+## 飞书/Lark 推送
+
+在 `~/.follow-builders/config.json` 里把 `delivery.method` 设为 `feishu`。
+目前支持两种方式：
+
+**通过 lark-cli 发个人消息或群消息**
+
+```json
+{
+  "language": "zh",
+  "timezone": "Asia/Shanghai",
+  "frequency": "daily",
+  "deliveryTime": "07:30",
+  "delivery": {
+    "method": "feishu",
+    "identity": "bot",
+    "userId": "ou_xxx"
+  },
+  "onboardingComplete": true
+}
+```
+
+如果要发到飞书群，把 `userId` 换成 `chatId`。这种方式需要本机已经安装并配置好
+`lark-cli`，且对应飞书应用有发送消息权限。
+
+**通过飞书自定义机器人 webhook 发群消息**
+
+```bash
+FEISHU_WEBHOOK_URL="https://open.feishu.cn/open-apis/bot/v2/hook/..."
+FEISHU_WEBHOOK_SECRET="可选的签名密钥"
+```
+
+如果设置了 `FEISHU_WEBHOOK_URL`，`scripts/deliver.js` 会优先使用 webhook；
+否则会使用 `lark-cli`。
+
+**GitHub Actions 云端早餐简报**
+
+仓库里已经包含 `.github/workflows/breakfast-digest.yml`。它会每天 UTC 23:30
+运行，也就是北京时间早上 7:30，并通过飞书自定义机器人 webhook 发送富文本
+post 简报。
+
+使用步骤：
+
+1. 在飞书里创建一个只用于接收简报的小群，并添加自定义机器人。
+2. 复制机器人的 webhook URL；如果开启了签名校验，也复制签名密钥。
+3. 在 GitHub 仓库的 Actions Secrets 中添加：
+   - `FEISHU_WEBHOOK_URL`
+   - `FEISHU_WEBHOOK_SECRET`（可选）
+4. 手动运行一次 `AI Builders Breakfast Digest` workflow，确认飞书小群能收到消息。
+
+workflow 会把已发送历史保存在 `config/github-actions-state.json`，并且只有飞书
+发送成功后才提交这个状态文件，避免没送达却被误标记为已推送。
+
+本地每天早上 7:30 推送可以使用：
+
+```bash
+30 7 * * * cd /path/to/follow-builders/scripts && npm run -s build-digest | node deliver.js
+```
+
+也可以先立即测试一次：
+
+```bash
+cd scripts && npm run -s build-digest | node deliver.js
+```
+
+如果测试或部署时想使用单独的配置文件，可以用 `FOLLOW_BUILDERS_CONFIG`
+指定 JSON 配置路径。
 
 查看 [examples/sample-digest.md](examples/sample-digest.md) 了解输出示例。
 

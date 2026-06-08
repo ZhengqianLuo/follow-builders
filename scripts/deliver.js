@@ -4,12 +4,13 @@
 // Follow Builders — Delivery Script
 // ============================================================================
 // Sends a digest to the user via their chosen delivery method.
-// Supports: Telegram bot, Email (via Resend), or stdout (default).
+// Supports: Telegram bot, Email (via Resend), Feishu/Lark, or stdout (default).
 //
 // Usage:
 //   echo "digest text" | node deliver.js
 //   node deliver.js --message "digest text"
 //   node deliver.js --file /path/to/digest.txt
+//   node deliver.js --post-file /path/to/feishu-post.json
 //
 // The script reads delivery config from ~/.follow-builders/config.json
 // and API keys from ~/.follow-builders/.env
@@ -17,6 +18,7 @@
 // Delivery methods:
 //   - "telegram": sends via Telegram Bot API (needs TELEGRAM_BOT_TOKEN + chat ID)
 //   - "email": sends via Resend API (needs RESEND_API_KEY + email address)
+//   - "feishu": sends via lark-cli to a user/group, or via Feishu webhook
 //   - "stdout" (default): just prints to terminal
 // ============================================================================
 
@@ -24,30 +26,42 @@ import { readFile } from 'fs/promises';
 import { existsSync } from 'fs';
 import { join } from 'path';
 import { homedir } from 'os';
+import { createHmac } from 'crypto';
+import { spawn } from 'child_process';
 import { config as loadEnv } from 'dotenv';
 
 // -- Constants ---------------------------------------------------------------
 
 const USER_DIR = join(homedir(), '.follow-builders');
-const CONFIG_PATH = join(USER_DIR, 'config.json');
-const ENV_PATH = join(USER_DIR, '.env');
+const CONFIG_PATH = process.env.FOLLOW_BUILDERS_CONFIG || join(USER_DIR, 'config.json');
+const ENV_PATH = process.env.FOLLOW_BUILDERS_ENV || join(USER_DIR, '.env');
 
 // -- Read input --------------------------------------------------------------
 
-// The digest text can come from stdin, --message flag, or --file flag
-async function getDigestText() {
+// The digest can come from stdin, --message, --file, or --post-file.
+async function getDigestInput() {
   const args = process.argv.slice(2);
+
+  // Check --post-file flag. The file must contain Feishu post content JSON.
+  const postFileIdx = args.indexOf('--post-file');
+  if (postFileIdx !== -1 && args[postFileIdx + 1]) {
+    const raw = await readFile(args[postFileIdx + 1], 'utf-8');
+    return {
+      type: 'post',
+      content: JSON.stringify(JSON.parse(raw))
+    };
+  }
 
   // Check --message flag
   const msgIdx = args.indexOf('--message');
   if (msgIdx !== -1 && args[msgIdx + 1]) {
-    return args[msgIdx + 1];
+    return { type: 'text', content: args[msgIdx + 1] };
   }
 
   // Check --file flag
   const fileIdx = args.indexOf('--file');
   if (fileIdx !== -1 && args[fileIdx + 1]) {
-    return await readFile(args[fileIdx + 1], 'utf-8');
+    return { type: 'text', content: await readFile(args[fileIdx + 1], 'utf-8') };
   }
 
   // Read from stdin
@@ -55,7 +69,7 @@ async function getDigestText() {
   for await (const chunk of process.stdin) {
     chunks.push(chunk);
   }
-  return Buffer.concat(chunks).toString('utf-8');
+  return { type: 'text', content: Buffer.concat(chunks).toString('utf-8') };
 }
 
 // -- Telegram Delivery -------------------------------------------------------
@@ -149,6 +163,137 @@ async function sendEmail(text, apiKey, toEmail) {
   }
 }
 
+// -- Feishu / Lark Delivery --------------------------------------------------
+
+function chunkText(text, maxLen = 3800) {
+  const chunks = [];
+  let remaining = text;
+  while (remaining.length > 0) {
+    if (remaining.length <= maxLen) {
+      chunks.push(remaining);
+      break;
+    }
+    let splitAt = remaining.lastIndexOf('\n', maxLen);
+    if (splitAt < maxLen * 0.5) splitAt = maxLen;
+    chunks.push(remaining.slice(0, splitAt));
+    remaining = remaining.slice(splitAt).trimStart();
+  }
+  return chunks;
+}
+
+async function sendFeishuWebhook(message, webhookUrl, webhookSecret) {
+  const chunks = message.type === 'post' ? [message.content] : chunkText(message.content);
+
+  for (const chunk of chunks) {
+    const body = message.type === 'post'
+      ? {
+          msg_type: 'post',
+          content: {
+            post: JSON.parse(chunk)
+          }
+        }
+      : {
+          msg_type: 'text',
+          content: { text: chunk }
+        };
+
+    if (webhookSecret) {
+      const timestamp = String(Math.floor(Date.now() / 1000));
+      const signString = `${timestamp}\n${webhookSecret}`;
+      body.timestamp = timestamp;
+      body.sign = createHmac('sha256', signString).update('').digest('base64');
+    }
+
+    const res = await fetch(webhookUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(body)
+    });
+
+    const responseText = await res.text();
+    if (!res.ok) {
+      throw new Error(`Feishu webhook error: ${res.status} ${responseText}`);
+    }
+
+    if (responseText) {
+      const result = JSON.parse(responseText);
+      const statusCode = result.StatusCode ?? result.code ?? 0;
+      if (statusCode !== 0) {
+        throw new Error(`Feishu webhook error: ${responseText}`);
+      }
+    }
+
+    if (chunks.length > 1) await new Promise(r => setTimeout(r, 500));
+  }
+}
+
+function runLarkCli(args) {
+  return new Promise((resolve, reject) => {
+    const child = spawn('lark-cli', args, { stdio: ['ignore', 'pipe', 'pipe'] });
+    let stdout = '';
+    let stderr = '';
+
+    child.stdout.on('data', chunk => {
+      stdout += chunk.toString();
+    });
+    child.stderr.on('data', chunk => {
+      stderr += chunk.toString();
+    });
+    child.on('error', err => {
+      reject(new Error(`Could not run lark-cli: ${err.message}`));
+    });
+    child.on('close', code => {
+      if (code === 0) {
+        resolve(stdout);
+      } else {
+        reject(new Error(`lark-cli exited with ${code}: ${stderr || stdout}`));
+      }
+    });
+  });
+}
+
+async function sendFeishuWithCli(message, delivery) {
+  const chunks = message.type === 'post' ? [message.content] : chunkText(message.content);
+  const identity = delivery.identity || 'bot';
+  const targetArgs = delivery.userId
+    ? ['--user-id', delivery.userId]
+    : ['--chat-id', delivery.chatId];
+
+  if (!delivery.userId && !delivery.chatId) {
+    throw new Error('delivery.userId or delivery.chatId is required for Feishu lark-cli delivery');
+  }
+
+  for (const chunk of chunks) {
+    const contentArgs = message.type === 'post'
+      ? ['--msg-type', 'post', '--content', chunk]
+      : ['--text', chunk];
+
+    await runLarkCli([
+      'im',
+      '+messages-send',
+      '--as',
+      identity,
+      ...targetArgs,
+      ...contentArgs
+    ]);
+
+    if (chunks.length > 1) await new Promise(r => setTimeout(r, 500));
+  }
+}
+
+async function sendFeishu(message, delivery) {
+  const webhookUrl = process.env.FEISHU_WEBHOOK_URL || delivery.webhookUrl;
+  const webhookSecret = process.env.FEISHU_WEBHOOK_SECRET || delivery.webhookSecret;
+
+  if (webhookUrl) {
+    await sendFeishuWebhook(message, webhookUrl, webhookSecret);
+    return 'webhook';
+  }
+
+  await sendFeishuWithCli(message, delivery);
+  return 'lark-cli';
+}
+
 // -- Main --------------------------------------------------------------------
 
 async function main() {
@@ -161,9 +306,9 @@ async function main() {
   }
 
   const delivery = config.delivery || { method: 'stdout' };
-  const digestText = await getDigestText();
+  const digest = await getDigestInput();
 
-  if (!digestText || digestText.trim().length === 0) {
+  if (!digest.content || digest.content.trim().length === 0) {
     console.log(JSON.stringify({ status: 'skipped', reason: 'Empty digest text' }));
     return;
   }
@@ -175,7 +320,8 @@ async function main() {
         const chatId = delivery.chatId;
         if (!botToken) throw new Error('TELEGRAM_BOT_TOKEN not found in .env');
         if (!chatId) throw new Error('delivery.chatId not found in config.json');
-        await sendTelegram(digestText, botToken, chatId);
+        if (digest.type !== 'text') throw new Error('Telegram delivery only supports text input');
+        await sendTelegram(digest.content, botToken, chatId);
         console.log(JSON.stringify({
           status: 'ok',
           method: 'telegram',
@@ -189,7 +335,8 @@ async function main() {
         const toEmail = delivery.email;
         if (!apiKey) throw new Error('RESEND_API_KEY not found in .env');
         if (!toEmail) throw new Error('delivery.email not found in config.json');
-        await sendEmail(digestText, apiKey, toEmail);
+        if (digest.type !== 'text') throw new Error('Email delivery only supports text input');
+        await sendEmail(digest.content, apiKey, toEmail);
         console.log(JSON.stringify({
           status: 'ok',
           method: 'email',
@@ -198,10 +345,21 @@ async function main() {
         break;
       }
 
+      case 'feishu': {
+        const transport = await sendFeishu(digest, delivery);
+        console.log(JSON.stringify({
+          status: 'ok',
+          method: 'feishu',
+          transport,
+          message: 'Digest sent to Feishu'
+        }));
+        break;
+      }
+
       case 'stdout':
       default:
         // Just print to terminal — the agent or OpenClaw handles delivery
-        console.log(digestText);
+        console.log(digest.content);
         break;
     }
   } catch (err) {

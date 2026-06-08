@@ -24,7 +24,7 @@ import { homedir } from 'os';
 // -- Constants ---------------------------------------------------------------
 
 const USER_DIR = join(homedir(), '.follow-builders');
-const CONFIG_PATH = join(USER_DIR, 'config.json');
+const CONFIG_PATH = process.env.FOLLOW_BUILDERS_CONFIG || join(USER_DIR, 'config.json');
 
 const FEED_X_URL = 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json';
 const FEED_PODCASTS_URL = 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-podcasts.json';
@@ -42,15 +42,32 @@ const PROMPT_FILES = [
 // -- Fetch helpers -----------------------------------------------------------
 
 async function fetchJSON(url) {
-  const res = await fetch(url);
-  if (!res.ok) return null;
-  return res.json();
+  try {
+    const res = await fetch(url);
+    if (!res.ok) return null;
+    return res.json();
+  } catch {
+    return null;
+  }
 }
 
 async function fetchText(url) {
-  const res = await fetch(url);
-  if (!res.ok) return null;
-  return res.text();
+  try {
+    const res = await fetch(url);
+    if (!res.ok) return null;
+    return res.text();
+  } catch {
+    return null;
+  }
+}
+
+async function readLocalJSON(path) {
+  if (!existsSync(path)) return null;
+  try {
+    return JSON.parse(await readFile(path, 'utf-8'));
+  } catch {
+    return null;
+  }
 }
 
 // -- Main --------------------------------------------------------------------
@@ -72,11 +89,20 @@ async function main() {
     }
   }
 
-  // 2. Fetch all three feeds
-  const [feedX, feedPodcasts, feedBlogs] = await Promise.all([
+  const scriptDir = decodeURIComponent(new URL('.', import.meta.url).pathname);
+  const localRootDir = join(scriptDir, '..');
+
+  // 2. Fetch all three feeds, falling back to the local copy shipped with the skill.
+  const [remoteFeedX, remoteFeedPodcasts, remoteFeedBlogs] = await Promise.all([
     fetchJSON(FEED_X_URL),
     fetchJSON(FEED_PODCASTS_URL),
     fetchJSON(FEED_BLOGS_URL)
+  ]);
+
+  const [feedX, feedPodcasts, feedBlogs] = await Promise.all([
+    remoteFeedX || readLocalJSON(join(localRootDir, 'feed-x.json')),
+    remoteFeedPodcasts || readLocalJSON(join(localRootDir, 'feed-podcasts.json')),
+    remoteFeedBlogs || readLocalJSON(join(localRootDir, 'feed-blogs.json'))
   ]);
 
   if (!feedX) errors.push('Could not fetch tweet feed');
@@ -105,7 +131,6 @@ async function main() {
   // Otherwise, fetch the latest from GitHub so they get central improvements.
   // If GitHub is unreachable, fall back to the local copy shipped with the skill.
   const prompts = {};
-  const scriptDir = decodeURIComponent(new URL('.', import.meta.url).pathname);
   const localPromptsDir = join(scriptDir, '..', 'prompts');
   const userPromptsDir = join(USER_DIR, 'prompts');
 

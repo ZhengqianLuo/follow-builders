@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "sent": {
+    "tweet:2062329981548802523": {
+      "type": "tweet",
+      "title": "Codex 可靠性事故后，OpenAI 重置了付费用户的 Codex 使用额度",
+      "url": "https://x.com/thsottiaux/status/2062329981548802523",
+      "sentAt": "2026-06-06T23:56:49.848Z"
+    },
+    "tweet:2062206479026069544": {
+      "type": "tweet",
+      "title": "Google Labs 推出 Dreambeans，用个人数据做“希望刷屏”式每日故事流",
+      "url": "https://x.com/GoogleLabs/status/2062206479026069544",
+      "sentAt": "2026-06-06T23:56:49.848Z"
+    },
+    "tweet:2062352329903665471": {
+      "type": "tweet",
+      "title": "Cursor 在招 design engineer，重点是“品味、系统思维、帮人和 agent ship 高质量代码”",
+      "url": "https://x.com/ryolu_/status/2062352329903665471",
+      "sentAt": "2026-06-06T23:56:49.848Z"
+    },
+    "tweet:2062276065448669627": {
+      "type": "tweet",
+      "title": "OpenClaw 本周 npm 下载量创新高，叠加 Docker/GitHub/内部分发可能达到千万级周下载",
+      "url": "https://x.com/steipete/status/2062276065448669627",
+      "sentAt": "2026-06-06T23:56:49.848Z"
+    },
+    "tweet:2062335852379066698": {
+      "type": "tweet",
+      "title": "Aaron Levie 反驳“AI 会减少岗位”：AI 可能让公司开出更多项目，反而需要更多工程、销售和营销角色",
+      "url": "https://x.com/levie/status/2062335852379066698",
+      "sentAt": "2026-06-06T23:56:49.848Z"
+    },
+    "blog:https://www.anthropic.com/engineering/how-we-contain-claude": {
+      "type": "blog",
+      "title": "Anthropic 复盘 Claude 在不同产品里的 containment：核心不是让模型“乖”，而是限制它能碰到什么",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "sentAt": "2026-06-06T23:56:49.848Z"
+    },
+    "podcast:0c2c7d0c-5fc8-11f1-84fd-97552ff30f86": {
+      "type": "podcast",
+      "title": "Satya Nadella 谈 full-stack builder：AI 平台的重点不是单个模型，而是让每家公司训练自己的“前沿智能”",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "sentAt": "2026-06-06T23:56:49.848Z"
+    },
+    "topic:Codex 可靠性事故后，OpenAI 重置了付费用户的 Codex 使用额度": {
+      "type": "topic",
+      "title": "Codex 可靠性事故后，OpenAI 重置了付费用户的 Codex 使用额度",
+      "url": "https://x.com/thsottiaux/status/2062329981548802523",
+      "sentAt": "2026-06-06T23:56:49.848Z"
+    },
+    "topic:Google Labs 推出 Dreambeans，用个人数据做“希望刷屏”式每日故事流": {
+      "type": "topic",
+      "title": "Google Labs 推出 Dreambeans，用个人数据做“希望刷屏”式每日故事流",
+      "url": "https://x.com/GoogleLabs/status/2062206479026069544",
+      "sentAt": "2026-06-06T23:56:49.848Z"
+    },
+    "topic:Cursor 在招 design engineer，重点是“品味、系统思维、帮人和 agent ship 高质量代码”": {
+      "type": "topic",
+      "title": "Cursor 在招 design engineer，重点是“品味、系统思维、帮人和 agent ship 高质量代码”",
+      "url": "https://x.com/ryolu_/status/2062352329903665471",
+      "sentAt": "2026-06-06T23:56:49.848Z"
+    },
+    "topic:OpenClaw 本周 npm 下载量创新高，叠加 Docker/GitHub/内部分发可能达到千万级周下载": {
+      "type": "topic",
+      "title": "OpenClaw 本周 npm 下载量创新高，叠加 Docker/GitHub/内部分发可能达到千万级周下载",
+      "url": "https://x.com/steipete/status/2062276065448669627",
+      "sentAt": "2026-06-06T23:56:49.848Z"
+    },
+    "topic:Aaron Levie 反驳“AI 会减少岗位”：AI 可能让公司开出更多项目，反而需要更多工程、销售和营销角色": {
+      "type": "topic",
+      "title": "Aaron Levie 反驳“AI 会减少岗位”：AI 可能让公司开出更多项目，反而需要更多工程、销售和营销角色",
+      "url": "https://x.com/levie/status/2062335852379066698",
+      "sentAt": "2026-06-06T23:56:49.848Z"
+    },
+    "topic:Anthropic 复盘 Claude 在不同产品里的 containment：核心不是让模型“乖”，而是限制它能碰到什么": {
+      "type": "topic",
+      "title": "Anthropic 复盘 Claude 在不同产品里的 containment：核心不是让模型“乖”，而是限制它能碰到什么",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "sentAt": "2026-06-06T23:56:49.848Z"
+    },
+    "topic:Satya Nadella 谈 full-stack builder：AI 平台的重点不是单个模型，而是让每家公司训练自己的“前沿智能”": {
+      "type": "topic",
+      "title": "Satya Nadella 谈 full-stack builder：AI 平台的重点不是单个模型，而是让每家公司训练自己的“前沿智能”",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "sentAt": "2026-06-06T23:56:49.848Z"
+    },
+    "tweet:2062280745889222937": {
+      "type": "tweet",
+      "title": "企业愿意为 AI token 花远超传统 SaaS seat 的钱，说明“智能”的市场可能比软件许可大很多",
+      "url": "https://x.com/levie/status/2062280745889222937",
+      "sentAt": "2026-06-06T23:58:20.438Z"
+    },
+    "topic:企业愿意为 AI token 花远超传统 SaaS seat 的钱，说明“智能”的市场可能比软件许可大很多": {
+      "type": "topic",
+      "title": "企业愿意为 AI token 花远超传统 SaaS seat 的钱，说明“智能”的市场可能比软件许可大很多",
+      "url": "https://x.com/levie/status/2062280745889222937",
+      "sentAt": "2026-06-06T23:58:20.438Z"
+    },
+    "podcast:10556d62-a6f5-44a2-aae6-0cb62f28313b": {
+      "type": "podcast",
+      "title": "Lucas Kaiser 谈 AI 前沿：reasoning 很强，但可能还不够解决真正的 generalization",
+      "url": "https://www.youtube.com/watch?v=N1geOimmdDo",
+      "sentAt": "2026-06-08T02:19:30.413Z"
+    },
+    "topic:Lucas Kaiser 谈 AI 前沿：reasoning 很强，但可能还不够解决真正的 generalization": {
+      "type": "topic",
+      "title": "Lucas Kaiser 谈 AI 前沿：reasoning 很强，但可能还不够解决真正的 generalization",
+      "url": "https://www.youtube.com/watch?v=N1geOimmdDo",
+      "sentAt": "2026-06-08T02:19:30.413Z"
+    }
+  },
+  "updatedAt": "2026-06-08T02:19:30.413Z"
+}

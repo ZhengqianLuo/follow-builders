@@ -42,17 +42,35 @@
       "properties": {
         "method": {
           "type": "string",
-          "enum": ["stdout", "telegram", "email"],
+          "enum": ["stdout", "telegram", "email", "feishu"],
           "default": "stdout",
-          "description": "Delivery method: stdout (terminal/agent), telegram (bot message), email (via Resend)"
+          "description": "Delivery method: stdout (terminal/agent), telegram (bot message), email (via Resend), feishu (lark-cli or webhook)"
         },
         "chatId": {
           "type": "string",
-          "description": "Telegram chat ID (only for telegram method)"
+          "description": "Telegram chat ID, or Feishu group chat_id when delivery.method is feishu"
         },
         "email": {
           "type": "string",
           "description": "Email address to send digest to (only for email method)"
+        },
+        "userId": {
+          "type": "string",
+          "description": "Feishu/Lark user open_id for direct messages (only for feishu method)"
+        },
+        "identity": {
+          "type": "string",
+          "enum": ["bot", "user"],
+          "default": "bot",
+          "description": "lark-cli identity used for Feishu delivery"
+        },
+        "webhookUrl": {
+          "type": "string",
+          "description": "Feishu custom bot webhook URL (optional; can also use FEISHU_WEBHOOK_URL)"
+        },
+        "webhookSecret": {
+          "type": "string",
+          "description": "Feishu custom bot webhook signature secret (optional; can also use FEISHU_WEBHOOK_SECRET)"
         }
       }
     },

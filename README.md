@@ -11,8 +11,8 @@ influencers who regurgitate information.
 
 ## What You Get
 
-A daily or weekly digest delivered to your preferred messaging app (Telegram, Discord,
-WhatsApp, etc.) with:
+A daily or weekly digest delivered to your preferred messaging app (Telegram, Feishu/Lark,
+Discord, WhatsApp, etc.) with:
 
 - Summaries of new podcast episodes from top AI podcasts
 - Key posts and insights from 26 curated AI builders on X/Twitter
@@ -29,7 +29,7 @@ WhatsApp, etc.) with:
 The agent will ask you:
 - How often you want your digest (daily or weekly) and what time
 - What language you prefer
-- How you want it delivered (Telegram, email, or in-chat)
+- How you want it delivered (Telegram, Feishu/Lark, email, or in-chat)
 
 No API keys needed — all content is fetched centrally.
 Your first digest arrives immediately after setup.
@@ -115,6 +115,75 @@ is fetched centrally and updated daily.
 2. Your agent fetches the feed — one HTTP request, no API keys
 3. Your agent remixes the raw content into a digestible summary using your preferences
 4. The digest is delivered to your messaging app (or shown in-chat)
+
+## Feishu/Lark Delivery
+
+Set `delivery.method` to `feishu` in `~/.follow-builders/config.json`.
+There are two supported transports:
+
+**lark-cli direct message or group message**
+
+```json
+{
+  "language": "zh",
+  "timezone": "Asia/Shanghai",
+  "frequency": "daily",
+  "deliveryTime": "07:30",
+  "delivery": {
+    "method": "feishu",
+    "identity": "bot",
+    "userId": "ou_xxx"
+  },
+  "onboardingComplete": true
+}
+```
+
+Use `chatId` instead of `userId` to send to a Feishu group. This requires `lark-cli`
+to be installed and configured with a Feishu app that can send messages.
+
+**Feishu custom bot webhook**
+
+```bash
+FEISHU_WEBHOOK_URL="https://open.feishu.cn/open-apis/bot/v2/hook/..."
+FEISHU_WEBHOOK_SECRET="optional-signature-secret"
+```
+
+When `FEISHU_WEBHOOK_URL` is present, `scripts/deliver.js` sends through the webhook.
+Otherwise it falls back to `lark-cli`.
+
+**GitHub Actions cloud breakfast digest**
+
+This repo includes `.github/workflows/breakfast-digest.yml`, which runs once a day
+at 23:30 UTC / 07:30 Asia/Shanghai and sends the rich-text Feishu post through a
+custom bot webhook.
+
+To use it:
+
+1. Create a private Feishu group for the digest and add a custom bot.
+2. Copy the bot webhook URL, and the signature secret if signing is enabled.
+3. In your GitHub repository, add Actions secrets:
+   - `FEISHU_WEBHOOK_URL`
+   - `FEISHU_WEBHOOK_SECRET` (optional)
+4. Run the `AI Builders Breakfast Digest` workflow manually once to verify delivery.
+
+The workflow stores sent history in `config/github-actions-state.json` and commits
+that file only after Feishu delivery succeeds. This prevents already-delivered
+items from being sent again.
+
+For a local daily 7:30am job, run:
+
+```bash
+30 7 * * * cd /path/to/follow-builders/scripts && npm run -s build-digest | node deliver.js
+```
+
+The same pipeline can be tested immediately:
+
+```bash
+cd scripts && npm run -s build-digest | node deliver.js
+```
+
+For tests or deployments with a separate config file, set `FOLLOW_BUILDERS_CONFIG`
+to the JSON config path.
 
 See [examples/sample-digest.md](examples/sample-digest.md) for what the output looks like.
 
