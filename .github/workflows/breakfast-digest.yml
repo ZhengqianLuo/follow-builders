@@ -47,7 +47,7 @@ jobs:
       - name: Send digest to Feishu
         if: steps.build.outputs.has_digest == 'true'
         env:
-          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL || secrets.FEISHU_AI_BUILDER }}
           FEISHU_WEBHOOK_SECRET: ${{ secrets.FEISHU_WEBHOOK_SECRET }}
         run: |
           if [ -z "$FEISHU_WEBHOOK_URL" ]; then
