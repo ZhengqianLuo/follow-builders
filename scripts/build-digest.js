@@ -310,6 +310,15 @@ function summarizeBlog(blog) {
     };
   }
 
+  if (hasAny(blog.title, ['Claude Managed Agents', 'dreaming', 'outcomes', 'multiagent orchestration'])) {
+    return {
+      title: 'Claude Managed Agents 新增 dreaming、outcomes 和 multiagent orchestration，目标是让 agent 自我改进、能验收结果、能并行拆任务',
+      why: 'Anthropic 这次不是单纯发布一个更强模型，而是在补 agent 产品化的三块基础设施：dreaming 让 agent 定期复盘历史会话并整理 memory；outcomes 用 rubric 和 grader 检查产出是否达标；multiagent orchestration 让 lead agent 把复杂任务拆给多个 specialist agent 并行处理。',
+      detail: '最值得看的是方向：agent 从“一次性执行器”走向“长期工作系统”。Harvey、Netflix、Spiral、Wisedocs 的案例都指向同一件事：企业真正需要的是能记住团队偏好、能按质量标准自查、还能把日志、文档、support tickets 等复杂上下文拆开处理的 agent workflow。',
+      ask: '可以追问：Managed Agents 的 dreaming 和普通 memory 有什么区别？'
+    };
+  }
+
   return {
     title: `${blog.name}: ${blog.title}`,
     why: compact(blog.description || blog.content, 260),
@@ -334,6 +343,15 @@ function summarizePodcast(podcast) {
       why: '他把 Microsoft 的 AI 战略描述成 ecosystem play：企业不只是调用通用模型，而是用自己的私有 eval、工具、上下文和 harness，让小模型或专用系统在真实任务上 hill climb。',
       detail: '几个值得记住的点：企业最有价值的新 IP 可能是 private eval；coding agent 带来 100 个并行 agent session 后，IDE/UI 也要重做；AI 的价值不只在写代码，还在压缩 glue work，让长时间运行的 agent 替人推进流程。',
       ask: '可以追问：什么是 harness？为什么 private eval 会变成企业 AI 的护城河？'
+    };
+  }
+
+  if (hasAny(podcast.title, ['State of Enterprise AI', 'Tokenmaxxing', 'Headless', 'AI-Proofing']) || hasAny(podcast.transcript, ['Aaron Levy', 'Aaron Levie', 'headless software'])) {
+    return {
+      title: 'Aaron Levie 谈 Enterprise AI 2026：tokenmaxxing、headless software 和企业落地速度之间的张力',
+      why: 'Levie 的核心判断是：AI 能力进步太快，反而让大企业更难形成稳定 rollout plan。很多公司刚把 chat system 推起来，能力边界就已经转向 agentic work；真正的瓶颈不只是模型，而是 change management、security、现有系统升级和业务流程重构。',
+      detail: '这期有三条值得早餐时记住：1. coding agents 已经 escape velocity，但非工程知识工作还在找落地路径；2. token cost 变成企业 AI 的真实预算项，应用层会更重视 model routing 和效率；3. headless software 会让软件从“人点 UI”转向“agent 调接口完成流程”，但大企业需要时间重做权限、审计和组织协作。',
+      ask: '可以追问：headless software 为什么会改变 SaaS 产品形态？'
     };
   }
 
@@ -411,6 +429,13 @@ function podcastTakeaway(data) {
   return '今天的播客内容主要关注 AI 前沿判断、模型能力边界和产业走向。';
 }
 
+function blogTakeaway(data) {
+  if (data.blogItems.length === 1) {
+    return `今天只有 1 篇未推过的深度文章，重点是：${data.blogItems[0].summary.title}`;
+  }
+  return '今天的深度文章主要关注 AI agent 的产品化、安全边界和企业落地。';
+}
+
 function formatDigestData(data) {
   if (!hasDigestContent(data)) return '';
 
@@ -444,7 +469,7 @@ function formatDigestData(data) {
 
   if (data.blogItems.length) {
     lines.push('【深度文章】');
-    lines.push('本区要点：Anthropic 的核心判断是，agent 安全不能只靠人类审批，必须在环境层限制 agent 能访问什么、能把数据发到哪里。');
+    lines.push(`本区要点：${blogTakeaway(data)}`);
     for (const { summary: item, source: blog } of data.blogItems) {
       lines.push(`- ${item.title}`);
       lines.push(`  重点：${item.why}`);
@@ -541,7 +566,7 @@ function formatPostDigestData(data) {
 
   if (data.blogItems.length) {
     content.push(
-      ...sectionHeading('深度文章', 'Anthropic 的核心判断是，agent 安全不能只靠人类审批，必须在环境层限制 agent 能访问什么、能把数据发到哪里。')
+      ...sectionHeading('深度文章', blogTakeaway(data))
     );
     for (const { summary, source } of data.blogItems) {
       content.push(
