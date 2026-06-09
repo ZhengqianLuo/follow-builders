@@ -185,11 +185,12 @@ async function sendFeishuWebhook(message, webhookUrl, webhookSecret) {
   const chunks = message.type === 'post' ? [message.content] : chunkText(message.content);
 
   for (const chunk of chunks) {
+    const post = message.type === 'post' ? normalizePostForWebhook(JSON.parse(chunk)) : null;
     const body = message.type === 'post'
       ? {
           msg_type: 'post',
           content: {
-            post: JSON.parse(chunk)
+            post
           }
         }
       : {
@@ -225,6 +226,36 @@ async function sendFeishuWebhook(message, webhookUrl, webhookSecret) {
 
     if (chunks.length > 1) await new Promise(r => setTimeout(r, 500));
   }
+}
+
+function normalizePostForWebhook(post) {
+  const normalized = {};
+
+  for (const [locale, value] of Object.entries(post)) {
+    normalized[locale] = {
+      title: value.title || '',
+      content: (value.content || []).map(line =>
+        line
+          .map(node => {
+            if (node.tag === 'a') {
+              return {
+                tag: 'a',
+                text: node.text || '',
+                href: node.href || ''
+              };
+            }
+
+            return {
+              tag: 'text',
+              text: node.text || ''
+            };
+          })
+          .filter(node => node.text || node.href)
+      )
+    };
+  }
+
+  return normalized;
 }
 
 function runLarkCli(args) {
