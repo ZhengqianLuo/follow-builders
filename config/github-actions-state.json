@@ -108,7 +108,31 @@
       "title": "Lucas Kaiser 谈 AI 前沿：reasoning 很强，但可能还不够解决真正的 generalization",
       "url": "https://www.youtube.com/watch?v=N1geOimmdDo",
       "sentAt": "2026-06-08T02:19:30.413Z"
+    },
+    "blog:https://claude.com/blog/new-in-claude-managed-agents": {
+      "type": "blog",
+      "title": "Claude Blog: New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+      "url": "https://claude.com/blog/new-in-claude-managed-agents",
+      "sentAt": "2026-06-09T02:28:19.283Z"
+    },
+    "topic:Claude Blog: New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration": {
+      "type": "topic",
+      "title": "Claude Blog: New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration",
+      "url": "https://claude.com/blog/new-in-claude-managed-agents",
+      "sentAt": "2026-06-09T02:28:19.283Z"
+    },
+    "podcast:95f646e5-46fd-46f7-9272-3f642141d7bd": {
+      "type": "podcast",
+      "title": "The MAD Podcast with Matt Turck: State of Enterprise AI 2026: Aaron Levie on Tokenmaxxing, Rise of Headless, and AI-Proofing Your Job",
+      "url": "https://www.youtube.com/watch?v=Gs2styCcwro",
+      "sentAt": "2026-06-09T02:28:19.283Z"
+    },
+    "topic:The MAD Podcast with Matt Turck: State of Enterprise AI 2026: Aaron Levie on Tokenmaxxing, Rise of Headless, and AI-Proofing Your Job": {
+      "type": "topic",
+      "title": "The MAD Podcast with Matt Turck: State of Enterprise AI 2026: Aaron Levie on Tokenmaxxing, Rise of Headless, and AI-Proofing Your Job",
+      "url": "https://www.youtube.com/watch?v=Gs2styCcwro",
+      "sentAt": "2026-06-09T02:28:19.283Z"
     }
   },
-  "updatedAt": "2026-06-08T02:19:30.413Z"
+  "updatedAt": "2026-06-09T02:28:19.283Z"
 }
