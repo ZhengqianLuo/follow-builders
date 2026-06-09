@@ -5,6 +5,12 @@ on:
     # 23:30 UTC = 07:30 Asia/Shanghai.
     - cron: "30 23 * * *"
   workflow_dispatch:
+    inputs:
+      preview_today_sent:
+        description: "Resend today's already-sent items as a preview without updating sent state"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -17,6 +23,8 @@ jobs:
       FOLLOW_BUILDERS_STATE: config/github-actions-state.json
       POST_FILE: /tmp/follow-builders-digest-post.json
       RECORD_FILE: /tmp/follow-builders-digest-record.json
+      PREVIEW_STATE_FILE: /tmp/follow-builders-preview-state.json
+      PREVIEW_TODAY_SENT: ${{ inputs.preview_today_sent || 'false' }}
 
     steps:
       - name: Check out repository
@@ -36,6 +44,22 @@ jobs:
       - name: Build Feishu post digest
         id: build
         run: |
+          if [ "$PREVIEW_TODAY_SENT" = "true" ]; then
+            node -e '
+              const fs = require("fs");
+              const source = JSON.parse(fs.readFileSync(process.env.FOLLOW_BUILDERS_STATE, "utf8"));
+              const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai" }).format(new Date());
+              const state = { version: 1, sent: {} };
+              for (const [key, value] of Object.entries(source.sent || {})) {
+                const sentDate = value.sentAt
+                  ? new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Shanghai" }).format(new Date(value.sentAt))
+                  : "";
+                if (sentDate !== today) state.sent[key] = value;
+              }
+              fs.writeFileSync(process.env.PREVIEW_STATE_FILE, JSON.stringify(state, null, 2) + "\n");
+            '
+            export FOLLOW_BUILDERS_STATE="$PREVIEW_STATE_FILE"
+          fi
           node scripts/build-digest.js --format post --record-file "$RECORD_FILE" > "$POST_FILE"
           if [ ! -s "$POST_FILE" ]; then
             echo "has_digest=false" >> "$GITHUB_OUTPUT"
@@ -57,11 +81,11 @@ jobs:
           node scripts/deliver.js --post-file "$POST_FILE"
 
       - name: Mark digest items as sent
-        if: steps.build.outputs.has_digest == 'true'
+        if: steps.build.outputs.has_digest == 'true' && env.PREVIEW_TODAY_SENT != 'true'
         run: node scripts/build-digest.js --mark-sent "$RECORD_FILE"
 
       - name: Commit sent-state update
-        if: steps.build.outputs.has_digest == 'true'
+        if: steps.build.outputs.has_digest == 'true' && env.PREVIEW_TODAY_SENT != 'true'
         run: |
           if git diff --quiet -- "$FOLLOW_BUILDERS_STATE"; then
             echo "No sent-state changes to commit."
