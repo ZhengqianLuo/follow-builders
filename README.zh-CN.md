@@ -145,8 +145,9 @@ FEISHU_WEBHOOK_SECRET="可选的签名密钥"
 **GitHub Actions 云端早餐简报**
 
 仓库里已经包含 `.github/workflows/breakfast-digest.yml`。它会每天 UTC 23:30
-运行，也就是北京时间早上 7:30，并通过飞书自定义机器人 webhook 发送富文本
-post 简报。
+运行，也就是北京时间早上 7:30，并通过飞书自定义机器人 webhook 发送简报。
+webhook 路径会把富文本 post 转成飞书消息卡片，保证标题、加粗、链接和分隔线
+在群聊里稳定渲染。
 
 使用步骤：
 

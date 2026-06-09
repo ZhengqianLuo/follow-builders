@@ -154,8 +154,9 @@ Otherwise it falls back to `lark-cli`.
 **GitHub Actions cloud breakfast digest**
 
 This repo includes `.github/workflows/breakfast-digest.yml`, which runs once a day
-at 23:30 UTC / 07:30 Asia/Shanghai and sends the rich-text Feishu post through a
-custom bot webhook.
+at 23:30 UTC / 07:30 Asia/Shanghai and sends the digest through a custom bot
+webhook. The webhook path converts the rich-text post into a Feishu message card
+so headings, bold text, links, and dividers render cleanly in group chats.
 
 To use it:
 

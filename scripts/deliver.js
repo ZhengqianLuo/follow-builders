@@ -185,13 +185,10 @@ async function sendFeishuWebhook(message, webhookUrl, webhookSecret) {
   const chunks = message.type === 'post' ? [message.content] : chunkText(message.content);
 
   for (const chunk of chunks) {
-    const post = message.type === 'post' ? normalizePostForWebhook(JSON.parse(chunk)) : null;
     const body = message.type === 'post'
       ? {
-          msg_type: 'post',
-          content: {
-            post
-          }
+          msg_type: 'interactive',
+          card: postToInteractiveCard(JSON.parse(chunk))
         }
       : {
           msg_type: 'text',
@@ -228,34 +225,62 @@ async function sendFeishuWebhook(message, webhookUrl, webhookSecret) {
   }
 }
 
-function normalizePostForWebhook(post) {
-  const normalized = {};
+function postToInteractiveCard(post) {
+  const locale = post.zh_cn || post.en_us || Object.values(post)[0] || {};
+  const elements = [];
 
-  for (const [locale, value] of Object.entries(post)) {
-    normalized[locale] = {
-      title: value.title || '',
-      content: (value.content || []).map(line =>
-        line
-          .map(node => {
-            if (node.tag === 'a') {
-              return {
-                tag: 'a',
-                text: node.text || '',
-                href: node.href || ''
-              };
-            }
+  for (const line of locale.content || []) {
+    const markdown = lineToMarkdown(line);
+    if (!markdown.trim()) continue;
 
-            return {
-              tag: 'text',
-              text: node.text || ''
-            };
-          })
-          .filter(node => node.text || node.href)
-      )
-    };
+    if (/^━+$/.test(markdown.trim())) {
+      elements.push({ tag: 'hr' });
+      continue;
+    }
+
+    elements.push({
+      tag: 'div',
+      text: {
+        tag: 'lark_md',
+        content: markdown
+      }
+    });
   }
 
-  return normalized;
+  return {
+    config: {
+      wide_screen_mode: true
+    },
+    header: {
+      template: 'blue',
+      title: {
+        tag: 'plain_text',
+        content: locale.title || 'AI Builders 早餐速读'
+      }
+    },
+    elements
+  };
+}
+
+function lineToMarkdown(line) {
+  return (line || []).map(nodeToMarkdown).join('').trim();
+}
+
+function nodeToMarkdown(node) {
+  if (node.tag === 'a') {
+    return `[${escapeMarkdown(node.text || node.href || '链接')}](${node.href})`;
+  }
+
+  const text = escapeMarkdown(node.text || '');
+  if (Array.isArray(node.style) && node.style.includes('bold')) {
+    return `**${text}**`;
+  }
+
+  return text;
+}
+
+function escapeMarkdown(text) {
+  return String(text).replace(/([\\`*_{}[\]()#+\-.!|])/g, '\\$1');
 }
 
 function runLarkCli(args) {

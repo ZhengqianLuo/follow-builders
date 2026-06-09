@@ -385,7 +385,7 @@ function buildDigestData({ config, feedX, feedPodcasts, feedBlogs, state }) {
 
   return {
     title: `AI Builders 早餐速读 | ${formatDate(config)}`,
-    theme: 'agent 正在从 demo 走向生产，竞争焦点从“模型能力”转向安全边界、企业上下文、产品体验和真实商业价值。',
+    theme: 'AI agent 正在从 demo 走向生产，竞争焦点从“模型能力”转向安全边界、enterprise context、product experience 和真实商业价值。',
     highlights,
     tweetItems,
     blogItems,
@@ -423,7 +423,7 @@ function formatDigestData(data) {
 
   if (data.highlights.length) {
     lines.push('【今日最值得看】');
-    lines.push('本区要点：先看三条主线，分别对应 agent 安全、企业私有智能、个人信息流产品化。');
+    lines.push('本区要点：先看三条主线，分别对应 AI agent 安全、private intelligence、个人信息流产品化。');
     data.highlights.forEach((item, index) => {
       lines.push(`${index + 1}. ${item.title}`);
       lines.push(`   重点：${item.why}`);
@@ -437,7 +437,7 @@ function formatDigestData(data) {
     for (const { tweet, summary: item } of data.tweetItems) {
       lines.push(`- ${item.title}`);
       lines.push(`  重点：${item.why}`);
-      lines.push(`  原文：${tweet.url}`);
+      lines.push(`  ${tweet.url}`);
     }
     lines.push('');
   }
@@ -449,7 +449,7 @@ function formatDigestData(data) {
       lines.push(`- ${item.title}`);
       lines.push(`  重点：${item.why}`);
       if (item.detail) lines.push(`  细节：${item.detail}`);
-      lines.push(`  原文：${blog.url}`);
+      lines.push(`  ${blog.url}`);
     }
     lines.push('');
   }
@@ -461,7 +461,7 @@ function formatDigestData(data) {
       lines.push(`- ${item.title}`);
       lines.push(`  重点：${item.why}`);
       if (item.detail) lines.push(`  细节：${item.detail}`);
-      lines.push(`  原文：${podcast.url}`);
+      lines.push(`  ${podcast.url}`);
     }
     lines.push('');
   }
@@ -504,10 +504,6 @@ function sectionHeading(title, takeaway) {
   ];
 }
 
-function sourceLine(url) {
-  return paragraph(textNode('原文：', ['bold']), linkNode('阅读原文', url));
-}
-
 function formatPostDigestData(data) {
   if (!hasDigestContent(data)) return '';
 
@@ -519,7 +515,7 @@ function formatPostDigestData(data) {
 
   if (data.highlights.length) {
     content.push(
-      ...sectionHeading('今日最值得看', '三条主线：agent 安全、企业私有智能、个人信息流产品化。')
+      ...sectionHeading('今日最值得看', '三条主线：AI agent 安全、private intelligence、个人信息流产品化。')
     );
     data.highlights.forEach((item, index) => {
       content.push(
@@ -536,9 +532,8 @@ function formatPostDigestData(data) {
     );
     for (const { tweet, summary } of data.tweetItems) {
       content.push(
-        paragraph(textNode('• ', ['bold']), textNode(summary.title, ['bold'])),
+        paragraph(textNode('• ', ['bold']), linkNode(summary.title, tweet.url)),
         paragraph(textNode('重点：', ['bold']), textNode(summary.why)),
-        sourceLine(tweet.url),
         blankLine()
       );
     }
@@ -550,10 +545,9 @@ function formatPostDigestData(data) {
     );
     for (const { summary, source } of data.blogItems) {
       content.push(
-        paragraph(textNode('• ', ['bold']), textNode(summary.title, ['bold'])),
+        paragraph(textNode('• ', ['bold']), linkNode(summary.title, source.url)),
         paragraph(textNode('重点：', ['bold']), textNode(summary.why)),
         summary.detail ? paragraph(textNode('细节：', ['bold']), textNode(summary.detail)) : null,
-        sourceLine(source.url),
         blankLine()
       );
     }
@@ -565,10 +559,9 @@ function formatPostDigestData(data) {
     );
     for (const { summary, source } of data.podcastItems) {
       content.push(
-        paragraph(textNode('• ', ['bold']), textNode(summary.title, ['bold'])),
+        paragraph(textNode('• ', ['bold']), linkNode(summary.title, source.url)),
         paragraph(textNode('重点：', ['bold']), textNode(summary.why)),
         summary.detail ? paragraph(textNode('细节：', ['bold']), textNode(summary.detail)) : null,
-        sourceLine(source.url),
         blankLine()
       );
     }
