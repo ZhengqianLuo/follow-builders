@@ -132,7 +132,31 @@
       "title": "The MAD Podcast with Matt Turck: State of Enterprise AI 2026: Aaron Levie on Tokenmaxxing, Rise of Headless, and AI-Proofing Your Job",
       "url": "https://www.youtube.com/watch?v=Gs2styCcwro",
       "sentAt": "2026-06-09T02:28:19.283Z"
+    },
+    "blog:https://claude.com/blog/claude-for-foundation-models": {
+      "type": "blog",
+      "title": "Claude Blog: Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+      "url": "https://claude.com/blog/claude-for-foundation-models",
+      "sentAt": "2026-06-10T01:35:58.769Z"
+    },
+    "topic:Claude Blog: Building intelligent apps for Apple platforms with Claude in the Foundation Models framework": {
+      "type": "topic",
+      "title": "Claude Blog: Building intelligent apps for Apple platforms with Claude in the Foundation Models framework",
+      "url": "https://claude.com/blog/claude-for-foundation-models",
+      "sentAt": "2026-06-10T01:35:58.769Z"
+    },
+    "podcast:35b51032-5a1c-11f1-b0f1-075a554a4d6f": {
+      "type": "podcast",
+      "title": "No Priors: Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan",
+      "url": "https://www.youtube.com/watch?v=QDsbFLEt9ro",
+      "sentAt": "2026-06-10T01:35:58.769Z"
+    },
+    "topic:No Priors: Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan": {
+      "type": "topic",
+      "title": "No Priors: Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan",
+      "url": "https://www.youtube.com/watch?v=QDsbFLEt9ro",
+      "sentAt": "2026-06-10T01:35:58.769Z"
     }
   },
-  "updatedAt": "2026-06-09T02:28:19.283Z"
+  "updatedAt": "2026-06-10T01:35:58.769Z"
 }
