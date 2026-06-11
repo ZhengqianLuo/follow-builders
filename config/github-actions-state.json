@@ -156,7 +156,19 @@
       "title": "No Priors: Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan",
       "url": "https://www.youtube.com/watch?v=QDsbFLEt9ro",
       "sentAt": "2026-06-10T01:35:58.769Z"
+    },
+    "podcast:04fabe7b-e886-49d4-a663-879cef0a049a": {
+      "type": "podcast",
+      "title": "AI & I by Every: We Automated Everything With AI and Tripled Our Headcount",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "sentAt": "2026-06-11T01:59:44.195Z"
+    },
+    "topic:AI & I by Every: We Automated Everything With AI and Tripled Our Headcount": {
+      "type": "topic",
+      "title": "AI & I by Every: We Automated Everything With AI and Tripled Our Headcount",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "sentAt": "2026-06-11T01:59:44.195Z"
     }
   },
-  "updatedAt": "2026-06-10T01:35:58.769Z"
+  "updatedAt": "2026-06-11T01:59:44.195Z"
 }
