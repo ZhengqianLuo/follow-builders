@@ -168,7 +168,19 @@
       "title": "AI & I by Every: We Automated Everything With AI and Tripled Our Headcount",
       "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
       "sentAt": "2026-06-11T01:59:44.195Z"
+    },
+    "podcast:bb5cd6c0-a739-49e2-96eb-f03d5c26db38": {
+      "type": "podcast",
+      "title": "AI & I by Every: How Anthropic Uses Claude Fable 5 With Mike Krieger",
+      "url": "https://www.youtube.com/watch?v=XWpTgCvgYaE",
+      "sentAt": "2026-06-12T01:44:35.301Z"
+    },
+    "topic:AI & I by Every: How Anthropic Uses Claude Fable 5 With Mike Krieger": {
+      "type": "topic",
+      "title": "AI & I by Every: How Anthropic Uses Claude Fable 5 With Mike Krieger",
+      "url": "https://www.youtube.com/watch?v=XWpTgCvgYaE",
+      "sentAt": "2026-06-12T01:44:35.301Z"
     }
   },
-  "updatedAt": "2026-06-11T01:59:44.195Z"
+  "updatedAt": "2026-06-12T01:44:35.301Z"
 }
