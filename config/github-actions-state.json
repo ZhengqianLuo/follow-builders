@@ -180,7 +180,19 @@
       "title": "AI & I by Every: How Anthropic Uses Claude Fable 5 With Mike Krieger",
       "url": "https://www.youtube.com/watch?v=XWpTgCvgYaE",
       "sentAt": "2026-06-12T01:44:35.301Z"
+    },
+    "podcast:c8ac5d90-6517-11f1-83d7-d3b49f07aa8f": {
+      "type": "podcast",
+      "title": "Training Data: Google DeepMind's Logan Kilpatrick: Why the Model Eats the Harness",
+      "url": "https://www.youtube.com/watch?v=cMAs8z2dehs",
+      "sentAt": "2026-06-13T01:37:31.122Z"
+    },
+    "topic:Training Data: Google DeepMind's Logan Kilpatrick: Why the Model Eats the Harness": {
+      "type": "topic",
+      "title": "Training Data: Google DeepMind's Logan Kilpatrick: Why the Model Eats the Harness",
+      "url": "https://www.youtube.com/watch?v=cMAs8z2dehs",
+      "sentAt": "2026-06-13T01:37:31.122Z"
     }
   },
-  "updatedAt": "2026-06-12T01:44:35.301Z"
+  "updatedAt": "2026-06-13T01:37:31.122Z"
 }
