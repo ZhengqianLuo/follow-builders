@@ -192,7 +192,31 @@
       "title": "Training Data: Google DeepMind's Logan Kilpatrick: Why the Model Eats the Harness",
       "url": "https://www.youtube.com/watch?v=cMAs8z2dehs",
       "sentAt": "2026-06-13T01:37:31.122Z"
+    },
+    "blog:https://claude.com/blog/claude-managed-agents-updates": {
+      "type": "blog",
+      "title": "Claude Managed Agents 新增 dreaming、outcomes 和 multiagent orchestration，目标是让 agent 自我改进、能验收结果、能并行拆任务",
+      "url": "https://claude.com/blog/claude-managed-agents-updates",
+      "sentAt": "2026-06-14T01:42:29.051Z"
+    },
+    "topic:Claude Managed Agents 新增 dreaming、outcomes 和 multiagent orchestration，目标是让 agent 自我改进、能验收结果、能并行拆任务": {
+      "type": "topic",
+      "title": "Claude Managed Agents 新增 dreaming、outcomes 和 multiagent orchestration，目标是让 agent 自我改进、能验收结果、能并行拆任务",
+      "url": "https://claude.com/blog/claude-managed-agents-updates",
+      "sentAt": "2026-06-14T01:42:29.051Z"
+    },
+    "podcast:dbb5e4ba-4a75-4107-b2e2-3d2b7c90dd36": {
+      "type": "podcast",
+      "title": "Unsupervised Learning: AI Vibe Check: Lab Wars, Why APIs Might Vanish &amp; Future Predictions",
+      "url": "https://www.youtube.com/watch?v=W_iO8XxgD_I",
+      "sentAt": "2026-06-14T01:42:29.051Z"
+    },
+    "topic:Unsupervised Learning: AI Vibe Check: Lab Wars, Why APIs Might Vanish &amp; Future Predictions": {
+      "type": "topic",
+      "title": "Unsupervised Learning: AI Vibe Check: Lab Wars, Why APIs Might Vanish &amp; Future Predictions",
+      "url": "https://www.youtube.com/watch?v=W_iO8XxgD_I",
+      "sentAt": "2026-06-14T01:42:29.051Z"
     }
   },
-  "updatedAt": "2026-06-13T01:37:31.122Z"
+  "updatedAt": "2026-06-14T01:42:29.051Z"
 }
