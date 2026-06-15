@@ -174,6 +174,75 @@ function hasAny(text = '', keywords = []) {
   return keywords.some(keyword => haystack.includes(keyword.toLowerCase()));
 }
 
+function summaryText(summary = {}) {
+  return [summary.title, summary.why, summary.detail].filter(Boolean).join(' ');
+}
+
+const THEME_RULES = [
+  {
+    label: 'agent 基础设施',
+    keywords: ['agent', 'agents', 'agentic', 'codex', 'claude code', 'managed agents', 'orchestration', 'sandbox', 'containment', 'outcomes', 'dreaming'],
+    line: 'agent 正在从一次性执行器，走向有权限边界、质量验收和长期记忆的工作系统'
+  },
+  {
+    label: '企业 AI 落地',
+    keywords: ['enterprise', '企业', 'rollout', 'change management', 'security', 'token', 'headless', 'saas', 'workflow', 'private eval'],
+    line: '企业侧的关键矛盾仍然是能力进步很快，但权限、流程、成本和组织改造都需要时间'
+  },
+  {
+    label: '开发者工具链',
+    keywords: ['coding', '代码', 'developer', 'engineer', 'cursor', 'openclaw', 'npm', 'github', 'docker', 'ide'],
+    line: '开发者工具正在围绕人和 agent 的协作方式重新分工，可靠性、分发和体验都变成竞争点'
+  },
+  {
+    label: '个人智能产品',
+    keywords: ['personal', 'private intelligence', 'dreambeans', 'gmail', 'calendar', '故事流', '信息流', 'consumer'],
+    line: '个人数据正在被包装成更主动的消费体验，AI 信息流的形态还在实验期'
+  },
+  {
+    label: '模型与泛化',
+    keywords: ['model', 'reasoning', 'generalization', 'post-transformer', 'open source', 'closed source', 'eval'],
+    line: '模型能力的讨论从单次 benchmark 转向 reasoning、泛化和真实任务评估'
+  }
+];
+
+function rankThemes(summaries) {
+  return THEME_RULES.map(theme => {
+    const score = summaries.reduce((total, summary) => {
+      const text = summaryText(summary).toLowerCase();
+      return total + theme.keywords.reduce(
+        (hits, keyword) => hits + (text.includes(keyword.toLowerCase()) ? 1 : 0),
+        0
+      );
+    }, 0);
+    return { ...theme, score };
+  })
+    .filter(theme => theme.score > 0)
+    .sort((a, b) => b.score - a.score);
+}
+
+function buildTheme(summaries) {
+  if (!summaries.length) return '';
+  const themes = rankThemes(summaries).slice(0, 2);
+
+  if (themes.length >= 2) {
+    return `${themes[0].label}和${themes[1].label}交织在一起：${themes[0].line}；同时，${themes[1].line}。`;
+  }
+
+  if (themes.length === 1) {
+    return `${themes[0].label}是今天重点：${themes[0].line}。`;
+  }
+
+  return `今天最值得看的是：${summaries[0].title}`;
+}
+
+function highlightsTakeaway(highlights) {
+  if (!highlights.length) return '';
+  const themes = rankThemes(highlights).slice(0, 3).map(theme => theme.label);
+  if (themes.length) return `先看 ${highlights.length} 条主线，集中在 ${themes.join('、')}。`;
+  return `先看 ${highlights.length} 条当天最有信息量的新内容。`;
+}
+
 function scoreTweet(tweet) {
   const text = tweet.text || '';
   const created = Date.parse(tweet.createdAt || '') || 0;
@@ -357,10 +426,29 @@ function summarizePodcast(podcast) {
 
   return {
     title: `${podcast.name}: ${podcast.title}`,
-    why: compact(podcast.transcript, 260),
-    detail: '',
+    why: `这期播客的主题是「${podcast.title}」。从逐字稿看，内容围绕嘉宾对 AI 技术、产品落地和行业变化的判断展开，适合先抓观点框架，再回看原视频里的完整论证。`,
+    detail: buildPodcastFallbackDetail(podcast),
     ask: '可以追问：这期播客讲了什么？'
   };
+}
+
+function buildPodcastFallbackDetail(podcast) {
+  const transcript = podcast.transcript || '';
+  const signals = [
+    ['agent', '重点关注 agent 如何从演示走向实际工作流，以及它对组织分工的影响'],
+    ['enterprise', '企业落地部分值得看：真正难点通常不只在模型，而在权限、数据、流程和变更管理'],
+    ['token', '成本部分值得留意：token 消耗正在变成 AI 产品设计和企业采购里的现实约束'],
+    ['coding', '开发者工具部分值得留意：coding agent 已经开始改变软件项目的推进方式'],
+    ['model', '模型能力部分值得留意：嘉宾在讨论能力边界、评估方式和应用层机会'],
+    ['startup', '创业机会部分值得留意：应用层仍可能围绕具体场景、数据和工作流形成价值']
+  ];
+  const picked = signals
+    .filter(([keyword]) => hasAny(transcript, [keyword]))
+    .slice(0, 3)
+    .map(([, line], index) => `${index + 1}. ${line}`);
+
+  if (picked.length) return picked.join('；');
+  return '这期没有命中已知专题规则，先给出中文速读：重点看嘉宾如何定义问题、哪些场景已经接近可用、以及哪些限制还会影响真实采用。';
 }
 
 function buildDigestData({ config, feedX, feedPodcasts, feedBlogs, state }) {
@@ -403,8 +491,13 @@ function buildDigestData({ config, feedX, feedPodcasts, feedBlogs, state }) {
 
   return {
     title: `AI Builders 早餐速读 | ${formatDate(config)}`,
-    theme: 'AI agent 正在从 demo 走向生产，竞争焦点从“模型能力”转向安全边界、enterprise context、product experience 和真实商业价值。',
+    theme: buildTheme([
+      ...blogItems.map(item => item.summary),
+      ...podcastItems.map(item => item.summary),
+      ...tweetSummaries
+    ]),
     highlights,
+    highlightsTakeaway: highlightsTakeaway(highlights),
     tweetItems,
     blogItems,
     podcastItems
@@ -448,7 +541,7 @@ function formatDigestData(data) {
 
   if (data.highlights.length) {
     lines.push('【今日最值得看】');
-    lines.push('本区要点：先看三条主线，分别对应 AI agent 安全、private intelligence、个人信息流产品化。');
+    lines.push(`本区要点：${data.highlightsTakeaway}`);
     data.highlights.forEach((item, index) => {
       lines.push(`${index + 1}. ${item.title}`);
       lines.push(`   重点：${item.why}`);
@@ -540,7 +633,7 @@ function formatPostDigestData(data) {
 
   if (data.highlights.length) {
     content.push(
-      ...sectionHeading('今日最值得看', '三条主线：AI agent 安全、private intelligence、个人信息流产品化。')
+      ...sectionHeading('今日最值得看', data.highlightsTakeaway)
     );
     data.highlights.forEach((item, index) => {
       content.push(
