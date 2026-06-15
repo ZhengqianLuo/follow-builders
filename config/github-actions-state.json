@@ -216,7 +216,19 @@
       "title": "Unsupervised Learning: AI Vibe Check: Lab Wars, Why APIs Might Vanish &amp; Future Predictions",
       "url": "https://www.youtube.com/watch?v=W_iO8XxgD_I",
       "sentAt": "2026-06-14T01:42:29.051Z"
+    },
+    "podcast:cfdceef6-642a-11f1-9b24-634dad16ced0": {
+      "type": "podcast",
+      "title": "No Priors: Biohub: The Future of Biology is Open-Source with Co-Founders Mark Zuckerberg, Priscilla Chan, and Head of Science Alex Rives",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "sentAt": "2026-06-15T01:59:28.031Z"
+    },
+    "topic:No Priors: Biohub: The Future of Biology is Open-Source with Co-Founders Mark Zuckerberg, Priscilla Chan, and Head of Science Alex Rives": {
+      "type": "topic",
+      "title": "No Priors: Biohub: The Future of Biology is Open-Source with Co-Founders Mark Zuckerberg, Priscilla Chan, and Head of Science Alex Rives",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "sentAt": "2026-06-15T01:59:28.031Z"
     }
   },
-  "updatedAt": "2026-06-14T01:42:29.051Z"
+  "updatedAt": "2026-06-15T01:59:28.031Z"
 }
