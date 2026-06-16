@@ -228,7 +228,19 @@
       "title": "No Priors: Biohub: The Future of Biology is Open-Source with Co-Founders Mark Zuckerberg, Priscilla Chan, and Head of Science Alex Rives",
       "url": "https://www.youtube.com/@NoPriorsPodcast",
       "sentAt": "2026-06-15T01:59:28.031Z"
+    },
+    "podcast:0fae4dc4-6456-11f1-9180-3f07b7c1bee8": {
+      "type": "podcast",
+      "title": "Training Data: LIVE: Jensen Huang on Building the Dynamo of the Intelligence Age",
+      "url": "https://www.youtube.com/watch?v=2UpQbeAZuqA",
+      "sentAt": "2026-06-16T02:06:54.849Z"
+    },
+    "topic:Training Data: LIVE: Jensen Huang on Building the Dynamo of the Intelligence Age": {
+      "type": "topic",
+      "title": "Training Data: LIVE: Jensen Huang on Building the Dynamo of the Intelligence Age",
+      "url": "https://www.youtube.com/watch?v=2UpQbeAZuqA",
+      "sentAt": "2026-06-16T02:06:54.849Z"
     }
   },
-  "updatedAt": "2026-06-15T01:59:28.031Z"
+  "updatedAt": "2026-06-16T02:06:54.849Z"
 }
