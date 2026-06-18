@@ -252,7 +252,19 @@
       "title": "The MAD Podcast with Matt Turck: OpenAI's Dan Roberts: Why AI Can Now Make Discoveries",
       "url": "https://www.youtube.com/watch?v=oWOz2htozfI",
       "sentAt": "2026-06-17T02:00:43.223Z"
+    },
+    "podcast:e2c76d2e-68ea-11f1-b835-0fa4c8d306ac": {
+      "type": "podcast",
+      "title": "Training Data: Simulating Humans at Scale: Simile's Joon Sung Park",
+      "url": "https://www.youtube.com/watch?v=lfhFmwcESRw",
+      "sentAt": "2026-06-18T02:00:50.123Z"
+    },
+    "topic:Training Data: Simulating Humans at Scale: Simile's Joon Sung Park": {
+      "type": "topic",
+      "title": "Training Data: Simulating Humans at Scale: Simile's Joon Sung Park",
+      "url": "https://www.youtube.com/watch?v=lfhFmwcESRw",
+      "sentAt": "2026-06-18T02:00:50.123Z"
     }
   },
-  "updatedAt": "2026-06-17T02:00:43.223Z"
+  "updatedAt": "2026-06-18T02:00:50.123Z"
 }
