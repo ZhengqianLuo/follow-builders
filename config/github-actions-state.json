@@ -264,7 +264,19 @@
       "title": "Training Data: Simulating Humans at Scale: Simile's Joon Sung Park",
       "url": "https://www.youtube.com/watch?v=lfhFmwcESRw",
       "sentAt": "2026-06-18T02:00:50.123Z"
+    },
+    "podcast:a7d1fb70-81db-44be-92b8-e46db37a1532": {
+      "type": "podcast",
+      "title": "AI & I by Every: GitHub’s COO Explains Why AI Hasn’t Replaced Developers",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "sentAt": "2026-06-19T02:16:06.363Z"
+    },
+    "topic:AI & I by Every: GitHub’s COO Explains Why AI Hasn’t Replaced Developers": {
+      "type": "topic",
+      "title": "AI & I by Every: GitHub’s COO Explains Why AI Hasn’t Replaced Developers",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "sentAt": "2026-06-19T02:16:06.363Z"
     }
   },
-  "updatedAt": "2026-06-18T02:00:50.123Z"
+  "updatedAt": "2026-06-19T02:16:06.363Z"
 }
