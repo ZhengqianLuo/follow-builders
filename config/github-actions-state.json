@@ -276,7 +276,31 @@
       "title": "AI & I by Every: GitHub’s COO Explains Why AI Hasn’t Replaced Developers",
       "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
       "sentAt": "2026-06-19T02:16:06.363Z"
+    },
+    "blog:https://claude.com/blog/artifacts-in-claude-code": {
+      "type": "blog",
+      "title": "Claude Blog: Claude Code now supports artifacts",
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "sentAt": "2026-06-20T01:35:16.156Z"
+    },
+    "topic:Claude Blog: Claude Code now supports artifacts": {
+      "type": "topic",
+      "title": "Claude Blog: Claude Code now supports artifacts",
+      "url": "https://claude.com/blog/artifacts-in-claude-code",
+      "sentAt": "2026-06-20T01:35:16.156Z"
+    },
+    "podcast:dcd52486-f53c-4374-9265-02f38a80f5f7": {
+      "type": "podcast",
+      "title": "The MAD Podcast with Matt Turck: The Neocloud Boom: State of AI Compute 2026 | Stephen Balaban",
+      "url": "https://www.youtube.com/watch?v=0NttU4CbyVs",
+      "sentAt": "2026-06-20T01:35:16.156Z"
+    },
+    "topic:The MAD Podcast with Matt Turck: The Neocloud Boom: State of AI Compute 2026 | Stephen Balaban": {
+      "type": "topic",
+      "title": "The MAD Podcast with Matt Turck: The Neocloud Boom: State of AI Compute 2026 | Stephen Balaban",
+      "url": "https://www.youtube.com/watch?v=0NttU4CbyVs",
+      "sentAt": "2026-06-20T01:35:16.156Z"
     }
   },
-  "updatedAt": "2026-06-19T02:16:06.363Z"
+  "updatedAt": "2026-06-20T01:35:16.156Z"
 }
