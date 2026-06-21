@@ -300,7 +300,19 @@
       "title": "The MAD Podcast with Matt Turck: The Neocloud Boom: State of AI Compute 2026 | Stephen Balaban",
       "url": "https://www.youtube.com/watch?v=0NttU4CbyVs",
       "sentAt": "2026-06-20T01:35:16.156Z"
+    },
+    "podcast:a66948ce-6ab7-11f1-8901-5f20f0cddb6d": {
+      "type": "podcast",
+      "title": "No Priors: Re-engineering the Semiconductor Supply Chain with Intel CEO Lip Bu Tan",
+      "url": "https://www.youtube.com/watch?v=asCgCv2XB4s",
+      "sentAt": "2026-06-21T01:57:59.106Z"
+    },
+    "topic:No Priors: Re-engineering the Semiconductor Supply Chain with Intel CEO Lip Bu Tan": {
+      "type": "topic",
+      "title": "No Priors: Re-engineering the Semiconductor Supply Chain with Intel CEO Lip Bu Tan",
+      "url": "https://www.youtube.com/watch?v=asCgCv2XB4s",
+      "sentAt": "2026-06-21T01:57:59.106Z"
     }
   },
-  "updatedAt": "2026-06-20T01:35:16.156Z"
+  "updatedAt": "2026-06-21T01:57:59.106Z"
 }
