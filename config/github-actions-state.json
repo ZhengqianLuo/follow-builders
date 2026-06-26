@@ -324,7 +324,19 @@
       "title": "Anthropic Engineering: An update on recent Claude Code quality reports",
       "url": "https://www.anthropic.com/engineering/april-23-postmortem",
       "sentAt": "2026-06-22T02:01:43.277Z"
+    },
+    "podcast:6ae01ce4-60f3-48ba-9f63-c352a10dc8d2": {
+      "type": "podcast",
+      "title": "AI & I by Every: Building a School Where AI Models Learn About Humanity",
+      "url": "https://www.youtube.com/watch?v=omX6wrLuX08",
+      "sentAt": "2026-06-26T01:36:25.309Z"
+    },
+    "topic:AI & I by Every: Building a School Where AI Models Learn About Humanity": {
+      "type": "topic",
+      "title": "AI & I by Every: Building a School Where AI Models Learn About Humanity",
+      "url": "https://www.youtube.com/watch?v=omX6wrLuX08",
+      "sentAt": "2026-06-26T01:36:25.309Z"
     }
   },
-  "updatedAt": "2026-06-22T02:01:43.277Z"
+  "updatedAt": "2026-06-26T01:36:25.309Z"
 }
