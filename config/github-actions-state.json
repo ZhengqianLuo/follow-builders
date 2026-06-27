@@ -336,7 +336,19 @@
       "title": "AI & I by Every: Building a School Where AI Models Learn About Humanity",
       "url": "https://www.youtube.com/watch?v=omX6wrLuX08",
       "sentAt": "2026-06-26T01:36:25.309Z"
+    },
+    "podcast:5ae96ad9-5cee-4cda-ad01-8edea9dfbc0a": {
+      "type": "podcast",
+      "title": "The MAD Podcast with Matt Turck: Cloudflare CEO: Bot Takeover, Edge AI & The Hard Decision Every CEO Will Face",
+      "url": "https://www.youtube.com/watch?v=UN47z_opfmo",
+      "sentAt": "2026-06-27T01:28:24.157Z"
+    },
+    "topic:The MAD Podcast with Matt Turck: Cloudflare CEO: Bot Takeover, Edge AI & The Hard Decision Every CEO Will Face": {
+      "type": "topic",
+      "title": "The MAD Podcast with Matt Turck: Cloudflare CEO: Bot Takeover, Edge AI & The Hard Decision Every CEO Will Face",
+      "url": "https://www.youtube.com/watch?v=UN47z_opfmo",
+      "sentAt": "2026-06-27T01:28:24.157Z"
     }
   },
-  "updatedAt": "2026-06-26T01:36:25.309Z"
+  "updatedAt": "2026-06-27T01:28:24.157Z"
 }
