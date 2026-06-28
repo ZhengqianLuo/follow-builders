@@ -348,7 +348,19 @@
       "title": "The MAD Podcast with Matt Turck: Cloudflare CEO: Bot Takeover, Edge AI & The Hard Decision Every CEO Will Face",
       "url": "https://www.youtube.com/watch?v=UN47z_opfmo",
       "sentAt": "2026-06-27T01:28:24.157Z"
+    },
+    "podcast:32e4b7a0-7118-11f1-a100-bf8895cb33ba": {
+      "type": "podcast",
+      "title": "No Priors: Why Traditional Benchmarks Fail Modern AI Models with OpenAI Research Scientist Noam Brown",
+      "url": "https://www.youtube.com/watch?v=AZrU6y3pUcU",
+      "sentAt": "2026-06-28T01:33:24.824Z"
+    },
+    "topic:No Priors: Why Traditional Benchmarks Fail Modern AI Models with OpenAI Research Scientist Noam Brown": {
+      "type": "topic",
+      "title": "No Priors: Why Traditional Benchmarks Fail Modern AI Models with OpenAI Research Scientist Noam Brown",
+      "url": "https://www.youtube.com/watch?v=AZrU6y3pUcU",
+      "sentAt": "2026-06-28T01:33:24.824Z"
     }
   },
-  "updatedAt": "2026-06-27T01:28:24.157Z"
+  "updatedAt": "2026-06-28T01:33:24.824Z"
 }
