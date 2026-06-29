@@ -396,59 +396,189 @@ function summarizeBlog(blog) {
   };
 }
 
+const PODCAST_TOPIC_RULES = [
+  {
+    label: '记忆与持续学习',
+    keywords: ['memory', 'memories', 'continual learning', 'engram', 'forgetting', 'remember', 'long-term'],
+    point: '模型或 agent 怎么把新经验沉淀成长期能力，而不是每次任务都从零开始'
+  },
+  {
+    label: '评测与基准',
+    keywords: ['benchmark', 'benchmarks', 'eval', 'evals', 'evaluation', 'harness', 'grader', 'test set'],
+    point: '旧 benchmark 是否还能衡量现代模型，以及真实任务评估应该怎样设计'
+  },
+  {
+    label: '企业落地与治理',
+    keywords: ['enterprise', 'security', 'governance', 'deployment', 'rollout', 'compliance', 'permission', 'audit'],
+    point: 'AI 真进组织以后，难点会转向权限、审计、流程和变更管理'
+  },
+  {
+    label: '开发者与 agent 工作流',
+    keywords: ['developer', 'developers', 'coding', 'code', 'github', 'cursor', 'agent', 'agents', 'workflow', 'ide'],
+    point: '开发工作正在从人手写代码，变成把任务拆给 agent、再验收和集成结果'
+  },
+  {
+    label: '模型能力边界',
+    keywords: ['reasoning', 'model', 'models', 'frontier', 'capability', 'generalization', 'inference', 'scaling'],
+    point: '讨论焦点从“模型更强了”转向强在哪、弱在哪、怎么证明它真的会做事'
+  },
+  {
+    label: 'AI 基础设施与算力',
+    keywords: ['compute', 'gpu', 'cloud', 'neocloud', 'infrastructure', 'data center', 'chip', 'semiconductor'],
+    point: '算力、芯片、云和边缘基础设施会继续决定 AI 产品的成本结构和交付速度'
+  },
+  {
+    label: '产品分发与商业模式',
+    keywords: ['startup', 'startups', 'business model', 'distribution', 'customer', 'customers', 'pricing', 'market'],
+    point: '应用层机会不只取决于模型能力，还取决于分发、定价和具体工作流嵌入'
+  },
+  {
+    label: '科学与生物 AI',
+    keywords: ['biology', 'bio', 'science', 'protein', 'cell', 'drug', 'research', 'lab', 'experiment'],
+    point: 'AI 正在进入科学发现链路，价值来自模型、数据、实验平台之间的闭环'
+  },
+  {
+    label: '教育与人类学习',
+    keywords: ['school', 'student', 'students', 'teacher', 'education', 'classroom', 'humanity'],
+    point: 'AI 教育产品的核心不是替代老师，而是重新设计反馈、练习和个性化学习'
+  },
+  {
+    label: '网络生态与机器人流量',
+    keywords: ['bot', 'bots', 'cloudflare', 'edge', 'web', 'traffic', 'crawler', 'internet', 'content'],
+    point: 'AI crawler 和 bot traffic 正在改变网站、内容平台和边缘网络的博弈方式'
+  }
+];
+
+function parseTranscriptSegments(transcript = '') {
+  return transcript
+    .split(/\n\s*\n/g)
+    .map((chunk, index) => {
+      const clean = chunk.replace(/\s+/g, ' ').trim();
+      if (!clean) return null;
+      const match = clean.match(/^(.+?)\s+\|\s+([\d:]+)\s+-\s+([\d:]+)\s+(.*)$/);
+      if (match) {
+        return {
+          index,
+          speaker: match[1].trim(),
+          start: match[2],
+          end: match[3],
+          text: match[4].trim()
+        };
+      }
+      return { index, speaker: '', start: '', end: '', text: clean };
+    })
+    .filter(segment => segment && segment.text.length > 40);
+}
+
+function titleTerms(title = '') {
+  return title
+    .replace(/[^\p{L}\p{N}\s-]/gu, ' ')
+    .split(/\s+/)
+    .map(term => term.trim().toLowerCase())
+    .filter(term => term.length >= 5)
+    .filter(term => !['with', 'from', 'about', 'their', 'there', 'every', 'future', 'episode'].includes(term))
+    .slice(0, 12);
+}
+
+function matchedTopics(text = '') {
+  return PODCAST_TOPIC_RULES.map(rule => {
+    const hits = rule.keywords.filter(keyword => text.toLowerCase().includes(keyword.toLowerCase()));
+    return { ...rule, hits };
+  }).filter(rule => rule.hits.length > 0);
+}
+
+function scorePodcastSegment(segment, terms) {
+  const text = segment.text.toLowerCase();
+  const topicScore = matchedTopics(text).reduce((sum, topic) => sum + topic.hits.length * 8, 0);
+  const titleScore = terms.reduce((sum, term) => sum + (text.includes(term) ? 4 : 0), 0);
+  const introPenalty = hasAny(text, [
+    'welcome to',
+    'thanks for listening',
+    'subscribe',
+    'leave a review',
+    'please enjoy',
+    'in this episode',
+    'today, i\'m excited'
+  ]) ? -80 : 0;
+  const lengthScore = Math.min(12, Math.floor(segment.text.length / 120));
+  return topicScore + titleScore + lengthScore + introPenalty;
+}
+
+function rankPodcastTopics(podcast, segments) {
+  const title = (podcast.title || '').toLowerCase();
+  const body = `${podcast.title || ''} ${segments.map(segment => segment.text).join(' ')}`.toLowerCase();
+  return PODCAST_TOPIC_RULES.map(rule => {
+    const hits = rule.keywords.filter(keyword => body.includes(keyword.toLowerCase()));
+    const titleHits = rule.keywords.filter(keyword => title.includes(keyword.toLowerCase()));
+    const score = hits.reduce((sum, keyword) => {
+      const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const count = (body.match(new RegExp(escaped, 'g')) || []).length;
+      return sum + Math.max(1, count);
+    }, 0);
+    return { ...rule, hits, titleHits, score };
+  })
+    .filter(rule => rule.score > 0)
+    .sort((a, b) => b.titleHits.length - a.titleHits.length || b.score - a.score);
+}
+
+function selectPodcastMoments(podcast, segments) {
+  const terms = titleTerms(podcast.title || '');
+  const ranked = segments
+    .map(segment => ({
+      ...segment,
+      score: scorePodcastSegment(segment, terms),
+      topics: matchedTopics(segment.text)
+    }))
+    .filter(segment => segment.score > 0)
+    .sort((a, b) => b.score - a.score);
+
+  const selected = [];
+  const usedTopics = new Set();
+  for (const segment of ranked) {
+    const topic = segment.topics.find(item => !usedTopics.has(item.label)) || segment.topics[0];
+    if (!topic) continue;
+    selected.push({ ...segment, topic });
+    usedTopics.add(topic.label);
+    if (selected.length >= 3) break;
+  }
+
+  return selected.sort((a, b) => a.index - b.index);
+}
+
+function evidenceTerms(moment) {
+  const topicHits = moment.topic?.hits || [];
+  const stopTerms = new Set([
+    'Speaker', 'Yeah', 'Okay', 'And', 'But', 'The', 'So', 'Like', 'Right',
+    'Please', 'Hey', 'Hi', 'Today', 'Welcome', 'Thanks', 'Thank', 'How',
+    'What', 'When', 'Where', 'Why', 'Who', 'I', 'We', 'You', 'They', 'It',
+    'So I', 'I think', 'I mean'
+  ]);
+  const capitalized = Array.from(moment.text.matchAll(/\b[A-Z][A-Za-z0-9&.-]*(?:\s+[A-Z][A-Za-z0-9&.-]*){0,3}\b/g))
+    .map(match => match[0].replace(/[.,!?;:]+$/g, '').trim())
+    .filter(term => term.length > 2)
+    .filter(term => !/[.!?]\s/.test(term))
+    .filter(term => !stopTerms.has(term))
+    .filter(term => term.includes(' ') || /^[A-Z0-9&.-]{3,}$/.test(term));
+  return [...new Set([...topicHits, ...capitalized])].slice(0, 5).join(' / ');
+}
+
 function summarizePodcast(podcast) {
-  if (hasAny(podcast.title, ['AI Research Legend']) || hasAny(podcast.transcript, ['Lucas Kaiser'])) {
-    return {
-      title: 'Lucas Kaiser 谈 AI 前沿：reasoning 很强，但可能还不够解决真正的 generalization',
-      why: 'Kaiser 的判断很克制：Transformer 加 reasoning、tools、agents 已经强到不可思议，Codex 这类工具每天都能帮人处理真实工作；但它们学习概念仍像“穷尽其他选项后才学会”，不像人类能从少量数据里抓住抽象概念。',
-      detail: '这期值得看三点：1. post-transformer 不是玄学，一些 lab 正在认真探索更强的泛化方式；2. Anthropic 早期专注 coding 可能是明智取舍，因为它无法正面和 ChatGPT 路线竞争；3. 未来几年 open/closed source、模型公司和应用公司的边界仍会继续变化。',
-      ask: '可以追问：generalization 为什么是当前 AI 的核心问题？'
-    };
-  }
-
-  if (hasAny(podcast.title, ['Satya Nadella', 'Full-Stack Builder'])) {
-    return {
-      title: 'Satya Nadella 谈 full-stack builder：AI 平台的重点不是单个模型，而是让每家公司训练自己的“前沿智能”',
-      why: '他把 Microsoft 的 AI 战略描述成 ecosystem play：企业不只是调用通用模型，而是用自己的私有 eval、工具、上下文和 harness，让小模型或专用系统在真实任务上 hill climb。',
-      detail: '几个值得记住的点：企业最有价值的新 IP 可能是 private eval；coding agent 带来 100 个并行 agent session 后，IDE/UI 也要重做；AI 的价值不只在写代码，还在压缩 glue work，让长时间运行的 agent 替人推进流程。',
-      ask: '可以追问：什么是 harness？为什么 private eval 会变成企业 AI 的护城河？'
-    };
-  }
-
-  if (hasAny(podcast.title, ['State of Enterprise AI', 'Tokenmaxxing', 'Headless', 'AI-Proofing']) || hasAny(podcast.transcript, ['Aaron Levy', 'Aaron Levie', 'headless software'])) {
-    return {
-      title: 'Aaron Levie 谈 Enterprise AI 2026：tokenmaxxing、headless software 和企业落地速度之间的张力',
-      why: 'Levie 的核心判断是：AI 能力进步太快，反而让大企业更难形成稳定 rollout plan。很多公司刚把 chat system 推起来，能力边界就已经转向 agentic work；真正的瓶颈不只是模型，而是 change management、security、现有系统升级和业务流程重构。',
-      detail: '这期有三条值得早餐时记住：1. coding agents 已经 escape velocity，但非工程知识工作还在找落地路径；2. token cost 变成企业 AI 的真实预算项，应用层会更重视 model routing 和效率；3. headless software 会让软件从“人点 UI”转向“agent 调接口完成流程”，但大企业需要时间重做权限、审计和组织协作。',
-      ask: '可以追问：headless software 为什么会改变 SaaS 产品形态？'
-    };
-  }
+  const segments = parseTranscriptSegments(podcast.transcript || '');
+  const topics = rankPodcastTopics(podcast, segments).slice(0, 3);
+  const moments = selectPodcastMoments(podcast, segments);
+  const topicNames = topics.length ? topics.map(topic => topic.label).join('、') : '节目标题里的核心议题';
+  const primary = topics[0];
 
   return {
     title: `${podcast.name}: ${podcast.title}`,
-    why: `这期播客的主题是「${podcast.title}」。从逐字稿看，内容围绕嘉宾对 AI 技术、产品落地和行业变化的判断展开，适合先抓观点框架，再回看原视频里的完整论证。`,
-    detail: buildPodcastFallbackDetail(podcast),
-    ask: '可以追问：这期播客讲了什么？'
+    why: segments.length
+      ? `这期的主轴集中在 ${topicNames}。最值得看的是${primary ? `「${primary.label}」：${primary.point}` : `「${podcast.title}」背后的具体论证`}。`
+      : `这期没有可用逐字稿，只能按节目标题「${podcast.title}」给出低置信速读。`,
+    detail: moments.length
+      ? moments.map((moment, index) => `${index + 1}. ${moment.start || '无时间戳'}：${moment.topic.label}。${moment.topic.point}。原文线索：${evidenceTerms(moment) || compact(moment.text, 80)}`).join('；')
+      : '没有抽到足够高信号的逐字稿片段；建议回看原链接确认细节。',
+    ask: '可以追问：这期播客有哪些具体时间点值得听？'
   };
-}
-
-function buildPodcastFallbackDetail(podcast) {
-  const transcript = podcast.transcript || '';
-  const signals = [
-    ['agent', '重点关注 agent 如何从演示走向实际工作流，以及它对组织分工的影响'],
-    ['enterprise', '企业落地部分值得看：真正难点通常不只在模型，而在权限、数据、流程和变更管理'],
-    ['token', '成本部分值得留意：token 消耗正在变成 AI 产品设计和企业采购里的现实约束'],
-    ['coding', '开发者工具部分值得留意：coding agent 已经开始改变软件项目的推进方式'],
-    ['model', '模型能力部分值得留意：嘉宾在讨论能力边界、评估方式和应用层机会'],
-    ['startup', '创业机会部分值得留意：应用层仍可能围绕具体场景、数据和工作流形成价值']
-  ];
-  const picked = signals
-    .filter(([keyword]) => hasAny(transcript, [keyword]))
-    .slice(0, 3)
-    .map(([, line], index) => `${index + 1}. ${line}`);
-
-  if (picked.length) return picked.join('；');
-  return '这期没有命中已知专题规则，先给出中文速读：重点看嘉宾如何定义问题、哪些场景已经接近可用、以及哪些限制还会影响真实采用。';
 }
 
 function buildDigestData({ config, feedX, feedPodcasts, feedBlogs, state }) {
