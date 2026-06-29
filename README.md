@@ -165,9 +165,9 @@ To use it:
 3. In your GitHub repository, add Actions secrets:
    - `FEISHU_WEBHOOK_URL`
    - `FEISHU_WEBHOOK_SECRET` (optional)
-   - `OPENAI_API_KEY`
+   - `DEEPSEEK_API_KEY`
 4. In your GitHub repository, add an Actions variable:
-   - `OPENAI_MODEL` (the OpenAI model to use for deep-read summaries)
+   - `DEEPSEEK_MODEL` (optional; defaults to `deepseek-v4-pro`)
 5. Run the `AI Builders Breakfast Digest` workflow manually once to verify delivery.
 
 The workflow stores sent history in `config/github-actions-state.json` and commits

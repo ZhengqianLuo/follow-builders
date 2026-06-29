@@ -45,8 +45,8 @@ jobs:
       - name: Build Feishu post digest
         id: build
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_MODEL: ${{ vars.DEEPSEEK_MODEL }}
           FOLLOW_BUILDERS_SUMMARY_CACHE: ${{ env.SUMMARY_CACHE_FILE }}
         run: |
           if [ "$PREVIEW_TODAY_SENT" = "true" ]; then

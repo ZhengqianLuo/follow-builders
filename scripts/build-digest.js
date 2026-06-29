@@ -20,7 +20,8 @@ const PROMPT_VERSION = 'deep-read-zh-v1';
 const MAX_DIGEST_ITEMS = Number(process.env.FOLLOW_BUILDERS_MAX_ITEMS || 10);
 const MAX_DIRECT_SOURCE_CHARS = 45000;
 const SOURCE_CHUNK_CHARS = 28000;
-const OPENAI_RESPONSES_URL = 'https://api.openai.com/v1/responses';
+const DEEPSEEK_CHAT_COMPLETIONS_URL = `${process.env.DEEPSEEK_BASE_URL || 'https://api.deepseek.com'}/chat/completions`;
+const DEFAULT_DEEPSEEK_MODEL = 'deepseek-v4-pro';
 
 const FEEDS = {
   x: {
@@ -448,34 +449,55 @@ function selectDigestItems({ feedX, feedPodcasts, feedBlogs, state }) {
     .slice(0, MAX_DIGEST_ITEMS);
 }
 
-function requireOpenAIConfig() {
-  const apiKey = process.env.OPENAI_API_KEY;
-  const model = process.env.OPENAI_MODEL;
+function requireDeepSeekConfig() {
+  const apiKey = process.env.DEEPSEEK_API_KEY;
+  const model = process.env.DEEPSEEK_MODEL || DEFAULT_DEEPSEEK_MODEL;
   if (!apiKey) {
-    throw new Error('OPENAI_API_KEY is required for LLM deep-read digest generation');
-  }
-  if (!model) {
-    throw new Error('OPENAI_MODEL is required for LLM deep-read digest generation');
+    throw new Error('DEEPSEEK_API_KEY is required for LLM deep-read digest generation');
   }
   return { apiKey, model };
 }
 
-function responseText(response) {
-  if (response.output_text) return response.output_text;
-  const parts = [];
-  for (const output of response.output || []) {
-    for (const content of output.content || []) {
-      if (content.text) parts.push(content.text);
+function extractJSON(text) {
+  const clean = String(text || '').trim();
+  if (!clean) throw new Error('LLM response did not include content');
+  try {
+    return JSON.parse(clean);
+  } catch {
+    const fenced = clean.match(/```(?:json)?\s*([\s\S]*?)\s*```/);
+    if (fenced) return JSON.parse(fenced[1]);
+    const start = clean.indexOf('{');
+    const end = clean.lastIndexOf('}');
+    if (start !== -1 && end !== -1 && end > start) {
+      return JSON.parse(clean.slice(start, end + 1));
     }
+    throw new Error('LLM response was not valid JSON');
   }
-  return parts.join('\n');
 }
 
-async function createStructuredResponse({ apiKey, model, input, schema, name }) {
+function schemaInstruction(name) {
+  if (name === 'source_chunk_notes') {
+    return [
+      '只输出 JSON，不要输出 Markdown。',
+      'JSON 结构：',
+      '{"notes":[{"point":"中文事实笔记","evidence":"对应的原文证据、时间点、章节或关键词"}]}',
+      'notes 必须有 3 到 12 条。'
+    ].join('\n');
+  }
+
+  return [
+    '只输出 JSON，不要输出 Markdown。',
+    'JSON 结构：',
+    '{"title":"中文标题","summary":"中文长摘要","excerpts":[{"label":"观点/金句/案例/数据/类比","text":"中文摘录或忠实转述","reference":"时间点/章节/链接/证据"}],"materials":[{"label":"图表/素材","url":"链接","note":"看什么"}]}',
+    'excerpts 必须有 3 到 8 条；materials 没有则返回空数组。'
+  ].join('\n');
+}
+
+async function createStructuredResponse({ apiKey, model, input, name }) {
   let lastError;
   for (let attempt = 1; attempt <= 2; attempt += 1) {
     try {
-      const res = await fetch(OPENAI_RESPONSES_URL, {
+      const res = await fetch(DEEPSEEK_CHAT_COMPLETIONS_URL, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -483,27 +505,25 @@ async function createStructuredResponse({ apiKey, model, input, schema, name }) 
         },
         body: JSON.stringify({
           model,
-          input,
-          text: {
-            format: {
-              type: 'json_schema',
-              name,
-              schema,
-              strict: true
-            }
-          }
+          messages: [
+            ...input,
+            { role: 'user', content: schemaInstruction(name) }
+          ],
+          response_format: { type: 'json_object' },
+          thinking: { type: 'disabled' },
+          temperature: 0.2,
+          max_tokens: name === 'source_chunk_notes' ? 1800 : 3200
         })
       });
 
       const bodyText = await res.text();
       if (!res.ok) {
-        throw new Error(`OpenAI Responses API error: ${res.status} ${bodyText}`);
+        throw new Error(`DeepSeek API error: ${res.status} ${bodyText}`);
       }
 
       const data = JSON.parse(bodyText);
-      const text = responseText(data);
-      if (!text) throw new Error('OpenAI response did not include output text');
-      return JSON.parse(text);
+      const text = data.choices?.[0]?.message?.content;
+      return extractJSON(text);
     } catch (err) {
       lastError = err;
       if (attempt < 2) await new Promise(resolve => setTimeout(resolve, 1200));
@@ -525,7 +545,6 @@ async function summarizeChunk({ apiKey, model, item, chunk, index, total }) {
     apiKey,
     model,
     name: 'source_chunk_notes',
-    schema: NOTES_SCHEMA,
     input: [
       {
         role: 'system',
@@ -546,7 +565,7 @@ async function summarizeChunk({ apiKey, model, item, chunk, index, total }) {
 }
 
 async function summarizeItemWithLLM(item) {
-  const { apiKey, model } = requireOpenAIConfig();
+  const { apiKey, model } = requireDeepSeekConfig();
   let sourceForFinal = item.sourceText;
 
   if (item.sourceText.length > MAX_DIRECT_SOURCE_CHARS) {
@@ -574,7 +593,6 @@ async function summarizeItemWithLLM(item) {
     apiKey,
     model,
     name: 'deep_read_summary',
-    schema: SUMMARY_SCHEMA,
     input: [
       {
         role: 'system',
