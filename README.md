@@ -165,11 +165,16 @@ To use it:
 3. In your GitHub repository, add Actions secrets:
    - `FEISHU_WEBHOOK_URL`
    - `FEISHU_WEBHOOK_SECRET` (optional)
-4. Run the `AI Builders Breakfast Digest` workflow manually once to verify delivery.
+   - `OPENAI_API_KEY`
+4. In your GitHub repository, add an Actions variable:
+   - `OPENAI_MODEL` (the OpenAI model to use for deep-read summaries)
+5. Run the `AI Builders Breakfast Digest` workflow manually once to verify delivery.
 
 The workflow stores sent history in `config/github-actions-state.json` and commits
 that file only after Feishu delivery succeeds. This prevents already-delivered
 items from being sent again.
+LLM summary cache is stored in `config/llm-summary-cache.json`, so preview resends
+do not call the model again for unchanged content.
 
 For a local daily 7:30am job, run:
 

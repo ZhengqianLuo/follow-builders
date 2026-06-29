@@ -156,10 +156,14 @@ webhook 路径会把富文本 post 转成飞书消息卡片，保证标题、加
 3. 在 GitHub 仓库的 Actions Secrets 中添加：
    - `FEISHU_WEBHOOK_URL`
    - `FEISHU_WEBHOOK_SECRET`（可选）
-4. 手动运行一次 `AI Builders Breakfast Digest` workflow，确认飞书小群能收到消息。
+   - `OPENAI_API_KEY`
+4. 在 GitHub 仓库的 Actions Variables 中添加：
+   - `OPENAI_MODEL`（例如你希望用于精读摘要的 OpenAI 模型）
+5. 手动运行一次 `AI Builders Breakfast Digest` workflow，确认飞书小群能收到消息。
 
 workflow 会把已发送历史保存在 `config/github-actions-state.json`，并且只有飞书
 发送成功后才提交这个状态文件，避免没送达却被误标记为已推送。
+LLM 精读摘要缓存会保存在 `config/llm-summary-cache.json`，同一内容预览重发时不会重复调用模型。
 
 本地每天早上 7:30 推送可以使用：
 
