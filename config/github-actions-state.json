@@ -360,7 +360,19 @@
       "title": "No Priors: Why Traditional Benchmarks Fail Modern AI Models with OpenAI Research Scientist Noam Brown",
       "url": "https://www.youtube.com/watch?v=AZrU6y3pUcU",
       "sentAt": "2026-06-28T01:33:24.824Z"
+    },
+    "podcast:a982f792-6f55-11f1-b29a-1be1b9f3ee0a": {
+      "type": "podcast",
+      "title": "Training Data: Memory and Continual Learning: Engram's Dan Biderman and Jessy Lin",
+      "url": "https://www.youtube.com/watch?v=aiR7F4jqjXY",
+      "sentAt": "2026-06-29T01:35:38.966Z"
+    },
+    "topic:Training Data: Memory and Continual Learning: Engram's Dan Biderman and Jessy Lin": {
+      "type": "topic",
+      "title": "Training Data: Memory and Continual Learning: Engram's Dan Biderman and Jessy Lin",
+      "url": "https://www.youtube.com/watch?v=aiR7F4jqjXY",
+      "sentAt": "2026-06-29T01:35:38.966Z"
     }
   },
-  "updatedAt": "2026-06-28T01:33:24.824Z"
+  "updatedAt": "2026-06-29T01:35:38.966Z"
 }
