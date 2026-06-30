@@ -745,43 +745,32 @@ function formatDigestData(data) {
 
   const lines = [
     data.title,
-    '',
-    `今天精选 ${data.items.length} 条新内容。`,
-    ''
+    `今天精选 ${data.items.length} 条新内容。`
   ];
 
   data.items.forEach((item, index) => {
     if (item.displayMode === 'short_tweet') {
+      lines.push('━━━━━━━━━━━━━━━━━━━━');
       lines.push(`【${index + 1}. ${item.title}】`);
       lines.push(item.url);
-      lines.push('');
-      lines.push('原文：');
-      lines.push(item.rawText);
-      lines.push('');
+      lines.push(`原文：${item.rawText}`);
       lines.push(`数据：赞 ${item.engagement.likes} / 评 ${item.engagement.replies} / 转发 ${item.engagement.retweets}`);
-      lines.push('');
       return;
     }
 
+    lines.push('━━━━━━━━━━━━━━━━━━━━');
     lines.push(`【${index + 1}. ${item.summary.title}】`);
     lines.push(item.url);
-    lines.push('');
-    lines.push('摘要：');
-    lines.push(item.summary.summary);
-    lines.push('');
-    lines.push('摘录：');
+    lines.push(`摘要：${item.summary.summary}`);
     for (const excerpt of item.summary.excerpts) {
       const reference = excerpt.reference ? `（${excerpt.reference}）` : '';
       lines.push(`- ${excerpt.label}：${excerpt.text}${reference}`);
     }
     if (item.summary.materials.length) {
-      lines.push('');
-      lines.push('图表/素材：');
       for (const material of item.summary.materials) {
-        lines.push(`- ${material.label}：${material.note} ${material.url}`.trim());
+        lines.push(`图表/素材：${material.label}：${material.note} ${material.url}`.trim());
       }
     }
-    lines.push('');
   });
 
   return lines.join('\n').trim();
@@ -813,8 +802,7 @@ function formatPostDigestData(data) {
   if (!hasDigestContent(data)) return '';
 
   const content = [
-    paragraph(textNode(`今天精选 ${data.items.length} 条新内容。`)),
-    blankLine()
+    paragraph(textNode(`今天精选 ${data.items.length} 条新内容。`))
   ];
 
   data.items.forEach((item, index) => {
@@ -822,11 +810,8 @@ function formatPostDigestData(data) {
       content.push(
         dividerLine(),
         paragraph(textNode(`${index + 1}. `, ['bold']), linkNode(item.title, item.url)),
-        paragraph(textNode('原文', ['bold'])),
-        paragraph(textNode(item.rawText)),
-        paragraph(textNode('数据', ['bold'])),
-        paragraph(textNode(`赞 ${item.engagement.likes} / 评 ${item.engagement.replies} / 转发 ${item.engagement.retweets}`)),
-        blankLine()
+        paragraph(textNode('原文：', ['bold']), textNode(item.rawText)),
+        paragraph(textNode('数据：', ['bold']), textNode(`赞 ${item.engagement.likes} / 评 ${item.engagement.replies} / 转发 ${item.engagement.retweets}`))
       );
       return;
     }
@@ -834,9 +819,7 @@ function formatPostDigestData(data) {
     content.push(
       dividerLine(),
       paragraph(textNode(`${index + 1}. `, ['bold']), linkNode(item.summary.title, item.url)),
-      paragraph(textNode('摘要', ['bold'])),
-      paragraph(textNode(item.summary.summary)),
-      paragraph(textNode('摘录', ['bold']))
+      paragraph(textNode('摘要：', ['bold']), textNode(item.summary.summary))
     );
 
     for (const excerpt of item.summary.excerpts) {
@@ -845,13 +828,10 @@ function formatPostDigestData(data) {
     }
 
     if (item.summary.materials.length) {
-      content.push(paragraph(textNode('图表/素材', ['bold'])));
       for (const material of item.summary.materials) {
-        content.push(paragraph(textNode(`• ${material.label}：`), linkNode(material.note || material.url, material.url)));
+        content.push(paragraph(textNode(`图表/素材：${material.label}：`, ['bold']), linkNode(material.note || material.url, material.url)));
       }
     }
-
-    content.push(blankLine());
   });
 
   return JSON.stringify({
