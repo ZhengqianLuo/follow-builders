@@ -22,6 +22,7 @@ const MAX_DIRECT_SOURCE_CHARS = 45000;
 const SOURCE_CHUNK_CHARS = 28000;
 const DEEPSEEK_CHAT_COMPLETIONS_URL = `${process.env.DEEPSEEK_BASE_URL || 'https://api.deepseek.com'}/chat/completions`;
 const DEFAULT_DEEPSEEK_MODEL = 'deepseek-v4-pro';
+const SHORT_TWEET_CHAR_LIMIT = 280;
 
 const FEEDS = {
   x: {
@@ -274,6 +275,10 @@ function compact(text = '', maxLen = 240) {
   return `${slice.slice(0, lastSpace > maxLen * 0.6 ? lastSpace : maxLen).trim()}...`;
 }
 
+function textLength(text = '') {
+  return Array.from(stripHtml(text)).length;
+}
+
 function hasAny(text = '', keywords = []) {
   const haystack = text.toLowerCase();
   return keywords.some(keyword => haystack.includes(keyword.toLowerCase()));
@@ -353,6 +358,7 @@ function formatDate(config) {
 }
 
 function itemFromTweet(tweet) {
+  const rawText = stripHtml(tweet.text || '');
   const title = `${tweet.builderName || tweet.handle || 'Builder'}：${compact(tweet.text || '', 80)}`;
   const sourceText = [
     `来源类型：Builder/X 动态`,
@@ -362,7 +368,7 @@ function itemFromTweet(tweet) {
     `互动：likes=${tweet.likes || 0}, retweets=${tweet.retweets || 0}, replies=${tweet.replies || 0}`,
     '',
     `原文：`,
-    tweet.text || ''
+    rawText
   ].join('\n');
 
   return {
@@ -373,6 +379,13 @@ function itemFromTweet(tweet) {
     url: tweet.url,
     publishedAt: tweet.createdAt,
     score: 1000 + tweet.score + recencyScore(tweet.createdAt),
+    rawText,
+    textLength: textLength(rawText),
+    engagement: {
+      likes: tweet.likes || 0,
+      replies: tweet.replies || 0,
+      retweets: tweet.retweets || 0
+    },
     sourceText
   };
 }
@@ -447,6 +460,10 @@ function selectDigestItems({ feedX, feedPodcasts, feedBlogs, state }) {
     })
     .sort((a, b) => b.score - a.score)
     .slice(0, MAX_DIGEST_ITEMS);
+}
+
+function isShortTweet(item) {
+  return item.type === 'tweet' && (item.textLength || 0) <= SHORT_TWEET_CHAR_LIMIT;
 }
 
 function requireDeepSeekConfig() {
@@ -578,7 +595,6 @@ async function requestItemSummary({ apiKey, model, item, sourceForFinal, repairN
           '输出只允许基于来源材料；不要写“本文主要介绍了”这种空话；不要编造图表。',
           '摘要要稍长，讲清核心内容、关键论证和为什么值得看。',
           '摘录要挑令人印象深刻的观点、金句、案例、数据或类比；播客摘录尽量带时间点。',
-          '即使来源是很短的 X 动态，也必须从原文、链接上下文、互动数据或作者表达中拆出 3 到 8 条忠实摘录；不要用空数组。',
           '如果来源中有图、图表、截图、demo、slide、figure 等明确线索，可在 materials 中给原文链接并说明看什么；没有就返回空数组。'
         ].join('\n')
       },
@@ -678,10 +694,18 @@ async function summarizeItems(items) {
   const summarized = [];
 
   for (const item of items) {
+    if (isShortTweet(item)) {
+      summarized.push({
+        ...item,
+        displayMode: 'short_tweet'
+      });
+      continue;
+    }
+
     const key = cacheKey(item);
     const cached = cache.summaries[key];
     if (cached?.summary) {
-      summarized.push({ ...item, summary: cached.summary, cacheKey: key });
+      summarized.push({ ...item, displayMode: 'deep_read', summary: cached.summary, cacheKey: key });
       continue;
     }
 
@@ -696,7 +720,7 @@ async function summarizeItems(items) {
       summary
     };
     cacheChanged = true;
-    summarized.push({ ...item, summary, cacheKey: key });
+    summarized.push({ ...item, displayMode: 'deep_read', summary, cacheKey: key });
   }
 
   if (cacheChanged) await saveSummaryCache(cache);
@@ -722,11 +746,23 @@ function formatDigestData(data) {
   const lines = [
     data.title,
     '',
-    `今天精选 ${data.items.length} 条新内容。每条都包含摘要和摘录。`,
+    `今天精选 ${data.items.length} 条新内容。短 X 动态展示原文和互动数据；长文与播客包含摘要和摘录。`,
     ''
   ];
 
   data.items.forEach((item, index) => {
+    if (item.displayMode === 'short_tweet') {
+      lines.push(`【${index + 1}. ${item.title}】`);
+      lines.push(item.url);
+      lines.push('');
+      lines.push('原文：');
+      lines.push(item.rawText);
+      lines.push('');
+      lines.push(`数据：赞 ${item.engagement.likes} / 评 ${item.engagement.replies} / 转发 ${item.engagement.retweets}`);
+      lines.push('');
+      return;
+    }
+
     lines.push(`【${index + 1}. ${item.summary.title}】`);
     lines.push(item.url);
     lines.push('');
@@ -777,11 +813,24 @@ function formatPostDigestData(data) {
   if (!hasDigestContent(data)) return '';
 
   const content = [
-    paragraph(textNode(`今天精选 ${data.items.length} 条新内容。每条都包含摘要和摘录。`)),
+    paragraph(textNode(`今天精选 ${data.items.length} 条新内容。短 X 动态展示原文和互动数据；长文与播客包含摘要和摘录。`)),
     blankLine()
   ];
 
   data.items.forEach((item, index) => {
+    if (item.displayMode === 'short_tweet') {
+      content.push(
+        dividerLine(),
+        paragraph(textNode(`${index + 1}. `, ['bold']), linkNode(item.title, item.url)),
+        paragraph(textNode('原文', ['bold'])),
+        paragraph(textNode(item.rawText)),
+        paragraph(textNode('数据', ['bold'])),
+        paragraph(textNode(`赞 ${item.engagement.likes} / 评 ${item.engagement.replies} / 转发 ${item.engagement.retweets}`)),
+        blankLine()
+      );
+      return;
+    }
+
     content.push(
       dividerLine(),
       paragraph(textNode(`${index + 1}. `, ['bold']), linkNode(item.summary.title, item.url)),
