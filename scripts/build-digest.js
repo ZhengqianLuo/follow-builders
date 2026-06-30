@@ -746,7 +746,7 @@ function formatDigestData(data) {
   const lines = [
     data.title,
     '',
-    `今天精选 ${data.items.length} 条新内容。短 X 动态展示原文和互动数据；长文与播客包含摘要和摘录。`,
+    `今天精选 ${data.items.length} 条新内容。`,
     ''
   ];
 
@@ -813,7 +813,7 @@ function formatPostDigestData(data) {
   if (!hasDigestContent(data)) return '';
 
   const content = [
-    paragraph(textNode(`今天精选 ${data.items.length} 条新内容。短 X 动态展示原文和互动数据；长文与播客包含摘要和摘录。`)),
+    paragraph(textNode(`今天精选 ${data.items.length} 条新内容。`)),
     blankLine()
   ];
 
