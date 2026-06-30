@@ -564,6 +564,41 @@ async function summarizeChunk({ apiKey, model, item, chunk, index, total }) {
   });
 }
 
+async function requestItemSummary({ apiKey, model, item, sourceForFinal, repairNote = '' }) {
+  return createStructuredResponse({
+    apiKey,
+    model,
+    name: 'deep_read_summary',
+    input: [
+      {
+        role: 'system',
+        content: [
+          '你是一个给中文读者写 AI 行业早餐精读的研究员。',
+          '你必须认真阅读用户提供的完整内容或中间笔记，然后输出中文。',
+          '输出只允许基于来源材料；不要写“本文主要介绍了”这种空话；不要编造图表。',
+          '摘要要稍长，讲清核心内容、关键论证和为什么值得看。',
+          '摘录要挑令人印象深刻的观点、金句、案例、数据或类比；播客摘录尽量带时间点。',
+          '即使来源是很短的 X 动态，也必须从原文、链接上下文、互动数据或作者表达中拆出 3 到 8 条忠实摘录；不要用空数组。',
+          '如果来源中有图、图表、截图、demo、slide、figure 等明确线索，可在 materials 中给原文链接并说明看什么；没有就返回空数组。'
+        ].join('\n')
+      },
+      {
+        role: 'user',
+        content: [
+          `内容类型：${item.type}`,
+          `标题：${item.title}`,
+          `来源：${item.sourceName}`,
+          `链接：${item.url}`,
+          `发布时间：${item.publishedAt || ''}`,
+          '',
+          repairNote ? `上一次输出不合格：${repairNote}\n请重新输出完整 JSON，必须包含非空 summary 和至少 3 条非空 excerpts。\n` : '',
+          sourceForFinal
+        ].join('\n')
+      }
+    ]
+  });
+}
+
 async function summarizeItemWithLLM(item) {
   const { apiKey, model } = requireDeepSeekConfig();
   let sourceForFinal = item.sourceText;
@@ -589,60 +624,50 @@ async function summarizeItemWithLLM(item) {
     ].join('\n');
   }
 
-  const summary = await createStructuredResponse({
-    apiKey,
-    model,
-    name: 'deep_read_summary',
-    input: [
-      {
-        role: 'system',
-        content: [
-          '你是一个给中文读者写 AI 行业早餐精读的研究员。',
-          '你必须认真阅读用户提供的完整内容或中间笔记，然后输出中文。',
-          '输出只允许基于来源材料；不要写“本文主要介绍了”这种空话；不要编造图表。',
-          '摘要要稍长，讲清核心内容、关键论证和为什么值得看。',
-          '摘录要挑令人印象深刻的观点、金句、案例、数据或类比；播客摘录尽量带时间点。',
-          '如果来源中有图、图表、截图、demo、slide、figure 等明确线索，可在 materials 中给原文链接并说明看什么；没有就返回空数组。'
-        ].join('\n')
-      },
-      {
-        role: 'user',
-        content: [
-          `内容类型：${item.type}`,
-          `标题：${item.title}`,
-          `来源：${item.sourceName}`,
-          `链接：${item.url}`,
-          `发布时间：${item.publishedAt || ''}`,
-          '',
-          sourceForFinal
-        ].join('\n')
-      }
-    ]
-  });
+  let lastError;
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    const summary = await requestItemSummary({
+      apiKey,
+      model,
+      item,
+      sourceForFinal,
+      repairNote: lastError?.message || ''
+    });
 
-  return normalizeSummary(summary, item);
+    try {
+      return normalizeSummary(summary, item);
+    } catch (err) {
+      lastError = err;
+    }
+  }
+
+  throw lastError;
 }
 
 function normalizeSummary(summary, item) {
-  const excerpts = Array.isArray(summary.excerpts) ? summary.excerpts.slice(0, 8) : [];
-  const materials = Array.isArray(summary.materials) ? summary.materials.slice(0, 4) : [];
+  const excerpts = (Array.isArray(summary.excerpts) ? summary.excerpts.slice(0, 8) : [])
+    .map(excerpt => ({
+      label: excerpt.label || '摘录',
+      text: excerpt.text || '',
+      reference: excerpt.reference || ''
+    }))
+    .filter(excerpt => excerpt.text);
+  const materials = (Array.isArray(summary.materials) ? summary.materials.slice(0, 4) : [])
+    .map(material => ({
+      label: material.label || '图表/素材',
+      url: material.url || item.url,
+      note: material.note || ''
+    }))
+    .filter(material => material.url);
   if (!summary.summary || excerpts.length < 3) {
-    throw new Error(`LLM summary for ${item.id} did not include a summary and at least 3 excerpts`);
+    throw new Error(`LLM summary for ${item.id} did not include a non-empty summary and at least 3 non-empty excerpts`);
   }
 
   return {
     title: summary.title || item.title,
     summary: summary.summary,
-    excerpts: excerpts.map(excerpt => ({
-      label: excerpt.label || '摘录',
-      text: excerpt.text || '',
-      reference: excerpt.reference || ''
-    })).filter(excerpt => excerpt.text),
-    materials: materials.map(material => ({
-      label: material.label || '图表/素材',
-      url: material.url || item.url,
-      note: material.note || ''
-    })).filter(material => material.url)
+    excerpts,
+    materials
   };
 }
 
