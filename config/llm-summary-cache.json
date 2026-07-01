@@ -1,0 +1,127 @@
+{
+  "version": 1,
+  "promptVersion": "deep-read-zh-v1",
+  "updatedAt": "2026-07-01T01:39:38.004Z",
+  "summaries": {
+    "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
+      "itemId": "tweet:2071740419030053227",
+      "sourceHash": "9f69343745e629b3",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Codex usage limits will be fully reset again in the next hour and we will...",
+      "url": "https://x.com/thsottiaux/status/2071740419030053227",
+      "generatedAt": "2026-07-01T01:39:27.016Z",
+      "summary": {
+        "title": "Codex 用量限制即将重置，团队修复后台消耗与报告问题",
+        "summary": "Thibault Sottiaux 宣布 Codex 用量限制将在未来一小时内完全重置，并额外赠送一次重置额度供用户在未来 24 小时内使用。团队调查了用户反馈的用量消耗过快问题，发现并非单一原因，而是多个小问题叠加所致。具体包括：自动审查功能变得过于主动，另一项变更触发了更多子代理工作，后台建议可能重复运行或在失败后过于频繁重试。团队已回滚相关变更，修复了建议调度、重复生成和重试行为，以减少不必要的后台令牌消耗，同时保留用户明确请求的工作。在用量报告方面，自动审查此前被错误地归类为 GPT‑5.4 用量，且失败或被限速的请求仍显示为对话轮次；现已将自动审查单独分类，仅成功请求计入轮次图表，限速请求从未计费但此前显示有误。修复已通过 CLI、桌面应用和用量后端的热修复部署，新用量数据应更清晰，实际消耗应更低。历史图表中自动审查可能仍显示在 GPT‑5.4 下，因旧数据未重新标记。团队还加强了监控，以便更快检测后台用量回归。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Codex 用量限制将在未来一小时内完全重置，并额外赠送一次重置额度供用户在未来 24 小时内使用。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "用量消耗过快并非单一问题，而是多个小问题叠加：自动审查更主动、子代理工作增多、后台建议重复运行或失败后频繁重试。",
+            "reference": "推文中间"
+          },
+          {
+            "label": "数据",
+            "text": "自动审查此前被错误归类为 GPT‑5.4 用量，且失败或被限速的请求仍显示为对话轮次，现已修正。",
+            "reference": "推文中间"
+          },
+          {
+            "label": "观点",
+            "text": "修复后，新用量数据应更清晰，实际消耗应更低，但历史图表中自动审查可能仍显示在 GPT‑5.4 下。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "金句",
+            "text": "我们加强了监控，以便更快检测后台用量回归。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2071636285807059315:de6f0b4f808f6ce2": {
+      "itemId": "tweet:2071636285807059315",
+      "sourceHash": "de6f0b4f808f6ce2",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Advanced Codex users. We shipped a replacement to coarse sandbox modes:...",
+      "url": "https://x.com/thsottiaux/status/2071636285807059315",
+      "generatedAt": "2026-07-01T01:39:33.578Z",
+      "summary": {
+        "title": "Codex 高级用户迎来细粒度权限配置：可复用、可继承的权限配置文件替代粗粒度沙箱模式",
+        "summary": "Thibault Sottiaux 宣布为 Codex 高级用户推出了一项重要更新：用可复用、可继承的权限配置文件取代了以往粗粒度的沙箱模式。新功能允许用户定义操作系统强制执行的细粒度文件读写/拒绝规则（支持通配符模式如 **/*.env），并将这些规则与按域名划分的网络和 Unix 套接字访问权限绑定。此外，还引入了故障关闭的管理员允许列表，确保每个任务都能实现最小权限原则。这一改进显著提升了安全性和灵活性，使开发者能够更精细地控制 AI 代理的环境访问，尤其适用于需要严格隔离敏感文件（如环境变量文件）的场景。推文获得了 2248 个赞和 127 次转发，反映出社区对更强大权限管理工具的强烈需求。",
+        "excerpts": [
+          {
+            "label": "核心更新",
+            "text": "为 Codex 高级用户推出了可复用、可继承的权限配置文件，替代了粗粒度的沙箱模式。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "细粒度文件控制",
+            "text": "支持操作系统强制执行的文件读/写/拒绝规则，甚至可以使用通配符模式（如 **/*.env）来精确匹配文件。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "网络与套接字权限绑定",
+            "text": "文件权限规则可以与按域名划分的网络访问权限和 Unix 套接字权限绑定在一起。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "故障关闭管理员允许列表",
+            "text": "引入了故障关闭（fail-closed）的管理员允许列表机制，增强安全性。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "最小权限原则",
+            "text": "每个任务都可以实现最小权限（least privilege），仅授予完成任务所必需的访问权限。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "社区反响",
+            "text": "推文获得 2248 个赞和 127 次转发，显示高级用户对细粒度权限控制的强烈兴趣。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2071670108033073365:58a4ee6e2a1219d1": {
+      "itemId": "tweet:2071670108033073365",
+      "sourceHash": "58a4ee6e2a1219d1",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Zara Zhang：\"The market value of writing has gone way up\" (per a PM at Anthropic) Good...",
+      "url": "https://x.com/zarazhangrui/status/2071670108033073365",
+      "generatedAt": "2026-07-01T01:39:38.003Z",
+      "summary": {
+        "title": "写作的市场价值正在飙升：Anthropic PM 的观点与启示",
+        "summary": "Zara Zhang 引用了一位 Anthropic 产品经理的观点，指出写作的市场价值已经大幅上升。在 AI 时代，清晰的写作和表达能力对于构建产品（有效引导模型）和建立受众都至关重要。历史上，写作在科技行业一直被低估，但现在需要改变这一现状。这条推文强调了在技术领域，良好的写作能力正成为一种关键技能，能够帮助人们更好地与 AI 协作，并在信息过载的环境中脱颖而出。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "写作的市场价值已经大幅上升。",
+            "reference": "原文引用 Anthropic PM 的话"
+          },
+          {
+            "label": "写作的双重价值",
+            "text": "良好的写作/清晰的表达能力对于构建产品（能够有效引导模型）和建立受众都是必需的。",
+            "reference": "原文"
+          },
+          {
+            "label": "历史低估",
+            "text": "写作在科技行业历史上一直被低估。",
+            "reference": "原文"
+          },
+          {
+            "label": "改变现状",
+            "text": "现在是时候改变这种状况了。",
+            "reference": "原文"
+          }
+        ],
+        "materials": []
+      }
+    }
+  }
+}
