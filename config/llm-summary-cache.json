@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-01T01:39:38.004Z",
+  "updatedAt": "2026-07-02T01:31:56.828Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -117,6 +117,76 @@
           {
             "label": "改变现状",
             "text": "现在是时候改变这种状况了。",
+            "reference": "原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2072185565076988326:616873803e1c17c0": {
+      "itemId": "tweet:2072185565076988326",
+      "sourceHash": "616873803e1c17c0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thariq：Have seen some questions about the updated classifiers and wanted to clarify....",
+      "url": "https://x.com/trq212/status/2072185565076988326",
+      "generatedAt": "2026-07-02T01:31:44.934Z",
+      "summary": {
+        "title": "Thariq 澄清更新分类器：少量常规编码任务仍会回退到 Opus",
+        "summary": "Thariq 针对社区关于更新分类器的疑问做出澄清。他指出，与原始分类器一样，更新后的分类器仍会将一小部分常规编码和调试任务标记出来，并回退到 Opus 模型处理。他同时对用户即将重新获得访问权限表示期待。这条推文旨在管理用户预期，说明分类器更新并非完全消除回退，而是保持原有设计逻辑，确保复杂或边缘任务能得到更强大的模型支持。",
+        "excerpts": [
+          {
+            "label": "核心澄清",
+            "text": "与原始分类器一样，更新后的分类器仍会将一小部分常规编码和调试任务标记出来，并回退到 Opus。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "用户预期管理",
+            "text": "Thariq 强调，分类器更新后，少量常规任务被标记并回退是预期行为，并非异常。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "即将恢复访问",
+            "text": "Thariq 对用户明天重新获得访问权限表示兴奋。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2071992799109824562:ff1e5912326dab8a": {
+      "itemId": "tweet:2071992799109824562",
+      "sourceHash": "ff1e5912326dab8a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：More data is showing the opposite of what many people expected with AI adoption...",
+      "url": "https://x.com/levie/status/2071992799109824562",
+      "generatedAt": "2026-07-02T01:31:56.828Z",
+      "summary": {
+        "title": "AI 采用越深，企业反而越扩招？Box 调研颠覆裁员预期",
+        "summary": "Box CEO Aaron Levie 引用 Ramp 的发现和 Box 对 1600 多家中大型企业的调研，指出 AI 采用与员工人数增长呈正相关，而非许多人预期的裁员。调研显示，58% 的受访企业预计未来三年员工人数会增加，而在 AI 采用最成熟的企业中，这一比例跃升至 79%。Levie 解释，这并非意味着采用 AI 就必然增长，但重要的是，AI 采用最多的企业并未减少招聘。实际上，AI 帮助企业获取更多客户、承担更大项目，从而需要更多销售和工程师。这一发现反驳了早期对 AI 导致大规模失业的担忧，揭示了 AI 作为增长引擎而非替代人力的潜力。",
+        "excerpts": [
+          {
+            "label": "核心数据",
+            "text": "Box 对 1600 多家中大型企业的调研显示，58% 的受访者预计未来三年员工人数会增加；在 AI 采用最成熟的企业中，这一比例高达 79%。",
+            "reference": "原文"
+          },
+          {
+            "label": "反直觉发现",
+            "text": "Ramp 发现，企业 AI 采用程度越高，员工人数增长越快。这与许多人预期的 AI 导致裁员相反。",
+            "reference": "原文"
+          },
+          {
+            "label": "关键洞察",
+            "text": "AI 采用最多的企业并未减少招聘，反而因为 AI 带来更多客户和更大项目，需要更多销售和工程师。",
+            "reference": "原文"
+          },
+          {
+            "label": "类比解释",
+            "text": "如果企业利用 AI 在销售中获取更多客户，他们会雇佣更多销售而非更少；如果能用 AI 构建更多软件，他们会雇佣更多工程师，因为项目规模扩大、数量增加。",
+            "reference": "原文"
+          },
+          {
+            "label": "重要澄清",
+            "text": "Levie 强调，故事的重点不是采用 AI 就必然增长，而是相反的情况并未出现——早期担忧 AI 采用最多的企业会减少招聘，但现实并非如此。",
             "reference": "原文"
           }
         ],
