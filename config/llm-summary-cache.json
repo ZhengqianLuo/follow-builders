@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-02T01:31:56.828Z",
+  "updatedAt": "2026-07-03T01:09:14.539Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -188,6 +188,41 @@
             "label": "重要澄清",
             "text": "Levie 强调，故事的重点不是采用 AI 就必然增长，而是相反的情况并未出现——早期担忧 AI 采用最多的企业会减少招聘，但现实并非如此。",
             "reference": "原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2072402639644766602:c83baebce70ca1d7": {
+      "itemId": "tweet:2072402639644766602",
+      "sourceHash": "c83baebce70ca1d7",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：All paid plans with usage included can access Fable 5 through July 7. You can...",
+      "url": "https://x.com/claudeai/status/2072402639644766602",
+      "generatedAt": "2026-07-03T01:09:14.539Z",
+      "summary": {
+        "title": "Claude 宣布 Fable 5 模型对所有付费计划用户开放，限时体验至 7 月 7 日",
+        "summary": "Claude 官方宣布，从即日起至 2026 年 7 月 7 日，所有包含用量的付费计划用户均可访问 Fable 5 模型。用户每周最多可使用 Fable 5 消耗 50% 的周用量上限，超出后需切换至其他模型继续使用剩余用量，或通过用量积分继续使用 Fable 5。该动态旨在让更多用户体验最新模型能力，同时通过用量限制管理资源分配。推文互动量较高，显示用户对新模型访问政策关注度大。",
+        "excerpts": [
+          {
+            "label": "核心政策",
+            "text": "所有包含用量的付费计划用户均可访问 Fable 5，直至 7 月 7 日。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "用量限制",
+            "text": "用户每周最多可使用 Fable 5 消耗 50% 的周用量上限，超出后需切换至其他模型。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "替代方案",
+            "text": "超出 50% 限制后，用户可切换至其他模型继续使用剩余用量，或通过用量积分继续使用 Fable 5。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "互动热度",
+            "text": "该推文获得 1068 个喜欢、66 次转发和 175 条回复，显示社区对新模型访问政策的高度关注。",
+            "reference": "推文互动数据"
           }
         ],
         "materials": []
