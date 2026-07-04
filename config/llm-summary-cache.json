@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-03T01:09:14.539Z",
+  "updatedAt": "2026-07-04T01:09:14.279Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -223,6 +223,156 @@
             "label": "互动热度",
             "text": "该推文获得 1068 个喜欢、66 次转发和 175 条回复，显示社区对新模型访问政策的高度关注。",
             "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2072731500928508331:f95ccd39d80a2df5": {
+      "itemId": "tweet:2072731500928508331",
+      "sourceHash": "f95ccd39d80a2df5",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Cat Wu：Claude Tag is unlocking productivity across our entire org: eng, product, data,...",
+      "url": "https://x.com/_catwu/status/2072731500928508331",
+      "generatedAt": "2026-07-04T01:07:44.893Z",
+      "summary": {
+        "title": "Cat Wu：Claude Tag 正在全组织释放生产力，内部版已覆盖 65% 产品 PR",
+        "summary": "Cat Wu 在推文中分享了 Claude Tag 在其公司内部全面推广的成效。该工具已渗透到工程、产品、数据、销售、市场等多个部门，显著提升生产力。最亮眼的数据是，内部版本的 Claude Tag 已能独立完成 65% 的产品 PR（Pull Request）。推文还提到，公司 CEO/CTO 制定了详细的推广策略，并从第一天起就将安全设计融入系统，这预示着未来工作模式的变革。这条推文因其具体的数据和跨部门应用案例，为 AI 工具在企业级落地提供了有力参考。",
+        "excerpts": [
+          {
+            "label": "核心数据",
+            "text": "内部版本的 Claude Tag 已能独立完成 65% 的产品 PR。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "应用范围",
+            "text": "Claude Tag 正在全组织释放生产力，覆盖工程、产品、数据、销售、市场等部门。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "推广策略",
+            "text": "公司 CEO/CTO 制定了详细的推广策略（playbook），确保工具顺利铺开。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "安全设计",
+            "text": "安全从第一天起就被设计进系统，而非事后补救。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "未来展望",
+            "text": "这预示着未来工作模式的深刻变革。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:ee5028a8-75be-11f1-bab0-67711adf1682:e37a9ea054c01a79": {
+      "itemId": "podcast:ee5028a8-75be-11f1-bab0-67711adf1682",
+      "sourceHash": "e37a9ea054c01a79",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "No Priors: How Nuclear Will Unlock Energy Abundance with Valar Atomics Founder Isaiah Taylor",
+      "url": "https://www.youtube.com/watch?v=5Xvbq_zvOQ4",
+      "generatedAt": "2026-07-04T01:09:04.292Z",
+      "summary": {
+        "title": "No Priors: Valar Atomics 创始人 Isaiah Taylor 谈核能如何解锁能源丰裕",
+        "summary": "Valar Atomics 创始人 Isaiah Taylor 在 No Priors 播客中阐述了公司通过制造而非建造的方式，实现核反应堆的大规模生产，目标是将能源成本降低10倍。Taylor 因对核能行业进展缓慢感到沮丧而创立公司，其曾祖父是曼哈顿计划的核物理学家。他指出，美国在1970年代因三哩岛事故的公关失败而停止建造反应堆，重启核能需要从土木基建转向先进制造，并通过硬件迭代而非仅依赖建模与仿真。Valar Atomics 利用美国能源部（DOE）的测试路径，在特朗普行政命令下启动了50多年来美国首个 TRISO 反应堆，并计划演示紧急停堆后依靠被动冷却实现无熔毁。Taylor 强调核能是经验上最安全的能源，先进反应堆通过降低事故后果而非仅降低概率来提升安全性。公司认为核能问题是硬件执行问题，追求简单、廉价、安全的设计，目标是制造数万个反应堆。成立不到三年，公司已实现首次临界和发电，成为自核裂变发现以来唯一实现核能发电的私营初创公司。反应堆采用模块化堡垒作为生物屏蔽，通过简化设计、选择固有安全架构和组建高度自主的团队实现快速迭代。公司为 NVIDIA Blackwell 芯片供电，并托管由核反应堆直接供电的网站。Valar 垂直整合关键组件，将反应堆保护系统成本从500万美元降至40万美元，耗时从2.5年缩短至6周。Taylor 批评现有核工业是虚假的行业，存在虚高成本和低效供应链，而 Valar 利用美国风险投资对技术风险的承受能力，通过股权融资建造反应堆，计划先独立建造吉瓦级站点，提供廉价电力，相信负荷会随之而来。公司的核心目标是速度和规模，通过内部节奏和“作战室”压缩时间线。Taylor 展望核能有望使能源成本降低千倍，随着 AI 和机器人技术发展，能源将成为所有商品成本的基础，使万物近乎免费。",
+        "excerpts": [
+          {
+            "label": "核能的福特时刻",
+            "text": "核能从未有过它的福特时刻或特斯拉时刻……这就是 Valar Atomics 正在努力实现的。我们拥有的核反应堆更多是制造出来的，而不是建造出来的……让人类的能源成本降低10倍。",
+            "reference": "02:05"
+          },
+          {
+            "label": "三哩岛事故的公关失败",
+            "text": "我们停止建造反应堆的原因很简单，就是三哩岛事故……没有人死亡，没有人受伤，公众没有受到辐射剂量，但这是一种被错误处理的公关和形象问题……公众变得恐惧，对核能失去了兴趣。",
+            "reference": "04:29 - 05:42"
+          },
+          {
+            "label": "核能是最安全的能源",
+            "text": "核能是经验上最安全的能源形式……它甚至比太阳能更安全……大多数太阳能安装在屋顶上，人们有时会从屋顶上摔下来死亡……实际上，每单位发电量导致的死亡人数比核能的总和还要高。",
+            "reference": "16:54 - 17:22"
+          },
+          {
+            "label": "硬件执行问题 vs 设计问题",
+            "text": "我会把核能公司分为两大类：一类认为核能本质上是硬件执行问题，另一类认为它是设计问题。Valar 坚定地站在认为这是硬件执行问题的阵营。",
+            "reference": "22:40 - 23:34"
+          },
+          {
+            "label": "唯一实现核能发电的私营初创公司",
+            "text": "Valar 是自核裂变发现以来唯一一家实现核能发电的私营公司……首个由初创公司建造的先进反应堆。",
+            "reference": "26:31 - 27:33"
+          },
+          {
+            "label": "垂直整合降低成本",
+            "text": "反应堆保护系统……报价约500万美元……我们花了大约40万美元……六周后，我们有了一个可用的 RPS。",
+            "reference": "44:13 - 46:30"
+          },
+          {
+            "label": "虚假的核工业",
+            "text": "无论你看向哪里，这都是一个虚假的行业，四十年来几乎没有建造任何东西，而他们所建造的那一点点，利润率高达100倍。",
+            "reference": "47:37 - 47:45"
+          },
+          {
+            "label": "能源成本降低的愿景",
+            "text": "随着 AI 的引入，我们实际上正在将人类投入要素转化为能源……能源将成为所有事物的成本……我们将能够使基本上所有东西都免费。",
+            "reference": "59:13 - 1:01:02"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2072741369848746315:cf3c25625f90d589": {
+      "itemId": "tweet:2072741369848746315",
+      "sourceHash": "cf3c25625f90d589",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：We've been explaining AI Gateway as a C̶o̶n̶t̶e̶n̶t̶ Token Delivery Network....",
+      "url": "https://x.com/rauchg/status/2072741369848746315",
+      "generatedAt": "2026-07-04T01:09:14.278Z",
+      "summary": {
+        "title": "Guillermo Rauch：AI Gateway 是 Token 交付网络，新规则实现动态模型路由",
+        "summary": "Guillermo Rauch 将 AI Gateway 重新定义为 Token 交付网络，类比 CDN 为 AI 模型提供动态路由和流量控制。当 Fable 模型突然退役时，团队担心生产负载受影响，因为模型退役在 GPU 资源竞争下很常见，但数据显示仍有大量生产流量使用旧模型版本。为此，AI Gateway 推出 Rules 功能，允许在不重新部署的情况下动态重写模型路由，例如将 Fable 请求重定向到 Opus。这扩展了 AI Gateway 恢复丢失 token 的能力，避免因 token 丢失导致收入和客户流失。该功能从 CLI 设计快速演进为生产级能力。",
+        "excerpts": [
+          {
+            "label": "核心类比",
+            "text": "AI Gateway 被解释为 Token 交付网络，就像 AI 模型的 CDN。",
+            "reference": "原文开头"
+          },
+          {
+            "label": "CDN 关键特性",
+            "text": "CDN 的一大特性是无需重新部署即可动态重新路由或拒绝流量。",
+            "reference": "原文"
+          },
+          {
+            "label": "模型退役的挑战",
+            "text": "当 Fable 突然退役时，我们担心依赖它的生产工作负载。即使不考虑 Fable，由于 GPU 容量竞争激烈，模型退役也相当常见。",
+            "reference": "原文"
+          },
+          {
+            "label": "数据洞察",
+            "text": "我们的数据显示，人们仍然有旧模型版本的快乐生产流量！",
+            "reference": "原文"
+          },
+          {
+            "label": "解决方案",
+            "text": "我们现在通过 AI Gateway Rules 解决这个问题，例如可以动态重写模型“路由”。",
+            "reference": "原文"
+          },
+          {
+            "label": "CLI 示例",
+            "text": "vercel ai-gateway rules add --type rewrite --source anthropic/claude-fable-5 --destination anthropic/claude-opus-5",
+            "reference": "原文"
+          },
+          {
+            "label": "商业价值",
+            "text": "这增加了 AI Gateway 恢复丢失 token 的能力。如果丢失 token，你就会损失收入和客户。",
+            "reference": "原文"
+          },
+          {
+            "label": "团队致谢",
+            "text": "Kudos to @rtaneja_ @crowprose @shaper – 我们从 CLI 设计到生产级能力非常快！",
+            "reference": "原文结尾"
           }
         ],
         "materials": []
