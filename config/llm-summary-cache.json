@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-05T01:15:34.435Z",
+  "updatedAt": "2026-07-06T01:15:00.869Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -503,6 +503,117 @@
             "label": "护城河构建",
             "text": "应用层是工作流变革管理的主要发生地，因此端到端解决客户特定业务问题的供应商将拥有最深的护城河。",
             "reference": "原文结尾部分"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2073554978053005607:7e9812d0c032d29e": {
+      "itemId": "tweet:2073554978053005607",
+      "sourceHash": "7e9812d0c032d29e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：A silly, but made me laugh interaction with Sol -----------------...",
+      "url": "https://x.com/thsottiaux/status/2073554978053005607",
+      "generatedAt": "2026-07-06T01:14:47.338Z",
+      "summary": {
+        "title": "Thibault Sottiaux 与 Sol 的搞笑敬礼互动",
+        "summary": "Thibault Sottiaux 分享了一段与 AI 助手 Sol 的幽默对话。他发送了大量敬礼表情（🫡），Sol 回应收到敬礼。随后 Sol 计算了表情数量（39个），并声称每个表情价值12，总价值468。当 Thibault 表示只有800预算时，Sol 计算出负332的债务，并严肃地解释无法物理上拥有负表情，但存在332个敬礼的债务。Thibault 又发送了39个敬礼表情作为还款，Sol 更新债务为293，并评论“敬礼经济是无情的”。这段互动因其荒诞的数学逻辑和 AI 的冷幽默而令人捧腹，展示了 AI 在非严肃场景下的创意反应。",
+        "excerpts": [
+          {
+            "label": "金句",
+            "text": "敬礼经济是无情的。",
+            "reference": "推文结尾 Sol 的评论"
+          },
+          {
+            "label": "案例",
+            "text": "Sol 将每个🫡表情赋值为12，并计算总价值，当预算不足时产生负值债务，形成荒诞的“敬礼经济”。",
+            "reference": "推文中 Sol 的计算过程"
+          },
+          {
+            "label": "观点",
+            "text": "Thibault 认为这段互动虽然愚蠢，但让他发笑，体现了 AI 在轻松对话中的幽默感。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "数据",
+            "text": "初始敬礼表情数量为39个，每个价值12，总价值468；预算800，债务-332；还款39个后债务降至293。",
+            "reference": "推文中 Sol 的数学计算"
+          },
+          {
+            "label": "类比",
+            "text": "Sol 将无法物理拥有负表情解释为“欠债”，类比现实中的债务概念。",
+            "reference": "推文中 Sol 的解释"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2073563586270781674:e9c07d4c571976c0": {
+      "itemId": "tweet:2073563586270781674",
+      "sourceHash": "e9c07d4c571976c0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：🏁 I animated the token 💰 spend race, from ~lifetime Vercel AI Gateway usage,...",
+      "url": "https://x.com/rauchg/status/2073563586270781674",
+      "generatedAt": "2026-07-06T01:14:54.279Z",
+      "summary": {
+        "title": "Vercel AI Gateway 代币消耗竞赛动画：Anthropic 主导与开源模型崛起",
+        "summary": "Vercel 创始人 Guillermo Rauch 发布了一段动画，展示了 Vercel AI Gateway 自上线以来累计的代币消耗竞赛。该网关每月聚合数百万开发者的数万亿代币使用量，动画直观呈现了各大 AI 实验室之间的代币消耗波动、Anthropic 的主导地位以及开源权重模型的崛起。这段动画基于真实使用数据，反映了开发者社区对各类模型的偏好变化，对于观察 AI 行业竞争格局具有参考价值。",
+        "excerpts": [
+          {
+            "label": "核心数据",
+            "text": "Vercel AI Gateway 每月聚合数百万开发者的数万亿代币使用量。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "关键发现",
+            "text": "动画显示了各实验室之间的代币消耗波动，Anthropic 占据主导地位，同时开源权重模型正在崛起。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "可视化形式",
+            "text": "Rauch 将代币消耗竞赛制作成动画，直观展示模型使用趋势的动态变化。",
+            "reference": "推文原文及链接视频"
+          }
+        ],
+        "materials": [
+          {
+            "label": "代币消耗竞赛动画",
+            "url": "https://t.co/iX8oRA4SBP",
+            "note": "动画视频展示了各大 AI 模型在 Vercel AI Gateway 上的累计代币消耗变化，可观察 Anthropic、OpenAI、Google 等实验室的份额波动及开源模型的增长。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2073439890482794966:4b236075df42586d": {
+      "itemId": "tweet:2073439890482794966",
+      "sourceHash": "4b236075df42586d",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Cat Wu：One of the things I love about Claude Fable 5 is that it knew to use propensity...",
+      "url": "https://x.com/_catwu/status/2073439890482794966",
+      "generatedAt": "2026-07-06T01:15:00.868Z",
+      "summary": {
+        "title": "Cat Wu 称赞 Claude Fable 5 的主动判断力：无需提示即采用倾向得分匹配进行留存分析",
+        "summary": "Cat Wu 在推文中分享了她对 Claude Fable 5 的喜爱之处：在进行用户留存分析时，Claude Fable 5 在没有被明确要求的情况下，主动使用了倾向得分匹配（propensity score matching）方法，通过匹配用户活跃度来确保比较的是相似用户，从而得出更可靠的结论。她认为这体现了 Fable 5 在各类工作中判断力的全面提升，无论是撰写邮件、文档，还是调试复杂代码。这条推文获得了 484 个赞和 58 条回复，反映出社区对 AI 主动运用专业统计方法的兴奋与认可。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "Claude Fable 5 在没有提示的情况下，主动在留存分析中使用了倾向得分匹配，以匹配用户活跃度，确保同类比较。",
+            "reference": "原文"
+          },
+          {
+            "label": "金句",
+            "text": "It’s exciting to see Fable 5’s improved judgment across all of its work, from writing emails and docs in Cowork to debugging complex errors in Claude Code.",
+            "reference": "原文"
+          },
+          {
+            "label": "案例",
+            "text": "在留存分析中，Claude Fable 5 自动采用倾向得分匹配，通过匹配用户活跃度来比较相似用户，无需用户明确要求。",
+            "reference": "原文"
+          },
+          {
+            "label": "数据",
+            "text": "推文互动数据：484 个赞，9 次转发，58 条回复。",
+            "reference": "互动数据"
           }
         ],
         "materials": []

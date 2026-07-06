@@ -972,7 +972,127 @@
       "title": "Garry Tan：Wait time for specialists is going up at a moment AI is about to change it all...",
       "url": "https://x.com/garrytan/status/2073053799791710301",
       "sentAt": "2026-07-05T01:15:36.935Z"
+    },
+    "tweet:2073551549494596079": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：What is something that you feel is surprising that Codex still can't do well...",
+      "url": "https://x.com/thsottiaux/status/2073551549494596079",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "topic:Thibault Sottiaux：What is something that you feel is surprising that Codex still can't do well...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：What is something that you feel is surprising that Codex still can't do well...",
+      "url": "https://x.com/thsottiaux/status/2073551549494596079",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "tweet:2073635910512726444": {
+      "type": "tweet",
+      "title": "Sam Altman：grateful to the people that created the idea of america, everyone who built it...",
+      "url": "https://x.com/sama/status/2073635910512726444",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "topic:Sam Altman：grateful to the people that created the idea of america, everyone who built it...": {
+      "type": "topic",
+      "title": "Sam Altman：grateful to the people that created the idea of america, everyone who built it...",
+      "url": "https://x.com/sama/status/2073635910512726444",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "tweet:2073554978053005607": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：A silly, but made me laugh interaction with Sol -----------------...",
+      "url": "https://x.com/thsottiaux/status/2073554978053005607",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "topic:Thibault Sottiaux：A silly, but made me laugh interaction with Sol -----------------...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：A silly, but made me laugh interaction with Sol -----------------...",
+      "url": "https://x.com/thsottiaux/status/2073554978053005607",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "tweet:2073563586270781674": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：🏁 I animated the token 💰 spend race, from ~lifetime Vercel AI Gateway usage,...",
+      "url": "https://x.com/rauchg/status/2073563586270781674",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "topic:Guillermo Rauch：🏁 I animated the token 💰 spend race, from ~lifetime Vercel AI Gateway usage,...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：🏁 I animated the token 💰 spend race, from ~lifetime Vercel AI Gateway usage,...",
+      "url": "https://x.com/rauchg/status/2073563586270781674",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "tweet:2073636003215249515": {
+      "type": "tweet",
+      "title": "Sam Altman：they really nailed it with \"life, liberty, and the pursuit of happiness\"",
+      "url": "https://x.com/sama/status/2073636003215249515",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "topic:Sam Altman：they really nailed it with \"life, liberty, and the pursuit of happiness\"": {
+      "type": "topic",
+      "title": "Sam Altman：they really nailed it with \"life, liberty, and the pursuit of happiness\"",
+      "url": "https://x.com/sama/status/2073636003215249515",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "tweet:2073506928773185551": {
+      "type": "tweet",
+      "title": "Matt Turck：Chills - Thierry Henry on growing up playing in the suburbs of Paris (and why...",
+      "url": "https://x.com/mattturck/status/2073506928773185551",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "topic:Matt Turck：Chills - Thierry Henry on growing up playing in the suburbs of Paris (and why...": {
+      "type": "topic",
+      "title": "Matt Turck：Chills - Thierry Henry on growing up playing in the suburbs of Paris (and why...",
+      "url": "https://x.com/mattturck/status/2073506928773185551",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "tweet:2073482942513565713": {
+      "type": "tweet",
+      "title": "Peter Steinberger：In the next version of https://t.co/B1RkFJhhSH - see exactly when you resets...",
+      "url": "https://x.com/steipete/status/2073482942513565713",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "topic:Peter Steinberger：In the next version of https://t.co/B1RkFJhhSH - see exactly when you resets...": {
+      "type": "topic",
+      "title": "Peter Steinberger：In the next version of https://t.co/B1RkFJhhSH - see exactly when you resets...",
+      "url": "https://x.com/steipete/status/2073482942513565713",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "tweet:2073439890482794966": {
+      "type": "tweet",
+      "title": "Cat Wu：One of the things I love about Claude Fable 5 is that it knew to use propensity...",
+      "url": "https://x.com/_catwu/status/2073439890482794966",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "topic:Cat Wu：One of the things I love about Claude Fable 5 is that it knew to use propensity...": {
+      "type": "topic",
+      "title": "Cat Wu：One of the things I love about Claude Fable 5 is that it knew to use propensity...",
+      "url": "https://x.com/_catwu/status/2073439890482794966",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "tweet:2073410944969932877": {
+      "type": "tweet",
+      "title": "Nan Yu：If you drop every production table does the model get fired or do you get...",
+      "url": "https://x.com/thenanyu/status/2073410944969932877",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "topic:Nan Yu：If you drop every production table does the model get fired or do you get...": {
+      "type": "topic",
+      "title": "Nan Yu：If you drop every production table does the model get fired or do you get...",
+      "url": "https://x.com/thenanyu/status/2073410944969932877",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "tweet:2073565412336308699": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：iykyk https://t.co/irvzysRIpT",
+      "url": "https://x.com/thsottiaux/status/2073565412336308699",
+      "sentAt": "2026-07-06T01:15:02.744Z"
+    },
+    "topic:Thibault Sottiaux：iykyk https://t.co/irvzysRIpT": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：iykyk https://t.co/irvzysRIpT",
+      "url": "https://x.com/thsottiaux/status/2073565412336308699",
+      "sentAt": "2026-07-06T01:15:02.744Z"
     }
   },
-  "updatedAt": "2026-07-05T01:15:36.935Z"
+  "updatedAt": "2026-07-06T01:15:02.744Z"
 }
