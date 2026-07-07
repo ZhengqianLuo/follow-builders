@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-06T01:15:00.869Z",
+  "updatedAt": "2026-07-07T01:16:07.333Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -614,6 +614,71 @@
             "label": "数据",
             "text": "推文互动数据：484 个赞，9 次转发，58 条回复。",
             "reference": "互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2073806626965049686:871493b2789e6069": {
+      "itemId": "tweet:2073806626965049686",
+      "sourceHash": "871493b2789e6069",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Cat Wu：what are your top claude code + workflows + artifacts use cases? one of my new...",
+      "url": "https://x.com/_catwu/status/2073806626965049686",
+      "generatedAt": "2026-07-07T01:15:57.569Z",
+      "summary": {
+        "title": "Cat Wu 分享 Claude Code + 工作流 + Artifacts 的顶级用例：自动化候选人搜寻",
+        "summary": "Cat Wu 在推文中询问大家最常用的 Claude Code、工作流和 Artifacts 组合用例，并分享了自己最近最喜欢的一个：用于招聘候选人搜寻。具体流程是：向 Claude Code 描述职位和期望的候选人背景，要求它启动一个动态工作流，找到 100 名候选人，并为每位候选人提供 LinkedIn、Twitter、博客、播客链接以及一句话推荐语。然后让 Claude Code 生成一个 Artifact 并通过邮件发送给自己。之后她就可以锁上电脑外出，在路上查看完成的列表。这个用例展示了如何利用 Claude Code 的自动化能力，将耗时的手动搜寻工作转变为后台任务，大幅提升效率。推文获得了 555 个喜欢、22 次转发和 92 条回复，说明社区对此类实用工作流有浓厚兴趣。",
+        "excerpts": [
+          {
+            "label": "核心用例",
+            "text": "我最喜欢的新用例是用于搜寻候选人：告诉 Claude Code 职位和想要的背景，让它启动动态工作流找 100 名候选人，包括 LinkedIn、Twitter、博客、播客和一句话推荐，然后生成 Artifact 并邮件给我。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "工作流自动化",
+            "text": "我锁上笔记本电脑，外出一天，等 Claude Code 完成后在路上查看列表。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "社区互动",
+            "text": "推文获得 555 个喜欢、22 次转发和 92 条回复，显示社区对 Claude Code 工作流的高度关注。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2073903310982218088:307481d228e8b6c1": {
+      "itemId": "tweet:2073903310982218088",
+      "sourceHash": "307481d228e8b6c1",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：Still waiting on that one founder who gates a VC chat until they have played...",
+      "url": "https://x.com/nikunj/status/2073903310982218088",
+      "generatedAt": "2026-07-07T01:16:07.332Z",
+      "summary": {
+        "title": "Nikunj Kothari：创始人，请让VC先玩产品再聊",
+        "summary": "Nikunj Kothari 在这条推文中表达了对当前创投沟通方式的不满。他认为，创始人在与VC会面时，应该要求对方先实际体验产品并带来至少两条反馈，而不是在Zoom上对着千篇一律的PPT重复宣讲30分钟。他指出，这种模式效率低下，双方都无法获得真正的洞见，不如直接进行产品头脑风暴，或者干脆花时间互相了解。他质疑这种做法的普遍性，并调侃说，既然都是重复同样的故事，不如让双方把各自的“提示词”上传给Claude来数字化完成。这条推文引发了关于创投沟通效率的讨论，核心观点是：产品体验和深度互动远比照本宣科的演示更有价值。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "还在等那个创始人，他会把VC的聊天门槛设为：先玩过产品，并带来至少两条反馈。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "现象批评",
+            "text": "让我震惊的是，人们整天在Zoom上对着复读机式的PPT聊30分钟——这本可以是一场更有成效的产品头脑风暴。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "替代方案",
+            "text": "或者更好的是，干脆把整个时间花在互相了解上。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "效率调侃",
+            "text": "从听同一个故事中你能得到什么阿尔法？对双方来说，更高效的方式是把各自的‘提示词’上传给Claude，让数字方式来完成这件事。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
