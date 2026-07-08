@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-07T01:16:07.333Z",
+  "updatedAt": "2026-07-08T00:58:50.817Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -679,6 +679,131 @@
             "label": "效率调侃",
             "text": "从听同一个故事中你能得到什么阿尔法？对双方来说，更高效的方式是把各自的‘提示词’上传给Claude，让数字方式来完成这件事。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2074304295097561490:3c08f63bb33c4c85": {
+      "itemId": "tweet:2074304295097561490",
+      "sourceHash": "3c08f63bb33c4c85",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Zara Zhang：If you wanna level up as an AI builder, binge watch the talks from these 3...",
+      "url": "https://x.com/zarazhangrui/status/2074304295097561490",
+      "generatedAt": "2026-07-08T00:58:29.898Z",
+      "summary": {
+        "title": "Zara Zhang：想成为顶尖AI开发者？这三场大会的演讲值得你反复观看",
+        "summary": "Zara Zhang 推荐了三场近期结束的高质量AI大会演讲视频，认为这是在家免费学习领域最佳实践的绝佳资源。她指出，这些大会门票通常数百美元，但演讲视频在YouTube上公开后观看量却不高，严重被低估。她推荐的会议包括AI Engineer、Cursor Compile和Figma Config，涵盖AI工程、AI编程工具和设计工具中的AI应用。她强调，在线观看体验甚至优于现场：无噪音、无遮挡、无干扰，还能暂停做笔记。这条推文获得了535个赞和68次转发，反映出AI开发者社区对高质量学习资源的渴求。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "如果你想作为AI开发者提升水平，应该反复观看这三场大会的演讲，它们刚刚结束，你可以在家舒适地学习领域内最优秀的人的经验。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "推荐资源",
+            "text": "三场大会分别是：AI Engineer (@aiDotEngineer)、Cursor Compile (@cursor_ai) 和 Figma Config。",
+            "reference": "推文中部"
+          },
+          {
+            "label": "价值对比",
+            "text": "这些高质量知识在互联网上免费分享，而大会门票通常要数百美元，但大多数视频只有几万次观看，令人惊讶。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "观看体验",
+            "text": "在YouTube上观看可能比亲临现场更好：没有糟糕的音频，没有人群遮挡屏幕，没有干扰，还可以暂停做笔记。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "社区反馈",
+            "text": "推文获得535个赞、68次转发和18条回复，显示社区对免费学习资源的认可。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2074163686990913576:c03622909332178d": {
+      "itemId": "tweet:2074163686990913576",
+      "sourceHash": "c03622909332178d",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Great post on how to think about open source AI and the applied AI layer. Two...",
+      "url": "https://x.com/levie/status/2074163686990913576",
+      "generatedAt": "2026-07-08T00:58:37.783Z",
+      "summary": {
+        "title": "Aaron Levie 谈开源 AI 与应用层：前沿模型与专用模型将长期共存",
+        "summary": "Aaron Levie 在推文中评论了一篇关于开源 AI 和应用层的文章，指出 AI 领域两个长期趋势：前沿智能模型将继续解决全新用例并负责复杂工作流的编排规划；同时，随着企业用例成熟，可将部分 token 迁移至低成本的开源或闭源模型，或针对特定任务训练的模型。但过早优化不明智，因为初期不清楚优化目标，导致存在滞后。这一过程可无限持续，因为前沿智能和调优模型的好处没有终点，两者的支出和 token 量都将持续增长。关键在于应用 AI 层能有效评估特定领域的工作流，混合使用多种模型，并在规模足够时训练自有模型，从而推动这一动态循环。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 领域两件事永远成立：前沿智能将继续解决全新用例，并常用于复杂工作流的编排规划；同时，随着用例成熟，可将部分 token 迁移至低成本模型或专用模型。",
+            "reference": "原文"
+          },
+          {
+            "label": "关键论证",
+            "text": "在用例采用曲线早期进行优化没有意义，因为不知道优化目标，所以总会存在滞后。",
+            "reference": "原文"
+          },
+          {
+            "label": "趋势判断",
+            "text": "前沿智能和调优模型的好处没有尽头，因此两者的支出和 token 量将在未来多年持续增长。",
+            "reference": "原文"
+          },
+          {
+            "label": "驱动因素",
+            "text": "应用 AI 层能够有效评估特定领域的工作流，混合使用多种模型，并在规模足够时训练自有模型，这是上述动态得以实现的原因。",
+            "reference": "原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2074222247548735996:5e66c53f22246809": {
+      "itemId": "tweet:2074222247548735996",
+      "sourceHash": "5e66c53f22246809",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：The ultimate test for coding AI: is software as a whole getting better? Are...",
+      "url": "https://x.com/rauchg/status/2074222247548735996",
+      "generatedAt": "2026-07-08T00:58:50.816Z",
+      "summary": {
+        "title": "Guillermo Rauch：AI 编程的终极考验是软件整体是否在变好",
+        "summary": "Guillermo Rauch 在推文中提出，衡量 AI 编程能力的终极标准不是代码生成速度，而是软件整体质量是否提升、公司交付是否加快、是否出现了以前无法想象的应用，以及软件是否无缺陷。他分享个人体验：AI 极大提高了他的生产力，让他感受到前所未有的自主性和创造力，能够即时与同事沟通愿景，并为自己构建了大量个人软件。在 Vercel，CTO 利用 AI 代理自主开发出具有行业影响力的实用软件；产品团队能更快交付和修复缺陷；初级工程师和实习生也能大规模交付高质量软件。他本人借助 CLI 或 v0 等 AI 工具紧跟产品更新，快速构建演示、应用和基准测试。最终，他关注的核心指标是用户对产品的喜爱程度、使用扩展和口碑推荐，同时强调会认真对待 token 成本，但从未宣扬“tokenmaxxx”之类的口号。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "AI 编程的终极考验：软件整体是否在变好？公司交付是否更快？是否出现了以前无法想象的应用？软件是否无缺陷？",
+            "reference": "推文开头"
+          },
+          {
+            "label": "个人体验",
+            "text": "我影响自己生产力的能力急剧提升，感受到前所未有的自主性和创造力，可以自由创造和执行，并能即时与同事沟通愿景。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "个人软件是真实且巨大的胜利，我为自己编写了一堆 Web 工具和 macOS 应用。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "在 Vercel，CTO @cramforce 利用大量 AI 代理几乎自主地开发出具有行业影响力的实用软件。",
+            "reference": "推文中段，附有三个链接"
+          },
+          {
+            "label": "案例",
+            "text": "我们的产品团队用 AI 交付软件和修复缺陷，初级工程师和实习生也能大规模交付高质量软件。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "观点",
+            "text": "最终评判标准是人们是否喜爱我们的产品、扩大使用、向朋友和同事推荐平台。这是我关注的主要指标。",
+            "reference": "推文末尾"
+          },
+          {
+            "label": "观点",
+            "text": "我们认真对待 token 成本，就像对待任何基础设施支出一样……从未有过“tokenmaxxx”的宣言。",
+            "reference": "推文末尾"
           }
         ],
         "materials": []
