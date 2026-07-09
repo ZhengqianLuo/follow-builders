@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-08T00:58:50.817Z",
+  "updatedAt": "2026-07-09T01:09:33.739Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -804,6 +804,96 @@
             "label": "观点",
             "text": "我们认真对待 token 成本，就像对待任何基础设施支出一样……从未有过“tokenmaxxx”的宣言。",
             "reference": "推文末尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2074523653488947338:f7c82d94a3789c84": {
+      "itemId": "tweet:2074523653488947338",
+      "sourceHash": "f7c82d94a3789c84",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Welcome @bekacru to Vercel. It's a privilege to join forces with Bereket and...",
+      "url": "https://x.com/rauchg/status/2074523653488947338",
+      "generatedAt": "2026-07-09T01:09:20.860Z",
+      "summary": {
+        "title": "Guillermo Rauch 宣布 Better Auth 创始人加入 Vercel，推进开放 SDK 愿景",
+        "summary": "Vercel 创始人 Guillermo Rauch 在 X 上宣布，Better Auth 的创建者 Bereket（@bekacru）正式加入 Vercel。Rauch 表示，与 Bereket 及其项目 Better Auth 联手是一种荣幸，这将进一步推动 Vercel 的开放 SDK 愿景。他认为开发者值得拥有更好的身份验证方案，既能服务人类用户，也能服务 AI 代理，并且应以开放、有品味的方式构建。这正是 Bereket 所取得的成就。该推文获得了 955 个点赞、43 次转发和 59 条回复，显示出社区对此次人才收购和开源项目整合的高度关注。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Guillermo Rauch 认为开发者值得拥有更好的身份验证方案，既能服务人类，也能服务 AI 代理，并且应以开放、有品味的方式构建。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "“Developers deserve better auth, to serve humans and agents, built in the open and with taste.”",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "Better Auth 是一个开源身份验证库，其创建者 Bereket 因该项目被 Vercel 看中并加入团队。",
+            "reference": "推文提及 @bekacru 和 Better Auth"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 955 个点赞、43 次转发和 59 条回复，显示高社区关注度。",
+            "reference": "推文互动数据"
+          },
+          {
+            "label": "类比",
+            "text": "Rauch 将 Better Auth 的加入视为 Vercel 开放 SDK 愿景的进一步推进，类似于通过收购优秀开源项目来强化平台生态。",
+            "reference": "推文提及“Open SDK vision”"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2074719479377109312:7cadd1ea56a3be1c": {
+      "itemId": "tweet:2074719479377109312",
+      "sourceHash": "7cadd1ea56a3be1c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Just coming off of meetings with a couple dozen enterprise IT leaders...",
+      "url": "https://x.com/levie/status/2074719479377109312",
+      "generatedAt": "2026-07-09T01:09:33.738Z",
+      "summary": {
+        "title": "Aaron Levie 与企业 IT 领袖谈 AI 代理：七大核心洞察",
+        "summary": "Box 联合创始人 Aaron Levie 在与数十位企业 IT 领袖会面后，总结了关于 AI 代理的七大共同主题。首先，企业必须解决运营模式挑战，因为代理在跨部门流程中最有效，但传统组织是孤岛式的，需要思考如何部署和管理跨边界代理。其次，数据碎片化仍是主要障碍，结构化与非结构化数据的分散和不标准导致代理无法给出准确或符合业务实践的答案。第三，企业需要明确未来的核心数据护城河，因为当模型智能趋同时，喂给模型的上下文将成为专有价值。第四，大家都在寻找衡量 AI 采用率的正确指标，普遍认为 token 不是合适指标，更倾向于业务成果，但业务成果难以自上而下管理。第五，企业将生活在多模型世界中，对能按成本或性能路由工作负载的层感兴趣，同时也在区分哪些直接交给模型、哪些作为可替换的水平系统。第六，推动 AI 采用和实施的人才仍然严重短缺，多数企业认为必须内部培训，这为擅长部署和管理代理的人创造了巨大机会。第七，最佳 AI 用例是那些从根本上改变工作方式的，而非仅仅替代现有流程并提高效率，各行业正在探索各自的版本。整体来看，变化巨大且未来还有更多。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "你必须解决运营模式挑战才能获得 AI 的全部好处。大多数公司的组织一直以孤岛方式运作，但代理在绑定到流程时最有效，而流程往往跨越这些孤岛。因此，大问题是如何开始部署可以跨组织边界工作的集中管理代理。",
+            "reference": "原文第1点"
+          },
+          {
+            "label": "关键障碍",
+            "text": "数据碎片化仍然是大多数组织的主要问题。只要数据高度碎片化且格式不标准，或者数据无法被正确的人和代理获取，企业就会面临代理无法给出准确或符合业务实践的答案的问题。这既涉及结构化数据（产品指标或收入数字），也涉及非结构化数据（产品路线图或客户合同）。",
+            "reference": "原文第2点"
+          },
+          {
+            "label": "战略洞察",
+            "text": "企业需要弄清楚未来自己的核心数据护城河是什么。如果每个人都能从各种模型中获得大致相同的超级智能，那么你喂给模型的上下文就成为未来的专有价值。捕获这些数据并将其转化为代理可用的格式变得非常重要。",
+            "reference": "原文第3点"
+          },
+          {
+            "label": "指标困境",
+            "text": "普遍共识是 token 本身不是正确的指标，人们更倾向于业务成果（理想情况下）。但对于业务成果（如更多收入或更多产品出货），你必须贴近每个工作流，才能判断它是否被 AI 成功改造，因此更难自上而下管理。",
+            "reference": "原文第4点"
+          },
+          {
+            "label": "架构趋势",
+            "text": "越来越多的观点认为企业将生活在多模型世界中。人们对能够出于成本或性能原因将工作负载路由到不同模型（前沿模型或开放权重模型）的层很感兴趣，尽管实际采用还处于早期。同时，企业也在试图弄清楚哪些事情直接交给模型，哪些作为水平系统和上下文分离出来，以便可以任意替换系统。",
+            "reference": "原文第5点"
+          },
+          {
+            "label": "人才缺口",
+            "text": "推动 AI 采用和实施的人才仍然是一个主要问题和话题。许多人认为由于外部受过这方面培训的人才短缺，你必须在内部进行培训。顺便说一句，对于那些非常擅长在企业中部署和管理代理的人来说，这似乎仍然是一个巨大的机会，因为大多数公司都在寻找这些技能。",
+            "reference": "原文第6点"
+          },
+          {
+            "label": "最佳用例",
+            "text": "AI 的最佳用例往往是那些从根本上改变正在完成的工作的，而不仅仅是替代现有流程并更高效地完成它。公司正在各自探索自己的版本，因为这因行业而异，但这通常仍然是 AI 最令人兴奋且上升空间最大的用途。",
+            "reference": "原文第7点"
           }
         ],
         "materials": []
