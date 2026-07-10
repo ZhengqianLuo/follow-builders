@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-09T01:09:33.739Z",
+  "updatedAt": "2026-07-10T01:08:06.381Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -894,6 +894,56 @@
             "label": "最佳用例",
             "text": "AI 的最佳用例往往是那些从根本上改变正在完成的工作的，而不仅仅是替代现有流程并更高效地完成它。公司正在各自探索自己的版本，因为这因行业而异，但这通常仍然是 AI 最令人兴奋且上升空间最大的用途。",
             "reference": "原文第7点"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2074997570317779038:07430ec097ec346c": {
+      "itemId": "tweet:2074997570317779038",
+      "sourceHash": "07430ec097ec346c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Boris Cherny：New in Claude Code: /checkup Run /checkup to: 1. Clean up unused...",
+      "url": "https://x.com/bcherny/status/2074997570317779038",
+      "generatedAt": "2026-07-10T01:08:06.381Z",
+      "summary": {
+        "title": "Claude Code 新增 /checkup 命令：一键优化开发环境",
+        "summary": "Boris Cherny 宣布 Claude Code 新增 /checkup 命令，旨在帮助开发者自动清理和优化 Claude Code 工作环境。该命令可执行多项任务：清理未使用的 skills、MCP 服务器和插件以节省上下文；对本地 CLAUDE.md 与仓库中的 CLAUDE.md 进行去重；将根目录的 CLAUDE.md 拆分为嵌套的 CLAUDE.md 和 skills；关闭运行缓慢的 hooks；更新 Claude Code 至最新版本；默认启用自动模式；预批准经常被拒绝的只读命令等。所有更改在执行前都会与用户确认，确保安全可控。这一功能显著提升了开发效率，减少了手动维护的繁琐工作。",
+        "excerpts": [
+          {
+            "label": "核心功能",
+            "text": "/checkup 命令可清理未使用的 skills、MCP 服务器和插件，节省上下文窗口。",
+            "reference": "原文第1点"
+          },
+          {
+            "label": "配置去重",
+            "text": "自动对本地 CLAUDE.md 与仓库中的 CLAUDE.md 进行去重，避免配置冲突。",
+            "reference": "原文第2点"
+          },
+          {
+            "label": "文件拆分",
+            "text": "将根目录的 CLAUDE.md 拆分为嵌套的 CLAUDE.md 和 skills，使项目结构更清晰。",
+            "reference": "原文第3点"
+          },
+          {
+            "label": "性能优化",
+            "text": "关闭运行缓慢的 hooks，提升 Claude Code 响应速度。",
+            "reference": "原文第4点"
+          },
+          {
+            "label": "自动更新与模式",
+            "text": "更新 Claude Code 至最新版本，并默认启用自动模式，减少手动操作。",
+            "reference": "原文第5、6点"
+          },
+          {
+            "label": "权限预批准",
+            "text": "预批准经常被拒绝的只读命令，避免重复确认，提高工作流效率。",
+            "reference": "原文第7点"
+          },
+          {
+            "label": "安全确认",
+            "text": "所有更改在执行前都会与用户确认，确保不会意外修改环境。",
+            "reference": "原文末尾"
           }
         ],
         "materials": []
