@@ -1572,7 +1572,127 @@
       "title": "Thariq：this should be a huge update in your model of software engineering: rewrites...",
       "url": "https://x.com/trq212/status/2074993112217461020",
       "sentAt": "2026-07-10T01:08:08.680Z"
+    },
+    "tweet:2075267201058426944": {
+      "type": "tweet",
+      "title": "Sam Altman：we have heard enterprises on their concerns about AI costs, and 5.6 sol is a...",
+      "url": "https://x.com/sama/status/2075267201058426944",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "topic:Sam Altman：we have heard enterprises on their concerns about AI costs, and 5.6 sol is a...": {
+      "type": "topic",
+      "title": "Sam Altman：we have heard enterprises on their concerns about AI costs, and 5.6 sol is a...",
+      "url": "https://x.com/sama/status/2075267201058426944",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "tweet:2075452680760443190": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：To celebrate the launch of GPT-5.6 Sol, we will reset the rate limits again...",
+      "url": "https://x.com/thsottiaux/status/2075452680760443190",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "topic:Thibault Sottiaux：To celebrate the launch of GPT-5.6 Sol, we will reset the rate limits again...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：To celebrate the launch of GPT-5.6 Sol, we will reset the rate limits again...",
+      "url": "https://x.com/thsottiaux/status/2075452680760443190",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "tweet:2075354679031067058": {
+      "type": "tweet",
+      "title": "Sam Altman：i am really sad about this and very grateful for all fidji has done for openai,...",
+      "url": "https://x.com/sama/status/2075354679031067058",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "topic:Sam Altman：i am really sad about this and very grateful for all fidji has done for openai,...": {
+      "type": "topic",
+      "title": "Sam Altman：i am really sad about this and very grateful for all fidji has done for openai,...",
+      "url": "https://x.com/sama/status/2075354679031067058",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "tweet:2075280416995705312": {
+      "type": "tweet",
+      "title": "Thariq：Enjoy more Fable! https://t.co/DHXH1stWma",
+      "url": "https://x.com/trq212/status/2075280416995705312",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "topic:Thariq：Enjoy more Fable! https://t.co/DHXH1stWma": {
+      "type": "topic",
+      "title": "Thariq：Enjoy more Fable! https://t.co/DHXH1stWma",
+      "url": "https://x.com/trq212/status/2075280416995705312",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "tweet:2075330198887940337": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Enjoy a full reset of your usage limits for ChatGPT Work and Codex. Propagating...",
+      "url": "https://x.com/thsottiaux/status/2075330198887940337",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "topic:Thibault Sottiaux：Enjoy a full reset of your usage limits for ChatGPT Work and Codex. Propagating...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Enjoy a full reset of your usage limits for ChatGPT Work and Codex. Propagating...",
+      "url": "https://x.com/thsottiaux/status/2075330198887940337",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "tweet:2075293792048136572": {
+      "type": "tweet",
+      "title": "Sam Altman：check this out! you can get some amazing things done. codex is the core of our...",
+      "url": "https://x.com/sama/status/2075293792048136572",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "topic:Sam Altman：check this out! you can get some amazing things done. codex is the core of our...": {
+      "type": "topic",
+      "title": "Sam Altman：check this out! you can get some amazing things done. codex is the core of our...",
+      "url": "https://x.com/sama/status/2075293792048136572",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "tweet:2075241749048401936": {
+      "type": "tweet",
+      "title": "Josh Woodward：Thanks to the 1,400+ replies in the first 12 hours! I read all of them last...",
+      "url": "https://x.com/joshwoodward/status/2075241749048401936",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "topic:Josh Woodward：Thanks to the 1,400+ replies in the first 12 hours! I read all of them last...": {
+      "type": "topic",
+      "title": "Josh Woodward：Thanks to the 1,400+ replies in the first 12 hours! I read all of them last...",
+      "url": "https://x.com/joshwoodward/status/2075241749048401936",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "tweet:2075255565627080813": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：X is the arena. Always has been",
+      "url": "https://x.com/rauchg/status/2075255565627080813",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "topic:Guillermo Rauch：X is the arena. Always has been": {
+      "type": "topic",
+      "title": "Guillermo Rauch：X is the arena. Always has been",
+      "url": "https://x.com/rauchg/status/2075255565627080813",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "tweet:2075243087325217038": {
+      "type": "tweet",
+      "title": "Madhu Guru：Personal update: I’ve joined @Meta to build AI products. While SWE agents have...",
+      "url": "https://x.com/realmadhuguru/status/2075243087325217038",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "topic:Madhu Guru：Personal update: I’ve joined @Meta to build AI products. While SWE agents have...": {
+      "type": "topic",
+      "title": "Madhu Guru：Personal update: I’ve joined @Meta to build AI products. While SWE agents have...",
+      "url": "https://x.com/realmadhuguru/status/2075243087325217038",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "tweet:2075413916491075755": {
+      "type": "tweet",
+      "title": "Amjad Masad：It’s fantastic to see how dynamic the LLM market has become in just a short...",
+      "url": "https://x.com/amasad/status/2075413916491075755",
+      "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "topic:Amjad Masad：It’s fantastic to see how dynamic the LLM market has become in just a short...": {
+      "type": "topic",
+      "title": "Amjad Masad：It’s fantastic to see how dynamic the LLM market has become in just a short...",
+      "url": "https://x.com/amasad/status/2075413916491075755",
+      "sentAt": "2026-07-11T00:56:04.785Z"
     }
   },
-  "updatedAt": "2026-07-10T01:08:08.680Z"
+  "updatedAt": "2026-07-11T00:56:04.785Z"
 }

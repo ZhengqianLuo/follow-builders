@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-10T01:08:06.381Z",
+  "updatedAt": "2026-07-11T00:56:02.106Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -944,6 +944,61 @@
             "label": "安全确认",
             "text": "所有更改在执行前都会与用户确认，确保不会意外修改环境。",
             "reference": "原文末尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2075241749048401936:40a9accdaf1e7b44": {
+      "itemId": "tweet:2075241749048401936",
+      "sourceHash": "40a9accdaf1e7b44",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Josh Woodward：Thanks to the 1,400+ replies in the first 12 hours! I read all of them last...",
+      "url": "https://x.com/joshwoodward/status/2075241749048401936",
+      "generatedAt": "2026-07-11T00:56:02.105Z",
+      "summary": {
+        "title": "Josh Woodward 公布用户反馈 Top 10 需求及回应",
+        "summary": "Josh Woodward 在发布产品反馈征集后 12 小时内收到 1400 多条回复，他通读了所有内容并整理出当前排名前十的用户需求，逐一给出回应和后续计划。排名第一的是提升 Google Workspace 集成的可靠性，团队已着手改进；第二是更可靠的工具调用，近期会有明显提升；第三是更好的项目与文件夹组织，将重新设计 UX；第四是 MCP 和自定义技能，已推出早期支持并将扩大可用性；第五是 Deep Research 的导出和模式切换问题，团队将解决；第六是 Nano Banana 水印移除，需平衡各国 AI 规则；第七是编辑聊天历史中任意消息，将保留分支功能；第八是应用内语音识别准确度，将优先改进并可能私信用户获取详情；第九是修复移动端滚动 bug；第十是名人肖像护栏，暂维持现状。这条推文展示了产品团队对用户反馈的快速响应和透明沟通，值得关注其后续迭代。",
+        "excerpts": [
+          {
+            "label": "数据",
+            "text": "推文发布 12 小时内收到 1400 多条回复，Josh 全部读完，夜间又新增 300 多条。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "提升 Google Workspace 集成可靠性是明确的头号需求，团队一致认同并已着手改进。",
+            "reference": "第 1 点"
+          },
+          {
+            "label": "观点",
+            "text": "工具调用可靠性需大幅提升，近期将看到明显改善。",
+            "reference": "第 2 点"
+          },
+          {
+            "label": "案例",
+            "text": "Notebooks 是积极的一步，但还不够，团队将重新思考聊天组织 UX。",
+            "reference": "第 3 点"
+          },
+          {
+            "label": "观点",
+            "text": "Deep Research 用户希望导出报告到 NotebookLM 并在同一聊天中切换模型，Josh 之前未意识到这些痛点，认为都是好主意。",
+            "reference": "第 5 点"
+          },
+          {
+            "label": "观点",
+            "text": "移除 Nano Banana 水印需平衡各国 AI 规则，团队将讨论调整方案。",
+            "reference": "第 6 点"
+          },
+          {
+            "label": "观点",
+            "text": "编辑聊天历史任意消息的功能将实现，同时保留现有分支功能。",
+            "reference": "第 7 点"
+          },
+          {
+            "label": "观点",
+            "text": "名人肖像护栏计划维持现状。",
+            "reference": "第 10 点"
           }
         ],
         "materials": []
