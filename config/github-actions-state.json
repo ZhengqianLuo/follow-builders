@@ -1692,7 +1692,19 @@
       "title": "Amjad Masad：It’s fantastic to see how dynamic the LLM market has become in just a short...",
       "url": "https://x.com/amasad/status/2075413916491075755",
       "sentAt": "2026-07-11T00:56:04.785Z"
+    },
+    "podcast:00c607bd-504b-44f5-818d-e4ad7d8dc2a8": {
+      "type": "podcast",
+      "title": "The MAD Podcast with Matt Turck: Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "sentAt": "2026-07-12T01:03:33.155Z"
+    },
+    "topic:The MAD Podcast with Matt Turck: Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay": {
+      "type": "topic",
+      "title": "The MAD Podcast with Matt Turck: Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "sentAt": "2026-07-12T01:03:33.155Z"
     }
   },
-  "updatedAt": "2026-07-11T00:56:04.785Z"
+  "updatedAt": "2026-07-12T01:03:33.155Z"
 }
