@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-12T01:03:31.216Z",
+  "updatedAt": "2026-07-13T01:03:46.185Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -1054,6 +1054,166 @@
             "label": "未来 12 个月代理将成为多面经济主体",
             "text": "代理可能同时进行购买、销售和运营业务，成为多面经济主体。",
             "reference": "Speaker 1 | 1:11:38 - 1:14:31"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2076119366647894371:c3f165f0b2ce56a2": {
+      "itemId": "tweet:2076119366647894371",
+      "sourceHash": "c3f165f0b2ce56a2",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：If you aren't yet bold enough to install the Codex app, you can stay in the...",
+      "url": "https://x.com/thsottiaux/status/2076119366647894371",
+      "generatedAt": "2026-07-13T01:02:51.088Z",
+      "summary": {
+        "title": "Thibault Sottiaux 分享在终端中通过别名调用 GPT-5.6 Sol 的快捷方法",
+        "summary": "Thibault Sottiaux 在推文中分享了一种无需安装 Codex 应用即可使用 GPT-5.6 Sol 模型的方法。他建议用户安装 CLIProxyAPI 工具，连接后定义一个别名 'claudex'，通过设置环境变量将 Claude Code 的子代理模型、并发数等参数指向 GPT-5.6 Sol，从而在终端中快速调用该模型。他提到整个过程只需 5 分钟，并感谢 Theo 解释了实现方式之一。推文还暗示如果该方法被封锁，他会提供重置方案。这条推文获得了 3871 个赞和 243 次转发，反映出开发者社区对灵活使用大语言模型的浓厚兴趣。",
+        "excerpts": [
+          {
+            "label": "金句",
+            "text": "如果你还没有胆量安装 Codex 应用，你可以留在你的橙色螃蟹旁边，把它指向 GPT 5.6 Sol。只需 5 分钟。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "方法步骤",
+            "text": "步骤 1：安装 CLIProxyAPI；步骤 2：连接；步骤 3：定义以下别名并享受 claudex。",
+            "reference": "推文中间"
+          },
+          {
+            "label": "别名定义",
+            "text": "alias claudex='CLAUDE_CODE_SUBAGENT_MODEL=gpt-5.6-sol CLAUDE_CODE_ALWAYS_ENABLE_EFFORT=1 CLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY=3 ENABLE_TOOL_SEARCH=false claude --model gpt-5.6-sol'",
+            "reference": "推文中的代码块"
+          },
+          {
+            "label": "承诺",
+            "text": "如果这被封锁了，我欠你一次重置。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2076116544980214164:58deb68e00d8e07a": {
+      "itemId": "tweet:2076116544980214164",
+      "sourceHash": "58deb68e00d8e07a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：The job that AI was supposed to replace is experiencing the opposite of the...",
+      "url": "https://x.com/levie/status/2076116544980214164",
+      "generatedAt": "2026-07-13T01:03:00.749Z",
+      "summary": {
+        "title": "AI 本该取代的工作为何反而需求激增？Aaron Levie 谈软件岗位逆势增长",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中指出，AI 本应取代的软件工作反而出现了需求增长，软件岗位招聘增速超过其他领域。他解释，当生产成本降低，而应用场景丰富时，人们会想要更多产出。这在工业界屡见不鲜，如今在知识工作中重现：软件的单位成本大幅下降，导致人们想要更多软件，企业和个人启动的软件项目前所未有地多。但软件工作并未完全自动化，且在可预见的未来也不会，因此仍需大量人员来维护代码、决定构建什么、长期运行和更新系统等。Levie 认为，随着其他稀缺领域生产成本降低，同样现象将发生，智能体将带来更多丰裕而非替代。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 本该取代的工作正经历与预期相反的结果：软件岗位招聘增速超过其他领域。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "类比论证",
+            "text": "如果降低生产成本，而产品有很多用例，人们就会想要更多产出。这在工业界不断上演，现在终于在知识工作中看到。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "现象解释",
+            "text": "因为软件的单位成本现在低得多，人们想要更多软件，于是开始将软件用于各种新事物，企业和个人启动的软件项目比以往任何时候都多。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "关键洞察",
+            "text": "但工作本身并未完全自动化，且在可预见的未来也不会，因此仍需要理解这些系统的人来维护代码、决定构建什么、长期运行、更新等。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "未来预测",
+            "text": "随着我们降低其他原本极度稀缺领域的工作生产成本，同样的事情也会发生。智能体将带来更多丰裕而非替代。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2076155833428431012:d6aebeefbd731100": {
+      "itemId": "tweet:2076155833428431012",
+      "sourceHash": "d6aebeefbd731100",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Swyx：if you only learned about jevons paradox primarily wrt software demand in the...",
+      "url": "https://x.com/swyx/status/2076155833428431012",
+      "generatedAt": "2026-07-13T01:03:07.054Z",
+      "summary": {
+        "title": "Swyx：杰文斯悖论在智能体工程时代对软件需求的启示",
+        "summary": "Swyx 指出，如果你只在智能体工程时代从软件需求的角度了解杰文斯悖论，可能还没有完全领会其更广泛的影响。他提出，当人类能够熟练使用编程智能体（即 AI 工程师），且编程智能体突破限制进入所有其他知识工作时，劳动效率提升、知识工作的单位成本普遍下降，这会导致对总工作量和更好知识的需求上升，而非下降。他强调，编程领域发生的变化并非例外，而是预示。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "如果你只在智能体工程时代从软件需求的角度了解杰文斯悖论，可能还没有完全领会其影响。",
+            "reference": "原文"
+          },
+          {
+            "label": "观点",
+            "text": "当人类能够熟练使用编程智能体，且编程智能体突破限制进入所有其他知识工作时，劳动效率提升、知识工作的单位成本普遍下降，会导致对总工作量和更好知识的需求上升，而非下降。",
+            "reference": "原文"
+          },
+          {
+            "label": "金句",
+            "text": "编程领域发生的变化并非例外，而是预示。",
+            "reference": "原文"
+          },
+          {
+            "label": "类比",
+            "text": "编程智能体突破限制进入其他知识工作，如同杰文斯悖论在更广泛领域的体现。",
+            "reference": "原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:18a5d0ce-73e6-11f1-80e0-175857be9792:466d1a904af2d17c": {
+      "itemId": "podcast:18a5d0ce-73e6-11f1-80e0-175857be9792",
+      "sourceHash": "466d1a904af2d17c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "No Priors: Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel",
+      "url": "https://www.youtube.com/watch?v=8nj_0wZkbtA",
+      "generatedAt": "2026-07-13T01:03:46.185Z",
+      "summary": {
+        "title": "AI 时代的旅行：Booking.com CEO Glenn Fogel 谈无护城河、代理 Penny 与 7 亿技术投资",
+        "summary": "Booking Holdings CEO Glenn Fogel 在 No Priors 播客中分享了他对 AI 重塑旅行业的深刻见解。他直言不讳地指出，在科技行业不存在永久的护城河，竞争优势可能明天就消失，长期获胜的唯一途径是持续开发新服务。他回顾了个人职业生涯，从摩根士丹利的大型机操作员到被银行解雇，再到 2000 年加入濒临退市的 Priceline，亲历公司市值从几亿美元增长至峰值约 1800 亿美元，股价从反向分割后的 6 美元涨至近 6000 美元。Fogel 认为当前 AI 浪潮与 90 年代末互联网泡沫有相似之处，但规模更大。他详细介绍了 Priceline 的 AI 代理 Penny，能处理复杂的家庭旅行规划，包括航班、酒店、租车、餐厅，甚至考虑常旅客里程的使用，但承认其绝对使用量仍很小，尚未对财务数字产生显著影响。Booking Holdings 2024 年处理了 1860 亿美元的旅行交易，超过 10 亿间夜。在客户服务中应用 AI 已使每次联系成本下降，客户满意度上升，但需平衡 AI 与人工服务。公司 2025 年计划投资约 7 亿美元用于技术赋能和 AI 等领域，同时在过去约 12 年回购了约 40% 的流通股并提供股息，2024 年第四季度回购了 36 亿美元股票。Booking.com 的替代住宿房源达 860 万，规模约为 Airbnb 的四分之三，且过去五年增速更快。Fogel 强调，旅游行业监管日益增加，规模大的公司更有能力应对。他坚信现在是打造新事物最激动人心的时刻，公司的使命是让每个人更轻松地体验世界。但他也担心人们因恐惧而拒绝技术，这会对社会不利，并可能使美国处于竞争劣势。为此，Booking Holdings 正致力于提升员工技能，使其具备 AI 素养。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "不存在所谓的护城河，竞争优势可能明天就消失，长期获胜需要持续开发新服务。",
+            "reference": "00:00 - 00:13"
+          },
+          {
+            "label": "案例",
+            "text": "Priceline 的 AI 代理 Penny 能处理复杂的家庭旅行规划，包括航班、酒店、租车、餐厅，并考虑常旅客里程的使用，结果令人惊叹。",
+            "reference": "17:35 - 19:10"
+          },
+          {
+            "label": "数据",
+            "text": "Booking Holdings 2024 年处理了 1860 亿美元的旅行交易，超过 10 亿间夜，但 AI 代理 Penny 的绝对使用量仍很小，尚未对财务数字产生显著影响。",
+            "reference": "20:36 - 20:51"
+          },
+          {
+            "label": "数据",
+            "text": "Booking Holdings 2025 年计划投资约 7 亿美元用于技术赋能和 AI 等领域，同时在过去约 12 年回购了约 40% 的流通股并提供股息。",
+            "reference": "23:39 - 25:17"
+          },
+          {
+            "label": "数据",
+            "text": "Booking.com 的替代住宿业务规模约为 Airbnb 的四分之三，且过去五年增速快于 Airbnb。",
+            "reference": "27:09 - 27:45"
+          },
+          {
+            "label": "观点",
+            "text": "旅游行业受到高度监管，且全球监管正在增加，规模大的公司更有能力应对。",
+            "reference": "29:12 - 30:18"
+          },
+          {
+            "label": "观点",
+            "text": "我担心人们因恐惧而拒绝技术，这会对社会不利，并可能使美国处于竞争劣势。",
+            "reference": "38:32 - 39:15"
           }
         ],
         "materials": []

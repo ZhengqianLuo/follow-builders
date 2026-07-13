@@ -1704,7 +1704,127 @@
       "title": "The MAD Podcast with Matt Turck: Stripe's AI Chief: How AI Agents Will Buy, Sell, and Pay",
       "url": "https://www.youtube.com/@DataDrivenNYC/videos",
       "sentAt": "2026-07-12T01:03:33.155Z"
+    },
+    "tweet:2075983427019612242": {
+      "type": "tweet",
+      "title": "Sam Altman：there are a lot of benchmarks that suggest 5.6 sol is the best model in the...",
+      "url": "https://x.com/sama/status/2075983427019612242",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "topic:Sam Altman：there are a lot of benchmarks that suggest 5.6 sol is the best model in the...": {
+      "type": "topic",
+      "title": "Sam Altman：there are a lot of benchmarks that suggest 5.6 sol is the best model in the...",
+      "url": "https://x.com/sama/status/2075983427019612242",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "tweet:2075982820322025788": {
+      "type": "tweet",
+      "title": "Sam Altman：30% of the cost was on fable at these levels of usage? https://t.co/KzFoHj7cB4",
+      "url": "https://x.com/sama/status/2075982820322025788",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "topic:Sam Altman：30% of the cost was on fable at these levels of usage? https://t.co/KzFoHj7cB4": {
+      "type": "topic",
+      "title": "Sam Altman：30% of the cost was on fable at these levels of usage? https://t.co/KzFoHj7cB4",
+      "url": "https://x.com/sama/status/2075982820322025788",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "tweet:2076141940484010189": {
+      "type": "tweet",
+      "title": "Matt Turck：Argentina struggled against the world's #64, almost got eliminated by the...",
+      "url": "https://x.com/mattturck/status/2076141940484010189",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "topic:Matt Turck：Argentina struggled against the world's #64, almost got eliminated by the...": {
+      "type": "topic",
+      "title": "Matt Turck：Argentina struggled against the world's #64, almost got eliminated by the...",
+      "url": "https://x.com/mattturck/status/2076141940484010189",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "tweet:2076119366647894371": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：If you aren't yet bold enough to install the Codex app, you can stay in the...",
+      "url": "https://x.com/thsottiaux/status/2076119366647894371",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "topic:Thibault Sottiaux：If you aren't yet bold enough to install the Codex app, you can stay in the...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：If you aren't yet bold enough to install the Codex app, you can stay in the...",
+      "url": "https://x.com/thsottiaux/status/2076119366647894371",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "tweet:2076145711922696371": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：At different times you complained about speed, code slop, frontend quality, ......",
+      "url": "https://x.com/thsottiaux/status/2076145711922696371",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "topic:Thibault Sottiaux：At different times you complained about speed, code slop, frontend quality, ......": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：At different times you complained about speed, code slop, frontend quality, ......",
+      "url": "https://x.com/thsottiaux/status/2076145711922696371",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "tweet:2075933358660730901": {
+      "type": "tweet",
+      "title": "Garry Tan：So much could go wrong But the interesting question is always: what happens if...",
+      "url": "https://x.com/garrytan/status/2075933358660730901",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "topic:Garry Tan：So much could go wrong But the interesting question is always: what happens if...": {
+      "type": "topic",
+      "title": "Garry Tan：So much could go wrong But the interesting question is always: what happens if...",
+      "url": "https://x.com/garrytan/status/2075933358660730901",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "tweet:2076116544980214164": {
+      "type": "tweet",
+      "title": "Aaron Levie：The job that AI was supposed to replace is experiencing the opposite of the...",
+      "url": "https://x.com/levie/status/2076116544980214164",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "topic:Aaron Levie：The job that AI was supposed to replace is experiencing the opposite of the...": {
+      "type": "topic",
+      "title": "Aaron Levie：The job that AI was supposed to replace is experiencing the opposite of the...",
+      "url": "https://x.com/levie/status/2076116544980214164",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "tweet:2075944103867830352": {
+      "type": "tweet",
+      "title": "Garry Tan：If you want to supercharge building in California again, you're going to need...",
+      "url": "https://x.com/garrytan/status/2075944103867830352",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "topic:Garry Tan：If you want to supercharge building in California again, you're going to need...": {
+      "type": "topic",
+      "title": "Garry Tan：If you want to supercharge building in California again, you're going to need...",
+      "url": "https://x.com/garrytan/status/2075944103867830352",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "tweet:2076155833428431012": {
+      "type": "tweet",
+      "title": "Swyx：if you only learned about jevons paradox primarily wrt software demand in the...",
+      "url": "https://x.com/swyx/status/2076155833428431012",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "topic:Swyx：if you only learned about jevons paradox primarily wrt software demand in the...": {
+      "type": "topic",
+      "title": "Swyx：if you only learned about jevons paradox primarily wrt software demand in the...",
+      "url": "https://x.com/swyx/status/2076155833428431012",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "podcast:18a5d0ce-73e6-11f1-80e0-175857be9792": {
+      "type": "podcast",
+      "title": "No Priors: Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel",
+      "url": "https://www.youtube.com/watch?v=8nj_0wZkbtA",
+      "sentAt": "2026-07-13T01:03:48.207Z"
+    },
+    "topic:No Priors: Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel": {
+      "type": "topic",
+      "title": "No Priors: Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel",
+      "url": "https://www.youtube.com/watch?v=8nj_0wZkbtA",
+      "sentAt": "2026-07-13T01:03:48.207Z"
     }
   },
-  "updatedAt": "2026-07-12T01:03:33.155Z"
+  "updatedAt": "2026-07-13T01:03:48.207Z"
 }
