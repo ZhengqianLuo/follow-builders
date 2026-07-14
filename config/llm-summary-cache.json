@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-13T01:03:46.185Z",
+  "updatedAt": "2026-07-14T00:52:16.467Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -1214,6 +1214,131 @@
             "label": "观点",
             "text": "我担心人们因恐惧而拒绝技术，这会对社会不利，并可能使美国处于竞争劣势。",
             "reference": "38:32 - 39:15"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2076495156757577895:6320549e1b89ce96": {
+      "itemId": "tweet:2076495156757577895",
+      "sourceHash": "6320549e1b89ce96",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Updates for Codex and ChatGPT Work users. No nerfing, only good stuff! - We...",
+      "url": "https://x.com/thsottiaux/status/2076495156757577895",
+      "generatedAt": "2026-07-14T00:52:02.696Z",
+      "summary": {
+        "title": "Codex 与 ChatGPT Work 用户更新：无削弱，只有优化！",
+        "summary": "Thibault Sottiaux 宣布了针对 Codex 和 ChatGPT Work 用户的一系列更新，强调没有削弱功能，只有改进。主要变化包括：通过推理优化，GPT-5.6 Sol 的订阅用户将获得约 10% 的额外使用量；由于将上下文窗口从 272k 提升到 372k 导致意外多计费，现已回退至 272k，并计划在未来几天重新推出 372k；同时修复了高推理强度下多智能体使用量略高的问题，以及自动审查中的效率问题。此外，5 小时限制暂时不适用。这些调整旨在提升用户体验并降低使用成本。",
+        "excerpts": [
+          {
+            "label": "核心声明",
+            "text": "没有削弱，只有好东西！",
+            "reference": "原文开头"
+          },
+          {
+            "label": "优化收益",
+            "text": "我们落地了推理优化，并将节省的成本传递给所有 GPT-5.6 Sol 订阅用户，这本身应该会带来约 10% 的额外使用量。",
+            "reference": "原文"
+          },
+          {
+            "label": "上下文窗口调整",
+            "text": "我们注意到将 GPT-5.6 Sol 的上下文大小限制从 GPT-5.5 的 272k 提高到 372k 后，导致计费使用量超出预期。现已回退至 272k，并将在未来几天重新推出 372k。",
+            "reference": "原文"
+          },
+          {
+            "label": "推理强度实验",
+            "text": "为了解额外使用量的来源，我们进行了一些实验，改变了推理强度（内部称为 juice 值），现已回退。",
+            "reference": "原文"
+          },
+          {
+            "label": "多智能体使用量修复",
+            "text": "在高和极高推理强度下，多智能体的使用量略高于预期，我们正在修复此问题。",
+            "reference": "原文"
+          },
+          {
+            "label": "自动审查效率提升",
+            "text": "还修复了自动审查中一个可以更高效的小问题。",
+            "reference": "原文"
+          },
+          {
+            "label": "临时政策",
+            "text": "我们继续暂时不适用 5 小时限制。",
+            "reference": "原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2076364176252191222:891a3dac394536a9": {
+      "itemId": "tweet:2076364176252191222",
+      "sourceHash": "891a3dac394536a9",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Make the model a cog in a machine you own. ◾ AI SDK → open model API ◾...",
+      "url": "https://x.com/rauchg/status/2076364176252191222",
+      "generatedAt": "2026-07-14T00:52:08.404Z",
+      "summary": {
+        "title": "Guillermo Rauch：让模型成为你掌控的机器中的一个齿轮",
+        "summary": "Guillermo Rauch 强调，企业和初创公司应将 AI 模型视为自身技术栈中的一个可控组件，而非外包核心智能。他提出三条具体路径：通过 AI SDK 开放模型 API，通过某链接（可能指向其产品）开放 Agent API，以及通过 AI Gateway 实现零数据保留（ZDR）推理。核心主张是必须拥有数据、评估、模型选择和软件层，避免将“大脑”外包，从而保持自主性和竞争力。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "让模型成为你掌控的机器中的一个齿轮。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "行动路径",
+            "text": "通过 AI SDK 开放模型 API，通过某产品开放 Agent API，通过 AI Gateway 实现零数据保留推理。",
+            "reference": "推文中间部分"
+          },
+          {
+            "label": "关键主张",
+            "text": "初创公司和大型企业必须拥有自己的数据、评估、模型选择和软件层。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "警示金句",
+            "text": "不要把你的大脑外包出去。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2076227936202662357:69314790ffb8df45": {
+      "itemId": "tweet:2076227936202662357",
+      "sourceHash": "69314790ffb8df45",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Amjad Masad：Vibe Research Fine-tuning a Qwen-8b model to play chess on Replit. Running 3...",
+      "url": "https://x.com/amasad/status/2076227936202662357",
+      "generatedAt": "2026-07-14T00:52:16.466Z",
+      "summary": {
+        "title": "Amjad Masad：氛围研究——微调 Qwen-8b 模型在 Replit 上下棋",
+        "summary": "Replit 创始人 Amjad Masad 分享了他正在进行的“氛围研究”（Vibe Research）实验：微调 Qwen-8b 模型来下棋。他同时在 Replit 上运行 3 个并行分支，进行不同实验，并取得了切实进展。他感叹当前模型在机器学习任务上的能力已大幅提升（过去表现很差），使得即使从未做过机器学习的人，只要具备良好的直觉来引导过程，也能做出有趣的机器学习工作。这条推文反映了 AI 工具降低技术门槛的趋势，以及非专家通过直觉和实验驱动创新的可能性。",
+        "excerpts": [
+          {
+            "label": "核心概念",
+            "text": "Amjad Masad 提出“氛围研究”（Vibe Research）一词，描述一种依靠直觉引导、利用先进模型进行机器学习实验的新范式。",
+            "reference": "推文标题及正文"
+          },
+          {
+            "label": "实验内容",
+            "text": "他正在微调 Qwen-8b 模型来下棋，并在 Replit 上同时运行 3 个并行分支，进行不同实验，且取得了实际进展。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "模型能力变化",
+            "text": "Masad 指出，模型在机器学习任务上的能力已大幅提升，过去它们在这方面表现很差，现在则令人惊叹。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "门槛降低",
+            "text": "现在，即使从未做过机器学习的人，只要有良好的直觉来引导过程，也能做出有趣的机器学习工作。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 529 个喜欢、39 次转发和 47 条回复，显示社区对此话题的关注。",
+            "reference": "推文互动数据"
           }
         ],
         "materials": []
