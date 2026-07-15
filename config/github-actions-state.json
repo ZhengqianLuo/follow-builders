@@ -1944,7 +1944,127 @@
       "title": "Amjad Masad：Vibe Research Fine-tuning a Qwen-8b model to play chess on Replit. Running 3...",
       "url": "https://x.com/amasad/status/2076227936202662357",
       "sentAt": "2026-07-14T00:52:19.069Z"
+    },
+    "tweet:2076824686307271125": {
+      "type": "tweet",
+      "title": "Sam Altman：i thought this was satire, kept looking for the handle to be spelled c1audeai...",
+      "url": "https://x.com/sama/status/2076824686307271125",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "topic:Sam Altman：i thought this was satire, kept looking for the handle to be spelled c1audeai...": {
+      "type": "topic",
+      "title": "Sam Altman：i thought this was satire, kept looking for the handle to be spelled c1audeai...",
+      "url": "https://x.com/sama/status/2076824686307271125",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "tweet:2076823209589313910": {
+      "type": "tweet",
+      "title": "Sam Altman：still sorta breaks my brain to see our models be good at design finally",
+      "url": "https://x.com/sama/status/2076823209589313910",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "topic:Sam Altman：still sorta breaks my brain to see our models be good at design finally": {
+      "type": "topic",
+      "title": "Sam Altman：still sorta breaks my brain to see our models be good at design finally",
+      "url": "https://x.com/sama/status/2076823209589313910",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "tweet:2076824870072238299": {
+      "type": "tweet",
+      "title": "Sam Altman：\"hard questions are great but only if we deem you worthy enough to not silently...",
+      "url": "https://x.com/sama/status/2076824870072238299",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "topic:Sam Altman：\"hard questions are great but only if we deem you worthy enough to not silently...": {
+      "type": "topic",
+      "title": "Sam Altman：\"hard questions are great but only if we deem you worthy enough to not silently...",
+      "url": "https://x.com/sama/status/2076824870072238299",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "tweet:2076907789763621237": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Tomorrow might be 8M active user celebration day. Just saying",
+      "url": "https://x.com/thsottiaux/status/2076907789763621237",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "topic:Thibault Sottiaux：Tomorrow might be 8M active user celebration day. Just saying": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Tomorrow might be 8M active user celebration day. Just saying",
+      "url": "https://x.com/thsottiaux/status/2076907789763621237",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "tweet:2076689062921150479": {
+      "type": "tweet",
+      "title": "Ryo Lu：super stoked for jenny to join and lead our team 💛 makes me really happy for...",
+      "url": "https://x.com/ryolu_/status/2076689062921150479",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "topic:Ryo Lu：super stoked for jenny to join and lead our team 💛 makes me really happy for...": {
+      "type": "topic",
+      "title": "Ryo Lu：super stoked for jenny to join and lead our team 💛 makes me really happy for...",
+      "url": "https://x.com/ryolu_/status/2076689062921150479",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "tweet:2076894071323537898": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：ChatGPT Work presents https://t.co/pY5Vei9OIz",
+      "url": "https://x.com/thsottiaux/status/2076894071323537898",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "topic:Thibault Sottiaux：ChatGPT Work presents https://t.co/pY5Vei9OIz": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：ChatGPT Work presents https://t.co/pY5Vei9OIz",
+      "url": "https://x.com/thsottiaux/status/2076894071323537898",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "tweet:2076713331113734641": {
+      "type": "tweet",
+      "title": "Ryo Lu：built a custom e-reader firmware with Cursor, hardware hacking is fun! made...",
+      "url": "https://x.com/ryolu_/status/2076713331113734641",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "topic:Ryo Lu：built a custom e-reader firmware with Cursor, hardware hacking is fun! made...": {
+      "type": "topic",
+      "title": "Ryo Lu：built a custom e-reader firmware with Cursor, hardware hacking is fun! made...",
+      "url": "https://x.com/ryolu_/status/2076713331113734641",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "tweet:2076713720731042174": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：“Open-weight models ran 29% of gateway tokens, up from 11% in April”",
+      "url": "https://x.com/rauchg/status/2076713720731042174",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "topic:Guillermo Rauch：“Open-weight models ran 29% of gateway tokens, up from 11% in April”": {
+      "type": "topic",
+      "title": "Guillermo Rauch：“Open-weight models ran 29% of gateway tokens, up from 11% in April”",
+      "url": "https://x.com/rauchg/status/2076713720731042174",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "tweet:2076764958579446006": {
+      "type": "tweet",
+      "title": "Aaron Levie：The biggest challenge right now with the topic of every enterprise having their...",
+      "url": "https://x.com/levie/status/2076764958579446006",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "topic:Aaron Levie：The biggest challenge right now with the topic of every enterprise having their...": {
+      "type": "topic",
+      "title": "Aaron Levie：The biggest challenge right now with the topic of every enterprise having their...",
+      "url": "https://x.com/levie/status/2076764958579446006",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "tweet:2076587412516421945": {
+      "type": "tweet",
+      "title": "Garry Tan：Era of the Gentleman Scientist is so back https://t.co/WNLzo4Pg9g",
+      "url": "https://x.com/garrytan/status/2076587412516421945",
+      "sentAt": "2026-07-15T00:12:49.884Z"
+    },
+    "topic:Garry Tan：Era of the Gentleman Scientist is so back https://t.co/WNLzo4Pg9g": {
+      "type": "topic",
+      "title": "Garry Tan：Era of the Gentleman Scientist is so back https://t.co/WNLzo4Pg9g",
+      "url": "https://x.com/garrytan/status/2076587412516421945",
+      "sentAt": "2026-07-15T00:12:49.884Z"
     }
   },
-  "updatedAt": "2026-07-14T00:52:19.069Z"
+  "updatedAt": "2026-07-15T00:12:49.884Z"
 }

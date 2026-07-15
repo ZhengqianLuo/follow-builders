@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-14T00:52:16.467Z",
+  "updatedAt": "2026-07-15T00:12:47.001Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -1339,6 +1339,36 @@
             "label": "互动数据",
             "text": "该推文获得 529 个喜欢、39 次转发和 47 条回复，显示社区对此话题的关注。",
             "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2076764958579446006:b78df5e7c9c3a66a": {
+      "itemId": "tweet:2076764958579446006",
+      "sourceHash": "b78df5e7c9c3a66a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：The biggest challenge right now with the topic of every enterprise having their...",
+      "url": "https://x.com/levie/status/2076764958579446006",
+      "generatedAt": "2026-07-15T00:12:47.001Z",
+      "summary": {
+        "title": "Aaron Levie：企业专属模型的最大挑战——敏感数据与动态变化",
+        "summary": "Aaron Levie 指出，当前企业专属模型面临的核心难题在于：最有价值的信息和洞察不仅持续变化，而且往往是最敏感的数据。这些敏感数据通常无法直接打包进模型，因为它们包含并非所有人都能访问的内容，且安全层无法内置于模型或智能体中。他认为，针对特定领域产品的定制训练模型用例将增长百倍，但为每个企业单独训练模型远比表面看起来困难。这一观点揭示了企业 AI 落地中数据安全与模型泛化之间的根本矛盾，值得关注企业级 AI 应用的从业者深思。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "企业专属模型的最大挑战在于：最有价值的信息和洞察不仅持续变化，而且往往是最敏感的数据。",
+            "reference": "原文"
+          },
+          {
+            "label": "关键论证",
+            "text": "敏感数据通常无法打包进模型，因为其中包含并非所有人都能访问的内容，且安全层无法内置于模型或智能体中。",
+            "reference": "原文"
+          },
+          {
+            "label": "趋势预测",
+            "text": "针对特定领域产品的定制训练模型用例将增长 100 倍，但为每个企业单独训练模型远比看起来困难。",
+            "reference": "原文"
           }
         ],
         "materials": []
