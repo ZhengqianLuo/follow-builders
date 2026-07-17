@@ -2184,7 +2184,127 @@
       "title": "Training Data: Anthropic's Katelyn Lesse &amp; Angela Jiang: Building an Ecosystem, not a Walled Garden",
       "url": "https://www.youtube.com/watch?v=vPnVTHYplrQ",
       "sentAt": "2026-07-16T00:56:29.581Z"
+    },
+    "tweet:2077460395279692197": {
+      "type": "tweet",
+      "title": "Boris Cherny：Something I have been thinking about: in the past, the best engineers I knew...",
+      "url": "https://x.com/bcherny/status/2077460395279692197",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "topic:Boris Cherny：Something I have been thinking about: in the past, the best engineers I knew...": {
+      "type": "topic",
+      "title": "Boris Cherny：Something I have been thinking about: in the past, the best engineers I knew...",
+      "url": "https://x.com/bcherny/status/2077460395279692197",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "tweet:2077632589498913087": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：We've had no 5h limit in Codex plus and pro for a few days. Do you think it is...",
+      "url": "https://x.com/thsottiaux/status/2077632589498913087",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "topic:Thibault Sottiaux：We've had no 5h limit in Codex plus and pro for a few days. Do you think it is...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：We've had no 5h limit in Codex plus and pro for a few days. Do you think it is...",
+      "url": "https://x.com/thsottiaux/status/2077632589498913087",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "tweet:2077627035418239230": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Now that we merged ChatGPT and Codex, what should we merge next? What's the...",
+      "url": "https://x.com/thsottiaux/status/2077627035418239230",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "topic:Thibault Sottiaux：Now that we merged ChatGPT and Codex, what should we merge next? What's the...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Now that we merged ChatGPT and Codex, what should we merge next? What's the...",
+      "url": "https://x.com/thsottiaux/status/2077627035418239230",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "tweet:2077630111499882637": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：On file deletions. We’ve investigated a handful of reports where GPT-5.6...",
+      "url": "https://x.com/thsottiaux/status/2077630111499882637",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "topic:Thibault Sottiaux：On file deletions. We’ve investigated a handful of reports where GPT-5.6...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：On file deletions. We’ve investigated a handful of reports where GPT-5.6...",
+      "url": "https://x.com/thsottiaux/status/2077630111499882637",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "tweet:2077489177374208000": {
+      "type": "tweet",
+      "title": "Sam Altman：amazing to me that some people want the silent version https://t.co/jbdznnBx9Z",
+      "url": "https://x.com/sama/status/2077489177374208000",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "topic:Sam Altman：amazing to me that some people want the silent version https://t.co/jbdznnBx9Z": {
+      "type": "topic",
+      "title": "Sam Altman：amazing to me that some people want the silent version https://t.co/jbdznnBx9Z",
+      "url": "https://x.com/sama/status/2077489177374208000",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "tweet:2077539537992229076": {
+      "type": "tweet",
+      "title": "Thariq：ideal prompting technique is: - thin prompts - thick artifacts + context - thin...",
+      "url": "https://x.com/trq212/status/2077539537992229076",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "topic:Thariq：ideal prompting technique is: - thin prompts - thick artifacts + context - thin...": {
+      "type": "topic",
+      "title": "Thariq：ideal prompting technique is: - thin prompts - thick artifacts + context - thin...",
+      "url": "https://x.com/trq212/status/2077539537992229076",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "tweet:2077490092290253259": {
+      "type": "tweet",
+      "title": "Thariq：software engineering is the profession of automation https://t.co/5OQXE5VBRH",
+      "url": "https://x.com/trq212/status/2077490092290253259",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "topic:Thariq：software engineering is the profession of automation https://t.co/5OQXE5VBRH": {
+      "type": "topic",
+      "title": "Thariq：software engineering is the profession of automation https://t.co/5OQXE5VBRH",
+      "url": "https://x.com/trq212/status/2077490092290253259",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "tweet:2077303292225548539": {
+      "type": "tweet",
+      "title": "Peter Steinberger：This is really clever. https://t.co/s8mRrtX6Rz",
+      "url": "https://x.com/steipete/status/2077303292225548539",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "topic:Peter Steinberger：This is really clever. https://t.co/s8mRrtX6Rz": {
+      "type": "topic",
+      "title": "Peter Steinberger：This is really clever. https://t.co/s8mRrtX6Rz",
+      "url": "https://x.com/steipete/status/2077303292225548539",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "tweet:2077526010753581156": {
+      "type": "tweet",
+      "title": "Aaron Levie：Hosted a dinner last night with a group of IT leaders of large enterprises...",
+      "url": "https://x.com/levie/status/2077526010753581156",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "topic:Aaron Levie：Hosted a dinner last night with a group of IT leaders of large enterprises...": {
+      "type": "topic",
+      "title": "Aaron Levie：Hosted a dinner last night with a group of IT leaders of large enterprises...",
+      "url": "https://x.com/levie/status/2077526010753581156",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "tweet:2077544756390088777": {
+      "type": "tweet",
+      "title": "Peter Steinberger：“If I put up a PR for an iOS codebase I don't know and a code reviewer rejects...",
+      "url": "https://x.com/steipete/status/2077544756390088777",
+      "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "topic:Peter Steinberger：“If I put up a PR for an iOS codebase I don't know and a code reviewer rejects...": {
+      "type": "topic",
+      "title": "Peter Steinberger：“If I put up a PR for an iOS codebase I don't know and a code reviewer rejects...",
+      "url": "https://x.com/steipete/status/2077544756390088777",
+      "sentAt": "2026-07-17T01:00:08.546Z"
     }
   },
-  "updatedAt": "2026-07-16T00:56:29.581Z"
+  "updatedAt": "2026-07-17T01:00:08.546Z"
 }
