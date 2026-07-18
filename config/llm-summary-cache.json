@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-17T01:00:06.446Z",
+  "updatedAt": "2026-07-18T00:56:00.012Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -1639,6 +1639,316 @@
             "label": "类比",
             "text": "将代码审查中本可自动检查的规范问题，类比为自动化流程的缺失，而非审查者的责任。",
             "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2077817060068057493:1a3f4bc606bdec74": {
+      "itemId": "tweet:2077817060068057493",
+      "sourceHash": "1a3f4bc606bdec74",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Sam Altman：we did not have our best last 12 months ever, which is mostly my fault, but we...",
+      "url": "https://x.com/sama/status/2077817060068057493",
+      "generatedAt": "2026-07-18T00:54:22.535Z",
+      "summary": {
+        "title": "Sam Altman 承认过去一年不佳，但预告未来 12 个月将是最佳时期",
+        "summary": "OpenAI CEO Sam Altman 在推文中坦诚，过去 12 个月公司表现未达最佳，并归咎于自己。但他随即预告，接下来 12 个月将是公司有史以来最好的时期，团队正在做出色的工作，用户会感到满意。他强调，AI 的使命是赋予更多人自由、能动性和财富，OpenAI 希望做正确的事，而非通过恐吓来推广自己的理念。这条推文既是对近期外界批评的回应，也透露出对即将发布的新产品充满信心，值得关注 OpenAI 接下来的产品动向。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "过去 12 个月我们并没有达到最佳状态，这主要是我的错。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "金句",
+            "text": "但我们即将迎来有史以来最好的 12 个月。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "观点",
+            "text": "团队正在做出色的工作，我想你会对他们为你准备的东西感到非常满意。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "AI 必须关乎赋予更多人自由、能动性和财富。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "金句",
+            "text": "我们想做正确的事，但我们不想通过吓唬人来让人们接受我们的做法。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2077928427936710901:6d35188fedc63b35": {
+      "itemId": "tweet:2077928427936710901",
+      "sourceHash": "6d35188fedc63b35",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Evening! We’ve gotten lots of great feedback on the new ChatGPT desktop app...",
+      "url": "https://x.com/thsottiaux/status/2077928427936710901",
+      "generatedAt": "2026-07-18T00:54:30.388Z",
+      "summary": {
+        "title": "ChatGPT 桌面应用更新：侧边栏回归、跨端同步与模式切换优化",
+        "summary": "OpenAI 工程师 Thibault Sottiaux 在 X 上分享了 ChatGPT 桌面应用的最新改进，回应了用户对初版体验不佳的反馈。主要更新包括：1）侧边栏重新加入对话历史和项目入口，且聊天与工作历史在网页、移动端和桌面端之间实现同步，但本地任务仍保留在本地计算机上；2）桌面端内部支持在聊天模式和工作模式之间轻松切换，并与网页和移动端的显示方式保持一致；3）Codex 模式保持不变，依然是原始且最佳的模式。团队同时持续修复小问题，提升性能、可靠性和效率。该推文获得 4657 个赞、203 次转发和 1229 条回复，反映出用户对桌面应用体验的高度关注。",
+        "excerpts": [
+          {
+            "label": "金句",
+            "text": "我们收到了大量关于新版 ChatGPT 桌面应用的优秀反馈（第一次尝试时我们并没有完全做对），因此我们做了一些改变。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 4657 个赞、203 次转发和 1229 条回复，显示用户对桌面应用更新的高度关注。",
+            "reference": "推文互动数据"
+          },
+          {
+            "label": "观点",
+            "text": "ChatGPT 对话历史和项目现在在侧边栏中可见，聊天和工作历史在网页、移动端和桌面端之间同步，但本地任务仍保留在计算机上。",
+            "reference": "更新第1点"
+          },
+          {
+            "label": "观点",
+            "text": "现在可以在桌面端 ChatGPT 内部轻松切换聊天模式和工作模式，这与网页和移动端的显示方式保持一致。",
+            "reference": "更新第2点"
+          },
+          {
+            "label": "观点",
+            "text": "Codex 模式没有任何变化，它仍然是原始且最佳的模式。",
+            "reference": "更新第3点"
+          },
+          {
+            "label": "金句",
+            "text": "我们持续修复小问题，提升性能、可靠性和效率。请继续反馈，希望你们喜欢这些更新！",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2077900518404321759:27af81a0506df6b2": {
+      "itemId": "tweet:2077900518404321759",
+      "sourceHash": "27af81a0506df6b2",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Kimi K3 is the best performing model on https://t.co/aporqgIfIh, ahead of...",
+      "url": "https://x.com/rauchg/status/2077900518404321759",
+      "generatedAt": "2026-07-18T00:54:36.384Z",
+      "summary": {
+        "title": "Guillermo Rauch：Kimi K3 在 Web 工程基准测试中首次超越所有闭源模型",
+        "summary": "Vercel 创始人 Guillermo Rauch 在推文中指出，Kimi K3 模型在 Web 工程基准测试平台（https://t.co/aporqgIfIh）上表现最佳，超越了 Fable 等模型，以更短的时间达到了可比的完成率。这是开源模型首次在该综合性 Web 工程基准上领先所有闭源模型。Rauch 强调，虽然基准测试不能完全反映真实情况，但这一信号意义重大，叠加其他证据，可能标志着开源模型的突破时刻。他还提到，目前尚无模型在该评估集上达到 100% 完成率，最高分在无帮助时为 92%，有帮助时为 96%。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "Kimi K3 是首个在综合性 Web 工程基准上超越所有闭源模型的开源模型。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "性能对比",
+            "text": "Kimi K3 表现优于 Fable，以更短时间达到可比的完成率。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "基准局限性",
+            "text": "基准测试不能说明一切，但这是一个重要信号，叠加其他证据，可能标志着开源模型的突破时刻。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "当前上限",
+            "text": "尚无模型在该评估集上达到 100% 完成率，最高分在无帮助时为 92%，有帮助时为 96%。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2077870043833229692:7611f1803d6bf7b0": {
+      "itemId": "tweet:2077870043833229692",
+      "sourceHash": "7611f1803d6bf7b0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：I’m excited to welcome two legends of developer tools, Pete Hunt (@floydophone)...",
+      "url": "https://x.com/rauchg/status/2077870043833229692",
+      "generatedAt": "2026-07-18T00:54:44.980Z",
+      "summary": {
+        "title": "Vercel 迎来两位开发者工具传奇：React 先驱 Pete Hunt 与 GraphQL 联合发明人 Nick Schrock",
+        "summary": "Vercel 创始人 Guillermo Rauch 宣布，React 早期核心贡献者 Pete Hunt 和 GraphQL 联合发明人 Nick Schrock 正式加入 Vercel。Pete Hunt 曾在 Meta 内部推广 React，并主导了 Instagram Web 的 React 化，他将负责 Vercel 的框架团队并领导 Next.js 的发展。Nick Schrock 则解决了 Facebook 规模下的数据基础设施难题，他将专注于“代理开发者体验”，致力于为未来数十亿 AI 代理构建自改进软件的基础。Rauch 认为，能吸引如此量级的工程人才是创业者的梦想，并透露两人团队正在招聘。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Pete Hunt 是 React 的先驱之一，他在 Meta 早期就力推用 React 构建 Instagram Web，并在内外积极布道。",
+            "reference": "原文第2-3句"
+          },
+          {
+            "label": "观点",
+            "text": "Pete Hunt 将负责 Vercel 的框架团队并领导 Next.js，Rauch 认为他是带领 React 最流行框架迈向新高度的最佳人选。",
+            "reference": "原文第4-5句"
+          },
+          {
+            "label": "观点",
+            "text": "Nick Schrock 联合发明了 GraphQL，解决了 Facebook 规模下最棘手的数据基础设施和访问问题，同时提供了愉悦的开发者体验。",
+            "reference": "原文第6句"
+          },
+          {
+            "label": "观点",
+            "text": "Nick Schrock 将专注于“代理开发者体验”，解决赋能下一代数十亿代理的问题，引领自改进软件的未来。",
+            "reference": "原文第7句"
+          },
+          {
+            "label": "金句",
+            "text": "对于初创公司创始人来说，能迎来如此水准且人品出众的工程人才，简直是梦想成真。",
+            "reference": "原文第8句"
+          },
+          {
+            "label": "案例",
+            "text": "两人团队正在招聘，他们的私信开放，接受从工作申请到 bug 报告的任何消息。",
+            "reference": "原文最后两句"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2077825318992429286:ecdd4cb09f5e4994": {
+      "itemId": "tweet:2077825318992429286",
+      "sourceHash": "ecdd4cb09f5e4994",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Dan Shipper：not surprising that @OpenAI is firing on all cylinders right now, and it’s an...",
+      "url": "https://x.com/danshipper/status/2077825318992429286",
+      "generatedAt": "2026-07-18T00:54:53.872Z",
+      "summary": {
+        "title": "OpenAI 的自我颠覆与合并：Codex 如何从边缘项目逆袭成为核心",
+        "summary": "Dan Shipper 回顾了 OpenAI 在 2025 年夏季推出 GPT-5 时将其定位为结对编程工具，但当时他们完全错过了 Claude Code 中正在兴起的智能体编程范式。OpenAI 曾押注浏览器/虚拟机内的智能体编程和 ChatGPT 中的“氛围编程”，但为时过早。一个小团队独立开发了 Codex 模型和产品线，无需服务 ChatGPT 的庞大用户群，到 2025 年底的 5.3 版本已展现出快速进步和优秀品质。2026 年 2 月推出的 Codex Desktop 应用明显优于竞品。AI 领域存在一种奇怪的后发优势：后来者可以跳过试错，直接采用有效方案，而无需背负每三个月就叠加新功能所留下的产品伤痕。Codex 流行后，OpenAI 将其成功合并回主线产品，这一自我颠覆并无缝整合的过程极为复杂且容易出错，但 OpenAI 完成得相当出色，展现了惊人的气场。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "OpenAI 在 2025 年夏季推出 GPT-5 时将其定位为结对编程工具，但完全错过了 Claude Code 中正在兴起的智能体编程范式。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "一个小团队独立开发了 Codex 模型和产品线，无需服务 ChatGPT 的庞大用户群，到 2025 年底的 5.3 版本已展现出快速进步和优秀品质。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "数据",
+            "text": "Codex Desktop 应用于 2026 年 2 月推出，明显优于竞品。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "类比",
+            "text": "AI 领域存在一种奇怪的后发优势：后来者可以跳过试错，直接采用有效方案，而无需背负每三个月就叠加新功能所留下的产品伤痕。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "观点",
+            "text": "大多数公司尝试自我颠覆却以失败告终，但 OpenAI 成功颠覆了自己的主要产品，然后将其无缝合并回来。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "金句",
+            "text": "incredible aura（惊人的气场）",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2077857617859535112:a34fa4187a9b62c3": {
+      "itemId": "tweet:2077857617859535112",
+      "sourceHash": "a34fa4187a9b62c3",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：It’s truly wild that we’re getting this level of performance from open models....",
+      "url": "https://x.com/levie/status/2077857617859535112",
+      "generatedAt": "2026-07-18T00:55:00.762Z",
+      "summary": {
+        "title": "Aaron Levie：开源模型性能惊人，降低前沿智能成本将释放企业海量用例",
+        "summary": "Box CEO Aaron Levie 对 Kimi 团队发布的开源模型性能表示惊叹，认为以如此低的成本获得前沿智能水平令人难以置信。他指出，每次降低前沿智能的成本，企业可采用的用例就会增加，大量工作流目前仅受 token 成本限制。对创业生态而言，开源和闭源实验室的共同突破使价值大量积累到应用层，应用层可以组合多种模型为客户完成任务。模型的多样性和方法差异意味着应用层能针对工作流微调模型并合理路由智能，这对所有人都是巨大胜利。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我们竟能从开源模型中获得如此水平的性能，这真的太疯狂了。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "每次我们降低前沿智能的成本，企业可以承担的用例就会增加。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "有大量企业愿意部署的工作流，目前仅受 token 成本限制。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "对创业生态而言，开源和闭源实验室的共同突破使大量价值积累到应用层，应用层可以利用多种模型为客户完成完整任务。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "观点",
+            "text": "模型的多样性和方法差异意味着应用 AI 层可以针对其工作流微调模型，并合理路由智能。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "观点",
+            "text": "这对所有人都是巨大的胜利。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:8b47cf39-e93a-4301-ae25-e89179d80679:a3e800746ca3f2e8": {
+      "itemId": "podcast:8b47cf39-e93a-4301-ae25-e89179d80679",
+      "sourceHash": "a3e800746ca3f2e8",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Unsupervised Learning: Ep 91: Top AI Analyst Unpacks Today&apos;s AI Hype Cycle",
+      "url": "https://www.youtube.com/watch?v=vDY_ocrkQ5w",
+      "generatedAt": "2026-07-18T00:56:00.011Z",
+      "summary": {
+        "title": "顶级AI分析师解读当前AI炒作周期",
+        "summary": "在这期播客中，知名科技分析师Benedict Evans深入剖析了当前AI热潮的本质。他指出，AI无疑是一场与互联网、移动技术同等量级的重大变革，但其物理极限和科学原理尚不明确，这是与以往技术平台转移的根本区别。Evans将当前AI发展阶段类比为90年代中期互联网或2002年移动互联网：技术惊艳但远未普及，多数用户并非日常活跃。AI在软件开发领域已实现产品市场契合，但在其他行业，如何将任务分解并描述给AI仍是巨大挑战。他批评了用百分比衡量AI能完成多少人类工作的做法，认为这是妄想。Evans强调，新技术的真正创新往往不是自动化旧任务，而是创造全新事物，并以会计行业为例说明技术自动化并未减少就业，反而转变了工作内容。在行业影响上，AI将像互联网一样对不同行业产生截然不同的冲击，有些行业可能几乎不受影响。模型层面，当前有3到6家公司制作性能相似的模型，领先地位频繁更替，尚未出现根本性进入壁垒，但随着扩展成本增加，前沿公司数量可能减少。企业采用AI面临结构性变革，咨询公司扮演重要角色，而消费者使用仍较浅。Evans提醒，当前AI发展处于高度不确定阶段，许多概念和公司可能会失败，但AI作为一种使能技术，其变革潜力可能远超表面所见。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI与以往技术变革的根本区别在于，我们不知道它的物理极限，缺乏科学理解模型为何有效以及未来走向。",
+            "reference": "06:48 - 07:30"
+          },
+          {
+            "label": "生动类比",
+            "text": "当前AI发展阶段就像90年代中期尝试使用互联网或2002年尝试移动互联网：技术惊艳但不好用。",
+            "reference": "10:09 - 10:44"
+          },
+          {
+            "label": "关键数据",
+            "text": "目前只有大约10%到15%的人是AI的日活跃用户，尽管模型能力惊人，但普及度仍低。",
+            "reference": "11:34 - 11:51"
+          },
+          {
+            "label": "犀利批评",
+            "text": "声称某个AI模型能完成初级律师助理93%的工作，这是一种妄想，因为无法量化工作内容。",
+            "reference": "23:12 - 23:52"
+          },
+          {
+            "label": "历史案例",
+            "text": "20世纪美国会计人数持续增长，尽管技术不断自动化，因为工作内容已转变而非简单增加。",
+            "reference": "16:00 - 17:07"
+          },
+          {
+            "label": "行业洞察",
+            "text": "互联网没有改变记者工作的本质，却摧毁了本地广告业务，从而颠覆了新闻业。AI也可能通过间接方式影响行业。",
+            "reference": "24:15 - 24:28"
+          },
+          {
+            "label": "竞争格局",
+            "text": "当前有3到6家公司制作AI模型，性能相似，领先地位频繁更替，尚未出现根本性进入壁垒。",
+            "reference": "26:44 - 27:26"
+          },
+          {
+            "label": "技术采用现实",
+            "text": "云计算经过二十年，企业工作流上云比例仅30%，说明新技术采用需要很长时间且复杂。",
+            "reference": "1:08:59 - 1:09:27"
           }
         ],
         "materials": []

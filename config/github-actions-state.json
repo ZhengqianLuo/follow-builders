@@ -2304,7 +2304,127 @@
       "title": "Peter Steinberger：“If I put up a PR for an iOS codebase I don't know and a code reviewer rejects...",
       "url": "https://x.com/steipete/status/2077544756390088777",
       "sentAt": "2026-07-17T01:00:08.546Z"
+    },
+    "tweet:2077817060068057493": {
+      "type": "tweet",
+      "title": "Sam Altman：we did not have our best last 12 months ever, which is mostly my fault, but we...",
+      "url": "https://x.com/sama/status/2077817060068057493",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "topic:Sam Altman：we did not have our best last 12 months ever, which is mostly my fault, but we...": {
+      "type": "topic",
+      "title": "Sam Altman：we did not have our best last 12 months ever, which is mostly my fault, but we...",
+      "url": "https://x.com/sama/status/2077817060068057493",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "tweet:2077842579232895286": {
+      "type": "tweet",
+      "title": "Sam Altman：i talk to chatgpt more than i type to it at this point new voice model really...",
+      "url": "https://x.com/sama/status/2077842579232895286",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "topic:Sam Altman：i talk to chatgpt more than i type to it at this point new voice model really...": {
+      "type": "topic",
+      "title": "Sam Altman：i talk to chatgpt more than i type to it at this point new voice model really...",
+      "url": "https://x.com/sama/status/2077842579232895286",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "tweet:2077928427936710901": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Evening! We’ve gotten lots of great feedback on the new ChatGPT desktop app...",
+      "url": "https://x.com/thsottiaux/status/2077928427936710901",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "topic:Thibault Sottiaux：Evening! We’ve gotten lots of great feedback on the new ChatGPT desktop app...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Evening! We’ve gotten lots of great feedback on the new ChatGPT desktop app...",
+      "url": "https://x.com/thsottiaux/status/2077928427936710901",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "tweet:2077900518404321759": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Kimi K3 is the best performing model on https://t.co/aporqgIfIh, ahead of...",
+      "url": "https://x.com/rauchg/status/2077900518404321759",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "topic:Guillermo Rauch：Kimi K3 is the best performing model on https://t.co/aporqgIfIh, ahead of...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Kimi K3 is the best performing model on https://t.co/aporqgIfIh, ahead of...",
+      "url": "https://x.com/rauchg/status/2077900518404321759",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "tweet:2077908318975332417": {
+      "type": "tweet",
+      "title": "Amjad Masad：Apparently the distillation model can outperform the teacher model 😂...",
+      "url": "https://x.com/amasad/status/2077908318975332417",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "topic:Amjad Masad：Apparently the distillation model can outperform the teacher model 😂...": {
+      "type": "topic",
+      "title": "Amjad Masad：Apparently the distillation model can outperform the teacher model 😂...",
+      "url": "https://x.com/amasad/status/2077908318975332417",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "tweet:2077870043833229692": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：I’m excited to welcome two legends of developer tools, Pete Hunt (@floydophone)...",
+      "url": "https://x.com/rauchg/status/2077870043833229692",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "topic:Guillermo Rauch：I’m excited to welcome two legends of developer tools, Pete Hunt (@floydophone)...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：I’m excited to welcome two legends of developer tools, Pete Hunt (@floydophone)...",
+      "url": "https://x.com/rauchg/status/2077870043833229692",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "tweet:2077825318992429286": {
+      "type": "tweet",
+      "title": "Dan Shipper：not surprising that @OpenAI is firing on all cylinders right now, and it’s an...",
+      "url": "https://x.com/danshipper/status/2077825318992429286",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "topic:Dan Shipper：not surprising that @OpenAI is firing on all cylinders right now, and it’s an...": {
+      "type": "topic",
+      "title": "Dan Shipper：not surprising that @OpenAI is firing on all cylinders right now, and it’s an...",
+      "url": "https://x.com/danshipper/status/2077825318992429286",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "tweet:2077857617859535112": {
+      "type": "tweet",
+      "title": "Aaron Levie：It’s truly wild that we’re getting this level of performance from open models....",
+      "url": "https://x.com/levie/status/2077857617859535112",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "topic:Aaron Levie：It’s truly wild that we’re getting this level of performance from open models....": {
+      "type": "topic",
+      "title": "Aaron Levie：It’s truly wild that we’re getting this level of performance from open models....",
+      "url": "https://x.com/levie/status/2077857617859535112",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "tweet:2077832590132949268": {
+      "type": "tweet",
+      "title": "Google Labs：Who remembers when Project Tailwind was just a little, baby Labs experiment?...",
+      "url": "https://x.com/GoogleLabs/status/2077832590132949268",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "topic:Google Labs：Who remembers when Project Tailwind was just a little, baby Labs experiment?...": {
+      "type": "topic",
+      "title": "Google Labs：Who remembers when Project Tailwind was just a little, baby Labs experiment?...",
+      "url": "https://x.com/GoogleLabs/status/2077832590132949268",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "podcast:8b47cf39-e93a-4301-ae25-e89179d80679": {
+      "type": "podcast",
+      "title": "Unsupervised Learning: Ep 91: Top AI Analyst Unpacks Today&apos;s AI Hype Cycle",
+      "url": "https://www.youtube.com/watch?v=vDY_ocrkQ5w",
+      "sentAt": "2026-07-18T00:56:01.984Z"
+    },
+    "topic:Unsupervised Learning: Ep 91: Top AI Analyst Unpacks Today&apos;s AI Hype Cycle": {
+      "type": "topic",
+      "title": "Unsupervised Learning: Ep 91: Top AI Analyst Unpacks Today&apos;s AI Hype Cycle",
+      "url": "https://www.youtube.com/watch?v=vDY_ocrkQ5w",
+      "sentAt": "2026-07-18T00:56:01.984Z"
     }
   },
-  "updatedAt": "2026-07-17T01:00:08.546Z"
+  "updatedAt": "2026-07-18T00:56:01.984Z"
 }
