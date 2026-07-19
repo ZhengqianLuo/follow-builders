@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-18T00:56:00.012Z",
+  "updatedAt": "2026-07-19T01:00:14.424Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -1949,6 +1949,161 @@
             "label": "技术采用现实",
             "text": "云计算经过二十年，企业工作流上云比例仅30%，说明新技术采用需要很长时间且复杂。",
             "reference": "1:08:59 - 1:09:27"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2078302415804379218:8e57e57e807ecd7d": {
+      "itemId": "tweet:2078302415804379218",
+      "sourceHash": "8e57e57e807ecd7d",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：Beginning July 20, Claude Fable 5 will be included in all Max and Team Premium...",
+      "url": "https://x.com/claudeai/status/2078302415804379218",
+      "generatedAt": "2026-07-19T00:59:51.613Z",
+      "summary": {
+        "title": "Claude Fable 5 将于7月20日纳入所有 Max 和 Team Premium 计划，Pro 和 Team Standard 用户获一次性 $100 额度",
+        "summary": "Claude 官方宣布，从2026年7月20日起，Claude Fable 5 将直接包含在所有 Max 和 Team Premium 订阅计划中，但使用额度为正常限制的50%。Pro 和 Team Standard 用户则继续通过使用额度（usage credits）访问 Fable，并将获得一次性 $100 的额度补偿。官方解释称，由于 Fable 的需求难以预测，因此采取了分阶段向订阅计划开放的方式，并在获得额外算力后多次延长访问权限。这一调整反映了 AI 服务在需求波动下的动态定价与资源分配策略，值得关注其对用户订阅选择和平台运营的影响。",
+        "excerpts": [
+          {
+            "label": "关键政策变更",
+            "text": "从7月20日起，Claude Fable 5 将包含在所有 Max 和 Team Premium 计划中，但使用额度为正常限制的50%。",
+            "reference": "原文"
+          },
+          {
+            "label": "Pro 和 Team Standard 用户补偿",
+            "text": "Pro 和 Team Standard 用户将继续通过使用额度访问 Fable，并将获得一次性 $100 的额度。",
+            "reference": "原文"
+          },
+          {
+            "label": "需求预测挑战",
+            "text": "官方表示，Fable 的需求一直难以预测，因此采取了分阶段向订阅计划推出的方式，并在获得额外算力后多次延长访问权限。",
+            "reference": "原文"
+          },
+          {
+            "label": "动态资源分配策略",
+            "text": "这一调整体现了 AI 服务在需求波动下的动态定价与资源分配策略，通过分阶段开放和额度补偿来平衡用户体验与算力成本。",
+            "reference": "基于原文的推断"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2078320950488297917:85a5bd772ba7dae6": {
+      "itemId": "tweet:2078320950488297917",
+      "sourceHash": "85a5bd772ba7dae6",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Oops... I did it again. Enjoy reset usage limits for all paid users for Codex...",
+      "url": "https://x.com/thsottiaux/status/2078320950488297917",
+      "generatedAt": "2026-07-19T00:59:57.528Z",
+      "summary": {
+        "title": "Thibault Sottiaux 宣布为所有付费用户重置 Codex 和 ChatGPT Work 用量限制",
+        "summary": "OpenAI 的 Thibault Sottiaux 在推特上宣布，已为所有付费用户重置了 Codex 和 ChatGPT Work 的用量限制。他幽默地引用布兰妮的歌词“Oops... I did it again”，表达了对团队高速迭代和保障基础设施的感激，并祝用户周末愉快。这条推文获得了超过 9000 个赞和 600 次转发，反映了用户对用量重置的积极反响。",
+        "excerpts": [
+          {
+            "label": "核心消息",
+            "text": "为所有付费用户重置了 Codex 和 ChatGPT Work 的用量限制。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "幽默表达",
+            "text": "以布兰妮歌词“Oops... I did it again”开场，营造轻松氛围。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "团队致谢",
+            "text": "对团队以光速迭代并在快速扩展中保持基础设施稳定表示超级感激。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "用户互动",
+            "text": "推文获得 9072 个赞、606 次转发和 1803 条回复，显示高关注度。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2078302417100394737:7ecef6ae88911eb0": {
+      "itemId": "tweet:2078302417100394737",
+      "sourceHash": "7ecef6ae88911eb0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：We know this has been frustrating, and we want to give you more certainty about...",
+      "url": "https://x.com/claudeai/status/2078302417100394737",
+      "generatedAt": "2026-07-19T01:00:04.379Z",
+      "summary": {
+        "title": "Claude 回应使用限制争议：为重度用户统一设定 50% 用量标准",
+        "summary": "Claude 官方账号发布推文，承认近期用户对使用限制的不满，并宣布为最常使用 Fable 模型的计划统一设定 50% 的用量标准，以提供更明确的预期。推文感谢用户过去几周的耐心，并表示正在持续投资新容量，后续将保持更新。此举旨在缓解因容量不足导致的访问不确定性，但未说明具体计划名称或 50% 的具体计算方式。",
+        "excerpts": [
+          {
+            "label": "官方致歉与承诺",
+            "text": "我们知道这令人沮丧，我们想让你更确定你的计划包含什么。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "核心政策调整",
+            "text": "我们正在为最常使用 Fable 的计划统一设定 50% 的用量标准。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "感谢用户耐心",
+            "text": "感谢你们过去几周的耐心。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "未来投资方向",
+            "text": "我们正在持续投资新容量，并会在推进过程中随时向大家更新。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2078139206946459853:6e81c9201485fff6": {
+      "itemId": "tweet:2078139206946459853",
+      "sourceHash": "6e81c9201485fff6",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：This post is key. The cheaper AI gets, the more opportunity there is for the...",
+      "url": "https://x.com/levie/status/2078139206946459853",
+      "generatedAt": "2026-07-19T01:00:14.424Z",
+      "summary": {
+        "title": "AI 越便宜，整个生态越受益——Aaron Levie 谈成本下降如何释放需求与价值",
+        "summary": "Box 联合创始人 Aaron Levie 在这条推文中强调，AI 成本的持续下降是整个生态系统的关键机遇，尤其对终端客户有利。他指出，当前 AI 部署的瓶颈在于能否以低成本、高效率的方式应用于真实工作负载。每当 AI 成本降低，总使用量就会上升，价值会流向技术栈的每一层。他补充了一个重要观点：随着 AI 效率提升，对前沿闭源模型的需求也可能增加，因为复杂任务的编排需要最强模型，而大量 token 生成可交给更便宜或微调过的模型。这种效率增益反而可能推高对前沿模型的总体支出，因为企业能经济地将 AI 部署到更多任务中。他认为，最受威胁的是利润率，而智能的利润率最终会趋近于基础设施层的利润率。他乐见竞争推动 AI 成本下降。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 越便宜，整个生态系统的机会就越多，尤其是终端客户能从中受益。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "瓶颈分析",
+            "text": "一切瓶颈都在于能否成功且经济高效地将 AI 部署到真实工作负载中。",
+            "reference": "推文前半部分"
+          },
+          {
+            "label": "成本与用量关系",
+            "text": "任何时候降低 AI 成本，总使用量就会上升，价值会累积到技术栈的所有层面。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "前沿模型需求悖论",
+            "text": "AI 效率提升后，对前沿闭源模型的需求也可能上升，因为任务编排需要最强模型，而大量 token 可交给更便宜的模型处理。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "效率增益的连锁反应",
+            "text": "效率增益反而可能导致对前沿模型的总体支出增加，因为企业能经济地将 AI 部署到更多任务中。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "利润率趋势判断",
+            "text": "最受威胁的是利润率，智能的利润率最终应该会趋近于基础设施层的利润率。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "竞争态度",
+            "text": "看到竞争推动 AI 成本下降，这是非常有趣的时刻。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
