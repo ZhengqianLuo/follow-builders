@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-19T01:00:14.424Z",
+  "updatedAt": "2026-07-20T01:04:11.997Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -2104,6 +2104,241 @@
             "label": "竞争态度",
             "text": "看到竞争推动 AI 成本下降，这是非常有趣的时刻。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2078647648307880209:754007df904a6405": {
+      "itemId": "tweet:2078647648307880209",
+      "sourceHash": "754007df904a6405",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Based on internal evals: ▪️ Kimi K3 is top-tier at cybersecurity There is...",
+      "url": "https://x.com/rauchg/status/2078647648307880209",
+      "generatedAt": "2026-07-20T01:03:38.098Z",
+      "summary": {
+        "title": "Guillermo Rauch 内部评测：Kimi K3 网络安全能力顶尖，Sol 飞跃，Fable 拒绝一切",
+        "summary": "Guillermo Rauch 基于内部评测分享了对三款前沿模型的网络安全能力观察。Kimi K3 在网络安全方面表现顶级，针对外界对 Moonshot 过度拟合基准的质疑，他强调这是隐秘评测，模型展现出原始智商。Sol 在网络安全能力上实现飞跃，虽然成本显著更高，但表现依然出色。Fable 则拒绝执行任何任务，无法完成运行，相比之下 Sol 更愿意协助防御性网络安全加固。Rauch 总结称，前沿、开放权重的网络安全能力已经到来，并建议在 defensive purposes 下试用。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Kimi K3 在网络安全方面是顶级的。X 上有传言说 Moonshot 过度拟合基准，但这是隐秘评测，模型有原始智商。",
+            "reference": "https://x.com/rauchg/status/2078647648307880209"
+          },
+          {
+            "label": "观点",
+            "text": "Sol 在网络安全能力上是一个飞跃，成本显著更高，但仍然相当出色。",
+            "reference": "https://x.com/rauchg/status/2078647648307880209"
+          },
+          {
+            "label": "案例",
+            "text": "Fable 拒绝一切，我们根本无法让它完成运行。有趣的是，相比之下 Sol 更愿意帮助进行防御性网络安全加固。",
+            "reference": "https://x.com/rauchg/status/2078647648307880209"
+          },
+          {
+            "label": "金句",
+            "text": "TL;DR：前沿、开放权重的网络安全能力已经到来。",
+            "reference": "https://x.com/rauchg/status/2078647648307880209"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2078548458714406959:0a52e7bc14da3895": {
+      "itemId": "tweet:2078548458714406959",
+      "sourceHash": "0a52e7bc14da3895",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：The term \"AGI\" has aged very poorly. AI can't possibly me more different from...",
+      "url": "https://x.com/rauchg/status/2078548458714406959",
+      "generatedAt": "2026-07-20T01:03:46.388Z",
+      "summary": {
+        "title": "Guillermo Rauch：AGI 一词已过时，AI 远超人类智能但无法取代人性",
+        "summary": "Guillermo Rauch 认为“AGI”这个术语已经严重过时，因为 AI 与人类智能截然不同，它在大多数经济相关任务上远优于人类，但这并不意味着 AI 比人类更优越。他提出“超级智能”是更恰当的称呼。人类拥有机器无法替代的特质，比如我们天生就会深切地关心他人，并将这种关怀教给机器模仿。我们必须将珍视人类生命作为一切工作的最高优先。AI 可以替代你做的任务，但无法替代你这个人本身。正因如此，AI 在写作上表现极差，即使提供大量个人语料和复杂配置，产出的文字依然机械，因为它们是机器人。他认为人变得无关紧要的唯一方式是失去自我：放弃身份、完全委托写作、不再表达独特思想、不再参与创造。他相信质量和人性终将胜出，因为当前 AI 生成的社交媒体回复或落地页文案令人反感。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "“AGI”这个词已经严重过时。AI 与人类智能截然不同，它在大多数经济相关任务上远优于人类智能，但这并不意味着 AI 比人类更优越。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "金句",
+            "text": "人类有一些美妙的能力是这些超级智能（更好的术语）无法做到的。首先，我们以一种强大而内在的方式关心他人，然后我们教机器去模仿。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "我们必须将珍视人类生命作为一切工作的最高优先。AI 可以替代你做的任务，但无法替代你这个人本身。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "案例",
+            "text": "这就是为什么 AI 在写作上表现极差！即使给它你的全部作品、200 个技能和 50 个子代理在图形循环中运行，它产出的文字依然机械……因为它们是机器人。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "观点",
+            "text": "我知道一种让人变得无关紧要的确定方式：他们不再做自己——失去身份，完全委托写作，放弃独特思想，不再创造性地使用机器，不再“发表意见”。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "金句",
+            "text": "我认为我们是安全的。现在没有什么比社交媒体上的 AI 回复或落地页上的（🟢 这个东西）更令人反感的了。质量和人性终将胜出。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2078481578779685245:982995d18b2ca3d1": {
+      "itemId": "tweet:2078481578779685245",
+      "sourceHash": "982995d18b2ca3d1",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：It’s fairly obvious that gate keeping models will not work at scale. Competing...",
+      "url": "https://x.com/levie/status/2078481578779685245",
+      "generatedAt": "2026-07-20T01:03:52.809Z",
+      "summary": {
+        "title": "Aaron Levie：封锁模型无法规模化，美国应靠安全加速而非管制来赢得AI竞争",
+        "summary": "Aaron Levie 认为，试图通过封锁模型来限制中国AI发展在规模上是行不通的。AI竞争对中国具有极高的经济和战略重要性，且中国已证明有能力在接近前沿的水平上竞争，例如近期出现的kimi k3模型若在一个月前出现会令人震惊。他指出，美国若采取更严格的封锁和减缓自身生态系统发展的做法，反而会确保美国在全球AI竞争中失败，或只能依靠越来越多的监管取得有限成效。正确的解决方案是在确保安全的前提下，保持高速的技术进步，推动技术扩散，建设基础设施，支持美国开源生态等。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "封锁模型在规模化时行不通，因为AI竞争对中国经济与战略太重要，且中国已证明能接近前沿水平竞争。",
+            "reference": "原文"
+          },
+          {
+            "label": "案例",
+            "text": "如果一个月前看到kimi k3模型，我们的认知会被颠覆，但现在这已不那么令人震惊，说明中国进步速度之快。",
+            "reference": "原文"
+          },
+          {
+            "label": "警示",
+            "text": "如果美国采取更严格的封锁并减缓自身生态系统，可以保证美国会输掉全球AI竞争，或只能靠越来越多的监管取得有限成功。",
+            "reference": "原文"
+          },
+          {
+            "label": "解决方案",
+            "text": "正确的做法是在安全前提下，保持高速进步、推动技术扩散、建设基础设施、支持美国开源等。",
+            "reference": "原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2078567715544121815:3db9902447f9b2d2": {
+      "itemId": "tweet:2078567715544121815",
+      "sourceHash": "3db9902447f9b2d2",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：If you thought the value of the AI ecosystem was going to only accrue to a few...",
+      "url": "https://x.com/levie/status/2078567715544121815",
+      "generatedAt": "2026-07-20T01:04:01.506Z",
+      "summary": {
+        "title": "Aaron Levie：AI 生态价值不会只流向少数公司，转折点已至",
+        "summary": "Aaron Levie 认为，过去几个月标志着 AI 生态的转折点：前沿实验室将继续推动模型进步，但价值不会只集中在少数公司。一个庞大的生态正在将 AI 扩散到现实世界，包括为企业定制模型并运行推理的公司、提供端到端体验和业务流程工具的应用 AI 公司、深耕垂直领域的新实验室、支持模型和智能体运行的基础设施层，以及推动企业变革管理的服务公司。这些类别共同构成了健康的技术生态，现在判断赢家架构为时过早，未来将是异构环境。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "如果你认为 AI 生态的价值只会流向少数几家公司，过去几个月已经成为一个转折点，展示了 AI 未来可能的面貌。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "前沿实验室优势",
+            "text": "前沿 AI 实验室拥有计算规模、庞大收入流和客户群、顶尖研究人员、大型数据管道等，将继续保持领先。",
+            "reference": "推文前半部分"
+          },
+          {
+            "label": "生态扩散",
+            "text": "同时，一个惊人的生态正在将 AI 扩散到现实世界，这些公司基于前沿模型构建或提供可信的替代方案。",
+            "reference": "推文中部"
+          },
+          {
+            "label": "定制模型与推理",
+            "text": "有一类公司帮助企业开发针对特定用例调优的模型，并为其运行推理，从而提升性能并降低成本。",
+            "reference": "推文列举第一点"
+          },
+          {
+            "label": "应用 AI 公司",
+            "text": "应用 AI 公司提供终端用户体验和业务流程工具，推动企业在法律、IT、安全、HR、客服、编程等领域的采用，它们可以对接任何模型并充当路由层。",
+            "reference": "推文列举第二点"
+          },
+          {
+            "label": "垂直领域新实验室",
+            "text": "新的实验室正在生命科学、金融服务、医疗等垂直领域深耕，这些领域要么不是前沿实验室的重点，要么需要深厚的垂直专业知识。",
+            "reference": "推文列举第三点"
+          },
+          {
+            "label": "基础设施层",
+            "text": "全新的基础设施正在涌现，用于有效运行模型和智能体、保护和管理其操作、存储和保护数据，并帮助企业编排活动。",
+            "reference": "推文列举第四点"
+          },
+          {
+            "label": "服务公司",
+            "text": "将出现数百甚至数千家新的服务公司，在业务线或特定行业中推动变革管理，使智能体得以被采用。",
+            "reference": "推文列举第五点"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2078666187026911488:eef4f9a15d81d490": {
+      "itemId": "tweet:2078666187026911488",
+      "sourceHash": "eef4f9a15d81d490",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Zara Zhang：Everyone should develop their \"personal eval set\" for AI models: a few tasks...",
+      "url": "https://x.com/zarazhangrui/status/2078666187026911488",
+      "generatedAt": "2026-07-20T01:04:06.876Z",
+      "summary": {
+        "title": "Zara Zhang：每个人都应该建立自己的 AI 模型“个人评估集”",
+        "summary": "Zara Zhang 提出，每个人都应该为 AI 模型建立一套“个人评估集”，即一组真正与日常工作生活相关的任务。她指出，行业基准测试虽然有用，但未必能反映模型对个人的实际效用。通过主动试探和碰撞模型的边界，才能发现其能力极限。这条推文强调了个人化评估的重要性，鼓励用户不要盲目依赖通用指标，而是通过亲身体验找到最适合自己的 AI 工具。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "每个人都应该建立自己的“个人评估集”，即一组真正与日常工作生活相关的任务。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "对行业基准的看法",
+            "text": "行业基准测试有帮助，但它们可能无法反映模型对你个人的实际用处。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "发现模型能力边界的方法",
+            "text": "通过主动试探和碰撞模型，才能发现其能力边界，这本身也是一种乐趣。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2078628617987518855:1864983bdc4138c0": {
+      "itemId": "tweet:2078628617987518855",
+      "sourceHash": "1864983bdc4138c0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Swyx：people hating on europe miss that they actually have some of the top ai...",
+      "url": "https://x.com/swyx/status/2078628617987518855",
+      "generatedAt": "2026-07-20T01:04:11.996Z",
+      "summary": {
+        "title": "Swyx：欧洲拥有世界顶级AI人才，全球竞技场正进入评估窗口",
+        "summary": "Swyx 反驳了外界对欧洲AI实力的轻视，指出欧洲实际上拥有世界顶尖的AI工程师，关键在于能否精准发掘。他以演讲和研讨会数量作为衡量标准，认为欧洲正在运行全球最具竞争力的AI人才竞技场。随着WF（可能指某个项目或组织）进入评估窗口期，这一态势将如何演变值得关注。该观点强调了欧洲在AI人才储备上的被低估优势，以及人才竞争格局的动态变化。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "人们贬低欧洲，却忽略了欧洲实际上拥有世界顶尖的AI工程师，只要你能找到正确的人选。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "我们基本上在运行全球最具竞争力的AI人才竞技场（以演讲和研讨会数量衡量）。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "以演讲和研讨会数量作为衡量AI人才竞争力的指标，凸显欧洲的活跃度。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "随着WF进入评估窗口，观察这一态势如何发展将非常有趣。",
+            "reference": "推文原文"
           }
         ],
         "materials": []

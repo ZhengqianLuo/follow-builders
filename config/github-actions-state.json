@@ -2544,7 +2544,127 @@
       "title": "Thibault Sottiaux：And transitively might also have reset other rate limits out there. Let's see....",
       "url": "https://x.com/thsottiaux/status/2078321266524881065",
       "sentAt": "2026-07-19T01:00:17.142Z"
+    },
+    "tweet:2078514180051906864": {
+      "type": "tweet",
+      "title": "Thariq：This was due to a heroic effort by many people at Anthropic working sometimes...",
+      "url": "https://x.com/trq212/status/2078514180051906864",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "topic:Thariq：This was due to a heroic effort by many people at Anthropic working sometimes...": {
+      "type": "topic",
+      "title": "Thariq：This was due to a heroic effort by many people at Anthropic working sometimes...",
+      "url": "https://x.com/trq212/status/2078514180051906864",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "tweet:2078647648307880209": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Based on internal evals: ▪️ Kimi K3 is top-tier at cybersecurity There is...",
+      "url": "https://x.com/rauchg/status/2078647648307880209",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "topic:Guillermo Rauch：Based on internal evals: ▪️ Kimi K3 is top-tier at cybersecurity There is...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Based on internal evals: ▪️ Kimi K3 is top-tier at cybersecurity There is...",
+      "url": "https://x.com/rauchg/status/2078647648307880209",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "tweet:2078697631019303273": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：ChatGPT Work is for ✅ Creating and hosting sites ✅ Managing your emails for you...",
+      "url": "https://x.com/thsottiaux/status/2078697631019303273",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "topic:Thibault Sottiaux：ChatGPT Work is for ✅ Creating and hosting sites ✅ Managing your emails for you...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：ChatGPT Work is for ✅ Creating and hosting sites ✅ Managing your emails for you...",
+      "url": "https://x.com/thsottiaux/status/2078697631019303273",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "tweet:2078548458714406959": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：The term \"AGI\" has aged very poorly. AI can't possibly me more different from...",
+      "url": "https://x.com/rauchg/status/2078548458714406959",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "topic:Guillermo Rauch：The term \"AGI\" has aged very poorly. AI can't possibly me more different from...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：The term \"AGI\" has aged very poorly. AI can't possibly me more different from...",
+      "url": "https://x.com/rauchg/status/2078548458714406959",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "tweet:2078481578779685245": {
+      "type": "tweet",
+      "title": "Aaron Levie：It’s fairly obvious that gate keeping models will not work at scale. Competing...",
+      "url": "https://x.com/levie/status/2078481578779685245",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "topic:Aaron Levie：It’s fairly obvious that gate keeping models will not work at scale. Competing...": {
+      "type": "topic",
+      "title": "Aaron Levie：It’s fairly obvious that gate keeping models will not work at scale. Competing...",
+      "url": "https://x.com/levie/status/2078481578779685245",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "tweet:2078567715544121815": {
+      "type": "tweet",
+      "title": "Aaron Levie：If you thought the value of the AI ecosystem was going to only accrue to a few...",
+      "url": "https://x.com/levie/status/2078567715544121815",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "topic:Aaron Levie：If you thought the value of the AI ecosystem was going to only accrue to a few...": {
+      "type": "topic",
+      "title": "Aaron Levie：If you thought the value of the AI ecosystem was going to only accrue to a few...",
+      "url": "https://x.com/levie/status/2078567715544121815",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "tweet:2078492577788268549": {
+      "type": "tweet",
+      "title": "Zara Zhang：The biggest barrier for enterprise AI adoption: the people who understand AI...",
+      "url": "https://x.com/zarazhangrui/status/2078492577788268549",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "topic:Zara Zhang：The biggest barrier for enterprise AI adoption: the people who understand AI...": {
+      "type": "topic",
+      "title": "Zara Zhang：The biggest barrier for enterprise AI adoption: the people who understand AI...",
+      "url": "https://x.com/zarazhangrui/status/2078492577788268549",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "tweet:2078666187026911488": {
+      "type": "tweet",
+      "title": "Zara Zhang：Everyone should develop their \"personal eval set\" for AI models: a few tasks...",
+      "url": "https://x.com/zarazhangrui/status/2078666187026911488",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "topic:Zara Zhang：Everyone should develop their \"personal eval set\" for AI models: a few tasks...": {
+      "type": "topic",
+      "title": "Zara Zhang：Everyone should develop their \"personal eval set\" for AI models: a few tasks...",
+      "url": "https://x.com/zarazhangrui/status/2078666187026911488",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "tweet:2078520552680046920": {
+      "type": "tweet",
+      "title": "Matt Turck：2024: \"The model layer is commodotizing\" 2025: \"The model layer is...",
+      "url": "https://x.com/mattturck/status/2078520552680046920",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "topic:Matt Turck：2024: \"The model layer is commodotizing\" 2025: \"The model layer is...": {
+      "type": "topic",
+      "title": "Matt Turck：2024: \"The model layer is commodotizing\" 2025: \"The model layer is...",
+      "url": "https://x.com/mattturck/status/2078520552680046920",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "tweet:2078628617987518855": {
+      "type": "tweet",
+      "title": "Swyx：people hating on europe miss that they actually have some of the top ai...",
+      "url": "https://x.com/swyx/status/2078628617987518855",
+      "sentAt": "2026-07-20T01:04:13.882Z"
+    },
+    "topic:Swyx：people hating on europe miss that they actually have some of the top ai...": {
+      "type": "topic",
+      "title": "Swyx：people hating on europe miss that they actually have some of the top ai...",
+      "url": "https://x.com/swyx/status/2078628617987518855",
+      "sentAt": "2026-07-20T01:04:13.882Z"
     }
   },
-  "updatedAt": "2026-07-19T01:00:17.142Z"
+  "updatedAt": "2026-07-20T01:04:13.882Z"
 }
