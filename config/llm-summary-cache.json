@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-20T01:04:11.997Z",
+  "updatedAt": "2026-07-21T00:58:11.805Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -2338,6 +2338,206 @@
           {
             "label": "观点",
             "text": "随着WF进入评估窗口，观察这一态势如何发展将非常有趣。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2078864191683969212:f6f64d9467f581d9": {
+      "itemId": "tweet:2078864191683969212",
+      "sourceHash": "f6f64d9467f581d9",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Good post if you’re trying to understand AI diffusion. Progress driven by AI...",
+      "url": "https://x.com/levie/status/2078864191683969212",
+      "generatedAt": "2026-07-21T00:57:40.065Z",
+      "summary": {
+        "title": "Aaron Levie：理解 AI 扩散的关键在于现实世界的反馈速度",
+        "summary": "Aaron Levie 在这条推文中分享了一篇关于 AI 扩散的帖子，核心观点是：AI 驱动的进步最终会受到与现实世界交互速度的限制。他以编程为例，说明代码可以近乎无限地编写、测试和运行，且无需外部世界改变就能产生价值，因此 AI 在编程领域采纳极快。但在生命科学、销售、合同谈判等领域，新药需要多年测试，销售需要与潜在客户反复沟通，合同需要对方协商，这些现实世界的反馈循环才是真正的瓶颈。Levie 引用了一个生动的类比：AI 可能设计出极聪明的喷气涡轮叶片，但即使它比工程师的方案更可能成功，仍很可能失败，因为在前沿领域失败是常态，唯一验证方法是实际制造并测试。因此，想法从来不是最难的部分，现实回答问题的速度才是。这解释了为什么需要应用层 AI，将智能融入现有行业的工作流，而不仅仅是模型输出。模型输出本身在大多数情况下不够，必须改变底层工作流，并构建系统来处理行业中的现实反馈循环，这也正是应用 AI 层存在巨大机会的原因。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 驱动的进步最终会受到与现实世界交互速度的限制。",
+            "reference": "原文开头"
+          },
+          {
+            "label": "案例对比",
+            "text": "编程之所以被快速采纳，是因为你可以编写近乎无限的代码、测试并运行它，且无需外部世界做任何改变就能产生价值。一个人坐在电脑前就能端到端地让某些东西以不同的方式工作。",
+            "reference": "原文中段"
+          },
+          {
+            "label": "案例对比",
+            "text": "生命科学、销售、合同谈判等领域则不同：新药需要多年测试，销售需要与潜在客户反复沟通，合同需要对方协商。",
+            "reference": "原文中段"
+          },
+          {
+            "label": "生动类比",
+            "text": "AI 可能交给你一个真正聪明的喷气涡轮叶片设计，它可能比工程师的方案更可能成功，但仍很可能失败，因为在前沿领域失败是常态。唯一验证方法是实际制造叶片并尝试破坏它。这才是学习的真正限制，与智能程度无关。",
+            "reference": "原文引用部分"
+          },
+          {
+            "label": "关键洞察",
+            "text": "提出想法从来不是最难的部分，最难的是现实回答问题的速度。",
+            "reference": "原文引用部分结尾"
+          },
+          {
+            "label": "应用 AI 的必要性",
+            "text": "你需要应用 AI，将智能融入现有行业的工作流，而不仅仅是模型输出。模型输出本身在大多数情况下不够，必须改变底层工作流，并构建系统来处理现实世界的反馈循环。",
+            "reference": "原文结尾"
+          },
+          {
+            "label": "机会所在",
+            "text": "这就是为什么应用 AI 层存在如此多的机会。",
+            "reference": "原文最后一句"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2079011428380602526:9a15968154d2ff66": {
+      "itemId": "tweet:2079011428380602526",
+      "sourceHash": "9a15968154d2ff66",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Cat Wu：I love using Claude Cowork to manage my calendar. Here's my prompt for it:...",
+      "url": "https://x.com/_catwu/status/2079011428380602526",
+      "generatedAt": "2026-07-21T00:57:50.713Z",
+      "summary": {
+        "title": "Cat Wu 分享用 Claude Cowork 管理日历的提示词与心得",
+        "summary": "AI 研究员 Cat Wu 在 X 上分享了她使用 Claude Cowork 管理日历的体验，并公开了具体提示词。她要求 Cowork 将每周会议控制在 20 小时以内，自动识别并合并冲突会议，通过学习过往行为判断哪些会议她会拒绝，且晚餐不计入会议时长。她还要求 Cowork 构建可迭代的技能，并在更新邀请前征求她的同意。这条推文引发了关于 AI 日程管理、提示词设计和 Cowork 应用场景的讨论，展示了如何将 AI 代理融入个人工作流，提升效率并保持控制权。",
+        "excerpts": [
+          {
+            "label": "核心提示词",
+            "text": "Manage my calendar for the week. Requirements: 1. <20 hours of meetings 2. Dedupe conflicting meetings. Look at past weeks to see what kinds of meetings I decline. Dinners don't count against the 20 hours. Build a skill that you refine. Ask me before updating invites.",
+            "reference": "推文原文"
+          },
+          {
+            "label": "会议时长限制",
+            "text": "Cat Wu 明确要求每周会议总时长不超过 20 小时，体现了对深度工作时间的保护。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "冲突会议去重",
+            "text": "提示词中包含“Dedupe conflicting meetings”，让 AI 自动处理时间冲突的会议，减少手动协调。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "学习用户偏好",
+            "text": "要求 AI 查看过去几周的数据，学习她通常会拒绝哪些类型的会议，实现个性化决策。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "晚餐不计入会议时间",
+            "text": "Dinners don't count against the 20 hours，将社交性质的晚餐与工作会议区分开，更符合实际需求。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "构建可迭代技能",
+            "text": "Build a skill that you refine，要求 AI 将日历管理作为一项技能持续优化，而非一次性任务。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "保持人工控制",
+            "text": "Ask me before updating invites，在自动更新邀请前必须征得用户同意，确保最终决策权在人。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2078968158006939716:218e55e6b84296f1": {
+      "itemId": "tweet:2078968158006939716",
+      "sourceHash": "218e55e6b84296f1",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：A lot of people make the mistake of thinking that when AI costs drop, that...",
+      "url": "https://x.com/levie/status/2078968158006939716",
+      "generatedAt": "2026-07-21T00:57:58.549Z",
+      "summary": {
+        "title": "AI 成本下降反而推高推理需求：Aaron Levie 谈算力消费悖论",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中指出，许多人误以为 AI 成本下降会导致 AI 支出减少，但实际情况恰恰相反。当 token 价格降低时，AI 的消费量会大幅上升，因为用户能够负担得起更广泛的任务，例如编写更多代码、审查更多代码的 bug 和安全问题、在以前无法处理的大数据集上运行智能体等。因此，在可预见的未来，任何降低 token 成本的因素都会推高推理需求。这一逻辑也解释了为什么开源商业模式在 AI 领域能够成立——这些模型并非在用户设备上运行，而是在基础设施上运行，从而为云服务提供商创造了巨大机遇。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "很多人错误地认为 AI 成本下降时，AI 支出也会随之下降。通常情况恰恰相反：当 AI 变得更便宜时，它的消费量会更大。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "关键论证",
+            "text": "因为现在你可以负担得起将 AI 用于比以前更广泛的任务：你开始写更多代码，审查更多代码的 bug 和安全问题，在以前无法处理的大数据集上运行智能体，等等。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "趋势判断",
+            "text": "因此，在可预见的未来，任何降低 token 成本的因素都会推高推理需求。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "商业模式洞察",
+            "text": "这也让你理解为什么即使是开源商业模式在 AI 领域也能行得通。没有人是在自己的设备上运行这些模型；他们是在基础设施上运行它们。现在是成为这类提供商的大好时机。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2078992778449850769:fc26aca4d3b9b7df": {
+      "itemId": "tweet:2078992778449850769",
+      "sourceHash": "fc26aca4d3b9b7df",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：In a world where there are strong open source alternatives that are only just...",
+      "url": "https://x.com/levie/status/2078992778449850769",
+      "generatedAt": "2026-07-21T00:58:04.822Z",
+      "summary": {
+        "title": "开源模型崛起，AI 监管逻辑必须改变",
+        "summary": "Aaron Levie 指出，当前存在仅略逊于前沿模型的强大开源替代品，若美国通过限制访问前沿模型能力来实施监管，反而会削弱自身安全与竞争力。即使美国能完全禁止开源模型，其他生态不会跟进，反而能利用这些模型对抗美国或加强自身防御，而美国企业将无法跟上。因此，AI 监管的考量必须因开源权重模型的强大程度远超预期而改变。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "在存在仅略落后于前沿模型的强大开源替代品的世界里，通过限制访问前沿模型能力来把关，只会让自己更不安全、更缺乏竞争力。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "逻辑推演",
+            "text": "即使美国能完全禁止开源模型，其他生态不会实施此类禁令，它们将获得访问这些模型的优势，可能用来对抗我们，或更好地防御自身，而我们的企业将无法跟上。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "结论",
+            "text": "AI 监管的考量必须改变，以反映开源权重模型远比许多人预期的更强大这一事实。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2078830510177128481:14b94eecac2b945e": {
+      "itemId": "tweet:2078830510177128481",
+      "sourceHash": "14b94eecac2b945e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Zara Zhang：Whenever someone asks me \"I'm just getting started with posting content on...",
+      "url": "https://x.com/zarazhangrui/status/2078830510177128481",
+      "generatedAt": "2026-07-21T00:58:11.805Z",
+      "summary": {
+        "title": "Zara Zhang：如何开始做社交媒体内容？从你最常被问的三个问题入手",
+        "summary": "Zara Zhang 在推文中分享了她对内容创作新手的建议：当你不知道在社交媒体上发布什么时，想想你被朋友、熟人或同事最常问到的三个问题，把答案直接做成视频或帖子，就像你在现实生活中回答他们一样。这就是你的定位。如果你重复说过某件事超过三次，就值得把它变成视频。她最初在社交媒体上发帖的动机之一，就是因为厌倦了在现实生活中不断重复自己。这个建议的核心是：内容创作不必从零开始，你已有的知识和经验就是最好的素材，通过将口头回答转化为内容，既能节省时间，又能精准满足受众需求。",
+        "excerpts": [
+          {
+            "label": "核心建议",
+            "text": "当有人问我‘我刚开始在社交媒体上发内容，该说些什么？’我的回答是：你被朋友/熟人/同事最常问到的三个问题是什么？把那些答案变成视频或帖子。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "表达方式",
+            "text": "就像你在现实生活中对他们说的那样说出来。那就是你的定位。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "内容创作阈值",
+            "text": "如果你重复说过某件事超过三次，就值得把它变成一个视频。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "个人动机",
+            "text": "我最初在社交媒体上发帖的动机之一，是因为我厌倦了在现实生活中重复自己。",
             "reference": "推文原文"
           }
         ],
