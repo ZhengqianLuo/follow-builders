@@ -2784,7 +2784,127 @@
       "title": "Zara Zhang：Whenever someone asks me \"I'm just getting started with posting content on...",
       "url": "https://x.com/zarazhangrui/status/2078830510177128481",
       "sentAt": "2026-07-21T00:58:13.604Z"
+    },
+    "tweet:2079274102129304026": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：The big lesson from AI is that everything is code. A slide deck is code. Design...",
+      "url": "https://x.com/rauchg/status/2079274102129304026",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "topic:Guillermo Rauch：The big lesson from AI is that everything is code. A slide deck is code. Design...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：The big lesson from AI is that everything is code. A slide deck is code. Design...",
+      "url": "https://x.com/rauchg/status/2079274102129304026",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "tweet:2079355529101705264": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Never a dull moment when you work at OpenAI. Absolutely incredible place.",
+      "url": "https://x.com/thsottiaux/status/2079355529101705264",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "topic:Thibault Sottiaux：Never a dull moment when you work at OpenAI. Absolutely incredible place.": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Never a dull moment when you work at OpenAI. Absolutely incredible place.",
+      "url": "https://x.com/thsottiaux/status/2079355529101705264",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "tweet:2079258683884917013": {
+      "type": "tweet",
+      "title": "Sam Altman：it is good now! https://t.co/eiG0VDwrTe",
+      "url": "https://x.com/sama/status/2079258683884917013",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "topic:Sam Altman：it is good now! https://t.co/eiG0VDwrTe": {
+      "type": "topic",
+      "title": "Sam Altman：it is good now! https://t.co/eiG0VDwrTe",
+      "url": "https://x.com/sama/status/2079258683884917013",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "tweet:2079273815004303477": {
+      "type": "tweet",
+      "title": "Peter Yang：Banning Chinese models will be the same self own as banning Chinese EVs.",
+      "url": "https://x.com/petergyang/status/2079273815004303477",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "topic:Peter Yang：Banning Chinese models will be the same self own as banning Chinese EVs.": {
+      "type": "topic",
+      "title": "Peter Yang：Banning Chinese models will be the same self own as banning Chinese EVs.",
+      "url": "https://x.com/petergyang/status/2079273815004303477",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "tweet:2079402164988895293": {
+      "type": "tweet",
+      "title": "Aaron Levie：Multi-model agentic systems clearly are the future. Great post by cursor. Their...",
+      "url": "https://x.com/levie/status/2079402164988895293",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "topic:Aaron Levie：Multi-model agentic systems clearly are the future. Great post by cursor. Their...": {
+      "type": "topic",
+      "title": "Aaron Levie：Multi-model agentic systems clearly are the future. Great post by cursor. Their...",
+      "url": "https://x.com/levie/status/2079402164988895293",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "tweet:2079282869063786541": {
+      "type": "tweet",
+      "title": "Amjad Masad：First physical product shipped by a coding agent? https://t.co/1PSIT9yvOT",
+      "url": "https://x.com/amasad/status/2079282869063786541",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "topic:Amjad Masad：First physical product shipped by a coding agent? https://t.co/1PSIT9yvOT": {
+      "type": "topic",
+      "title": "Amjad Masad：First physical product shipped by a coding agent? https://t.co/1PSIT9yvOT",
+      "url": "https://x.com/amasad/status/2079282869063786541",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "tweet:2079409165424799889": {
+      "type": "tweet",
+      "title": "Zara Zhang：If I were to hire today, this is how I would structure the interview process:...",
+      "url": "https://x.com/zarazhangrui/status/2079409165424799889",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "topic:Zara Zhang：If I were to hire today, this is how I would structure the interview process:...": {
+      "type": "topic",
+      "title": "Zara Zhang：If I were to hire today, this is how I would structure the interview process:...",
+      "url": "https://x.com/zarazhangrui/status/2079409165424799889",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "tweet:2079225776545968166": {
+      "type": "tweet",
+      "title": "Zara Zhang：There are basically two kinds of companies now. The ones built before coding...",
+      "url": "https://x.com/zarazhangrui/status/2079225776545968166",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "topic:Zara Zhang：There are basically two kinds of companies now. The ones built before coding...": {
+      "type": "topic",
+      "title": "Zara Zhang：There are basically two kinds of companies now. The ones built before coding...",
+      "url": "https://x.com/zarazhangrui/status/2079225776545968166",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "tweet:2079328912912355470": {
+      "type": "tweet",
+      "title": "Nikunj Kothari：Many founders in the last 18 months are going to realize that just because...",
+      "url": "https://x.com/nikunj/status/2079328912912355470",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "topic:Nikunj Kothari：Many founders in the last 18 months are going to realize that just because...": {
+      "type": "topic",
+      "title": "Nikunj Kothari：Many founders in the last 18 months are going to realize that just because...",
+      "url": "https://x.com/nikunj/status/2079328912912355470",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "tweet:2079411861150429402": {
+      "type": "tweet",
+      "title": "Swyx：very notable trajectory comparison writeup here buried in the RLM paper from...",
+      "url": "https://x.com/swyx/status/2079411861150429402",
+      "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "topic:Swyx：very notable trajectory comparison writeup here buried in the RLM paper from...": {
+      "type": "topic",
+      "title": "Swyx：very notable trajectory comparison writeup here buried in the RLM paper from...",
+      "url": "https://x.com/swyx/status/2079411861150429402",
+      "sentAt": "2026-07-22T00:55:47.165Z"
     }
   },
-  "updatedAt": "2026-07-21T00:58:13.604Z"
+  "updatedAt": "2026-07-22T00:55:47.165Z"
 }

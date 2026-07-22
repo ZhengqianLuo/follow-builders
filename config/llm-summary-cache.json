@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-21T00:58:11.805Z",
+  "updatedAt": "2026-07-22T00:55:45.530Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -2538,6 +2538,186 @@
           {
             "label": "个人动机",
             "text": "我最初在社交媒体上发帖的动机之一，是因为我厌倦了在现实生活中重复自己。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2079402164988895293:254fc12e7801d256": {
+      "itemId": "tweet:2079402164988895293",
+      "sourceHash": "254fc12e7801d256",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Multi-model agentic systems clearly are the future. Great post by cursor. Their...",
+      "url": "https://x.com/levie/status/2079402164988895293",
+      "generatedAt": "2026-07-22T00:55:12.618Z",
+      "summary": {
+        "title": "Aaron Levie：多模型智能体系统是未来，Cursor 新研究展示 15 倍成本优化",
+        "summary": "Aaron Levie 在推文中高度评价 Cursor 关于多模型智能体系统的研究，认为这是未来趋势。核心发现是：使用前沿模型作为规划者和协调者，搭配更便宜的模型执行具体工作，可以大幅降低项目总 token 成本，实现 15 倍的成本改善。原因在于，大型任务中只有少数时刻真正需要前沿智能，如初始分解、设计决策和权衡；一旦规划者将模糊性转化为详细指令，廉价模型即可遵循执行。这种按任务阶段路由到不同模型的设计模式正成为复杂智能体的核心，能极大提升整体效率。Levie 指出，这为 AI 应用层的差异化提供了模板：只有深入理解领域并能驾驭多模型层级的企业，才能在编程、金融、法律、医疗、生命科学等关键领域承接更大规模的工作负载，否则客户会因成本过高而无法部署。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "多模型智能体系统显然是未来。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "关键数据",
+            "text": "前沿模型作为规划者，搭配更便宜的模型执行工作，可实现 15 倍的成本改善。",
+            "reference": "推文前半部分"
+          },
+          {
+            "label": "设计哲学",
+            "text": "大型任务中只有少数时刻真正需要前沿智能，如初始分解、设计决策和某些权衡。一旦前沿规划者将模糊性转化为详细指令，廉价模型只需遵循即可。",
+            "reference": "推文中间部分"
+          },
+          {
+            "label": "设计模式",
+            "text": "根据任务所处阶段路由到不同模型，正成为复杂智能体的核心设计模式，能极大提升整体效率。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "行业启示",
+            "text": "这为 AI 应用层的差异化提供了模板：只有深入理解领域并能驾驭多模型层级的企业，才能在编程、金融、法律、医疗、生命科学等关键领域承接更大规模的工作负载。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2079409165424799889:97cd3eb12a6fc409": {
+      "itemId": "tweet:2079409165424799889",
+      "sourceHash": "97cd3eb12a6fc409",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Zara Zhang：If I were to hire today, this is how I would structure the interview process:...",
+      "url": "https://x.com/zarazhangrui/status/2079409165424799889",
+      "generatedAt": "2026-07-22T00:55:20.234Z",
+      "summary": {
+        "title": "Zara Zhang：如果今天招人，我会这样设计面试流程",
+        "summary": "Zara Zhang 在推文中分享了她理想中的两轮面试流程。第一轮是线下无 AI 辅助的现场测试，直接考察候选人的领域知识和临场反应能力。第二轮则是一个必须借助 AI 才能完成的项目，评估标准不仅包括最终成果，还会审查候选人与 AI 代理的对话记录。这种设计旨在同时衡量候选人的真实专业功底和高效利用 AI 工具的能力，反映了当前技术环境下对人才评估的新思路。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "第一轮面试必须线下进行且禁止使用 AI，现场测试领域知识和专业能力。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "第二轮面试是一个必须借助 AI 才能完成的项目，没有 AI 根本无法完成。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "评估候选人时不仅看最终结果，还要审查他们与 AI 代理的对话记录。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2079225776545968166:f4de93bf6a09cf90": {
+      "itemId": "tweet:2079225776545968166",
+      "sourceHash": "f4de93bf6a09cf90",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Zara Zhang：There are basically two kinds of companies now. The ones built before coding...",
+      "url": "https://x.com/zarazhangrui/status/2079225776545968166",
+      "generatedAt": "2026-07-22T00:55:27.729Z",
+      "summary": {
+        "title": "Zara Zhang：现在只有两种公司——编程智能体出现前和出现后",
+        "summary": "Zara Zhang 在推文中提出，当前公司可被分为两类：一类是在编程智能体（coding agents）出现前成立的，正手忙脚乱地改造自身；另一类是在编程智能体出现后成立的，从第一天起就截然不同。后者通常团队不足十人，因为实际不需要更多人；工作按项目而非部门组织；每个人都能闭环完成任务；几乎没有内部会议。这条推文敏锐地捕捉到 AI 编程工具对组织形态的根本性重塑，暗示未来公司将更精简、更去中心化、更依赖个体闭环能力，值得关注技术如何倒逼管理范式变革。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "现在基本上只有两种公司：编程智能体出现前成立的，和编程智能体出现后成立的。前者正手忙脚乱地改造，后者从第一天起就不同。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "团队规模",
+            "text": "编程智能体出现后成立的公司，团队通常不足十人，因为他们实际上不需要更多人。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "组织方式",
+            "text": "工作按项目组织，而不是按部门。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "个体闭环",
+            "text": "每个人都能闭环完成自己的任务，无需依赖他人。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "会议文化",
+            "text": "几乎没有内部会议。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2079328912912355470:559f0f80cd091847": {
+      "itemId": "tweet:2079328912912355470",
+      "sourceHash": "559f0f80cd091847",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：Many founders in the last 18 months are going to realize that just because...",
+      "url": "https://x.com/nikunj/status/2079328912912355470",
+      "generatedAt": "2026-07-22T00:55:36.158Z",
+      "summary": {
+        "title": "AI 创业没有护城河？别让规模和资本成为你的替代品",
+        "summary": "Nikunj Kothari 指出，过去 18 个月许多创始人会意识到，AI 领域已无传统护城河，但这并不意味着规模和资本就能成为主要护城河。他列举了 Webvan、Groupon、MySpace、Yahoo、AltaVista、Blockbuster、Nokia 等案例，这些公司曾拥有结构性和资本优势，却最终被拥有独特洞察的公司击败，或因自身规模而崩溃。创始人必须找到值得投入十年以上的独特洞察，同时保持审慎，不让资本和规模取代真正的创新。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "许多创始人会意识到，AI 领域已无传统护城河，但这并不意味着规模和资本就能成为主要护城河。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "历史案例",
+            "text": "Webvan、Groupon、MySpace、Yahoo、AltaVista、Blockbuster、Nokia 都曾拥有结构和资本优势，但最终被拥有更好独特洞察的公司击败，或因自身规模而崩溃。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "类比",
+            "text": "我们以前看过这部电影……读点历史对大家都有好处。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "创始人必须穿针引线：找到一个值得投入十年以上旅程的独特洞察，同时保持审慎，不让资本和规模成为其替代品。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2079411861150429402:e3217c75c587e641": {
+      "itemId": "tweet:2079411861150429402",
+      "sourceHash": "e3217c75c587e641",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Swyx：very notable trajectory comparison writeup here buried in the RLM paper from...",
+      "url": "https://x.com/swyx/status/2079411861150429402",
+      "generatedAt": "2026-07-22T00:55:45.529Z",
+      "summary": {
+        "title": "RLM 论文揭示基准测试作弊：用轨迹相似度检测训练集污染",
+        "summary": "Swyx 指出，在 @a1zhang 和 @lateinteraction 的 RLM 论文中，有一段非常值得关注的轨迹比较分析。前沿模型训练的一个公开秘密是，即使不直接在测试集上训练，也可以通过训练与测试集高度相似的数据来“作弊”，从而针对几乎任何基准分数进行目标优化。然而，当模型以开放权重发布时，99% 的情况下都不会提供数据集或强化学习环境，使得外界难以判断是否有人用廉价仿制基准（Temu Tbench）进行了训练，从而保留了合理的推诿空间。Alex 和 Omar 讨论了在隐藏轨迹上应用标准 NLP 距离度量的方法，虽然尚无终极解决方案，但他们进行了一些初步探索。这些探索恰好支持了 RLM 能够泛化到训练中观察到潜在结构的未见任务这一发现。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "前沿模型训练的一个公开秘密是，即使不直接在测试集上训练，也可以通过训练与测试集高度相似的数据来“作弊”，从而针对几乎任何基准分数进行目标优化。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "行业现象",
+            "text": "当模型以开放权重发布时，99% 的情况下都不会提供数据集或强化学习环境，使得外界难以判断是否有人用廉价仿制基准（Temu Tbench）进行了训练，从而保留了合理的推诿空间。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "方法探讨",
+            "text": "Alex 和 Omar 讨论了在隐藏轨迹上应用标准 NLP 距离度量的方法，虽然尚无终极解决方案，但他们进行了一些初步探索。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "研究发现",
+            "text": "这些探索恰好支持了 RLM 能够泛化到训练中观察到潜在结构的未见任务这一发现。",
             "reference": "推文原文"
           }
         ],
