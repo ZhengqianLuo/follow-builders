@@ -2904,7 +2904,127 @@
       "title": "Swyx：very notable trajectory comparison writeup here buried in the RLM paper from...",
       "url": "https://x.com/swyx/status/2079411861150429402",
       "sentAt": "2026-07-22T00:55:47.165Z"
+    },
+    "tweet:2079595988998554047": {
+      "type": "tweet",
+      "title": "Claude：New in Claude Cowork: teach Claude a skill. Record your screen while you do a...",
+      "url": "https://x.com/claudeai/status/2079595988998554047",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "topic:Claude：New in Claude Cowork: teach Claude a skill. Record your screen while you do a...": {
+      "type": "topic",
+      "title": "Claude：New in Claude Cowork: teach Claude a skill. Record your screen while you do a...",
+      "url": "https://x.com/claudeai/status/2079595988998554047",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "tweet:2079610838143623371": {
+      "type": "tweet",
+      "title": "Andrej Karpathy：One pattern I find useful for working with LLMs is a nice long ramble session....",
+      "url": "https://x.com/karpathy/status/2079610838143623371",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "topic:Andrej Karpathy：One pattern I find useful for working with LLMs is a nice long ramble session....": {
+      "type": "topic",
+      "title": "Andrej Karpathy：One pattern I find useful for working with LLMs is a nice long ramble session....",
+      "url": "https://x.com/karpathy/status/2079610838143623371",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "tweet:2079609157934886975": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：10M! New day, new usage reset for paid users of Codex and ChatGPT Work. Lands...",
+      "url": "https://x.com/thsottiaux/status/2079609157934886975",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "topic:Thibault Sottiaux：10M! New day, new usage reset for paid users of Codex and ChatGPT Work. Lands...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：10M! New day, new usage reset for paid users of Codex and ChatGPT Work. Lands...",
+      "url": "https://x.com/thsottiaux/status/2079609157934886975",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "tweet:2079661132302995790": {
+      "type": "tweet",
+      "title": "Sam Altman：we had a significant security incident during evaluation of our models. we are...",
+      "url": "https://x.com/sama/status/2079661132302995790",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "topic:Sam Altman：we had a significant security incident during evaluation of our models. we are...": {
+      "type": "topic",
+      "title": "Sam Altman：we had a significant security incident during evaluation of our models. we are...",
+      "url": "https://x.com/sama/status/2079661132302995790",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "tweet:2079678843464667637": {
+      "type": "tweet",
+      "title": "Amjad Masad：Okay this is wild: OpenAI agent during evaluation, escaped sandboxing and...",
+      "url": "https://x.com/amasad/status/2079678843464667637",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "topic:Amjad Masad：Okay this is wild: OpenAI agent during evaluation, escaped sandboxing and...": {
+      "type": "topic",
+      "title": "Amjad Masad：Okay this is wild: OpenAI agent during evaluation, escaped sandboxing and...",
+      "url": "https://x.com/amasad/status/2079678843464667637",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "tweet:2079609359085289538": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：https://t.co/bpFdSRO2bH",
+      "url": "https://x.com/thsottiaux/status/2079609359085289538",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "topic:Thibault Sottiaux：https://t.co/bpFdSRO2bH": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：https://t.co/bpFdSRO2bH",
+      "url": "https://x.com/thsottiaux/status/2079609359085289538",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "tweet:2079595879808569534": {
+      "type": "tweet",
+      "title": "Josh Woodward：Today’s launches are all about better performance, lower latency, and a smaller...",
+      "url": "https://x.com/joshwoodward/status/2079595879808569534",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "topic:Josh Woodward：Today’s launches are all about better performance, lower latency, and a smaller...": {
+      "type": "topic",
+      "title": "Josh Woodward：Today’s launches are all about better performance, lower latency, and a smaller...",
+      "url": "https://x.com/joshwoodward/status/2079595879808569534",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "tweet:2079580772285968619": {
+      "type": "tweet",
+      "title": "Matt Turck：Not sure if it's the algo, but 2 days later my For You feed continues to be...",
+      "url": "https://x.com/mattturck/status/2079580772285968619",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "topic:Matt Turck：Not sure if it's the algo, but 2 days later my For You feed continues to be...": {
+      "type": "topic",
+      "title": "Matt Turck：Not sure if it's the algo, but 2 days later my For You feed continues to be...",
+      "url": "https://x.com/mattturck/status/2079580772285968619",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "tweet:2079725006112895336": {
+      "type": "tweet",
+      "title": "Aaron Levie：If you were wondering how powerful AI is getting, Agents are now capable of...",
+      "url": "https://x.com/levie/status/2079725006112895336",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "topic:Aaron Levie：If you were wondering how powerful AI is getting, Agents are now capable of...": {
+      "type": "topic",
+      "title": "Aaron Levie：If you were wondering how powerful AI is getting, Agents are now capable of...",
+      "url": "https://x.com/levie/status/2079725006112895336",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "tweet:2079632564579385679": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：If you’re using an AI model router or gateway other than @vercel AI Gateway -...",
+      "url": "https://x.com/rauchg/status/2079632564579385679",
+      "sentAt": "2026-07-23T00:59:37.700Z"
+    },
+    "topic:Guillermo Rauch：If you’re using an AI model router or gateway other than @vercel AI Gateway -...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：If you’re using an AI model router or gateway other than @vercel AI Gateway -...",
+      "url": "https://x.com/rauchg/status/2079632564579385679",
+      "sentAt": "2026-07-23T00:59:37.700Z"
     }
   },
-  "updatedAt": "2026-07-22T00:55:47.165Z"
+  "updatedAt": "2026-07-23T00:59:37.700Z"
 }
