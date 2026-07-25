@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-24T00:55:45.315Z",
+  "updatedAt": "2026-07-25T01:00:36.825Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -3034,6 +3034,141 @@
             "label": "杰文斯悖论",
             "text": "AI 代理加速工作产出，但人力需求依然强劲，杰文斯悖论在此充分体现。",
             "reference": "原文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:df5bd56e-7e39-4f50-9120-0ec711ece6bc:b67498e36793ec11": {
+      "itemId": "podcast:df5bd56e-7e39-4f50-9120-0ec711ece6bc",
+      "sourceHash": "b67498e36793ec11",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "The MAD Podcast with Matt Turck: The Biggest Chip Ever Built — Why OpenAI Runs On It | Cerebras CEO Andrew Feldman",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "generatedAt": "2026-07-25T01:00:22.214Z",
+      "summary": {
+        "title": "史上最大芯片：Cerebras CEO 谈为何 OpenAI 选择它",
+        "summary": "Cerebras 制造了计算机行业历史上最大的芯片，面积是 GPU 的 58 倍，专为 AI 推理设计，因为更大的芯片能更快处理信息。公司 CEO Andrew Feldman 在播客中详细阐述了 Cerebras 的技术理念、市场策略和与 OpenAI 的重大合作。他指出，AI 推理速度至关重要，正确的指标是每个用户每秒的 token 数，速度提升能像 Netflix 从邮寄 DVD 转变为流媒体一样，彻底改变 AI 的使用方式。当前芯片行业面临 HBM 内存短缺、CoWoS 封装受限和台积电 3 纳米产能紧张三大瓶颈，但 Cerebras 均不受影响，其芯片使用 5 纳米工艺，拥有比 GPU 高数千倍的内存带宽。Cerebras 成立于 2016 年，早期专注于 AI 加速但市场反应冷淡，经历了漫长的低谷期。公司策略是做比 GPU 好 10 到 15 倍的极难工程，而非小幅改进。推理速度取决于内存，Cerebras 选择 SRAM 策略，通过制造晶圆级超大芯片（46,000 平方毫米）克服 SRAM 存储量小的弱点，在解码阶段将权重从内存移动到计算的速度比 GPU 快约 2500 倍。芯片由一整片 300 毫米晶圆制成，包含约 100 万个相同瓦片，采用冗余设计和水冷技术。Cerebras 也用于训练，采用模型并行和数据并行，比 GPU 分布式计算更简单。推理模型使用更多计算，Cerebras 的速度优势因此更大。公司提供硬件销售和云服务，2024 年硬件占 75%，云占 25%，预计 2025 年各占 50%，与 OpenAI 的交易将推动云占比至 70%。该交易涉及 750 兆瓦数据中心容量，分多年租赁，Cerebras 提供完整云解决方案。与 AWS 合作实现分解式推理，Cerebras 芯片负责解码，AWS Trainium 负责预填充。Cerebras 认为 CUDA 护城河正在缩小，顶级模型已不再使用 CUDA 训练，推理迁移只需很少步骤。公司与台积电有紧密合作，台积电曾是投资者。2017 年，Cerebras 团队与台积电领导层会面，提出修改芯片制造方式，台积电当场同意。从会议决定到芯片产出约需两年，且首款芯片往往不成功。Cerebras 第一代芯片年销量仅个位数，第二代售出 300-500 片，第三代售出数万片。芯片设计高度依赖特定代工厂，下一代仍将使用台积电。供应链包括从台积电运回芯片，在美国进行重新封装、组装和制造。AI 模型快速迭代，当前模型将是用户用过的最差模型，未来版本更强大。AI 可能颠覆传统 SaaS 业务，例如可以快速生成类似 Salesforce 的工具。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 推理速度至关重要，正确的指标是每个用户每秒的 token 数，速度提升能像 Netflix 从邮寄 DVD 转变为流媒体一样，彻底改变 AI 的使用方式。",
+            "reference": "02:40 - 03:54"
+          },
+          {
+            "label": "技术突破",
+            "text": "Cerebras 制造了计算机行业历史上最大的芯片，面积是 GPU 的 58 倍，使用 SRAM 而非 HBM，在解码阶段将权重从内存移动到计算的速度比 GPU 快约 2500 倍。",
+            "reference": "00:00 - 00:21, 41:46 - 45:00"
+          },
+          {
+            "label": "市场策略",
+            "text": "Cerebras 的策略是做比 GPU 好 10 到 15 倍的极难工程，而非小幅改进，以此挑战 NVIDIA。",
+            "reference": "30:26 - 31:24"
+          },
+          {
+            "label": "供应链优势",
+            "text": "当前芯片行业存在 HBM 内存短缺、CoWoS 封装受限和台积电 3 纳米产能紧张三大瓶颈，但 Cerebras 均不受影响，其芯片使用 5 纳米工艺，拥有比 GPU 高数千倍的内存带宽。",
+            "reference": "19:09 - 22:57"
+          },
+          {
+            "label": "商业里程碑",
+            "text": "Cerebras 与 OpenAI 的交易涉及 750 兆瓦数据中心容量，分多年租赁，Cerebras 提供完整云解决方案，将推动云业务占比从 25% 升至 70%。",
+            "reference": "54:07 - 56:51"
+          },
+          {
+            "label": "行业洞察",
+            "text": "CUDA 的护城河正在缩小，顶级模型（如 Gemini、Claude）已不再使用 CUDA 训练，推理迁移只需很少步骤。",
+            "reference": "1:01:15 - 1:03:01"
+          },
+          {
+            "label": "创业历程",
+            "text": "Cerebras 在 2020 年交付了首款芯片，解决了计算史上的难题，但当时 AI 市场尚未成熟，无人问津。第一代芯片年销量仅个位数，第二代售出 300-500 片，第三代售出数万片。",
+            "reference": "1:07:06 - 1:08:10"
+          },
+          {
+            "label": "未来展望",
+            "text": "AI 模型快速迭代，当前使用的模型将是用户用过的最差模型，未来版本将更强大。AI 可能颠覆传统 SaaS 业务，例如可以快速生成类似 Salesforce 的工具。",
+            "reference": "1:10:08 - 1:11:08"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2080371567221944657:5f6d45045c666bc7": {
+      "itemId": "tweet:2080371567221944657",
+      "sourceHash": "5f6d45045c666bc7",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Amjad Masad：Viktor was able to disrupt the agency model and make a lot of money by using...",
+      "url": "https://x.com/amasad/status/2080371567221944657",
+      "generatedAt": "2026-07-25T01:00:28.454Z",
+      "summary": {
+        "title": "用 Replit 颠覆代理模式：从自动化编码到全自主代理的进化",
+        "summary": "Amjad Masad 分享了一个案例：开发者 Viktor 利用 Replit 平台颠覆了传统的代理模式，赚取了大量收入。随后他进一步思考，为何不将整个业务流程自动化，而不仅仅是编码部分？他认为代理模式本质上就是一个代理循环。于是 Viktor 向 Replit 团队请求一个 MCP（可能指 Model Context Protocol 或类似机制），团队为其构建后，Viktor 成功打造了一个全自主的代理。这条推文揭示了 AI 代理从辅助编码到端到端自动化的演进趋势，以及平台工具如何赋能个人开发者挑战传统商业模式。",
+        "excerpts": [
+          {
+            "label": "核心案例",
+            "text": "Viktor 通过使用 Replit 颠覆了代理模式，并赚了很多钱。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "自动化愿景",
+            "text": "Viktor 思考：为什么不把整个流程自动化，而不仅仅是编码部分？",
+            "reference": "推文中段"
+          },
+          {
+            "label": "本质洞察",
+            "text": "代理模式本质上只是一个代理循环。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "技术实现",
+            "text": "Viktor 向 Replit 团队请求一个 MCP，团队为其构建后，他打造了自主代理。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2080471989060559336:bd9d790d0916067f": {
+      "itemId": "tweet:2080471989060559336",
+      "sourceHash": "bd9d790d0916067f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：The best way to think about AI is as a force multiplier for the fields you...",
+      "url": "https://x.com/levie/status/2080471989060559336",
+      "generatedAt": "2026-07-25T01:00:36.824Z",
+      "summary": {
+        "title": "Aaron Levie：AI 是专业领域的倍增器，专家将更强大",
+        "summary": "Aaron Levie 提出，理解 AI 的最佳方式是将其视为你已知领域的“力量倍增器”，或加速你学习新领域的速率。他强调，如果既没有现有判断力，也没有兴趣培养判断力，那么使用 AI 只会产生低质内容（slop），无法驱动太多经济活动。真正的价值在于，专家们能利用 AI 工具不断提升技艺，产出更高质量的工作，并在智能体偏离方向时及时纠正，将成果整合进有用的事物中。例如，专家工程师能通过正确引导智能体完成更多生产性工作，设计师能借助 AI 产出远超无设计眼光者的成果。因此，专业化依然重要，甚至随着工具愈发强大而更加关键，因为市场期望会变得更高。未来，精通任何一门手艺仍将是必需的。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "理解 AI 的最佳方式是将其视为你已知领域的“力量倍增器”，或加速你学习新领域的速率。",
+            "reference": "原文开头"
+          },
+          {
+            "label": "关键论证",
+            "text": "第三类人——既没有现有判断力，也没有兴趣培养判断力——使用 AI 基本上只会产生低质内容，无法驱动太多经济活动。",
+            "reference": "原文中间"
+          },
+          {
+            "label": "专家优势",
+            "text": "专家工程师借助智能体将完成更多生产性工作，正是因为他们知道如何正确引导智能体。",
+            "reference": "原文后半部分"
+          },
+          {
+            "label": "类比说明",
+            "text": "设计师使用 AI 将产出远超没有设计眼光者的成果。",
+            "reference": "原文后半部分"
+          },
+          {
+            "label": "未来趋势",
+            "text": "由于这种动态，专业化将继续重要，甚至随着工具更强大而更加重要，因为市场期望会变得更高。",
+            "reference": "原文结尾"
+          },
+          {
+            "label": "结论",
+            "text": "未来，精通任何一门手艺仍将是必需的。",
+            "reference": "原文最后一句"
           }
         ],
         "materials": []
