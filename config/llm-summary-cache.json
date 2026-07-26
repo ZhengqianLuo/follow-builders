@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-25T01:00:36.825Z",
+  "updatedAt": "2026-07-26T01:06:01.520Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -3169,6 +3169,91 @@
             "label": "结论",
             "text": "未来，精通任何一门手艺仍将是必需的。",
             "reference": "原文最后一句"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2080713091688583312:1fd1e4f62692195b": {
+      "itemId": "tweet:2080713091688583312",
+      "sourceHash": "1fd1e4f62692195b",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Boris Cherny：Opus 5 is a great model for coding, data analysis, design, biology, knowledge...",
+      "url": "https://x.com/bcherny/status/2080713091688583312",
+      "generatedAt": "2026-07-26T01:05:51.229Z",
+      "summary": {
+        "title": "Boris Cherny：Opus 5 在编码、数据分析、设计、生物、知识工作方面表现出色，但最令人兴奋的是其抗提示注入能力",
+        "summary": "Boris Cherny 在推文中指出，Opus 5 在编码、数据分析、设计、生物学和知识工作等多个领域都表现优异。然而，最让他兴奋的不是这些评估分数，而是 Opus 5 是目前最不易被提示注入攻击的模型。系统卡中提及，通过内部评估和红队测试，Opus 5 很难被成功注入提示。当叠加多种防御措施——强大的模型对齐、提示注入探针以及 Claude Code 中的自动模式——提示注入攻击的成功率降至约 0%。他认为这是全新且令人激动的进展，并预告将很快分享更多细节。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "Opus 5 在编码、数据分析、设计、生物学和知识工作方面是一个出色的模型。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "核心观点",
+            "text": "最令人兴奋的不是评估分数，而是 Opus 5 是我们迄今为止最不易被提示注入的模型。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "数据",
+            "text": "在叠加模型对齐、提示注入探针和 Claude Code 自动模式后，提示注入攻击成功率降至约 0%。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "观点",
+            "text": "这是全新且令人激动的进展。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2080700057892815114:5a53a6c6fd9e158e": {
+      "itemId": "tweet:2080700057892815114",
+      "sourceHash": "5a53a6c6fd9e158e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Dan Shipper：BREAKING: Claude Opus 5 is OUT NOW! And…it’s a hard model to love. We’ve spent...",
+      "url": "https://x.com/danshipper/status/2080700057892815114",
+      "generatedAt": "2026-07-26T01:06:01.520Z",
+      "summary": {
+        "title": "Claude Opus 5 发布：一个难以爱上的模型，但推倒重来后闪现才华",
+        "summary": "Dan Shipper 在 Claude Opus 5 发布首日分享了团队的真实体验。他们最初沿用为旧模型构建的复杂技能和插件（如 Compound Engineering）时，Opus 5 表现糟糕：对抗指令、提前停止工作、与现有工作流不兼容。团队一度失望，但删除所有预设技能、从零开始后，模型表现大幅提升，甚至闪现才华。关键发现包括：Opus 5 像“穷人版 Fable”，有 Fable 的个性怪癖但缺乏其天才；它破坏了向后兼容性，需重建工作流；中等或低思考水平反而效果更好，高思考水平会引发更多恼人行为。Dan 将模型分为两类：天才模型（如 Fable）用于最难任务，快速通用模型（如 GPT-5.6）用于其他。Opus 5 有天才的个性但缺乏顶级能力，处于尴尬的中间地带，他可能只在 Fable 额度用尽时使用。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Opus 5 是一个难以爱上的模型，它对抗指令、提前停止工作，与现有技能和插件不兼容。",
+            "reference": "原文开头"
+          },
+          {
+            "label": "金句",
+            "text": "我们的第一反应是：他们对我的孩子做了什么？",
+            "reference": "原文"
+          },
+          {
+            "label": "案例",
+            "text": "删除所有现有技能、从零开始后，Opus 5 表现大幅提升，甚至闪现才华。",
+            "reference": "原文"
+          },
+          {
+            "label": "类比",
+            "text": "Opus 5 是穷人版 Fable，有 Fable 的个性怪癖但没有其天才。",
+            "reference": "原文"
+          },
+          {
+            "label": "观点",
+            "text": "它破坏了向后兼容性，如果使用现有技能和工作流，要小心。",
+            "reference": "原文"
+          },
+          {
+            "label": "数据/发现",
+            "text": "中等或低思考水平效果更好，给模型越多思考时间，越可能做出恼人行为。",
+            "reference": "原文"
+          },
+          {
+            "label": "观点",
+            "text": "Opus 5 有天才的个性但缺乏顶级能力，处于尴尬的中间地带，Dan 可能只在 Fable 额度用尽时使用。",
+            "reference": "原文结尾"
           }
         ],
         "materials": []

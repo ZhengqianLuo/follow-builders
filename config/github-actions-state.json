@@ -3264,7 +3264,127 @@
       "title": "Guillermo Rauch：🔴🔊 AI Gateway keeps getting better. Unreal product velocity from the team....",
       "url": "https://x.com/rauchg/status/2080344136625049690",
       "sentAt": "2026-07-25T01:00:38.799Z"
+    },
+    "tweet:2080683363174945065": {
+      "type": "tweet",
+      "title": "Sam Altman：i want the US to win in AI both in open source and proprietary models, and i am...",
+      "url": "https://x.com/sama/status/2080683363174945065",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "topic:Sam Altman：i want the US to win in AI both in open source and proprietary models, and i am...": {
+      "type": "topic",
+      "title": "Sam Altman：i want the US to win in AI both in open source and proprietary models, and i am...",
+      "url": "https://x.com/sama/status/2080683363174945065",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "tweet:2080710971228918066": {
+      "type": "tweet",
+      "title": "Thariq：We removed ~80% of the Claude Code system prompt for our newest models, this is...",
+      "url": "https://x.com/trq212/status/2080710971228918066",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "topic:Thariq：We removed ~80% of the Claude Code system prompt for our newest models, this is...": {
+      "type": "topic",
+      "title": "Thariq：We removed ~80% of the Claude Code system prompt for our newest models, this is...",
+      "url": "https://x.com/trq212/status/2080710971228918066",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "tweet:2080713091688583312": {
+      "type": "tweet",
+      "title": "Boris Cherny：Opus 5 is a great model for coding, data analysis, design, biology, knowledge...",
+      "url": "https://x.com/bcherny/status/2080713091688583312",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "topic:Boris Cherny：Opus 5 is a great model for coding, data analysis, design, biology, knowledge...": {
+      "type": "topic",
+      "title": "Boris Cherny：Opus 5 is a great model for coding, data analysis, design, biology, knowledge...",
+      "url": "https://x.com/bcherny/status/2080713091688583312",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "tweet:2080703339306913985": {
+      "type": "tweet",
+      "title": "Thariq：Opus 5 rounds out our Claude 5 family beautifully. I think it’s an incredible...",
+      "url": "https://x.com/trq212/status/2080703339306913985",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "topic:Thariq：Opus 5 rounds out our Claude 5 family beautifully. I think it’s an incredible...": {
+      "type": "topic",
+      "title": "Thariq：Opus 5 rounds out our Claude 5 family beautifully. I think it’s an incredible...",
+      "url": "https://x.com/trq212/status/2080703339306913985",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "tweet:2080779917130858598": {
+      "type": "tweet",
+      "title": "Peter Steinberger：am I a graph engineer now https://t.co/QYO04bQDIW https://t.co/Ikmafr6HdR",
+      "url": "https://x.com/steipete/status/2080779917130858598",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "topic:Peter Steinberger：am I a graph engineer now https://t.co/QYO04bQDIW https://t.co/Ikmafr6HdR": {
+      "type": "topic",
+      "title": "Peter Steinberger：am I a graph engineer now https://t.co/QYO04bQDIW https://t.co/Ikmafr6HdR",
+      "url": "https://x.com/steipete/status/2080779917130858598",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "tweet:2080699515271528827": {
+      "type": "tweet",
+      "title": "Claude：Opus 5 is available today on all paid plans and the Claude API, priced the same...",
+      "url": "https://x.com/claudeai/status/2080699515271528827",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "topic:Claude：Opus 5 is available today on all paid plans and the Claude API, priced the same...": {
+      "type": "topic",
+      "title": "Claude：Opus 5 is available today on all paid plans and the Claude API, priced the same...",
+      "url": "https://x.com/claudeai/status/2080699515271528827",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "tweet:2080683119959757243": {
+      "type": "tweet",
+      "title": "Sam Altman：let us know what you think of pro-ultra-superhard https://t.co/df2WxqXsIx",
+      "url": "https://x.com/sama/status/2080683119959757243",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "topic:Sam Altman：let us know what you think of pro-ultra-superhard https://t.co/df2WxqXsIx": {
+      "type": "topic",
+      "title": "Sam Altman：let us know what you think of pro-ultra-superhard https://t.co/df2WxqXsIx",
+      "url": "https://x.com/sama/status/2080683119959757243",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "tweet:2080700057892815114": {
+      "type": "tweet",
+      "title": "Dan Shipper：BREAKING: Claude Opus 5 is OUT NOW! And…it’s a hard model to love. We’ve spent...",
+      "url": "https://x.com/danshipper/status/2080700057892815114",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "topic:Dan Shipper：BREAKING: Claude Opus 5 is OUT NOW! And…it’s a hard model to love. We’ve spent...": {
+      "type": "topic",
+      "title": "Dan Shipper：BREAKING: Claude Opus 5 is OUT NOW! And…it’s a hard model to love. We’ve spent...",
+      "url": "https://x.com/danshipper/status/2080700057892815114",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "tweet:2080699512205537648": {
+      "type": "tweet",
+      "title": "Claude：Opus 5 is stronger than Opus 4.8 on cybersecurity tasks. But it remains...",
+      "url": "https://x.com/claudeai/status/2080699512205537648",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "topic:Claude：Opus 5 is stronger than Opus 4.8 on cybersecurity tasks. But it remains...": {
+      "type": "topic",
+      "title": "Claude：Opus 5 is stronger than Opus 4.8 on cybersecurity tasks. But it remains...",
+      "url": "https://x.com/claudeai/status/2080699512205537648",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "tweet:2080756403493560652": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Show me your pet https://t.co/WkrKZ8UyCj",
+      "url": "https://x.com/thsottiaux/status/2080756403493560652",
+      "sentAt": "2026-07-26T01:06:03.331Z"
+    },
+    "topic:Thibault Sottiaux：Show me your pet https://t.co/WkrKZ8UyCj": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Show me your pet https://t.co/WkrKZ8UyCj",
+      "url": "https://x.com/thsottiaux/status/2080756403493560652",
+      "sentAt": "2026-07-26T01:06:03.331Z"
     }
   },
-  "updatedAt": "2026-07-25T01:00:38.799Z"
+  "updatedAt": "2026-07-26T01:06:03.331Z"
 }
