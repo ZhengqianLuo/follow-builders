@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-26T01:06:01.520Z",
+  "updatedAt": "2026-07-27T01:07:12.932Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -3254,6 +3254,111 @@
             "label": "观点",
             "text": "Opus 5 有天才的个性但缺乏顶级能力，处于尴尬的中间地带，Dan 可能只在 Fable 额度用尽时使用。",
             "reference": "原文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2081169373784633552:69327971113f82c0": {
+      "itemId": "tweet:2081169373784633552",
+      "sourceHash": "69327971113f82c0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Steinberger：Been running codex all day to do massive parallel QA in prep of the next...",
+      "url": "https://x.com/steipete/status/2081169373784633552",
+      "generatedAt": "2026-07-27T01:07:00.300Z",
+      "summary": {
+        "title": "Peter Steinberger：全天运行 Codex 进行大规模并行 QA，模型对意图理解大幅提升",
+        "summary": "Peter Steinberger 分享了他使用 Codex 进行大规模并行 QA 的体验。为了准备下一个版本发布，他全天运行 Codex，发现模型在理解意图方面变得极其出色，能够发现复杂的行为问题。过去，这类工作流常常在压缩边界处崩溃，或者模型开始作弊，但现在这些问题得到了显著改善。这表明 AI 在软件测试领域的可靠性和深度理解能力有了实质性进步，值得关注其对开发流程的潜在影响。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Codex 在理解意图方面变得极其出色，能够发现复杂的行为问题。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "全天运行 Codex 进行大规模并行 QA，为下一个版本发布做准备。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "对比",
+            "text": "过去这类工作流常在压缩边界处崩溃，或者模型开始作弊，但现在已大幅改善。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "推文获得 747 个喜欢、29 次转发和 83 条回复，显示社区对 AI 测试进展的高度关注。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2081103993917649134:36c4a6ef56bd0bb0": {
+      "itemId": "tweet:2081103993917649134",
+      "sourceHash": "36c4a6ef56bd0bb0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：I started doing all my research with agent CLIs and the filesystem. A 📁...",
+      "url": "https://x.com/rauchg/status/2081103993917649134",
+      "generatedAt": "2026-07-27T01:07:06.772Z",
+      "summary": {
+        "title": "Guillermo Rauch：我用 Agent CLI 和文件系统做所有研究",
+        "summary": "Vercel CEO Guillermo Rauch 分享了他全新的研究方式：放弃花哨的应用、知识图谱和 UI，转而使用 Agent CLI 和文件系统。他创建一个 research/ 文件夹，在其中编写 AGENTS.md 文件来描述自己偏好的格式和最佳实践，然后启动 Agent 提问。Agent 可以查找并关联之前会话中的知识，无限扩展。文件夹可通过 iCloud、git 等同步。若想分享成果，可让 Agent 生成酷炫的 HTML 报告并部署到 Vercel。他强调，驱动这一切的“软件”就是 AGENTS.md 中的英文描述。这种方法极简、可扩展、可移植，将研究流程回归到文件和自然语言，体现了 Agent 作为工具的新范式。",
+        "excerpts": [
+          {
+            "label": "核心方法",
+            "text": "我开始用 Agent CLI 和文件系统做所有研究。一个 research/ 文件夹，一个 AGENTS.md 描述我喜欢的格式和最佳实践。然后启动我的 Agent 并提问。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "极简主义",
+            "text": "没有花哨的应用、知识图谱、UI。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "可扩展性",
+            "text": "Agent 可以被要求查找并关联之前会话中的知识。无限扩展。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "同步与分享",
+            "text": "文件夹可以通过 iCloud、git 等同步。如果我想分享某个成果，我可以让 Agent 渲染一个酷炫的 HTML 报告并部署到 Vercel。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "驱动软件",
+            "text": "驱动这一切的“软件”是 AGENTS.md 中的英文。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2081149743368122723:81ee15ea86a2b116": {
+      "itemId": "tweet:2081149743368122723",
+      "sourceHash": "81ee15ea86a2b116",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：https://t.co/O7y9dmUqk5 is more fundamental than any other framework we’ve...",
+      "url": "https://x.com/rauchg/status/2081149743368122723",
+      "generatedAt": "2026-07-27T01:07:12.932Z",
+      "summary": {
+        "title": "Guillermo Rauch：比任何框架都更根本的，是构建想法的工厂",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中强调，https://t.co/O7y9dmUqk5（推测为某个产品或概念）比他们构建过的任何框架都更根本，它是公司的起源。他提出，当有新想法时，不应只想着用智能体和临时提示词，而应思考如何构建一个能启动、维护并发展想法的工厂。这条推文反映了 Rauch 对 AI 时代开发范式的思考：从一次性交互转向系统化、可扩展的构建方式，将想法视为需要持续运营的实体。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "https://t.co/O7y9dmUqk5 比我们构建过的任何框架都更根本，它是你公司的起源。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "行动建议",
+            "text": "当你有新想法时，不要想‘我会去找个智能体，临时写个提示词’，而要想：我如何构建一个能启动、维护并发展我想法的工厂。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "类比",
+            "text": "将想法实现比作建造工厂，强调系统化、自动化和持续运营，而非一次性手工作业。",
+            "reference": "推文原文"
           }
         ],
         "materials": []
