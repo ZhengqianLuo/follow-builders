@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-27T01:07:12.932Z",
+  "updatedAt": "2026-07-28T00:54:31.461Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -3359,6 +3359,191 @@
             "label": "类比",
             "text": "将想法实现比作建造工厂，强调系统化、自动化和持续运营，而非一次性手工作业。",
             "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2081396796174282900:fb9ed5e30c9bc6e6": {
+      "itemId": "tweet:2081396796174282900",
+      "sourceHash": "fb9ed5e30c9bc6e6",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Sam Altman：chatgpt work is remarkable, and \"work\" undersells it. from my phone i sent:...",
+      "url": "https://x.com/sama/status/2081396796174282900",
+      "generatedAt": "2026-07-28T00:54:01.573Z",
+      "summary": {
+        "title": "Sam Altman：ChatGPT 的“工作”能力被低估了，它直接帮我搞定了一次团体旅行",
+        "summary": "Sam Altman 在推文中分享了他使用 ChatGPT 的一次惊艳体验。他通过手机向 ChatGPT 发送了一条复杂的指令：利用他的全部聊天历史，为他和 8 个朋友策划一个长周末旅行，提供三个最佳方案，并构建一个全栈网站供 9 人协调偏好、达成共识后自动预订，最后在 Gmail 中起草通知邮件。他强调整个过程“就这样成功了”，并认为用“工作”来形容 ChatGPT 的能力远远不够，它实际上完成了从创意到执行的全链路任务。这条推文展示了 ChatGPT 在理解上下文、整合信息、生成代码和自动化工作流方面的强大潜力，也暗示了 AI 助手正在从对话工具向真正的执行代理演进。",
+        "excerpts": [
+          {
+            "label": "金句",
+            "text": "chatgpt work is remarkable, and 'work' undersells it.",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "Sam Altman 用手机发送了一条复杂指令：利用聊天历史策划 8 人长周末旅行，生成三个方案，建全栈协调网站，达成共识后预订，并起草 Gmail 通知邮件。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "it...just worked. 整个过程无需人工干预，ChatGPT 自主完成了从规划到执行的全部步骤。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "类比",
+            "text": "用“工作”来描述 ChatGPT 的能力是一种低估，它更像是一个能够理解复杂需求并端到端交付结果的智能代理。",
+            "reference": "推文开头"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2081444811647963244:73512a5f429cff01": {
+      "itemId": "tweet:2081444811647963244",
+      "sourceHash": "73512a5f429cff01",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Let ChatGPT *work* for you. How many time have you wanted to negotiate your...",
+      "url": "https://x.com/thsottiaux/status/2081444811647963244",
+      "generatedAt": "2026-07-28T00:54:07.665Z",
+      "summary": {
+        "title": "让 ChatGPT 替你干活：一条提示词搞定账单谈判、退订垃圾邮件、找最佳优惠",
+        "summary": "Thibault Sottiaux 在推文中分享了他使用 ChatGPT 的日常体验，强调只需一条提示词，就能让 AI 代理完成诸如协商网络账单、退订垃圾邮件、寻找最佳交易等至少 20 项任务。他感叹这种便利令人惊喜，并鼓励用户让 ChatGPT 真正为自己工作，而不仅仅是对话。推文获得了大量点赞和转发，反映出许多人对 AI 实用性的共鸣。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "让 ChatGPT 为你工作，而不仅仅是聊天。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "你是否曾想协商网络账单、退订所有垃圾邮件，或找到想买或想做的事的最佳交易？",
+            "reference": "推文中间"
+          },
+          {
+            "label": "观点",
+            "text": "这真的只需要一条提示词，而且完全可以在手机上舒适地完成。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "数据",
+            "text": "ChatGPT 每天至少为我做 20 件事，我仍然感到惊讶。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2081546513885622760:94a2352f66cc3fe2": {
+      "itemId": "tweet:2081546513885622760",
+      "sourceHash": "94a2352f66cc3fe2",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Vercel proudly co-signs the Open Weights and American AI Leadership letter....",
+      "url": "https://x.com/rauchg/status/2081546513885622760",
+      "generatedAt": "2026-07-28T00:54:15.053Z",
+      "summary": {
+        "title": "Vercel 联署公开信，力推开源权重与美国 AI 领导力",
+        "summary": "Vercel 创始人 Guillermo Rauch 在推特上宣布，Vercel 自豪地联署了“开放权重与美国 AI 领导力”公开信。他指出，开源、开放数据、开放协议和开放研究是支撑我们日常技术奇迹的基石，而开放权重则是合乎逻辑的下一个前沿。这条推文呼应了近期科技界关于 AI 模型开放性的辩论，强调开放权重对于促进创新、竞争和民主化 AI 的重要性。Vercel 作为前端云平台，此举表明其对开放生态的坚定支持，并试图影响美国在 AI 领域的政策方向。推文获得了 1291 个赞和 65 次转发，显示出社区对开放 AI 议题的高度关注。",
+        "excerpts": [
+          {
+            "label": "核心立场",
+            "text": "Vercel 自豪地联署了“开放权重与美国 AI 领导力”公开信。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "开放的价值",
+            "text": "开源、开放数据、开放协议和开放研究，成就了我们每天享受的技术奇迹，丰富了我们的生活和世界。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "未来方向",
+            "text": "开放权重是合乎逻辑的下一个前沿。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "社区反响",
+            "text": "推文获得 1291 个赞、65 次转发和 38 条回复，显示社区对开放 AI 议题的强烈共鸣。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2081517519303737559:d6f3c8a56da0029f": {
+      "itemId": "tweet:2081517519303737559",
+      "sourceHash": "d6f3c8a56da0029f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：I compiled 𝚟𝚎𝚛𝚌𝚎𝚕 CLI TypeScript to native with 𝚜𝚌𝚛𝚒𝚙𝚝𝚌....",
+      "url": "https://x.com/rauchg/status/2081517519303737559",
+      "generatedAt": "2026-07-28T00:54:21.836Z",
+      "summary": {
+        "title": "Vercel CLI 用 Static TypeScript 编译为原生二进制，体积仅 1.28MB，启动 1.5ms",
+        "summary": "Guillermo Rauch 展示了将 Vercel CLI 的 TypeScript 代码通过 Static TypeScript（𝚜𝚌𝚛𝚒𝚙𝚝𝚌）编译为原生二进制的结果。最终二进制大小仅 1.28MB，平均启动时间 1.5ms，编译耗时 2.94s。代码使用了 node:https、node:fs、node:path、node:os、node:crypto 等 Node.js 内置模块，且保持了高度可读的 TypeScript 风格。翻译由 GLM 5.2 Fast 完成，部署顺利。该方案无需嵌入 V8 或 QuickJS 引擎，实现了完全静态的原生二进制，显著提升了 CLI 工具的分发和启动性能。",
+        "excerpts": [
+          {
+            "label": "核心数据",
+            "text": "最终二进制大小仅 1.28MB，平均启动时间 1.5ms，编译耗时 2.94s。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "技术亮点",
+            "text": "使用 Static TypeScript（𝚜𝚌𝚛𝚒𝚙𝚝𝚌）将 TypeScript 编译为原生二进制，无需嵌入 V8 或 QuickJS 引擎，实现完全静态。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "代码兼容性",
+            "text": "代码使用了 node:https、node:fs、node:path、node:os、node:crypto 等 Node.js 内置模块，保持了高度可读的 TypeScript 风格。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "AI 辅助",
+            "text": "代码翻译由 GLM 5.2 Fast 完成，部署顺利。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2081491621162668207:e20c4b75ae90ad17": {
+      "itemId": "tweet:2081491621162668207",
+      "sourceHash": "e20c4b75ae90ad17",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：There’s still so much opportunity in the diffusion of AI into the real world....",
+      "url": "https://x.com/levie/status/2081491621162668207",
+      "generatedAt": "2026-07-28T00:54:31.460Z",
+      "summary": {
+        "title": "AI 落地现实世界仍有巨大机遇，应用层不可或缺",
+        "summary": "Aaron Levie 指出，尽管 AI 模型能力飞速提升，但将 AI 真正融入企业流程仍面临巨大挑战和机遇。大多数企业需要大量支持才能将模型突破应用于工作流，因为单纯的智能不足以变革流程，必须将智能与现实世界的反馈回路连接起来。这涉及连接企业系统、为 AI 提供正确数据、通过合适的用户体验让人类在流程中做决策、建立持续改进数据和模型的工作流，以及应对监管合规等挑战。不同行业的 AI 实施方式截然不同，例如银行客户入职与法律合同审查。在生命科学、金融、法律、制造等关键行业，AI 只有以情境化的方式接触现实世界才有价值。这种交互将通过应用 AI 层实现，部分来自模型实验室，但大量机会属于能深入各行业的独立公司。与某些观点相反，随着模型能力提升，对应用层的需求不会减少，反而会增加，因为更好的模型能实现更宏大的自动化工作流，这通常需要更强大的应用层。当前存在大量机遇。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "将 AI 扩散到现实世界仍有巨大机遇，大多数企业需要大量支持才能将模型突破应用于工作流。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "关键论证",
+            "text": "单纯的智能不足以变革大多数流程，因为需要将智能与现实世界的反馈回路连接起来，这涉及连接企业系统、获取正确数据、人类决策、工作流改进、合规等。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "行业差异案例",
+            "text": "在银行实施 AI 代理进行客户入职，与在法律团队进行合同审查的方式完全不同。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "价值前提",
+            "text": "在生命科学、金融服务、法律、制造等关键行业，AI 只有以情境化的方式接触现实世界才有价值。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "应用层机遇",
+            "text": "这种交互将通过应用 AI 层实现，部分来自模型实验室，但大量机会必然属于能深入各行业的独立公司。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "反直觉观点",
+            "text": "与某些观点相反，随着 AI 模型能力提升，对应用层的需求不会减少，反而会增加，因为更好的模型能实现更宏大的自动化工作流，这通常需要更强大的应用层。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
