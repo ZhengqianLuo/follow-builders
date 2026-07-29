@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-28T00:54:31.461Z",
+  "updatedAt": "2026-07-29T00:56:24.804Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -3543,6 +3543,152 @@
           {
             "label": "反直觉观点",
             "text": "与某些观点相反，随着 AI 模型能力提升，对应用层的需求不会减少，反而会增加，因为更好的模型能实现更宏大的自动化工作流，这通常需要更强大的应用层。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2081852481517318560:a8e3fe377155f08a": {
+      "itemId": "tweet:2081852481517318560",
+      "sourceHash": "a8e3fe377155f08a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：In our latest https://t.co/p9AoezbuGt benchmarks, Grok 4.5 has emerged as the...",
+      "url": "https://x.com/rauchg/status/2081852481517318560",
+      "generatedAt": "2026-07-29T00:56:03.510Z",
+      "summary": {
+        "title": "Guillermo Rauch：Grok 4.5 在网络安全基准测试中性价比夺冠",
+        "summary": "Guillermo Rauch 在推文中分享了其团队最新的网络安全基准测试结果，指出 Grok 4.5 在性价比方面表现最佳。具体而言，Grok 4.5 的成本仅为 Sol 的十分之一、Opus 5 的 5.7 分之一、Kimi K3 的 2.2 分之一，但性能却与 Kimi 相当。同时，Sol 仍然是性能前沿，领先于 Opus 5。该推文强调了 Grok 4.5 在网络安全领域以较低成本实现高性能的优势，对于关注 AI 模型成本效益的开发者和企业具有参考价值。",
+        "excerpts": [
+          {
+            "label": "核心结论",
+            "text": "Grok 4.5 在网络安全基准测试中成为性价比最佳的 AI 模型。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "成本对比数据",
+            "text": "Grok 4.5 比 Sol 便宜 10 倍，比 Opus 5 便宜 5.7 倍，比 Kimi K3 便宜 2.2 倍。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "性能定位",
+            "text": "Grok 4.5 的性能与 Kimi 相当，但 Sol 仍处于性能前沿，领先于 Opus 5。",
+            "reference": "推文后段"
+          }
+        ],
+        "materials": [
+          {
+            "label": "基准测试图表",
+            "url": "https://t.co/kcSDIqnXsN",
+            "note": "推文附带的图片，展示了各模型在网络安全任务上的性能与成本对比，可直观查看 Grok 4.5 的性价比优势。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2081842439304995169:d5c07a39587075b5": {
+      "itemId": "tweet:2081842439304995169",
+      "sourceHash": "d5c07a39587075b5",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Kimi's paper underlines the importance of the right security boundary for...",
+      "url": "https://x.com/rauchg/status/2081842439304995169",
+      "generatedAt": "2026-07-29T00:56:08.345Z",
+      "summary": {
+        "title": "Guillermo Rauch：Kimi 论文凸显了为智能体选择正确安全边界的重要性",
+        "summary": "Guillermo Rauch 在推文中指出，Kimi 的最新论文强调了为 AI 智能体选择正确安全边界的重要性。论文实验表明，仅靠容器级隔离是不够的，智能体甚至能通过内核恐慌导致宿主机崩溃。而基于 Firecracker 的 microVM（如 Vercel Sandbox 所用）则能提供真正的安全隔离。这一发现对构建安全的 AI 智能体运行环境具有关键意义，提醒开发者不能依赖传统容器技术来防范智能体的潜在破坏行为。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "Kimi 的论文凸显了为智能体选择正确安全边界的重要性。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "关键结论",
+            "text": "容器级隔离是不够的。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "实验证据",
+            "text": "在他们的实验中，智能体通过内核恐慌导致宿主机崩溃。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "安全方案",
+            "text": "基于 Firecracker 的 microVM（如 Vercel Sandbox 所用）是安全的。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2081775399097549083:808b616745794a55": {
+      "itemId": "tweet:2081775399097549083",
+      "sourceHash": "808b616745794a55",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：I asked @jxnlco (DevEx at OpenAI): “What’s the craziest thing Codex did for...",
+      "url": "https://x.com/petergyang/status/2081775399097549083",
+      "generatedAt": "2026-07-29T00:56:16.997Z",
+      "summary": {
+        "title": "Peter Yang 对话 OpenAI DevEx 负责人：Codex 最疯狂的一次自动化经历",
+        "summary": "Peter Yang 在推特上分享了与 OpenAI 开发者体验负责人 @jxnlco 的对话片段。对方讲述了自己最疯狂的一次 Codex 使用经历：在一次骑行途中，同事请求他修复一个发布视频。他通过手机远程连接，让 Codex 使用计算机操作能力编辑视频、导出并发布到 Slack。二十分钟后，Slack 线程中出现了新视频。随后他进一步指示 Codex 每三十分钟检查线程反馈，自动生成 V2、V3、V4 等迭代版本。当他回到家时，发布视频已获得批准。这个案例展示了 Codex 在真实工作流中端到端自动化处理复杂任务的能力，从视频编辑到基于反馈的迭代修订，全程无需人工干预，凸显了 AI 代理在异步协作和持续交付场景中的巨大潜力。",
+        "excerpts": [
+          {
+            "label": "案例",
+            "text": "我在骑行时，同事让我修复一个发布视频。于是我通过手机远程连接，让 Codex 使用计算机操作能力编辑视频、导出并发布到 Slack。二十分钟后，Slack 线程里就有了新视频。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "金句",
+            "text": "然后我告诉 Codex：‘每三十分钟检查线程反馈，导出 V2、V3、V4。’等我到家时，发布视频已经获批了。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "观点",
+            "text": "Codex 通过反复检查 Slack 反馈来处理修订，完全自动化了迭代过程。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "类比",
+            "text": "这就像拥有一个不知疲倦的剪辑师，能根据实时评论不断调整视频，而你只需在骑行结束后验收成果。",
+            "reference": "基于推文内容的合理延伸"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2081930301752942703:8648d7cc6f267aee": {
+      "itemId": "tweet:2081930301752942703",
+      "sourceHash": "8648d7cc6f267aee",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：The negative AI jobs outcome just continues to not be happening as some...",
+      "url": "https://x.com/levie/status/2081930301752942703",
+      "generatedAt": "2026-07-29T00:56:24.804Z",
+      "summary": {
+        "title": "Aaron Levie：AI 并未导致大规模失业，企业仍在招聘，只是岗位类型在转变",
+        "summary": "Box 公司 CEO Aaron Levie 在推文中指出，此前一些人预测的 AI 导致大规模失业的负面结果并未发生。他观察到，各行各业的大量企业仍在招聘，只是招聘的岗位类型发生了变化。企业发现 AI 让他们能够做更多事情，杰文斯悖论正在发挥作用：他们正在招聘工程师来解决以前无法解决的问题，招聘销售人员以借助 AI 深化客户关系，招聘内部 AI 部署专家等。Levie 强调，仅仅利用 AI 削减成本的公司最终会被那些利用 AI 更好地服务客户并推动业务突破的公司所超越。虽然未来趋势可能改变，但目前看来，这是当前的发展轨迹。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 导致负面就业结果的预测并未成真，企业仍在招聘，只是岗位类型有所倾斜。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "现象观察",
+            "text": "企业发现 AI 让他们能做更多事情，杰文斯悖论正在显现。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "具体案例",
+            "text": "企业正在招聘工程师去解决以前无法攻克的问题，招聘销售人员以借助 AI 深化客户关系，招聘内部 AI 部署专家来帮助部署 AI。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "竞争逻辑",
+            "text": "仅仅利用 AI 削减成本的公司，最终会被那些利用 AI 更好地服务客户并推动业务突破的公司所超越。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "趋势判断",
+            "text": "虽然未来趋势可能改变，但目前看来，这是当前的发展轨迹。",
             "reference": "推文结尾"
           }
         ],
