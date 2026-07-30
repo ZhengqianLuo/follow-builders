@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-29T00:56:24.804Z",
+  "updatedAt": "2026-07-30T00:53:50.952Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -3689,6 +3689,131 @@
           {
             "label": "趋势判断",
             "text": "虽然未来趋势可能改变，但目前看来，这是当前的发展轨迹。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2082317452755751098:d9746a17fd6e17b7": {
+      "itemId": "tweet:2082317452755751098",
+      "sourceHash": "d9746a17fd6e17b7",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex...",
+      "url": "https://x.com/thsottiaux/status/2082317452755751098",
+      "generatedAt": "2026-07-30T00:53:39.193Z",
+      "summary": {
+        "title": "Thibault Sottiaux 重置 ChatGPT Work 和 Codex 用量限制，并解释 GPT-5.6 Sol 用量异常原因",
+        "summary": "OpenAI 的 Thibault Sottiaux 宣布已为所有 ChatGPT Work 和 Codex 用户重置用量限制，并针对近期 GPT-5.6 Sol 模型用量消耗过快的反馈做出详细说明。团队调查发现，Sol 在处理复杂任务时更愿意长时间工作、进行额外工具调用和协调子代理，导致某些任务消耗的 token 远超预期。此外，Sol 在相同推理努力程度下比前代模型消耗更多 token，其程序化工具调用（代码模式）虽提升了并行处理能力，但也带来了更多响应、缓存输入 token 和意外的高用量，尤其在等待工具调用或执行大量网络搜索时更为明显。影响分布不均：中位数用户觉得 Sol 相当高效，但处理困难任务的重度用户用量消耗显著加快。团队在发布前过于关注平均和中位数用量，忽略了长尾用户可能消耗更多的情况。经过多项改进，预计典型使用场景下用量将延长约 18%，部分用户已看到更大改善，并将于次日恢复此前暂停的五小时限制。Sottiaux 承认应更早发现并坦诚沟通，表示将继续提升效率并分享更新。",
+        "excerpts": [
+          {
+            "label": "核心公告",
+            "text": "我已为所有 ChatGPT Work 和 Codex 用户重置了用量限制。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "效率提升数据",
+            "text": "经过多项改进，我们预计在 Sol 的典型使用中，您的用量将延长约 18%。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "Sol 行为特征",
+            "text": "GPT-5.6 Sol 更愿意长时间工作、进行额外的工具调用，并协调跨工具和子代理的复杂工作流。这使其更擅长解决难题，但某些任务消耗的用量远超预期。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "推理消耗对比",
+            "text": "Sol 在相同推理努力程度下比前代模型更努力。Sol 上的“高”设置可能比 GPT-5.5 上的“高”消耗更多 token。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "代码模式副作用",
+            "text": "程序化工具调用（代码模式）赋予 Sol 更大的灵活性，可并行运行工具调用或在等待时继续工作，但也导致每轮响应更多、缓存输入 token 更多，用量高于预期。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "影响分布不均",
+            "text": "中位数用户实际上觉得 Sol 相当节省 token，而一些处理更困难任务的重度用户发现用量消耗快得多。我们在发布前非常关注平均和中位数用量，却忽略了一些长尾情况可能消耗显著更多。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "坦诚反思",
+            "text": "我们本应更早认识到这一点并更坦诚地沟通。你们不断推动前沿，我们将继续提升效率并分享更新。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2082130836485259530:f595ad2a6c76e60c": {
+      "itemId": "tweet:2082130836485259530",
+      "sourceHash": "f595ad2a6c76e60c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Dan Shipper：i spent the morning writing the definitive history of codex on my couch it...",
+      "url": "https://x.com/danshipper/status/2082130836485259530",
+      "generatedAt": "2026-07-30T00:53:45.139Z",
+      "summary": {
+        "title": "Dan Shipper 用语音模式完成 Codex 历史长文，全程未碰键鼠",
+        "summary": "Dan Shipper 在沙发上用一上午时间，通过 ChatGPT for Work 的语音模式，完成了关于 Codex 的深度历史文章。他采访了包括 @thsottiaux、@ajambrosino 和 @gdb 在内的团队成员，并利用语音模式组织采访、构建时间线、撰写、编辑和修订全文，全程未使用键盘和鼠标。他盛赞语音模式是创意工作的绝佳工具。该文章将在几周后发表于 @every。这条推文展示了 AI 语音交互在复杂创作任务中的潜力，以及 Dan Shipper 对无界面创作流程的探索。",
+        "excerpts": [
+          {
+            "label": "核心体验",
+            "text": "我整个上午都在沙发上撰写 Codex 的权威历史，全程没有碰过键盘或鼠标。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "创作方式",
+            "text": "我完全通过 ChatGPT for Work 的语音模式完成了所有工作，包括组织采访、构建时间线、写作、编辑和修订。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "评价",
+            "text": "语音模式绝对是创意工作的神器（absolutely goated for creative work）。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "采访对象",
+            "text": "文章基于对 Codex 团队的深度采访，包括 @thsottiaux、@ajambrosino 和 @gdb。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "发布计划",
+            "text": "整篇文章将在几周后发表于 @every。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2082214798935326833:612c819e06517020": {
+      "itemId": "tweet:2082214798935326833",
+      "sourceHash": "612c819e06517020",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aditya Agarwal：A decade ago…as I was going through my own Minus One journey and was lost in...",
+      "url": "https://x.com/adityaag/status/2082214798935326833",
+      "generatedAt": "2026-07-30T00:53:50.951Z",
+      "summary": {
+        "title": "Aditya Agarwal：十年前，我在人生低谷中找到了两个核心动力",
+        "summary": "Aditya Agarwal 在推文中回顾了十年前自己经历人生低谷（他称之为“Minus One 旅程”）时的迷茫，并分享了当时获得的两个深刻个人洞见：一是他想在世界上创造新事物，二是他想与才华横溢且充满激情的人共事。他表示，在发布这条推文的日子里，这两点都让他感到无比充实。这条推文简短但富有启发性，展现了一位资深创业者和技术领袖在人生转折点上的自我反思，以及驱动他持续前行的内在价值观。对于正在经历职业迷茫或寻求人生方向的人来说，这种坦诚的分享具有共鸣和参考价值。",
+        "excerpts": [
+          {
+            "label": "金句",
+            "text": "十年前，当我经历自己的‘Minus One’旅程，迷失在不确定性的迷雾中时，我获得了两个深刻的个人洞见。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "第一个洞见：我想在世界上创造新事物。",
+            "reference": "推文中间"
+          },
+          {
+            "label": "观点",
+            "text": "第二个洞见：我想与才华横溢且充满激情的人共事。",
+            "reference": "推文中间"
+          },
+          {
+            "label": "金句",
+            "text": "在像今天这样的日子里，这两点都让我感到无比充实。",
             "reference": "推文结尾"
           }
         ],
