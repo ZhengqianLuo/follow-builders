@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-07-30T00:53:50.952Z",
+  "updatedAt": "2026-07-31T01:02:58.565Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -3818,6 +3818,52 @@
           }
         ],
         "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2082519030859264086:bf6072278c3a82e5": {
+      "itemId": "tweet:2082519030859264086",
+      "sourceHash": "bf6072278c3a82e5",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：We’ve gone from AI defaulting to designs that look like purple slop to those...",
+      "url": "https://x.com/petergyang/status/2082519030859264086",
+      "generatedAt": "2026-07-31T01:02:58.565Z",
+      "summary": {
+        "title": "Peter Yang：AI 设计从紫色 slop 走向 Claude 风格，如何用 design md 打破同质化",
+        "summary": "Peter Yang 指出，AI 生成的设计正从早期默认的紫色 slop 风格转向如今千篇一律的 Claude 风格。为避免这种同质化，他建议创建一份 design md 文件，明确颜色、字体等设计规范。他提供了两个寻找灵感的途径：一是使用 Mobbin 的 MCP 工具查找设计模式和 app 截图，再让 AI 生成 design md；二是访问 designmd.sh 网站，那里有流行网站和 app 的 design md 库。他还附上了一个教程链接，演示如何创建 design md。这条推文为设计师和开发者提供了实用的方法，帮助他们在 AI 辅助设计中保持独特性和一致性。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "AI 生成的设计已经从默认的紫色 slop 风格，演变成了具有明显 Claude 风格的设计。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "金句",
+            "text": "为了避免这种同质化，我总是创建一个 design md 文件，其中包含颜色、字体等设计指南。",
+            "reference": "推文中间"
+          },
+          {
+            "label": "案例",
+            "text": "去 Mobbin 并安装其 MCP，找到你喜欢的设计模式和 app 截图，粘贴截图并让 AI 生成 design md。",
+            "reference": "推文第1点"
+          },
+          {
+            "label": "案例",
+            "text": "查看 designmd.sh，它有一个流行网站和 app 的 design md 文件库。",
+            "reference": "推文第2点"
+          },
+          {
+            "label": "数据",
+            "text": "这条推文获得了 412 个赞、23 次转发和 13 条回复。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": [
+          {
+            "label": "教程链接",
+            "url": "https://t.co/3LIw4UXbpi",
+            "note": "Peter Yang 演示如何创建 design md 的教程"
+          }
+        ]
       }
     }
   }
