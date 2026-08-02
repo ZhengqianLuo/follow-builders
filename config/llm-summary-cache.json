@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-01T01:02:45.643Z",
+  "updatedAt": "2026-08-02T01:06:32.088Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -3916,6 +3916,96 @@
             "label": "观点",
             "text": "Samsara的AI系统能在事故发生后提供确切情况，帮助司机免责，司机因此喜欢该系统，因为90%的时间他们做得很好但无人看见。",
             "reference": "47:43 - 48:10"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2083208578526314513:0e8a83d36a67adb4": {
+      "itemId": "tweet:2083208578526314513",
+      "sourceHash": "0e8a83d36a67adb4",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：This will be the norm as software projects transition to agentic software...",
+      "url": "https://x.com/rauchg/status/2083208578526314513",
+      "generatedAt": "2026-08-02T01:05:45.586Z",
+      "summary": {
+        "title": "Guillermo Rauch：软件项目正转向智能体工厂，Issue→Agent→PR→Release 循环将成为常态",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中预测，随着软件项目向智能体软件工厂（agentic software factories）过渡，一种新的开发范式将成为常态：从 Issue 到 Agent，再到 PR，最后到 Release，形成一个持续循环。作者或维护者的核心工作不再是亲自编写代码，而是优化这个循环，以确保产出最高质量的产品，并设定应该处理哪些问题的标准。这一观点反映了 AI 智能体在软件开发流程中的深度集成，将人类角色从执行者转变为监督者和决策者，标志着软件工程自动化的重大转变。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "软件项目正转向智能体软件工厂，Issue → Agent → PR → Release 循环将成为常态。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "角色转变",
+            "text": "作者/维护者的工作不再是写代码，而是优化这个循环，以产出最高质量的产品，并设定工作优先级标准。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "自动化流程",
+            "text": "从 Issue 到 Agent 处理，再到生成 PR 并发布，整个流程由智能体驱动，人类只需监督和决策。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "未来趋势",
+            "text": "这种模式将成为常态，暗示 AI 智能体将深度融入软件开发，改变传统开发角色。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:863550d0-f44f-4411-be36-4f629a92426c:dbf53ed68b7a1043": {
+      "itemId": "podcast:863550d0-f44f-4411-be36-4f629a92426c",
+      "sourceHash": "dbf53ed68b7a1043",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Unsupervised Learning: Ep 92: xAI Co-Founder Unpacks the Future of Model Development",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "generatedAt": "2026-08-02T01:06:32.087Z",
+      "summary": {
+        "title": "xAI 联合创始人 Igor Babushkin 谈模型开发的未来：个人 AI、本地硬件与开源模型的崛起",
+        "summary": "本期播客采访了前 DeepMind 研究员、xAI 联合创始人 Igor Babushkin。他分享了离开 xAI 后创立 River AI 的动机，以及公司正在推进的三个项目：帮助企业定制模型的 River API、个人 AI 个性化服务，以及将前沿模型推理带到本地设备的硬件项目。Babushkin 认为，闭源模型提供商正面临商业困境，因为开源模型能力迅速提升，企业更倾向于利用自身领域专长和数据自行定制模型，而非依赖通用专有模型。他指出，模型训练存在收益递减，且前沿模型可能因过于强大而面临监管限制，导致无法发布，这使得专有模型构建者受到开源追赶和发布限制的双重挤压。他预测 AI 将出现分化：少数人使用的超级 AI 和大众日常使用的普通 AI。在技术挑战方面，他强调端到端训练对于个人 AI 至关重要，需直接优化用户幸福感；而模型进步的最大瓶颈在于如何处理更长的时间范围和不可验证的奖励。Babushkin 还讨论了 AI 安全、与 Elon Musk 共事的经历、xAI 收购 Cursor 的意义，以及他对 AI 风险的看法，认为最紧迫的风险是加剧不平等，而非遥远的失控风险。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "闭源模型提供商在商业上处境艰难，因为开源模型能力迅速提升，企业更倾向于自行定制模型。",
+            "reference": "00:53 - 01:12; 23:37 - 24:43"
+          },
+          {
+            "label": "金句",
+            "text": "如果你的所有知识都在互联网上，那将是最危险的境地。如果让你公司独特和特别的一切都已经公开且能被抓取，那将非常危险。",
+            "reference": "31:33 - 31:40"
+          },
+          {
+            "label": "案例",
+            "text": "2024 年 11 月或 12 月，编码代理突然变得非常强大，以至于无法忽视，这促使 Babushkin 思考 AI 的未来。",
+            "reference": "02:21 - 02:56"
+          },
+          {
+            "label": "观点",
+            "text": "模型训练存在收益递减，前沿模型可能因过于强大而面临监管限制，导致无法发布，专有模型构建者受到开源追赶和发布限制的双重挤压。",
+            "reference": "25:47 - 27:35"
+          },
+          {
+            "label": "观点",
+            "text": "个人 AI 需要端到端训练，直接优化用户幸福感作为奖励函数。",
+            "reference": "18:34 - 19:29"
+          },
+          {
+            "label": "观点",
+            "text": "模型进步的最大瓶颈是如何处理更长的时间范围和不可验证的奖励，需要新思路来设置训练。",
+            "reference": "52:29 - 53:21"
+          },
+          {
+            "label": "观点",
+            "text": "AI 最紧迫的风险是加剧不平等，未来失控风险较远，当前应关注让所有人跟上发展。",
+            "reference": "1:01:34 - 1:02:20"
+          },
+          {
+            "label": "类比",
+            "text": "与 Elon Musk 合作时，他尊重工程师，视其为团队成员，注重工程细节，每天充满能量和微笑。",
+            "reference": "48:53 - 50:18"
           }
         ],
         "materials": []
