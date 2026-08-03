@@ -4224,7 +4224,127 @@
       "title": "Dan Shipper：pretty cool to have the kicker in this @WSJ piece on OpenAI vs Anthropic! i...",
       "url": "https://x.com/danshipper/status/2083380721607921904",
       "sentAt": "2026-08-02T01:06:34.890Z"
+    },
+    "tweet:2083749667410727319": {
+      "type": "tweet",
+      "title": "Andrej Karpathy：We're starting to leave the territory where you'd test an LLM by e.g. \"create...",
+      "url": "https://x.com/karpathy/status/2083749667410727319",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "topic:Andrej Karpathy：We're starting to leave the territory where you'd test an LLM by e.g. \"create...": {
+      "type": "topic",
+      "title": "Andrej Karpathy：We're starting to leave the territory where you'd test an LLM by e.g. \"create...",
+      "url": "https://x.com/karpathy/status/2083749667410727319",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "tweet:2083699879650463756": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Fun fact, users use /fast less during the weekend. The weekend is for...",
+      "url": "https://x.com/thsottiaux/status/2083699879650463756",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "topic:Thibault Sottiaux：Fun fact, users use /fast less during the weekend. The weekend is for...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Fun fact, users use /fast less during the weekend. The weekend is for...",
+      "url": "https://x.com/thsottiaux/status/2083699879650463756",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "tweet:2083556636455752050": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：The week was for efficiency. The weekend is for 10 major breakthroughs in...",
+      "url": "https://x.com/thsottiaux/status/2083556636455752050",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "topic:Thibault Sottiaux：The week was for efficiency. The weekend is for 10 major breakthroughs in...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：The week was for efficiency. The weekend is for 10 major breakthroughs in...",
+      "url": "https://x.com/thsottiaux/status/2083556636455752050",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "tweet:2083560847889023219": {
+      "type": "tweet",
+      "title": "Sam Altman：team humanity https://t.co/Z75TuFp56E",
+      "url": "https://x.com/sama/status/2083560847889023219",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "topic:Sam Altman：team humanity https://t.co/Z75TuFp56E": {
+      "type": "topic",
+      "title": "Sam Altman：team humanity https://t.co/Z75TuFp56E",
+      "url": "https://x.com/sama/status/2083560847889023219",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "tweet:2083637620899184642": {
+      "type": "tweet",
+      "title": "Peter Yang：The number one thing I want AI to fix is to cure cancer once and for all",
+      "url": "https://x.com/petergyang/status/2083637620899184642",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "topic:Peter Yang：The number one thing I want AI to fix is to cure cancer once and for all": {
+      "type": "topic",
+      "title": "Peter Yang：The number one thing I want AI to fix is to cure cancer once and for all",
+      "url": "https://x.com/petergyang/status/2083637620899184642",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "tweet:2083755374994415904": {
+      "type": "tweet",
+      "title": "Peter Yang：I'm feeling spicy tonight so let me just say it: I think Opus 4.6 was the Opus...",
+      "url": "https://x.com/petergyang/status/2083755374994415904",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "topic:Peter Yang：I'm feeling spicy tonight so let me just say it: I think Opus 4.6 was the Opus...": {
+      "type": "topic",
+      "title": "Peter Yang：I'm feeling spicy tonight so let me just say it: I think Opus 4.6 was the Opus...",
+      "url": "https://x.com/petergyang/status/2083755374994415904",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "tweet:2083684679362965605": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Open source agentic CRM built on https://t.co/99eEa13mZ3 and @nextjs....",
+      "url": "https://x.com/rauchg/status/2083684679362965605",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "topic:Guillermo Rauch：Open source agentic CRM built on https://t.co/99eEa13mZ3 and @nextjs....": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Open source agentic CRM built on https://t.co/99eEa13mZ3 and @nextjs....",
+      "url": "https://x.com/rauchg/status/2083684679362965605",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "tweet:2083713770065637511": {
+      "type": "tweet",
+      "title": "Amanda Askell：Do not be unkind to those who say deep learning is hitting a wall. We all need...",
+      "url": "https://x.com/AmandaAskell/status/2083713770065637511",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "topic:Amanda Askell：Do not be unkind to those who say deep learning is hitting a wall. We all need...": {
+      "type": "topic",
+      "title": "Amanda Askell：Do not be unkind to those who say deep learning is hitting a wall. We all need...",
+      "url": "https://x.com/AmandaAskell/status/2083713770065637511",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "tweet:2083589132660711452": {
+      "type": "tweet",
+      "title": "Aaron Levie：We’re going to see an increasing divergence between what AI does in our...",
+      "url": "https://x.com/levie/status/2083589132660711452",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "topic:Aaron Levie：We’re going to see an increasing divergence between what AI does in our...": {
+      "type": "topic",
+      "title": "Aaron Levie：We’re going to see an increasing divergence between what AI does in our...",
+      "url": "https://x.com/levie/status/2083589132660711452",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "tweet:2083684825333105107": {
+      "type": "tweet",
+      "title": "Garry Tan：Most interesting 2026 vibe shift is OpenAI actually looking to be the open...",
+      "url": "https://x.com/garrytan/status/2083684825333105107",
+      "sentAt": "2026-08-03T01:05:42.882Z"
+    },
+    "topic:Garry Tan：Most interesting 2026 vibe shift is OpenAI actually looking to be the open...": {
+      "type": "topic",
+      "title": "Garry Tan：Most interesting 2026 vibe shift is OpenAI actually looking to be the open...",
+      "url": "https://x.com/garrytan/status/2083684825333105107",
+      "sentAt": "2026-08-03T01:05:42.882Z"
     }
   },
-  "updatedAt": "2026-08-02T01:06:34.890Z"
+  "updatedAt": "2026-08-03T01:05:42.882Z"
 }

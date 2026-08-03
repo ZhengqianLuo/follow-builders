@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-02T01:06:32.088Z",
+  "updatedAt": "2026-08-03T01:05:41.199Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -4006,6 +4006,131 @@
             "label": "类比",
             "text": "与 Elon Musk 合作时，他尊重工程师，视其为团队成员，注重工程细节，每天充满能量和微笑。",
             "reference": "48:53 - 50:18"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2083749667410727319:5d8f04309f71c6f3": {
+      "itemId": "tweet:2083749667410727319",
+      "sourceHash": "5d8f04309f71c6f3",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Andrej Karpathy：We're starting to leave the territory where you'd test an LLM by e.g. \"create...",
+      "url": "https://x.com/karpathy/status/2083749667410727319",
+      "generatedAt": "2026-08-03T01:05:28.355Z",
+      "summary": {
+        "title": "Andrej Karpathy：LLM 正从简单测试迈向创造超定制世界，但多模态能力仍欠缺",
+        "summary": "Andrej Karpathy 在推文中指出，我们正告别仅用“画一只骑自行车的鹈鹕”这类简单任务来测试大语言模型（LLM）的时代。他分享了一个新思路：给 Opus 5 模型《指环王》第一段文字、100 万 token 预算（约 10 美元），要求其用 Three.js 渲染故事。模型耗时约 2 小时，生成了 5500 行代码，以程序化方式渲染了整个故事，虽然效果有些粗糙但很有趣。这令人惊叹，因为 LLM 必须放置和编排各种多边形资产在三维坐标中，并编写动画代码，而它居然能做到。Karpathy 喜欢这类例子，因为正常人绝不会花时间写如此定制化的内容，但 LLM 拥有无限的耐力和耐心，使得“没人会做”的事变得“近乎免费”。他由此展望，可以创建超定制世界，让玩家以旁观者 NPC 或角色身份参与《指环王》故事，就像“按需生成的短暂 GTA”。但他也指出，LLM 在游戏/世界领域暴露了弱点：它们无法高效、原生地感知视频或玩游戏，因此难以审计自己的作品。Opus 5 只能缓慢地通过截图来检查，导致多次出错和粗糙感。他认为多模态和游戏玩法等原始能力仍相当欠缺。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我们正开始离开那种用‘画一只骑自行车的鹈鹕’来测试 LLM 的领域。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "给 Opus 5 模型《指环王》第一段文字、100 万 token 预算（约 10 美元），要求用 Three.js 渲染故事。模型耗时约 2 小时，生成了 5500 行代码，以程序化方式渲染了整个故事。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "LLM 必须放置和编排各种多边形资产在 (x,y,z) 坐标中，并编写动画代码，它居然能做到任何事，这有点令人难以置信。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "类比",
+            "text": "这类例子让‘没人会做’的事变成‘当然，为什么不呢，它几乎是免费的’。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "展望",
+            "text": "可以创建超定制世界，让玩家以旁观者 NPC 或角色身份参与《指环王》故事，就像‘按需生成的短暂 GTA’。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "弱点",
+            "text": "LLM 无法高效、原生地感知视频或玩游戏，因此难以审计自己的作品。Opus 5 只能缓慢地通过截图来检查，导致多次出错和粗糙感。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2083755374994415904:d280da3eee0465cb": {
+      "itemId": "tweet:2083755374994415904",
+      "sourceHash": "d280da3eee0465cb",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：I'm feeling spicy tonight so let me just say it: I think Opus 4.6 was the Opus...",
+      "url": "https://x.com/petergyang/status/2083755374994415904",
+      "generatedAt": "2026-08-03T01:05:34.686Z",
+      "summary": {
+        "title": "Peter Yang 直言：Opus 4.6 才是性格与文笔最好的 Opus，Opus 5 变得啰嗦、说教且爱评判",
+        "summary": "Peter Yang 在 X 上直言不讳地表达了对 Claude Opus 模型迭代的感受。他认为 Opus 4.6 拥有最佳的性格和写作风格，而 Opus 5 则出现了明显退化：回复过于冗长，过度使用“Claude 式套话”（如“here's the honest truth”），且评判性过强。过去与 Opus 对话如同与值得信赖的朋友愉快交谈，如今这种感觉已大打折扣。这条推文引发了广泛共鸣，获得 751 个赞和 165 条回复，反映出用户对 AI 助手人格一致性的高度关注。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "我认为 Opus 4.6 是性格和写作风格最好的 Opus 模型。",
+            "reference": "原文"
+          },
+          {
+            "label": "具体批评",
+            "text": "Opus 5 有些不对劲——它倾向于给出过于冗长的回复，过度使用 Claude 式套话（例如“here's the honest truth”），而且评判性太强。",
+            "reference": "原文"
+          },
+          {
+            "label": "情感对比",
+            "text": "Opus 曾经像一位值得信赖的朋友，与之交谈是一种乐趣。现在不再如此了。",
+            "reference": "原文"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 751 个赞、19 次转发和 165 条回复，显示许多用户有类似感受。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2083589132660711452:d7ddbf08382547f1": {
+      "itemId": "tweet:2083589132660711452",
+      "sourceHash": "d7ddbf08382547f1",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：We’re going to see an increasing divergence between what AI does in our...",
+      "url": "https://x.com/levie/status/2083589132660711452",
+      "generatedAt": "2026-08-03T01:05:41.198Z",
+      "summary": {
+        "title": "AI 能力分化：日常应用与深度领域的鸿沟正在拉大",
+        "summary": "Aaron Levie 指出，AI 在个人生活和日常生产力中的应用，与在数学、科学、法律、编程等深度专业领域的能力将出现越来越大的分化。过去，由于模型只是普遍变得稍微有用，所有领域都能感受到能力的提升。但现在，深度领域的工作正走向垂直化，普通人在日常生活中不会直接注意到这些进步，但领域专家会。与消费者领域需求相对容易满足不同，深度领域的能力需求没有内在天花板，这可能导致能力过剩，因为这些性能提升需要以应用方式融入特定领域的数据集和工作流。最终，这将推动生命科学、现实世界自动化、新型网络能力等领域的突破。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 在个人生活和日常生产力中的作用，与在数学、科学、法律、编程等深度领域的能力将出现越来越大的分化。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "关键论证",
+            "text": "过去，能力提升在所有领域均匀感受到，因为模型只是普遍变得稍微有用；现在，深度领域的工作正走向垂直化。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "金句",
+            "text": "大多数人在日常生活中不会直接注意到这些好处（随着时间的推移，他们肯定会间接感受到），但这些领域的专家会。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "重要洞察",
+            "text": "与消费者领域需求相对容易满足不同，深度领域的能力需求没有内在天花板。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "概念提出",
+            "text": "这常常导致“能力过剩”，因为许多性能提升需要以应用方式融入特定领域的数据集和工作流。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "最终展望",
+            "text": "但这就是最终在生命科学、现实世界自动化、新型网络能力等领域取得突破的方式。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
