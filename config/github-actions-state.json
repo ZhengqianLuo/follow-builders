@@ -4464,7 +4464,127 @@
       "title": "Dan Shipper：when you experience a language model doing a task that used to require you at...",
       "url": "https://x.com/danshipper/status/2084038453831020916",
       "sentAt": "2026-08-04T00:58:57.535Z"
+    },
+    "tweet:2084483765158719542": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Given some of the results I'm seeing recently, it's pretty clear Codex is a...",
+      "url": "https://x.com/thsottiaux/status/2084483765158719542",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "topic:Thibault Sottiaux：Given some of the results I'm seeing recently, it's pretty clear Codex is a...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Given some of the results I'm seeing recently, it's pretty clear Codex is a...",
+      "url": "https://x.com/thsottiaux/status/2084483765158719542",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "tweet:2084196918071357707": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Crazy thing about OpenAI is you just open your laptop, codex a PR into...",
+      "url": "https://x.com/thsottiaux/status/2084196918071357707",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "topic:Thibault Sottiaux：Crazy thing about OpenAI is you just open your laptop, codex a PR into...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Crazy thing about OpenAI is you just open your laptop, codex a PR into...",
+      "url": "https://x.com/thsottiaux/status/2084196918071357707",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "tweet:2084506501834829833": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Some fine folks apparently misunderstood, but the GPT-5.6 Luna price reduction...",
+      "url": "https://x.com/thsottiaux/status/2084506501834829833",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "topic:Thibault Sottiaux：Some fine folks apparently misunderstood, but the GPT-5.6 Luna price reduction...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Some fine folks apparently misunderstood, but the GPT-5.6 Luna price reduction...",
+      "url": "https://x.com/thsottiaux/status/2084506501834829833",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "tweet:2084387303959740449": {
+      "type": "tweet",
+      "title": "Thariq：I think a lot of people don't realize- if you connect a Claude Connector (e.g....",
+      "url": "https://x.com/trq212/status/2084387303959740449",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "topic:Thariq：I think a lot of people don't realize- if you connect a Claude Connector (e.g....": {
+      "type": "topic",
+      "title": "Thariq：I think a lot of people don't realize- if you connect a Claude Connector (e.g....",
+      "url": "https://x.com/trq212/status/2084387303959740449",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "tweet:2084369056765989224": {
+      "type": "tweet",
+      "title": "Amanda Askell：I don't agree with this part. I think the takeaway should be that models (like...",
+      "url": "https://x.com/AmandaAskell/status/2084369056765989224",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "topic:Amanda Askell：I don't agree with this part. I think the takeaway should be that models (like...": {
+      "type": "topic",
+      "title": "Amanda Askell：I don't agree with this part. I think the takeaway should be that models (like...",
+      "url": "https://x.com/AmandaAskell/status/2084369056765989224",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "tweet:2084411344623902994": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Next.js 16.3: faster, better, stronger. My highlights: 0️⃣ Faster dev & builds...",
+      "url": "https://x.com/rauchg/status/2084411344623902994",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "topic:Guillermo Rauch：Next.js 16.3: faster, better, stronger. My highlights: 0️⃣ Faster dev & builds...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Next.js 16.3: faster, better, stronger. My highlights: 0️⃣ Faster dev & builds...",
+      "url": "https://x.com/rauchg/status/2084411344623902994",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "podcast:d31dbc32-c9fa-434f-945f-3a2156527207": {
+      "type": "podcast",
+      "title": "Unsupervised Learning: AI Vibe Check: Chinese Open Models, Distillation &amp; The Hugging Face Breach",
+      "url": "https://www.youtube.com/watch?v=_GlSkJjRDMM",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "topic:Unsupervised Learning: AI Vibe Check: Chinese Open Models, Distillation &amp; The Hugging Face Breach": {
+      "type": "topic",
+      "title": "Unsupervised Learning: AI Vibe Check: Chinese Open Models, Distillation &amp; The Hugging Face Breach",
+      "url": "https://www.youtube.com/watch?v=_GlSkJjRDMM",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "tweet:2084426730241220703": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：The new AI Gateway logs UI is delightful https://t.co/cpMCaVeTbj...",
+      "url": "https://x.com/rauchg/status/2084426730241220703",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "topic:Guillermo Rauch：The new AI Gateway logs UI is delightful https://t.co/cpMCaVeTbj...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：The new AI Gateway logs UI is delightful https://t.co/cpMCaVeTbj...",
+      "url": "https://x.com/rauchg/status/2084426730241220703",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "tweet:2084289426012897433": {
+      "type": "tweet",
+      "title": "Peter Yang：My 6 biggest takeaways from @karan4d, @NousResearch co-founder, on getting the...",
+      "url": "https://x.com/petergyang/status/2084289426012897433",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "topic:Peter Yang：My 6 biggest takeaways from @karan4d, @NousResearch co-founder, on getting the...": {
+      "type": "topic",
+      "title": "Peter Yang：My 6 biggest takeaways from @karan4d, @NousResearch co-founder, on getting the...",
+      "url": "https://x.com/petergyang/status/2084289426012897433",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "tweet:2084445517678064092": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：This is why P̵L̵G̵ ALG will always be king for startups. Have p̵e̵o̵p̵l̵e̵...",
+      "url": "https://x.com/rauchg/status/2084445517678064092",
+      "sentAt": "2026-08-05T00:54:25.687Z"
+    },
+    "topic:Guillermo Rauch：This is why P̵L̵G̵ ALG will always be king for startups. Have p̵e̵o̵p̵l̵e̵...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：This is why P̵L̵G̵ ALG will always be king for startups. Have p̵e̵o̵p̵l̵e̵...",
+      "url": "https://x.com/rauchg/status/2084445517678064092",
+      "sentAt": "2026-08-05T00:54:25.687Z"
     }
   },
-  "updatedAt": "2026-08-04T00:58:57.535Z"
+  "updatedAt": "2026-08-05T00:54:25.687Z"
 }
