@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-07T01:52:10.159Z",
+  "updatedAt": "2026-08-07T23:59:21.308Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -4846,6 +4846,271 @@
             "label": "对速成论的警告",
             "text": "任何期待一夜之间发生的人，都应该更新他们的时间表。",
             "reference": "原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2085563808773189680:85ceb9795f5a1364": {
+      "itemId": "tweet:2085563808773189680",
+      "sourceHash": "85ceb9795f5a1364",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：We’re updating Claude Fable 5’s biology safeguards to reduce false positives....",
+      "url": "https://x.com/claudeai/status/2085563808773189680",
+      "generatedAt": "2026-08-07T23:57:38.422Z",
+      "summary": {
+        "title": "Claude Fable 5 更新生物安全护栏，大幅减少误拦截",
+        "summary": "Claude 官方宣布更新 Fable 5 模型的生物安全护栏，旨在降低误报率。测试显示，此次更新使产品各界面中与生物学相关的回退减少了约 85%。Fable 现在能回答更广泛的日常健康与教育问题。Anthropic 认为 AI 最大的积极影响将出现在生物学和医学领域，并致力于将前沿智能安全地交到尽可能多的研究人员手中。对于病毒学、毒理学和分子设计等被视为双重用途的请求，Fable 仍会回退到 Opus 5，因此目前尚不能用于专业的生物学研究和药物开发。Anthropic 承诺通过可信访问途径来缩小这一差距，以提供前沿生物学能力。",
+        "excerpts": [
+          {
+            "label": "数据",
+            "text": "此次更新使产品各界面中与生物学相关的回退减少了约 85%。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "观点",
+            "text": "Anthropic 认为 AI 最大的积极影响将出现在生物学和医学领域。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "观点",
+            "text": "Anthropic 致力于将前沿智能安全地交到尽可能多的研究人员手中。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "案例",
+            "text": "对于病毒学、毒理学和分子设计等双重用途请求，Fable 仍会回退到 Opus 5，因此尚不能用于专业的生物学研究和药物开发。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "观点",
+            "text": "Anthropic 承诺通过可信访问途径来缩小前沿生物学能力的差距。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2085474309943030032:a0f849e700b6fc98": {
+      "itemId": "tweet:2085474309943030032",
+      "sourceHash": "a0f849e700b6fc98",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Huge Atlassian quarterly beat. There was a misplaced thesis over the past 6...",
+      "url": "https://x.com/levie/status/2085474309943030032",
+      "generatedAt": "2026-08-07T23:57:45.243Z",
+      "summary": {
+        "title": "Aaron Levie：Atlassian 财报大超预期，AI 代理时代平台价值不降反升",
+        "summary": "Atlassian 联合创始人 Aaron Levie 在财报发布后发推，反驳了过去半年市场的一种错误论调：AI 代理会削弱某些软件品类的价值。他指出，虽然在某些领域确实存在这种可能，但很多人理解有误。当 AI 代理生成百倍代码、处理海量数据、跨系统做决策时，管理这些数据和工作流的平台反而变得更加重要。企业关心治理、安全、合规、护栏、数据安全访问等关键能力，而这些正是记录系统平台的核心价值。因此，Atlassian 这样的平台在 AI 代理时代不仅不会被削弱，反而会因代理活动激增而变得更为关键。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "过去半年有一种错误论调，认为 AI 代理会对某些软件品类不利。在某些领域确实如此，但很多人分析错了。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "关键论证",
+            "text": "当 AI 代理生成 100 倍代码、处理海量数据、跨系统做决策时，管理这些数据和工作流的平台角色变得更加重要，而非减弱。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "企业需求",
+            "text": "企业关心治理、安全、合规、护栏、数据安全访问等关键能力，这些正是记录系统平台提供的。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "市场背景",
+            "text": "Atlassian 季度财报大幅超出预期，验证了平台在 AI 代理时代的价值。",
+            "reference": "推文开头及互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2085382457457828153:0b82d31c1109e885": {
+      "itemId": "tweet:2085382457457828153",
+      "sourceHash": "0b82d31c1109e885",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：Alright August fundraising season is here (got 9 intros this week) so here’s a...",
+      "url": "https://x.com/nikunj/status/2085382457457828153",
+      "generatedAt": "2026-08-07T23:58:00.527Z",
+      "summary": {
+        "title": "八月融资季，VC 不会告诉你的融资内幕",
+        "summary": "Nikunj Kothari 在八月融资季分享了一系列创始人融资时 VC 不会明说的实战建议。他强调在 VC 公司内部，与你接触的人选至关重要，要了解其近期投资记录和在公司的地位，避免被分配给即将离职的人。融资必须设法直接与有决策权的 GP 或合伙人对话，通过其已投创始人的热情引荐效果最佳。在融资条款上，创始人常误解 VC 心理：VC 并不追求“便宜交易”，过低的估值反而引发疑虑；主流领投基金通常要求至少 10% 的股权稀释，估值谈判时切忌拿竞争对手的估值作比较。诚信至关重要，硅谷和纽约圈子极小，任何谎言或虚假的 term sheet 都会迅速被揭穿。此外，创始人应展现真实热情和需要帮助的领域，而非刻意营造人设；在当前高度共识驱动的市场中，非热门赛道创始人需突出自己作为逆向投资标的的价值，并确保公司有默认存活路径。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "在 VC 公司内部，与你接触的人选至关重要。要了解他们近期投资了什么，在公司内的地位如何。如果是新人且近期有出色交易并理解你的领域，可以谈；否则他们可能即将离职。一旦在 CRM 中被分配给某人，你就被锁定，因为 deal attribution 会引发内部争斗。",
+            "reference": "原文第1段"
+          },
+          {
+            "label": "金句",
+            "text": "你必须与 GP 或有实权的合伙人对话。通过他们已投的创始人获得热情引荐，他们会放下所有日程，飞奔来见你，而且通常不会把你转给投资经理。",
+            "reference": "原文第2段"
+          },
+          {
+            "label": "观点",
+            "text": "VC 并不想要一个‘便宜交易’。如果价格过低，反而会引发更多疑问，比如为什么价格不高。这很奇怪但真实。",
+            "reference": "原文第3段"
+          },
+          {
+            "label": "数据",
+            "text": "没有一家成熟的领投 VC 基金会接受低于 10% 的股权稀释，所以别开口要求更低的稀释比例。除非你有极强的谈判筹码，否则底线就是 10%，因为这关系到基金回报。",
+            "reference": "原文第4段"
+          },
+          {
+            "label": "观点",
+            "text": "永远不要拿竞争对手的估值来比较，这是搞砸交易的最佳方式。你不知道他们的交易是如何达成的，但可以作为参考。",
+            "reference": "原文第4段"
+          },
+          {
+            "label": "金句",
+            "text": "硅谷和纽约圈子极小。如果你告诉他们你有某家的 term sheet，一条短信就能核实。这是竞合关系，所有人都在互相交流，所以所有 deck 都会泄露，消息传得像野火。",
+            "reference": "原文第5段"
+          },
+          {
+            "label": "观点",
+            "text": "氛围很重要。做真实的自己，展示你兴奋的点，并强调你需要帮助的地方（VC 乐于提供帮助）。不要玩欲擒故纵或假装成别人，那远不如你想象的管用。炒作能吸引眼球，但不是最终目的。",
+            "reference": "原文第6段"
+          },
+          {
+            "label": "观点",
+            "text": "这是我见过的最共识驱动的市场。如果你不在热门赛道，就准备好展示为什么你是一个伟大的逆向投资标的。每个人都在寻求平衡投资组合，你永远不知道在哪里能找到支持者。",
+            "reference": "原文第7段"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:94e24e7c-48b4-4b72-ba0a-355f50c2441a:f51113627885bea2": {
+      "itemId": "podcast:94e24e7c-48b4-4b72-ba0a-355f50c2441a",
+      "sourceHash": "f51113627885bea2",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "The MAD Podcast with Matt Turck: How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "generatedAt": "2026-08-07T23:59:08.064Z",
+      "summary": {
+        "title": "如何构建长时域AI智能体：从会计自动化看信任、行为规范与系统设计",
+        "summary": "本期播客深入探讨了构建长时域AI智能体的核心挑战与实践方法，以Basis公司开发的会计智能体为例。嘉宾Mitch Troyanovsky指出，人类早已习惯与非确定性系统（如同事）协作，公司流程本质上是协调非确定性实体，这与智能体设计类似。但仅靠结果评估（如100次测试全部通过）无法保证生产环境泛化，因为智能体可能通过错误过程达成正确结果，就像会计公司不会雇佣只会查维基百科的人。为此，Basis提出了“行为规范”（behavior specs）——以Markdown文件定义智能体应遵循的元行为，由会计师和ML研究员共同制定，作为评估标准而非直接指令，允许智能体在原则指导下灵活执行。行为规范由专门的“法官”智能体进行评判，成本较高，因此只选择最重要、最具泛化性的少数行为。在会计领域，数据稀缺且难以合成，反馈循环极长（一项税务申报可能需数千推理步骤、人类耗时20小时以上），因此必须通过行为规范确保过程正确。Basis目前未直接对底层模型进行强化学习，而是利用行为信号改进整个智能体系统，因为模型编排能力的提升带来的性能增益远大于直接更新模型权重。嘉宾强调，构建长期智能体的关键是信任和可靠性，而非偶尔的惊艳表现；开发者应将LLM视为“魔法盒子”，通过大量使用（尤其是编程）来建立直觉。技术护城河并非真正的护城河，商业护城河（如市场嵌入度）才是关键。最后，建议AI构建者基于第一性原理做决策，理解范式转变，而非被快速变化分散注意力。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "即使100次评估全部通过，也不能保证在真实生产环境中泛化，因为如果只是通过查询维基百科等简单方式获得正确答案，就像会计公司不会雇佣这样的人一样，不应被信任。",
+            "reference": "00:18 - 00:33"
+          },
+          {
+            "label": "金句",
+            "text": "会计是将现实世界中大量非结构化信息压缩为结构化信息的艺术，可视为经济之上的智能，因为它使人们能够理解并做出决策。",
+            "reference": "04:59 - 06:11"
+          },
+          {
+            "label": "案例",
+            "text": "在Basis办公室，员工对着麦克风轻声细语，因为说话比打字更快，且智能体不介意接收未经过滤的思维流，这能提供更多上下文。",
+            "reference": "01:44 - 02:42"
+          },
+          {
+            "label": "类比",
+            "text": "LLM具有很大的工作记忆，但默认没有短期或长期记忆，因此需要通过推理来管理自身状态，类似于电影《记忆碎片》中主角通过笔记来构建知识。",
+            "reference": "07:43 - 08:24; 12:09 - 13:19"
+          },
+          {
+            "label": "数据",
+            "text": "税务申报等任务涉及极长的反馈循环，完成一项工作可能需要数千个推理步骤，且人类实际工作时间可达20小时以上。",
+            "reference": "1:13:59 - 1:14:24 附近（原文提及数千步骤和20+小时）"
+          },
+          {
+            "label": "观点",
+            "text": "构建长期AI智能体的关键在于信任和可靠性，而非偶尔的惊艳表现。你不需要‘Move 37’那样的神来之笔，那可能只在数学竞赛中有用，而不是在真实经济中工作。",
+            "reference": "49:54 - 50:03"
+          },
+          {
+            "label": "金句",
+            "text": "内部文档对于智能体而言必须被视为代码库。删除一个关键段落，你就会破坏智能体，就像删除一行代码一样。",
+            "reference": "1:04:20 - 1:04:42"
+          },
+          {
+            "label": "观点",
+            "text": "技术护城河不是真正的护城河，商业护城河才是关键。重要的是我们现在非常擅长构建长时域智能体，这让我们能够赢得市场份额并深度嵌入。",
+            "reference": "1:19:03 - 1:19:34"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2085403169551790359:2ee8cce531bd3b87": {
+      "itemId": "tweet:2085403169551790359",
+      "sourceHash": "2ee8cce531bd3b87",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Devtools must be 1️⃣ open source and 2️⃣ universally extensible. AI coding...",
+      "url": "https://x.com/rauchg/status/2085403169551790359",
+      "generatedAt": "2026-08-07T23:59:12.776Z",
+      "summary": {
+        "title": "Guillermo Rauch：开发者工具必须开源且可扩展，AI 编程代理是史上最重要的开发工具",
+        "summary": "Guillermo Rauch 强调，开发者工具必须满足两个核心条件：开源和普遍可扩展。他认为 AI 编程代理是行业历史上最重要的开发工具，而 Plugin 标准能让任何人统一扩展这些代理，这对生态系统意义重大。通过构建一个 Plugin，开发者就能接触到来自各类代理（CLI、IDE、云代理甚至个人助理）的软件创建浪潮，获得巨大曝光。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "开发者工具必须 1️⃣ 开源 2️⃣ 普遍可扩展。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "重要论断",
+            "text": "AI 编程代理是我们行业历史上最重要的开发工具。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "生态价值",
+            "text": "Plugin 标准让任何人都能统一扩展这些代理，这对生态系统来说是巨大的进步。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "行动号召",
+            "text": "构建一个 Plugin → 就能接触到来自各类代理的软件创建浪潮：CLI、IDE、云代理，甚至个人助理。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2085427222836658600:9b3f8c9e15756ad9": {
+      "itemId": "tweet:2085427222836658600",
+      "sourceHash": "9b3f8c9e15756ad9",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：Consumer is basically ChatGPT and Google's market to lose in my opinion....",
+      "url": "https://x.com/petergyang/status/2085427222836658600",
+      "generatedAt": "2026-08-07T23:59:21.307Z",
+      "summary": {
+        "title": "Peter Yang：消费者市场基本是 ChatGPT 和 Google 的囊中之物",
+        "summary": "Peter Yang 认为，消费者 AI 市场基本是 ChatGPT 和 Google 的天下，两者都拥有近 10 亿用户，但各自面临不同挑战。ChatGPT 需要让普通用户信任并连接其常用应用，使用 AI 代理完成任务，同时让用户意识到其现有能力；OpenAI 已在语音等新交互模式上领先。Google Gemini 同样用户基数庞大，且因统一登录体系，用户更信任其接入邮箱、日历、Workspace 等，但在第三方插件、浏览器使用等关键功能上落后，需将 Gemini 应用做到最好并简化体验。他指出，对普通用户而言，模型是否最强并不重要，关键在于用户引导和可靠完成任务，而非模型版本差异。营销和正确传达信息与产品改进同等重要。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "消费者市场基本是 ChatGPT 和 Google 的囊中之物，两者都拥有近 10 亿用户。",
+            "reference": "原文开头"
+          },
+          {
+            "label": "ChatGPT 的挑战",
+            "text": "ChatGPT 需要让普通用户信任并连接其常用应用，使用代理完成任务，同时让用户意识到其现有能力。",
+            "reference": "原文中段"
+          },
+          {
+            "label": "营销与产品同等重要",
+            "text": "在这两种情况下，我认为营销和正确的信息传达与改进产品同样重要。",
+            "reference": "原文中段"
+          },
+          {
+            "label": "Google 的优势与劣势",
+            "text": "Google Gemini 也拥有近 10 亿用户，直觉上普通用户更信任它接入邮箱、日历、Workspace、Chrome 等，因为都是同一登录。但 Google 在第三方插件、浏览器使用和许多其他关键功能上落后。",
+            "reference": "原文后段"
+          },
+          {
+            "label": "对普通用户而言模型不是关键",
+            "text": "我不认为拥有最好的模型对普通用户有多重要，相比之下，做好用户引导更重要。我那些不关注 AI 的朋友根本不在乎 Sol 还是 Fable，只要价格合理、模型能可靠完成工作就行。",
+            "reference": "原文结尾"
+          },
+          {
+            "label": "简化模式建议",
+            "text": "Google 可以直接复制 ChatGPT，但要改进，比如不要像 ChatGPT 和 Claude 那样分成三种独立模式（ChatGPT/Work/Codex）。",
+            "reference": "原文后段"
           }
         ],
         "materials": []

@@ -4824,7 +4824,127 @@
       "title": "Aaron Levie：Correct take. 99% of tokens in the world will get consumed in an enterprise...",
       "url": "https://x.com/levie/status/2085200776159490111",
       "sentAt": "2026-08-07T01:52:12.357Z"
+    },
+    "tweet:2085454964814753990": {
+      "type": "tweet",
+      "title": "Sam Altman：5.6 Sol much better in chat now and unlimited text chat for free users!...",
+      "url": "https://x.com/sama/status/2085454964814753990",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "topic:Sam Altman：5.6 Sol much better in chat now and unlimited text chat for free users!...": {
+      "type": "topic",
+      "title": "Sam Altman：5.6 Sol much better in chat now and unlimited text chat for free users!...",
+      "url": "https://x.com/sama/status/2085454964814753990",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "tweet:2085563808773189680": {
+      "type": "tweet",
+      "title": "Claude：We’re updating Claude Fable 5’s biology safeguards to reduce false positives....",
+      "url": "https://x.com/claudeai/status/2085563808773189680",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "topic:Claude：We’re updating Claude Fable 5’s biology safeguards to reduce false positives....": {
+      "type": "topic",
+      "title": "Claude：We’re updating Claude Fable 5’s biology safeguards to reduce false positives....",
+      "url": "https://x.com/claudeai/status/2085563808773189680",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "tweet:2085597685948813610": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：You can just ask Codex with GPT-5.6 Sol the wildest things and it will just do...",
+      "url": "https://x.com/thsottiaux/status/2085597685948813610",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "topic:Thibault Sottiaux：You can just ask Codex with GPT-5.6 Sol the wildest things and it will just do...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：You can just ask Codex with GPT-5.6 Sol the wildest things and it will just do...",
+      "url": "https://x.com/thsottiaux/status/2085597685948813610",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "tweet:2085474309943030032": {
+      "type": "tweet",
+      "title": "Aaron Levie：Huge Atlassian quarterly beat. There was a misplaced thesis over the past 6...",
+      "url": "https://x.com/levie/status/2085474309943030032",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "topic:Aaron Levie：Huge Atlassian quarterly beat. There was a misplaced thesis over the past 6...": {
+      "type": "topic",
+      "title": "Aaron Levie：Huge Atlassian quarterly beat. There was a misplaced thesis over the past 6...",
+      "url": "https://x.com/levie/status/2085474309943030032",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "tweet:2085610005768945984": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：I meant to say \"ghiblify\", but I said \"gimlify\" https://t.co/ZibIfuX99D",
+      "url": "https://x.com/thsottiaux/status/2085610005768945984",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "topic:Thibault Sottiaux：I meant to say \"ghiblify\", but I said \"gimlify\" https://t.co/ZibIfuX99D": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：I meant to say \"ghiblify\", but I said \"gimlify\" https://t.co/ZibIfuX99D",
+      "url": "https://x.com/thsottiaux/status/2085610005768945984",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "tweet:2085451197323034902": {
+      "type": "tweet",
+      "title": "Amjad Masad：Airtable bookends the rise and fall of “no code.” I remember arguing endlessly...",
+      "url": "https://x.com/amasad/status/2085451197323034902",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "topic:Amjad Masad：Airtable bookends the rise and fall of “no code.” I remember arguing endlessly...": {
+      "type": "topic",
+      "title": "Amjad Masad：Airtable bookends the rise and fall of “no code.” I remember arguing endlessly...",
+      "url": "https://x.com/amasad/status/2085451197323034902",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "tweet:2085382457457828153": {
+      "type": "tweet",
+      "title": "Nikunj Kothari：Alright August fundraising season is here (got 9 intros this week) so here’s a...",
+      "url": "https://x.com/nikunj/status/2085382457457828153",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "topic:Nikunj Kothari：Alright August fundraising season is here (got 9 intros this week) so here’s a...": {
+      "type": "topic",
+      "title": "Nikunj Kothari：Alright August fundraising season is here (got 9 intros this week) so here’s a...",
+      "url": "https://x.com/nikunj/status/2085382457457828153",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "podcast:94e24e7c-48b4-4b72-ba0a-355f50c2441a": {
+      "type": "podcast",
+      "title": "The MAD Podcast with Matt Turck: How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "topic:The MAD Podcast with Matt Turck: How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis": {
+      "type": "topic",
+      "title": "The MAD Podcast with Matt Turck: How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "tweet:2085403169551790359": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Devtools must be 1️⃣ open source and 2️⃣ universally extensible. AI coding...",
+      "url": "https://x.com/rauchg/status/2085403169551790359",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "topic:Guillermo Rauch：Devtools must be 1️⃣ open source and 2️⃣ universally extensible. AI coding...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Devtools must be 1️⃣ open source and 2️⃣ universally extensible. AI coding...",
+      "url": "https://x.com/rauchg/status/2085403169551790359",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "tweet:2085427222836658600": {
+      "type": "tweet",
+      "title": "Peter Yang：Consumer is basically ChatGPT and Google's market to lose in my opinion....",
+      "url": "https://x.com/petergyang/status/2085427222836658600",
+      "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "topic:Peter Yang：Consumer is basically ChatGPT and Google's market to lose in my opinion....": {
+      "type": "topic",
+      "title": "Peter Yang：Consumer is basically ChatGPT and Google's market to lose in my opinion....",
+      "url": "https://x.com/petergyang/status/2085427222836658600",
+      "sentAt": "2026-08-07T23:59:23.981Z"
     }
   },
-  "updatedAt": "2026-08-07T01:52:12.357Z"
+  "updatedAt": "2026-08-07T23:59:23.981Z"
 }
