@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-06T00:52:21.733Z",
+  "updatedAt": "2026-08-07T01:52:10.159Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -4645,6 +4645,206 @@
           {
             "label": "效率标准",
             "text": "说与做之间的鸿沟应为零，会议应成为真正完成工作的“工作会话”。",
+            "reference": "原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2085038756906901656:f8f23a90b9fa5276": {
+      "itemId": "tweet:2085038756906901656",
+      "sourceHash": "f8f23a90b9fa5276",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Garry Tan：Can’t wait for the AI to get so good none of this business about detecting AI...",
+      "url": "https://x.com/garrytan/status/2085038756906901656",
+      "generatedAt": "2026-08-07T01:51:07.175Z",
+      "summary": {
+        "title": "Garry Tan：当 AI 足够好，检测 AI 就不再重要",
+        "summary": "Y Combinator 总裁 Garry Tan 在推文中表达了对 AI 技术进步的期待：当 AI 生成的内容质量足够高时，目前关于“检测 AI 生成内容”的种种争议将变得毫无意义。他以餐具制造的历史类比说明：银器曾经是手工打造的，但如今没人会抱怨自己的餐叉是机器冲压的。核心在于想法的质量，而非制作方式。他强调，重要的是人们能“吃到东西”（即获得价值），而不是纠结于工具是手工还是机器。这条推文获得了 418 个赞和 34 次转发，反映了科技界对 AI 生成内容去污名化的态度。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "当 AI 变得足够好，所有关于检测 AI 的事情都将不再重要。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "历史类比",
+            "text": "银器曾经是手工制作的，但现在没有人抱怨自己的餐叉是机器冲压的。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "价值主张",
+            "text": "重要的是想法的质量，以及人们能吃到东西（获得价值）。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2085048743322345545:82da24ebce02ee44": {
+      "itemId": "tweet:2085048743322345545",
+      "sourceHash": "82da24ebce02ee44",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Google Labs：Time to spill the (Dream)beans. Dreambeans is expanding! Joining our US-based...",
+      "url": "https://x.com/GoogleLabs/status/2085048743322345545",
+      "generatedAt": "2026-08-07T01:51:14.427Z",
+      "summary": {
+        "title": "Google Labs 宣布 Dreambeans 扩展：AI Pro 用户也能享受个性化故事推送",
+        "summary": "Google Labs 在 X 上宣布，其个性化故事推送服务 Dreambeans 正在扩展。此前仅限美国地区的 AI Ultra 用户使用，现在美国地区的 AI Pro 订阅用户也可以体验该功能。Dreambeans 每天为用户提供新鲜、个性化的故事合集，旨在挖掘用户真正想读的深度内容和隐藏佳作。这一举措表明 Google 正在将 AI 驱动的个性化内容服务向更广泛的付费用户层推广，可能增强其 AI 订阅服务的吸引力。",
+        "excerpts": [
+          {
+            "label": "核心宣布",
+            "text": "Dreambeans 正在扩展！加入我们美国的 AI Ultra 用户行列，美国的 AI Pro 订阅用户现在也可以参与其中。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "服务描述",
+            "text": "准备好迎接你每日新鲜的个性化故事合集。我们正在挖掘你真正想读的深度内容和隐藏佳作。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "用户分层",
+            "text": "Dreambeans 最初仅面向 AI Ultra 用户，现在扩展到 AI Pro 用户，显示 Google 正逐步将 AI 功能下放至更低订阅层级。",
+            "reference": "推文原文及背景"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 406 个喜欢、34 次转发和 19 条回复，表明社区对此有一定关注度。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:057b66e4-a02c-4c68-b10c-899c17f9c2d3:f0be765d2fc38fb6": {
+      "itemId": "podcast:057b66e4-a02c-4c68-b10c-899c17f9c2d3",
+      "sourceHash": "f0be765d2fc38fb6",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "AI & I by Every: Why the Next Hit AI Product Will Be Social Why the Next Hit AI Product Will Be Social (Best of the Pod)",
+      "url": "https://www.youtube.com/watch?v=dlI-5W7d7uU",
+      "generatedAt": "2026-08-07T01:51:53.059Z",
+      "summary": {
+        "title": "为什么下一个爆款 AI 产品将是社交型",
+        "summary": "本期播客探讨了 AI 消费者产品的演进方向。嘉宾 Sarah 是 Benchmark 合伙人，曾在 Pinterest 早期工作。她认为，当前 AI 产品（如 ChatGPT）仍以技术驱动为主，类似于早期的 Google，产品体验重心在后端模型而非社交互动。随着底层技术成熟，产品思维将变得更重要，未来可能出现具有网络效应的多人 AI 产品，例如 UGC 社区，让擅长使用 AI 的人帮助他人。社交产品中，地位激励（如粉丝数、点赞）驱动用户行为，未来人们可能拥有 AI 朋友，与 AI 的对话量超过与人的对话，可能出现主导平台。投资者在评估创始人时，看重其是否深入思考业务，理想的公司是“甜甜圈公司”，即无需投资者过多帮助。里德·霍夫曼强调网络效应的重要性，早期可寻找小市场中的“引爆点”迹象。Agentio 是一个利用 LLM 自动化流程的创作者交易平台，展现了需求方拉动效应。AI 领域可能即将出现一波由网络效应和多人模式驱动的消费者产品，但如果失败，可能是因为现有平台（如 ChatGPT）的引力太强。此外，稳定币具有网络效应，如 Tether 因流动性高而主导市场，未来 AI 可能通过分析数据帮助风险投资做出更好决策。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "随着底层技术成熟，产品体验的重心从技术转向产品思维，Pinterest、Snap、Instagram 的 CEO 并非技术出身，而是产品天才。",
+            "reference": "00:20 - 00:42"
+          },
+          {
+            "label": "观点",
+            "text": "目前 AI 领域的主要消费者产品是 ChatGPT，类似于 Google 的文本框形式，但缺乏社交性。",
+            "reference": "00:20 - 00:42"
+          },
+          {
+            "label": "观点",
+            "text": "未来可能出现 UGC 社区，让擅长使用 AI 的人帮助其他人更好地利用技术。",
+            "reference": "00:42 - 00:56"
+          },
+          {
+            "label": "观点",
+            "text": "ChatGPT 的使用门槛仍然较高，用户需要自定义指令等技巧才能获得理想结果，未来模型改进应降低难度。",
+            "reference": "06:07 - 06:46"
+          },
+          {
+            "label": "观点",
+            "text": "目前缺乏具有网络效应的多人 AI 产品，产品天才可能创造此类体验。",
+            "reference": "10:17 - 11:01"
+          },
+          {
+            "label": "类比",
+            "text": "理想的公司是“甜甜圈公司”，即董事会会议时只需吃个甜甜圈然后离开，因为公司不需要投资者过多帮助。",
+            "reference": "27:16 - 27:53"
+          },
+          {
+            "label": "案例",
+            "text": "Agentio 是一个 YouTube 创作者与品牌的交易平台，利用 LLM 自动化流程，实现了流动性，并展现出需求方拉动效应。",
+            "reference": "30:27 - 31:21"
+          },
+          {
+            "label": "观点",
+            "text": "如果多人模式 AI 产品未能成功，可能是因为现有平台（如 ChatGPT）的引力太强，用户习惯和记忆形成锁定效应。",
+            "reference": "34:35 - 35:40"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2085055745410945126:ec8d09a69b2444cc": {
+      "itemId": "tweet:2085055745410945126",
+      "sourceHash": "ec8d09a69b2444cc",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：How to use my new /human-review skill to edit HTML and Markdown files directly:...",
+      "url": "https://x.com/petergyang/status/2085055745410945126",
+      "generatedAt": "2026-08-07T01:52:01.363Z",
+      "summary": {
+        "title": "Peter Yang 发布 /human-review 技能：直接在可视化编辑器中修改 HTML 和 Markdown 文件",
+        "summary": "Peter Yang 介绍了他新开发的 /human-review 技能，该技能允许开发者在 Codex 或 Claude Code 中直接以可视化方式编辑 HTML 和 Markdown 文件。用户只需安装技能，然后输入命令即可打开一个类似 Google Docs 的编辑器，在其中直接修改文本格式、调整图片大小，并像添加评论一样向 AI 提供反馈。完成编辑后，点击“发送给代理”，AI 会自动应用所有更改。该技能适用于编辑 PRD、落地页等文档，旨在解决 AI 代理完成大部分工作后仍需人工进行最后 10% 润色的需求。Peter 鼓励用户在 GitHub 上为该项目加星。",
+        "excerpts": [
+          {
+            "label": "核心功能",
+            "text": "输入 /human-review 命令后，会打开一个可视化编辑器，你可以直接编辑和格式化文本、调整图片大小，并像在 Google Doc 中一样给 AI 留下反馈。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "使用场景",
+            "text": "用它来编辑 PRD、落地页等文档。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "设计理念",
+            "text": "我知道我们都喜欢让代理为我们工作，但有时需要“人工审查”来完成最后 10% 的润色。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "安装方式",
+            "text": "告诉 Codex 或 Claude Code：“安装这个：https://t.co/VDArIG0lxf”",
+            "reference": "推文正文"
+          },
+          {
+            "label": "操作流程",
+            "text": "完成编辑后，点击“发送给代理”，观察它应用所有更新。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2085200776159490111:8762db8aed73bb88": {
+      "itemId": "tweet:2085200776159490111",
+      "sourceHash": "8762db8aed73bb88",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Correct take. 99% of tokens in the world will get consumed in an enterprise...",
+      "url": "https://x.com/levie/status/2085200776159490111",
+      "generatedAt": "2026-08-07T01:52:10.159Z",
+      "summary": {
+        "title": "Aaron Levie：99%的AI tokens将消耗在企业场景，但扩散需要数年",
+        "summary": "Aaron Levie 认为，未来全球 99% 的 AI tokens 将消耗在企业环境中，用于编写代码、生命科学研究、制造自动化、安全防护、欺诈检测等具有显著经济价值的任务。企业场景既能最大程度地证明 AI 的成本合理性，又能通过并行工作代理实现最大效用。即使影响消费者的代理，也常被包装成端到端服务，用户感知不到背后的 AI。关键挑战在于，AI 融入经济需要重新设计工作流程，这需要数年时间，不可能一夜之间完成。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "99% 的 tokens 将在企业环境中被消耗，用于编写代码、梳理海量生命科学研究、自动化制造、企业安全、欺诈检测等数千种具有重大经济价值的任务。",
+            "reference": "原文"
+          },
+          {
+            "label": "成本与效用论证",
+            "text": "企业场景既能最大程度地证明 AI 的成本合理性，又能通过并行工作代理为你执行任务，实现最大效用。",
+            "reference": "原文"
+          },
+          {
+            "label": "消费者代理的形态",
+            "text": "即使是对消费者影响最大的代理，也常常被包装成端到端服务，消费者不会意识到另一端有 AI 系统，比如更快的保险理赔或银行开户。",
+            "reference": "原文"
+          },
+          {
+            "label": "扩散时间预期",
+            "text": "AI 代理在整个经济中的扩散需要数年时间，因为工作流程必须重新设计以融入 AI，这是对当今大多数工作方式的彻底改变。",
+            "reference": "原文"
+          },
+          {
+            "label": "对速成论的警告",
+            "text": "任何期待一夜之间发生的人，都应该更新他们的时间表。",
             "reference": "原文"
           }
         ],
