@@ -4944,7 +4944,127 @@
       "title": "Peter Yang：Consumer is basically ChatGPT and Google's market to lose in my opinion....",
       "url": "https://x.com/petergyang/status/2085427222836658600",
       "sentAt": "2026-08-07T23:59:23.981Z"
+    },
+    "tweet:2085862292311396515": {
+      "type": "tweet",
+      "title": "Sam Altman：astra is a powerful model and we are working to make it generally available. we...",
+      "url": "https://x.com/sama/status/2085862292311396515",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "topic:Sam Altman：astra is a powerful model and we are working to make it generally available. we...": {
+      "type": "topic",
+      "title": "Sam Altman：astra is a powerful model and we are working to make it generally available. we...",
+      "url": "https://x.com/sama/status/2085862292311396515",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "tweet:2085845171363791135": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：I feel Theo is in need of a reset 👀 https://t.co/7DsOlEZUDv",
+      "url": "https://x.com/thsottiaux/status/2085845171363791135",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "topic:Thibault Sottiaux：I feel Theo is in need of a reset 👀 https://t.co/7DsOlEZUDv": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：I feel Theo is in need of a reset 👀 https://t.co/7DsOlEZUDv",
+      "url": "https://x.com/thsottiaux/status/2085845171363791135",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "tweet:2085850908559298732": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Somewhere on your phone you have the closest thing to magic we have shipped. It...",
+      "url": "https://x.com/thsottiaux/status/2085850908559298732",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "topic:Thibault Sottiaux：Somewhere on your phone you have the closest thing to magic we have shipped. It...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Somewhere on your phone you have the closest thing to magic we have shipped. It...",
+      "url": "https://x.com/thsottiaux/status/2085850908559298732",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "tweet:2085765236876046500": {
+      "type": "tweet",
+      "title": "Sam Altman：congrats to oklo for achieving criticality! (less than a year after...",
+      "url": "https://x.com/sama/status/2085765236876046500",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "topic:Sam Altman：congrats to oklo for achieving criticality! (less than a year after...": {
+      "type": "topic",
+      "title": "Sam Altman：congrats to oklo for achieving criticality! (less than a year after...",
+      "url": "https://x.com/sama/status/2085765236876046500",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "tweet:2085807103382519872": {
+      "type": "tweet",
+      "title": "Boris Cherny：The team and I use Auto mode exclusively, and have been for many months. I...",
+      "url": "https://x.com/bcherny/status/2085807103382519872",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "topic:Boris Cherny：The team and I use Auto mode exclusively, and have been for many months. I...": {
+      "type": "topic",
+      "title": "Boris Cherny：The team and I use Auto mode exclusively, and have been for many months. I...",
+      "url": "https://x.com/bcherny/status/2085807103382519872",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "tweet:2085860677990883454": {
+      "type": "tweet",
+      "title": "Boris Cherny：turns out you can get indirect prompt injection to ~0 on unseen attacks if you...",
+      "url": "https://x.com/bcherny/status/2085860677990883454",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "topic:Boris Cherny：turns out you can get indirect prompt injection to ~0 on unseen attacks if you...": {
+      "type": "topic",
+      "title": "Boris Cherny：turns out you can get indirect prompt injection to ~0 on unseen attacks if you...",
+      "url": "https://x.com/bcherny/status/2085860677990883454",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "tweet:2085806971895140612": {
+      "type": "tweet",
+      "title": "Nan Yu：SF will be cool when cool people live there. Cool people who are working...",
+      "url": "https://x.com/thenanyu/status/2085806971895140612",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "topic:Nan Yu：SF will be cool when cool people live there. Cool people who are working...": {
+      "type": "topic",
+      "title": "Nan Yu：SF will be cool when cool people live there. Cool people who are working...",
+      "url": "https://x.com/thenanyu/status/2085806971895140612",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "tweet:2085804481984475437": {
+      "type": "tweet",
+      "title": "Thariq：automode is much safer than any other permission system out there, especially...",
+      "url": "https://x.com/trq212/status/2085804481984475437",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "topic:Thariq：automode is much safer than any other permission system out there, especially...": {
+      "type": "topic",
+      "title": "Thariq：automode is much safer than any other permission system out there, especially...",
+      "url": "https://x.com/trq212/status/2085804481984475437",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "tweet:2085932920188072013": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Astro Boy and Sol https://t.co/41S3qXca91",
+      "url": "https://x.com/thsottiaux/status/2085932920188072013",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "topic:Thibault Sottiaux：Astro Boy and Sol https://t.co/41S3qXca91": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Astro Boy and Sol https://t.co/41S3qXca91",
+      "url": "https://x.com/thsottiaux/status/2085932920188072013",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "podcast:46bf55be-0a24-4c88-8412-d43b0f4309cf": {
+      "type": "podcast",
+      "title": "The MAD Podcast with Matt Turck: “OpenAI’s Model Hacked Us” - Hugging Face’s Thomas Wolf",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "topic:The MAD Podcast with Matt Turck: “OpenAI’s Model Hacked Us” - Hugging Face’s Thomas Wolf": {
+      "type": "topic",
+      "title": "The MAD Podcast with Matt Turck: “OpenAI’s Model Hacked Us” - Hugging Face’s Thomas Wolf",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "sentAt": "2026-08-08T23:55:14.172Z"
     }
   },
-  "updatedAt": "2026-08-07T23:59:23.981Z"
+  "updatedAt": "2026-08-08T23:55:14.172Z"
 }
