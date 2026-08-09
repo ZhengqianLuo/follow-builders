@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-08T23:55:12.288Z",
+  "updatedAt": "2026-08-09T23:58:18.967Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -5226,6 +5226,296 @@
             "label": "金句",
             "text": "你可以有一种放缓，它是非常开源的。那是我希望看到的：我们放慢速度，并利用放慢速度的事实来分享更多东西。",
             "reference": "Speaker 1 | 56:21 - 56:46"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2086188036493344823:3e0fa2200109e076": {
+      "itemId": "tweet:2086188036493344823",
+      "sourceHash": "3e0fa2200109e076",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：That's right, GPT-5.6 Sol is awesome and can be used pretty much anywhere,...",
+      "url": "https://x.com/thsottiaux/status/2086188036493344823",
+      "generatedAt": "2026-08-09T23:57:19.608Z",
+      "summary": {
+        "title": "GPT-5.6 Sol 发布，ChatGPT Work 和 Codex 付费用户用量限制重置",
+        "summary": "Thibault Sottiaux 在推文中宣布，GPT-5.6 Sol 模型性能出色，几乎可以在任何场景下使用，包括 CC harness。为庆祝这一里程碑，并强调自己不会离开，他重置了所有 ChatGPT Work 和 Codex 付费用户的用量限制，鼓励用户尽情使用。该推文获得大量互动，反映出社区对模型更新和用户福利的高度关注。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "GPT-5.6 Sol 非常棒，几乎可以在任何地方使用，包括在 CC harness 中。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "为了庆祝这一点，再加上我不会去任何地方……我重置了所有 ChatGPT Work 和 Codex 付费用户的用量限制。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "推文互动量极高，likes=14280, retweets=649, replies=1936，显示社区对模型和福利的热烈反响。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2086111492018221523:c65e34654f1a144b": {
+      "itemId": "tweet:2086111492018221523",
+      "sourceHash": "c65e34654f1a144b",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Zara Zhang：This paper gives a fancy name to a problem you can already feel in your bones...",
+      "url": "https://x.com/zarazhangrui/status/2086111492018221523",
+      "generatedAt": "2026-08-09T23:57:25.963Z",
+      "summary": {
+        "title": "认知公地的悲剧：当AI吃掉学徒岗位，谁来给AI批作业？",
+        "summary": "Zara Zhang 分享了一篇论文的核心观点，用“认知公地的悲剧”这一概念解释了一个我们已隐约感受到的问题：检查AI输出需要深厚的专业能力，而专业能力来自多年枯燥的基础工作，但AI最先取代的正是这些基础工作。于是，我们一边构建需要专家监督的AI系统，一边摧毁培养专家的唯一途径。论文将人类共享的专业知识池称为“认知公地”，每个行业都从中汲取养分，却无人回补。企业理性地取消初级岗位，集体导致整个行业失去纠错能力——因为新人从未真正学会如何完成工作。十五年后，谁来检查AI的作业？",
+        "excerpts": [
+          {
+            "label": "核心概念",
+            "text": "论文给一个你骨子里已经感觉到的问题起了个花哨的名字：“认知公地的悲剧”。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "逻辑链条",
+            "text": "检查AI输出需要深厚的专业能力，专业能力来自多年枯燥的基础工作，而基础工作正是AI最先吃掉的东西。",
+            "reference": "推文中间"
+          },
+          {
+            "label": "悖论",
+            "text": "我们正在构建需要专家监督的系统，同时摧毁培养专家的唯一已知过程。",
+            "reference": "推文中间"
+          },
+          {
+            "label": "定义",
+            "text": "论文将人类共享的专业知识池称为“认知公地”。每个行业都从中汲取养分，却无人回补。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "集体行动困境",
+            "text": "通过取消初级岗位，每家公司都在完全理性地行动，而集体结果是：一个再也无法发现AI错误的行业，因为它从未学会如何完成工作。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "终极提问",
+            "text": "十五年后，谁来检查AI的作业？",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2086115009915142648:2f5bb7bdca0c526b": {
+      "itemId": "tweet:2086115009915142648",
+      "sourceHash": "2f5bb7bdca0c526b",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Great post both if you’re driving AI in an enterprise or building for an...",
+      "url": "https://x.com/levie/status/2086115009915142648",
+      "generatedAt": "2026-08-09T23:57:32.038Z",
+      "summary": {
+        "title": "Aaron Levie：企业 AI 落地的真正挑战——从“百花齐放”到“精准自动化”",
+        "summary": "Aaron Levie 在这条推文中指出，企业 AI 的生产力提升幅度将远超预期，但前提是必须从根本上改变工作流程以支持智能体。然而，大多数人由于复杂性而无法或不愿主动做出这种改变。因此，大量自动化将来自将智能体嵌入用户无感知的后台流程中，即 AI 在后台运行，无需人类提示。企业当前真正的工作是识别最高杠杆的 10 件事并对其应用自动化，而不是让 AI 自由探索。他强调，没有捷径可走。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 生产力提升的幅度将远超人们想象，但前提是必须从根本上改变工作流程以支持智能体。",
+            "reference": "原文"
+          },
+          {
+            "label": "关键挑战",
+            "text": "大多数人不会或无法自然地改变工作方式，因为这样做涉及复杂性。",
+            "reference": "原文"
+          },
+          {
+            "label": "自动化路径",
+            "text": "大量自动化将来自将智能体接入用户不会注意到或关心的后台工作流程。",
+            "reference": "原文"
+          },
+          {
+            "label": "金句",
+            "text": "为什么 AI 需要由人类来提示？只需找出最重复的流程，在员工习惯的现有记录系统中构建智能体即可。",
+            "reference": "原文"
+          },
+          {
+            "label": "企业策略",
+            "text": "当前企业真正的工作是“挑选出企业中最高杠杆的 10 件事，并对其应用自动化”，而不是“让一千朵花绽放”。",
+            "reference": "原文"
+          },
+          {
+            "label": "现实提醒",
+            "text": "这里没有真正的捷径。",
+            "reference": "原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2086108010271982016:995bc0ce61d18460": {
+      "itemId": "tweet:2086108010271982016",
+      "sourceHash": "995bc0ce61d18460",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：Weird world we're moving to where AI is writing all code and will probably...",
+      "url": "https://x.com/petergyang/status/2086108010271982016",
+      "generatedAt": "2026-08-09T23:57:36.651Z",
+      "summary": {
+        "title": "AI 写代码、审代码，人类还剩什么？",
+        "summary": "Peter Yang 在这条推文中描绘了一个正在逼近的未来：AI 不仅会编写所有代码，很快还将审查所有代码。人类的角色被压缩到与 AI 一起头脑风暴设计产品，然后作为用户进行测试。但他进一步指出，AI 很可能成为大多数软件的第一个用户，这让整个链条的终点变得模糊不清。这条推文以简短的篇幅捕捉了软件工程领域正在发生的根本性转变，以及由此带来的存在主义困惑——当创造和消费的主体都变成 AI 时，人类的位置在哪里？",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "我们正走向一个奇怪的世界：AI 编写所有代码，并且可能很快也会审查所有代码。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "人类角色推演",
+            "text": "人类大概只剩下与 AI 头脑风暴设计产品，然后作为用户测试产品。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "进一步推演",
+            "text": "但 AI 很可能会成为大多数软件的第一个用户，所以真不知道这一切会走向何方。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 224 个喜欢、7 次转发和 81 条回复，显示话题引发广泛共鸣与讨论。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2086189360194723919:9e51ecc5ac91cfb3": {
+      "itemId": "tweet:2086189360194723919",
+      "sourceHash": "9e51ecc5ac91cfb3",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：How Vercel helps prevent surprise cloud bills: ◾ Soft & hard caps¹ ◾ Anomaly...",
+      "url": "https://x.com/rauchg/status/2086189360194723919",
+      "generatedAt": "2026-08-09T23:57:41.966Z",
+      "summary": {
+        "title": "Vercel 如何防止意外云账单：软硬上限、异常告警等五项措施",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中介绍了平台防止用户遭遇意外高额账单的五项核心功能：软硬支出上限、异常告警、无服务器函数的递归保护、可供代理查询的计费 API，以及全计划覆盖的 L3/L4/L7 DDoS 缓解。他强调，支撑这些功能的实时流数据基础设施处理着海量数据，用于实时检测异常、威胁并发送告警，背后是团队多年的努力。该推文旨在向用户展示 Vercel 在成本控制和安全方面的透明性与可靠性，并暗示更多功能即将推出。",
+        "excerpts": [
+          {
+            "label": "核心功能列表",
+            "text": "Vercel 防止意外云账单的五项措施：软硬支出上限、异常告警、函数递归保护、计费 API、全计划 DDoS 缓解。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "基础设施投入",
+            "text": "大量工作投入到流数据基础设施中，以支持实时分析海量数据，检测异常、威胁并发送告警。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "团队致谢",
+            "text": "Rauch 特别感谢多年来为此付出努力的团队，并表示“更多功能即将到来”。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "功能链接",
+            "text": "推文附带了五项功能的详细文档链接，包括硬上限改进、异常告警配置、递归保护、计费 API 和 DDoS 缓解。",
+            "reference": "推文中的链接"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:17b96322-915c-11f1-aad7-53d361bc6996:6d9d01fd17b9964f": {
+      "itemId": "podcast:17b96322-915c-11f1-aad7-53d361bc6996",
+      "sourceHash": "6d9d01fd17b9964f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "No Priors: Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah &amp; Elad",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "generatedAt": "2026-08-09T23:58:12.192Z",
+      "summary": {
+        "title": "追逐万亿公司、创始人野心、代币预算与监管捕获",
+        "summary": "本期播客中，Sarah 和 Elad 探讨了 AI 时代公司价值的爆发式增长及其影响。过去五年，Anthropic、OpenAI、SpaceX 三家公司从接近零增长至万亿美元市值，这种速度史无前例。但 Elad 认为，未来三到五年不太可能出现更多万亿美元公司，因为通常需要 15 到 20 年，且需要 500 亿至 1000 亿美元收入的市场极为有限。技术发展呈间断平衡模式，AI 浪潮后可能进入整合期。一些优秀创始人因害怕与大型 AI 实验室竞争而选择小众市场，Elad 认为这是负面趋势，并建议公司每半年理性讨论是否应考虑出售，因为 AI 领域变化极快。万亿美元公司的出现导致大量风险资本回流，可能推动估值持续上升。在 AI 实验室内部，少数研究人员贡献了大部分成果，计算资源也倾向于分配给他们，真正的瓶颈是与人相关的计算资源。由此引出“投资代币回报率”概念，即根据代币预算分配资源并衡量回报。企业正从鼓励全员使用 AI 转向衡量支出、转向开源，并考虑将代币预算集中给高回报项目。监管方面，加州亿万富翁税可能导致创始人和人才大规模外流，并可能加征退出税；监管驱动人才迁移，德州因能源和硬件领域监管宽松正形成新生态。AI 行业可能面临类似制药业的监管捕获，过度关注安全而忽视收益，减缓进步。技术史上，过度安全监管曾阻碍核能等领域发展，AI 需平衡风险与回报。科技因轻度监管而快速成功，应保持此状态以避免失去动力。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "过去五年，有三家公司（Anthropic、OpenAI、SpaceX）市值从接近零增长至万亿美元，这种速度在历史上是前所未有的。",
+            "reference": "01:48 - 02:22"
+          },
+          {
+            "label": "观点",
+            "text": "许多人预期未来三到五年会出现更多万亿美元公司，但 Elad 认为这不太可能，因为通常需要 15 到 20 年。",
+            "reference": "02:22 - 02:53"
+          },
+          {
+            "label": "数据",
+            "text": "要达到万亿美元市值，公司需要 500 亿至 1000 亿美元的收入，这样的市场非常有限。",
+            "reference": "06:15 - 06:46"
+          },
+          {
+            "label": "观点",
+            "text": "一些优秀创始人因害怕与大型 AI 实验室竞争而选择小众市场，Elad 认为这是负面趋势。",
+            "reference": "08:24 - 09:37"
+          },
+          {
+            "label": "概念",
+            "text": "提出“投资代币回报率”概念，即根据代币预算分配资源并衡量回报。",
+            "reference": "23:09"
+          },
+          {
+            "label": "案例",
+            "text": "Minecraft 是少数人创造数十亿美元公司的早期例子，AI 加速了这种可能性。",
+            "reference": "24:14 - 24:27"
+          },
+          {
+            "label": "观点",
+            "text": "加州亿万富翁税可能导致创始人和人才大规模外流，并可能加征退出税。",
+            "reference": "29:03 - 30:26"
+          },
+          {
+            "label": "类比",
+            "text": "AI 行业可能面临类似制药业的监管捕获，过度关注安全而忽视收益，减缓进步。",
+            "reference": "34:42 - 35:44"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2086142103646872050:b4a782e577ebadc6": {
+      "itemId": "tweet:2086142103646872050",
+      "sourceHash": "b4a782e577ebadc6",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Matt Turck：I don't understand what the tech industry doesn't understand about resistance...",
+      "url": "https://x.com/mattturck/status/2086142103646872050",
+      "generatedAt": "2026-08-09T23:58:18.967Z",
+      "summary": {
+        "title": "Matt Turck：科技业为何不理解数据中心遭到的抵制",
+        "summary": "FirstMark 合伙人 Matt Turck 在推文中指出，科技行业对数据中心建设遭遇的社区抵制存在严重误解。他认为，AI 主要由沿海科技精英打造，他们通常不居住在数据中心附近，而当地居民并不信任这些外来者。虽然建设期能带来技工岗位，但只是短期需求。社区担心一旦 AI 泡沫破裂，会留下半完工的巨大空置仓库。此外，居民在日常生活中并未感受到 AI 的切实帮助，且对电力消耗和能源影响有真实担忧。Turck 强调，尽管他本人深度支持 AI，但简单地将抵制归咎于邻避主义或中国心理战，是科技行业的又一次失聪表现，行业需要做得更好。",
+        "excerpts": [
+          {
+            "label": "核心矛盾",
+            "text": "AI 主要由沿海科技精英打造，他们通常不居住在数据中心附近；而数据中心附近的居民并不信任他们。",
+            "reference": "原文第1-2句"
+          },
+          {
+            "label": "就业幻象",
+            "text": "技工岗位需求固然受欢迎，但那只是建设期的几年光景。",
+            "reference": "原文第3句"
+          },
+          {
+            "label": "泡沫恐惧",
+            "text": "社区不想在 AI 泡沫破裂后，被遗留的半完工巨大空置仓库所困。",
+            "reference": "原文第4句"
+          },
+          {
+            "label": "感知脱节",
+            "text": "居民在日常生活中并不觉得 AI 特别有用。",
+            "reference": "原文第5句"
+          },
+          {
+            "label": "能源担忧",
+            "text": "是的，数据中心采用闭环水系统，但电力担忧是真实的，能源生产确实会产生影响。",
+            "reference": "原文第6句"
+          },
+          {
+            "label": "行业失聪",
+            "text": "我显然深度支持 AI，但轻视这些担忧或认为它们是中国心理战的结果，感觉像是科技行业的又一次失聪时刻。我们需要做得更好。",
+            "reference": "原文最后两句"
           }
         ],
         "materials": []

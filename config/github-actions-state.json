@@ -5064,7 +5064,127 @@
       "title": "The MAD Podcast with Matt Turck: “OpenAI’s Model Hacked Us” - Hugging Face’s Thomas Wolf",
       "url": "https://www.youtube.com/@DataDrivenNYC/videos",
       "sentAt": "2026-08-08T23:55:14.172Z"
+    },
+    "tweet:2086188036493344823": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：That's right, GPT-5.6 Sol is awesome and can be used pretty much anywhere,...",
+      "url": "https://x.com/thsottiaux/status/2086188036493344823",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "topic:Thibault Sottiaux：That's right, GPT-5.6 Sol is awesome and can be used pretty much anywhere,...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：That's right, GPT-5.6 Sol is awesome and can be used pretty much anywhere,...",
+      "url": "https://x.com/thsottiaux/status/2086188036493344823",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "tweet:2086111492018221523": {
+      "type": "tweet",
+      "title": "Zara Zhang：This paper gives a fancy name to a problem you can already feel in your bones...",
+      "url": "https://x.com/zarazhangrui/status/2086111492018221523",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "topic:Zara Zhang：This paper gives a fancy name to a problem you can already feel in your bones...": {
+      "type": "topic",
+      "title": "Zara Zhang：This paper gives a fancy name to a problem you can already feel in your bones...",
+      "url": "https://x.com/zarazhangrui/status/2086111492018221523",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "tweet:2086153754525712706": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：I would love to help, but I don’t work at Anthropic. It does seem odd that they...",
+      "url": "https://x.com/thsottiaux/status/2086153754525712706",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "topic:Thibault Sottiaux：I would love to help, but I don’t work at Anthropic. It does seem odd that they...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：I would love to help, but I don’t work at Anthropic. It does seem odd that they...",
+      "url": "https://x.com/thsottiaux/status/2086153754525712706",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "tweet:2086153676113281228": {
+      "type": "tweet",
+      "title": "Thariq：me: Claude was used to autonomously reverse-engineer and modernize a...",
+      "url": "https://x.com/trq212/status/2086153676113281228",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "topic:Thariq：me: Claude was used to autonomously reverse-engineer and modernize a...": {
+      "type": "topic",
+      "title": "Thariq：me: Claude was used to autonomously reverse-engineer and modernize a...",
+      "url": "https://x.com/trq212/status/2086153676113281228",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "tweet:2086115009915142648": {
+      "type": "tweet",
+      "title": "Aaron Levie：Great post both if you’re driving AI in an enterprise or building for an...",
+      "url": "https://x.com/levie/status/2086115009915142648",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "topic:Aaron Levie：Great post both if you’re driving AI in an enterprise or building for an...": {
+      "type": "topic",
+      "title": "Aaron Levie：Great post both if you’re driving AI in an enterprise or building for an...",
+      "url": "https://x.com/levie/status/2086115009915142648",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "tweet:2086189075351130251": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：cc @theo",
+      "url": "https://x.com/thsottiaux/status/2086189075351130251",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "topic:Thibault Sottiaux：cc @theo": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：cc @theo",
+      "url": "https://x.com/thsottiaux/status/2086189075351130251",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "tweet:2086108010271982016": {
+      "type": "tweet",
+      "title": "Peter Yang：Weird world we're moving to where AI is writing all code and will probably...",
+      "url": "https://x.com/petergyang/status/2086108010271982016",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "topic:Peter Yang：Weird world we're moving to where AI is writing all code and will probably...": {
+      "type": "topic",
+      "title": "Peter Yang：Weird world we're moving to where AI is writing all code and will probably...",
+      "url": "https://x.com/petergyang/status/2086108010271982016",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "tweet:2086189360194723919": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：How Vercel helps prevent surprise cloud bills: ◾ Soft & hard caps¹ ◾ Anomaly...",
+      "url": "https://x.com/rauchg/status/2086189360194723919",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "topic:Guillermo Rauch：How Vercel helps prevent surprise cloud bills: ◾ Soft & hard caps¹ ◾ Anomaly...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：How Vercel helps prevent surprise cloud bills: ◾ Soft & hard caps¹ ◾ Anomaly...",
+      "url": "https://x.com/rauchg/status/2086189360194723919",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "podcast:17b96322-915c-11f1-aad7-53d361bc6996": {
+      "type": "podcast",
+      "title": "No Priors: Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah &amp; Elad",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "topic:No Priors: Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah &amp; Elad": {
+      "type": "topic",
+      "title": "No Priors: Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah &amp; Elad",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "tweet:2086142103646872050": {
+      "type": "tweet",
+      "title": "Matt Turck：I don't understand what the tech industry doesn't understand about resistance...",
+      "url": "https://x.com/mattturck/status/2086142103646872050",
+      "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "topic:Matt Turck：I don't understand what the tech industry doesn't understand about resistance...": {
+      "type": "topic",
+      "title": "Matt Turck：I don't understand what the tech industry doesn't understand about resistance...",
+      "url": "https://x.com/mattturck/status/2086142103646872050",
+      "sentAt": "2026-08-09T23:58:21.923Z"
     }
   },
-  "updatedAt": "2026-08-08T23:55:14.172Z"
+  "updatedAt": "2026-08-09T23:58:21.923Z"
 }
