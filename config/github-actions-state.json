@@ -5184,7 +5184,127 @@
       "title": "Matt Turck：I don't understand what the tech industry doesn't understand about resistance...",
       "url": "https://x.com/mattturck/status/2086142103646872050",
       "sentAt": "2026-08-09T23:58:21.923Z"
+    },
+    "tweet:2086468661670461671": {
+      "type": "tweet",
+      "title": "Sam Altman：one of the things i like most about the openai team is how focused they are on...",
+      "url": "https://x.com/sama/status/2086468661670461671",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "topic:Sam Altman：one of the things i like most about the openai team is how focused they are on...": {
+      "type": "topic",
+      "title": "Sam Altman：one of the things i like most about the openai team is how focused they are on...",
+      "url": "https://x.com/sama/status/2086468661670461671",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "tweet:2086470022772457950": {
+      "type": "tweet",
+      "title": "Sam Altman：lol another one of the things i like most about openai is tibo...",
+      "url": "https://x.com/sama/status/2086470022772457950",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "topic:Sam Altman：lol another one of the things i like most about openai is tibo...": {
+      "type": "topic",
+      "title": "Sam Altman：lol another one of the things i like most about openai is tibo...",
+      "url": "https://x.com/sama/status/2086470022772457950",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "tweet:2086513316265181213": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：If you’re not reading the code, whether explicitly or through agentic inquiry,...",
+      "url": "https://x.com/rauchg/status/2086513316265181213",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "topic:Guillermo Rauch：If you’re not reading the code, whether explicitly or through agentic inquiry,...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：If you’re not reading the code, whether explicitly or through agentic inquiry,...",
+      "url": "https://x.com/rauchg/status/2086513316265181213",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "tweet:2086353229894529148": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Midnight coding is the best coding. Until you read the code the next day at...",
+      "url": "https://x.com/thsottiaux/status/2086353229894529148",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "topic:Thibault Sottiaux：Midnight coding is the best coding. Until you read the code the next day at...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Midnight coding is the best coding. Until you read the code the next day at...",
+      "url": "https://x.com/thsottiaux/status/2086353229894529148",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "tweet:2086520950259118464": {
+      "type": "tweet",
+      "title": "Boris Cherny：Prompt injection is the most common way that scammers attack people and agents:...",
+      "url": "https://x.com/bcherny/status/2086520950259118464",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "topic:Boris Cherny：Prompt injection is the most common way that scammers attack people and agents:...": {
+      "type": "topic",
+      "title": "Boris Cherny：Prompt injection is the most common way that scammers attack people and agents:...",
+      "url": "https://x.com/bcherny/status/2086520950259118464",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "tweet:2086648656946696641": {
+      "type": "tweet",
+      "title": "Peter Steinberger：Just for the lols, I used ChatGPT Work (Website!) to install OpenClaw and...",
+      "url": "https://x.com/steipete/status/2086648656946696641",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "topic:Peter Steinberger：Just for the lols, I used ChatGPT Work (Website!) to install OpenClaw and...": {
+      "type": "topic",
+      "title": "Peter Steinberger：Just for the lols, I used ChatGPT Work (Website!) to install OpenClaw and...",
+      "url": "https://x.com/steipete/status/2086648656946696641",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "tweet:2086615082163941460": {
+      "type": "tweet",
+      "title": "Garry Tan：My favorite way to work on things: Start from the bug, the gap, the false...",
+      "url": "https://x.com/garrytan/status/2086615082163941460",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "topic:Garry Tan：My favorite way to work on things: Start from the bug, the gap, the false...": {
+      "type": "topic",
+      "title": "Garry Tan：My favorite way to work on things: Start from the bug, the gap, the false...",
+      "url": "https://x.com/garrytan/status/2086615082163941460",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "tweet:2086559201053294909": {
+      "type": "tweet",
+      "title": "Aaron Levie：One reason why we’re going to get uneven diffusion rates of agents is because...",
+      "url": "https://x.com/levie/status/2086559201053294909",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "topic:Aaron Levie：One reason why we’re going to get uneven diffusion rates of agents is because...": {
+      "type": "topic",
+      "title": "Aaron Levie：One reason why we’re going to get uneven diffusion rates of agents is because...",
+      "url": "https://x.com/levie/status/2086559201053294909",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "tweet:2086625684353605941": {
+      "type": "tweet",
+      "title": "Aaron Levie：Researchers: AI agents can now escape out of air gapped sandboxes using zero...",
+      "url": "https://x.com/levie/status/2086625684353605941",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "topic:Aaron Levie：Researchers: AI agents can now escape out of air gapped sandboxes using zero...": {
+      "type": "topic",
+      "title": "Aaron Levie：Researchers: AI agents can now escape out of air gapped sandboxes using zero...",
+      "url": "https://x.com/levie/status/2086625684353605941",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "tweet:2086628413322981747": {
+      "type": "tweet",
+      "title": "Amjad Masad：The spontaneous coordination in the OpenAI-HuggingFace incident is concerning...",
+      "url": "https://x.com/amasad/status/2086628413322981747",
+      "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "topic:Amjad Masad：The spontaneous coordination in the OpenAI-HuggingFace incident is concerning...": {
+      "type": "topic",
+      "title": "Amjad Masad：The spontaneous coordination in the OpenAI-HuggingFace incident is concerning...",
+      "url": "https://x.com/amasad/status/2086628413322981747",
+      "sentAt": "2026-08-11T00:00:15.043Z"
     }
   },
-  "updatedAt": "2026-08-09T23:58:21.923Z"
+  "updatedAt": "2026-08-11T00:00:15.043Z"
 }

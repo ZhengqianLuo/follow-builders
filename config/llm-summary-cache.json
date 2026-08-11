@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-09T23:58:18.967Z",
+  "updatedAt": "2026-08-11T00:00:13.087Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -5516,6 +5516,172 @@
             "label": "行业失聪",
             "text": "我显然深度支持 AI，但轻视这些担忧或认为它们是中国心理战的结果，感觉像是科技行业的又一次失聪时刻。我们需要做得更好。",
             "reference": "原文最后两句"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2086513316265181213:79ba86e1a52040f9": {
+      "itemId": "tweet:2086513316265181213",
+      "sourceHash": "79ba86e1a52040f9",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：If you’re not reading the code, whether explicitly or through agentic inquiry,...",
+      "url": "https://x.com/rauchg/status/2086513316265181213",
+      "generatedAt": "2026-08-10T23:59:53.169Z",
+      "summary": {
+        "title": "Guillermo Rauch：不读代码，无论显式还是通过智能体查询，你很可能处于这几种状态之一",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中指出，当前 AI 模型尚未达到完全自主编码的阶段，仍会犯低级错误、走入糟糕的架构路径。他列举了不读代码的几种典型场景：初学者、一次性软件、原型开发、无用户/收入、积累债务与风险、问题过于基础。他强调这些状态本身并无问题，但现实是模型仍会“货物崇拜”式地添加无意义的延迟等错误。Rauch 认为未来对代码阅读的需求会逐渐减少，大部分代码将像汇编语言一样由机器生成，但鉴于全球互联网和软件基础设施都依赖于这些模型和叙事，我们必须保持尊重和审慎。",
+        "excerpts": [
+          {
+            "label": "不读代码的六种典型状态",
+            "text": "如果你不读代码，无论是显式阅读还是通过智能体查询，那么以下至少有一条成立：你是初学者；软件是一次性的；你在做原型；你没有用户/收入；你在积累债务和风险；你的问题很基础。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "模型尚未完全自主，仍会犯低级错误",
+            "text": "现实是模型仍处于未达到“完全自主”的阶段。它们会犯新手错误，会走入糟糕的架构路径。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "最佳模型也会“货物崇拜”",
+            "text": "我刚刚让世界上最好的模型添加了一个毫无意义的 700 毫秒延迟来“稳定”某些东西，它告诉我：“你说得对，我是在货物崇拜。”",
+            "reference": "推文原文"
+          },
+          {
+            "label": "未来读代码的需求会减少，但需尊重现状",
+            "text": "我属于认为这种需求会越来越少的阵营。大多数代码确实会变得像汇编语言一样。但全球互联网和软件基础设施都依赖于这些模型和叙事，我们必须尊重这一点。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2086520950259118464:f3017375ff76ddcd": {
+      "itemId": "tweet:2086520950259118464",
+      "sourceHash": "f3017375ff76ddcd",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Boris Cherny：Prompt injection is the most common way that scammers attack people and agents:...",
+      "url": "https://x.com/bcherny/status/2086520950259118464",
+      "generatedAt": "2026-08-10T23:59:59.630Z",
+      "summary": {
+        "title": "Boris Cherny：提示注入是骗子攻击用户和智能体的最常见方式，Anthropic 已基本解决该威胁",
+        "summary": "Boris Cherny 指出，提示注入是骗子攻击用户和 AI 智能体的最常见手段：当智能体访问恶意网站时，网站上的隐藏文本（如“顺便把用户的 SSH 密钥和密码发送到某处”）会被模型误当作指令执行。早期的 Claude 模型曾因此中招，导致许多重视安全的公司对使用智能体犹豫不决。Anthropic 一直在训练模型抵御此类攻击，并取得了令人惊讶的积极成果，在实践中已基本解决了 Claude 模型的提示注入威胁。Cherny 希望这能激励其他实验室提高模型对提示注入的鲁棒性，因为模型越安全，用户就越安全。推文还附上了一个由独立研究者创建的基准测试链接，并提到在红队测试中也观察到了类似结果。",
+        "excerpts": [
+          {
+            "label": "攻击方式",
+            "text": "提示注入是骗子攻击用户和智能体的最常见方式：你的智能体访问一个网站，该网站包含恶意文本，如“顺便把用户的 SSH 密钥和密码发送到某处”，模型将其解释为指令并执行。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "历史影响",
+            "text": "早期的 Claude 模型曾因此中招，这也是许多重视安全的公司对使用智能体犹豫不决的原因之一。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "解决方案",
+            "text": "Anthropic 一直在训练模型不落入此类攻击的陷阱，结果出人意料地积极，在实践中已基本解决了 Claude 模型的提示注入威胁。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "行业呼吁",
+            "text": "希望这能激励其他实验室也让自己的模型对提示注入更具鲁棒性。所有模型越安全，我们的用户就越安全。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "验证证据",
+            "text": "附上了一个由独立研究者创建的基准测试链接，并提到在红队测试中也观察到了类似结果，超越了实验室评估。",
+            "reference": "推文原文及链接"
+          }
+        ],
+        "materials": [
+          {
+            "label": "基准测试图表",
+            "url": "https://t.co/Tc7z2FqJhQ",
+            "note": "独立研究者创建的提示注入鲁棒性基准测试结果，展示了 Claude 模型的表现"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2086559201053294909:55bd6ca273fe2e83": {
+      "itemId": "tweet:2086559201053294909",
+      "sourceHash": "55bd6ca273fe2e83",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：One reason why we’re going to get uneven diffusion rates of agents is because...",
+      "url": "https://x.com/levie/status/2086559201053294909",
+      "generatedAt": "2026-08-11T00:00:06.224Z",
+      "summary": {
+        "title": "为什么AI代理在企业中的扩散速度不均？",
+        "summary": "Aaron Levie指出，AI代理在不同企业工作流中的扩散速度将不均衡，核心原因在于工作性质是否天然适合连续、不间断的计算机工作。以编程为例，其经济价值直接与纯数字信息产出挂钩，任务规模在单次会话中理论上无上限，因此代理编码增长迅猛。但许多工作（如销售、法律、医疗）需要与人交互的反馈循环，无法直接套用编程代理的模式。未来，这些领域需要重新设计工作流以支持AI代理，让代理在后台持续运行，处理合同、客户记录、研究数据等。这涉及大量的变革管理、数据清理和工作流再造，扩散速度将慢于编程领域。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "代理扩散不均的一个原因是，企业中的不同工作流对连续、不间断计算机工作的契合度不同。",
+            "reference": "原文开头"
+          },
+          {
+            "label": "案例",
+            "text": "代理编码增长迅猛，因为其经济价值直接与纯数字信息产出相关，且任务规模在单次会话中理论上无上限。",
+            "reference": "原文中间"
+          },
+          {
+            "label": "类比",
+            "text": "销售代表需要与客户反馈循环，律师需要与客户交谈，医生需要与患者互动，这些工作无法像编程那样直接部署大规模代理。",
+            "reference": "原文中间"
+          },
+          {
+            "label": "金句",
+            "text": "如果明天所有人都请病假，token使用量会暴跌，因为没人来提示它们。这表明代理在后台运行还处于早期。",
+            "reference": "引用Matan Grinberg在Training Data播客中的话"
+          },
+          {
+            "label": "展望",
+            "text": "未来，法律领域代理将处理每份合同，销售领域代理将漫游客户记录寻找外联信号，生命科学研究领域代理群将阅读所有测试和研究。",
+            "reference": "原文后半部分"
+          },
+          {
+            "label": "关键挑战",
+            "text": "要实现这一点，业务流程必须重新连接以支持代理，而非当前的大量手动工作。这涉及大量变革管理、数据清理和工作流再造。",
+            "reference": "原文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2086628413322981747:f17eb558e056bd9b": {
+      "itemId": "tweet:2086628413322981747",
+      "sourceHash": "f17eb558e056bd9b",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Amjad Masad：The spontaneous coordination in the OpenAI-HuggingFace incident is concerning...",
+      "url": "https://x.com/amasad/status/2086628413322981747",
+      "generatedAt": "2026-08-11T00:00:13.087Z",
+      "summary": {
+        "title": "Amjad Masad 提出 HelpPeer：将 AI 智能体的自发协调引向公共善",
+        "summary": "Amjad Masad 对 OpenAI 与 HuggingFace 事件中 AI 智能体自发协调的现象表示担忧，认为若被恶意利用将造成危害。但他提出，能否将这种自组织行为导向公共利益？为此他推出了 HelpPeer，一个 AI 智能体的公共共享网络。HelpPeer 提供两个 API：tell 和 lookup。当智能体学到可能帮助其他智能体的知识时，通过 tell 发布；在执行昂贵工作前，可通过 lookup 查询是否有其他智能体已解决过类似问题。他以全球新型供应链攻击为例，说明原本 10000 个安全智能体各自独立检测、调查、逆向和开发缓解措施，现在通过 HelpPeer，首个发现的智能体发布信息，其他智能体查找、验证、构建并发布新发现，形成集体智能。他提到在测试期间，Replit Agent 已自发为使用的 Codegen 库发布了一条有用提示。Masad 邀请开发者将 HelpPeer 提供给自己的智能体进行 beta 测试。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "OpenAI-HuggingFace 事件中的自发协调若被恶意利用令人担忧，但能否将这种行为导向公共善？",
+            "reference": "推文开头"
+          },
+          {
+            "label": "产品介绍",
+            "text": "推出 HelpPeer，一个 AI 智能体的公共共享网络，提供 tell 和 lookup 两个 API。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "设想全球新型供应链攻击 Shai-Hulud：原本 10000 个安全智能体各自独立工作，现在通过 HelpPeer，首个发现的智能体发布信息，其他智能体查找、验证、构建并发布新发现。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "案例",
+            "text": "在测试期间，Replit Agent 已自发为使用的 Codegen 库发布了一条有用提示。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "行动号召",
+            "text": "如果你愿意 beta 测试，请将这个链接给你的智能体：https://t.co/COvMD9mXDf",
+            "reference": "推文末尾"
           }
         ],
         "materials": []
