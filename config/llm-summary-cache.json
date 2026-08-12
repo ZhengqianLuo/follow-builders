@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-11T00:00:13.087Z",
+  "updatedAt": "2026-08-12T00:06:50.363Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -5682,6 +5682,146 @@
             "label": "行动号召",
             "text": "如果你愿意 beta 测试，请将这个链接给你的智能体：https://t.co/COvMD9mXDf",
             "reference": "推文末尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2086874565909815403:e62b7bc88a2aadad": {
+      "itemId": "tweet:2086874565909815403",
+      "sourceHash": "e62b7bc88a2aadad",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Cybersecurity is changing rapidly. To help accelerate defense, we are...",
+      "url": "https://x.com/thsottiaux/status/2086874565909815403",
+      "generatedAt": "2026-08-12T00:06:31.079Z",
+      "summary": {
+        "title": "Thibault Sottiaux 宣布推出 Daybreak Blue & Red 访问层级与 GPT-5.6-Cyber 模型，加速网络防御",
+        "summary": "网络安全领域正快速演变，为加速防御，Thibault Sottiaux 宣布通过新的 Daybreak Blue & Red 访问层级，扩大前沿网络能力的获取范围，并推出新模型 GPT-5.6-Cyber。此举旨在让更多用户能够利用先进的 AI 模型进行漏洞发现、快速修补和渗透测试等安全任务。对于不知如何入门的用户，建议联系合作伙伴，借助这些最新模型提升安全防护水平。该动态反映了 AI 在网络安全实战中的深化应用，以及通过分层访问和专用模型降低使用门槛的趋势。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "网络安全正在快速变化，为加速防御，我们正通过新的 Daybreak Blue & Red 访问层级扩大前沿网络能力的获取范围。",
+            "reference": "原文开头"
+          },
+          {
+            "label": "新产品发布",
+            "text": "推出新模型 GPT-5.6-Cyber，专门用于网络安全领域。",
+            "reference": "原文中段"
+          },
+          {
+            "label": "行动建议",
+            "text": "如果你不知道从何开始，一个好的步骤是联系我们的合作伙伴，他们可以使用我们最新的网络模型帮助你发现问题、快速修补、进行渗透测试等。",
+            "reference": "原文结尾"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 2564 个赞、106 次转发和 549 条回复，显示社区对 AI 网络安全工具的高度关注。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2086758509979316423:bb1511e184bc0083": {
+      "itemId": "tweet:2086758509979316423",
+      "sourceHash": "bb1511e184bc0083",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Zara Zhang：A great way to learn design: Give Codex a well-designed website, ask it to...",
+      "url": "https://x.com/zarazhangrui/status/2086758509979316423",
+      "generatedAt": "2026-08-12T00:06:37.548Z",
+      "summary": {
+        "title": "Zara Zhang：用 Codex 学设计——截图标注法让优秀设计一目了然",
+        "summary": "Zara Zhang 分享了一种利用 Codex 学习设计的方法：将设计优秀的网站交给 Codex，让它分析设计亮点，然后对网站完整截图进行标注，解释设计为何有效。这种方法基于实例学习，比纯理论更直观；标注直接呈现在截图上，避免了在分析文字和设计图之间来回切换的麻烦。该推文获得大量点赞和转发，反映出设计师和学习者对高效设计分析工具的强烈需求。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "学习设计的好方法：给 Codex 一个设计优秀的网站，让它分析设计为何出色，然后对网站完整截图进行标注，分解设计有效的原因。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "从实例中学习总是比从理论中学习更好！",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "使用标注方法意味着你不必在阅读分析和查看设计图之间不断切换。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 1087 次喜欢、87 次转发和 50 条回复，显示该方法引起广泛共鸣。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2086802472950239618:88994b89dabf7101": {
+      "itemId": "tweet:2086802472950239618",
+      "sourceHash": "88994b89dabf7101",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Meta releasing Muse Spark 1.2 as open weights is a *very* big deal. America now...",
+      "url": "https://x.com/levie/status/2086802472950239618",
+      "generatedAt": "2026-08-12T00:06:43.898Z",
+      "summary": {
+        "title": "Aaron Levie：Meta 开源 Muse Spark 1.2 是 AI 竞赛的重大时刻",
+        "summary": "Aaron Levie 认为 Meta 以开放权重形式发布 Muse Spark 1.2 意义重大，这标志着美国在开放权重 AI 竞赛中终于有了自己的回应。此举将持续降低智能成本，让企业能按需运行模型，并针对特定领域进行后训练以提升性能，也为之前无法使用开源模型的公司提供了现实选择。Levie 强调这对整个 AI 领域（包括前沿闭源模型）都是净正面影响，因为它推动了 AI 的进一步扩散，是 AI 竞赛中的关键时刻。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "Meta 以开放权重形式发布 Muse Spark 1.2 是一件非常重大的事情。美国现在终于在开放权重 AI 竞赛中有了自己的回应。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "影响分析",
+            "text": "这将持续帮助降低智能成本，让公司能够按自己认为合适的方式运行模型，并允许它们针对特定用例后训练自己的模型，从而在自身领域获得更好的性能提升。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "市场影响",
+            "text": "为那些之前被闭源模型拒之门外的公司提供了一个现实的选择。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "行业意义",
+            "text": "这对 AI 整体而言是广泛的净正面影响——甚至对前沿闭源模型也是如此——因为它有助于推动 AI 的进一步扩散。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "总结定性",
+            "text": "这是 AI 竞赛中的重大时刻。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2086931647468097932:858a414ff3510140": {
+      "itemId": "tweet:2086931647468097932",
+      "sourceHash": "858a414ff3510140",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thariq：I think this shows 2 key skills w/ AI 1) compute allocation - for most jobs...",
+      "url": "https://x.com/trq212/status/2086931647468097932",
+      "generatedAt": "2026-08-12T00:06:50.363Z",
+      "summary": {
+        "title": "Thariq：AI 时代的两项关键技能——算力分配与思维协作",
+        "summary": "Thariq 在推文中指出，从 @__alpoge__ 验证数学证明的案例中，可以提炼出 AI 时代的两项核心技能。第一是算力分配（compute allocation）：在大多数工作中，并没有一份“最重要的 X 个问题”清单，你必须自己判断哪些问题值得投入算力去解决。第二是思维协作（thought partnership）：@__alpoge__ 必须深入钻研并理解证明过程，才能确认其真实性，这体现了人类与 AI 之间需要深度的思维互动，而非简单接受 AI 的输出。这条推文强调了在 AI 辅助下，人类决策和深度理解的重要性。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "AI 时代的两项关键技能：1) 算力分配——对于大多数工作，没有现成的‘最重要问题’列表，你必须自己决定哪些问题值得投入资源。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "2) 思维协作——@__alpoge__ 必须深入钻研并理解证明，才能知道它是真实的，这体现了人类与 AI 深度合作的重要性。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "以 @__alpoge__ 验证数学证明为例，说明人类需要主动理解 AI 的输出，而非被动接受。",
+            "reference": "推文原文及引用链接"
           }
         ],
         "materials": []

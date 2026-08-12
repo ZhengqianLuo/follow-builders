@@ -5304,7 +5304,127 @@
       "title": "Amjad Masad：The spontaneous coordination in the OpenAI-HuggingFace incident is concerning...",
       "url": "https://x.com/amasad/status/2086628413322981747",
       "sentAt": "2026-08-11T00:00:15.043Z"
+    },
+    "tweet:2086972802457063486": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Hi. It is done. https://t.co/JRYltKvT0v",
+      "url": "https://x.com/thsottiaux/status/2086972802457063486",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "topic:Thibault Sottiaux：Hi. It is done. https://t.co/JRYltKvT0v": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Hi. It is done. https://t.co/JRYltKvT0v",
+      "url": "https://x.com/thsottiaux/status/2086972802457063486",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "tweet:2086891169217122586": {
+      "type": "tweet",
+      "title": "Claude：We're making Claude Sonnet 5's introductory pricing permanent. We launched...",
+      "url": "https://x.com/claudeai/status/2086891169217122586",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "topic:Claude：We're making Claude Sonnet 5's introductory pricing permanent. We launched...": {
+      "type": "topic",
+      "title": "Claude：We're making Claude Sonnet 5's introductory pricing permanent. We launched...",
+      "url": "https://x.com/claudeai/status/2086891169217122586",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "tweet:2086972933566857393": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Usage limits have been reset for all paid ChatGPT Work and Codex users. Happy...",
+      "url": "https://x.com/thsottiaux/status/2086972933566857393",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "topic:Thibault Sottiaux：Usage limits have been reset for all paid ChatGPT Work and Codex users. Happy...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Usage limits have been reset for all paid ChatGPT Work and Codex users. Happy...",
+      "url": "https://x.com/thsottiaux/status/2086972933566857393",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "tweet:2086881528282587524": {
+      "type": "tweet",
+      "title": "Sam Altman：please consider using our models to help defend your systems...",
+      "url": "https://x.com/sama/status/2086881528282587524",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "topic:Sam Altman：please consider using our models to help defend your systems...": {
+      "type": "topic",
+      "title": "Sam Altman：please consider using our models to help defend your systems...",
+      "url": "https://x.com/sama/status/2086881528282587524",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "tweet:2086874565909815403": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Cybersecurity is changing rapidly. To help accelerate defense, we are...",
+      "url": "https://x.com/thsottiaux/status/2086874565909815403",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "topic:Thibault Sottiaux：Cybersecurity is changing rapidly. To help accelerate defense, we are...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Cybersecurity is changing rapidly. To help accelerate defense, we are...",
+      "url": "https://x.com/thsottiaux/status/2086874565909815403",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "tweet:2086758509979316423": {
+      "type": "tweet",
+      "title": "Zara Zhang：A great way to learn design: Give Codex a well-designed website, ask it to...",
+      "url": "https://x.com/zarazhangrui/status/2086758509979316423",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "topic:Zara Zhang：A great way to learn design: Give Codex a well-designed website, ask it to...": {
+      "type": "topic",
+      "title": "Zara Zhang：A great way to learn design: Give Codex a well-designed website, ask it to...",
+      "url": "https://x.com/zarazhangrui/status/2086758509979316423",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "tweet:2086802472950239618": {
+      "type": "tweet",
+      "title": "Aaron Levie：Meta releasing Muse Spark 1.2 as open weights is a *very* big deal. America now...",
+      "url": "https://x.com/levie/status/2086802472950239618",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "topic:Aaron Levie：Meta releasing Muse Spark 1.2 as open weights is a *very* big deal. America now...": {
+      "type": "topic",
+      "title": "Aaron Levie：Meta releasing Muse Spark 1.2 as open weights is a *very* big deal. America now...",
+      "url": "https://x.com/levie/status/2086802472950239618",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "tweet:2086962980235939920": {
+      "type": "tweet",
+      "title": "Swyx：worktrees must die this is 20GB of repeated node_modules lol...",
+      "url": "https://x.com/swyx/status/2086962980235939920",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "topic:Swyx：worktrees must die this is 20GB of repeated node_modules lol...": {
+      "type": "topic",
+      "title": "Swyx：worktrees must die this is 20GB of repeated node_modules lol...",
+      "url": "https://x.com/swyx/status/2086962980235939920",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "tweet:2086938582825173277": {
+      "type": "tweet",
+      "title": "Peter Steinberger：Must be load-bearing. https://t.co/9Jq3gslbx7",
+      "url": "https://x.com/steipete/status/2086938582825173277",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "topic:Peter Steinberger：Must be load-bearing. https://t.co/9Jq3gslbx7": {
+      "type": "topic",
+      "title": "Peter Steinberger：Must be load-bearing. https://t.co/9Jq3gslbx7",
+      "url": "https://x.com/steipete/status/2086938582825173277",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "tweet:2086931647468097932": {
+      "type": "tweet",
+      "title": "Thariq：I think this shows 2 key skills w/ AI 1) compute allocation - for most jobs...",
+      "url": "https://x.com/trq212/status/2086931647468097932",
+      "sentAt": "2026-08-12T00:06:52.222Z"
+    },
+    "topic:Thariq：I think this shows 2 key skills w/ AI 1) compute allocation - for most jobs...": {
+      "type": "topic",
+      "title": "Thariq：I think this shows 2 key skills w/ AI 1) compute allocation - for most jobs...",
+      "url": "https://x.com/trq212/status/2086931647468097932",
+      "sentAt": "2026-08-12T00:06:52.222Z"
     }
   },
-  "updatedAt": "2026-08-11T00:00:15.043Z"
+  "updatedAt": "2026-08-12T00:06:52.222Z"
 }
