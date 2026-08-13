@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-12T00:06:50.363Z",
+  "updatedAt": "2026-08-13T00:06:49.190Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -5822,6 +5822,166 @@
             "label": "案例",
             "text": "以 @__alpoge__ 验证数学证明为例，说明人类需要主动理解 AI 的输出，而非被动接受。",
             "reference": "推文原文及引用链接"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2087284684103537011:7149bf2c7f207cde": {
+      "itemId": "tweet:2087284684103537011",
+      "sourceHash": "7149bf2c7f207cde",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Boris Cherny：LLMs still produce bugs, but those bugs are different than what they used to...",
+      "url": "https://x.com/bcherny/status/2087284684103537011",
+      "generatedAt": "2026-08-13T00:06:28.002Z",
+      "summary": {
+        "title": "LLM 代码缺陷性质转变：从低级错误到系统设计问题",
+        "summary": "Boris Cherny 指出，LLM 生成的代码仍然存在缺陷，但缺陷类型已从过去的 off-by-one 等低级错误，转变为系统设计、UI 可用性和缺失更广泛上下文等更高层次的问题。他认为某些编码任务已被解决，但并非全部。在模型持续改进的同时，对抗性代码审查成为捕获此类缺陷的强大工具，可以简单到一行提示，例如“使用动态工作流在 iOS 模拟器中对抗性测试每个边缘情况”，或使用 Claude 内置的 /code-review 命令（如 /code-review low、/code-review medium 等）。该推文获得 2447 次点赞、127 次转发和 161 条回复，反映了开发者社区对 LLM 代码质量演变的关注。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "LLM 仍然产生缺陷，但这些缺陷与过去不同：不再是 off-by-one 之类的低级错误，而更多是系统设计、UI 可用性和缺失更广泛上下文的问题。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "某些类型的编码已经被解决，但并非全部。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "对抗性代码审查是捕获这类缺陷的极其强大的工具，可以简单到一行提示：“使用动态工作流在 iOS 模拟器中对抗性测试每个边缘情况”。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "案例",
+            "text": "也可以使用 Claude 内置的 /code-review 命令，例如 /code-review low、/code-review medium 等。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 2447 次点赞、127 次转发和 161 条回复，显示较高的社区关注度。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2087340277874995223:f5a93995022c5832": {
+      "itemId": "tweet:2087340277874995223",
+      "sourceHash": "f5a93995022c5832",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：Trying to onboard my parents to ChatGPT desktop app and the separation between...",
+      "url": "https://x.com/petergyang/status/2087340277874995223",
+      "generatedAt": "2026-08-13T00:06:33.518Z",
+      "summary": {
+        "title": "Peter Yang：ChatGPT 多端体验混乱，建议团队做质量清理",
+        "summary": "Peter Yang 在 X 上分享了他试图让父母上手 ChatGPT 桌面应用时的观察。他指出，Chat、Work 和 Codex 之间的分离，以及 ChatGPT 网页版、桌面版和移动版之间缺乏一致性，整体体验非常混乱。作为 Codex 的粉丝，他建议团队进行一次清理或质量提升，甚至可以让 Codex 自己来完成这项工作。这条推文获得了 269 个赞、5 次转发和 47 条回复，反映出不少用户对 ChatGPT 产品体验割裂的共鸣。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "试图让父母上手 ChatGPT 桌面应用时，Chat、Work 和 Codex 之间的分离，以及网页、桌面和移动应用之间缺乏一致性，整体体验非常混乱。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "建议",
+            "text": "我认为团队应该做一次清理或质量提升，或者也许可以让 Codex 自己来做这件事。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "立场",
+            "text": "我这么说，是作为一个 Codex 的粉丝。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 269 个赞、5 次转发和 47 条回复，显示用户对产品体验问题有共鸣。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2087198985685750013:22648dd20aacf920": {
+      "itemId": "tweet:2087198985685750013",
+      "sourceHash": "22648dd20aacf920",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Madhu Guru：There’s going to be a ton of money in making open-weight models exceptional at...",
+      "url": "https://x.com/realmadhuguru/status/2087198985685750013",
+      "generatedAt": "2026-08-13T00:06:39.204Z",
+      "summary": {
+        "title": "Madhu Guru：开源权重模型在垂直商业领域的巨大机会",
+        "summary": "Madhu Guru 在推文中指出，让开源权重模型在无聊但具体的商业领域做到极致，将蕴含巨大商机。他建议创业者选择一个模型规模与业务领域的组合，深入耕耘，例如中端法律、中小零售、企业物流等。他认为，超大规模云厂商虽然拥有基础模型能力，但缺乏领域深度、灵活性和将模型打磨到极致适配某一类业务的意愿，而这正是创业者的机会所在。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "让开源权重模型在无聊、具体的商业领域做到极致，将会有大量金钱涌入。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "行动建议",
+            "text": "选择一个模型规模与业务领域的组合，然后深入下去。例如中端法律、中小零售、企业物流。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "竞争分析",
+            "text": "超大规模云厂商拥有基础模型能力，但会在领域深度、灵活性和将模型打磨到极致适配某一类业务的意愿上挣扎。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "机会判断",
+            "text": "而这正是你的机会。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2087385493684335064:60dc65e2b50a5102": {
+      "itemId": "tweet:2087385493684335064",
+      "sourceHash": "60dc65e2b50a5102",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Good post on how to think about FDEs. The key is that FDEs are real and not...",
+      "url": "https://x.com/levie/status/2087385493684335064",
+      "generatedAt": "2026-08-13T00:06:49.189Z",
+      "summary": {
+        "title": "Aaron Levie：AI 代理的 FDE 为何真实存在且不会消失",
+        "summary": "Aaron Levie 在推文中评论了一篇关于 FDE（Forward Deployed Engineer，前端部署工程师）的文章，强调 FDE 是真实存在的，并且在 AI 领域短期内不会消失。他指出，AI 正在将非确定性、快速变化的系统引入以前从未自动化过的工作流程中，这与传统软件的实施方式截然不同。传统软件是确定性的，一旦实施就能稳定运行，而 AI 代理在几乎每个维度上都不同：客户的业务流程必须改变以适应代理，需要大量定制化，评估需要持续进行，AI 模型不断变化，底层框架和系统也因客户反馈而频繁调整。这意味着客户、系统集成商和应用 AI 供应商都需要投入大量实际工作。即使 AI 能力大幅提升，企业只会将更复杂的流程交给代理，因此 FDE 的工作依然重要，甚至更加复杂。Levie 认为现在是成为 FDE 的好时机。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "FDE 是真实存在的，并且在 AI 领域短期内不会消失。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "原因分析",
+            "text": "AI 从根本上讲是将非确定性、快速变化的系统添加到以前从未自动化过的工作流程中，这与实施传统软件看起来非常不同。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "引用原文",
+            "text": "如果你在 2026 年为会计构建 AI 代理，没有既定的工作流程，因为实际上没有人使用过这样的东西。没有人知道用户旅程是什么样的——包括你，更重要的是，你的客户也不知道。他们无法告诉你他们想要什么，因为他们想要的东西还没有形状。",
+            "reference": "推文中引用"
+          },
+          {
+            "label": "对比传统软件",
+            "text": "软件在很大程度上一直是确定性的，一旦有效实施，对客户来说工作方式相同。这意味着前期实施工作在相似客户之间相对统一，而且系统不会经常进行根本性升级。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "AI 代理的差异",
+            "text": "AI 代理几乎在每个维度上都不同：客户的业务流程必须改变以与代理合作，需要大量必要的定制化，评估需要持续运行，AI 模型不断变化，更新需要不断整合，底层框架和更广泛的系统经常因客户反馈而改变。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "工作性质",
+            "text": "这对客户、系统集成商和应用 AI 供应商来说都是实实在在的工作。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "未来展望",
+            "text": "即使 AI 能力大幅提升，这项工作仍然存在（甚至变得更加复杂），因为企业只会将越来越复杂的流程交给代理。现在是成为 FDE 的好时机。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
