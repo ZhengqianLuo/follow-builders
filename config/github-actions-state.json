@@ -5544,7 +5544,127 @@
       "title": "Aaron Levie：Good post on how to think about FDEs. The key is that FDEs are real and not...",
       "url": "https://x.com/levie/status/2087385493684335064",
       "sentAt": "2026-08-13T00:06:50.967Z"
+    },
+    "tweet:2087706104814023111": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Old news actually from a bunch of days ago, but crossed that 15M. Enjoy a nice...",
+      "url": "https://x.com/thsottiaux/status/2087706104814023111",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "topic:Thibault Sottiaux：Old news actually from a bunch of days ago, but crossed that 15M. Enjoy a nice...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Old news actually from a bunch of days ago, but crossed that 15M. Enjoy a nice...",
+      "url": "https://x.com/thsottiaux/status/2087706104814023111",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "tweet:2087635262390026525": {
+      "type": "tweet",
+      "title": "Claude：Your Claude in Chrome sessions now carry over to desktop, web, and mobile....",
+      "url": "https://x.com/claudeai/status/2087635262390026525",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "topic:Claude：Your Claude in Chrome sessions now carry over to desktop, web, and mobile....": {
+      "type": "topic",
+      "title": "Claude：Your Claude in Chrome sessions now carry over to desktop, web, and mobile....",
+      "url": "https://x.com/claudeai/status/2087635262390026525",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "tweet:2087614555203809395": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Typical conversation with @ajambrosino A: core alignment has been reached T:...",
+      "url": "https://x.com/thsottiaux/status/2087614555203809395",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "topic:Thibault Sottiaux：Typical conversation with @ajambrosino A: core alignment has been reached T:...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Typical conversation with @ajambrosino A: core alignment has been reached T:...",
+      "url": "https://x.com/thsottiaux/status/2087614555203809395",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "tweet:2087439859493617908": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Also don’t say Linux, we just shipped that.",
+      "url": "https://x.com/thsottiaux/status/2087439859493617908",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "topic:Thibault Sottiaux：Also don’t say Linux, we just shipped that.": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Also don’t say Linux, we just shipped that.",
+      "url": "https://x.com/thsottiaux/status/2087439859493617908",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "tweet:2087594114372259890": {
+      "type": "tweet",
+      "title": "Garry Tan：GBrain just dropped v0.45.6.0 which added 17 new brain skills hardened through...",
+      "url": "https://x.com/garrytan/status/2087594114372259890",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "topic:Garry Tan：GBrain just dropped v0.45.6.0 which added 17 new brain skills hardened through...": {
+      "type": "topic",
+      "title": "Garry Tan：GBrain just dropped v0.45.6.0 which added 17 new brain skills hardened through...",
+      "url": "https://x.com/garrytan/status/2087594114372259890",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "tweet:2087736311885218160": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Endless opportunity everywhere you look",
+      "url": "https://x.com/rauchg/status/2087736311885218160",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "topic:Guillermo Rauch：Endless opportunity everywhere you look": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Endless opportunity everywhere you look",
+      "url": "https://x.com/rauchg/status/2087736311885218160",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "tweet:2087568620465607078": {
+      "type": "tweet",
+      "title": "Peter Steinberger：cli was a year ago. apps maybe 6 months. now it’s services, web, cloud...",
+      "url": "https://x.com/steipete/status/2087568620465607078",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "topic:Peter Steinberger：cli was a year ago. apps maybe 6 months. now it’s services, web, cloud...": {
+      "type": "topic",
+      "title": "Peter Steinberger：cli was a year ago. apps maybe 6 months. now it’s services, web, cloud...",
+      "url": "https://x.com/steipete/status/2087568620465607078",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "tweet:2087437017840046156": {
+      "type": "tweet",
+      "title": "Swyx：this is already one of the most important papers of this year....",
+      "url": "https://x.com/swyx/status/2087437017840046156",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "topic:Swyx：this is already one of the most important papers of this year....": {
+      "type": "topic",
+      "title": "Swyx：this is already one of the most important papers of this year....",
+      "url": "https://x.com/swyx/status/2087437017840046156",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "tweet:2087691099691475285": {
+      "type": "tweet",
+      "title": "Swyx：Perplexity offered to buy @googlechrome one year ago today (this is a scheduled...",
+      "url": "https://x.com/swyx/status/2087691099691475285",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "topic:Swyx：Perplexity offered to buy @googlechrome one year ago today (this is a scheduled...": {
+      "type": "topic",
+      "title": "Swyx：Perplexity offered to buy @googlechrome one year ago today (this is a scheduled...",
+      "url": "https://x.com/swyx/status/2087691099691475285",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "tweet:2087631388359242050": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Seedance 2.5 on @vercel AI Gateway 🐇 https://t.co/Ql9zpuJpBD",
+      "url": "https://x.com/rauchg/status/2087631388359242050",
+      "sentAt": "2026-08-14T00:06:49.149Z"
+    },
+    "topic:Guillermo Rauch：Seedance 2.5 on @vercel AI Gateway 🐇 https://t.co/Ql9zpuJpBD": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Seedance 2.5 on @vercel AI Gateway 🐇 https://t.co/Ql9zpuJpBD",
+      "url": "https://x.com/rauchg/status/2087631388359242050",
+      "sentAt": "2026-08-14T00:06:49.149Z"
     }
   },
-  "updatedAt": "2026-08-13T00:06:50.967Z"
+  "updatedAt": "2026-08-14T00:06:49.149Z"
 }

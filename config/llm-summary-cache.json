@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-13T00:06:49.190Z",
+  "updatedAt": "2026-08-14T00:06:47.349Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -5981,6 +5981,41 @@
           {
             "label": "未来展望",
             "text": "即使 AI 能力大幅提升，这项工作仍然存在（甚至变得更加复杂），因为企业只会将越来越复杂的流程交给代理。现在是成为 FDE 的好时机。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2087594114372259890:9ce58281f22913e4": {
+      "itemId": "tweet:2087594114372259890",
+      "sourceHash": "9ce58281f22913e4",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Garry Tan：GBrain just dropped v0.45.6.0 which added 17 new brain skills hardened through...",
+      "url": "https://x.com/garrytan/status/2087594114372259890",
+      "generatedAt": "2026-08-14T00:06:47.349Z",
+      "summary": {
+        "title": "Garry Tan 发布 GBrain v0.45.6.0：新增 17 项个人 AGI 技能",
+        "summary": "Garry Tan 在 X 上宣布 GBrain 发布 v0.45.6.0 版本，新增 17 项经过强化的“大脑技能”。这些技能是通过他个人的 OpenClaw 智能体，在数十万个 Markdown 文件上训练和验证得到的。他强调“个人 AGI”是为你工作的智能体，GBrain 现在可以与 Codex 和 Claude Code 协同工作。这条推文展示了个人 AI 助手在知识管理和自动化方面的最新进展，以及 Tan 对个人 AGI 的实践和愿景。",
+        "excerpts": [
+          {
+            "label": "版本更新",
+            "text": "GBrain 刚刚发布了 v0.45.6.0，新增了 17 项经过强化的“大脑技能”。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "训练数据",
+            "text": "这些技能是通过我个人的 OpenClaw 智能体，在数十万个 Markdown 文件上训练和验证得到的。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "个人 AGI 定义",
+            "text": "个人 AGI 是为你工作的智能体。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "工具集成",
+            "text": "GBrain 现在可以与 Codex 和 Claude Code 协同工作。",
             "reference": "推文结尾"
           }
         ],
