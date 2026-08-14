@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-14T00:06:47.349Z",
+  "updatedAt": "2026-08-14T23:47:26.883Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -6017,6 +6017,231 @@
             "label": "工具集成",
             "text": "GBrain 现在可以与 Codex 和 Claude Code 协同工作。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2088014489438621990:4df19319f424df45": {
+      "itemId": "tweet:2088014489438621990",
+      "sourceHash": "4df19319f424df45",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Boris Cherny：A weird experiment I've been trying the last few weeks is having Claude take...",
+      "url": "https://x.com/bcherny/status/2088014489438621990",
+      "generatedAt": "2026-08-14T23:46:43.816Z",
+      "summary": {
+        "title": "Boris Cherny 实验：让 Claude 接管应用日常维护，数周内开出 388 个 PR",
+        "summary": "Boris Cherny 分享了一个持续数周的实验：让 Claude 接管其公司应用的日常维护工作。他们建立了一个名为 proj-claude-maintains-apps 的 Slack 频道，Claude Tag 在其中运行一系列日常例程，覆盖 iOS、Android、Desktop、Web、CLI 和 Agent SDK。这些例程包括：崩溃模糊测试（在模拟器中打开应用并随机点击以发现崩溃，然后定位并修复）、重复代码统一器（扫描代码库中相似但略有差异的抽象，并提交 PR 进行统一）、死代码移除器（移除静态不可达代码，并为疑似死代码添加日志以确认后次日移除）、抽象警察（修复泄漏的抽象）等。实验结果是积极的：数周内这些例程在多个仓库中打开了 388 个 PR，其中 180 个在 Claude Code Review 和人工审查后被合并。Claude 通常一次就能正确完成这些 PR，如果出错，团队会要求 Claude 调整其例程以便次日改进，有时需要几天的调整。Boris 还提供了几个实际使用的提示词，并询问是否有人尝试过类似工作流。",
+        "excerpts": [
+          {
+            "label": "实验设置",
+            "text": "我们有一个 Slack 频道叫 proj-claude-maintains-apps，Claude Tag 在其中运行一系列日常例程，覆盖 iOS、Android、Desktop、Web、CLI 和 Agent SDK。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "例程列表",
+            "text": "崩溃模糊测试：在模拟器中打开应用并随机点击以发现崩溃，然后定位并修复；重复代码统一器：扫描代码库中相似但略有差异的抽象，并提交 PR 进行统一；死代码移除器：移除静态不可达代码，并为疑似死代码添加日志以确认后次日移除；抽象警察：修复泄漏的抽象。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "量化结果",
+            "text": "过去几周，这些例程在我们的仓库中打开了 388 个 PR，其中 180 个在 Claude Code Review 和人工审查后被合并。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "质量与迭代",
+            "text": "Claude 通常一次就能正确完成这些 PR，如果出错，我们会要求 Claude 调整其例程以便次日改进，有时需要几天的调整。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "行动号召",
+            "text": "要尝试类似工作流，可以询问 Claude Code 或 Tag，或直接在 https://t.co/Z70hStEBH6 创建例程。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2088133823619895712:73922768fb4d3968": {
+      "itemId": "tweet:2088133823619895712",
+      "sourceHash": "73922768fb4d3968",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Ask ChatGPT to roast your computer usage after a day. Install the Computer...",
+      "url": "https://x.com/thsottiaux/status/2088133823619895712",
+      "generatedAt": "2026-08-14T23:46:51.699Z",
+      "summary": {
+        "title": "让 ChatGPT 毒舌点评你一天的电脑使用习惯",
+        "summary": "Thibault Sottiaux 分享了一个有趣的实验：安装 Computer History 插件，让 ChatGPT 根据一天的使用记录来毒舌点评自己的电脑行为。结果非常犀利且洞察力十足。点评指出：Slack 占据了 48% 的记录活动，Mac 几乎沦为 3000 美元的 Slack 通知设备；用户点击“清除”339 次，发送 253 条 Slack 消息，像是在和组织架构图打地鼠；最常用的快捷键是 Delete，共 1191 次，其中 1065 次在 Slack 中，说明用户不是在起草消息，而是在第一想法和执行功能之间进行和平谈判；复制 133 次，粘贴仅 26 次，信息获取像维多利亚时代绅士收集珍禽，然后大部分放归剪贴板荒野；打开 42 个标签页，关闭 53 个，标签管理成为当天最成功的项目；切换应用超过 200 次，同时读到一篇说“你可能讨厌切换标签”的帖子，讽刺的是这正发生在 Chrome 窗口内；最忙时段是晚上 9 点，超过 1500 条 Slack 事件，“一天结束”更像一个理论概念；核心工作文档名为“Hello”，组织清晰度堪忧。这条推文展示了 AI 行为分析在自我反思和幽默方面的潜力，引发大量共鸣和讨论。",
+        "excerpts": [
+          {
+            "label": "金句",
+            "text": "你不是在用 Slack，是 Slack 在用你。它占据了你记录活动的 48%。你的 Mac 本质上是一个带键盘的 3000 美元 Slack 通知器。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "你点击“清除”339 次，同时发送了 253 条 Slack 消息。你是在和组织架构图打地鼠。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "你最常用的快捷键是 Delete，共 1191 次，其中 1065 次在 Slack 里。你不是在起草消息，你是在你的第一想法和执行功能之间进行和平谈判。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "类比",
+            "text": "你按了 ⌘C 133 次，⌘V 只有 26 次。你获取信息的方式就像维多利亚时代的绅士收集珍禽异鸟，然后显然把大部分放归到了剪贴板的荒野中。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "你打开了 42 个标签页，关闭了 53 个。从技术上讲，这让浏览器标签管理成为你当天最成功的项目。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "讽刺",
+            "text": "你在实际应用之间切换了 200 多次，同时读了一篇 X 上的帖子，上面写着“你可能讨厌切换标签”。电话是从 Chrome 窗口内部打来的。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "你最忙的时间是晚上 9 点，有超过 1500 条 Slack 事件。显然，“一天结束”与其说是一个时间，不如说是一个你喜欢在会议中讨论的理论概念。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "你那份处于几个重要工作流核心的文档名叫“Hello”。没有什么比用一个软件打印的第一句话来命名一个承载半个公司运转的 Google Doc 更能体现组织清晰度了。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2087978386195103916:5b3eea9ef50218b0": {
+      "itemId": "tweet:2087978386195103916",
+      "sourceHash": "5b3eea9ef50218b0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Matt Turck：Right now, you're either: * an AI-native rocketship, which sounds fun until you...",
+      "url": "https://x.com/mattturck/status/2087978386195103916",
+      "generatedAt": "2026-08-14T23:46:57.571Z",
+      "summary": {
+        "title": "AI 行业两极分化加剧：要么是烧钱抢市场的火箭船，要么被市场抛弃",
+        "summary": "Matt Turck 在推文中指出，当前 AI 创业公司正面临极端的两极分化：一类是“AI 原生火箭船”，它们看似风光，实则陷入永久融资的困境，估值越来越高，需要不断吸走资本和人才，同时还要与其他火箭船进行残酷的客户争夺战，牺牲毛利率；另一类则无论公司实际经营多好，都被市场视为“已经死了”。这种状态已经持续一段时间，但最近感觉又升级了。Turck 的观察揭示了 AI 行业资本密集、竞争激烈、赢家通吃的现状，对创业者和投资者都有警示意义。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "现在你要么是 AI 原生火箭船，听起来很有趣，直到你意识到这意味着永远处于融资状态，估值越来越吓人，以吸走资本和人才，并与其他火箭船进行持续的死亡竞赛来争夺客户，牺牲毛利率。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "要么基本上被市场抛弃，无论你的公司实际上有多好。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "这种情况已经持续了一段时间，但感觉刚刚又升级了一个档次。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2088105350201270529:f9cf2d14f16d3085": {
+      "itemId": "tweet:2088105350201270529",
+      "sourceHash": "f9cf2d14f16d3085",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：The elimination of engineers was one of the wilder hypotheses out there. Just...",
+      "url": "https://x.com/levie/status/2088105350201270529",
+      "generatedAt": "2026-08-14T23:47:03.386Z",
+      "summary": {
+        "title": "Aaron Levie：AI 不会消灭工程师，反而让专家更值钱",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中反驳了“AI 将淘汰工程师”的流行观点，认为这种假设极其荒谬。他指出，AI 更像是给工程师配备的强大工具，能够加速各类开发工作，因此工程师的价值不仅不会下降，反而在许多领域会上升，因为工程能力可以被应用到比以往更多的工作中。他举例说明，无论是自动化药物发现、自动化制造，还是承接越来越大的软件项目，都需要工程师。Levie 进一步推断，这一逻辑将扩展到工程以外的领域：AI 促使公司承担比以往更多的工作，从而需要更多专家来监督这些工作。即使模型不断进步，领域专家也比新手更能有效利用 AI。因此，现在是成为专家的绝佳时机。这条推文获得了 187 个赞、20 次转发和 27 条回复，反映了 AI 对就业影响这一话题的持续热度。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "“工程师的消失是最离谱的假设之一。简直错得离谱。”",
+            "reference": "推文开头"
+          },
+          {
+            "label": "类比",
+            "text": "“我们只是给了工程师一个电动工具，可以加速开发我们想要的任何东西。”",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "观点",
+            "text": "“工程师的价值不仅在那个世界里仍然至关重要，而且在许多领域实际上会上升，因为我们可以将工程应用于比以前更多的工作。”",
+            "reference": "推文第三句"
+          },
+          {
+            "label": "案例",
+            "text": "“如果你想自动化药物发现，你需要工程师。如果你想自动化制造，你需要工程师。如果你要承接越来越大的软件项目，你需要工程师。”",
+            "reference": "推文中间部分"
+          },
+          {
+            "label": "观点",
+            "text": "“AI 导致公司承担比以前更多的工作，这导致需要更多专家来监督这些工作。”",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "观点",
+            "text": "“即使模型越来越好，领域专家也比新手更能有效利用它们。现在是成为专家的绝佳时机。”",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:2f8edaf4-9698-11f1-bdc1-eb068382bf86:972ae8aea1c833eb": {
+      "itemId": "podcast:2f8edaf4-9698-11f1-bdc1-eb068382bf86",
+      "sourceHash": "972ae8aea1c833eb",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "No Priors: What Chess.com Teaches US About Superhuman Capabilities, with CEO Erik Allebest",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "generatedAt": "2026-08-14T23:47:26.883Z",
+      "summary": {
+        "title": "Chess.com 如何打造超人类能力：CEO Erik Allebest 谈 AI、评级与增长",
+        "summary": "本期播客中，Chess.com CEO Erik Allebest 回顾了公司从 2005 年以 5.5 万美元收购域名到如今拥有超 2.5 亿注册会员、年收入超 2 亿美元的历程。他分享了 Chess.com 在 COVID 和《后翼弃兵》后的用户激增，以及 2023 年因短视频、Mittens 机器人和作弊丑闻带来的再次增长。公司最初未获风险投资，靠自有资金在 18 个月内实现盈利，后来 General Atlantic 和 CVC 的投资均为购买老股，公司保持自给自足。Allebest 认为 AI 在国际象棋中先使对局无聊，后因神经网络引擎让对局更具创造性。他强调技能提升需要重复练习基本构建块，如做谜题和复盘错误。Chess.com 投入大量资源进行反作弊，使用统计和机器学习模型。公司定位为国际象棋公司，但已扩展到扑克等其他经典游戏，并计划将评级系统引入扑克。Allebest 相信超人类智能会到来，但需要护栏，他更乐观，希望 AI 能解决气候、政治和教育等重大问题。Chess.com 在多个业务领域使用 AI，包括支持自动化、数据分析和内部知识系统，并计划推出个性化统计比较和 AI 教练。",
+        "excerpts": [
+          {
+            "label": "数据",
+            "text": "Chess.com 目前拥有超过 2.5 亿注册会员，年收入超过 2 亿美元，团队约 650 人。",
+            "reference": "02:05 - 02:55"
+          },
+          {
+            "label": "案例",
+            "text": "Erik Allebest 于 2005 年以 55,000 美元从破产拍卖中购得 chess.com 域名，当时多数投资者认为该业务不可投资。",
+            "reference": "01:10 - 01:44"
+          },
+          {
+            "label": "观点",
+            "text": "技能提升需要重复练习，将小习惯乘以一千天会带来显著进步。如果你每天做五个国际象棋谜题，乘以一千，你就做了五千个谜题，你会变得更好。",
+            "reference": "25:24 - 26:04"
+          },
+          {
+            "label": "观点",
+            "text": "AI 可以帮助人们深入研究主题，像随时可用的教授一样提供指导，但存在偏见和迎合用户的问题。",
+            "reference": "26:28 - 27:12"
+          },
+          {
+            "label": "案例",
+            "text": "Chess.com 投入大量资源进行反作弊，使用统计模型和机器学习模型检测作弊行为。",
+            "reference": "29:44 - 30:30"
+          },
+          {
+            "label": "观点",
+            "text": "国际象棋的特殊之处在于规则简单、无运气成分、复杂度高且永恒，适合共享体验。",
+            "reference": "31:34 - 32:32"
+          },
+          {
+            "label": "观点",
+            "text": "创始人应该追随内心，专注于愿景，而不是盲目听从市场建议，用最少资源验证想法。",
+            "reference": "35:26 - 36:47"
+          },
+          {
+            "label": "观点",
+            "text": "Erik Allebest 相信超人类智能会到来，但需要护栏，他更乐观，希望 AI 能解决气候、政治和教育等重大问题。",
+            "reference": "37:01 - 37:34"
           }
         ],
         "materials": []
