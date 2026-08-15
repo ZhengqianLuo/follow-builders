@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-14T23:47:26.883Z",
+  "updatedAt": "2026-08-15T23:43:46.832Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -6242,6 +6242,76 @@
             "label": "观点",
             "text": "Erik Allebest 相信超人类智能会到来，但需要护栏，他更乐观，希望 AI 能解决气候、政治和教育等重大问题。",
             "reference": "37:01 - 37:34"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2088476232933577124:10c07efb87a84df1": {
+      "itemId": "tweet:2088476232933577124",
+      "sourceHash": "10c07efb87a84df1",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Amazing outcome. Cursor executed the applied AI strategy flawlessly. Most...",
+      "url": "https://x.com/levie/status/2088476232933577124",
+      "generatedAt": "2026-08-15T23:43:42.340Z",
+      "summary": {
+        "title": "Aaron Levie：Cursor 完美执行了应用 AI 战略，打破了多个思维定式",
+        "summary": "Aaron Levie 在推文中高度评价 Cursor 在 AI 编程领域的成功，认为它完美执行了应用 AI 战略。他指出，大多数人严重低估了 AI 编程的市场规模：历史上最大的开发者工具退出规模仅为数十亿美元，且该领域被认为竞争激烈、趋于饱和。但 Cursor 迅速打破了多个思维定式：代理式编程的市场规模远超预期；在用户与底层模型之间以及模型本身仍有大量创新空间。Cursor 提供了应用 AI 的范本：找到代理式编程的正确产品形态，充当模型与工作流之间的中立层，对模型进行后训练以降低成本或提升性能，构建适配工作流的基础设施，建立与品类对齐的市场推广策略。Levie 认为这些经验对当前所有从事应用 AI 的人都有重要借鉴意义，并预测未来会看到更多类似成功案例。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "大多数人完全低估了 AI 编程的市场规模。历史上最大的开发者工具退出规模仅为数十亿美元，而且当 Cursor 真正发力时，该领域已被认为竞争激烈且有些饱和。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "多个思维定式几乎瞬间被打破：代理式编程的市场规模远超大多数人的认知；在用户与底层模型之间，甚至在模型本身，仍有大量创新空间。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "Cursor 提供了应用 AI 的范本：找到代理式编程的正确产品形态，充当模型与工作流之间的中立层，对模型进行后训练以降低成本或提升性能，构建适配工作流的基础设施，建立与品类对齐的市场推广策略。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "预测",
+            "text": "对于当前从事应用 AI 的任何人来说，这是一组很好的经验。我们将会看到更多这样的成功案例。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2088307370787328223:38dd560477f3456a": {
+      "itemId": "tweet:2088307370787328223",
+      "sourceHash": "38dd560477f3456a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Google Labs：In the Lab, we’re always tinkering 🧪– from the experiments we graduate to the...",
+      "url": "https://x.com/GoogleLabs/status/2088307370787328223",
+      "generatedAt": "2026-08-15T23:43:46.831Z",
+      "summary": {
+        "title": "Google Labs 推出两款 AI 工具：Pomelli 与 Flow",
+        "summary": "Google Labs 在 X 上发布动态，介绍了两款面向不同用户需求的 AI 工具：Pomelli 和 Flow。Pomelli 旨在帮助品牌和企业大规模创建定制化营销活动，而 Flow 则专注于视觉叙事，帮助用户将想象力转化为吸引观众注意力的视觉故事。该动态体现了 Google Labs 持续实验和将最佳 AI 模型带给各类用户的理念，并鼓励用户尝试这两款工具。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "在实验室里，我们总是在捣鼓——从已经毕业的实验到仍在酝酿中的实验，我们将最好的 AI 模型带给各种用户。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "Pomelli：为你的品牌和业务大规模构建引人入胜的营销活动。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "Flow：创作视觉故事，释放你的想象力，吸引观众的注意力。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "金句",
+            "text": "试试这两个（如果你还没有试过的话！）",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
