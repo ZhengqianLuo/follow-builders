@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-15T23:43:46.832Z",
+  "updatedAt": "2026-08-16T23:43:26.209Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -6312,6 +6312,196 @@
             "label": "金句",
             "text": "试试这两个（如果你还没有试过的话！）",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2088866513008873560:95821fd735eeddf3": {
+      "itemId": "tweet:2088866513008873560",
+      "sourceHash": "95821fd735eeddf3",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：On tokens and prices per token. I said I’d write more about this, so here goes:...",
+      "url": "https://x.com/thsottiaux/status/2088866513008873560",
+      "generatedAt": "2026-08-16T23:43:05.714Z",
+      "summary": {
+        "title": "Token 与每 token 价格：为什么不能简单比较 AI 模型成本",
+        "summary": "Thibault Sottiaux 在推文中指出，不同 AI 模型的 token 并非标准化单位，不能仅凭每百万 token 价格来比较成本。他以披萨切片为类比：同样大小的披萨，切成 8 片每片 2 美元，或切成 16 片每片 1.25 美元，后者看似便宜但整张披萨更贵。实际测试中，GPT-5.6 Sol 的 tokenizer 处理相同文本用了 766 个 token，而 Claude Opus 5 估计用了 1170 个，相差约 34.5%。因此，即使每 token 价格更低，总账单可能更高。他强调真正重要的是每次成功结果的成本，而非每 token 价格，建议通过基准测试和实际用例测量来评估。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "OpenAI 的 token 不等于其他模型的 token，不能把 token 当作标准化单位来比较价格。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "类比",
+            "text": "想象两个相同的披萨，一个切成 8 片每片 2 美元，另一个切成 16 片每片 1.25 美元。第二个看似每片更便宜，但整张披萨要 20 美元而不是 16 美元。你的胃并不在乎你吃了多少片。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "数据",
+            "text": "在一项涵盖英语、技术、多语言和数字文本的小型比较中，GPT-5.6 Sol 的 tokenizer 用了 766 个 token，而 Claude Opus 5 估计用了 1170 个，差异约 34.5%。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "结论",
+            "text": "真正重要的是每次成功结果的成本，而不是每 token 价格。可以用基准测试作为起点，但必须在自己的用例上实际测试和测量。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2088757738037989755:b6ffdd09a1ef27d2": {
+      "itemId": "tweet:2088757738037989755",
+      "sourceHash": "b6ffdd09a1ef27d2",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：I think people don’t realize how much of the success of React is actually...",
+      "url": "https://x.com/rauchg/status/2088757738037989755",
+      "generatedAt": "2026-08-16T23:43:10.457Z",
+      "summary": {
+        "title": "Guillermo Rauch：React 的成功很大程度上要归功于 shadcn",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中提出一个反直觉的观点：React 的成功在很大程度上要归功于 shadcn/ui。他承认自己曾将 React 比作“成年人的乐高积木”，但认为这个比喻其实只描述了积木的几何规格，而非积木本身。真正满足开发者需求的是 shadcn——它提供了可复用、高质量且可调优的组件，本质上是一种“伪库”：代码存在，但设计初衷是让开发者将其消化进自己的上下文窗口并进行再混合。这条推文引发了关于 React 生态、组件库设计哲学以及 AI 时代代码消费方式的讨论。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "我认为人们没有意识到 React 的成功有多少要归功于 @shadcn。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "自我修正的类比",
+            "text": "我曾把 React 称为真正的“成年人的乐高积木”。但实际上它更像是积木几何形状的描述，是规格说明。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "对 shadcn 的定位",
+            "text": "Shadcn 才是人们真正想从 React 中得到的东西：可复用、高质量且可调优的组件。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "伪库概念",
+            "text": "它是一个伪库。代码存在，但实际上是用来被消化进你的上下文窗口并进行再混合的。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2088626815166464507:627181f624832c4e": {
+      "itemId": "tweet:2088626815166464507",
+      "sourceHash": "627181f624832c4e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：Tomorrow, I’m really excited to share a new episode with @rileybrown on how he...",
+      "url": "https://x.com/petergyang/status/2088626815166464507",
+      "generatedAt": "2026-08-16T23:43:15.530Z",
+      "summary": {
+        "title": "Peter Yang 预告：Riley Brown 如何用 Codex 运营内容业务",
+        "summary": "Peter Yang 在 X 上预告即将发布的新播客节目，嘉宾是 Riley Brown。节目将展示 Riley 如何利用 OpenAI 的 Codex 来运营他的整个内容业务。Peter 特别提到他喜欢看 Riley 演示用 AI 制作 YouTube 缩略图的工作流：首先用 Codex 找到其细分领域内表现最好的 100 个缩略图，并将它们添加到 Paper 画布中；然后使用 Paper 将这些缩略图与自己的照片进行混合搭配，直到创作出满意的缩略图。Peter 强调这个工作流非常疯狂，必须亲眼观看才能体会。该推文旨在为次日发布的完整播客节目做预告，并附上订阅链接。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Peter Yang 表示他特别喜欢看 Riley Brown 演示如何用 AI 制作 YouTube 缩略图。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "Riley Brown 使用 Codex 找到其细分领域内表现最好的 100 个缩略图，并将它们添加到 Paper 画布中。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "Riley Brown 使用 Paper 将这些缩略图与自己的照片进行混合搭配，直到创作出满意的缩略图。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "Peter Yang 说：“Honestly, you have to watch the workflow to see how crazy it is.”（老实说，你必须观看这个工作流才能知道它有多疯狂。）",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "该推文互动数据：94 个赞，7 次转发，9 条回复。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2088734739893293175:ffc98a29e98f4fff": {
+      "itemId": "tweet:2088734739893293175",
+      "sourceHash": "ffc98a29e98f4fff",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aditya Agarwal：America turned 250 years old earlier this year. India turns 80 today...80 years...",
+      "url": "https://x.com/adityaag/status/2088734739893293175",
+      "generatedAt": "2026-08-16T23:43:20.313Z",
+      "summary": {
+        "title": "Aditya Agarwal：美国250岁，印度80岁——建国不易，印度人应自豪",
+        "summary": "Aditya Agarwal 在印度独立80周年之际发推，将印度与美国进行对比。他指出美国今年迎来250周年，而印度刚满80岁，但建国极为艰难。他提到美国在建国80年时正陷入内战，暗示印度在同样节点上已取得显著成就，印度人应为自己建设的国家感到自豪。同时，他认为印度和美国一样，渴望变得更好、更强、更成功，并且终将实现。这条推文以简洁的类比和鼓励性语言，表达了对印度发展成就的肯定与未来前景的乐观，引发广泛共鸣，获得880个赞和45次转发。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "建国真的很难。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "类比",
+            "text": "美国今年早些时候满250岁，印度今天满80岁……80岁正年轻。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据/案例",
+            "text": "美国在建国80年时正陷入内战。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "印度人应该为自己建设的国家感到无比自豪。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "和美国一样，印度想要更多。她想要变得更好、更强、更成功。她会实现的。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2088716743615352963:5aa88e07c59ca76e": {
+      "itemId": "tweet:2088716743615352963",
+      "sourceHash": "5aa88e07c59ca76e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：Last week I’m sitting across a stealth portfolio founder working in a deeply...",
+      "url": "https://x.com/nikunj/status/2088716743615352963",
+      "generatedAt": "2026-08-16T23:43:26.208Z",
+      "summary": {
+        "title": "Nikunj Kothari：难啃的官僚流程与合同拖延，正是创业公司的长期护城河",
+        "summary": "Nikunj Kothari 分享了他与一位隐形投资组合创始人交流的见闻。这位创始人所在的市场极度碎片化且不性感，关键合同与合作伙伴关系因官僚流程和某个随机条款卡在临门一脚，导致短期时间线受阻。Nikunj 指出，这种短期痛苦恰恰是长期护城河：创始人已拥有杠杆和关系，竞争对手要复制同样的事情需要花费同样甚至更长的时间。他区分了无意义的996式表演性痛苦与真正有价值的痛苦——构建根深蒂固的软件和关系需要经历痛苦，这才是护城河。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "短期痛苦，长期护城河：创始人现在经历的合同拖延和官僚流程，未来会成为强大的竞争壁垒。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "不必要的、996式的表演性痛苦不是护城河。但构建根深蒂固的软件和关系，需要经历很多痛苦，这才是护城河。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "一位隐形投资组合创始人，在极度碎片化的市场中，关键合同和合作伙伴关系因夏季和某个随机条款卡在临门一脚，可能无法达成雄心勃勃的时间线。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "类比",
+            "text": "Nikunj 反问创始人：“你知道别人要做成和你一样的事情需要多久吗？”——而且创始人已经拥有杠杆和关系，竞争对手要复制同样的事情需要花费同样甚至更长的时间。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "创始人将来会回头笑自己当时为何担心几天的延迟，因为长期来看，正是这些痛苦让他们成为世界上最大的公司之一。",
+            "reference": "推文原文"
           }
         ],
         "materials": []
