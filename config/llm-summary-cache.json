@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-16T23:43:26.209Z",
+  "updatedAt": "2026-08-17T23:46:10.168Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -6502,6 +6502,176 @@
             "label": "观点",
             "text": "创始人将来会回头笑自己当时为何担心几天的延迟，因为长期来看，正是这些痛苦让他们成为世界上最大的公司之一。",
             "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2089082893804896524:c4773a0fab294623": {
+      "itemId": "tweet:2089082893804896524",
+      "sourceHash": "c4773a0fab294623",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. Even...",
+      "url": "https://x.com/thsottiaux/status/2089082893804896524",
+      "generatedAt": "2026-08-17T23:45:56.215Z",
+      "summary": {
+        "title": "如何在 Codex 中为 GPT-5.6 Sol 启用 100 万 token 上下文窗口",
+        "summary": "Thibault Sottiaux 在推文中介绍了如何在 Codex 中为 GPT-5.6 Sol 模型启用 100 万 token 的上下文窗口。尽管 Codex 默认的上下文限制在性能和成本上已经过优化，但用户经常要求更大的上下文窗口，因此他提供了配置方法。更大的上下文窗口可以让 Codex 在总结旧内容之前保留更多的代码、工具输出和对话历史。用户需要选择支持大上下文窗口的模型，例如 GPT-5.6 Sol 的文档显示其上下文窗口为 1,050,000 token。配置方法是在 ~/.codex/config.toml 文件的顶层（任何 [section] 之前）添加或更新以下设置：model = \"gpt-5.6-sol\"、model_context_window = 1000000、model_auto_compact_token_limit = 900000。第一个设置选择模型，第二个设置告诉 Codex 使用 100 万 token 的上下文预算，第三个设置在约 90 万 token 时启动自动历史压缩，留出一些余量。保存后需要重启 Codex 客户端并开始新会话。如果只想在单个 CLI 会话中尝试该配置而不更改默认设置，可以使用命令行参数：codex -m gpt-5.6-sol -c model_context_window=1000000 -c model_auto_compact_token_limit=900000。作者最后提醒，默认设置是经过仔细调优的。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "尽管我们在 Codex 中调优的上下文限制在性能和成本方面已经是最优的，但这是一个常见的需求，所以在这里记录下来。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "数据",
+            "text": "GPT-5.6 Sol 的文档显示其上下文窗口为 1,050,000 token。",
+            "reference": "推文中部"
+          },
+          {
+            "label": "配置",
+            "text": "在 ~/.codex/config.toml 中，于任何 [section] 之前添加：model = \"gpt-5.6-sol\"、model_context_window = 1000000、model_auto_compact_token_limit = 900000。",
+            "reference": "推文中的代码块"
+          },
+          {
+            "label": "解释",
+            "text": "第三个设置在约 900,000 token 时启动自动历史压缩，留出一些余量。",
+            "reference": "推文中部"
+          },
+          {
+            "label": "提示",
+            "text": "保存后重启 Codex 客户端并开始新会话。",
+            "reference": "推文后部"
+          },
+          {
+            "label": "命令行",
+            "text": "若只想在单个 CLI 会话中尝试而不更改默认设置，可使用：codex -m gpt-5.6-sol -c model_context_window=1000000 -c model_auto_compact_token_limit=900000。",
+            "reference": "推文后部代码块"
+          },
+          {
+            "label": "提醒",
+            "text": "玩得开心，但也要知道我们仔细调优了默认设置！",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2089143488696705077:6c926ecddb29a1d8": {
+      "itemId": "tweet:2089143488696705077",
+      "sourceHash": "6c926ecddb29a1d8",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just...",
+      "url": "https://x.com/thsottiaux/status/2089143488696705077",
+      "generatedAt": "2026-08-17T23:46:00.163Z",
+      "summary": {
+        "title": "GPT-5.6 在 Codex 中支持 1M 上下文，现已对 ChatGPT 账户开放",
+        "summary": "Thibault Sottiaux 宣布 GPT-5.6 在 Codex 中已支持 1M 上下文长度，此前该功能仅对 API 密钥用户开放，现在已对通过 ChatGPT 账户使用 Codex 的用户开放。他同时提醒用户，当前默认上下文长度是经过精心调优的，接近完美，不建议随意调高，但用户可自行决定。该推文获得 3686 个赞、171 次转发和 445 条回复，引发社区对长上下文性能与调优的讨论。",
+        "excerpts": [
+          {
+            "label": "功能更新",
+            "text": "GPT-5.6 在 Codex 中支持 1M 上下文，此前仅对 API 密钥用户开放，现已对 ChatGPT 账户用户开放。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "调优警告",
+            "text": "作者强调当前默认上下文长度是经过调优的，接近完美，暗示用户不应随意调高。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "用户自主权",
+            "text": "作者最后表示“但你可以做你自己”，意味着用户可自行决定是否使用 1M 上下文。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "社区反响",
+            "text": "该推文获得 3686 个赞、171 次转发和 445 条回复，显示社区对长上下文功能的关注。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2088995821056659901:31d95b40801a3018": {
+      "itemId": "tweet:2088995821056659901",
+      "sourceHash": "31d95b40801a3018",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：AI spend is nowhere close to hitting any walls. Obviously this data is weighted...",
+      "url": "https://x.com/levie/status/2088995821056659901",
+      "generatedAt": "2026-08-17T23:46:04.766Z",
+      "summary": {
+        "title": "Aaron Levie：AI 支出远未触顶，企业采用仍处早期扩散阶段",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中指出，AI 支出远未遇到瓶颈。他引用数据称，工程导向型公司中，前 1% 的企业每月每名员工在 AI 上花费 7500 美元，前 10% 花费 660 美元。尽管数据偏向工程公司，但所有类型的企业都呈现持续指数级增长。他认为，今天前 10% 企业的做法，三年后可能成为前 50% 企业的常态，至少在 token 消耗量上如此。随着 token 成本下降，企业会将更多工作交给 AI 代理，如代码安全扫描、软件测试、大型项目编码、数据处理等。因此，企业 AI 扩散仍存在巨大机会，这一趋势看不到尽头。",
+        "excerpts": [
+          {
+            "label": "数据",
+            "text": "前 1% 的企业每月每名员工在 AI 上花费 7500 美元，前 10% 花费 660 美元。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "AI 支出远未触顶，所有类型的企业都呈现持续指数级增长。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "预测",
+            "text": "今天前 10% 企业的做法，三年后可能成为前 50% 企业的常态，至少在 token 消耗量上如此。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "随着 token 成本下降，企业会将更多工作交给 AI 代理，如代码安全扫描、软件测试、大型项目编码、数据处理等。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "结论",
+            "text": "企业 AI 扩散仍存在巨大机会，这一趋势看不到尽头。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2089209131391729763:efc1a2ec59c39203": {
+      "itemId": "tweet:2089209131391729763",
+      "sourceHash": "efc1a2ec59c39203",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Pretty good way to think about the value of AI agents and where the opportunity...",
+      "url": "https://x.com/levie/status/2089209131391729763",
+      "generatedAt": "2026-08-17T23:46:10.167Z",
+      "summary": {
+        "title": "Aaron Levie：AI 智能体的价值与机会所在",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中提出了一个理解 AI 智能体价值与机会的清晰框架。他指出，AI 是一种不知疲倦的技术，能够完成过去因不切实际而无法充分执行的任务——并非人们不想做或没有价值，而是成本过高、难以实现。AI 的优势在于，你可以将智能投入到任何不会放弃的问题上，并思考其回报。例如，你无法找出代码库中所有安全漏洞，因为无法模拟所有风险向量；你无法阅读每份合同或文档以处理数据并供日后查询；你无法梳理客户群以寻找所有相关的追加销售数据点。Levie 认为，这是部署 AI 以获得实际收益的清晰思路，也是创业机会所在：瞄准那些通过增加计算量能从根本上改变客户能力的市场。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 智能体的价值在于：它能不知疲倦地完成你以前永远无法充分完成的事情，不是因为不想做或没有价值，而是因为完全不切实际。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "思考框架",
+            "text": "AI 的优势是思考一切你现在可以投入智能且不会放弃的事情，并计算回报。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "你不可能找出代码库中的每一个安全漏洞，因为你无法模拟每一个风险向量。",
+            "reference": "推文举例"
+          },
+          {
+            "label": "案例",
+            "text": "你不可能阅读每一份合同或文档来处理数据并捕获以供日后查询。",
+            "reference": "推文举例"
+          },
+          {
+            "label": "案例",
+            "text": "你不可能梳理整个客户群，寻找每一个相关的数据点来做追加销售。",
+            "reference": "推文举例"
+          },
+          {
+            "label": "创业机会",
+            "text": "瞄准那些通过增加计算量能从根本上改变客户在该领域能力的市场。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []

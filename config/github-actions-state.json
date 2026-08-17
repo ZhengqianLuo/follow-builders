@@ -6024,7 +6024,127 @@
       "title": "Peter Yang：I 100% agree with Dario that using AI to cure diseases (and speeding up the...",
       "url": "https://x.com/petergyang/status/2088772605323214999",
       "sentAt": "2026-08-16T23:43:28.029Z"
+    },
+    "tweet:2089082893804896524": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. Even...",
+      "url": "https://x.com/thsottiaux/status/2089082893804896524",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "topic:Thibault Sottiaux：Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. Even...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. Even...",
+      "url": "https://x.com/thsottiaux/status/2089082893804896524",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "tweet:2089149255382438340": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Codex ✅ Almost 100% reliable ✅ Occasional resets ✅ Open-source ✅ (will have...",
+      "url": "https://x.com/thsottiaux/status/2089149255382438340",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "topic:Thibault Sottiaux：Codex ✅ Almost 100% reliable ✅ Occasional resets ✅ Open-source ✅ (will have...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Codex ✅ Almost 100% reliable ✅ Occasional resets ✅ Open-source ✅ (will have...",
+      "url": "https://x.com/thsottiaux/status/2089149255382438340",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "tweet:2089143488696705077": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just...",
+      "url": "https://x.com/thsottiaux/status/2089143488696705077",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "topic:Thibault Sottiaux：GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just...",
+      "url": "https://x.com/thsottiaux/status/2089143488696705077",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "tweet:2089085004966207679": {
+      "type": "tweet",
+      "title": "Thariq：it says a lot that the creators of three of the most iconic web frameworks:...",
+      "url": "https://x.com/trq212/status/2089085004966207679",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "topic:Thariq：it says a lot that the creators of three of the most iconic web frameworks:...": {
+      "type": "topic",
+      "title": "Thariq：it says a lot that the creators of three of the most iconic web frameworks:...",
+      "url": "https://x.com/trq212/status/2089085004966207679",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "tweet:2089179650891432270": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：https://t.co/BaVgd3k0dc",
+      "url": "https://x.com/rauchg/status/2089179650891432270",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "topic:Guillermo Rauch：https://t.co/BaVgd3k0dc": {
+      "type": "topic",
+      "title": "Guillermo Rauch：https://t.co/BaVgd3k0dc",
+      "url": "https://x.com/rauchg/status/2089179650891432270",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "tweet:2089126690043916495": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：We ran evals on GLM 5.3 cybersecurity capabilities. It's the new open frontier....",
+      "url": "https://x.com/rauchg/status/2089126690043916495",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "topic:Guillermo Rauch：We ran evals on GLM 5.3 cybersecurity capabilities. It's the new open frontier....": {
+      "type": "topic",
+      "title": "Guillermo Rauch：We ran evals on GLM 5.3 cybersecurity capabilities. It's the new open frontier....",
+      "url": "https://x.com/rauchg/status/2089126690043916495",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "tweet:2088995821056659901": {
+      "type": "tweet",
+      "title": "Aaron Levie：AI spend is nowhere close to hitting any walls. Obviously this data is weighted...",
+      "url": "https://x.com/levie/status/2088995821056659901",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "topic:Aaron Levie：AI spend is nowhere close to hitting any walls. Obviously this data is weighted...": {
+      "type": "topic",
+      "title": "Aaron Levie：AI spend is nowhere close to hitting any walls. Obviously this data is weighted...",
+      "url": "https://x.com/levie/status/2088995821056659901",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "tweet:2089069905375351169": {
+      "type": "tweet",
+      "title": "Amjad Masad：18x improvement in intelligence per joule in 16 months. https://t.co/lP62kI5rpr...",
+      "url": "https://x.com/amasad/status/2089069905375351169",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "topic:Amjad Masad：18x improvement in intelligence per joule in 16 months. https://t.co/lP62kI5rpr...": {
+      "type": "topic",
+      "title": "Amjad Masad：18x improvement in intelligence per joule in 16 months. https://t.co/lP62kI5rpr...",
+      "url": "https://x.com/amasad/status/2089069905375351169",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "tweet:2089209131391729763": {
+      "type": "tweet",
+      "title": "Aaron Levie：Pretty good way to think about the value of AI agents and where the opportunity...",
+      "url": "https://x.com/levie/status/2089209131391729763",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "topic:Aaron Levie：Pretty good way to think about the value of AI agents and where the opportunity...": {
+      "type": "topic",
+      "title": "Aaron Levie：Pretty good way to think about the value of AI agents and where the opportunity...",
+      "url": "https://x.com/levie/status/2089209131391729763",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "tweet:2089121597017759800": {
+      "type": "tweet",
+      "title": "Dan Shipper：used fable to vibe code an app that visualizes and groups everyone who applied...",
+      "url": "https://x.com/danshipper/status/2089121597017759800",
+      "sentAt": "2026-08-17T23:46:12.563Z"
+    },
+    "topic:Dan Shipper：used fable to vibe code an app that visualizes and groups everyone who applied...": {
+      "type": "topic",
+      "title": "Dan Shipper：used fable to vibe code an app that visualizes and groups everyone who applied...",
+      "url": "https://x.com/danshipper/status/2089121597017759800",
+      "sentAt": "2026-08-17T23:46:12.563Z"
     }
   },
-  "updatedAt": "2026-08-16T23:43:28.029Z"
+  "updatedAt": "2026-08-17T23:46:12.563Z"
 }
