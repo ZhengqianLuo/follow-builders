@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-17T23:46:10.168Z",
+  "updatedAt": "2026-08-18T23:46:28.291Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -6672,6 +6672,201 @@
             "label": "创业机会",
             "text": "瞄准那些通过增加计算量能从根本上改变客户在该领域能力的市场。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2089486802356961364:a9d68488a12c331a": {
+      "itemId": "tweet:2089486802356961364",
+      "sourceHash": "a9d68488a12c331a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：the models have no moat (OpenAI, Anthropic, XAI) the IDEs have no moat (Cursor,...",
+      "url": "https://x.com/nikunj/status/2089486802356961364",
+      "generatedAt": "2026-08-18T23:45:58.670Z",
+      "summary": {
+        "title": "Nikunj Kothari：AI 各环节均无护城河，只有风投有",
+        "summary": "Nikunj Kothari 在这条推文中列举了 AI 产业链的多个环节，包括基础模型（OpenAI、Anthropic、XAI）、IDE（Cursor、Windsurf）、开发框架（Cognition、Factory、LangChain）、应用构建器（Replit、Lovable、Bolt）、垂直应用包装（Harvey、Abridge、OpenEvidence）、推理服务商（Together、Fireworks、Groq）、语音层（Sierra、Decagon、ElevenLabs）、数据标注（Scale、Surge、Mercor）、AI 基础设施（Baseten、Modal、Railway）、新云服务商（CoreWeave、Lambda、Crusoe）以及生成式媒体（Runway、Higgsfield、Suno），并断言这些环节都没有护城河。最后他讽刺地指出，似乎 AI 领域只有风险投资公司拥有护城河。该推文以简洁的排比句式，对当前 AI 创业生态中普遍缺乏可持续竞争优势的现象进行了尖锐批评，引发了广泛讨论。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "模型没有护城河（OpenAI、Anthropic、XAI），IDE 没有护城河（Cursor、Windsurf），开发框架没有护城河（Cognition、Factory、LangChain），应用构建器没有护城河（Replit、Lovable、Bolt），包装器没有护城河（Harvey、Abridge、OpenEvidence），推理提供商没有护城河（Together、Fireworks、Groq），语音层没有护城河（Sierra、Decagon、ElevenLabs），数据标注公司没有护城河（Scale、Surge、Mercor），AI 基础设施没有护城河（Baseten、Modal、Railway），新云服务商没有护城河（CoreWeave、Lambda、Crusoe），生成式媒体公司没有护城河（Runway、Higgsfield、Suno）。",
+            "reference": "推文全文"
+          },
+          {
+            "label": "金句",
+            "text": "显然，AI 领域没有人有护城河，除了风险投资公司 ☠️",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "案例",
+            "text": "作者列举了 11 个 AI 细分领域及代表性公司，覆盖从模型到应用、从基础设施到数据标注的完整产业链，以此论证整个行业缺乏护城河。",
+            "reference": "推文全文"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 1483 个点赞、84 次转发和 154 条回复，显示出较高的关注度和讨论热度。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2089374392295842086:d5348d7e34045bb7": {
+      "itemId": "tweet:2089374392295842086",
+      "sourceHash": "d5348d7e34045bb7",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：My hottest take is that brand marketing is going to be THE major differentiator...",
+      "url": "https://x.com/nikunj/status/2089374392295842086",
+      "generatedAt": "2026-08-18T23:46:08.599Z",
+      "summary": {
+        "title": "品牌营销将成为未来十年公司最重要的差异化资产",
+        "summary": "Nikunj Kothari 在推文中提出一个大胆观点：品牌营销将成为未来公司最主要的差异化因素和最珍贵的资产之一。他强调，这里说的不是发布视频或单纯为了“美学”而砸钱来抬高估值，而是要在确保留存的基础上，思考公司代表什么、理解市场当下的“氛围”，既坚持长期目标，又每周持续展示公司形象。尤其在智能体（agents）可能成为产品主要用户的未来，人类受众注意力极度分散，公司必须通过持续一致的品牌呈现才能脱颖而出。他指出，过去这类人才常被置于二线角色，在 CMO 竞争中屡屡落败，但未来十年这一局面将反转，他们会被聘为联合创始人或获得重要席位。设计驱动型 CEO 通常具备这种能力，但极为罕见，因此公司需要学会如何招聘这类人才。优秀的品牌营销人才和优秀的产品营销人员一样稀缺，一旦拥有就要紧紧抓住。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "我最激进的观点是：品牌营销将成为未来公司最主要的差异化因素和最珍贵的资产之一。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "澄清定义",
+            "text": "我说的不是发布视频或单纯为了‘美学’而砸钱来抬高估值。你仍然需要先有留存，再谈吸引注意力。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "具体做法",
+            "text": "我指的是思考公司代表什么，理解市场当下的‘氛围’，在坚持长期目标的同时，思考如何在短期内展示公司，并且每周都这样做。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "未来趋势",
+            "text": "尤其是如果你认为智能体将成为大多数产品的主要用户，那么为了吸引注意力极度分散的人类受众，你需要在公司呈现方式上持续脱颖而出。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "人才地位反转",
+            "text": "这些人过去主要被安排在二线角色，在 CMO 竞争中屡屡落败。我认为未来十年这种情况将彻底反转，你会聘请他们作为联合创始人，或者至少给他们一个重要席位。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "稀缺性",
+            "text": "就像优秀的产品营销人员一样，这类人才极其罕见，所以一旦拥有，就要紧紧抓住！",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2089499887905997272:e3fce489344d330d": {
+      "itemId": "tweet:2089499887905997272",
+      "sourceHash": "e3fce489344d330d",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：When you hear that data is the new oil, this is ultimately what that looks...",
+      "url": "https://x.com/levie/status/2089499887905997272",
+      "generatedAt": "2026-08-18T23:46:13.309Z",
+      "summary": {
+        "title": "Aaron Levie：数据是新时代的石油，AI 让信息成为资产负债表上的资产",
+        "summary": "Box 公司 CEO Aaron Levie 在推文中指出，当人们说数据是新的石油时，这最终意味着 AI 对数据有着巨大的渴求，我们正进入一个数据几乎以任何形式都有价值的时代。在 AI 世界中，信息实际上应当作为资产列入资产负债表。他提到，最近的一笔数据出售交易只是这种趋势的一个例子。最终，企业如何管理和挖掘其组织智能，将成为未来竞争力和价值创造的决定性因素之一。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "当人们说数据是新的石油时，这最终意味着 AI 对数据有着巨大的渴求，我们正进入一个数据几乎以任何形式都有价值的时代。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "在 AI 世界中，信息实际上应当作为资产列入资产负债表。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "最近的一笔数据出售交易只是这种趋势的一个例子。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "最终，企业如何管理和挖掘其组织智能，将成为未来竞争力和价值创造的决定性因素之一。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2089480958571331623:c28d275eb5374057": {
+      "itemId": "tweet:2089480958571331623",
+      "sourceHash": "c28d275eb5374057",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Madhu Guru：The best way to get good at evals is to take a workflow you know really well...",
+      "url": "https://x.com/realmadhuguru/status/2089480958571331623",
+      "generatedAt": "2026-08-18T23:46:21.677Z",
+      "summary": {
+        "title": "Madhu Guru：如何通过可测量的工作流提升 AI 评估能力",
+        "summary": "Madhu Guru 在推文中分享了他对如何做好 AI 评估（evals）的实践建议。他认为，提升评估能力的最佳方式是选择一个自己非常熟悉的工作流，然后想办法将其质量变得可测量。具体步骤包括：研究实际 trace（即典型用户的提示序列），明确每一步以及端到端结果中好的响应应该是什么样子；研究产品失败的地方，并创建能够捕捉这些失败模式的 trace，例如混乱的工具调用响应、缺失的上下文等。一旦有了好的评估，就要考虑如何让它易于重复和自动运行；之后还要思考如何确保评估能够随着用户行为模式的变化而持续反映线上流量。最后他询问读者是否希望他每天写这个主题的系列内容。该推文获得了 198 个赞、8 次转发和 18 条回复，说明社区对评估方法论有较高兴趣。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "做好评估的最佳方式是选一个你非常熟悉的工作流，然后想办法让它的质量变得可测量。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "方法论",
+            "text": "研究实际 trace——典型用户的提示序列，明确每一步以及端到端结果中好的响应应该是什么样子。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "失败模式捕捉",
+            "text": "研究产品在哪里失败，并创建能捕捉这些失败的 trace，例如混乱的工具调用响应、缺失的上下文等。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "自动化与迭代",
+            "text": "有了好的评估后，要考虑如何让它易于重复和自动运行，并确保评估能持续反映线上流量，因为用户模式会不断演变。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "互动与反馈",
+            "text": "作者询问是否要每天写这个主题的系列内容，推文获得 198 个赞、8 次转发和 18 条回复，显示社区兴趣浓厚。",
+            "reference": "推文结尾及互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2089393073327653344:ca440bd93ea3cb2f": {
+      "itemId": "tweet:2089393073327653344",
+      "sourceHash": "ca440bd93ea3cb2f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Swyx：Trajectory have generally impressed me with their tasteful execution on...",
+      "url": "https://x.com/swyx/status/2089393073327653344",
+      "generatedAt": "2026-08-18T23:46:28.291Z",
+      "summary": {
+        "title": "Swyx 称赞 Trajectory 在持续学习领域的出色执行与深度分享",
+        "summary": "Swyx 在推文中表达了对 Trajectory 团队的赞赏，认为他们在雄心勃勃的目标上展现出了高品位的执行力。在持续学习（Continual Learning）专题中，@rronak_ 就如何解决该领域剩余的主要数据问题做了非常深入的概述，包括解释了为什么 GRPO 不够用、为何必须采用 on-policy 方法，以及随后如何修复由此带来的各种问题。Swyx 认为这是来自该领域早期领导者之一的精彩综述，并推荐关注该专题的其他内容，称该专题阵容强大。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Trajectory 在雄心勃勃的目标上展现出了高品位的执行力，给我留下了深刻印象。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "在我们的持续学习专题中，@rronak_ 就如何解决持续学习领域剩余的主要数据问题做了非常深入的概述。",
+            "reference": "推文中部"
+          },
+          {
+            "label": "观点",
+            "text": "他解释了为什么 GRPO 不够用，以及为什么他们必须采用 on-policy 方法，随后又修复了由此带来的所有问题。",
+            "reference": "推文中部"
+          },
+          {
+            "label": "评价",
+            "text": "这是来自该领域早期领导者之一的精彩综述！",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "推荐",
+            "text": "该专题的其他内容也值得一看，这个专题阵容非常强大。",
+            "reference": "推文结尾括号内"
           }
         ],
         "materials": []
