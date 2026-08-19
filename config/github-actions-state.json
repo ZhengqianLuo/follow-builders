@@ -6264,7 +6264,127 @@
       "title": "Swyx：Trajectory have generally impressed me with their tasteful execution on...",
       "url": "https://x.com/swyx/status/2089393073327653344",
       "sentAt": "2026-08-18T23:46:30.384Z"
+    },
+    "tweet:2089787807611195475": {
+      "type": "tweet",
+      "title": "Sam Altman：We have paused some frontier RL training to ensure that we can meet the...",
+      "url": "https://x.com/sama/status/2089787807611195475",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "topic:Sam Altman：We have paused some frontier RL training to ensure that we can meet the...": {
+      "type": "topic",
+      "title": "Sam Altman：We have paused some frontier RL training to ensure that we can meet the...",
+      "url": "https://x.com/sama/status/2089787807611195475",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "tweet:2089941380336644295": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：I was gifted a very fancy new reset button today",
+      "url": "https://x.com/thsottiaux/status/2089941380336644295",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "topic:Thibault Sottiaux：I was gifted a very fancy new reset button today": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：I was gifted a very fancy new reset button today",
+      "url": "https://x.com/thsottiaux/status/2089941380336644295",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "tweet:2089806039088517356": {
+      "type": "tweet",
+      "title": "Claude：Claude can now send emails in Gmail and manage files in Google Drive. Ask...",
+      "url": "https://x.com/claudeai/status/2089806039088517356",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "topic:Claude：Claude can now send emails in Gmail and manage files in Google Drive. Ask...": {
+      "type": "topic",
+      "title": "Claude：Claude can now send emails in Gmail and manage files in Google Drive. Ask...",
+      "url": "https://x.com/claudeai/status/2089806039088517356",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "tweet:2089756371570900999": {
+      "type": "tweet",
+      "title": "Claude：Claude Cowork is now available on mobile and web for all paid plans....",
+      "url": "https://x.com/claudeai/status/2089756371570900999",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "topic:Claude：Claude Cowork is now available on mobile and web for all paid plans....": {
+      "type": "topic",
+      "title": "Claude：Claude Cowork is now available on mobile and web for all paid plans....",
+      "url": "https://x.com/claudeai/status/2089756371570900999",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "tweet:2089891927659585918": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Hi! Recapping some changes we have rolled out over the last couple of weeks...",
+      "url": "https://x.com/thsottiaux/status/2089891927659585918",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "topic:Thibault Sottiaux：Hi! Recapping some changes we have rolled out over the last couple of weeks...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Hi! Recapping some changes we have rolled out over the last couple of weeks...",
+      "url": "https://x.com/thsottiaux/status/2089891927659585918",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "tweet:2089844723691479333": {
+      "type": "tweet",
+      "title": "Thariq：weird that there's a \"make a lot of money\" button and nobody's pressing it...",
+      "url": "https://x.com/trq212/status/2089844723691479333",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "topic:Thariq：weird that there's a \"make a lot of money\" button and nobody's pressing it...": {
+      "type": "topic",
+      "title": "Thariq：weird that there's a \"make a lot of money\" button and nobody's pressing it...",
+      "url": "https://x.com/trq212/status/2089844723691479333",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "tweet:2089758522678657212": {
+      "type": "tweet",
+      "title": "Sam Altman：excited to work together on this. thank you jensen! https://t.co/sxWXpQelYj",
+      "url": "https://x.com/sama/status/2089758522678657212",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "topic:Sam Altman：excited to work together on this. thank you jensen! https://t.co/sxWXpQelYj": {
+      "type": "topic",
+      "title": "Sam Altman：excited to work together on this. thank you jensen! https://t.co/sxWXpQelYj",
+      "url": "https://x.com/sama/status/2089758522678657212",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "tweet:2089805495783813196": {
+      "type": "tweet",
+      "title": "Sam Altman：(We still expect to ship great new models soon; this impacts further-out...",
+      "url": "https://x.com/sama/status/2089805495783813196",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "topic:Sam Altman：(We still expect to ship great new models soon; this impacts further-out...": {
+      "type": "topic",
+      "title": "Sam Altman：(We still expect to ship great new models soon; this impacts further-out...",
+      "url": "https://x.com/sama/status/2089805495783813196",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "tweet:2089804717337817514": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Your software factory should be a monorepo. All your company context (design,...",
+      "url": "https://x.com/rauchg/status/2089804717337817514",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "topic:Guillermo Rauch：Your software factory should be a monorepo. All your company context (design,...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Your software factory should be a monorepo. All your company context (design,...",
+      "url": "https://x.com/rauchg/status/2089804717337817514",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "tweet:2089877190422974974": {
+      "type": "tweet",
+      "title": "Peter Steinberger：512GB RAM Studios. Apple was good to us. 🦞 https://t.co/NyvtNH6lRa",
+      "url": "https://x.com/steipete/status/2089877190422974974",
+      "sentAt": "2026-08-19T23:46:16.868Z"
+    },
+    "topic:Peter Steinberger：512GB RAM Studios. Apple was good to us. 🦞 https://t.co/NyvtNH6lRa": {
+      "type": "topic",
+      "title": "Peter Steinberger：512GB RAM Studios. Apple was good to us. 🦞 https://t.co/NyvtNH6lRa",
+      "url": "https://x.com/steipete/status/2089877190422974974",
+      "sentAt": "2026-08-19T23:46:16.868Z"
     }
   },
-  "updatedAt": "2026-08-18T23:46:30.384Z"
+  "updatedAt": "2026-08-19T23:46:16.868Z"
 }

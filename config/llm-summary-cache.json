@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-18T23:46:28.291Z",
+  "updatedAt": "2026-08-19T23:46:14.882Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -6867,6 +6867,141 @@
             "label": "推荐",
             "text": "该专题的其他内容也值得一看，这个专题阵容非常强大。",
             "reference": "推文结尾括号内"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2089787807611195475:f0edcbb19462f156": {
+      "itemId": "tweet:2089787807611195475",
+      "sourceHash": "f0edcbb19462f156",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Sam Altman：We have paused some frontier RL training to ensure that we can meet the...",
+      "url": "https://x.com/sama/status/2089787807611195475",
+      "generatedAt": "2026-08-19T23:46:00.063Z",
+      "summary": {
+        "title": "Sam Altman：暂停部分前沿强化学习训练，确保安全对齐标准跟上能力发展",
+        "summary": "OpenAI CEO Sam Altman 在 X 上宣布，公司已暂停部分前沿强化学习（RL）训练，以确保能够满足新能力水平所要求的对齐、安全和监控标准。他指出，模型进展极其迅速，OpenAI 曾承诺若模型能力超出安全与对齐的进展速度，将采取行动。Altman 强调公司非常重视 AI 安全，认为整个领域需要协调共享安全标准，但在协调达成之前，OpenAI 将单方面采取行动。他预计对安全的信心将日益决定 AI 进展的速度，并对正在进行的对齐工作表示乐观，同时承诺继续广泛提供前沿能力。该推文引发大量讨论，反映了 AI 行业在能力快速提升背景下对安全治理的紧迫关注。",
+        "excerpts": [
+          {
+            "label": "核心行动",
+            "text": "我们已暂停部分前沿强化学习训练，以确保能够满足新能力水平所要求的对齐、安全和监控标准。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "能力与安全的赛跑",
+            "text": "模型进展现在极其迅速，我们一直说，如果我们觉得模型能力超过了安全和对齐的进展速度，我们就会采取行动。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "安全立场",
+            "text": "我们非常重视 AI 安全。我们认为整个领域必须协调共享安全标准，但在此期间我们将单方面采取行动。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "未来预期",
+            "text": "我们预计对安全的信心将日益决定 AI 进展的速度。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "对齐工作与承诺",
+            "text": "我们对自己正在进行的对齐工作感到乐观，并继续致力于广泛提供前沿能力。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2089806039088517356:069df954196f6cd4": {
+      "itemId": "tweet:2089806039088517356",
+      "sourceHash": "069df954196f6cd4",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：Claude can now send emails in Gmail and manage files in Google Drive. Ask...",
+      "url": "https://x.com/claudeai/status/2089806039088517356",
+      "generatedAt": "2026-08-19T23:46:05.344Z",
+      "summary": {
+        "title": "Claude 新增 Gmail 发信与 Google Drive 文件管理能力",
+        "summary": "Claude 官方宣布，Claude 现在可以直接在 Gmail 中发送邮件，并管理 Google Drive 中的文件。用户可以让 Claude 回复邮件线程，Claude 会起草并发送回复，用户可控制何时需要批准。该功能通过连接器菜单连接 Gmail 或 Google Drive 即可使用，适用于所有付费计划。这一更新将 Claude 从对话助手扩展为可执行实际任务的智能体，进一步融入日常工作流。",
+        "excerpts": [
+          {
+            "label": "核心功能",
+            "text": "Claude 现在可以在 Gmail 中发送邮件，并管理 Google Drive 中的文件。",
+            "reference": "原文首句"
+          },
+          {
+            "label": "使用方式",
+            "text": "让 Claude 回复一个邮件线程，它会起草并发送回复。",
+            "reference": "原文第二句"
+          },
+          {
+            "label": "用户控制",
+            "text": "你可以控制何时需要你的批准。",
+            "reference": "原文第三句"
+          },
+          {
+            "label": "启用方法",
+            "text": "从连接器菜单连接 Gmail 或 Google Drive 即可试用。",
+            "reference": "原文第四句"
+          },
+          {
+            "label": "可用范围",
+            "text": "该功能适用于所有付费计划。",
+            "reference": "原文最后一句"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2089891927659585918:5385afd474c5c7c9": {
+      "itemId": "tweet:2089891927659585918",
+      "sourceHash": "5385afd474c5c7c9",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Hi! Recapping some changes we have rolled out over the last couple of weeks...",
+      "url": "https://x.com/thsottiaux/status/2089891927659585918",
+      "generatedAt": "2026-08-19T23:46:14.881Z",
+      "summary": {
+        "title": "Codex 安全更新：降低破坏性操作风险",
+        "summary": "Thibault Sottiaux 在推文中回顾了 Codex 近几周推出的安全改进，旨在进一步降低 GPT-5.6 在 Codex 中执行潜在破坏性操作的风险。团队调查了少量用户报告，发现最严重的模式是清理临时文件的命令可能误删用户文件。具体原因包括：模型有时会复用系统环境变量（如 $HOME）作为临时工作目录，导致清理命令指向真实主目录；以及模型在删除或覆盖临时路径前未检查已有内容。为此，团队在多个层面增加了防护：明确指示模型在删除前检查目标、创建全新临时目录、避免复用系统环境变量、优先采用可恢复操作、范围不明确时停止；强化高风险删除命令的执行检查并升级审查；使 Full access 更难意外启用，增加警告并限制高风险权限组合；更新 Auto-review 以更好识别破坏性操作；构建针对性评估重放观察到的失败案例，并添加强化学习任务和评分器，从训练数据中过滤破坏性操作。重放评估显示这些更改大幅减少了问题行为，同时保持了 Codex 完成正常编码工作的能力。作者建议用户保持应用更新，并使用沙盒模式（Ask for approval 或 Approve for me），仅在信任且可恢复的环境中使用 Full access。",
+        "excerpts": [
+          {
+            "label": "问题模式",
+            "text": "最严重的模式是清理临时工作的命令可能反而删除用户文件。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "根因分析",
+            "text": "模型有时会复用系统环境变量（如 $HOME）作为临时工作目录，导致格式错误的清理命令指向真实主目录而非临时文件夹。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "防护措施",
+            "text": "Codex 现在被明确指示在操作前检查删除目标、创建全新临时目录、避免复用系统环境变量、优先采用可恢复操作，并在范围不明确时停止。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "执行检查",
+            "text": "我们加强了识别高风险删除命令的执行检查，并将其升级审查。如果命令被拒绝，模型会被引导采取更安全的方法。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "权限控制",
+            "text": "我们使 Full access 更难意外启用，增加了更清晰的警告，并进一步限制了特别危险的权限组合。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "评估与训练",
+            "text": "我们构建了针对性的评估来重放观察到的失败案例，并添加了聚焦这些风险的强化学习任务和评分器，同时从训练数据中过滤破坏性操作。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "效果",
+            "text": "在重放评估中，这些更改大幅减少了问题行为，同时保持了 Codex 完成正常编码工作的能力。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "用户建议",
+            "text": "保持 Codex 应用更新，并使用沙盒模式（Ask for approval 或 Approve for me）。仅在信任且可恢复的环境中使用 Full access。",
+            "reference": "推文原文"
           }
         ],
         "materials": []
