@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-19T23:46:14.882Z",
+  "updatedAt": "2026-08-20T23:49:30.608Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -7002,6 +7002,96 @@
             "label": "用户建议",
             "text": "保持 Codex 应用更新，并使用沙盒模式（Ask for approval 或 Approve for me）。仅在信任且可恢复的环境中使用 Full access。",
             "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2090173536010957128:31f4abdc49837a65": {
+      "itemId": "tweet:2090173536010957128",
+      "sourceHash": "31f4abdc49837a65",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Today we’re previewing Private Safety Processing, designed to let us keep...",
+      "url": "https://x.com/thsottiaux/status/2090173536010957128",
+      "generatedAt": "2026-08-20T23:49:21.313Z",
+      "summary": {
+        "title": "OpenAI 预览私有安全处理：零数据保留与前沿智能兼得",
+        "summary": "OpenAI 的 Thibault Sottiaux 在 X 上宣布预览“私有安全处理”（Private Safety Processing）功能，旨在让客户在享受前沿智能的同时保持零数据保留（ZDR），并提升安全防护。该功能针对 ZDR 部署，内容保留在客户控制的基础设施上，自动化系统仅分析相关交互的模式并返回有限的安全信号，不会向 OpenAI 员工（包括作者本人）暴露底层提示或响应。此外，OpenAI 还在开发一种由客户控制密钥加密的 OpenAI 托管选项。该功能目前正与早期客户测试，计划于 9 月开始逐步推出。此动态引发广泛关注（2091 个赞、79 次转发、334 条回复），反映了企业客户对数据隐私与安全合规的迫切需求，以及 OpenAI 在平衡模型能力与数据控制权方面的持续努力。",
+        "excerpts": [
+          {
+            "label": "核心功能",
+            "text": "私有安全处理旨在让我们在提供零数据保留的同时改进安全防护。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "客户价值",
+            "text": "即使受益于前沿智能，客户也不应被迫放弃对敏感数据的控制权。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "ZDR 部署细节",
+            "text": "对于零数据保留部署，内容保留在客户控制的基础设施上。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "隐私保障",
+            "text": "自动化系统分析相关交互的模式并返回有限的安全信号，不会向 OpenAI 员工（包括我！）暴露底层提示或响应。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "托管选项",
+            "text": "我们还在开发一种由客户控制密钥加密的 OpenAI 托管选项。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "时间表",
+            "text": "我们正在与早期客户测试，计划于 9 月开始逐步推出。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2090255740384751664:bd3839824a6212cd": {
+      "itemId": "tweet:2090255740384751664",
+      "sourceHash": "bd3839824a6212cd",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：https://t.co/OL0LzGtvAw is 6.3mb. It starts up in 10µs¹. It's a Zig-compiled...",
+      "url": "https://x.com/rauchg/status/2090255740384751664",
+      "generatedAt": "2026-08-20T23:49:30.608Z",
+      "summary": {
+        "title": "Guillermo Rauch：6.3MB 的 fx 启动仅需 10 微秒，AI 将推动基础设施原生优化",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中展示了其团队开发的终端工具 fx 的极致性能：整个程序仅 6.3MB，启动时间 10 微秒（µs）。该工具使用 Zig 编译为静态 ELF 二进制文件，同时提供更小的 WebAssembly 版本（libfx.wasm）。Rauch 指出，Wasm 版本体积更小的原因在于二进制体积主要来自 TLS/HTTP 栈，而在 WebAssembly 环境中，fx 将 fetch() 委托给 JS 运行时，从而省去了这部分代码。他进一步提出观点：AI 将使大多数基础设施实现原生优化，并以 fx 为例说明其完成任务的速度甚至快于其他智能体的启动时间。他强调“快是一条单行道”，暗示性能优化是不可逆的趋势。推文还附带了在线试用链接。该动态获得 537 次点赞、37 次转发和 54 条回复，反映了开发者社区对极致性能工具的兴趣。",
+        "excerpts": [
+          {
+            "label": "核心数据",
+            "text": "fx 仅 6.3MB，启动时间 10 微秒（µs）。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "技术实现",
+            "text": "它是 Zig 编译的静态 ELF 二进制文件，或者更小的 libfx.wasm。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "AI 将使大多数基础设施实现原生优化。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "fx 完成任务的速度甚至快于其他智能体的启动时间。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "快是一条单行道。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "有趣事实",
+            "text": "Wasm 构建实际上更小，因为大量二进制体积来自 TLS/HTTP 栈；在 WebAssembly 中，fx 将 fetch() 委托给 JS 运行时。",
+            "reference": "推文脚注"
           }
         ],
         "materials": []
