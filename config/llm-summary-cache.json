@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-20T23:49:30.608Z",
+  "updatedAt": "2026-08-21T23:48:00.239Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -7092,6 +7092,121 @@
             "label": "有趣事实",
             "text": "Wasm 构建实际上更小，因为大量二进制体积来自 TLS/HTTP 栈；在 WebAssembly 中，fx 将 fetch() 委托给 JS 运行时。",
             "reference": "推文脚注"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2090675027670978569:895f6f20ab76ae2e": {
+      "itemId": "tweet:2090675027670978569",
+      "sourceHash": "895f6f20ab76ae2e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：We've investigated a few messages about codex usage limits being different....",
+      "url": "https://x.com/thsottiaux/status/2090675027670978569",
+      "generatedAt": "2026-08-21T23:47:44.319Z",
+      "summary": {
+        "title": "Thibault Sottiaux 回应 Codex 使用限制差异：不支持 sub2api 滥用",
+        "summary": "Thibault Sottiaux 在 X 上回应了关于 Codex 使用限制存在差异的消息。他表示，团队不会在未与社区沟通并保持透明的情况下更改限制。经调查，许多受影响用户使用了 sub2api 工具，将订阅转换为 API 流量，然后重新服务或分享给多个用户，这种行为不受支持，并会被欺诈预防系统标记。如果用户通过 Sign in With ChatGPT 使用订阅，无论是官方客户端还是支持账户登录的 OSS 客户端（如 Pi、OpenCode 等），都可以正常使用包含的用量。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我们不会在没有与社区沟通并保持透明的情况下更改 Codex 使用限制。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "许多受影响用户使用了 sub2api，将订阅转换为 API 流量，然后重新服务或分享给多个用户。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "将订阅转换为 API 流量并重新服务或分享给多个用户的行为不受支持，会被欺诈预防系统标记。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "通过 Sign in With ChatGPT 使用订阅，无论是官方客户端还是 OSS 客户端（如 Pi、OpenCode 等），都可以正常使用包含的用量。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2090537902912815536:9d84c6f20ca7f033": {
+      "itemId": "tweet:2090537902912815536",
+      "sourceHash": "9d84c6f20ca7f033",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Boris Cherny：We've been working on this with customers for a while. Mythos-class models...",
+      "url": "https://x.com/bcherny/status/2090537902912815536",
+      "generatedAt": "2026-08-21T23:47:50.169Z",
+      "summary": {
+        "title": "Boris Cherny 透露 Mythos 级模型将支持企业自有数据控制，秋季推出",
+        "summary": "Boris Cherny 在推文中表示，团队已与客户就 Mythos 级模型合作一段时间。这类模型需要额外的安全措施，且企业需满足自身的隐私与合规要求。为此，客户将能够拥有并控制自己的数据，Anthropic 不保留任何数据。该功能预计于今年秋季推出。此消息回应了企业客户对数据主权和合规性的关切，表明 Anthropic 在高级模型商业化中重视企业级安全与隐私。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Mythos 级模型需要额外的安全措施，企业需要满足自身的隐私和合规规则。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "客户可以拥有并控制自己的数据，Anthropic 不保留任何数据。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "该功能将于今年秋季推出。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2090589731927282021:afc45bd5b553676c": {
+      "itemId": "tweet:2090589731927282021",
+      "sourceHash": "afc45bd5b553676c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：I'm on my way back to Vancouver to be with my mom but wanted to take a moment...",
+      "url": "https://x.com/petergyang/status/2090589731927282021",
+      "generatedAt": "2026-08-21T23:48:00.238Z",
+      "summary": {
+        "title": "Peter Yang 庆祝 YouTube 订阅破 10 万，预告 AI 实用访谈系列",
+        "summary": "Peter Yang 在前往温哥华陪伴母亲的途中，发推庆祝其 YouTube 频道订阅数突破 10 万，并预告即将发布一系列聚焦 AI 实用问题的访谈。他列举了四场已安排的对话：AI 评估专家 Hamel Husain 和 Shreya Shankar 将讨论当今 AI 模型如何彻底改变评估方法；Replit 产品工程主管 Amol Jain 将分享哪些 vibe-coded 应用已成长为真实业务；OpenAI 产品负责人 Evan Bloch 将介绍 ChatGPT Finance 如何帮助用户节省时间和金钱；SpaceXAI 的 Poteto 和 Roman 将讲解 Grok Bot 团队如何使用 Grok @bot。推文附有订阅链接，鼓励观众及时获取节目。该动态展示了 AI 领域一线从业者正在将技术讨论从概念转向落地实践，尤其关注评估、低代码开发、金融应用和智能体等热门方向，对关注 AI 产品化和商业化的读者具有参考价值。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Peter Yang 在个人事务途中仍不忘庆祝频道里程碑，并强调将分享更多实用访谈来回答观众最关心的 AI 问题。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "AI 评估专家 Hamel Husain 和 Shreya Shankar 将讨论当今 AI 模型如何彻底改变了评估（evals）的方式。",
+            "reference": "推文第 1 点"
+          },
+          {
+            "label": "案例",
+            "text": "Replit 产品工程主管 Amol Jain 将分享哪些 vibe-coded 应用已经真正成长为实际业务。",
+            "reference": "推文第 2 点"
+          },
+          {
+            "label": "案例",
+            "text": "OpenAI 产品负责人 Evan Bloch 将介绍 ChatGPT Finance 如何帮助用户同时节省时间和金钱。",
+            "reference": "推文第 3 点"
+          },
+          {
+            "label": "案例",
+            "text": "SpaceXAI 的 Poteto 和 Roman 将讲解 Grok Bot 团队如何使用 Grok @bot。",
+            "reference": "推文第 4 点"
+          },
+          {
+            "label": "数据",
+            "text": "YouTube 频道订阅数已突破 10 万（100K subs）。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "行动号召",
+            "text": "推文附有订阅链接，鼓励观众订阅以尽快获取节目。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
