@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-21T23:48:00.239Z",
+  "updatedAt": "2026-08-22T23:44:41.369Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -7207,6 +7207,76 @@
             "label": "行动号召",
             "text": "推文附有订阅链接，鼓励观众订阅以尽快获取节目。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2091033630147854385:3cee56f476751a61": {
+      "itemId": "tweet:2091033630147854385",
+      "sourceHash": "3cee56f476751a61",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Update on rate limits in Codex. We do see that for some users the cache hit...",
+      "url": "https://x.com/thsottiaux/status/2091033630147854385",
+      "generatedAt": "2026-08-22T23:44:35.918Z",
+      "summary": {
+        "title": "Codex 速率限制更新：缓存命中率下降导致部分用户用量消耗加快",
+        "summary": "Thibault Sottiaux 在 X 上发布动态，针对 Codex 的速率限制问题给出更新。他指出，本周部分用户的缓存命中率相比前几周的稳定状态有所下降。由于持续命中缓存是高效使用 Codex 的重要组成部分，缓存命中率下降可能导致这些用户的用量消耗速度加快。团队正在调查该问题，并将在明天提供进一步更新。这条动态反映了 Codex 在缓存机制上的波动对用户配额的影响，以及团队对用户反馈的快速响应。",
+        "excerpts": [
+          {
+            "label": "核心问题",
+            "text": "本周部分用户的缓存命中率相比前几周的稳定状态有所下降。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "影响",
+            "text": "缓存命中率下降可能导致这些用户的用量消耗速度加快。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "原因分析",
+            "text": "持续命中缓存是高效使用 Codex 的重要组成部分。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "后续行动",
+            "text": "团队正在调查该问题，并将在明天提供进一步更新。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2090852318527033804:51266957c3559a5a": {
+      "itemId": "tweet:2090852318527033804",
+      "sourceHash": "51266957c3559a5a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：Suggested patches open in Claude Code on the web, using the models your team...",
+      "url": "https://x.com/claudeai/status/2090852318527033804",
+      "generatedAt": "2026-08-22T23:44:41.369Z",
+      "summary": {
+        "title": "Claude 推出网页版 Claude Code 建议补丁，安全团队无需直接访问模型",
+        "summary": "Claude 官方宣布，建议补丁（Suggested patches）现可在网页版 Claude Code 中打开，并使用团队已在使用的模型。这一更新旨在让防御者（安全团队）无需直接访问模型即可获取 Mythos 扫描结果：模型在扫描背后运行，仅返回发现结果。扫描按现有计划下的标准 token 用量计费。该功能降低了安全团队使用 AI 辅助代码审查的门槛，同时保持模型访问控制。",
+        "excerpts": [
+          {
+            "label": "核心功能",
+            "text": "建议补丁现可在网页版 Claude Code 中打开，并使用团队已在使用的模型。",
+            "reference": "原文第一句"
+          },
+          {
+            "label": "设计目标",
+            "text": "这些更新旨在让防御者无需直接访问模型即可获取 Mythos 结果。",
+            "reference": "原文第二句"
+          },
+          {
+            "label": "工作方式",
+            "text": "模型在扫描背后运行，仅返回发现结果，不暴露模型本身。",
+            "reference": "原文第二句"
+          },
+          {
+            "label": "计费方式",
+            "text": "扫描按现有计划下的标准 token 用量计费，无额外费用。",
+            "reference": "原文第三句"
           }
         ],
         "materials": []
