@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-22T23:44:41.369Z",
+  "updatedAt": "2026-08-23T23:44:59.434Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -7277,6 +7277,191 @@
             "label": "计费方式",
             "text": "扫描按现有计划下的标准 token 用量计费，无额外费用。",
             "reference": "原文第三句"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2091407991736332689:71bd3c8687455370": {
+      "itemId": "tweet:2091407991736332689",
+      "sourceHash": "71bd3c8687455370",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Update on rate limits in Codex. We’ve found (a) some inefficiencies when using...",
+      "url": "https://x.com/thsottiaux/status/2091407991736332689",
+      "generatedAt": "2026-08-23T23:44:34.639Z",
+      "summary": {
+        "title": "Codex 速率限制更新：发现低效问题，明日修复并重置用量",
+        "summary": "Thibault Sottiaux 在 X 上发布关于 Codex 速率限制的更新。团队发现三个主要问题：(a) 在长会话中多次压缩时使用图像存在低效；(b) 计算机历史记录的高 p95+ 用量；(c) 一个用于生成对话标题的功能消耗了超出预期的用量。团队已成立老虎小组全面排查，并计划明日发布修复。此外，团队还发现了一种完全无关的新方法，可显著提升效率，将于下周着手处理。作为明日修复的一部分，所有付费订阅的用量将被完全重置。",
+        "excerpts": [
+          {
+            "label": "问题发现",
+            "text": "我们发现了三个问题：(a) 长会话中多次压缩时使用图像存在低效；(b) 计算机历史记录的高 p95+ 用量；(c) 一个用于生成对话标题的功能消耗了超出预期的用量。",
+            "reference": "原文"
+          },
+          {
+            "label": "团队行动",
+            "text": "我们有一个老虎小组正在全面排查所有问题，并将在明天发布修复。",
+            "reference": "原文"
+          },
+          {
+            "label": "新效率方法",
+            "text": "我们还发现了一种完全无关的新方法，可以显著提升效率，我们将在下周着手处理。",
+            "reference": "原文"
+          },
+          {
+            "label": "用量重置",
+            "text": "作为明天修复的一部分，我们还将对所有付费订阅的用量进行完全重置。",
+            "reference": "原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2091331251211059468:43c55755a886e9fe": {
+      "itemId": "tweet:2091331251211059468",
+      "sourceHash": "43c55755a886e9fe",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：If you care about your privacy: 1. Go to https://t.co/yICN6WAe9R in Chrome 2....",
+      "url": "https://x.com/petergyang/status/2091331251211059468",
+      "generatedAt": "2026-08-23T23:44:40.162Z",
+      "summary": {
+        "title": "Peter Yang 分享用 AI 清理 Google 账户第三方应用权限的隐私技巧",
+        "summary": "Peter Yang 在 X 上分享了一个保护隐私的实用方法：在 Chrome 中打开 Google 账户的第三方应用权限管理页面，然后让 Codex 或 Claude Code 等 AI 助手读取该页面，并告知 AI 浏览器中有此标签页，接着选择要移除权限的应用，让 AI 代为操作。他声称已用此方法断开了约一半不应再拥有其 Google 信息的应用。该推文获得 447 个赞、23 次转发和 20 条回复，反映了用户对自动化管理隐私权限的兴趣。",
+        "excerpts": [
+          {
+            "label": "操作步骤",
+            "text": "如果你在乎隐私：1. 在 Chrome 中打开 Google 账户的第三方应用权限页面；2. 在 Codex 或 Claude Code 中运行提示，并告诉 AI 浏览器中有打开的标签页；3. 选择你想移除的应用，让 AI 去执行。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "个人效果",
+            "text": "刚刚断开了大约一半本不应再拥有我 Google 信息的应用。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 447 个赞、23 次转发、20 条回复，显示一定关注度。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2091359223368315050:99adabc19eb84476": {
+      "itemId": "tweet:2091359223368315050",
+      "sourceHash": "99adabc19eb84476",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：AI diffusion is far more rate limited by having good evals than most realize....",
+      "url": "https://x.com/levie/status/2091359223368315050",
+      "generatedAt": "2026-08-23T23:44:45.566Z",
+      "summary": {
+        "title": "Aaron Levie：AI 扩散的真正瓶颈是缺乏好的评估",
+        "summary": "Aaron Levie 在推文中指出，AI 扩散的速度远比人们意识到的更受限于是否有好的评估（evals）。当前每次模型发布时常见的评估虽然有用，但只能反映通用 AI 进展和模型相对能力水平。更大的空间在于针对企业所有主要工作流程的评估，甚至细化到单个公司的具体场景。这个领域将非常巨大，因为无法评估进展就无法自动化。企业不能仅凭感觉（vibes）来推进 AI 应用。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 扩散的速度远比人们意识到的更受限于是否有好的评估。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "现有评估的局限",
+            "text": "每次模型发布时看到的评估非常有帮助，但只能告诉你通用 AI 进展的形态和模型的相对能力水平。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "未来评估空间",
+            "text": "更大的空间在于针对企业所有主要工作流程的评估，甚至细化到单个公司的具体场景。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "市场规模判断",
+            "text": "这个领域将非常巨大，因为无法评估进展就无法自动化。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "企业实践警示",
+            "text": "企业不能仅凭感觉（vibes）来推进 AI 应用。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2091379220257603593:2f704ea5e5e3b91a": {
+      "itemId": "tweet:2091379220257603593",
+      "sourceHash": "2f704ea5e5e3b91a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Zara Zhang：There’s a phenomenon where talented individuals can achieve 10x their potential...",
+      "url": "https://x.com/zarazhangrui/status/2091379220257603593",
+      "generatedAt": "2026-08-23T23:44:50.034Z",
+      "summary": {
+        "title": "AI 放大个人潜力，却难放大组织潜力",
+        "summary": "Zara Zhang 在推文中指出一个现象：有才华的人在独立做自己的项目时，借助 AI 可以实现 10 倍潜力；但同样的人进入大型组织后，潜力提升最多只有 20%，有时甚至下降。她认为这正是越来越多有才华的人离开大公司的原因，唯一的例外可能是 OpenAI、Anthropic 等顶级 AI 实验室。该观点揭示了 AI 时代个人与组织在创新效率上的巨大差距，以及人才流向的变化趋势。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "有才华的人在独立做自己的项目时，借助 AI 可以实现 10 倍潜力；但同样的人进入大型组织后，潜力提升最多只有 20%，有时甚至下降。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "趋势判断",
+            "text": "这正是越来越多有才华的人离开大公司的原因。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "例外情况",
+            "text": "唯一的例外可能是 OpenAI、Anthropic 等顶级 AI 实验室。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2091278653435072523:97df1c16afc0c398": {
+      "itemId": "tweet:2091278653435072523",
+      "sourceHash": "97df1c16afc0c398",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Madhu Guru：How to build great evals - part 6 Hill climbing on evals is just a fancy way of...",
+      "url": "https://x.com/realmadhuguru/status/2091278653435072523",
+      "generatedAt": "2026-08-23T23:44:59.433Z",
+      "summary": {
+        "title": "如何构建优秀的评估——第6部分：在评估上进行爬山式优化",
+        "summary": "Madhu Guru 在这条推文中继续其“如何构建优秀的评估”系列，提出“在评估上进行爬山式优化”本质上就是选择一个重要的维度并针对它进行优化。这个维度可以是基于最新生产数据改进现有功能的质量、扩展到相邻用例、降低成本或延迟。实际工作归结为通过提示工程、上下文工程、记忆、后训练、确定性代码等方法来改进测试框架和模型选择。他建议利用第3部分中提到的失败模式分类法作为指南针，找出产品中需要改进的地方。例如，如果工具调用失败是最常见的问题，可以检查是否在上下文中塞入了过多工具（如20个），而每个任务实际只需要3-5个，然后通过上下文工程在正确阶段提供正确的工具，迭代直到达到良好效果。对于降低成本的目标，他建议先用最好的模型启动产品，确保用户体验良好后，再通过爬山式优化用更小、更便宜、更快的模型达到相似质量。关键是拥有能够告诉你是否在正确方向上前进的评估。他鼓励读者将内容分享给队友，并在评论中提问。",
+        "excerpts": [
+          {
+            "label": "核心定义",
+            "text": "在评估上进行爬山式优化只是一种花哨的说法：选择一个重要的维度并针对它进行优化。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "优化维度示例",
+            "text": "这可以是基于最新生产数据改进现有功能的质量、扩展到相邻用例、降低成本或延迟。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "实际工作内容",
+            "text": "实际工作归结为通过提示工程、上下文工程、记忆、后训练、确定性代码等方法来改进测试框架和模型选择。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "失败模式分类法的作用",
+            "text": "你的失败模式分类法（来自第3部分）是一个很好的指南针，告诉你产品在哪里遇到困难并需要改进。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "工具调用失败案例",
+            "text": "例如，也许工具调用失败是你最常见的问题。你深入研究后发现你在上下文中塞入了20个工具，而每个任务实际上只需要3-5个。这里的爬山式优化涉及上下文工程，在正确的阶段提供正确的工具，并迭代直到达到良好效果。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "成本降低策略",
+            "text": "对于降低成本的目标，我建议先用最好的模型启动产品，尽可能提高质量。一旦你知道用户喜欢这个体验，就进行爬山式优化，用更小、更便宜、更快的模型达到相似质量。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "评估的重要性",
+            "text": "重要的是拥有能够告诉你是否在正确方向上前进的评估。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
