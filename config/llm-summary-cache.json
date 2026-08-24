@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-23T23:44:59.434Z",
+  "updatedAt": "2026-08-24T23:46:12.497Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -7461,6 +7461,171 @@
           {
             "label": "评估的重要性",
             "text": "重要的是拥有能够告诉你是否在正确方向上前进的评估。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2091596272654582062:60a975aa35020d77": {
+      "itemId": "tweet:2091596272654582062",
+      "sourceHash": "60a975aa35020d77",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Ryo Lu：leaving leaving is the process from fullness into emptiness from the familiar...",
+      "url": "https://x.com/ryolu_/status/2091596272654582062",
+      "generatedAt": "2026-08-24T23:45:50.416Z",
+      "summary": {
+        "title": "离开：从充盈到空无，从熟悉到未知",
+        "summary": "Ryo Lu 在这条推文中以诗意的语言描述了“离开”的过程。离开是从充盈走向空无，从熟悉的生活圈、熟悉的街道、熟悉的人与标签，走向一个完全未知、等待书写新生活的地方。在离开前，作者将藏在心中的一切逐一取出并告别，记忆与情感随之升起，直到内心房间被清空，几乎回到初来时的状态：无家具、无归属、敞开。剩下的空白中回荡着对孤独的恐惧、对自由的渴望，以及无法回答的问题：什么是自由？什么是幸福？作者回顾初来时如漂流在河中，随波逐流，只想着创造事物；而现在必须亲手掌舵，不再将波浪误认为命运，或将岸边误认为救赎。作者会怀念过去的日子，但必须重新学会在孤独中入睡，在不确定中进食，在空白中辨认欲望，并通过离开的行动，将自由从理念变成每天实践的生活。这条推文以个人化的叙述引发共鸣，探讨了离开、自由、孤独与自我重建的主题，获得了808个赞和31次转发，评论区有38条回复，显示出其情感深度和普遍性。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "离开是从充盈走向空无，从熟悉的生活圈、熟悉的街道、熟悉的人与标签，走向一个完全未知、等待书写新生活的地方。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "金句",
+            "text": "我逐一清空内心的房间，直到几乎回到初来时的状态：无家具、无归属、敞开。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "剩下的空白中回荡着我对孤独的恐惧、对自由的渴望，以及我仍无法回答的问题：什么是自由？什么是幸福？",
+            "reference": "推文中段"
+          },
+          {
+            "label": "类比",
+            "text": "初来时我如漂流在河中，随波逐流，只想着创造事物；现在我必须亲手掌舵，不再将波浪误认为命运，或将岸边误认为救赎。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "金句",
+            "text": "我必须重新学会如何在孤独中入睡，如何在不确定中进食，如何在空白中辨认欲望，并通过离开的行动，将自由从理念变成每天实践的生活。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2091583525661384813:4f6a3d07042807db": {
+      "itemId": "tweet:2091583525661384813",
+      "sourceHash": "4f6a3d07042807db",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Our philosophy on extending 𝚏𝚡: open protocols. ∙ MCP...",
+      "url": "https://x.com/rauchg/status/2091583525661384813",
+      "generatedAt": "2026-08-24T23:45:56.567Z",
+      "summary": {
+        "title": "Guillermo Rauch 谈扩展 fx 的哲学：开放协议与 Unix 原则",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中阐述了扩展 fx 的核心理念：拥抱开放协议。他列举了三个关键协议：MCP（模型上下文协议）、Skills（智能体技能）和 Plugins（智能体插件），并强调最好的范例是 Unix 哲学。他提出两条具体原则：一是构建只做好一件事、通过调用其他程序来组合的小程序；二是提供 libfx 库，使 fx 能够嵌入到更复杂的程序中。最终目标是让开发者能够构建自己的 CLI、后台智能体或软件工厂，无论是在本地还是云端运行。这条推文反映了 AI 工具链正在向开放、可组合、可嵌入的方向演进，对开发者生态具有重要参考价值。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "扩展 fx 的哲学是开放协议：MCP、Skills、Plugins，以及最好的 Unix。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "Unix 原则一",
+            "text": "小程序只做好一件事，并通过调用其他程序来组合。",
+            "reference": "推文第①点"
+          },
+          {
+            "label": "Unix 原则二",
+            "text": "提供 libfx 库，使 fx 能够嵌入到更复杂的程序中。",
+            "reference": "推文第②点"
+          },
+          {
+            "label": "目标愿景",
+            "text": "你应该能够构建自己的 CLI、后台智能体、软件工厂，本地或云端皆可。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "协议列举",
+            "text": "MCP（modelcontextprotocol.io）、Skills（agentskills.io）、Plugins（agent-plugins.org）是三个关键开放协议。",
+            "reference": "推文中的链接"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2091671326897713424:12fe6a8c065dc206": {
+      "itemId": "tweet:2091671326897713424",
+      "sourceHash": "12fe6a8c065dc206",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Intelligence is getting cheaper. @OpenAI Sol's price reductions & discounts on...",
+      "url": "https://x.com/rauchg/status/2091671326897713424",
+      "generatedAt": "2026-08-24T23:46:03.308Z",
+      "summary": {
+        "title": "智能正变得更便宜：OpenAI Sol 降价与 Vercel AI Gateway 的弹性需求",
+        "summary": "Guillermo Rauch 在推文中指出，OpenAI Sol 模型在 Vercel AI Gateway 上的价格下调与折扣使其成为增长最快的前沿模型。这一现象表明智能的需求具有高度弹性：推理成本下降会带来用量的快速增长。他进一步强调，如果不使用 AI 网关，就会错过这种价格波动带来的成本降低和利润提升机会。这也解释了路由器（router）领域竞争加剧的原因——网关是不可避免的趋势。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "智能正变得更便宜。OpenAI Sol 在 Vercel AI Gateway 上的降价和折扣使其成为我们增长最快的前沿模型。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "数据/案例",
+            "text": "Sol 成为 Vercel AI Gateway 上增长最快的前沿模型，直接体现了降价对用量的拉动作用。",
+            "reference": "推文第一句"
+          },
+          {
+            "label": "观点",
+            "text": "对智能的需求具有高度弹性：随着推理成本下降，使用量会迅速增长。",
+            "reference": "推文中间"
+          },
+          {
+            "label": "观点",
+            "text": "如果你不使用网关，就会错过这种令人难以置信的价格波动，而网关能降低你的运营成本并提高利润率。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "观点",
+            "text": "路由器（router）领域的竞争升温并不奇怪……网关是不可避免的。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2091684812012875981:577d4fc5edee6e00": {
+      "itemId": "tweet:2091684812012875981",
+      "sourceHash": "577d4fc5edee6e00",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Madhu Guru：How to build great evals - part 7. The Goldilocks principle for eval...",
+      "url": "https://x.com/realmadhuguru/status/2091684812012875981",
+      "generatedAt": "2026-08-24T23:46:12.497Z",
+      "summary": {
+        "title": "构建优秀评估的第七部分：评估构建的“金发姑娘原则”",
+        "summary": "Madhu Guru 在推文中提出，构建 AI 评估时应遵循“金发姑娘原则”，即评估粒度要恰到好处，不能太粗也不能太细。他以金融分析智能体为例，指出常见错误是只评估最终股票推荐是否正确，而忽略了中间多个关键任务。他建议将智能体的工作流程分解为多个阶段，如理解客户、收集证据、分析数据和给出推荐，并为每个阶段构建独立的评估集。这样当最终推荐出错时，可以通过各阶段的评估得分（如客户理解 92%、证据提取 92%、数据分析 70%、推荐 75%）快速定位问题所在。如果某个阶段得分低，还可以进一步细化该阶段的任务并构建更细粒度的评估。核心思想是评估粒度应足够细以支持诊断和行动，但不应过度细化。",
+        "excerpts": [
+          {
+            "label": "核心原则",
+            "text": "你的评估应该衡量各个待完成任务的层级，而不仅仅是最终答案。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "常见错误",
+            "text": "最常见的错误是团队创建一组正确答案，然后检查智能体是否推荐了“正确”的股票。",
+            "reference": "推文中间"
+          },
+          {
+            "label": "阶段划分示例",
+            "text": "以金融分析智能体为例，可以分解为：1/ 理解客户（投资组合、风险承受能力、投资期限、目标、约束）；2/ 收集证据（不同股票、行业、宏观环境、美联储政策、近期新闻事件的最新数据）；3/ 分析数据（收入增长、估值指引、增长预测，并产生更窄的候选股票列表）；4/ 给出推荐（股票代码、买入/卖出价格、时间框架）。",
+            "reference": "推文中间"
+          },
+          {
+            "label": "诊断价值",
+            "text": "如果最终推荐错误，设计良好的评估集会告诉你：客户理解 92%，证据提取 92%，数据分析 70%，推荐 75%。现在你知道该去哪里深挖了。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "细化策略",
+            "text": "你可能会觉得数据分析步骤太复杂，需要将其分解为一组待完成的任务，并为它们构建评估集。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "金发姑娘原则",
+            "text": "不要太细，不要太粗，恰到好处。让你的评估集粒度足够细，以便诊断和采取行动。",
             "reference": "推文结尾"
           }
         ],
