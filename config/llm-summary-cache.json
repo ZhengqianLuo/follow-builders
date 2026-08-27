@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-25T23:48:41.593Z",
+  "updatedAt": "2026-08-27T04:37:36.641Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -7811,6 +7811,217 @@
           }
         ],
         "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2092299704864284888:e024a39603f65782": {
+      "itemId": "tweet:2092299704864284888",
+      "sourceHash": "e024a39603f65782",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：Claude now has one memory across chat and Claude Cowork, and you decide what's...",
+      "url": "https://x.com/claudeai/status/2092299704864284888",
+      "generatedAt": "2026-08-27T04:37:05.605Z",
+      "summary": {
+        "title": "Claude 推出跨聊天与 Cowork 的统一记忆功能，用户可自主控制内容",
+        "summary": "Claude 官方宣布，Claude 现在在聊天和 Claude Cowork 之间拥有统一的记忆，用户可以决定记忆中的内容。这意味着当用户向 Cowork 下达任务时，Claude 会从之前的聊天中获取已知信息，例如讨论过的项目、经理的偏好或上个季度的客户，从而提供更连贯、个性化的协助。这一功能旨在减少重复解释，提升工作效率，并赋予用户对记忆内容的完全控制权。",
+        "excerpts": [
+          {
+            "label": "核心功能",
+            "text": "Claude 现在在聊天和 Claude Cowork 之间拥有统一的记忆，用户可以决定记忆中的内容。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "应用场景",
+            "text": "向 Cowork 下达任务时，Claude 会从之前的聊天中获取已知信息，例如讨论过的项目、经理的偏好或上个季度的客户。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "用户控制",
+            "text": "用户决定记忆中的内容，强调对个人数据的控制权。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2092345330272780499:daa9e90d778dc66e": {
+      "itemId": "tweet:2092345330272780499",
+      "sourceHash": "daa9e90d778dc66e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：So much demand for this one. Works similar to the Pro $100 plan but designed...",
+      "url": "https://x.com/thsottiaux/status/2092345330272780499",
+      "generatedAt": "2026-08-27T04:37:12.523Z",
+      "summary": {
+        "title": "Thibault Sottiaux 发布团队版 AI 计划，功能对标 Pro 但无 5 小时限制",
+        "summary": "Thibault Sottiaux 在 X 上发布了一条动态，宣布推出一款面向团队和小型公司的 AI 订阅计划。该计划功能与每月 100 美元的 Pro 计划类似，但专为团队设计，包含 ChatGPT、ChatGPT Work 和 Codex 的全部功能，支持连接 Google Workspace、Slack、GitHub、Microsoft 365 等工具，提供 SAML、SSO、MFA 安全认证，以及集中计费、管理、用量分析和支出控制，并且没有 5 小时的使用限制。这条动态获得了 2926 个赞、110 次转发和 569 条回复，显示出较高的关注度。",
+        "excerpts": [
+          {
+            "label": "产品定位",
+            "text": "这款产品需求很大，功能与 Pro 100 美元计划类似，但专为团队和小公司设计。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "功能覆盖",
+            "text": "包含 ChatGPT、ChatGPT Work 和 Codex 的全部功能。",
+            "reference": "推文列表第一项"
+          },
+          {
+            "label": "集成能力",
+            "text": "可连接 Google Workspace、Slack、GitHub、Microsoft 365 等工具。",
+            "reference": "推文列表第二项"
+          },
+          {
+            "label": "安全特性",
+            "text": "提供 SAML、SSO 和 MFA 的安全工作区。",
+            "reference": "推文列表第三项"
+          },
+          {
+            "label": "管理与控制",
+            "text": "支持集中计费、管理、用量分析和支出控制。",
+            "reference": "推文列表第四、五项"
+          },
+          {
+            "label": "使用限制",
+            "text": "没有 5 小时的使用限制。",
+            "reference": "推文列表第六项"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2092249012913258946:e276eb5d0024834e": {
+      "itemId": "tweet:2092249012913258946",
+      "sourceHash": "e276eb5d0024834e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：Today, I’m open-sourcing /fuck-cancer, an AI skill that helps patients and...",
+      "url": "https://x.com/petergyang/status/2092249012913258946",
+      "generatedAt": "2026-08-27T04:37:23.423Z",
+      "summary": {
+        "title": "Peter Yang 开源 /fuck-cancer：帮助癌症患者与照护者自我倡导的 AI 技能",
+        "summary": "Peter Yang 在 X 上宣布开源 /fuck-cancer，这是一个面向癌症患者和照护者的 AI 技能，旨在帮助他们应对诊断与治疗过程中的信息过载、沟通困难和自我倡导需求。他分享了自己母亲的故事后，从患者和照护者那里收集到核心痛点：必须成为强有力的患者倡导者，主动提问、争取活检和适当检测；需要帮助处理艰难对话和自我倡导；医生、文件和保险文书数量庞大，令人不堪重负。该技能通过创建并持续更新一份包含五个部分的实用简报来解决问题：患者与照护团队信息（便于通话时快速参考）、接下来要做的三件具体事项、已知信息（区分已确认事实与尚不明确之处）、用通俗英语解释的医学术语、以及包含近期更新和决策的照护日志。简报基于用户提供的文档和上下文构建，需要研究时使用美国国家癌症研究所和 ClinicalTrials.gov API 等可信来源。Peter 本人将其与 ChatGPT/Codex 和 Claude Code 配合使用，用于对话准备和研究。简报可以本地保存为 Markdown 文件，或更新到可共享的 Google Doc，让全家人基于同一信息协作。该技能免费开源，Peter 呼吁觉得有用的人给仓库加星并分享给正在经历癌症的人。",
+        "excerpts": [
+          {
+            "label": "用户痛点",
+            "text": "“你必须成为一个强有力的患者倡导者。要主动提问，争取答案、活检和适当的检测。”",
+            "reference": "推文正文，患者/照护者反馈"
+          },
+          {
+            "label": "用户痛点",
+            "text": "“我需要帮助处理艰难的对话，并为自己发声。”",
+            "reference": "推文正文，患者/照护者反馈"
+          },
+          {
+            "label": "用户痛点",
+            "text": "“医生、文件和保险文书数量庞大，很快就会让人不堪重负。”",
+            "reference": "推文正文，患者/照护者反馈"
+          },
+          {
+            "label": "技能核心功能",
+            "text": "该技能创建并更新一份包含五个部分的实用简报：患者与照护团队信息、接下来要做的三件具体事项、已知信息（区分已确认事实与尚不明确之处）、用通俗英语解释的医学术语、以及照护日志。",
+            "reference": "推文正文，技能描述"
+          },
+          {
+            "label": "数据来源",
+            "text": "当需要研究时，它使用可信来源，如美国国家癌症研究所和 ClinicalTrials.gov API。",
+            "reference": "推文正文，技能描述"
+          },
+          {
+            "label": "使用方式",
+            "text": "我将其与 ChatGPT/Codex 和 Claude Code 配合使用，用于对话准备和研究。简报可以本地保存为 Markdown 文件，或更新到可共享的 Google Doc，让全家人基于同一信息协作。",
+            "reference": "推文正文，个人使用体验"
+          },
+          {
+            "label": "开源呼吁",
+            "text": "获取免费的开源技能：https://t.co/YUGoFbhnNc。如果你觉得有用，请给仓库加星，并分享给正在经历这种该死疾病的人。",
+            "reference": "推文正文，结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2092293667688173593:c9535f7c897cd1aa": {
+      "itemId": "tweet:2092293667688173593",
+      "sourceHash": "c9535f7c897cd1aa",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Google Labs：🚨 NEW LABS EXPERIMENT 🚨 Great minds t̵h̵i̵n̵k̵ play alike! Play with Putty is...",
+      "url": "https://x.com/GoogleLabs/status/2092293667688173593",
+      "generatedAt": "2026-08-27T04:37:29.974Z",
+      "summary": {
+        "title": "Google Labs 推出协作式氛围编程工具 Play with Putty",
+        "summary": "Google Labs 在 X 上宣布了一项新的实验性工具 Play with Putty，这是一个协作式氛围编程（vibe coding）工具，允许多个用户实时共同构建工具和网站。推文强调“伟大的头脑玩到一起”，并邀请美国 18 岁以上的用户加入候补名单。该工具旨在将单人编程体验扩展为多人协作，让想象力进入“多人模式”。目前仅限美国用户，需年满 18 岁。推文互动量较高（1234 次点赞、102 次转发、53 条回复），显示社区对协作编程工具的兴趣。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "伟大的头脑玩到一起（Great minds play alike），暗示协作与游戏化是编程的未来。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "Play with Putty 是一个协作式氛围编程工具，让你实时与他人一起构建工具和网站。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "金句",
+            "text": "准备好让你的想象力进入多人模式了吗？",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "数据",
+            "text": "推文获得 1234 次点赞、102 次转发、53 条回复，显示较高关注度。",
+            "reference": "互动数据"
+          },
+          {
+            "label": "限制条件",
+            "text": "仅限美国用户，且需年满 18 岁。",
+            "reference": "推文末尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2092382653161107534:884f336fdd7d23e5": {
+      "itemId": "tweet:2092382653161107534",
+      "sourceHash": "884f336fdd7d23e5",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：We're introducing Run SDK: secure 𝚎𝚟𝚊𝚕 for dynamic Code Mode execution....",
+      "url": "https://x.com/rauchg/status/2092382653161107534",
+      "generatedAt": "2026-08-27T04:37:36.640Z",
+      "summary": {
+        "title": "Guillermo Rauch 推出 Run SDK：为动态代码执行提供安全 eval",
+        "summary": "Vercel CEO Guillermo Rauch 在 X 上宣布推出 Run SDK，这是一个用于动态 Code Mode 执行的安全 eval 工具。当 AI 智能体编写代码时，并非总是需要完整的沙箱环境；Run SDK 允许在轻量级的 QuickJS 安全上下文中运行代码，从而更快、更具成本效益。该 SDK 可通过 npm 安装（npm i run）。推文附带了相关链接和截图，展示了其用法和集成方式。这一工具面向 AI 智能体开发场景，旨在简化代码执行流程，降低资源开销，同时保证安全性。",
+        "excerpts": [
+          {
+            "label": "核心功能",
+            "text": "Run SDK 提供安全的 eval，用于动态 Code Mode 执行，无需完整沙箱。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "技术实现",
+            "text": "代码在轻量级 QuickJS 安全上下文中运行，兼顾速度与成本。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "安装方式",
+            "text": "通过 npm 安装：npm i run。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "适用场景",
+            "text": "当智能体编写代码时，不一定需要完整沙箱，Run SDK 提供更轻量的选择。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": [
+          {
+            "label": "推文截图",
+            "url": "https://t.co/ZLqpkwqTT5",
+            "note": "查看 Run SDK 的演示或代码示例截图"
+          },
+          {
+            "label": "推文截图",
+            "url": "https://t.co/6ElyxieLme",
+            "note": "查看 Run SDK 的集成或使用界面截图"
+          }
+        ]
       }
     }
   }
