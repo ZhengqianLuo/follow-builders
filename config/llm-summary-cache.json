@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-27T04:37:36.641Z",
+  "updatedAt": "2026-08-28T07:00:50.096Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -8020,6 +8020,102 @@
             "label": "推文截图",
             "url": "https://t.co/6ElyxieLme",
             "note": "查看 Run SDK 的集成或使用界面截图"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:podcast:93e6da38-4734-46f2-ac94-d3ba6e93e68b:45afbfe554732b15": {
+      "itemId": "podcast:93e6da38-4734-46f2-ac94-d3ba6e93e68b",
+      "sourceHash": "45afbfe554732b15",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "AI & I by Every: A $10B Hedge Fund’s AI Playbook (Best of the Pod)",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "generatedAt": "2026-08-28T07:00:41.862Z",
+      "summary": {
+        "title": "百亿对冲基金 Walleye 的 AI 实战手册",
+        "summary": "本期播客采访了 Walleye 的 CEO、CIO 兼管理合伙人 Will。Walleye 是一家管理规模接近 100 亿美元的对冲基金，约有 400 名员工。Will 拥有工程和数学背景，曾在普林斯顿大学学习工程，在牛津大学获得数学博士学位，职业生涯早期编写算法策略代码。他向全公司发送了一封主题为“AI at Walleye, a challenge to all of us”的电子邮件，明确表示“使用 ChatGPT 不是作弊”，并鼓励所有员工拥抱 AI 工具。Walleye 两年前启动了一个名为 Current 的内部 AI 项目，由一位前 TMT 分析师领导，旨在为基本面投资提供分析支持。在量化交易中，Walleye 已使用 AI 多年，包括利用大语言模型进行情感分析。Will 要求全公司所有员工接受 AI 工具培训，无论部门或技术背景，并通过每周 AI 聚会、排行榜和激励措施来推广使用。他认为 AI 工具的不完美不应成为忽视它们的理由，并强调写作是思考的过程，使用 LLM 可以将写作时间从 4-5 小时缩短到 15 分钟。公司内部几乎记录所有 Zoom 和电话，并计划建立数据湖以利用这些数据。Will 每天与风险团队进行风险电话会议，并利用 LLM 处理转录以提供洞察和预测。他认为公司正在构建集体智能，将各部门数据连接起来，但仍在起步阶段。Will 强调 LLM 不会取代思考，而是节省机械写作时间，让人有更多时间思考概念，使用 LLM 时仍需人类参与，不能完全外包思考，类比为喷气发动机需要飞机。内部产品 Current 整合分析师笔记、经纪人信息、PDF、财报电话会议记录等，帮助投资组合经理节省时间。Will 认为历史模式会重演，但不会完全重复，人类本性不变，投资中量化模型依赖历史模式。人类投资者在低样本情况下仍有优势，因为机器缺乏先验知识，而人类能处理模糊性。神经网络的不可解释性与人类直觉类似，两者都基于高维经验。直觉对构建过程很重要，类似于第一性原理，机器可以帮助产生直觉。数学中的第一性原理与决策中的第一性原理不同，后者具有主观性。激励的力量和智力诚实是重要的第一性原理。Will 每天用 AI 写日记，记录家庭、工作和健康三个方面，日记帮助回顾当时的想法，AI 使记录变得容易。责任意味着充分利用天赋和能力，对家庭、投资者和员工负责。领导者有责任为员工准备 AI 时代的到来。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "使用 ChatGPT 不是作弊。这是从学术界带来的不适用观念。在现实世界中，使用 AI 就像服用一种神奇的灵药，能让你瞬间聪明 20% 或更多。",
+            "reference": "14:52 - 15:16"
+          },
+          {
+            "label": "案例",
+            "text": "Walleye 两年前启动了一个名为 Current 的内部 AI 项目，由一位前 TMT 分析师领导，旨在为基本面投资提供分析支持。",
+            "reference": "06:31 - 07:16"
+          },
+          {
+            "label": "数据",
+            "text": "使用 LLM 将写作时间从 4-5 小时缩短到 15 分钟，通过提供要点和上下文生成符合自己声音的文本。",
+            "reference": "26:16 - 26:49"
+          },
+          {
+            "label": "类比",
+            "text": "使用 LLM 时仍需人类参与，不能完全外包思考，类比为喷气发动机需要飞机。",
+            "reference": "34:40 - 35:08"
+          },
+          {
+            "label": "观点",
+            "text": "人类投资者在低样本情况下仍有优势，因为机器缺乏先验知识，而人类能处理模糊性。",
+            "reference": "49:05 - 49:43"
+          },
+          {
+            "label": "观点",
+            "text": "激励的力量和智力诚实是重要的第一性原理。",
+            "reference": "56:33 - 57:38"
+          },
+          {
+            "label": "案例",
+            "text": "Will 每天用 AI 写日记，记录家庭、工作和健康三个方面，日记帮助回顾当时的想法，AI 使记录变得容易。",
+            "reference": "57:38 - 59:49"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2092621371914482026:35d3c61d47aa1779": {
+      "itemId": "tweet:2092621371914482026",
+      "sourceHash": "35d3c61d47aa1779",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：We're shipping a cool security dashboard, but also the 𝚟𝚎𝚛𝚌𝚎𝚕...",
+      "url": "https://x.com/rauchg/status/2092621371914482026",
+      "generatedAt": "2026-08-28T07:00:50.096Z",
+      "summary": {
+        "title": "Vercel 发布安全仪表盘与安全检测 CLI，用智能体提升安全态势",
+        "summary": "Vercel CEO Guillermo Rauch 在 X 上宣布推出安全仪表盘和 Vercel Security Check CLI。该 CLI 类似 is-agentic，允许用户调用智能体来改善安全态势，支持人在回路（human-in-the-loop）模式，也可在 cron 定时任务中自动运行。Rauch 调侃道“谁能想到 CLI 会拯救世界”。推文配有两张截图，展示安全仪表盘界面和 CLI 运行示例。该动态获得 261 个赞、12 次转发和 34 条回复，反映了开发者社区对安全工具自动化的关注。",
+        "excerpts": [
+          {
+            "label": "核心发布",
+            "text": "我们正在发布一个很酷的安全仪表盘，还有 Vercel Security Check CLI。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "功能类比",
+            "text": "很像 is-agentic，你可以调用智能体来改善你的安全态势，支持人在回路，或者放在 cron 里运行。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "金句",
+            "text": "谁能想到 CLI 会拯救世界呢 😁",
+            "reference": "推文正文"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 261 个赞、12 次转发、34 条回复。",
+            "reference": "推文互动统计"
+          }
+        ],
+        "materials": [
+          {
+            "label": "安全仪表盘截图",
+            "url": "https://t.co/xuVkD7KlHp",
+            "note": "查看 Vercel 安全仪表盘界面，了解展示的安全指标和可视化布局。"
+          },
+          {
+            "label": "CLI 运行示例截图",
+            "url": "https://t.co/SS4rnLhVep",
+            "note": "查看 Vercel Security Check CLI 的终端输出示例，了解命令格式和智能体交互过程。"
           }
         ]
       }
