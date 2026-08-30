@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-29T04:17:19.911Z",
+  "updatedAt": "2026-08-30T01:26:53.194Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -8290,6 +8290,196 @@
             "label": "预测",
             "text": "到2029年，AI进展速度将是2025年的4到5倍，因为AI研发已完全自动化；到2029年底，AI将自动化经济的大部分，经济繁荣将非常疯狂。",
             "reference": "1:15:53-1:17:20"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2093515916076343774:281f8db73084b305": {
+      "itemId": "tweet:2093515916076343774",
+      "sourceHash": "281f8db73084b305",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：We unfortunately have decided that we cannot continue providing access to our...",
+      "url": "https://x.com/thsottiaux/status/2093515916076343774",
+      "generatedAt": "2026-08-30T01:26:22.557Z",
+      "summary": {
+        "title": "OpenAI 宣布终止与 Cursor 的模型合作，强调信任问题并给出替代方案",
+        "summary": "OpenAI 通过 Thibault Sottiaux 的推文宣布，决定不再通过 Cursor 提供其模型访问，并终止双方合作。核心原因是信任问题，生效日期定为 11 月 12 日，以便用户有时间规划。推文指出，许多用户通过 Cursor 使用 GPT 模型，未来可行的替代方案包括：继续允许用户使用自己的 OpenAI API 密钥，以及继续通过 OpenAI 的 IDE 扩展为 Cursor 提供访问。OpenAI 表示将继续与最广泛的工具和框架合作，包括开源和闭源工具，并继续投资自己的开源计划，相信为开发者提供广泛的选择。推文还附上了博客链接以提供更多决策细节。该动态获得了 5669 个赞、358 次转发和 848 条回复，引发开发者社区广泛关注。",
+        "excerpts": [
+          {
+            "label": "核心决策",
+            "text": "我们不幸地决定，无法继续通过 Cursor 提供对我们模型的访问，并终止我们的合作关系。归根结底是信任问题，我们已要求该决定在 11 月 12 日生效，以便给你们一些时间进行规划。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "替代方案一",
+            "text": "我们将继续允许使用你自己的 OpenAI API 密钥，同样将继续通过我们的 IDE 扩展为 Cursor 提供访问。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "替代方案二",
+            "text": "我们将继续与最广泛的工具和框架合作，其中一些是开源的，但也有许多闭源的。我们一如既往地致力于支持开发者和繁荣的工具、框架及产品生态系统。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "开源承诺",
+            "text": "我们还将继续投资自己的开源计划，并相信为开发者提供广泛的选择。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "社区反应",
+            "text": "该推文获得 5669 个赞、358 次转发和 848 条回复，显示开发者社区对此决定高度关注。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2093379695144530313:15f9d419b5c25e0f": {
+      "itemId": "tweet:2093379695144530313",
+      "sourceHash": "15f9d419b5c25e0f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：My hot take is that Claude Cowork and ChatGPT Work are partial solutions and...",
+      "url": "https://x.com/petergyang/status/2093379695144530313",
+      "generatedAt": "2026-08-30T01:26:31.722Z",
+      "summary": {
+        "title": "Peter Yang：Claude Cowork 和 ChatGPT Work 只是半成品，Grok Bot 才是非技术用户 AI 智能体的正确终局",
+        "summary": "Peter Yang 在 X 上提出一个尖锐观点：Claude Cowork 和 ChatGPT Work 都是部分解决方案，而 Grok Bot 才是面向非技术人群的、能力完备的 AI 智能体产品的正确终局形态。他的核心论据是用户心智模型：普通人很容易理解 Grok Bot 是“一台在云端运行的电脑”，但若问他们 ChatGPT Work 和 Codex 的区别（例如 Work 能跑云端任务而 Codex 不能），或者 Claude Cowork 到底怎么运作，大多数人根本说不清。这条推文获得了 508 个赞、108 条回复，说明在 AI 智能体产品定位和用户认知上引发了广泛共鸣。Yang 的洞察在于：产品成功不仅取决于技术能力，更取决于用户能否快速建立清晰、正确的心理模型。Grok Bot 的隐喻简单直接，降低了理解门槛，而其他产品在功能边界和运行机制上过于模糊，导致普通用户难以判断何时该用、能做什么。这为 AI 智能体产品的设计和市场教育提供了一个重要视角：与其堆砌功能，不如先让用户“秒懂”产品是什么。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "Claude Cowork 和 ChatGPT Work 都是部分解决方案，而 Grok Bot 才是面向非技术人群的、能力完备的 AI 智能体产品的正确终局。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "用户心智模型",
+            "text": "人们很容易理解 Grok Bot 是“一台在云端运行的电脑”，这个隐喻简单直接，降低了理解门槛。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "产品认知模糊",
+            "text": "如果问人们 ChatGPT Work 和 Codex 的区别（例如 Work 能跑云端任务而 Codex 不能），或者 Claude Cowork 到底怎么运作，大多数人根本说不清。",
+            "reference": "推文后半段"
+          },
+          {
+            "label": "产品设计启示",
+            "text": "产品成功不仅取决于技术能力，更取决于用户能否快速建立清晰、正确的心理模型；与其堆砌功能，不如先让用户“秒懂”产品是什么。",
+            "reference": "推文整体推论"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2093482695838007318:4849108a2e50259f": {
+      "itemId": "tweet:2093482695838007318",
+      "sourceHash": "4849108a2e50259f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：I see the web evolving in two extremes: 1️⃣ ultra-fancy human experiences, in...",
+      "url": "https://x.com/rauchg/status/2093482695838007318",
+      "generatedAt": "2026-08-30T01:26:38.898Z",
+      "summary": {
+        "title": "Guillermo Rauch：Web 正分化为极致体验与纯机器信号两个极端",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中提出，Web 正在向两个极端演化：一端是服务于愉悦、探索、品牌和娱乐的超精致人类体验，由 three.js、typegpu 等技术驱动；另一端是面向智能体的纯内容、数据和 API，以无损的机器可读信号为目标，Markdown 和 MCP 的兴起只是冰山一角。他认为中间地带很可能被智能体以即时生成 UI 的方式吞并——当用户需要实用内容或数据时，界面会按需即时生成。在这个模型中，智能体扮演了新型浏览器的角色。该观点为理解 AI 时代 Web 的架构分化提供了清晰框架，尤其对前端开发者和 AI 产品设计者有启发。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "Web 正在向两个极端演化：一端是超精致的人类体验，服务于愉悦、探索、品牌和娱乐；另一端是面向智能体的纯内容、数据和 API，追求无损的机器可读信号。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "技术例证",
+            "text": "three.js 和 typegpu 等技术正在驱动极致人类体验这一端。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "技术例证",
+            "text": "Markdown 和 MCP 的兴起只是面向智能体内容这一端的冰山一角。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "趋势预测",
+            "text": "中间地带很可能被智能体以即时生成 UI 的方式吞并——当用户需要实用内容或数据时，界面会按需即时生成。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "类比",
+            "text": "在这个模型中，智能体扮演了新型浏览器的角色。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2093387887668814214:4e14387fe6cd85f1": {
+      "itemId": "tweet:2093387887668814214",
+      "sourceHash": "4e14387fe6cd85f1",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：There are many “easy” ways to create agents out there. But how many that give...",
+      "url": "https://x.com/rauchg/status/2093387887668814214",
+      "generatedAt": "2026-08-30T01:26:45.873Z",
+      "summary": {
+        "title": "Guillermo Rauch：真正拥有完整智能栈的 Agent 构建方式",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中指出，市面上有很多“简单”的 Agent 创建方式，但很少有方案能让你通过一个 Git 仓库真正拥有完整的智能栈——包括运行时、模型选择、技能、工具、连接性和沙箱。他强调 eve 是开始构建这类 Agent 的最简单方式，并附上了相关链接。这条推文反映了当前 AI Agent 开发中关于控制权、可定制性和部署灵活性的关键讨论，尤其适合关注自主构建和拥有技术栈的开发者。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "有很多“简单”的 Agent 创建方式，但有多少能给你一个 Git 仓库，让你真正拥有整个智能栈？",
+            "reference": "推文正文"
+          },
+          {
+            "label": "观点",
+            "text": "真正拥有智能栈意味着对运行时、模型选择、技能、工具、连接性和沙箱的完全控制。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "案例",
+            "text": "eve 是开始构建这类 Agent 的最简单方式，并提供了相关链接。",
+            "reference": "推文正文及链接"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 337 个赞、18 次转发和 39 条回复，显示社区对 Agent 构建控制权的关注。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2093468512459321512:4a90b2b05616b7dc": {
+      "itemId": "tweet:2093468512459321512",
+      "sourceHash": "4a90b2b05616b7dc",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aditya Agarwal：It's interesting to me to see a lot of people comment on visa stuff without...",
+      "url": "https://x.com/adityaag/status/2093468512459321512",
+      "generatedAt": "2026-08-30T01:26:53.194Z",
+      "summary": {
+        "title": "Aditya Agarwal：亲身经历签证体系后，谈 H-1B 滥用与高技能移民困境",
+        "summary": "Aditya Agarwal 结合自己持有 F1、OPT、CPT、H-1B、EB-3 绿卡等签证并最终成为美国公民的经历，回应了关于签证问题的讨论。他指出，H-1B 体系确实存在滥用，应当制止，因为这妨碍了合法使用；同时，美国让真正的高技能人才留下太难，而全球顶尖人才愿意来美国是美国的重要优势。他特别提到高技能印度人面临的困难比大多数群体更大。最后他强调，任何国家的法律法规都应优先考虑本国公民。这条推文引发了大量讨论，点赞 887 次，转发 39 次，回复 138 条。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "H-1B 体系存在滥用，我们应该 100% 制止，因为它妨碍了合法使用案例。我很高兴政府正在对此采取行动。",
+            "reference": "推文第 1 点"
+          },
+          {
+            "label": "观点",
+            "text": "我们让真正的高技能人才留在美国太难了。世界上最聪明的人才想来这里，这是我们的巨大优势来源。",
+            "reference": "推文第 2 点"
+          },
+          {
+            "label": "观点",
+            "text": "特别是，高技能印度人比大多数群体面临更大的困难。",
+            "reference": "推文第 3 点"
+          },
+          {
+            "label": "观点",
+            "text": "在任何国家，法律法规都应优先考虑本国公民。",
+            "reference": "推文第 4 点"
+          },
+          {
+            "label": "个人经历",
+            "text": "我是一个自豪的美国公民，也曾持有以下签证：F1、OPT、CPT、H-1B、EB-3 绿卡等。",
+            "reference": "推文开头"
           }
         ],
         "materials": []
