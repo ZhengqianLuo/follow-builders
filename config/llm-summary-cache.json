@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-30T01:26:53.194Z",
+  "updatedAt": "2026-08-31T01:27:32.820Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -8480,6 +8480,116 @@
             "label": "个人经历",
             "text": "我是一个自豪的美国公民，也曾持有以下签证：F1、OPT、CPT、H-1B、EB-3 绿卡等。",
             "reference": "推文开头"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2093736865191076318:d2ca086d0df5a5e9": {
+      "itemId": "tweet:2093736865191076318",
+      "sourceHash": "d2ca086d0df5a5e9",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：https://t.co/OL0LzGtvAw 0.0.7: - hugely improved MCP support, eval'd with top...",
+      "url": "https://x.com/rauchg/status/2093736865191076318",
+      "generatedAt": "2026-08-31T01:27:18.890Z",
+      "summary": {
+        "title": "Guillermo Rauch 发布 fx 0.0.7：大幅改进 MCP 支持，精简工具并优化 shell 执行",
+        "summary": "Guillermo Rauch 在 X 上宣布 fx 0.0.7 版本发布。该版本大幅改进了 MCP（Model Context Protocol）支持，并使用 Context7、Datadog、MongoDB、Linear、Notion、Supabase、Neon、Stagehand、Kernel 等顶级 MCP 进行了评估。同时，新版本更加极简，减少了工具数量，并改进了 shell 执行。Rauch 指出，CLI 代理最棘手的问题之一是运行命令并不简单：命令可能挂起或运行很长时间，输出需要被代理监控，可能产生大量输出或没有输出。fx 在这一领域表现出色，并将持续改进。",
+        "excerpts": [
+          {
+            "label": "版本更新",
+            "text": "fx 0.0.7 发布：大幅改进 MCP 支持，并使用 Context7、Datadog、MongoDB、Linear、Notion、Supabase、Neon、Stagehand、Kernel 等顶级 MCP 进行了评估。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "设计理念",
+            "text": "新版本更加极简：工具更少，shell 执行得到改进。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "技术难点",
+            "text": "CLI 代理最棘手的问题之一是运行命令并不简单：命令可能挂起或运行很长时间，输出需要被代理监控，可能产生大量输出或没有输出。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "产品优势",
+            "text": "fx 在 shell 执行这一领域表现出色，并将持续改进。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2093772803216740647:c880ea39e0d0bb8b": {
+      "itemId": "tweet:2093772803216740647",
+      "sourceHash": "c880ea39e0d0bb8b",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：Resist dunking* I see it WAY too much with folks especially today. It’s the...",
+      "url": "https://x.com/nikunj/status/2093772803216740647",
+      "generatedAt": "2026-08-31T01:27:27.183Z",
+      "summary": {
+        "title": "抵制“落井下石”：Nikunj Kothari 谈建设性批评与善意",
+        "summary": "Nikunj Kothari 在这条推文中批评了社交媒体上常见的“落井下石”（dunking）行为。他指出，这种行为在今天尤为普遍，它形成了一个完美的多巴胺循环：其他人加入进来，你会感觉很棒，但这只是嫉妒的表现，不会带来任何有成效的结果。你可以拍拍自己的背说“我早就告诉过你”，但这并没有推动世界前进。如果你认为自己能做得更好，那就去做。抱怨别人的不公平优势不会改变你的生活，反而可能导致更多的悲伤。他鼓励人们继续建设，继续改变世界，这是产生影响的最佳方式，并选择善良高于一切。唯一的例外是：如果你在揭露明显的欺诈，或指出某些极其糟糕的事情，那就去做。有些企业显然是空壳，如果你有证据就指出来，这并不代表嫉妒，而是事实，绝不是落井下石。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "抵制落井下石。我今天看到太多人这样做了。这是一个完美的多巴胺循环——其他人加入进来，你感觉很棒。但这只是嫉妒的表现，不会带来任何有成效的结果。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "金句",
+            "text": "你可以拍拍自己的背说‘看，我早就告诉过你’，但这如何推动了世界？毫无进展。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "行动建议",
+            "text": "如果你认为自己能做得更好，那就去做。抱怨别人的不公平优势不会改变你的生活——而且很可能导致更多的悲伤。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "核心主张",
+            "text": "继续建设。继续改变世界。这是产生影响的最佳方式。选择善良高于一切。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "例外情况",
+            "text": "唯一的例外是：如果你在揭露明显的欺诈，或指出某些极其糟糕的事情，那就去做。有些企业显然会是空壳，如果你有证据就指出来。这并不代表嫉妒，而是事实，绝不是落井下石。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2093860971781746776:2ee16e6f53dd247c": {
+      "itemId": "tweet:2093860971781746776",
+      "sourceHash": "2ee16e6f53dd247c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：The big model labs are fighting.. this was inevitable. Watch as subsidized...",
+      "url": "https://x.com/nikunj/status/2093860971781746776",
+      "generatedAt": "2026-08-31T01:27:32.820Z",
+      "summary": {
+        "title": "大模型实验室的价格战不可避免：补贴终结与算力短缺将至",
+        "summary": "Nikunj Kothari 在推文中预测，大型模型实验室之间的竞争将导致补贴性 token 价格在六个月内上涨，因为算力成本和短缺将开始被真实感受到。他认为这对客户长期选择有利，但短期内会推高所有开放框架的估值，增加 10 到 300 亿美元。推文暗示当前的低价不可持续，市场将迎来调整。",
+        "excerpts": [
+          {
+            "label": "核心预测",
+            "text": "大型模型实验室正在竞争，这是不可避免的。观察补贴的 token 价格将在不到 6 个月内上涨，因为算力成本和短缺开始被“真正”感受到。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "用户影响",
+            "text": "向你的重置限制说再见。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "长期影响",
+            "text": "长期来看，这对客户选择是好事。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "短期估值影响",
+            "text": "短期内，为所有开放框架增加 10 到 300 亿美元的估值。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
