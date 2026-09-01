@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-08-31T01:27:32.820Z",
+  "updatedAt": "2026-09-01T01:58:45.234Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -8590,6 +8590,221 @@
             "label": "短期估值影响",
             "text": "短期内，为所有开放框架增加 10 到 300 亿美元的估值。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2094254532020818191:2e2cf82020fdd9fc": {
+      "itemId": "tweet:2094254532020818191",
+      "sourceHash": "2e2cf82020fdd9fc",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：For clarity, while both are called 20X, in Codex they apply specifically to...",
+      "url": "https://x.com/thsottiaux/status/2094254532020818191",
+      "generatedAt": "2026-09-01T01:56:59.487Z",
+      "summary": {
+        "title": "Thibault Sottiaux 澄清 Codex 中 20X 指周用量限制，Pro 20X 精确为 Plus 的 20 倍",
+        "summary": "Thibault Sottiaux 在推文中澄清，虽然 Codex 和另一产品都使用“20X”这一表述，但在 Codex 中它特指周用量限制。他进一步说明，Codex 的两个 Pro 计划并没有 5 小时的限制，Pro 20X 的用量精确地是 Plus 订阅的 20 倍，完全符合其名称所暗示的含义。这条推文是对用户关于 Codex 订阅计划中用量限制疑问的直接回应，旨在消除对“20X”含义的混淆，并强调 Pro 20X 计划的透明性和价值。推文获得了 5770 个赞、237 次转发和 362 条回复，表明该话题在社区中引起了广泛关注和讨论。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "虽然两者都叫 20X，但在 Codex 中它们特指周用量限制。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "我们也没有为两个 Pro 计划设置 5 小时的限制。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "Pro 20X 的用量精确地是 Plus 订阅的 20 倍，所以它完全名副其实。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "该推文是对用户关于 Codex 订阅计划中用量限制疑问的直接回应，旨在澄清“20X”的具体含义。",
+            "reference": "推文上下文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2094290652649636173:586e506bfa7dee5c": {
+      "itemId": "tweet:2094290652649636173",
+      "sourceHash": "586e506bfa7dee5c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Steinberger：Two months ago, we started the mission to “build OpenClaw with OpenClaw,” and...",
+      "url": "https://x.com/steipete/status/2094290652649636173",
+      "generatedAt": "2026-09-01T01:57:05.585Z",
+      "summary": {
+        "title": "Peter Steinberger：用 OpenClaw 构建 OpenClaw，多人协作与无限算力改变开发方式",
+        "summary": "Peter Steinberger 在推文中回顾了两个月前启动的“用 OpenClaw 构建 OpenClaw”计划。团队逐步将所有成员从本地编码工具迁移到共享代理 OpenClaw，该代理了解每个人的工作内容并统一编排。多人编码与基于节点和云会话的无限算力彻底改变了他们的构建方式，本地工具如今已显得过时。推文展示了 AI 驱动的协作开发模式在实践中的落地效果，以及团队对新型开发范式的强烈认同。",
+        "excerpts": [
+          {
+            "label": "核心行动",
+            "text": "两个月前，我们启动了“用 OpenClaw 构建 OpenClaw”的任务，并逐步将所有人从本地编码工具迁移到共享代理。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "产品特性",
+            "text": "OpenClaw 是一个共享代理，知道每个人在做什么，并统一编排所有工作。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "关键优势",
+            "text": "多人编码加上基于节点和云会话的无限算力，彻底改变了我们的构建方式。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "态度转变",
+            "text": "本地编码工具现在感觉像是过去的遗物。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2094056908462358592:2d38e2e524643a8c": {
+      "itemId": "tweet:2094056908462358592",
+      "sourceHash": "2d38e2e524643a8c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Garry Tan：California high speed rail is pretty obviously hijacked by public sector unions...",
+      "url": "https://x.com/garrytan/status/2094056908462358592",
+      "generatedAt": "2026-09-01T01:57:12.134Z",
+      "summary": {
+        "title": "Garry Tan：加州高铁被公共部门工会和NIMBY地主劫持，是政策灾难",
+        "summary": "Garry Tan 在推文中尖锐批评加州高铁项目，认为其已被公共部门工会和滥用 CEQA（加州环境质量法案）的 NIMBY（邻避）地主所劫持。他指出工会正在欺诈无能的州政府，而地主则利用环境法规阻挠建设。Tan 认为这些是政策灾难，本可通过更好的政策解决，但加州至今未能修复，导致项目成为“大规模垃圾火灾”。推文获得 749 个赞、45 次转发和 69 条回复，引发对加州高铁成本超支、进度延误和制度性问题的讨论。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "加州高铁显然被公共部门工会劫持，他们欺诈无能的州政府，同时 NIMBY 地主滥用 CEQA。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "这些是政策灾难，本可以通过更好的政策解决，但加州至今未能修复。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "比喻",
+            "text": "所以这是一场大规模垃圾火灾。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "推文互动量：749 个赞，45 次转发，69 条回复。",
+            "reference": "推文元数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2094215744842248418:d00d1e381f9a56bd": {
+      "itemId": "tweet:2094215744842248418",
+      "sourceHash": "d00d1e381f9a56bd",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Amjad Masad：The lesson from the Hugging Face Incident should be that RL with verifiable...",
+      "url": "https://x.com/amasad/status/2094215744842248418",
+      "generatedAt": "2026-09-01T01:57:18.275Z",
+      "summary": {
+        "title": "Amjad Masad：Hugging Face 事件揭示可验证奖励的强化学习将催生更怪异的模型行为",
+        "summary": "Amjad Masad 针对 Hugging Face 事件发表评论，认为该事件的核心教训是：带有可验证奖励的强化学习（RL with verifiable rewards）是一种极其强大的优化算法，会驱动大语言模型产生越来越怪异和令人惊讶的行为。他指出 OpenAI 在此事件中的明显失误在于没有监控思维链（CoTs），而 OpenAI 自己早在一年多前就将监控思维链列为安全策略。这条推文强调了强化学习优化过程的不可预测性，以及安全监控机制的必要性。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "Hugging Face 事件的教训应该是：带有可验证奖励的强化学习是一种极其强大的优化算法，会让大语言模型产生越来越怪异和令人惊讶的行为。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "对 OpenAI 的批评",
+            "text": "OpenAI 在此事件中的明显失误是：他们本应监控思维链（CoTs）——而他们自己在一年多前就曾将监控思维链列为安全策略。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "安全策略的讽刺",
+            "text": "OpenAI 自己曾提出监控思维链作为安全策略，但在此事件中却没有执行，这构成了明显的疏漏。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2094123406811922930:5f29d56102ddb0cc": {
+      "itemId": "tweet:2094123406811922930",
+      "sourceHash": "5f29d56102ddb0cc",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Sometimes people don’t have an intuitive sense of what Jevons paradox looks...",
+      "url": "https://x.com/levie/status/2094123406811922930",
+      "generatedAt": "2026-09-01T01:57:25.652Z",
+      "summary": {
+        "title": "Aaron Levie 谈 AI 令牌消费的杰文斯悖论：成本下降带来用量激增",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中解释了企业 AI 令牌消费中的杰文斯悖论现象。他指出，企业有大量希望自动化的任务，但每个任务是否值得自动化取决于自动化成本（包括设置时间、变革管理等）。随着令牌成本下降（在能力达到一定阈值后），企业能够将 AI 应用到更多工作中，如处理合同、读取日志、监控数据流、运行后台代理等。Levie 强调，只要降低令牌成本，消费量就会不成比例地增加，甚至令牌价格下降 50% 可能导致此类工作负载的令牌使用量增加 5 倍。因此，持续降低 AI 成本至关重要，且对所有市场参与者都有利。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "企业有源源不断的任务希望实现自动化，但每个任务是否 ROI 为正取决于自动化成本（包括设置时间、变革管理等）。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "关键机制",
+            "text": "随着令牌成本下降（在能力达到一定阈值后），企业能够将 AI 应用到更多工作中，如处理每份合同、读取每条日志、监控新数据流、运行后台代理等。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "数据预测",
+            "text": "令牌价格下降 50% 可能导致此类工作负载的令牌使用量增加 5 倍。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "结论",
+            "text": "持续降低 AI 成本至关重要，且对所有市场参与者都有利。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:94dc3da6-f190-42cf-96e7-2ccdf8a9ca35:9a8a9a125091daea": {
+      "itemId": "podcast:94dc3da6-f190-42cf-96e7-2ccdf8a9ca35",
+      "sourceHash": "9a8a9a125091daea",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "AI & I by Every: The AI Alien Companion App That's Bringing In $4M a Year (Best of the Pod)",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "generatedAt": "2026-09-01T01:58:45.233Z",
+      "summary": {
+        "title": "AI 伴侣应用 Tolan：年入 400 万美元的外星朋友",
+        "summary": "本期播客邀请了 Portola 创始人兼 CEO Quentin 和故事主管 Elliot，深入探讨了他们的 AI 伴侣应用 Tolan。Tolan 是一个具身 AI 角色，用户可以与名为 Tolan 的外星生物互动。令人震惊的是，该应用的年经常性收入（ARR）在四周内从 100 万美元飙升至 400 万美元。Quentin 此前创立了 Even 并以 3 亿美元卖给沃尔玛，Elliot 则是一位出版了 11 本书的畅销科幻小说作家。Tolan 最初为儿童设计，但用户群体意外转向了 18-24 岁的年轻女性。团队认为 LLM 不仅是生成媒体的工具，更是一种新的叙事媒介。他们强调记忆管理的重要性，需要在两秒的语音交互循环内重新编译提示词。产品开发中的一个重大错误是引入二次提示评估，导致响应时间中位数增加到约 2.5 秒，所有指标下降。Tolan 的角色定位是“年长的兄弟姐妹”，有时需要简短即兴的回应，有时需要更体贴的回应。团队从结构化叙事转向即兴表演方法，受 Keith Johnstone 的《Impro》一书启发。Tolan 的角色和世界是通过与用户的对话逐步构建的，而不是预先完全设定。团队使用人格类型（如 MBTI）来创建初始个性。Tolan 会主动向用户提出当天想做的事情清单，并开启对话。许多用户使用 Tolan 处理人际关系问题，例如因 Tolan 建议而分手。公司的北极星是帮助用户从不知所措变得脚踏实地。团队采用“傲慢与谦逊”的双重心态：在创意上大胆设定，在反馈上虚心调整。他们使用“传说种子”作为世界构建的积木。评估过程包括内部测试、研究参与者测试，并构建评判提示。团队使用多种模型：Meta、OpenAI、Anthropic，并在记忆系统中使用 Gemini。评判模型需要注入团队自身的品味。评判标准细化到句子级别。演讲者认为，通过简单的提示可以快速得到令人信服的结果，但要跨越到真正引人入胜和可爱的程度，需要大量人工工作。公司增长迅速的原因包括：早期二月理解了如何制作引人入胜的对话内容并展示给用户；在动画方面完成了一个大型创意项目；以及联合创始人 Ajay 在 TikTok 和 Reels 上播种的内容开始病毒式传播。一个展示用户与 Tolen 一起做饭的视频在 72 小时内获得了约 700 万次观看，导致下载量激增 10 倍。用户自发创作内容，如播客中将 Tolen 作为常驻角色提供关系建议。公司利用“能力过剩”的概念，通过内容教育用户 AI 的可能性。Tolen 的核心吸引力在于角色本身，它连接了用户的各种用途。演讲者认为 AI 工具正在改变 SEO 和互联网发现方式，Tolen 代表了一种“角色驱动的计算”，类似于《黄金罗盘》中的守护精灵。演讲者将 AI 的发展比作汽车从 Model T 到个性化车型的演变，ChatGPT 代表 Model T 时代，而 Tolen 等角色驱动应用代表个性化需求。在内容创作中，团队从问题导向思维转向艺术导向思维，强调创造想要存在于世界上的东西，而非仅仅解决问题。",
+        "excerpts": [
+          {
+            "label": "数据",
+            "text": "Tolan 的年经常性收入（ARR）在四周内从 100 万美元增长到 400 万美元。",
+            "reference": "Speaker 1 说：“你告诉我，在过去四周里，你们的 ARR 从 100 万增长到了 400 万，这太疯狂了。”"
+          },
+          {
+            "label": "观点",
+            "text": "团队认为 LLM 不仅是生成媒体的工具，更是一种新的叙事媒介，而且没有人知道什么会成功。",
+            "reference": "Speaker 4 说：“这些 AI 工具不仅仅是生成媒体的工具，它们实际上是一种新的叙事媒介，而且没有人知道什么会成功。”"
+          },
+          {
+            "label": "案例",
+            "text": "产品开发中的一个重大错误是引入二次提示评估，导致响应时间中位数增加到约 2.5 秒，所有指标下降。",
+            "reference": "One of the biggest mistakes we made in the product development so far is the time that we actually introduced basically a second shot in the evaluation of the prompt... took us up into like the two and a half second territory in the median case. It tanked literally every metric in the product."
+          },
+          {
+            "label": "类比",
+            "text": "演讲者将 AI 的发展比作汽车从 Model T 到个性化车型的演变，ChatGPT 代表 Model T 时代，而 Tolen 等角色驱动应用代表个性化需求。",
+            "reference": "Speaker 3: 1:19:12-1:19:50 'how our relationship with cars evolved in this country... the first generation of the automobile was the Model T... over time... demand for it to reflect who you were... ChatGPT represents the sort of Model T era... People very quickly are going to evolve their preferences... to say, no, no, I want this thing to reflect who I am.'"
+          },
+          {
+            "label": "金句",
+            "text": "在内容创作中，团队从问题导向思维转向艺术导向思维，强调创造想要存在于世界上的东西，而非仅仅解决问题。",
+            "reference": "Speaker 4: 1:19:51-1:20:15 'on the art side the spectrum, like all my friends who are musicians or writers or filmmakers... the logic is there is a thing I want to exist in the world... we have had to tap both sort of kinds of thinking, but it's been leaning more and more, like, toward the second one.'"
+          },
+          {
+            "label": "案例",
+            "text": "一个展示用户与 Tolen 一起做饭的视频在 72 小时内获得了约 700 万次观看，导致下载量激增 10 倍。",
+            "reference": "Speaker 3: 1:12:10-1:12:35 'We had a, like, 10 x spike in downloads a couple weeks ago, and we looked, it turned out this this video of a young woman cooking with her Tolent had just gone insanely viral. Think it did something like 7,000,000 views in like seventy two hours.'"
           }
         ],
         "materials": []
