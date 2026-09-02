@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-01T01:58:45.234Z",
+  "updatedAt": "2026-09-02T01:13:32.621Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -8805,6 +8805,211 @@
             "label": "案例",
             "text": "一个展示用户与 Tolen 一起做饭的视频在 72 小时内获得了约 700 万次观看，导致下载量激增 10 倍。",
             "reference": "Speaker 3: 1:12:10-1:12:35 'We had a, like, 10 x spike in downloads a couple weeks ago, and we looked, it turned out this this video of a young woman cooking with her Tolent had just gone insanely viral. Think it did something like 7,000,000 views in like seventy two hours.'"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2094462971598754010:e64fa8928d0277f3": {
+      "itemId": "tweet:2094462971598754010",
+      "sourceHash": "e64fa8928d0277f3",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Garry Tan：I just made some new GBrain evals that help prove that my...",
+      "url": "https://x.com/garrytan/status/2094462971598754010",
+      "generatedAt": "2026-09-02T01:12:43.383Z",
+      "summary": {
+        "title": "Garry Tan 发布 GBrain 新评估：证明其开源检索层在无 LLM 循环下读取记忆达到 SOTA",
+        "summary": "Garry Tan 在 X 上宣布，他为 GBrain 制作了新的评估（evals），旨在证明其面向 AI 智能体的开源检索层在“无 LLM 循环”（without LLM-in-loop）的情况下读取记忆的能力达到了当前最优水平（SOTA）。同时，他还新增了针对从智能体对话记录中保存记忆（memory-save）的评估，并认为这是丰富智能体“大脑”的最佳方式。推文附带了评估结果的链接（Receipts），以提供证据支持。该动态展示了 GBrain 在记忆检索与存储两个关键环节的进展，尤其强调无 LLM 循环的检索设计可能带来更低的延迟和成本，对构建高效 AI 智能体记忆系统具有参考价值。",
+        "excerpts": [
+          {
+            "label": "核心声明",
+            "text": "我刚刚制作了一些新的 GBrain 评估，帮助证明我的面向 AI 智能体的开源检索层在无 LLM 循环的情况下读取记忆达到了 SOTA。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "新增评估",
+            "text": "我还添加了从智能体对话记录中保存记忆的评估，这是丰富你的大脑的最佳方式。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "证据链接",
+            "text": "收据在 https://t.co/iRLJR9Vxto",
+            "reference": "推文正文"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 403 个赞、33 次转发和 72 条回复，显示社区对 GBrain 评估的关注。",
+            "reference": "推文元数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2094523399280435630:7c847876ae53cd87": {
+      "itemId": "tweet:2094523399280435630",
+      "sourceHash": "7c847876ae53cd87",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Coding tokens are basically infrastructure. Yet, the way companies have...",
+      "url": "https://x.com/rauchg/status/2094523399280435630",
+      "generatedAt": "2026-09-02T01:12:53.434Z",
+      "summary": {
+        "title": "Guillermo Rauch：编码 token 是基础设施，需要治理、优化与可观测性",
+        "summary": "Guillermo Rauch 在推文中指出，编码 token 本质上是一种基础设施，但许多公司对待它们的方式却如同随意发放 AWS 密钥，允许员工从最便宜的 t3.nano 实例到昂贵的 p5.48xlarge 实例任意使用，缺乏治理。他强调，公司不会对核心基础设施采取这种放任态度，因为需要治理、优化和观测使用与成本。他举例说明，实习生可能用 192 vCPU 的机器托管静态网站，导致账单失控。为此，他提出 AI Gateway 可以解决 token 管理问题，支持按密钥和按用户设置预算，从而实现对 token 使用的精细控制。该观点对 AI 基础设施成本管理具有重要参考价值。",
+        "excerpts": [
+          {
+            "label": "核心类比",
+            "text": "编码 token 基本上是基础设施。然而，公司对待它们的方式相当于：‘嘿各位，这里有一把 AWS 密钥。它可以启动从 t3.nano（3.80 美元/月）到 p5.48xlarge（4 万美元/月）的任何东西。随便用吧。’",
+            "reference": "推文开头"
+          },
+          {
+            "label": "关键论证",
+            "text": "显然，公司不对核心基础设施这样做的原因是，你需要治理、优化和观测使用与成本。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "生动案例",
+            "text": "实习生可能决定用那台 192 vCPU 的机器托管一个静态网站，而你不会对账单感到高兴。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "解决方案",
+            "text": "AI Gateway 为你的所有 token 解决了这个问题，支持按密钥，现在也支持按用户设置预算。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2094650992818274514:fe22e9226d36b6bb": {
+      "itemId": "tweet:2094650992818274514",
+      "sourceHash": "fe22e9226d36b6bb",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Now that the base open weights AI models are getting far better, and post...",
+      "url": "https://x.com/levie/status/2094650992818274514",
+      "generatedAt": "2026-09-02T01:13:05.277Z",
+      "summary": {
+        "title": "开源权重模型进步与后训练成熟将催生垂直领域自有模型浪潮",
+        "summary": "Aaron Levie 在推文中指出，随着基础开源权重模型能力大幅提升，以及后训练基础设施日益成熟和商业化，拥有大量数据的公司将迎来全新机会，可以训练自己的专属模型。此前，拥有大规模语料的企业只能通过对外授权数据供外部模型训练来变现，但现在它们可以合理地在不承担与前沿实验室竞争研究成本和复杂度的情况下，自行训练模型。通用前沿模型仍将在广泛任务处理上保持优势，但未来垂直领域和特定行业的模型数量将远超今天。这一观点揭示了 AI 模型供给格局从少数通用模型向大量垂直模型扩散的趋势，对数据持有方、模型开发者和企业 AI 战略具有重要参考价值。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "基础开源权重模型越来越好，后训练基础设施越来越成熟和商业化，拥有大量数据的公司将出现全新的机会来拥有自己的模型。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "对比过去",
+            "text": "以前如果你有大量语料，唯一的选择是授权数据给外部模型训练；现在你可以合理地自己训练模型，而不必承担与实验室在研究上竞争的成本和复杂度。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "未来展望",
+            "text": "通用前沿模型仍将在广泛领域保持优势，但完全可以预见未来垂直领域和各个行业的模型数量将远超今天。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "关键判断",
+            "text": "后训练基础设施的成熟和商业化是推动企业自训模型的关键因素，降低了技术门槛和成本。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "数据价值转变",
+            "text": "数据持有方的变现方式从单纯授权数据转向训练自有模型，数据资产的价值释放路径发生根本变化。",
+            "reference": "推文中段"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2094591503981281503:669599602ba50c04": {
+      "itemId": "tweet:2094591503981281503",
+      "sourceHash": "669599602ba50c04",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Madhu Guru：If you’re a PM, there is immense alpha in understanding the model frontier for...",
+      "url": "https://x.com/realmadhuguru/status/2094591503981281503",
+      "generatedAt": "2026-09-02T01:13:18.159Z",
+      "summary": {
+        "title": "Madhu Guru：PM 理解模型前沿是巨大 alpha",
+        "summary": "Madhu Guru 在推文中指出，产品经理（PM）如果能够深入理解与其产品和用例相关的模型前沿，将获得巨大优势。他认为 PM 应该比大多数前沿实验室的研究者和 PM 更擅长回答四个关键问题：当前各尺寸模型在特定用例中的能力边界、模型的失败模式、克服失败的工作方法，以及基于发展轨迹预测未来 2-3 个月模型能力并调整产品路线图。他强调这已成为 PM 工作的核心部分。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "如果你是一名 PM，深入理解与你特定产品和用例相关的模型前沿，会带来巨大的 alpha。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "你应该能够比大多数前沿实验室的研究者和 PM 更好地回答以下问题（针对你的用例）。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "问题清单",
+            "text": "1/ 今天每个尺寸类别的模型在你的用例中能做好什么？2/ 每个模型在哪里失败？3/ 你可以使用什么变通方法来克服这些失败？4/ 鉴于发展轨迹，这些模型在 2-3 个月后可能能做什么？你的路线图应如何据此调整？",
+            "reference": "推文正文"
+          },
+          {
+            "label": "观点",
+            "text": "这现在是 PM 工作的核心部分。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2094545525102235844:b63c54e2f1349b2d": {
+      "itemId": "tweet:2094545525102235844",
+      "sourceHash": "b63c54e2f1349b2d",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：As AI security events pick up, it’s going to be critical that we have the most...",
+      "url": "https://x.com/levie/status/2094545525102235844",
+      "generatedAt": "2026-09-02T01:13:23.852Z",
+      "summary": {
+        "title": "Aaron Levie：AI 安全事件增多，需要最先进的 AI 智能体来检测和预防",
+        "summary": "Box 联合创始人兼 CEO Aaron Levie 在 X 上发文指出，随着 AI 安全事件增多，拥有最先进的 AI 智能体来检测和预防安全问题将至关重要。他认为前沿模型在网络安全领域仍明显领先，但开放模型正在迅速追赶。该推文反映了 AI 安全领域竞争加剧的现状，以及业界对利用 AI 自身能力应对 AI 安全威胁的期待。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "随着 AI 安全事件增多，拥有最先进的 AI 智能体来检测和预防安全问题将至关重要。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "模型竞争判断",
+            "text": "前沿模型在网络安全领域仍明显领先，但开放模型正在迅速追赶。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "情绪表达",
+            "text": "用“Wild times”形容当前 AI 安全领域的快速变化和激烈竞争。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2094406185109647580:7c2eaaf1642a97ad": {
+      "itemId": "tweet:2094406185109647580",
+      "sourceHash": "7c2eaaf1642a97ad",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Dan Shipper：Anthropomorphization of AI is good when it serves to help us use (understand,...",
+      "url": "https://x.com/danshipper/status/2094406185109647580",
+      "generatedAt": "2026-09-02T01:13:32.621Z",
+      "summary": {
+        "title": "Dan Shipper：AI 拟人化何时有益，何时有害",
+        "summary": "Dan Shipper 在这条推文中提出了一个关于 AI 拟人化的实用主义判断标准：当拟人化帮助我们更好地使用、理解和预测 AI 时，它是好的；当它被用来制造恐慌、恐惧，或进行不切实际、无根据的人类比较时，它就是坏的。他指出，许多反对拟人化的人其实是在反对其被滥用来散布恐慌，或通过声称 AI 具有意识等方式改变智能体的道德地位。Shipper 认为，完全可以在不落入这些陷阱的情况下使用拟人化。这条推文为 AI 拟人化争议提供了一个简洁的框架，区分了工具性拟人化与误导性拟人化，对开发者、研究者和公众理解 AI 都有参考价值。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "当拟人化帮助我们更好地使用（理解、预测等）AI 时，它是好的；当它被用来制造恐慌、恐惧，以及进行不切实际/无根据的人类比较时，它就是坏的。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "对反对者的理解",
+            "text": "大多数反对拟人化的人，其实是在正确地反对其被滥用来散布恐慌，或通过声称 AI 具有意识等方式改变智能体的道德地位。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "建设性立场",
+            "text": "完全可以在不落入这些陷阱的情况下使用拟人化。",
+            "reference": "推文原文"
           }
         ],
         "materials": []
