@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-02T01:13:32.621Z",
+  "updatedAt": "2026-09-03T01:17:08.695Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -9013,6 +9013,92 @@
           }
         ],
         "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2094934592062959832:93a002d271bda709": {
+      "itemId": "tweet:2094934592062959832",
+      "sourceHash": "93a002d271bda709",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Sam Altman：Over the summer, we have been sprinting on safety priorities; it's more...",
+      "url": "https://x.com/sama/status/2094934592062959832",
+      "generatedAt": "2026-09-03T01:17:00.231Z",
+      "summary": {
+        "title": "Sam Altman：OpenAI 在安全优先事项上冲刺，即将发布新模型 Astra",
+        "summary": "OpenAI CEO Sam Altman 在推文中透露，团队整个夏天都在全力推进安全优先事项，强调能力与安全措施必须同步发展。他宣布即将发布新模型 Astra，称其已完成训练一段时间，在能力和对齐方面都有显著进步。Altman 指出，当前处于需要谨慎的发展阶段，OpenAI 正在放慢后续模型的进度，以确保满足新能力水平所需的安全标准。他承认 AI 变得极其强大，但无人完全理解其后果，管理向丰富且强大 AI 世界的过渡应成为全球最高优先事项之一。Altman 描述了兴奋与焦虑之间的紧张关系，认为社会与技术共同演进的迭代循环是正确应对这一过渡的最佳方式。他呼吁世界继续极其严肃地对待 AI 的发展。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "能力与安全措施必须共同进步，这比以往任何时候都更重要。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "金句",
+            "text": "AI 正在变得极其强大；没有人完全理解其后果。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "Astra 已经完成训练一段时间，是能力和对齐方面的重大进步。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "数据",
+            "text": "对于 Astra 之后的模型，我们一直在根据需要放慢进度，以确保在安全和对齐方面做足够的工作。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "类比",
+            "text": "社会与技术共同演进的迭代循环，是正确应对这一过渡的最佳方式。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "观点",
+            "text": "管理向拥有丰富且强大 AI 的世界的过渡，以优化安全性和人类利益，应该是世界上最高优先事项之一。",
+            "reference": "推文中段"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2094860187743986169:2ee69c1078711607": {
+      "itemId": "tweet:2094860187743986169",
+      "sourceHash": "2ee69c1078711607",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Alex Albert：Fable 5.1 is a beast at many things but one thing in particular I have been...",
+      "url": "https://x.com/alexalbert__/status/2094860187743986169",
+      "generatedAt": "2026-09-03T01:17:08.694Z",
+      "summary": {
+        "title": "Alex Albert 展示 Fable 5.1 通过代码生成视频：从地块图片到房屋设计及电影级漫游",
+        "summary": "Alex Albert 在推文中分享了他使用 Fable 5.1 的一个有趣体验：通过代码生成视频。他给模型一张地块图片，模型便为该地块设计了一栋房屋，渲染出图像，并生成了一段电影级的漫游视频。推文附带了一个视频链接（https://t.co/eBIaCmaav8），展示了从静态地块到动态建筑可视化的完整流程。这条推文获得了 5997 个赞、279 次转发和 259 条回复，反映出社区对 AI 在建筑可视化、程序化内容生成方面能力的关注。Alex 强调 Fable 5.1 在很多方面都很强大，但通过代码生成视频尤其让他乐在其中，这暗示了该模型在多模态生成和代码驱动创作上的潜力。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Fable 5.1 在很多方面都很强大，但通过代码生成视频尤其让我玩得不亦乐乎。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "案例",
+            "text": "我给模型一张地块图片，它便为这块地设计了一栋房子，渲染出来，并生成了一段电影级的漫游视频。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 5997 个赞、279 次转发和 259 条回复，显示较高的社区关注度。",
+            "reference": "推文互动数据"
+          },
+          {
+            "label": "类比",
+            "text": "从静态地块图片到动态建筑漫游，整个过程如同将一张平面图自动转化为沉浸式 3D 体验。",
+            "reference": "推文描述及视频链接"
+          }
+        ],
+        "materials": [
+          {
+            "label": "视频演示",
+            "url": "https://t.co/eBIaCmaav8",
+            "note": "观看从地块图片到房屋设计、渲染及电影级漫游的完整生成过程。"
+          }
+        ]
       }
     }
   }
