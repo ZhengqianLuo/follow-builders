@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-03T01:17:08.695Z",
+  "updatedAt": "2026-09-04T01:10:09.515Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -9099,6 +9099,178 @@
             "note": "观看从地块图片到房屋设计、渲染及电影级漫游的完整生成过程。"
           }
         ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2095276133214491086:7f871f8222980174": {
+      "itemId": "tweet:2095276133214491086",
+      "sourceHash": "7f871f8222980174",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Boris Cherny：Fable 5.1 makes Claude Tag even more useful. Here it builds a last-minute...",
+      "url": "https://x.com/bcherny/status/2095276133214491086",
+      "generatedAt": "2026-09-04T01:09:28.892Z",
+      "summary": {
+        "title": "Boris Cherny：Fable 5.1 让 Claude Tag 更实用，能自动发现数据矛盾",
+        "summary": "Boris Cherny 在推文中展示了 Fable 5.1 对 Claude Tag 的增强。他描述了一个实际用例：Claude Tag 从指标电子表格和 Slack 中的其他数据快速构建了一份最后一刻的领导层演示文稿，并在继续之前发现并标记了一份与数字不一致的供应商报告。该功能在 Slack 的 Team 和 Enterprise 计划中可用。推文强调了 Claude Tag 在数据整合、交叉验证和主动预警方面的能力，适合需要快速从多源数据生成可靠汇报材料的团队。",
+        "excerpts": [
+          {
+            "label": "核心功能演示",
+            "text": "Fable 5.1 让 Claude Tag 更加实用：它从指标电子表格和 Slack 中的其他数据构建了一份最后一刻的领导层演示文稿。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "数据矛盾检测",
+            "text": "Claude Tag 发现了一份与数字不一致的供应商报告，并在继续之前将其标记出来。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "可用性说明",
+            "text": "Claude Tag 在 Slack 的 Team 和 Enterprise 计划中可用。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "应用场景",
+            "text": "适用于需要快速从多源数据生成可靠汇报材料的团队，尤其是时间紧迫的领导层演示。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2095234253613359200:1d98fdfa530e9527": {
+      "itemId": "tweet:2095234253613359200",
+      "sourceHash": "1d98fdfa530e9527",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：This week is absolutely nuts for AI releases, and now a major new model update...",
+      "url": "https://x.com/levie/status/2095234253613359200",
+      "generatedAt": "2026-09-04T01:09:36.232Z",
+      "summary": {
+        "title": "Aaron Levie：本周AI发布密集，Muse新模型或改变美国开源权重竞争格局",
+        "summary": "Box CEO Aaron Levie 在推文中感叹本周AI发布异常密集，并特别提到Muse发布的重要新模型更新。他认为AI能力进步似乎已达到逃逸速度，如果该模型以开放权重形式发布，将彻底改变美国在开源权重领域的竞争态势。推文附带的链接指向Muse的发布详情。该观点反映了业界对开源模型竞争格局变化的关注，以及AI能力加速进步的普遍感受。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "本周AI发布异常密集，现在又迎来Muse的重大新模型更新。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "我们似乎正在达到能力进步的逃逸速度。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "如果这个东西以开放权重形式发布，它将彻底改变美国开源权重竞争力的动态。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得494个赞、42次转发和28条回复，显示一定关注度。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": [
+          {
+            "label": "链接",
+            "url": "https://t.co/hOG17UMECG",
+            "note": "推文中附带的链接，指向Muse模型发布的详情页面，可查看具体模型信息。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2095291912706220410:69235db79a15b4d9": {
+      "itemId": "tweet:2095291912706220410",
+      "sourceHash": "69235db79a15b4d9",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Amjad Masad：Replit is coming to London 🇬🇧 To celebrate Replit’s first international...",
+      "url": "https://x.com/amasad/status/2095291912706220410",
+      "generatedAt": "2026-09-04T01:09:45.281Z",
+      "summary": {
+        "title": "Replit 进军伦敦：携手 OpenAI 举办线下活动，与 Paul Graham 炉边对话",
+        "summary": "Replit 创始人 Amjad Masad 宣布 Replit 将在伦敦设立首个国际办公室，并联合 OpenAI 于 9 月 10 日（周四）举办一场庆祝活动。活动内容包括酒水、音乐，以及一场与知名创业导师 Paul Graham 的炉边对话。该推文附带了活动报名链接和宣传图片，旨在吸引伦敦地区的开发者、创业者及 AI 爱好者参与，同时展示 Replit 的国际化扩张和与 OpenAI 的合作关系。",
+        "excerpts": [
+          {
+            "label": "核心事件",
+            "text": "Replit 宣布在伦敦设立首个国际办公室，标志着其国际化扩张的重要一步。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "活动亮点",
+            "text": "活动将包括酒水、音乐，以及与 Paul Graham 的炉边对话，Paul Graham 是知名创业孵化器 Y Combinator 的联合创始人，在创业圈具有广泛影响力。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "合作伙伴",
+            "text": "Replit 与 OpenAI 联合举办此次活动，显示双方在 AI 开发者工具领域的紧密合作。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "活动信息",
+            "text": "活动时间为 9 月 10 日（周四），地点在伦敦，需通过链接 RSVP 报名参加。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 487 个赞、28 次转发和 40 条回复，显示一定的社区关注度。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": [
+          {
+            "label": "活动宣传图",
+            "url": "https://t.co/LQb7aSrvdj",
+            "note": "推文附带的宣传图片，可能包含活动视觉设计、时间地点等关键信息。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:podcast:fbf77f76-0a17-4230-80fb-fd56e514eb13:ccd27ac60871e10c": {
+      "itemId": "podcast:fbf77f76-0a17-4230-80fb-fd56e514eb13",
+      "sourceHash": "ccd27ac60871e10c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "AI & I by Every: How a Professional Writer Writes With AI",
+      "url": "https://www.youtube.com/playlist?list=PLuMcoKK9mKgHtW_o9h5sGO2vXrffKHwJL",
+      "generatedAt": "2026-09-04T01:10:09.515Z",
+      "summary": {
+        "title": "专业作家如何用 AI 写作：Katie Parrott 的复合写作插件与 AI 赋能之路",
+        "summary": "本期播客由 Natalia Quintero 采访 Every 的专职作家 Katie Parrott，深入探讨她如何从 AI 怀疑者转变为深度 AI 用户，并开发出复合写作插件。Katie 回顾了她在 2024 年被裁员后，因预算有限而用 ChatGPT 作为职业教练的经历，这让她意识到 AI 可以成为思维工具和外部视角。她强调，真正的清晰和方向来自与 AI 的互动过程，而非 AI 直接给出答案。随后，她分享了如何利用上下文工程将 AI 变成“一人内容机构”，通过预先建立品牌信息、受众画像等基础文档，让 AI 在既定框架内高效产出。她将写作比作烹饪：AI 是厨房，结构是切菜，而独特的数据、个人经验和实时洞察才是新鲜食材。Katie 还谈到了 AI 作为支持性技术对她心理健康和日常生活的帮助，例如用 AI 管理收件箱、预约医生，甚至维护个人看板。她的职业教练已演变为 Codex 中的自主项目，包含绩效数据、读者反馈和 OKR，通过语音交互帮助她优先排序。最后，她介绍了复合写作插件：该插件借鉴了 Kieran Klassen 的复合工程理念，将写作流程分解为头脑风暴、大纲、草稿、实质编辑、行文编辑和终审等步骤，并内置了冯内古特、希区柯克等作家的风格框架作为技能。Katie 认为，这种插件不仅能提高效率，还能帮助非专业写作者学习写作，并培养个人品味。她的 AI 论点是：教育和可及性比以往更重要，应让更多人获得 AI 带来的机会，避免价值只集中在少数早期采用者手中。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "清晰不会从数字助理或人类教练那里包装好送到你手上。它是我必须自己挖掘出来的，一个问题接一个问题，一个提示接一个提示。真正的清晰、方向和答案来自参与提示并自己努力的过程。AI 可以指引道路，但旅程是你自己的。",
+            "reference": "02:08-06:27"
+          },
+          {
+            "label": "案例",
+            "text": "Katie 在 2025 年初作为自由职业者，两周内承诺交付 8 篇博客、3 本电子书、24 条 LinkedIn 帖子、24 条 X 帖子、16 条 Instagram 帖子。她通过预先建立品牌信息、产品细节和受众画像等上下文文档，让 AI 在框架内高效产出，从而完成了看似不可能的工作量。",
+            "reference": "08:01-10:59"
+          },
+          {
+            "label": "类比",
+            "text": "模型是厨房，结构是切菜，写作是烹饪，但你需要新鲜优质的食材才能做出好作品。AI 的知识截止日期意味着它缺乏实时数据和真实世界经验，而人类的角色就是填补这最后一英里，提供独特的见解、数据和个人体验。",
+            "reference": "15:49-18:50"
+          },
+          {
+            "label": "金句",
+            "text": "AI 不仅帮助我更快地生产内容，它从根本上改变了我能做的事情的规模。我曾经撞上的时间、精力和能力的限制，现在低了很多。",
+            "reference": "19:15-19:46"
+          },
+          {
+            "label": "案例",
+            "text": "Katie 患有双相情感障碍，AI 作为支持性技术减少了她的生活摩擦。她曾拖延三年预约初级保健医生，但通过告诉 Codex 寻找附近接受她保险且接收新患者的医生，AI 帮她完成了预约。她还用 AI 管理收件箱，只处理需要人工回复的重要邮件，彻底解决了收件箱焦虑。",
+            "reference": "22:43-25:27"
+          },
+          {
+            "label": "观点",
+            "text": "复合写作插件就像一个健身房，是一个锻炼系统，让你成为更好的作家。它内置了冯内古特的八要素故事结构、希区柯克的悬念原则等技能，你可以借用这些框架来审视自己的写作，从而发展个人品味。",
+            "reference": "38:11-41:01"
+          },
+          {
+            "label": "观点",
+            "text": "我的 AI 论点是：教育和可及性将比以往任何时候都更重要。AI 具有巨大的倍增和复合能力，但风险是价值只会复合到少数早期采用者身上。一个更令人信服的 AI 未来是每个人都能一起前行。",
+            "reference": "45:05-46:48"
+          }
+        ],
+        "materials": []
       }
     }
   }
