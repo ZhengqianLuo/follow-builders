@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-04T01:10:09.515Z",
+  "updatedAt": "2026-09-05T01:14:14.631Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -9268,6 +9268,136 @@
             "label": "观点",
             "text": "我的 AI 论点是：教育和可及性将比以往任何时候都更重要。AI 具有巨大的倍增和复合能力，但风险是价值只会复合到少数早期采用者身上。一个更令人信服的 AI 未来是每个人都能一起前行。",
             "reference": "45:05-46:48"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2095598710311067716:927936f60d880e2d": {
+      "itemId": "tweet:2095598710311067716",
+      "sourceHash": "927936f60d880e2d",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：GPT-6 Astra is out. We've been testing the model in early preview on our...",
+      "url": "https://x.com/levie/status/2095598710311067716",
+      "generatedAt": "2026-09-05T01:14:00.540Z",
+      "summary": {
+        "title": "Aaron Levie：GPT-6 Astra 在 Box 企业复杂工作评估中表现突破，多项任务大幅提升",
+        "summary": "Box CEO Aaron Levie 在 X 上宣布，OpenAI 的 GPT-6 Astra 模型已在 Box 的企业复杂工作评估中进行了早期测试，并成为他们在扩展且最难的测试集上测试过的最佳模型。该模型在编码、分析、逻辑和领域特定知识方面提供了突破性的能力，适用于处理复杂的企业知识工作。Box 使用 GPT-6 Astra 模型在 Box Agent 中执行代表各行业真实工作的困难任务，这些任务通常需要数小时和深厚的领域专业知识。总体得分上，GPT-6 Astra 达到 77%，而 GPT-5.6 Sol 为 74%，代表了前沿性能。但更大的收益体现在个别任务类型上：媒体和娱乐从 48% 提升到 100%（+52 分），技术从 69% 提升到 97%（+28 分），法律从 69% 提升到 93%（+24 分），医疗从 53% 提升到 77%（+23 分），能源从 82% 提升到 97%（+15 分）。Levie 认为 Astra 将在驱动和编排企业工作流方面带来有意义的飞跃，并将在 Box AI Studio 中作为选项提供给客户构建智能体。",
+        "excerpts": [
+          {
+            "label": "总体评价",
+            "text": "GPT-6 Astra 是我们在扩展且最难的测试集上测试过的最佳模型，在编码、分析、逻辑和领域特定知识方面提供了突破性的能力。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "总体得分对比",
+            "text": "GPT-6 Astra 总体得分 77%，对比 GPT-5.6 Sol 的 74%，代表了前沿性能。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "媒体和娱乐案例",
+            "text": "媒体和娱乐任务从 48% 提升到 100%（+52 分）：对四个团队一年的制作数据按盈利性对电影类型和国家进行排名，关键是应用下一年的税收激励修正而不重复计算。GPT-6 Astra 每次尝试都完美，而 Sol 排名正确但底层比率错误。",
+            "reference": "推文案例部分"
+          },
+          {
+            "label": "技术案例",
+            "text": "技术任务从 69% 提升到 97%（+28 分）：从一堆性能和基础设施文档中选择优先资助的区域，文档从未明确说明简报要求的指标。GPT-6 Astra 标记了差距，将自己的数字标记为代理指标，并发现了一个与底层数字不符的增长声明。GPT-5.6 Sol 将代理指标报告为真实指标。",
+            "reference": "推文案例部分"
+          },
+          {
+            "label": "法律案例",
+            "text": "法律任务从 69% 提升到 93%（+24 分）：根据公司自身的合同政策审查 NDA，正确答案必须引用背后的条款。两个模型都拒绝批准草案，但只有 GPT-6 Astra 区分了责任上限结构的可允许性与金额的可辩护性，并指出了解决该问题的政策语言。GPT-5.6 Sol 在没有引用条款的情况下论证了相同的结论，这在法律行业是一个关键错误。",
+            "reference": "推文案例部分"
+          },
+          {
+            "label": "医疗案例",
+            "text": "医疗任务从 53% 提升到 77%（+23 分）：审计一批放射学报告的错误并评估严重程度。GPT-6 Astra 发现了一个膝关节影像报告中的术语错误，而 GPT-5.6 Sol 两次尝试都错过了，并且在评估严重程度方面更可靠，而不仅仅是标记有问题。",
+            "reference": "推文案例部分"
+          },
+          {
+            "label": "能源案例",
+            "text": "能源任务从 82% 提升到 97%（+15 分）：根据一年的电表日志为两个设施构建消耗报告，其中只有一个站点实际缺失数据。GPT-6 Astra 找到了它，并划出了一条大多数审查员不会划的线：另一个站点的异常太阳能读数是一个需要调查的测量问题，而不是记录中的缺口。GPT-5.6 Sol 报告两个站点都不完整。",
+            "reference": "推文案例部分"
+          },
+          {
+            "label": "未来计划",
+            "text": "Astra 显然将在驱动和编排企业工作流方面带来有意义的飞跃。我们将在 Box AI Studio 中提供 GPT-6 Astra 作为选项，供客户在持续推出期间构建智能体。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2095621785953984782:3ff588929a654775": {
+      "itemId": "tweet:2095621785953984782",
+      "sourceHash": "3ff588929a654775",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Swyx：sorry for the radio silence folks - got sucked into extreme LLM psychosis. but...",
+      "url": "https://x.com/swyx/status/2095621785953984782",
+      "generatedAt": "2026-09-05T01:14:06.809Z",
+      "summary": {
+        "title": "Swyx：从 LLM 狂热中回归，宣告 AI 工程新纪元",
+        "summary": "Swyx 在 X 上为长期沉默致歉，称自己陷入了极端的 LLM 狂热（psychosis）。但他自信地表示，我们已经跨越到了 AI 工程的新时代，并且永远不会回头。他提到自己用 Astra 做了很多工作，但这条推文并非全部内容，后续会在 LS（可能指 Latent Space 或他的博客）上发布更多报告。这条动态反映了一位知名 AI 开发者对当前技术变革的强烈信念，以及他个人深度投入后的阶段性总结。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "为长期沉默道歉，称自己陷入了极端的 LLM 狂热（psychosis）。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "自信地宣告：我们已经跨越到了 AI 工程的新时代，并且永远不会回头。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "提到自己用 Astra 做了很多工作，但这条推文并非全部内容，后续会发布更多报告。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "数据",
+            "text": "该推文互动数据：780 个赞，35 次转发，65 条回复。",
+            "reference": "推文元数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2095662778459766984:6f5b54b2f04b16b3": {
+      "itemId": "tweet:2095662778459766984",
+      "sourceHash": "6f5b54b2f04b16b3",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：I live in Codex and think it's the best software shipped in the past 5 years....",
+      "url": "https://x.com/petergyang/status/2095662778459766984",
+      "generatedAt": "2026-09-05T01:14:14.631Z",
+      "summary": {
+        "title": "Peter Yang：我住在 Codex 里，认为它是过去五年最好的软件，但 Astra 的营销与访问落差令人沮丧",
+        "summary": "Peter Yang 在 X 上表达了对 OpenAI Codex 的高度评价，称其为过去五年发布的最佳软件，并透露自己深度依赖 Codex 进行日常工作。但他同时指出，近期大量网红不间断地宣传 Astra 的出色表现，而付费用户却无法获得访问权限，这种反差让他感到不适。他承认自己现在也算是一名“网红”，可能带有嫉妒心理，也理解相关决策涉及多方因素，但仍希望坦诚表达真实感受。最后他表示将回归使用旧版 Sol 和剩余的 Fable 额度继续工作。这条推文反映了 AI 工具发布过程中，营销声量与用户实际体验之间的张力，以及开发者社区对产品可用性和公平性的关注。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我住在 Codex 里，认为它是过去五年发布的最好的软件。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "现象",
+            "text": "网红们不停地发帖说 Astra 有多棒，而付费用户却同时无法获得访问权限，这种组合在我看来相当糟糕。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "自省",
+            "text": "我意识到我现在也算是个‘网红’了，也许我只是嫉妒。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "理解",
+            "text": "我也认识到这些决定涉及多方因素。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "行动",
+            "text": "只是想坦诚一点。回去继续用老伙计 Sol 和我剩下的 Fable 额度干活了。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
