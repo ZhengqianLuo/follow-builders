@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-05T01:14:14.631Z",
+  "updatedAt": "2026-09-06T01:12:28.848Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -9398,6 +9398,216 @@
             "label": "行动",
             "text": "只是想坦诚一点。回去继续用老伙计 Sol 和我剩下的 Fable 额度干活了。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2096035437299237298:fad278b3473ba5d4": {
+      "itemId": "tweet:2096035437299237298",
+      "sourceHash": "fad278b3473ba5d4",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Because we are beyond happy to have Astra rolled out today ahead of schedule...",
+      "url": "https://x.com/thsottiaux/status/2096035437299237298",
+      "generatedAt": "2026-09-06T01:11:53.128Z",
+      "summary": {
+        "title": "Thibault Sottiaux 宣布 Astra 提前上线，并给所有 Plus/Pro/Business 用户全额重置额度",
+        "summary": "Thibault Sottiaux 在 X 上宣布 Astra 已提前上线，团队非常高兴。为了感谢用户（虽然用户并不算特别耐心），他们决定今天也为所有 Plus、Pro 和 Business 用户执行全额 banked reset，额度将在当天结束时到账。他还提醒，如果在太平洋时间晚上 8 点前创建账户或升级，也能获得该重置。推文互动量很高，显示用户对 Astra 的期待和关注。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "团队对 Astra 提前上线感到非常高兴，并决定给所有 Plus、Pro 和 Business 用户全额重置额度作为回馈。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "金句",
+            "text": "Happy Astra day and enjoy a phenomenal weekend.",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 17706 个赞、848 次转发和 1675 条回复，互动量很高。",
+            "reference": "推文互动数据"
+          },
+          {
+            "label": "案例",
+            "text": "如果在太平洋时间晚上 8 点前创建账户或升级，也能获得全额重置额度。",
+            "reference": "推文 PS 部分"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2096065378598441431:5707df4cb6134c33": {
+      "itemId": "tweet:2096065378598441431",
+      "sourceHash": "5707df4cb6134c33",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Super bullish on WebMCP. Much like Tesla FSD meets the world where it is...",
+      "url": "https://x.com/rauchg/status/2096065378598441431",
+      "generatedAt": "2026-09-06T01:12:00.272Z",
+      "summary": {
+        "title": "Guillermo Rauch 看好 WebMCP：让智能体直接驾驭现有 Web 基础设施",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中表达了对 WebMCP 的强烈看好。他将 WebMCP 比作特斯拉 FSD（全自动驾驶）面对真实世界（街道、红绿灯、坑洼等）的应对方式，认为智能体需要直接驾驭现有的 WWW 基础设施，而 WebMCP 能使其更高效。他举例说明，Next.js 开发页面可以直接向智能体暴露调试工具，提供页面特定上下文，而无需查找和配置单独的 MCP 服务器。他还提到，在这种模式下，fx + agent-browser 就能构成完整的 Web 开发栈，且调试深度无损。这条推文反映了 AI 智能体与 Web 基础设施融合的趋势，以及 WebMCP 在降低集成成本、提升开发效率方面的潜力。",
+        "excerpts": [
+          {
+            "label": "类比",
+            "text": "WebMCP 就像特斯拉 FSD 面对真实世界（街道、红绿灯、坑洼等），智能体需要驾驭现有的 WWW 基础设施，WebMCP 使其更高效。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "Next.js 开发页面可以直接向智能体暴露调试工具，提供页面特定上下文，而无需筛选服务器日志。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "无需查找和配置单独的 MCP 服务器，因为页面直接暴露自己的“智能体工具”。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "在这种模式下，fx + agent-browser 就是一个完整的 Web 开发栈，调试深度零损失。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2095971990645755941:401ab30c52e40bfa": {
+      "itemId": "tweet:2095971990645755941",
+      "sourceHash": "401ab30c52e40bfa",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Garry Tan：Absolutely insane experience using @AsideAI as an AI harness - trying to setup...",
+      "url": "https://x.com/garrytan/status/2095971990645755941",
+      "generatedAt": "2026-09-06T01:12:07.790Z",
+      "summary": {
+        "title": "Garry Tan 惊叹 AsideAI 作为 AI 控制器的体验：OpenClaw 配置 Slack 需 2 小时，Aside 仅 3 分钟",
+        "summary": "Y Combinator 总裁 Garry Tan 在 X 上分享了他使用 AsideAI 作为 AI 控制器（AI harness）的体验。他原本尝试用 OpenClaw 配置 Slack 集成，花了 2 小时仍未完成；而 AsideAI 的控制器凭借完整的集成能力和浏览器集成，在不到 3 分钟内就完成了设置，并且功能齐全，还带有智能的访问控制默认设置。这条推文展示了 AsideAI 在易用性和集成效率上的显著优势，也侧面反映了 AI 工具链中“控制器”层的重要性。对于关注 AI 自动化、工作流集成或开发者工具的人来说，这是一个来自知名投资人的真实使用反馈，具有参考价值。",
+        "excerpts": [
+          {
+            "label": "核心体验对比",
+            "text": "用 OpenClaw 配置 Slack 花了 2 小时，而 AsideAI 的控制器加上完整集成和浏览器集成，不到 3 分钟就完成了。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "功能评价",
+            "text": "AsideAI 的控制器功能齐全，并且带有智能的访问控制默认设置。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "情绪表达",
+            "text": "Garry Tan 用“Absolutely insane experience”来形容这次体验，强调其超乎预期。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "产品定位",
+            "text": "AsideAI 被描述为“AI harness”（AI 控制器），暗示其作用是统一管理和调度 AI 能力与外部集成。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2095948689823121872:00bf3fb28cf4abb6": {
+      "itemId": "tweet:2095948689823121872",
+      "sourceHash": "00bf3fb28cf4abb6",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Garry Tan：GStack now uses @AsideAI browser as it's preferred remote session browser Does...",
+      "url": "https://x.com/garrytan/status/2095948689823121872",
+      "generatedAt": "2026-09-06T01:12:14.722Z",
+      "summary": {
+        "title": "Garry Tan 推荐 Aside AI 浏览器：GStack 首选远程会话浏览器",
+        "summary": "Y Combinator 总裁 Garry Tan 在推文中宣布，GStack 现已采用 @AsideAI 浏览器作为其首选的远程会话浏览器。他提出一个关键问题：你的 AI 代理是否需要像你一样访问网络和凭据？Garry 表示，在他尝试过的所有 AI 代理工具中，Aside 是绝对最佳的方式。他列举了 Aside 的四大优势：a) 出色的浏览器；b) 擅长管理凭据；c) 具备所有需要的集成；d) 本身就是一个强大的 harness 和记忆系统。他称 Aside 是他新的最爱 AI 浏览器。这条推文获得了 271 个赞、13 次转发和 42 条回复，显示出 AI 浏览器和代理工具在开发者社区中的热度。",
+        "excerpts": [
+          {
+            "label": "核心问题",
+            "text": "你的 AI 代理是否需要像你一样访问网络和凭据？",
+            "reference": "推文原文"
+          },
+          {
+            "label": "总体评价",
+            "text": "在我尝试过的所有 AI 代理工具中，Aside 是绝对最佳的方式。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "优势一",
+            "text": "Aside 是一个出色的浏览器。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "优势二",
+            "text": "Aside 擅长管理凭据。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "优势三",
+            "text": "Aside 具备所有你需要的集成。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "优势四",
+            "text": "Aside 本身就是一个强大的 harness 和记忆系统。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "个人偏好",
+            "text": "它是我新的最爱 AI 浏览器。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:8476d0dc-a726-11f1-86e6-bbc25e1787ef:087c9859b89bad20": {
+      "itemId": "podcast:8476d0dc-a726-11f1-86e6-bbc25e1787ef",
+      "sourceHash": "087c9859b89bad20",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "No Priors: Redefining Chip Architecture with Arm CEO Rene Haas",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "generatedAt": "2026-09-06T01:12:28.847Z",
+      "summary": {
+        "title": "Arm CEO Rene Haas：重新定义芯片架构",
+        "summary": "本期播客中，Arm CEO Rene Haas 与主持人探讨了 Arm 在芯片供应链中的双重角色：既作为 IP 授权商，又新进入物理芯片产品领域。他解释了 Arm 从提供 IP 组件到计算子系统再到推出自有 CPU 的演进逻辑，并强调这一举措得到了包括英伟达、亚马逊、微软、谷歌等客户的广泛支持。Haas 详细阐述了 AI 在芯片设计中的巨大潜力，特别是在验证、调试等环节，认为 AI 工具将大幅缩短设计周期，并指出 Arm 凭借丰富的 IP 文档和测试平台在 AI 训练数据方面具有独特优势。他还讨论了供应链瓶颈，认为数据中心建设、晶圆和内存产能将在未来三到五年持续紧张，但 AI 需求远未饱和。在机器人领域，Haas 预测通用机器人和专用机器人将并存，Arm 的处理器将在感知和计算中无处不在。此外，他分享了关于美国半导体制造、出口管制和数据中心反对声音的看法，强调保持技术领先的重要性。最后，Haas 表达了对 Arm 处于 AI 革命核心的兴奋，并认为 CPU 在 AI 系统中不可或缺，尤其在边缘设备上 Arm 架构将发挥关键作用。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "没有哪个计算问题不利用微处理器。它是一切的核心。所有道路都经过它、绕过它、穿过它。必须有东西来编排、仲裁和决定 token 的去向。这就是 CPU 的作用。",
+            "reference": "00:00 - 00:15"
+          },
+          {
+            "label": "数据",
+            "text": "芯片设计可能需要 24 到 36 个月，但设计本身不是最耗时的部分，最耗时的是验证、确认和调试。AI 在这方面非常擅长。",
+            "reference": "00:15 - 00:36"
+          },
+          {
+            "label": "类比",
+            "text": "如果关掉 AI 工具，就像回到 1990 年代，你有了互联网，却规定只能在下午两点到四点使用，其他时间必须去图书馆。那会引发混乱。精灵已经出瓶，无法阻止。",
+            "reference": "00:15 - 00:42"
+          },
+          {
+            "label": "案例",
+            "text": "Meta 想要一个通用智能体 CPU，但市场上没有现成产品，于是找到 Arm 合作开发，这成为 Arm 进入物理芯片产品的契机。",
+            "reference": "04:15 - 04:23"
+          },
+          {
+            "label": "数据",
+            "text": "Arm 内部大约 80% 到 90% 的工程师每天都在使用 AI 工具。",
+            "reference": "08:24 - 08:51"
+          },
+          {
+            "label": "观点",
+            "text": "AI 需求远未饱和，供应远未过剩。只要 transformer 是 AI 训练和推理的基本单元，计算和内存就会非常密集，供应链紧张将持续三到五年。",
+            "reference": "12:45 - 13:12"
+          },
+          {
+            "label": "观点",
+            "text": "数据中心建设将成为下一个瓶颈。许多项目没有提前完成，劳动力短缺，加上部分地区限制数据中心发展，基础设施扩建可能成为阻力。",
+            "reference": "13:47 - 15:00"
+          },
+          {
+            "label": "观点",
+            "text": "机器人行业将由 Arm 驱动。今天，无论是英伟达还是高通，人形机器人的大脑大多运行在 Arm 架构上。",
+            "reference": "23:04 - 23:30"
           }
         ],
         "materials": []
