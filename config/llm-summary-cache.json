@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-06T01:12:28.848Z",
+  "updatedAt": "2026-09-07T01:12:04.419Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -9608,6 +9608,101 @@
             "label": "观点",
             "text": "机器人行业将由 Arm 驱动。今天，无论是英伟达还是高通，人形机器人的大脑大多运行在 Arm 架构上。",
             "reference": "23:04 - 23:30"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2096612718098911590:83749e770f5c965f": {
+      "itemId": "tweet:2096612718098911590",
+      "sourceHash": "83749e770f5c965f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：“Cheating and explaining the answer [to your child] are closer than you’d...",
+      "url": "https://x.com/petergyang/status/2096612718098911590",
+      "generatedAt": "2026-09-07T01:11:44.522Z",
+      "summary": {
+        "title": "Peter Yang 对话 Brilliant 联合创始人 Sue Khim：AI 如何帮助孩子独立思考",
+        "summary": "Peter Yang 在 X 上发布了他与 Brilliant.org 联合创始人 Sue Khim 的最新播客对话，核心观点是“作弊和直接告诉孩子答案其实很接近”。Sue Khim 分享了 AI 在教育中的角色，强调 AI 不应替孩子跳过学习过程，而应帮助他们自己思考。她指出，更好的成绩并不总是意味着更多的学习，家长和教育者应帮助孩子享受做困难事情的过程，而不是只为了取悦大人。她最重要的产品原则是“永远不要直接告诉学习者答案”。Sue 用类比说明：“用 AI 跳过学习就像带着机械臂去健身房帮你举重。”她认为学习不是关于答案本身，而是强化专注和挣扎的能力，培养不怕尝试新问题的勇气。此外，她还建议 AI 产品开发者寻找独特数据来让产品随时间变得更好。播客由 Linear 和 Riverside.fm 赞助。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "作弊和直接告诉孩子答案其实很接近。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "类比",
+            "text": "用 AI 跳过学习就像带着机械臂去健身房帮你举重。",
+            "reference": "Sue Khim 语录"
+          },
+          {
+            "label": "金句",
+            "text": "学习不是关于答案本身，而是强化你专注和挣扎的能力，让你不怕尝试新问题。",
+            "reference": "Sue Khim 语录"
+          },
+          {
+            "label": "产品原则",
+            "text": "她最重要的产品原则是“永远不要直接告诉学习者答案”。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "产品建议",
+            "text": "构建 AI 产品时，要寻找你拥有独特数据的领域，让产品随时间变得更好。",
+            "reference": "Sue Khim 语录"
+          },
+          {
+            "label": "教育观点",
+            "text": "更好的成绩并不总是意味着更多的学习。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:blog:https://www.anthropic.com/engineering/managed-agents:ae46b7d81e8d76a5": {
+      "itemId": "blog:https://www.anthropic.com/engineering/managed-agents",
+      "sourceHash": "ae46b7d81e8d76a5",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Anthropic Engineering: Scaling Managed Agents: Decoupling the brain from the hands",
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "generatedAt": "2026-09-07T01:12:04.419Z",
+      "summary": {
+        "title": "扩展托管智能体：将大脑与双手解耦",
+        "summary": "Anthropic 工程团队在构建托管智能体（Managed Agents）服务时，面临一个经典系统设计问题：如何为“尚未被构想的程序”设计系统。他们借鉴操作系统通过虚拟化硬件提供稳定抽象（如进程、文件）的思路，将智能体的核心组件——会话（session，仅追加的事件日志）、harness（调用 Claude 并路由工具调用的循环）和沙箱（执行代码和编辑文件的环境）——虚拟化为独立接口，使各部分可以独立替换和扩展。\n\n最初，团队将所有组件放在单个容器中，导致容器成为“宠物”（pet）：一旦容器故障，会话丢失；调试困难，因为工程师需要进入容器内部，但容器可能包含用户数据；同时，harness 假设所有资源都在容器内，限制了连接客户私有云的能力。\n\n解决方案是将“大脑”（Claude 及其 harness）与“双手”（沙箱和工具）以及“会话”解耦。harness 不再驻留在容器内，而是通过统一的工具调用接口 execute(name, input) → string 来操作沙箱。容器变成“牲畜”（cattle），可以随时替换；harness 也变成无状态，通过 wake(sessionId) 和 getSession(id) 从会话日志恢复。\n\n安全方面，解耦后，Claude 生成的不可信代码运行在沙箱中，而凭证（如 Git 令牌、OAuth 令牌）存储在沙箱外的保险库中，通过代理注入，harness 和沙箱均无法直接访问凭证，从而降低提示注入攻击的风险。\n\n会话日志作为 Claude 上下文窗口之外的持久化上下文对象，通过 getEvents() 接口允许大脑按位置切片检索事件，支持灵活的上下文管理，避免不可逆的压缩或修剪决策。\n\n解耦还带来了性能提升：容器按需通过工具调用配置，而非预先为每个会话配置，使 p50 首 token 时间（TTFT）下降约 60%，p95 下降超过 90%。同时，一个大脑可以连接多个双手（多个沙箱或工具），每个手都是一个工具调用，大脑可以决定将工作发送到何处，并且手可以在大脑之间传递。\n\n最终，托管智能体被设计为一个“元 harness”，对具体 harness 实现不持意见，而是提供通用接口，以适应未来 Claude 的智能发展。",
+        "excerpts": [
+          {
+            "label": "核心设计理念",
+            "text": "操作系统通过虚拟化硬件为尚未存在的程序提供抽象（如进程、文件），这些抽象比硬件更持久。托管智能体遵循同样的模式：我们虚拟化了智能体的组件——会话、harness 和沙箱——使每个组件的实现可以独立替换而不影响其他部分。",
+            "reference": "文章开头部分"
+          },
+          {
+            "label": "宠物与牲畜的类比",
+            "text": "将所有组件放在单个容器中，我们遇到了一个老问题：我们收养了一只宠物。在宠物与牲畜的类比中，宠物是有名字、需要人工照料、不能丢失的个体，而牲畜是可以互换的。在我们的案例中，服务器成了宠物；如果容器故障，会话就丢失了。",
+            "reference": "“Don’t adopt a pet” 章节"
+          },
+          {
+            "label": "解耦后的工具调用接口",
+            "text": "解耦大脑与双手意味着 harness 不再驻留在容器内。它像调用其他工具一样调用容器：execute(name, input) → string。容器变成了牲畜。如果容器死亡，harness 将失败作为工具调用错误捕获并传递给 Claude。",
+            "reference": "“The harness leaves the container” 章节"
+          },
+          {
+            "label": "安全边界设计",
+            "text": "在耦合设计中，Claude 生成的不可信代码与凭证运行在同一个容器中，提示注入只需说服 Claude 读取自己的环境。结构性的修复是确保凭证永远无法从沙箱中访问。我们使用两种模式：凭证与资源捆绑或在沙箱外的保险库中保存。",
+            "reference": "“The security boundary” 章节"
+          },
+          {
+            "label": "会话作为上下文对象",
+            "text": "会话提供了与上下文窗口外的上下文对象相同的好处。但上下文不是存储在沙箱或 REPL 中，而是持久存储在会话日志中。接口 getEvents() 允许大脑通过选择事件流的位置切片来查询上下文。",
+            "reference": "“The session is not Claude’s context window” 章节"
+          },
+          {
+            "label": "性能提升数据",
+            "text": "解耦后，容器按需通过工具调用配置，而不是预先为每个会话配置。使用这种架构，我们的 p50 首 token 时间（TTFT）下降了约 60%，p95 下降了超过 90%。",
+            "reference": "“Many brains” 章节"
+          },
+          {
+            "label": "多手扩展",
+            "text": "解耦大脑与双手使每只手成为一个工具，execute(name, input) → string：输入名称和输入，返回字符串。该接口支持任何自定义工具、任何 MCP 服务器和我们自己的工具。harness 不知道沙箱是容器、手机还是宝可梦模拟器。",
+            "reference": "“Many hands” 章节"
           }
         ],
         "materials": []
