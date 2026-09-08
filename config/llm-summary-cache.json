@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-07T01:12:04.419Z",
+  "updatedAt": "2026-09-08T01:17:19.111Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -9703,6 +9703,91 @@
             "label": "多手扩展",
             "text": "解耦大脑与双手使每只手成为一个工具，execute(name, input) → string：输入名称和输入，返回字符串。该接口支持任何自定义工具、任何 MCP 服务器和我们自己的工具。harness 不知道沙箱是容器、手机还是宝可梦模拟器。",
             "reference": "“Many hands” 章节"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2096735726750908464:ed1a1783289485fb": {
+      "itemId": "tweet:2096735726750908464",
+      "sourceHash": "ed1a1783289485fb",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：The internet is almost entirely unprepared for a future where everyone’s...",
+      "url": "https://x.com/levie/status/2096735726750908464",
+      "generatedAt": "2026-09-08T01:17:08.537Z",
+      "summary": {
+        "title": "Aaron Levie：互联网尚未为个人智能体时代做好准备",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中指出，当前互联网的基础设施、用户体验和商业模式几乎完全没有为“个人智能体（personal agents）为每个人执行任务”的未来做好准备。他认为，当每个人都有自己的智能体在网络上自主运行、处理事务时，将催生大量新的挑战和机遇，涉及基础设施层、用户体验、新商业模式等多个层面。这条推文虽然简短，但点出了一个关键趋势：从人直接使用互联网，到智能体代替人使用互联网，将引发互联网架构和商业逻辑的深层变革。Levie 作为企业软件领域的知名创业者，其观点对关注 AI 智能体、互联网基础设施和平台经济的人具有参考价值。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "互联网几乎完全没有为一个人人都有个人智能体为其执行任务的未来做好准备。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "趋势判断",
+            "text": "未来每个人都会拥有个人智能体，它们在网络上自主运行、执行任务。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "机遇领域",
+            "text": "基础设施层、用户体验、新商业模式等方面将出现无穷无尽的新挑战和机遇。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "作者背景",
+            "text": "Aaron Levie 是 Box 的联合创始人兼 CEO，长期关注企业软件和平台生态。",
+            "reference": "作者身份"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:dc36d7b4-a1cb-11f1-a66e-afd86ce968a2:e5e9eed2b07855fa": {
+      "itemId": "podcast:dc36d7b4-a1cb-11f1-a66e-afd86ce968a2",
+      "sourceHash": "e5e9eed2b07855fa",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "No Priors: Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "generatedAt": "2026-09-08T01:17:19.111Z",
+      "summary": {
+        "title": "重思遗留数据基础设施：Eon 联合创始人谈 AI 时代的数据管理",
+        "summary": "本期播客中，Eon 联合创始人 Ofir Ehrlich 和 Gonen Stein 讨论了 AI 时代企业数据基础设施的变革。Eon 提供云数据基础服务，帮助客户映射、分类、摄取和保护数据，并支持 AI 应用。他们指出，数据已成为企业最重要的资产，并以 Google 收购破产的 Spirit Airlines 数据为例，说明企业数据在 AI 训练中的价值。随着 AI 代理的普及，数据安全威胁从人类扩展到非人类代理，企业需要新的工具来管理数据访问和权限。他们还对比了云迁移和 AI 转型，认为 AI 转型速度更快，企业面临更大的控制挑战。最后，他们讨论了企业软件消费模式的变化，如 PLG 和 forward deployed engineers 的兴起。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "数据已成为企业最重要的资产，模型和计算几乎可以零成本切换，但数据是真正的护城河。",
+            "reference": "03:02-03:47"
+          },
+          {
+            "label": "案例",
+            "text": "Google 以 1000 万美元收购破产的 Spirit Airlines 的数据，用于训练模型，而不是购买飞机。",
+            "reference": "03:47-04:06"
+          },
+          {
+            "label": "观点",
+            "text": "AI 代理带来的安全威胁与人类威胁类似，但速度极快，需要新的检测和保护方法。",
+            "reference": "00:00-00:22"
+          },
+          {
+            "label": "观点",
+            "text": "非技术人员使用 AI 工具构建应用，可能无意中泄露敏感数据，企业需要新的治理框架。",
+            "reference": "00:22-00:51"
+          },
+          {
+            "label": "类比",
+            "text": "企业数据就像散落在不同业务单元的宝藏，数据团队难以获取和整合，Eon 旨在解决这一难题。",
+            "reference": "09:48-13:21"
+          },
+          {
+            "label": "观点",
+            "text": "AI 转型比云迁移更快，企业因害怕数据泄露或 IP 外流而暂停采用 AI，需要更好的控制工具。",
+            "reference": "28:27-29:33"
+          },
+          {
+            "label": "趋势",
+            "text": "企业软件消费模式正在变化，PLG 和 forward deployed engineers 成为 AI 时代的新趋势。",
+            "reference": "30:40-32:42"
           }
         ],
         "materials": []
