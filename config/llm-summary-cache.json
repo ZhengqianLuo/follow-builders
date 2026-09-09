@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-08T01:17:19.111Z",
+  "updatedAt": "2026-09-09T01:21:48.172Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -9788,6 +9788,131 @@
             "label": "趋势",
             "text": "企业软件消费模式正在变化，PLG 和 forward deployed engineers 成为 AI 时代的新趋势。",
             "reference": "30:40-32:42"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2097116011384426516:175e20085d91b7b0": {
+      "itemId": "tweet:2097116011384426516",
+      "sourceHash": "175e20085d91b7b0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：▲ ~/𝚛𝚊𝚞𝚌𝚑𝚐/𝚘𝚜𝚜-𝚐𝚛𝚊𝚗𝚝𝚜/ 𝚕𝚜▐ (v2) I'm announcing v2 of my open...",
+      "url": "https://x.com/rauchg/status/2097116011384426516",
+      "generatedAt": "2026-09-09T01:21:35.831Z",
+      "summary": {
+        "title": "Guillermo Rauch 宣布 v2 开源资助：35 位贡献者各获 1000 美元，聚焦 Agent 技能、本地 AI、性能、基础与趣味实验",
+        "summary": "Vercel CEO Guillermo Rauch 在 X 上宣布其个人开源资助计划 v2，将向 35 位优秀贡献者每人提供 1000 美元无条件资助。资助围绕五大主题：① Agent 技能与工具，强调技能正成为有价值的软件形态，提及 pgbot、knip、unlighthouse 等项目；② 本地 AI，如 slotstream、LocalAI、colibri 等项目让推理从演示走向真实且增长的实用工具；③ 性能，认为软件没有理由再慢，提及 fff、takumi、PerryTS、porffor、gpuix 等项目推动速度与原生升级；④ 高质量基础，赞赏 shadcn、Svelte(kit)、Nuxt、Node.js 及安全基础维护者；⑤ 趣味实验，如终端里的金融终端和 dither-kit。Rauch 强调这是个人行为，与 Vercel 无关，且完全无条件。该动态展示了 AI 生态中值得关注的开源方向与项目，对开发者有参考价值。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "技能（Skills）现在是一种有价值的软件形态，就像 Emil 的世界级设计工程工作一样。",
+            "reference": "推文原文，主题①"
+          },
+          {
+            "label": "案例",
+            "text": "pgbot、knip、unlighthouse 等项目创造了惊人的 AI 工程循环。",
+            "reference": "推文原文，主题①"
+          },
+          {
+            "label": "观点",
+            "text": "本地 AI 项目如 slotstream、LocalAI、colibri 正在让推理不仅是一个演示，而是对许多人来说真实且不断增长的实用工具。",
+            "reference": "推文原文，主题②"
+          },
+          {
+            "label": "观点",
+            "text": "软件没有理由再慢了。",
+            "reference": "推文原文，主题③"
+          },
+          {
+            "label": "案例",
+            "text": "PerryTS 和 porffor 这样的编译器可以帮助我们将整个生态系统升级为原生性能。",
+            "reference": "推文原文，主题③"
+          },
+          {
+            "label": "观点",
+            "text": "AI 在能够复用优秀组件时表现最佳，而不是每次都从第一性原理重新生成。",
+            "reference": "推文原文，主题④"
+          },
+          {
+            "label": "案例",
+            "text": "我忍不住捐赠给了一个“终端里的金融终端”，以及像 dither-kit 这样漂亮有趣的东西。",
+            "reference": "推文原文，主题⑤"
+          },
+          {
+            "label": "声明",
+            "text": "这些是个人行为，与 Vercel 无关，并且完全无条件。",
+            "reference": "推文原文，PS 部分"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2097004960307449937:414b6a52b7d4a185": {
+      "itemId": "tweet:2097004960307449937",
+      "sourceHash": "414b6a52b7d4a185",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：The AI jobs prediction so far is playing out the opposite of what many thought....",
+      "url": "https://x.com/levie/status/2097004960307449937",
+      "generatedAt": "2026-09-09T01:21:42.444Z",
+      "summary": {
+        "title": "Aaron Levie：AI 就业预测正走向相反方向",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中指出，目前 AI 对就业的影响与许多人此前的预测相反。原因在于 AI 将自动化带入了需求并非有限的领域，使企业能够做比以往更多的事情，但智能体仍需人类操作和监督才能产生价值。AI 不仅没有取代理论上最易受影响的工程师、律师等职位，反而在整个经济中创造或壮大了大量新岗位，如网络安全、FDE、智能体操作员、非软件领域的工程师等。Levie 认为，由于不断发现 AI 将打开的新需求领域，这一趋势是否会逆转尚不明确。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 就业预测目前正朝着与许多人预期相反的方向发展。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "原因分析",
+            "text": "AI 将自动化带入了需求并非有限的领域，使企业能够做比以往更多的事情，但智能体仍需人类操作和监督才能产生价值。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "反直觉事实",
+            "text": "AI 不仅没有取代理论上最易受影响的工程师、律师等职位，反而在整个经济中创造或壮大了大量新岗位。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "具体岗位举例",
+            "text": "网络安全、FDE、智能体操作员、非软件领域的工程师等大量岗位类别将爆发式增长。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "趋势判断",
+            "text": "由于不断发现 AI 将打开的新需求领域，这一趋势是否会逆转尚不明确。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2096985239319105559:150a53f6a7f33cf3": {
+      "itemId": "tweet:2096985239319105559",
+      "sourceHash": "150a53f6a7f33cf3",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Garry Tan：It’s fair to say RFS are just hunches on what might be next, and conversation...",
+      "url": "https://x.com/garrytan/status/2096985239319105559",
+      "generatedAt": "2026-09-09T01:21:48.172Z",
+      "summary": {
+        "title": "Garry Tan：RFS 只是对未来的猜测，创业成功取决于具体创始人与客户",
+        "summary": "Y Combinator 总裁 Garry Tan 在这条推文中回应了关于 YC 的 Request for Startups（RFS）的讨论。他认为，RFS 本质上只是对未来可能方向的直觉猜测，以及为刚起步的创业者提供的对话起点。真正决定创业想法成败的核心因素是具体的创始人、他们为具体客户打造的具体技术，而其他都只是分类。这条推文澄清了 YC 对 RFS 的定位，强调创始人本身和实际执行比概念分类更重要。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "RFS 只是对未来可能方向的直觉猜测，以及为刚起步的创业者提供的对话起点。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "决定创业想法成功的主要因素是具体的创始人、为具体客户打造的具体技术。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "其他一切都只是分类（categorization）。",
+            "reference": "推文原文"
           }
         ],
         "materials": []

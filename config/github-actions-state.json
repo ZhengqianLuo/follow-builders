@@ -8580,7 +8580,127 @@
       "title": "Nan Yu：J-dog calling AGI https://t.co/5iDIHYUxyK",
       "url": "https://x.com/thenanyu/status/2096796392102752507",
       "sentAt": "2026-09-08T01:17:20.991Z"
+    },
+    "tweet:2097088586843816330": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：I think I can officially say: we are so back",
+      "url": "https://x.com/thsottiaux/status/2097088586843816330",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "topic:Thibault Sottiaux：I think I can officially say: we are so back": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：I think I can officially say: we are so back",
+      "url": "https://x.com/thsottiaux/status/2097088586843816330",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "tweet:2097174560412246215": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：All reset for everyone. Enjoy the week with Astra. https://t.co/WBM38JotGO",
+      "url": "https://x.com/thsottiaux/status/2097174560412246215",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "topic:Thibault Sottiaux：All reset for everyone. Enjoy the week with Astra. https://t.co/WBM38JotGO": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：All reset for everyone. Enjoy the week with Astra. https://t.co/WBM38JotGO",
+      "url": "https://x.com/thsottiaux/status/2097174560412246215",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "tweet:2097193293532848288": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Looking at this 28 page deck right now where Codex is keeping track of all the...",
+      "url": "https://x.com/thsottiaux/status/2097193293532848288",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "topic:Thibault Sottiaux：Looking at this 28 page deck right now where Codex is keeping track of all the...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Looking at this 28 page deck right now where Codex is keeping track of all the...",
+      "url": "https://x.com/thsottiaux/status/2097193293532848288",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "tweet:2096995340654444674": {
+      "type": "tweet",
+      "title": "Amanda Askell：It would be cool to set up an email address that autonomous AI models could...",
+      "url": "https://x.com/AmandaAskell/status/2096995340654444674",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "topic:Amanda Askell：It would be cool to set up an email address that autonomous AI models could...": {
+      "type": "topic",
+      "title": "Amanda Askell：It would be cool to set up an email address that autonomous AI models could...",
+      "url": "https://x.com/AmandaAskell/status/2096995340654444674",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "tweet:2097134278358548658": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Your software factory needs high quality video recording....",
+      "url": "https://x.com/rauchg/status/2097134278358548658",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "topic:Guillermo Rauch：Your software factory needs high quality video recording....": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Your software factory needs high quality video recording....",
+      "url": "https://x.com/rauchg/status/2097134278358548658",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "tweet:2097116011384426516": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：▲ ~/𝚛𝚊𝚞𝚌𝚑𝚐/𝚘𝚜𝚜-𝚐𝚛𝚊𝚗𝚝𝚜/ 𝚕𝚜▐ (v2) I'm announcing v2 of my open...",
+      "url": "https://x.com/rauchg/status/2097116011384426516",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "topic:Guillermo Rauch：▲ ~/𝚛𝚊𝚞𝚌𝚑𝚐/𝚘𝚜𝚜-𝚐𝚛𝚊𝚗𝚝𝚜/ 𝚕𝚜▐ (v2) I'm announcing v2 of my open...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：▲ ~/𝚛𝚊𝚞𝚌𝚑𝚐/𝚘𝚜𝚜-𝚐𝚛𝚊𝚗𝚝𝚜/ 𝚕𝚜▐ (v2) I'm announcing v2 of my open...",
+      "url": "https://x.com/rauchg/status/2097116011384426516",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "tweet:2097004960307449937": {
+      "type": "tweet",
+      "title": "Aaron Levie：The AI jobs prediction so far is playing out the opposite of what many thought....",
+      "url": "https://x.com/levie/status/2097004960307449937",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "topic:Aaron Levie：The AI jobs prediction so far is playing out the opposite of what many thought....": {
+      "type": "topic",
+      "title": "Aaron Levie：The AI jobs prediction so far is playing out the opposite of what many thought....",
+      "url": "https://x.com/levie/status/2097004960307449937",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "tweet:2097091456234111377": {
+      "type": "tweet",
+      "title": "Peter Steinberger：Did a PR to one of our upstream projects and they requested some minor changes....",
+      "url": "https://x.com/steipete/status/2097091456234111377",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "topic:Peter Steinberger：Did a PR to one of our upstream projects and they requested some minor changes....": {
+      "type": "topic",
+      "title": "Peter Steinberger：Did a PR to one of our upstream projects and they requested some minor changes....",
+      "url": "https://x.com/steipete/status/2097091456234111377",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "tweet:2097136523066110240": {
+      "type": "tweet",
+      "title": "Dan Shipper：i was looking through my gmail messages from the early 2000s i have incredible...",
+      "url": "https://x.com/danshipper/status/2097136523066110240",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "topic:Dan Shipper：i was looking through my gmail messages from the early 2000s i have incredible...": {
+      "type": "topic",
+      "title": "Dan Shipper：i was looking through my gmail messages from the early 2000s i have incredible...",
+      "url": "https://x.com/danshipper/status/2097136523066110240",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "tweet:2096985239319105559": {
+      "type": "tweet",
+      "title": "Garry Tan：It’s fair to say RFS are just hunches on what might be next, and conversation...",
+      "url": "https://x.com/garrytan/status/2096985239319105559",
+      "sentAt": "2026-09-09T01:21:50.506Z"
+    },
+    "topic:Garry Tan：It’s fair to say RFS are just hunches on what might be next, and conversation...": {
+      "type": "topic",
+      "title": "Garry Tan：It’s fair to say RFS are just hunches on what might be next, and conversation...",
+      "url": "https://x.com/garrytan/status/2096985239319105559",
+      "sentAt": "2026-09-09T01:21:50.506Z"
     }
   },
-  "updatedAt": "2026-09-08T01:17:20.991Z"
+  "updatedAt": "2026-09-09T01:21:50.506Z"
 }
