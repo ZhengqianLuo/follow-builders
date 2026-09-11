@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-10T01:17:32.556Z",
+  "updatedAt": "2026-09-11T01:19:22.381Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -10064,6 +10064,86 @@
             "label": "观点",
             "text": "这一趋势直接契合 Meta 的优势：需要大量算力、可通过广告和电商变现、软件驱动的体验便于大规模分发等。",
             "reference": "推文最后一句"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2097738533297689012:803af37ba2ea375a": {
+      "itemId": "tweet:2097738533297689012",
+      "sourceHash": "803af37ba2ea375a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：The way to the reconcile capability level of AI vs. GDP impact is that the...",
+      "url": "https://x.com/levie/status/2097738533297689012",
+      "generatedAt": "2026-09-11T01:19:16.044Z",
+      "summary": {
+        "title": "AI 能力与 GDP 影响为何脱节：扩散速度与真实世界摩擦",
+        "summary": "Aaron Levie 在这条推文中回应了 AI 能力与 GDP 影响之间的差距问题。他认为，AI 的扩散将比人们预期的慢得多，并且其影响在短期内难以通过 GDP 直接衡量。即使将超级智能引入工作流程，仍会受到“企业物理学”的制约：数据准备与管道构建、流程再造与变革管理、新工作流程的协调等。解决这些后，还受制于现实世界的速度：等待客户回复提案、获取项目许可、药物发现管线需要多年才能惠及消费者等。此外，许多日常 AI 用例在短期内对 GDP 完全中性。Levie 预测 AI 扩散将是未来十年的主题，并指出在超级智能与现实工作流程之间搭建桥梁蕴含着巨大机会。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 的扩散将比人们预期的慢得多，并且其影响在短期内难以通过 GDP 直接衡量。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "类比",
+            "text": "即使将世界上最伟大的超级智能引入许多工作流程，你仍然会受到‘企业物理学’法则的束缚：数据准备与管道构建、流程再造与变革管理、新工作流程的协调等。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "即使解决了所有企业问题，你仍然受制于现实世界的速度：等待客户回复提案、获取项目许可、药物发现管线需要多年才能最终惠及消费者等。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "观点",
+            "text": "许多积极的日常 AI 用例在短期内对 GDP 完全中性。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "预测",
+            "text": "AI 扩散将是未来十年的主题。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "机会",
+            "text": "在超级智能与现实世界工作流程之间搭建桥梁蕴含着巨大的机会。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2097728692596486487:0c5aebe713bb02f9": {
+      "itemId": "tweet:2097728692596486487",
+      "sourceHash": "0c5aebe713bb02f9",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Garry Tan：Jane Kim: Big Talk, little respect for facts, outright falsehoods Jane Kim is a...",
+      "url": "https://x.com/garrytan/status/2097728692596486487",
+      "generatedAt": "2026-09-11T01:19:22.381Z",
+      "summary": {
+        "title": "Garry Tan 抨击 Jane Kim：夸大其词、罔顾事实、满口谎言",
+        "summary": "Y Combinator 总裁 Garry Tan 在 X 上发布推文，猛烈抨击旧金山前市议员 Jane Kim。他称 Kim 是“NIMBY”（邻避主义者），帮助制造了旧金山的“末日循环”（doom loop），现在却“失败向上”（failing up），试图竞选加州保险专员。Tan 认为 Kim 不是真正的公仆，呼吁选民将她挡在公职之外。推文附有两个链接，可能指向相关报道或证据。该推文获得 218 个赞、18 次转发和 22 条回复，反映了科技界与进步派政治人物在住房、城市治理等问题上的持续对立。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Jane Kim 是 NIMBY，帮助制造了旧金山的末日循环。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "她现在‘失败向上’，想当加州保险专员。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "她不是公仆，我们应该把她挡在公职之外。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "推文互动：218 个赞，18 次转发，22 条回复。",
+            "reference": "推文元数据"
           }
         ],
         "materials": []
