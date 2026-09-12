@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-11T01:19:22.381Z",
+  "updatedAt": "2026-09-12T01:21:05.912Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -10147,6 +10147,137 @@
           }
         ],
         "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2098113585683808624:e524a5e10b1b5c9a": {
+      "itemId": "tweet:2098113585683808624",
+      "sourceHash": "e524a5e10b1b5c9a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：To make sure our current users have an incredible experience and continued...",
+      "url": "https://x.com/thsottiaux/status/2098113585683808624",
+      "generatedAt": "2026-09-12T01:20:49.488Z",
+      "summary": {
+        "title": "Astra 暂停 $200 Pro 订阅以保障现有用户体验",
+        "summary": "Thibault Sottiaux 宣布暂停 Astra 的 $200 Pro 计划新订阅，原因是该计划对系统造成最大压力，公司希望采取最小步骤来继续提供最广泛的访问。所有其他计划和 API 仍然可用，现有账户不受影响，团队正在尽快增加容量。这一决定反映了在需求激增时优先保障现有用户服务质量的策略，也暗示了 AI 服务在扩展性上面临的挑战。",
+        "excerpts": [
+          {
+            "label": "核心决策",
+            "text": "为了确保现有用户拥有极佳的体验并继续访问 Astra，我们将暂停 $200 Pro 计划的订阅。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "原因解释",
+            "text": "这些订阅对我们的系统造成了最大的压力，我们希望采取最小的步骤，以便继续提供尽可能广泛的访问。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "影响范围",
+            "text": "所有其他计划和 API 仍然可用。现有账户不受影响。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "未来计划",
+            "text": "我们正在尽快增加更多容量。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2098217573276131577:935a516e21f467e1": {
+      "itemId": "tweet:2098217573276131577",
+      "sourceHash": "935a516e21f467e1",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Boris Cherny：Hey ████, I think there is room for both. 1. Prototypes and other throw-away...",
+      "url": "https://x.com/bcherny/status/2098217573276131577",
+      "generatedAt": "2026-09-12T01:20:59.294Z",
+      "summary": {
+        "title": "Boris Cherny：原型代码可当黑盒，但生产代码需比人类写的标准更高",
+        "summary": "Boris Cherny 在推文中回应了关于 AI 生成代码质量的讨论，提出应区分对待原型代码与生产代码。对于一次性原型或即将丢弃的代码，可以完全视为黑盒，无需追求完美，因为其破坏范围有限。但对于由 Claude 编写的生产代码，应设定比人类编写更高的标准。他介绍了 Anthropic 内部为确保代码质量而设置的多重防护措施，包括大量 lint 规则、测试、Claude 驱动的端到端测试、每日运行的模糊测试、自动化代码审查与安全审查、自动化代码重构等。他强调，缺乏这些措施会导致难以维护的混乱代码。幸运的是，模型本身使得这些措施越来越容易实施，例如通过每日例行任务和 Claude Code Review 等工具。开发者的职责是坚守代码质量底线。如果 Claude 生成的代码不达标，可以尝试使用最新前沿模型（如 Opus 5 或 Fable 5.1）、将努力程度调至 high 或 xhigh、完善 CLAUDE.md 和技能文件以更简洁地指导 Claude 适应代码库。若仍不奏效，则需更主动地引导 Claude，或让 Claude 修复累积的技术债务并重写代码库以降低后续协作难度，或者等待下一代模型。该推文为 AI 辅助开发中的代码质量管理提供了具体、可操作的实践框架。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "原型和其他一次性代码可以完全当作黑盒处理。如果反正要扔掉，而且出问题的破坏范围很小，就不需要完美。",
+            "reference": "推文第1点"
+          },
+          {
+            "label": "观点",
+            "text": "Claude 编写的生产代码应该比人类编写的代码有更高的标准。",
+            "reference": "推文第2点"
+          },
+          {
+            "label": "案例",
+            "text": "在 Anthropic，我们设置了许多防护措施来确保这一点：大量 lint 规则、大量测试、Claude 驱动的端到端测试、每日运行的 Claude 模糊测试、自动化代码审查和安全审查、自动化代码重构等等。",
+            "reference": "推文第2点"
+          },
+          {
+            "label": "观点",
+            "text": "没有这些措施，最终会得到一团难以维护的乱麻。幸运的是，模型让做好这些事变得越来越容易——运行一些每日例行任务，使用 Claude Code Review 等。",
+            "reference": "推文第2点"
+          },
+          {
+            "label": "观点",
+            "text": "你的职责是守住代码质量的底线。",
+            "reference": "推文第2点"
+          },
+          {
+            "label": "建议",
+            "text": "如果 Claude 的代码不达标，可以尝试：使用最新的前沿模型（Opus 5 或 Fable 5.1）；将努力程度调至 high 或 xhigh；完善你的 CLAUDE.md 和技能文件，简洁地教会 Claude 如何在你的代码库中工作。",
+            "reference": "推文第2点"
+          },
+          {
+            "label": "建议",
+            "text": "如果以上都不行，就在与 Claude 协作时更多地引导它，或者让 Claude 修复累积的债务并重写代码库，使其更易于协作。或者，等待下一个模型。",
+            "reference": "推文第2点"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2098091056302833837:1bb49c5212e214f0": {
+      "itemId": "tweet:2098091056302833837",
+      "sourceHash": "1bb49c5212e214f0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Each day ~10 million deployments are made on Vercel, with 2.35 billion made to...",
+      "url": "https://x.com/rauchg/status/2098091056302833837",
+      "generatedAt": "2026-09-12T01:21:05.912Z",
+      "summary": {
+        "title": "Vercel 每日部署量达千万级，CDN 元数据系统 p99 提速 91%",
+        "summary": "Guillermo Rauch 在推文中透露，Vercel 平台每天约有 1000 万次部署，累计部署量已达 23.5 亿次。Vercel 是全球多租户程度最高的系统之一，数十亿应用部署共存，并可在其 CDN 上随时路由访问。CDN 底层是一个全球元数据存储，能在数百毫秒内完成全球同步，支持回滚、配置变更、添加路由等操作。该团队近期将这一系统 p99 延迟降低了 91%，同时加速了构建到部署的流水线。这一优化是在智能体部署（agentic deployments）增长带来的巨大压力下完成的。推文附有 CDN 工程团队关于 Vercel 内部机制的详细文章链接。",
+        "excerpts": [
+          {
+            "label": "数据",
+            "text": "Vercel 每天约有 1000 万次部署，累计部署量已达 23.5 亿次。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "Vercel 是全球多租户程度最高的系统之一，数十亿应用部署共存，并可在 CDN 上随时路由访问。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "技术细节",
+            "text": "CDN 底层是一个全球元数据存储，能在数百毫秒内完成全球同步，例如回滚、更改配置、添加路由等操作。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "该团队将这一系统 p99 延迟降低了 91%，同时加速了构建到部署的流水线。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "背景",
+            "text": "优化是在智能体部署（agentic deployments）增长带来的巨大压力下完成的。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": [
+          {
+            "label": "Vercel CDN 内部机制文章",
+            "url": "https://x.com/rauchg/status/2098091056302833837",
+            "note": "推文中提到的 CDN 工程团队关于 Vercel 内部机制的详细文章，可查看具体技术实现和优化细节。"
+          }
+        ]
       }
     }
   }
