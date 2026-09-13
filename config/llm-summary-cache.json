@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-12T01:21:05.912Z",
+  "updatedAt": "2026-09-13T01:16:38.529Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -10278,6 +10278,166 @@
             "note": "推文中提到的 CDN 工程团队关于 Vercel 内部机制的详细文章，可查看具体技术实现和优化细节。"
           }
         ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2098612714704891959:336efd5fd5bfe9ab": {
+      "itemId": "tweet:2098612714704891959",
+      "sourceHash": "336efd5fd5bfe9ab",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Hi Astra users. A reset and a quick update on quality issues that have been...",
+      "url": "https://x.com/thsottiaux/status/2098612714704891959",
+      "generatedAt": "2026-09-13T01:16:26.118Z",
+      "summary": {
+        "title": "Astra 质量修复与重置更新",
+        "summary": "Thibault Sottiaux 向 Astra 用户发布更新，说明团队已与部分用户合作定位并修复了多项质量问题。首先，一些为旧模型编写的技能被过度触发或阻止模型检查自身工作，现已修复。其次，一个可选的上下文管理实验可能导致提前停止或回复旧消息，该实验已被禁用，估计影响约 4000-5000 名用户。此外，团队移除了一些配置不当的引擎，这些引擎导致流经它们的长尾流量出现可测量的质量下降。还进行了若干次要改进，整体体验应有显著提升，包括更一致的后续跟进、更好地跟踪最新消息，以及在执行过程中更好地检查工作。作者感谢社区提供的示例和直接合作，并宣布重置将在当天午夜前落地。",
+        "excerpts": [
+          {
+            "label": "修复内容",
+            "text": "一些为旧模型编写的技能被过度触发或阻止模型检查自身工作，现已修复。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "实验影响",
+            "text": "一个可选的上下文管理实验可能导致提前停止或回复旧消息，已禁用，估计影响约 4000-5000 名用户。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "引擎移除",
+            "text": "移除了一些配置不当的引擎，这些引擎导致流经它们的长尾流量出现可测量的质量下降。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "整体改进",
+            "text": "更一致的后续跟进、更好地跟踪最新消息，以及在执行过程中更好地检查工作。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "社区贡献",
+            "text": "用户发布的示例和直接合作对快速修复问题非常有帮助，作者对社区表示感激。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "重置时间",
+            "text": "重置将在当天午夜前落地。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2098569976143806918:12b1109373ac8be8": {
+      "itemId": "tweet:2098569976143806918",
+      "sourceHash": "12b1109373ac8be8",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Excited to welcome Aidan & @ Sasha from the Git AI team to OpenAI! They are...",
+      "url": "https://x.com/thsottiaux/status/2098569976143806918",
+      "generatedAt": "2026-09-13T01:16:29.642Z",
+      "summary": {
+        "title": "OpenAI 欢迎 Git AI 团队加入，继续开源投入",
+        "summary": "OpenAI 的 Thibault Sottiaux 在 X 上宣布，欢迎来自 Git AI 团队的 Aidan 和 Sasha 加入 OpenAI。Git AI 团队一直以开放的方式构建，并开发了一款开源工具，帮助开发者理解编码代理（coding agents）如何为代码库做出贡献。双方将共同努力，让企业更容易看到 Codex 在解决个人和团队问题时所发挥的作用。同时，Git AI 将继续保持开源，OpenAI 也会持续对其进行投资。这条推文获得了 3042 个赞、73 次转发和 428 条回复，显示出社区对 OpenAI 在编码代理和开源工具领域动态的关注。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "欢迎来自 Git AI 团队的 Aidan 和 Sasha 加入 OpenAI。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "Git AI 团队开发了一款开源工具，帮助开发者理解编码代理如何为代码库做出贡献。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "双方将共同努力，让企业更容易看到 Codex 在解决个人和团队问题时所发挥的作用。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "承诺",
+            "text": "Git AI 将继续保持开源，OpenAI 也会持续对其进行投资。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2098483800456179923:59aeb861f5e980b4": {
+      "itemId": "tweet:2098483800456179923",
+      "sourceHash": "59aeb861f5e980b4",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Zara Zhang：I think the idea of a \"one-person company\" is overrated Yes, a person can do a...",
+      "url": "https://x.com/zarazhangrui/status/2098483800456179923",
+      "generatedAt": "2026-09-13T01:16:34.044Z",
+      "summary": {
+        "title": "Zara Zhang：一人公司被高估了，创业需要有人一起“绑在桅杆上”",
+        "summary": "Zara Zhang 在推文中反驳了当前流行的“一人公司”理念。她承认 AI 让个人能完成更多工作，但强调从零开始构建新事物本质上是一种极其孤独的体验。你需要有人一起头脑风暴、一起受苦、一起庆祝。如果不与另一个人一起把自己绑在桅杆上，就极容易失去动力。这条推文获得了 704 个赞、49 次转发和 209 条回复，引发了关于独立创业与合伙创业的讨论。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我认为“一人公司”的想法被高估了。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "是的，有了 AI，一个人能做的事情多得多。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "观点",
+            "text": "但构建新事物可能是一种极其孤独的体验。",
+            "reference": "推文第三句"
+          },
+          {
+            "label": "观点",
+            "text": "你需要有人一起头脑风暴、一起受苦、一起庆祝……",
+            "reference": "推文第四句"
+          },
+          {
+            "label": "类比",
+            "text": "如果你不把自己和另一个人一起绑在桅杆上，就极容易失去动力。",
+            "reference": "推文最后一句，借用了奥德修斯绑在桅杆上抵御塞壬歌声的典故"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2098531157230969062:10b4e29b4b9256ef": {
+      "itemId": "tweet:2098531157230969062",
+      "sourceHash": "10b4e29b4b9256ef",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Tailscale’s model router is powered by Vercel AI Gateway as its underlying...",
+      "url": "https://x.com/rauchg/status/2098531157230969062",
+      "generatedAt": "2026-09-13T01:16:38.529Z",
+      "summary": {
+        "title": "Guillermo Rauch：Tailscale 的模型路由器由 Vercel AI Gateway 驱动，AI 网关是新的 CDN",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中透露，Tailscale 的模型路由器（model router）底层使用了 Vercel AI Gateway 作为基础设施。他将 AI 网关类比为新的 CDN，认为虽然可以直接连接模型源站（direct to origin），但这种方式脆弱；自己搭建（DIY）则痛苦且成本高昂。他以此强调 AI 网关在可靠性、易用性和成本上的优势，并表达了对服务 Tailscale 这家网络技术公司的自豪。推文获得了 290 个赞、9 次转发和 27 条回复，显示该观点在开发者社区中引发了一定关注。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 网关是新的 CDN。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "类比",
+            "text": "你可以直接连到源站（direct to origin），但那样很脆弱。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "痛点",
+            "text": "你也可以自己动手（DIY），但那既痛苦又昂贵。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "Tailscale 的模型路由器由 Vercel AI Gateway 作为底层基础设施驱动。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "态度",
+            "text": "很自豪能为 Tailscale 服务，称其为网络技术领域的 GOAT（史上最佳）。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
       }
     }
   }
