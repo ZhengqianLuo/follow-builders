@@ -9180,7 +9180,127 @@
       "title": "Guillermo Rauch：Tailscale’s model router is powered by Vercel AI Gateway as its underlying...",
       "url": "https://x.com/rauchg/status/2098531157230969062",
       "sentAt": "2026-09-13T01:16:41.085Z"
+    },
+    "tweet:2098811563415150910": {
+      "type": "tweet",
+      "title": "Sam Altman：I agree with Dario that we need to pace the frontier. This has been a primary...",
+      "url": "https://x.com/sama/status/2098811563415150910",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "topic:Sam Altman：I agree with Dario that we need to pace the frontier. This has been a primary...": {
+      "type": "topic",
+      "title": "Sam Altman：I agree with Dario that we need to pace the frontier. This has been a primary...",
+      "url": "https://x.com/sama/status/2098811563415150910",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "tweet:2098685367058612394": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Reset all propagated. Sweet dreams. https://t.co/VgKVUixoJG",
+      "url": "https://x.com/thsottiaux/status/2098685367058612394",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "topic:Thibault Sottiaux：Reset all propagated. Sweet dreams. https://t.co/VgKVUixoJG": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Reset all propagated. Sweet dreams. https://t.co/VgKVUixoJG",
+      "url": "https://x.com/thsottiaux/status/2098685367058612394",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "tweet:2098811935114551617": {
+      "type": "tweet",
+      "title": "Andrej Karpathy：I love this and really hope we can come together as an industry and make it...",
+      "url": "https://x.com/karpathy/status/2098811935114551617",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "topic:Andrej Karpathy：I love this and really hope we can come together as an industry and make it...": {
+      "type": "topic",
+      "title": "Andrej Karpathy：I love this and really hope we can come together as an industry and make it...",
+      "url": "https://x.com/karpathy/status/2098811935114551617",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "tweet:2098666551629267324": {
+      "type": "tweet",
+      "title": "Garry Tan：Either you die a system of record or you live long enough to become a...",
+      "url": "https://x.com/garrytan/status/2098666551629267324",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "topic:Garry Tan：Either you die a system of record or you live long enough to become a...": {
+      "type": "topic",
+      "title": "Garry Tan：Either you die a system of record or you live long enough to become a...",
+      "url": "https://x.com/garrytan/status/2098666551629267324",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "tweet:2098787667030712757": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：The concerns over AI safety and cybersecurity are legitimate, but we’re risking...",
+      "url": "https://x.com/rauchg/status/2098787667030712757",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "topic:Guillermo Rauch：The concerns over AI safety and cybersecurity are legitimate, but we’re risking...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：The concerns over AI safety and cybersecurity are legitimate, but we’re risking...",
+      "url": "https://x.com/rauchg/status/2098787667030712757",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "tweet:2098860941391872132": {
+      "type": "tweet",
+      "title": "Thariq：If you showed me Claude Code today in 2018, I would have thought it was AGI. We...",
+      "url": "https://x.com/trq212/status/2098860941391872132",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "topic:Thariq：If you showed me Claude Code today in 2018, I would have thought it was AGI. We...": {
+      "type": "topic",
+      "title": "Thariq：If you showed me Claude Code today in 2018, I would have thought it was AGI. We...",
+      "url": "https://x.com/trq212/status/2098860941391872132",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "tweet:2098833404707922239": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：I’m seeing teams at Vercel iterate just as fast on Zig, Go, Rust projects as...",
+      "url": "https://x.com/rauchg/status/2098833404707922239",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "topic:Guillermo Rauch：I’m seeing teams at Vercel iterate just as fast on Zig, Go, Rust projects as...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：I’m seeing teams at Vercel iterate just as fast on Zig, Go, Rust projects as...",
+      "url": "https://x.com/rauchg/status/2098833404707922239",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "tweet:2098803573861621778": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：https://t.co/OL0LzGsXKY can now orchestrate subagents with different models &...",
+      "url": "https://x.com/rauchg/status/2098803573861621778",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "topic:Guillermo Rauch：https://t.co/OL0LzGsXKY can now orchestrate subagents with different models &...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：https://t.co/OL0LzGsXKY can now orchestrate subagents with different models &...",
+      "url": "https://x.com/rauchg/status/2098803573861621778",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "tweet:2098828265800835310": {
+      "type": "tweet",
+      "title": "Amjad Masad：Not a bad idea to slow down to harden systems. Especially since we haven’t even...",
+      "url": "https://x.com/amasad/status/2098828265800835310",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "topic:Amjad Masad：Not a bad idea to slow down to harden systems. Especially since we haven’t even...": {
+      "type": "topic",
+      "title": "Amjad Masad：Not a bad idea to slow down to harden systems. Especially since we haven’t even...",
+      "url": "https://x.com/amasad/status/2098828265800835310",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "tweet:2098843136328171540": {
+      "type": "tweet",
+      "title": "Peter Yang：wtf? 2030? 😂 🤦 Someone should just use AI to make StarCraft 3 at this point…...",
+      "url": "https://x.com/petergyang/status/2098843136328171540",
+      "sentAt": "2026-09-14T01:21:00.745Z"
+    },
+    "topic:Peter Yang：wtf? 2030? 😂 🤦 Someone should just use AI to make StarCraft 3 at this point…...": {
+      "type": "topic",
+      "title": "Peter Yang：wtf? 2030? 😂 🤦 Someone should just use AI to make StarCraft 3 at this point…...",
+      "url": "https://x.com/petergyang/status/2098843136328171540",
+      "sentAt": "2026-09-14T01:21:00.745Z"
     }
   },
-  "updatedAt": "2026-09-13T01:16:41.085Z"
+  "updatedAt": "2026-09-14T01:21:00.745Z"
 }
