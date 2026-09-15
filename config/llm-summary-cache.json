@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-14T01:20:58.926Z",
+  "updatedAt": "2026-09-15T01:42:15.954Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -10600,6 +10600,176 @@
             "label": "技术理念",
             "text": "只是利用模型自身的智能和编排能力（harnessing，双关“马具”）。",
             "reference": "推文末尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2099352016988614852:35fbe601da98ebe9": {
+      "itemId": "tweet:2099352016988614852",
+      "sourceHash": "35fbe601da98ebe9",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Sam Altman：There are two ways AI progress could go very badly and that we must avoid....",
+      "url": "https://x.com/sama/status/2099352016988614852",
+      "generatedAt": "2026-09-15T01:41:55.542Z",
+      "summary": {
+        "title": "Sam Altman：AI 发展必须避开的两种灾难性路径",
+        "summary": "OpenAI CEO Sam Altman 在推文中指出，AI 进步可能以两种方式走向严重错误，必须避免。第一种是失去对未来的控制权，让 AI 凌驾于人类之上。他强调 OpenAI 坚定站在人类一边，AI 必须始终服务于人，为此需要确保对齐和安全技术的发展领先于模型能力的进步。第二种是权力过度集中，如果极其强大的 AI 被单个人或公司用来将其世界观强加给所有人，结果可能极其反乌托邦。Altman 认为避免这两种威胁需要走一条狭窄的中间道路，并举例说明一个国家或一个实验室可能获得过多权力。这条推文反映了 OpenAI 在 AI 治理和安全方面的核心立场，也回应了外界对 AI 权力集中和失控风险的担忧。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "AI 进步可能以两种方式走向严重错误，我们必须避免：一是失去对未来的控制权，二是权力过度集中。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "立场",
+            "text": "我们毫无歉意地站在人类一边，AI 必须始终服务于人。",
+            "reference": "推文第一点"
+          },
+          {
+            "label": "技术主张",
+            "text": "需要确保对齐和安全技术的发展领先于模型能力的进步。",
+            "reference": "推文第一点"
+          },
+          {
+            "label": "风险描述",
+            "text": "如果极其强大的 AI 被单个人或公司用来将其世界观强加给所有人，结果可能极其反乌托邦。",
+            "reference": "推文第二点"
+          },
+          {
+            "label": "治理思路",
+            "text": "避免这两种威胁需要走一条狭窄的中间道路。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "具体例子",
+            "text": "一个国家可能获得过多权力，一个实验室也可能最终拥有过多权力。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2099348812305473766:0917804c6a34dfd7": {
+      "itemId": "tweet:2099348812305473766",
+      "sourceHash": "0917804c6a34dfd7",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Sam Altman：The world deserves confidence that American companies developing increasingly...",
+      "url": "https://x.com/sama/status/2099348812305473766",
+      "generatedAt": "2026-09-15T01:42:03.420Z",
+      "summary": {
+        "title": "Sam Altman：美国AI公司应以安全开发赢得世界信任，无需等待立法",
+        "summary": "OpenAI CEO Sam Altman 在推文中强调，随着AI能力加速提升，世界有理由期待美国前沿AI公司负责任地行事。他欢迎联邦政府制定一致的前沿AI安全要求，但认为公司不应等待反垄断豁免或立法才开始行动。他回顾了此前行业采用的负责任扩展政策和准备框架，指出这些主要针对模型部署阶段，而当前需要转向关注开发过程中的安全。OpenAI 已开始在预期会显著提升能力的前沿强化学习运行前制定明确的安全案例，并呼吁行业共享关于错位、监控和安全的标准。Altman 澄清“节奏控制”并非“停止”，而是让进展比原本可能的速度稍慢，以安全案例和监控等干预措施为代价，确保能力不会超越对齐和监控。他认为国际协调需要政府帮助，但行业应首先自行采取行动。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "世界有理由相信，开发越来越强大AI的美国公司会负责任地行事，尤其是在进步轨迹已经变得陡峭的情况下。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "我们欢迎联邦政府制定一致的前沿AI安全要求，但我们不认为需要等待反垄断豁免或立法才开始提供这种信心。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "在OpenAI，我们现在会在预期会显著提升能力的前沿强化学习运行之前制定明确的安全案例，这补充了我们长期以来在模型发布前所做的安全工作。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "当我们谈论“节奏控制”时，我们并不是指“停止”。进展一直很快，并将继续如此。但它应该比原本可能的速度慢一些；像安全案例和监控这样的干预措施有显著成本。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "观点",
+            "text": "任何程度的美国竞争压力都不应成为鲁莽行事的理由，也不应让能力超越对齐和监控。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "观点",
+            "text": "我们需要的政府帮助是国际协调。但首先，我们应该自己尽力而为。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2099167992835924301:c0d3e116efd42a96": {
+      "itemId": "tweet:2099167992835924301",
+      "sourceHash": "c0d3e116efd42a96",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：“Pacing” can be somewhat of a trigger word because it sounds like an arbitrary...",
+      "url": "https://x.com/levie/status/2099167992835924301",
+      "generatedAt": "2026-09-15T01:42:09.622Z",
+      "summary": {
+        "title": "Aaron Levie：AI 安全对齐是必需品，但如何平衡创新与竞争是 21 世纪最复杂的问题",
+        "summary": "Aaron Levie 在推文中回应了关于 AI 发展“节奏”（Pacing）的争议。他指出，“Pacing”一词容易引发抵触，因为它听起来像是任意放缓能力发展，或通过不当监管来阻碍竞争对手。然而，Dario（可能指 Anthropic 的 Dario Amodei）提出的具体改进目标是 AI 发展的绝对必需品。Levie 认为，在航空航天、生命科学、医疗保健等行业，我们同样期望有严格的安全与对齐标准，AI 发展不应例外。AI 将成为金融交易系统、医疗设备、生物技术突破、国防系统、政府工作流程等关键领域的基础技术，因此确保这些系统安全且“对齐”是完全合理的。他强调，真正的挑战在于如何在不显著减缓创新或减少竞争的前提下实现这一目标，这是 21 世纪最复杂的问题之一，但需求是真实存在的。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "“Pacing”可能是一个触发词，因为它听起来像是任意放缓能力发展，或通过不当监管来阻碍竞争对手。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "Dario 提出的具体改进目标是 AI 发展的绝对必需品。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "类比",
+            "text": "我们在航空航天、生命科学、医疗保健等行业期望有同等的安全与对齐标准，AI 发展不应有太大不同。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "AI 将成为金融交易系统、医疗设备、生物技术突破、国防系统、政府工作流程等关键领域的基础技术。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "观点",
+            "text": "如何在不显著减缓创新或减少竞争的前提下实现安全与对齐，是 21 世纪最复杂的问题之一，但需求是真实存在的。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2099198567923765357:96b13929cfbf618d": {
+      "itemId": "tweet:2099198567923765357",
+      "sourceHash": "96b13929cfbf618d",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：I get at least 1x text a day from a founder facing this exact conundrum.....",
+      "url": "https://x.com/nikunj/status/2099198567923765357",
+      "generatedAt": "2026-09-15T01:42:15.953Z",
+      "summary": {
+        "title": "创始人警示：高估值与高薪酬可能是陷阱，而非优势",
+        "summary": "Nikunj Kothari 在推文中指出，他每天至少收到一条创始人面临同样困境的短信：申请者往往将入职公司的估值更高、总薪酬更高视为优势，但这常常是缺陷而非优点。仅仅因为一家公司以更高估值融资，并不意味着它实际上更安全或更值得加入。必须客观审视数字：市场如何、牵引力如何、公司定位如何。如果公司估值是 ARR 的 100 倍，那么它必须增长到匹配这一估值。然后，自己分析这家公司可能的退出估值。此外，还要考虑 409a 价格和税务影响。在当前一切颠倒、数字脱离现实的时期，这一点极其重要。他分享亲身经历：他曾在一家从全球顶尖投资者之一融资 6000 万美元的公司工作，但公司三年后倒闭，所有股权化为乌有。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "入职公司的估值更高、总薪酬更高，往往是缺陷而非优势。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "警示",
+            "text": "仅仅因为一家公司以更高估值融资，并不意味着它实际上更安全或更值得加入。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "建议",
+            "text": "必须客观审视数字：市场如何、牵引力如何、公司定位如何。如果公司估值是 ARR 的 100 倍，它必须增长到匹配这一估值。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "建议",
+            "text": "自己分析这家公司可能的退出估值，并考虑 409a 价格和税务影响。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "案例",
+            "text": "我曾在一家从全球顶尖投资者之一融资 6000 万美元的公司工作，但公司三年后倒闭，所有股权化为乌有。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
