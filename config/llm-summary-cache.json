@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-15T01:42:15.954Z",
+  "updatedAt": "2026-09-16T01:31:28.526Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -10769,6 +10769,156 @@
           {
             "label": "案例",
             "text": "我曾在一家从全球顶尖投资者之一融资 6000 万美元的公司工作，但公司三年后倒闭，所有股权化为乌有。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2099514906366328902:83add35c853b5902": {
+      "itemId": "tweet:2099514906366328902",
+      "sourceHash": "83add35c853b5902",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Welcoming Steren, creator of Google Cloud Run, to Vercel. He will lead the...",
+      "url": "https://x.com/rauchg/status/2099514906366328902",
+      "generatedAt": "2026-09-16T01:31:09.824Z",
+      "summary": {
+        "title": "Vercel 迎来 Google Cloud Run 创始人 Steren，领导 Fluid 计算产品线",
+        "summary": "Vercel CEO Guillermo Rauch 宣布，Google Cloud Run 的创始人 Steren 加入 Vercel，将领导 Fluid 计算产品家族（包括 Functions、Containers、Sandbox、Builds）。Rauch 认为 Serverless 是云计算的上一篇章，而 Steren 在 Google 帮助定义了该范式。现在，AI Agent 是下一个前沿，需要为其设计新的计算原语。Rauch 对 Steren 再次领导这一转型表示兴奋。此动态凸显了 Vercel 从传统 Serverless 向 AI Agent 计算基础设施的战略扩展，以及行业对 Agent 专用计算平台的关注。",
+        "excerpts": [
+          {
+            "label": "核心任命",
+            "text": "欢迎 Google Cloud Run 的创始人 Steren 加入 Vercel，他将领导 Fluid 计算产品家族（Functions、Containers、Sandbox、Builds）。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "行业地位",
+            "text": "Serverless 是云计算的上一篇章，而 Steren 在 Google 帮助定义了该范式。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "战略判断",
+            "text": "Agents 是下一个前沿，它们需要为其设计的新计算原语。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "期待与展望",
+            "text": "对 Steren 再次领导这一转型感到兴奋。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2099558443078365287:6da14c7be18a38f2": {
+      "itemId": "tweet:2099558443078365287",
+      "sourceHash": "6da14c7be18a38f2",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Josh Woodward：2 months ago, we launched a Gemini power user group to test early features in...",
+      "url": "https://x.com/joshwoodward/status/2099558443078365287",
+      "generatedAt": "2026-09-16T01:31:14.264Z",
+      "summary": {
+        "title": "Josh Woodward 宣布 Gemini 高级用户群测试成果并开放新一批早期访问",
+        "summary": "Josh Woodward 在推文中透露，两个月前他们启动了一个 Gemini 高级用户群，用于在应用中测试早期功能。至今已测试了 20 多个功能，用户反馈非常出色。现在，一个新的用户群体正在获得 Daily Brief 和 Personal Intelligence 下一步功能的早期访问权限，并且他们会持续吸纳新成员。推文还附上了社区加入链接。这条推文展示了 Google 在 Gemini 产品迭代中重视用户共创和快速反馈的策略，对于关注 AI 产品开发动态的读者来说，可以了解 Gemini 功能测试的节奏和社区参与方式。",
+        "excerpts": [
+          {
+            "label": "数据",
+            "text": "两个月内测试了 20 多个功能。",
+            "reference": "推文原文：20+ features tested later"
+          },
+          {
+            "label": "观点",
+            "text": "用户反馈非常出色，感谢用户。",
+            "reference": "推文原文：your feedback has been incredible. Thank you!"
+          },
+          {
+            "label": "案例",
+            "text": "新一批用户正在获得 Daily Brief 和 Personal Intelligence 下一步功能的早期访问权限。",
+            "reference": "推文原文：A new cohort is now getting early access to what’s next for Daily Brief & Personal Intelligence"
+          },
+          {
+            "label": "行动号召",
+            "text": "加入社区以获取早期访问机会。",
+            "reference": "推文原文：Join our community: https://t.co/uXdeIrtxhj"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2099550035239424465:adfc84af787a8dd3": {
+      "itemId": "tweet:2099550035239424465",
+      "sourceHash": "adfc84af787a8dd3",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Protecting enterprise data in a world where agents are using our systems 100X...",
+      "url": "https://x.com/levie/status/2099550035239424465",
+      "generatedAt": "2026-09-16T01:31:21.660Z",
+      "summary": {
+        "title": "Aaron Levie：AI 智能体时代的企业数据保护与治理挑战",
+        "summary": "Box CEO Aaron Levie 在推文中指出，当 AI 智能体以百倍于人类的频率使用企业系统时，企业数据保护将成为 21 世纪最复杂的安全与治理挑战之一。他强调，在 AI 世界中，安全与生产力提升密不可分：给予智能体过多无限制的信息访问权限将难以真正控制与保护数据；反之，完全锁定一切则无法从 AI 获得实际生产力收益。因此，企业需要全新的智能化方法来保护系统、环境以及结构化和非结构化数据，实现安全与治理的现代化。Levie 以 Box 为例，介绍了 Box Shield 的最新更新：基于文档分类级别对智能体可处理的内容进行细粒度控制；同时正在开发其他功能，可自动检测并告警（或阻止）智能体以异常方式访问或使用数据的行为。他还提到，整个行业正在涌现大量创新，包括 OpenAI、Anthropic 等实验室，Palo Alto Networks、Cisco、CrowdStrike、Okta 等安全平台，以及 Enclave、Method、Alterion、Runlayer 等初创公司，共同重新思考 AI 智能体世界中的信息保护方式。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "当智能体以百倍于人类的频率使用我们的系统时，保护企业数据将成为 21 世纪最复杂的安全与治理挑战之一。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "关键论证",
+            "text": "在 AI 世界中，安全与生产力提升密不可分：给予智能体过多无限制的信息访问权限，将难以真正控制与保护数据；反之，完全锁定一切，则无法从 AI 获得实际生产力收益。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "解决方案方向",
+            "text": "我们需要全新的智能化方法来保护企业中的系统、环境以及结构化和非结构化数据，实现安全与治理方法的现代化。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "Box Shield 的最新更新提供了基于文档分类级别的细粒度控制，决定智能体可以处理哪些内容；同时正在开发自动检测并告警（或阻止）智能体异常访问或使用数据的功能。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "行业趋势",
+            "text": "整个行业正在涌现大量创新：从 OpenAI、Anthropic 等实验室，到 Palo Alto Networks、Cisco、CrowdStrike、Okta 等安全平台，再到 Enclave、Method、Alterion、Runlayer 等初创公司，都在重新思考 AI 智能体世界中的信息保护方式。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2099739019517235618:5d5e4a6c71ccd7bf": {
+      "itemId": "tweet:2099739019517235618",
+      "sourceHash": "5d5e4a6c71ccd7bf",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：We probably need to all update our sense of what’s coming in terms of agentic...",
+      "url": "https://x.com/levie/status/2099739019517235618",
+      "generatedAt": "2026-09-16T01:31:28.526Z",
+      "summary": {
+        "title": "Aaron Levie：智能体工作负载的规模将远超我们想象",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中指出，随着智能体集群、更好的计算机使用能力、新一波 API 与 MCP 上线，以及 Muse、Instinct 等新形态产品的出现，我们正进入一个智能体工作负载爆发的阶段。他预测，智能体将在职业和个人生活中承担远超最初想象的任务量，其后台信息搜集与工作执行的体量将是单次会话提示的 100 倍以上。Levie 列举了智能体可能的应用场景：全天候精准招聘、挖掘客户业务信号以把握销售时机、处理所有对话记录以提取产品洞察、审查每一行代码的安全漏洞、暴力测试系统问题等。他认为，目前我们仅处于智能体形态、部署方式、管理方式和预算模式的 1% 阶段，但其规模化发展不可避免，且规模将超出以往任何想象。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "我们可能需要更新对智能体工作负载的认知：智能体集群、更好的计算机使用、新一波 API 和 MCP 上线，以及 Muse、Instinct 等新形态产品正在同时涌现。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "规模预测",
+            "text": "智能体在后台为我们寻找信息、完成工作的体量，将是此前单次会话提示所能想象的 100 倍以上。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "应用场景",
+            "text": "智能体将全天候精准招聘人才、挖掘客户业务中的每一个信号以把握销售时机、处理所有对话记录以提取产品洞察、审查每一行代码的安全漏洞、暴力测试系统问题，以及数百种其他任务。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "发展阶段判断",
+            "text": "我们可能只处于智能体形态、部署来源、管理方式、预算模式等方面的 1% 阶段。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "必然趋势",
+            "text": "智能体的大规模应用不可避免，其规模将超出以往任何想象。",
             "reference": "推文结尾"
           }
         ],
