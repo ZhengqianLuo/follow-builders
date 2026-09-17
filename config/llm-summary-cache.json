@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-16T01:31:28.526Z",
+  "updatedAt": "2026-09-17T01:36:11.363Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -10920,6 +10920,183 @@
             "label": "必然趋势",
             "text": "智能体的大规模应用不可避免，其规模将超出以往任何想象。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2099876514330206578:edfa262718dee48d": {
+      "itemId": "tweet:2099876514330206578",
+      "sourceHash": "edfa262718dee48d",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：Salesforce in Claude is now available in beta. It brings your accounts,...",
+      "url": "https://x.com/claudeai/status/2099876514330206578",
+      "generatedAt": "2026-09-17T01:35:18.199Z",
+      "summary": {
+        "title": "Claude 推出 Salesforce 集成测试版：销售数据与技能融入对话",
+        "summary": "Claude 官方宣布 Salesforce in Claude 测试版上线。该集成将用户的客户、商机和销售管道数据直接带入 Claude 对话环境，并内置 37 项预构建的销售技能。用户无需离开对话即可完成通话准备、交易审查、管道仪表盘创建或发送销售预测等任务。这一功能旨在简化销售工作流，减少在多个工具间切换的摩擦，提升销售团队效率。推文互动量较高（8891 次点赞、634 次转发、285 条回复），显示市场对 AI 与 CRM 深度整合的关注。",
+        "excerpts": [
+          {
+            "label": "核心功能",
+            "text": "Salesforce in Claude 将你的客户、商机和管道数据带入 Claude，并内置 37 项预构建销售技能。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "使用场景",
+            "text": "无需离开对话，即可准备通话、审查交易、创建管道仪表盘或发送销售预测。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "产品阶段",
+            "text": "该功能目前处于测试版（beta）阶段。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "市场反响",
+            "text": "推文获得 8891 次点赞、634 次转发和 285 条回复，显示较高关注度。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2099947471518474522:f8dc4ca7b24e4eaf": {
+      "itemId": "tweet:2099947471518474522",
+      "sourceHash": "f8dc4ca7b24e4eaf",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Dan Shipper：we almost never test new foundation models but we've been testing this for ~a...",
+      "url": "https://x.com/danshipper/status/2099947471518474522",
+      "generatedAt": "2026-09-17T01:35:23.587Z",
+      "summary": {
+        "title": "Dan Shipper：我们几乎从不测试新基础模型，但这次测试了一周，结果令人震惊",
+        "summary": "Dan Shipper 在推文中表示，他们团队几乎从不测试新的基础模型，但这次对 @every 的模型进行了约一周的测试，结果相当惊人。该模型的核心特点是输出不是文字，而是概率，因此可以高效地充当评判者（judge），适用于原本需要 Fable 级别模型的场景。在他们的测试中，该模型速度提升了 25 倍，价格降低了 600 倍。Dan 认为这类模型在 6-12 个月内将变得不可或缺。推文还附上了 @hammer_mt 对 @every 的评测链接，并称其为“出色的氛围检查”。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我们几乎从不测试新的基础模型，但这次我们测试了大约一周，结果相当惊人。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "这类模型在 6-12 个月内将变得不可或缺。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "它不输出文字，而是输出概率，因此可以高效地充当评判者，适用于原本需要 Fable 级别模型的场景。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "数据",
+            "text": "在我们的测试中，它比 Fable 级别模型快 25 倍，价格低 600 倍。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "类比",
+            "text": "出色的氛围检查（excellent vibe check）。",
+            "reference": "推文结尾，评价 @hammer_mt 的评测"
+          }
+        ],
+        "materials": [
+          {
+            "label": "评测链接",
+            "url": "https://t.co/yVX25Wsu4Z",
+            "note": "点击查看 @hammer_mt 对 @every 模型的详细评测，了解其作为评判者的具体表现和测试数据。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2099911447598059812:4806ab4df5d60b66": {
+      "itemId": "tweet:2099911447598059812",
+      "sourceHash": "4806ab4df5d60b66",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Excited to formally introduce Vercel Labs. https://t.co/zCNVryaiin is the home...",
+      "url": "https://x.com/rauchg/status/2099911447598059812",
+      "generatedAt": "2026-09-17T01:35:30.460Z",
+      "summary": {
+        "title": "Vercel 正式推出 Vercel Labs，公开研究与实验部门",
+        "summary": "Vercel 创始人兼 CEO Guillermo Rauch 在 X 上宣布正式推出 Vercel Labs，这是一个公开进行研究和实验的部门，其主页为 https://t.co/zCNVryaiin。Rauch 表示，在 Vercel 产品累计下载量达到 2.47 亿次之际，他们希望以公开的方式分享公司正在支持的项目、正在研究的方向，以及那些未能成功的实验。他特别感谢了 @ctatedev 和 @cramforce 两位成员，称赞他们塑造了这一重要举措并坚持公开迭代。这一动态表明 Vercel 正进一步拥抱透明度和开源文化，将内部探索过程公之于众，有助于社区了解前沿技术方向并参与反馈。",
+        "excerpts": [
+          {
+            "label": "核心宣布",
+            "text": "兴奋地正式介绍 Vercel Labs。https://t.co/zCNVryaiin 是 Vercel 公开研究和实验部门的基地。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "数据支撑",
+            "text": "在累计下载量达到 2.47 亿次之后，我们希望同样以公开的方式分享我们正在支持什么、正在研究什么，以及哪些实验没有成功。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "致谢与团队",
+            "text": "感谢 @ctatedev 和 @cramforce 塑造了这一伟大举措并坚持公开迭代。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "透明度承诺",
+            "text": "Vercel 不仅分享成功，也公开失败实验，体现对社区透明度的承诺。",
+            "reference": "推文整体语境"
+          }
+        ],
+        "materials": [
+          {
+            "label": "Vercel Labs 主页",
+            "url": "https://t.co/zCNVryaiin",
+            "note": "可查看 Vercel Labs 当前公开的研究项目、实验列表及进展。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:podcast:d2e9aa74-b080-11f1-8007-f31e2b6b4e53:ef658f40518ca4db": {
+      "itemId": "podcast:d2e9aa74-b080-11f1-8007-f31e2b6b4e53",
+      "sourceHash": "ef658f40518ca4db",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Training Data: Box's Aaron Levie: On Reinventing Yourself in the AI Age and Enterprise Diffusion",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "generatedAt": "2026-09-17T01:36:11.362Z",
+      "summary": {
+        "title": "Box 的 Aaron Levie：AI 时代的自我重塑与企业扩散",
+        "summary": "本期播客中，Box 创始人兼 CEO Aaron Levie 与主持人探讨了 AI 应用层公司的崛起、企业采用 AI 的现状与挑战，以及 Box 如何利用 AI 重塑自身。Levie 认为，应用层公司正成为最热门的 AI 创业方向，因为模型能力与企业实际工作流之间存在巨大鸿沟，需要深度整合与定制。他分享了 Box 构建代理框架的经验，包括利用对文件系统、权限和搜索的深入理解来提高问答准确性，以及通过复杂工作评估和保留评估来跟踪模型进展。Levie 还讨论了开放权重模型的采用情况，指出企业可能混合使用闭源和开源模型。他对比了编码代理与企业知识工作代理的扩散速度，指出编码领域因数据集中、受众技术能力强等原因扩散极快，而知识工作因数据分散、访问控制复杂等因素扩散较慢。Levie 强调，硅谷需要为 AI 扩散比预期更慢做好准备，但应用层价值创造巨大，可能达到万亿美元。最后，他分享了 Box 内部 AI 优先策略，并建议大学生通过 Twitter 关注 AI 领域关键账号以保持信息优势。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "应用公司是最热门的 neo labs，两年前这没有意义，但现在由于开源，模型包装公司正在成功。",
+            "reference": "02:02-02:55"
+          },
+          {
+            "label": "观点",
+            "text": "在现实世界中，企业需要从模型能力到实际工作流的桥梁，这个桥梁可能非常广阔，需要深入组织。",
+            "reference": "02:02-02:55"
+          },
+          {
+            "label": "观点",
+            "text": "硅谷过于研究导向，但实际部署智能需要处理数据系统连接、人机交互、工作流延迟、变更管理和遗留系统等运营问题。",
+            "reference": "04:29-05:17"
+          },
+          {
+            "label": "案例",
+            "text": "Box 构建了一个代理框架，利用其对文件系统、权限和搜索的深入理解，以提高问答准确性。",
+            "reference": "24:21-25:18"
+          },
+          {
+            "label": "数据",
+            "text": "编码代理的扩散速度极快，是 AI 进入经济中最快的扩散之一。",
+            "reference": "48:04-48:25"
+          },
+          {
+            "label": "观点",
+            "text": "企业知识工作缺乏像 GitHub 那样的统一数据接入点，数据分散在本地系统、遗留文件共享等，阻碍代理实施。",
+            "reference": "51:58-52:39"
+          },
+          {
+            "label": "观点",
+            "text": "硅谷需要为 AI 扩散比预期更慢做好准备，但应用层价值创造巨大，可能达到万亿美元。",
+            "reference": "53:34-54:31"
+          },
+          {
+            "label": "建议",
+            "text": "大学生应关注 Twitter 上的 20 个 AI 相关账号以获取信息优势，并加入 Twitter 以促进职业发展。",
+            "reference": "55:39-56:25"
           }
         ],
         "materials": []

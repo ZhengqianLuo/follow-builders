@@ -9540,7 +9540,127 @@
       "title": "Aaron Levie：We probably need to all update our sense of what’s coming in terms of agentic...",
       "url": "https://x.com/levie/status/2099739019517235618",
       "sentAt": "2026-09-16T01:31:30.520Z"
+    },
+    "tweet:2099872600977760451": {
+      "type": "tweet",
+      "title": "Sam Altman：big 🚢 this week and then for devday 🚢🚢🚢🚢🚢🚢 https://t.co/Kyj0mGE913",
+      "url": "https://x.com/sama/status/2099872600977760451",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "topic:Sam Altman：big 🚢 this week and then for devday 🚢🚢🚢🚢🚢🚢 https://t.co/Kyj0mGE913": {
+      "type": "topic",
+      "title": "Sam Altman：big 🚢 this week and then for devday 🚢🚢🚢🚢🚢🚢 https://t.co/Kyj0mGE913",
+      "url": "https://x.com/sama/status/2099872600977760451",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "tweet:2099876514330206578": {
+      "type": "tweet",
+      "title": "Claude：Salesforce in Claude is now available in beta. It brings your accounts,...",
+      "url": "https://x.com/claudeai/status/2099876514330206578",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "topic:Claude：Salesforce in Claude is now available in beta. It brings your accounts,...": {
+      "type": "topic",
+      "title": "Claude：Salesforce in Claude is now available in beta. It brings your accounts,...",
+      "url": "https://x.com/claudeai/status/2099876514330206578",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "tweet:2099922755655479624": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：2026 is the year of efficiency and Tuesday is for random swag drops on your...",
+      "url": "https://x.com/thsottiaux/status/2099922755655479624",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "topic:Thibault Sottiaux：2026 is the year of efficiency and Tuesday is for random swag drops on your...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：2026 is the year of efficiency and Tuesday is for random swag drops on your...",
+      "url": "https://x.com/thsottiaux/status/2099922755655479624",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "tweet:2099958388230873165": {
+      "type": "tweet",
+      "title": "Thariq：I was not expecting things to go this way, but I think MCPs are better than...",
+      "url": "https://x.com/trq212/status/2099958388230873165",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "topic:Thariq：I was not expecting things to go this way, but I think MCPs are better than...": {
+      "type": "topic",
+      "title": "Thariq：I was not expecting things to go this way, but I think MCPs are better than...",
+      "url": "https://x.com/trq212/status/2099958388230873165",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "tweet:2099947471518474522": {
+      "type": "tweet",
+      "title": "Dan Shipper：we almost never test new foundation models but we've been testing this for ~a...",
+      "url": "https://x.com/danshipper/status/2099947471518474522",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "topic:Dan Shipper：we almost never test new foundation models but we've been testing this for ~a...": {
+      "type": "topic",
+      "title": "Dan Shipper：we almost never test new foundation models but we've been testing this for ~a...",
+      "url": "https://x.com/danshipper/status/2099947471518474522",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "tweet:2099911447598059812": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Excited to formally introduce Vercel Labs. https://t.co/zCNVryaiin is the home...",
+      "url": "https://x.com/rauchg/status/2099911447598059812",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "topic:Guillermo Rauch：Excited to formally introduce Vercel Labs. https://t.co/zCNVryaiin is the home...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Excited to formally introduce Vercel Labs. https://t.co/zCNVryaiin is the home...",
+      "url": "https://x.com/rauchg/status/2099911447598059812",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "tweet:2099980972641124629": {
+      "type": "tweet",
+      "title": "Garry Tan：I think Muse is going to win tbh https://t.co/ptFcAa9Zu0",
+      "url": "https://x.com/garrytan/status/2099980972641124629",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "topic:Garry Tan：I think Muse is going to win tbh https://t.co/ptFcAa9Zu0": {
+      "type": "topic",
+      "title": "Garry Tan：I think Muse is going to win tbh https://t.co/ptFcAa9Zu0",
+      "url": "https://x.com/garrytan/status/2099980972641124629",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "tweet:2099760428314411232": {
+      "type": "tweet",
+      "title": "Amjad Masad：The AI naming curse strikes again. “AI Safety” firm made AI unsafe. “Effective...",
+      "url": "https://x.com/amasad/status/2099760428314411232",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "topic:Amjad Masad：The AI naming curse strikes again. “AI Safety” firm made AI unsafe. “Effective...": {
+      "type": "topic",
+      "title": "Amjad Masad：The AI naming curse strikes again. “AI Safety” firm made AI unsafe. “Effective...",
+      "url": "https://x.com/amasad/status/2099760428314411232",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "tweet:2099905740505055680": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：The future is multi-model. Trying to hide the choice confuses and hurts...",
+      "url": "https://x.com/rauchg/status/2099905740505055680",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "topic:Guillermo Rauch：The future is multi-model. Trying to hide the choice confuses and hurts...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：The future is multi-model. Trying to hide the choice confuses and hurts...",
+      "url": "https://x.com/rauchg/status/2099905740505055680",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "podcast:d2e9aa74-b080-11f1-8007-f31e2b6b4e53": {
+      "type": "podcast",
+      "title": "Training Data: Box's Aaron Levie: On Reinventing Yourself in the AI Age and Enterprise Diffusion",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "sentAt": "2026-09-17T01:36:13.487Z"
+    },
+    "topic:Training Data: Box's Aaron Levie: On Reinventing Yourself in the AI Age and Enterprise Diffusion": {
+      "type": "topic",
+      "title": "Training Data: Box's Aaron Levie: On Reinventing Yourself in the AI Age and Enterprise Diffusion",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "sentAt": "2026-09-17T01:36:13.487Z"
     }
   },
-  "updatedAt": "2026-09-16T01:31:30.520Z"
+  "updatedAt": "2026-09-17T01:36:13.487Z"
 }
