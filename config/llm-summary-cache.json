@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-17T01:36:11.363Z",
+  "updatedAt": "2026-09-18T01:22:09.652Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -11097,6 +11097,172 @@
             "label": "建议",
             "text": "大学生应关注 Twitter 上的 20 个 AI 相关账号以获取信息优势，并加入 Twitter 以促进职业发展。",
             "reference": "55:39-56:25"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2100307962262872105:3fcbdf9d50132fb3": {
+      "itemId": "tweet:2100307962262872105",
+      "sourceHash": "3fcbdf9d50132fb3",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：We're seeing extraordinary results from @typesafeai. Default mode in 𝚏𝚡 is...",
+      "url": "https://x.com/rauchg/status/2100307962262872105",
+      "generatedAt": "2026-09-18T01:21:54.481Z",
+      "summary": {
+        "title": "Guillermo Rauch 分享 @typesafeai 在 𝚏𝚡 中的卓越表现：Jev 速度提升 18 倍且更准确，将登陆 Vercel AI Gateway",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中透露，他们正在 @typesafeai 上看到非凡的成果。在 𝚏𝚡 中，默认模式为 auto，并有一个安全审查器分析每条命令，该审查器目前运行在 GPT Luna 上。Jev 在 p95 延迟上比之前快了 18 倍，同时准确度也更高。这一改进即将登陆 Vercel AI Gateway，并很可能成为新的默认设置。推文还附有一张截图，展示了相关性能数据或界面。",
+        "excerpts": [
+          {
+            "label": "核心成果",
+            "text": "We're seeing extraordinary results from @typesafeai.",
+            "reference": "推文开头"
+          },
+          {
+            "label": "默认模式与安全审查",
+            "text": "Default mode in 𝚏𝚡 is auto, with a safety reviewer analyzing every command. That reviewer runs on GPT Luna today.",
+            "reference": "推文中段"
+          },
+          {
+            "label": "性能提升数据",
+            "text": "Jev is up to 18x faster (p95) *and* more accurate.",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "未来计划",
+            "text": "It's coming to @vercel AI Gateway and likely new default.",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 2855 个赞、121 次转发和 96 条回复。",
+            "reference": "推文元数据"
+          }
+        ],
+        "materials": [
+          {
+            "label": "推文附图",
+            "url": "https://x.com/rauchg/status/2100307962262872105",
+            "note": "推文附有一张截图，可能展示性能对比数据或 𝚏𝚡 界面，可查看具体提升效果。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2100260544087535639:9ba24ae603a68c03": {
+      "itemId": "tweet:2100260544087535639",
+      "sourceHash": "9ba24ae603a68c03",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Boris Cherny：Also today: Claude Docs, Claude Slides, and Claude Design are in every...",
+      "url": "https://x.com/bcherny/status/2100260544087535639",
+      "generatedAt": "2026-09-18T01:21:58.472Z",
+      "summary": {
+        "title": "Claude 将文档、幻灯片和设计功能直接集成到对话中",
+        "summary": "Boris Cherny 在推文中宣布，Claude 现在在每次对话中都内置了 Docs、Slides 和 Design 功能。用户只需在聊天中要求 Claude 生成演示文稿、文档或设计，即可获得可打开、编辑并导出为 PowerPoint 或 PDF 的文件。无需跳转到单独的工具，所有操作都在聊天界面内完成。这一更新简化了工作流程，将内容创建与对话无缝结合，提升了用户体验。",
+        "excerpts": [
+          {
+            "label": "核心功能",
+            "text": "Claude Docs、Claude Slides 和 Claude Design 现在出现在每一次对话中。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "使用方式",
+            "text": "只需让 Claude 生成演示文稿，就能得到一个可以打开、编辑并导出为 PowerPoint 或 PDF 的文件。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "覆盖范围",
+            "text": "文档和设计也同样支持：要求生成文档或设计，即可获得可编辑和导出的成果。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "集成优势",
+            "text": "无需导航到单独的工具，这些功能就在聊天中。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2100259951398789487:810dac1ffee13ca9": {
+      "itemId": "tweet:2100259951398789487",
+      "sourceHash": "810dac1ffee13ca9",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Boris Cherny：Claude Code showed that AI could do real work, not just answer questions....",
+      "url": "https://x.com/bcherny/status/2100259951398789487",
+      "generatedAt": "2026-09-18T01:22:04.780Z",
+      "summary": {
+        "title": "Boris Cherny：Claude Code 证明 AI 能做实事，Cowork 让知识工作者同样受益，现在两者正融合为一个 Claude",
+        "summary": "Boris Cherny 在这条推文中回顾了 Claude Code 和 Cowork 两个产品如何分别改变了开发者和知识工作者的工作方式，并宣布它们正在融合为一个统一的 Claude 体验。Claude Code 让开发者只需给出功能需求，就能得到可直接交付的代码，证明了 AI 不仅能回答问题，还能完成实际工作。Cowork 则将同样的模式带给知识工作者：给出简报，即可得到完成的文件。现在，聊天和 Cowork 开始合并，目标是打造一个能够跨所有工作场景携带上下文的单一 Claude，让每个人都能简单、快速地使用 Claude 的全部能力。Cherny 表示自己过去几周每天都在使用这个新体验，感觉更简单、更快、更强大，并强调团队正在缓慢推出并持续微调，以确保快速可靠。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Claude Code 证明了 AI 能做实事，而不只是回答问题。开发者把功能需求交给 Claude，回来就能拿到可交付的代码。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "Cowork 证明了知识工作者也能做到同样的事：把简报交给 Claude，回来就能拿到完成的文件。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "今天，聊天和 Cowork 开始融合为一个 Claude。方向是：一个 Claude，无论你在哪里工作，都能携带你所有工作内容的上下文。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "观点",
+            "text": "简单到足以让每个人都能使用 Claude 的全部能力。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "个人体验",
+            "text": "过去几周我每天都在使用这个体验，感觉棒极了。更简单、更快、更强大。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "产品策略",
+            "text": "我们正在缓慢推出，并会在过程中不断微调，以确保它快速可靠。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2100260655312089562:8f93404ffa92b1d0": {
+      "itemId": "tweet:2100260655312089562",
+      "sourceHash": "8f93404ffa92b1d0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Cat Wu：Today, we are merging Claude Cowork and chat to simplify how you use Claude! We...",
+      "url": "https://x.com/_catwu/status/2100260655312089562",
+      "generatedAt": "2026-09-18T01:22:09.652Z",
+      "summary": {
+        "title": "Claude 合并 Cowork 与聊天，并整合 Design 以简化使用",
+        "summary": "Cat Wu 宣布 Claude 将合并 Cowork 与聊天功能，并整合 Claude Design，使用户无需切换标签或应用即可让 Claude 制作幻灯片、设计或文档。这一变化源于用户反馈：他们不想为不同任务选择不同的 Claude 产品。随着模型能力提升，Claude 现在可以根据提示自动判断是快速回答还是进行更深入的代理工作，并决定最合适的输出类型。用户始终拥有控制权，可以停止、重定向或精细控制 Claude 的工作力度和方法。该功能将在未来几周内缓慢推出，以确保质量。",
+        "excerpts": [
+          {
+            "label": "核心变化",
+            "text": "今天，我们将合并 Claude Cowork 和聊天，以简化你使用 Claude 的方式！我们还整合了 Claude Design，这样你就可以让 Claude 制作幻灯片、设计或文档，而无需切换标签或应用。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "用户反馈驱动",
+            "text": "许多用户分享说，他们不想为任何任务选择使用哪个 Claude 产品。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "模型能力提升带来的自动路由",
+            "text": "随着 Claude 模型变得更有能力，我们发现 Claude 可以为你处理路由。根据你的提示，Claude 将决定是给出快速答案还是进行更深入的代理工作，以及哪种输出最适合任务。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "用户控制权",
+            "text": "你始终掌控全局：你仍然可以停止、重定向，或对 Claude 的工作力度或方法进行更精细的控制。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "发布节奏",
+            "text": "我们将在未来几周内缓慢推出这一功能，以确保把它做好。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
