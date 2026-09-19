@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-18T01:22:09.652Z",
+  "updatedAt": "2026-09-19T01:23:33.265Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -11262,6 +11262,228 @@
           {
             "label": "发布节奏",
             "text": "我们将在未来几周内缓慢推出这一功能，以确保把它做好。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2100669598995816511:af47313acc42f2bc": {
+      "itemId": "tweet:2100669598995816511",
+      "sourceHash": "af47313acc42f2bc",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Boris Cherny：Projects have changed not only how I interact with Claude but how I code. I...",
+      "url": "https://x.com/bcherny/status/2100669598995816511",
+      "generatedAt": "2026-09-19T01:23:09.133Z",
+      "summary": {
+        "title": "Boris Cherny：Claude Projects 改变了我与 Claude 的交互和编码方式",
+        "summary": "Boris Cherny 在推文中表示，Claude 的 Projects 功能不仅改变了他与 Claude 的交互方式，也改变了他的编码方式。他不再管理会话，而是随时发送想法，Claude 会自动将想法拆分为线程，并且项目会记住他的工作方式。他现在的大量编码工作都在 Projects 中进行。推文附有一张截图，展示了他昨天在 Claude Code CLI 中的实际提示词。该推文获得了 2352 个赞、85 次转发和 211 条回复，反映了开发者对 Claude Projects 功能的关注和认可。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Projects 不仅改变了我与 Claude 的交互方式，也改变了我的编码方式。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "行为变化",
+            "text": "我停止了管理会话。我只是随时发送想法，Claude 会将它们拆分为线程，项目会记住我的工作方式。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "使用场景",
+            "text": "现在我的大量编码工作都在 Projects 中进行。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "证据",
+            "text": "推文附有截图，展示了他昨天在 Claude Code CLI 中的实际提示词。",
+            "reference": "推文截图"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 2352 个赞、85 次转发和 211 条回复，显示开发者对该功能的关注。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": [
+          {
+            "label": "截图",
+            "url": "https://x.com/bcherny/status/2100669598995816511",
+            "note": "查看 Boris Cherny 在 Claude Code CLI 中的实际提示词截图，了解他如何使用 Projects 功能。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2100638355872706571:fd9ec65764e9fdf2": {
+      "itemId": "tweet:2100638355872706571",
+      "sourceHash": "fd9ec65764e9fdf2",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thariq：Projects brings the architecture of Claude Tag to Claude Code. It has one agent...",
+      "url": "https://x.com/trq212/status/2100638355872706571",
+      "generatedAt": "2026-09-19T01:23:13.378Z",
+      "summary": {
+        "title": "Thariq：Projects 将 Claude Tag 的架构引入 Claude Code",
+        "summary": "Thariq 在推文中宣布，Projects 功能将 Claude Tag 的架构带到了 Claude Code 中。该功能为每个项目配备一个专属 agent，负责管理记忆并可按需派生子 agent 执行具体任务。用户可以要求 agent 主动工作、按计划执行任务等。Thariq 认为这种模式比管理多个独立会话更舒适，并鼓励用户尝试。推文附有链接，可能指向演示或文档。",
+        "excerpts": [
+          {
+            "label": "核心功能",
+            "text": "Projects 为每个项目配备一个 agent，该 agent 管理记忆并派生子 agent 执行任务。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "用户控制",
+            "text": "用户可以要求 agent 主动工作，或按计划执行任务。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "体验对比",
+            "text": "Thariq 认为 Projects 比管理一堆会话感觉好得多。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "行动号召",
+            "text": "Thariq 鼓励用户尝试 Projects 功能。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": [
+          {
+            "label": "演示或文档链接",
+            "url": "https://t.co/qzyEgLUyN4",
+            "note": "推文中附带的链接，可能指向 Projects 功能的演示或文档。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2100653821907366366:55be38dcc4a128dd": {
+      "itemId": "tweet:2100653821907366366",
+      "sourceHash": "55be38dcc4a128dd",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Google Labs：CC the entire fam 🤝! Today, we’re announcing the new CC – an AI agent built...",
+      "url": "https://x.com/GoogleLabs/status/2100653821907366366",
+      "generatedAt": "2026-09-19T01:23:19.137Z",
+      "summary": {
+        "title": "Google Labs 发布家庭 AI 代理 CC：让家人少花时间在琐事上，多花时间在一起",
+        "summary": "Google Labs 于 2026 年 9 月 17 日宣布推出新版 CC，这是一款专为家庭设计的 AI 代理，旨在减少家庭日常事务管理的时间，让家人有更多时间相处。CC 支持最多添加 5 名家庭成员，提供共享的“Your Day Ahead”晨间简报邮件，帮助家庭成员对齐当天安排。它还能自动同步共享的 Google Calendar 和 Tasks 中的日程与待办事项，并在 Google Chat 中协调任务，例如制定每周餐食计划、生成学校购物清单等。此外，CC 可以代填许可单、表格等文书工作，并在用户指导下完成。CC 还能记住适用于全家人的信息（如家庭购物清单、最喜欢的餐厅）和仅适用于个人的信息（如饮食限制、当地时区）。目前该功能仅在美国开放，面向 18 岁以上用户，可通过候补名单或升级现有 CC 体验。",
+        "excerpts": [
+          {
+            "label": "产品定位",
+            "text": "CC 是一个为家庭打造的 AI 代理，旨在减少家庭事务管理时间，让家人有更多时间在一起。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "核心功能",
+            "text": "支持添加最多 5 名家庭成员，提供共享的“Your Day Ahead”晨间简报邮件，帮助家庭成员对齐当天安排。",
+            "reference": "推文功能列表"
+          },
+          {
+            "label": "协同功能",
+            "text": "自动同步共享的 Google Calendar 和 Tasks 中的日程与待办事项，并在 Google Chat 中协调任务，例如制定每周餐食计划、生成学校购物清单等。",
+            "reference": "推文功能列表"
+          },
+          {
+            "label": "文书代填",
+            "text": "CC 可以代填许可单、表格等文书工作，并在用户指导下完成。",
+            "reference": "推文功能列表"
+          },
+          {
+            "label": "个性化记忆",
+            "text": "CC 能记住适用于全家人的信息（如家庭购物清单、最喜欢的餐厅）和仅适用于个人的信息（如饮食限制、当地时区）。",
+            "reference": "推文功能列表"
+          },
+          {
+            "label": "可用性",
+            "text": "目前仅在美国开放，面向 18 岁以上用户，可通过候补名单或升级现有 CC 体验。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2100698591417499972:37d810372ec2bcf9": {
+      "itemId": "tweet:2100698591417499972",
+      "sourceHash": "37d810372ec2bcf9",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：It's likely that more software will be produced next year than in all of the...",
+      "url": "https://x.com/rauchg/status/2100698591417499972",
+      "generatedAt": "2026-09-19T01:23:27.561Z",
+      "summary": {
+        "title": "Guillermo Rauch：明年软件产量或超历史总和，Vercel 部署速度突破 1 秒",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中预测，明年生产的软件数量可能超过计算历史的总和。他以 Vercel 平台数据为例：公司花了 10 年达到 10 亿次部署，而最近 10 个月就新增了 14 亿次部署。这些软件形态多样，从微小的个人化甚至一次性软件（如一个带 JavaScript 的 HTML 文件、报告、定价计算器、幻灯片），到复杂的应用、智能体和平台。Rauch 强调部署速度是 Vercel 的核心关注点之一，目前平台已将部署、上传、分配域名和全球传播一个 artifact 的时间缩短到 1 秒，且这一速度包含了全球 CDN、防火墙、不可变部署、域名分配、可观测性和回滚等完整功能。他表示团队仍在继续优化。该推文获得了 508 个赞、31 次转发和 44 条回复，反映了开发者社区对软件生产加速和部署效率的关注。",
+        "excerpts": [
+          {
+            "label": "核心预测",
+            "text": "明年生产的软件数量可能超过计算历史的总和。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "数据佐证",
+            "text": "Vercel 花了 10 年达到 10 亿次部署，但最近 10 个月就新增了 14 亿次部署。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "软件形态多样性",
+            "text": "这些软件有些是微小的、个人的甚至一次性的，比如一个带 JavaScript 的 HTML 文件（artifacts）、一份报告、一个定价计算器、一个幻灯片，一直到复杂的应用、智能体和平台。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "部署速度突破",
+            "text": "我们已经将部署、上传、分配域名和全球传播一个 artifact 的时间缩短到 1 秒。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "速度背后的完整性",
+            "text": "这 1 秒内包含了全球 CDN、防火墙、不可变部署、域名分配、可观测性和回滚等功能，且性能和安全不打折扣。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "持续优化承诺",
+            "text": "我们还没有完成，仍在继续优化。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2100799668573946191:ffee96fd7b6c0d7d": {
+      "itemId": "tweet:2100799668573946191",
+      "sourceHash": "ffee96fd7b6c0d7d",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Agents already make up the majority of inference. This will quickly trend...",
+      "url": "https://x.com/levie/status/2100799668573946191",
+      "generatedAt": "2026-09-19T01:23:33.265Z",
+      "summary": {
+        "title": "Aaron Levie：智能体已占推理大头，未来一两年将几乎包揽全部推理",
+        "summary": "Aaron Levie 在推文中指出，智能体（Agents）目前已经占据了推理（inference）的大部分，并且这一趋势将在未来一两年内迅速走向几乎全部推理。他认为，世界上绝大多数 token 将被智能体消耗，这些智能体将在后台 24/7 不间断地为我们执行大量任务。他列举了智能体的多种应用场景：阅读所有代码变更以保障软件安全、在工作流中处理所有数据、承担招聘和客户拓展中的大部分研究、审查全球每个系统的事件流和日志、在个人生活中执行任务，以及数百种其他用例。Levie 强调，新智能体上线的速度并未放缓，它们将消耗海量 token。他提到，仅在过去一周，他就引入了多个全新的工作流，而这些工作流在一个月前技术上还不可能实现。他认为现在是从事推理相关工作和在其之上构建应用的绝佳时机。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "智能体已经占推理的大部分，未来一两年将迅速趋向几乎全部推理。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "趋势预测",
+            "text": "世界上绝大多数 token 将被智能体消耗，它们将在后台 24/7 不间断地为我们执行大量任务。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "应用场景",
+            "text": "智能体将被部署来阅读所有代码变更以保障软件安全、处理工作流中的所有数据、承担招聘和客户拓展中的大部分研究、审查全球每个系统的事件流和日志、在个人生活中执行任务，以及数百种其他用例。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "发展速度",
+            "text": "新智能体上线的速度并未放缓，它们将消耗海量 token。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "个人实践",
+            "text": "仅在过去一周，我就引入了多个全新的工作流，而这些工作流在一个月前技术上还不可能实现。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "行业判断",
+            "text": "现在是从事推理相关工作和在其之上构建应用的绝佳时机。",
             "reference": "推文结尾"
           }
         ],
