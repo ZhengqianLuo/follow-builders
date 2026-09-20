@@ -9900,7 +9900,127 @@
       "title": "Aaron Levie：Agents already make up the majority of inference. This will quickly trend...",
       "url": "https://x.com/levie/status/2100799668573946191",
       "sentAt": "2026-09-19T01:23:36.520Z"
+    },
+    "tweet:2101009392611278961": {
+      "type": "tweet",
+      "title": "Thariq：We're adding support for AGENTS.md to Claude Code. Starting today in version...",
+      "url": "https://x.com/trq212/status/2101009392611278961",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "topic:Thariq：We're adding support for AGENTS.md to Claude Code. Starting today in version...": {
+      "type": "topic",
+      "title": "Thariq：We're adding support for AGENTS.md to Claude Code. Starting today in version...",
+      "url": "https://x.com/trq212/status/2101009392611278961",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "tweet:2101157729037586694": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：We were working on the keynote today with @romainhuet and @sama and most of the...",
+      "url": "https://x.com/thsottiaux/status/2101157729037586694",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "topic:Thibault Sottiaux：We were working on the keynote today with @romainhuet and @sama and most of the...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：We were working on the keynote today with @romainhuet and @sama and most of the...",
+      "url": "https://x.com/thsottiaux/status/2101157729037586694",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "tweet:2101116978677285241": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Free Jev on Vercel I know what I’m doing this weekend 😁 https://t.co/cTKPgKlkcZ",
+      "url": "https://x.com/rauchg/status/2101116978677285241",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "topic:Guillermo Rauch：Free Jev on Vercel I know what I’m doing this weekend 😁 https://t.co/cTKPgKlkcZ": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Free Jev on Vercel I know what I’m doing this weekend 😁 https://t.co/cTKPgKlkcZ",
+      "url": "https://x.com/rauchg/status/2101116978677285241",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "tweet:2101033599319613533": {
+      "type": "tweet",
+      "title": "Peter Yang：Meta's @Muse is the best personal agent I've tried to date. It actually save me...",
+      "url": "https://x.com/petergyang/status/2101033599319613533",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "topic:Peter Yang：Meta's @Muse is the best personal agent I've tried to date. It actually save me...": {
+      "type": "topic",
+      "title": "Peter Yang：Meta's @Muse is the best personal agent I've tried to date. It actually save me...",
+      "url": "https://x.com/petergyang/status/2101033599319613533",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "tweet:2101009393731223817": {
+      "type": "tweet",
+      "title": "Thariq：AGENTS.md support is built off of Claude Code mods, our upcoming way to...",
+      "url": "https://x.com/trq212/status/2101009393731223817",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "topic:Thariq：AGENTS.md support is built off of Claude Code mods, our upcoming way to...": {
+      "type": "topic",
+      "title": "Thariq：AGENTS.md support is built off of Claude Code mods, our upcoming way to...",
+      "url": "https://x.com/trq212/status/2101009393731223817",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "tweet:2101079472732848510": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：The data and the anecdata on Jev's adoption are shocking. Everyone is adopting...",
+      "url": "https://x.com/rauchg/status/2101079472732848510",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "topic:Guillermo Rauch：The data and the anecdata on Jev's adoption are shocking. Everyone is adopting...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：The data and the anecdata on Jev's adoption are shocking. Everyone is adopting...",
+      "url": "https://x.com/rauchg/status/2101079472732848510",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "tweet:2101007708044574906": {
+      "type": "tweet",
+      "title": "Aaron Levie：Jev will be super helpful for agents to make split second decisions in...",
+      "url": "https://x.com/levie/status/2101007708044574906",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "topic:Aaron Levie：Jev will be super helpful for agents to make split second decisions in...": {
+      "type": "topic",
+      "title": "Aaron Levie：Jev will be super helpful for agents to make split second decisions in...",
+      "url": "https://x.com/levie/status/2101007708044574906",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "tweet:2101077053567332618": {
+      "type": "tweet",
+      "title": "Nikunj Kothari：Looking for inspiration on what you are able to do with Jev (by @typefaceai)...",
+      "url": "https://x.com/nikunj/status/2101077053567332618",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "topic:Nikunj Kothari：Looking for inspiration on what you are able to do with Jev (by @typefaceai)...": {
+      "type": "topic",
+      "title": "Nikunj Kothari：Looking for inspiration on what you are able to do with Jev (by @typefaceai)...",
+      "url": "https://x.com/nikunj/status/2101077053567332618",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "tweet:2101083891507593576": {
+      "type": "tweet",
+      "title": "Peter Yang：I find this phone transcript from @Muse on how it negotiated $288 in annual...",
+      "url": "https://x.com/petergyang/status/2101083891507593576",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "topic:Peter Yang：I find this phone transcript from @Muse on how it negotiated $288 in annual...": {
+      "type": "topic",
+      "title": "Peter Yang：I find this phone transcript from @Muse on how it negotiated $288 in annual...",
+      "url": "https://x.com/petergyang/status/2101083891507593576",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "podcast:51c4092c-b309-11f1-8603-fb8d30e1277f": {
+      "type": "podcast",
+      "title": "No Priors: Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "sentAt": "2026-09-20T01:23:06.492Z"
+    },
+    "topic:No Priors: Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon": {
+      "type": "topic",
+      "title": "No Priors: Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "sentAt": "2026-09-20T01:23:06.492Z"
     }
   },
-  "updatedAt": "2026-09-19T01:23:36.520Z"
+  "updatedAt": "2026-09-20T01:23:06.492Z"
 }

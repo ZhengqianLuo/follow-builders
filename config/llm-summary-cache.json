@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-19T01:23:33.265Z",
+  "updatedAt": "2026-09-20T01:23:03.810Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -11485,6 +11485,237 @@
             "label": "行业判断",
             "text": "现在是从事推理相关工作和在其之上构建应用的绝佳时机。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2101157729037586694:d50b22dacf7a3b24": {
+      "itemId": "tweet:2101157729037586694",
+      "sourceHash": "d50b22dacf7a3b24",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：We were working on the keynote today with @romainhuet and @sama and most of the...",
+      "url": "https://x.com/thsottiaux/status/2101157729037586694",
+      "generatedAt": "2026-09-20T01:22:35.150Z",
+      "summary": {
+        "title": "OpenAI 团队预告即将发布多项新功能，称内容多到“有点荒谬”",
+        "summary": "OpenAI 员工 Thibault Sottiaux 在 X 上透露，他当天与 Romain Huet 和 Sam Altman 一起为即将到来的主题演讲做准备。他表示，准备过程中最有趣的部分是想办法如何向用户解释所有新内容，因为好东西太多，接连发布显得“有点荒谬”。为了不让用户等太久，下周就会有一些新东西发布，但更令人兴奋的是未来几个月内所有新进展将如何汇聚在一起。这条推文暗示 OpenAI 近期将有一系列密集的产品或功能更新，可能涉及多个方向，并强调这些更新将共同构成一个更大的图景。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "准备主题演讲时最有趣的部分是想办法如何向用户解释所有新内容，因为好东西太多，接连发布显得“有点荒谬”。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "预告",
+            "text": "下周就会有一些新东西发布，不会让用户等太久。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "展望",
+            "text": "非常兴奋地向大家展示我们一直在做的新东西，以及它们在未来几个月将如何汇聚在一起。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2101033599319613533:d3dc4c8aca829d50": {
+      "itemId": "tweet:2101033599319613533",
+      "sourceHash": "d3dc4c8aca829d50",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：Meta's @Muse is the best personal agent I've tried to date. It actually save me...",
+      "url": "https://x.com/petergyang/status/2101033599319613533",
+      "generatedAt": "2026-09-20T01:22:39.961Z",
+      "summary": {
+        "title": "Peter Yang：Meta 的 Muse 是我迄今用过最好的个人 AI 代理，免费却帮我每年省下 800 多美元",
+        "summary": "Peter Yang 在推文中盛赞 Meta 的 Muse 是他迄今用过最好的个人 AI 代理。他提到 Muse 帮他每年在有线电视和电话账单上节省了 800 多美元，对于一个免费 AI 代理来说价值惊人。他发布了一个新视频，演示了 10 个他最喜欢的 Muse 用例，包括个性化晨间新闻推送、习惯追踪器，以及让 Muse 打电话给客服并为他谈判账单。Peter 认为 Muse 有可能成为 Meta 下一个十亿用户级应用。推文附有视频链接，互动数据为 707 个赞、57 次转发、76 条回复。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Meta 的 Muse 是我迄今用过最好的个人 AI 代理。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "数据",
+            "text": "它实际上帮我在有线电视和电话账单上每年节省了 800 多美元，对于一个免费 AI 代理来说，这价值简直疯狂。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "案例",
+            "text": "我发布了一个新视频，演示了 10 个我最喜欢的 Muse 用例，包括个性化晨间新闻推送、习惯追踪器，以及让 Muse 打电话给客服并为我谈判账单。",
+            "reference": "推文第三句"
+          },
+          {
+            "label": "观点",
+            "text": "老实说，我可以看到 Muse 成为 Meta 下一个十亿用户级应用。",
+            "reference": "推文第四句"
+          }
+        ],
+        "materials": [
+          {
+            "label": "视频",
+            "url": "https://t.co/jte6evu5iI",
+            "note": "Peter Yang 演示 10 个 Muse 用例的视频，包括个性化新闻、习惯追踪和账单谈判。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2101079472732848510:1b543bb87446eed2": {
+      "itemId": "tweet:2101079472732848510",
+      "sourceHash": "1b543bb87446eed2",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：The data and the anecdata on Jev's adoption are shocking. Everyone is adopting...",
+      "url": "https://x.com/rauchg/status/2101079472732848510",
+      "generatedAt": "2026-09-20T01:22:44.300Z",
+      "summary": {
+        "title": "Guillermo Rauch：Jev 采用数据惊人，AI 优化浪潮正盛",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中表示，Jev 的采用数据和轶事都令人震惊，几乎所有人都在采用它。他认为 Jev 是一款优秀的产品，但这一现象也反映了当前“AI 太贵、太慢”的时代思潮。人们渴望优化 AI 成本与速度，并希望将 AI 部署到更多场景中。这条推文揭示了 AI 工具快速普及背后的经济驱动力，以及开发者对效率优化的强烈需求。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Jev 的采用数据和轶事都令人震惊，几乎所有人都在采用它。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "我认为这是一款伟大的产品，但这也是“AI 太贵/太慢”时代思潮的下游结果。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "人们渴望优化，并希望将 AI 部署到更多地方！",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 711 个赞、35 次转发和 36 条回复，显示社区对 AI 优化话题的高度关注。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2101007708044574906:122553e5af33bc00": {
+      "itemId": "tweet:2101007708044574906",
+      "sourceHash": "122553e5af33bc00",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Jev will be super helpful for agents to make split second decisions in...",
+      "url": "https://x.com/levie/status/2101007708044574906",
+      "generatedAt": "2026-09-20T01:22:49.688Z",
+      "summary": {
+        "title": "Aaron Levie：Jev 将极大帮助智能体在流程中做出瞬间决策",
+        "summary": "Box CEO Aaron Levie 在推文中介绍了 Jev 这一新工具，认为它将在企业工作流、数据分类、判断调用等数百个场景中帮助 AI 智能体做出瞬间决策。他通过一个 Box 与 Jev 的快速演示具体说明：系统从 Box 中提取事件报告，自动判断其是否面向客户以及严重程度，然后将文件移动到升级、监控或审查文件夹，并设置带有结果的元数据模板实例。整个过程几乎瞬间完成且成本极低。Levie 指出，这类应用可扩展到保险理赔、合同管理、贷款处理、安全审查、客户日志分析等领域，代表了一类全新的 AI 用例。该推文获得 500 个赞、57 次转发和 43 条回复，反映了业界对轻量级、低成本、高速度 AI 决策能力的关注。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Jev 将极大帮助智能体在工作流、数据分类、判断调用以及企业中的数百个其他用例中做出瞬间决策。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "演示从 Box 中提取事件报告，询问其是否面向客户以及严重程度，将文件移动到升级、监控或审查文件夹，并设置带有结果的元数据模板实例。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "数据",
+            "text": "整个过程几乎瞬间完成且成本极低。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "你可以想象这在保险理赔、合同管理、贷款处理、安全审查、客户日志分析等场景中的应用。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "观点",
+            "text": "这绝对是一类全新的 AI 用例。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2101083891507593576:ef45afe74d7ed126": {
+      "itemId": "tweet:2101083891507593576",
+      "sourceHash": "ef45afe74d7ed126",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：I find this phone transcript from @Muse on how it negotiated $288 in annual...",
+      "url": "https://x.com/petergyang/status/2101083891507593576",
+      "generatedAt": "2026-09-20T01:22:54.334Z",
+      "summary": {
+        "title": "Peter Yang 分享 Muse 与 Comcast 客服谈判省下 288 美元年费的电话记录",
+        "summary": "Peter Yang 在推文中分享了一段由 AI 助手 Muse 与 Comcast 客服进行电话谈判的实录，Muse 成功为用户争取到每年 288 美元的有线电视账单减免。Yang 认为这段对话非常吸引人，并指出大多数公司的客服热线尚未准备好应对 AI 代理的介入。他同时附上了一个视频链接，展示他最喜欢的 Muse 使用场景。该推文获得 230 个赞、10 次转发和 20 条回复，反映出社区对 AI 代理在消费者权益谈判中应用的兴趣。",
+        "excerpts": [
+          {
+            "label": "核心案例",
+            "text": "Muse 与 Comcast 客服谈判，成功为用户每年节省 288 美元有线电视费用。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "观点",
+            "text": "Peter Yang 认为大多数公司的客服支持热线还没有准备好应对 AI 代理。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "个人感受",
+            "text": "Yang 用“超级迷人”形容这段电话记录，表达了对 AI 谈判能力的惊叹。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "延伸内容",
+            "text": "Yang 附上视频链接，分享他最喜欢的 Muse 使用场景。",
+            "reference": "推文中的链接 https://t.co/jte6evu5iI"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:51c4092c-b309-11f1-8603-fb8d30e1277f:df1d368ccbe5caaf": {
+      "itemId": "podcast:51c4092c-b309-11f1-8603-fb8d30e1277f",
+      "sourceHash": "df1d368ccbe5caaf",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "No Priors: Why Diffusion Will Win AI Inference with Inception Co-Founder and CEO Stefano Ermon",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "generatedAt": "2026-09-20T01:23:03.810Z",
+      "summary": {
+        "title": "为什么扩散模型将赢得AI推理——Inception联合创始人兼CEO Stefano Ermon",
+        "summary": "斯坦福大学教授、扩散模型奠基人之一Stefano Ermon在播客中分享了他从学术研究到创立Inception的历程，并深入阐述了扩散模型在语言和代码生成领域的潜力。Ermon回顾了扩散模型从2019年实验室想法到如今主导图像、视频、音乐和蛋白质生成的发展，并指出2024年其团队首次在GPT-2规模上实现了扩散语言模型与自回归模型质量持平，同时推理速度提升10倍。他解释了扩散模型在推理时并行处理多token的优势，使其能更好地利用GPU，从而在“每瓦智能”和“每美元智能”上更具竞争力。Inception目前约50人，已推出Mercury系列模型，在质量上与前沿实验室的速度优化模型相当，但速度显著更快，并已服务语音代理等对延迟敏感的真实客户。Ermon还讨论了扩散模型在可控性、数据效率方面的潜在优势，以及初创公司如何通过自研推理引擎和积累客户反馈构建护城河。他认为未来两年内，约20-30%的工作负载对延迟高度敏感，扩散模型有望占据这一市场。同时，他强调了学术界在AI创新中的重要作用，并鼓励研究者加入Inception探索新架构。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "扩散模型在推理时并行处理多个token，工作负载与训练时非常相似，能很好地映射到GPU，而自回归模型推理时是顺序的、内存受限的，这是其根本问题。",
+            "reference": "08:26 - 09:34"
+          },
+          {
+            "label": "案例",
+            "text": "语音代理公司Open Call之前使用Cerebras定制芯片来获得所需速度，切换到Inception的扩散LLM后，在NVIDIA GPU上就能达到相同速度，从而获得更高可用性和更低成本。",
+            "reference": "17:37 - 18:51"
+          },
+          {
+            "label": "数据",
+            "text": "根据OpenRouter的任务分类，估计约20-30%的工作负载对延迟非常敏感，这些是扩散模型可寻址的市场。",
+            "reference": "29:20 - 30:05"
+          },
+          {
+            "label": "观点",
+            "text": "扩散模型是粗到细的生成，从生成初期就可以根据外部奖励函数或约束进行引导，因此比自回归模型更容易控制。",
+            "reference": "26:01 - 27:11"
+          },
+          {
+            "label": "类比",
+            "text": "一旦你习惯了快速模型，就很难回到过去，就像宽带一样，速度越来越快，人们无法再忍受慢速。",
+            "reference": "17:20 - 17:32"
+          },
+          {
+            "label": "观点",
+            "text": "扩散模型通过去噪学习，相当于对同一数据进行了多种噪声增强，因此可能比自回归模型更具数据效率。",
+            "reference": "28:21 - 28:45"
+          },
+          {
+            "label": "案例",
+            "text": "Ermon的实验室曾孵化出FlashAttention和DPO等对行业产生巨大影响的成果，证明学术界在AI创新中仍能发挥关键作用。",
+            "reference": "36:24 - 37:23"
           }
         ],
         "materials": []
