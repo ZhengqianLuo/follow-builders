@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-20T01:23:03.810Z",
+  "updatedAt": "2026-09-21T01:21:34.503Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -11716,6 +11716,181 @@
             "label": "案例",
             "text": "Ermon的实验室曾孵化出FlashAttention和DPO等对行业产生巨大影响的成果，证明学术界在AI创新中仍能发挥关键作用。",
             "reference": "36:24 - 37:23"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2101427997597446636:87645fbe7f2605b9": {
+      "itemId": "tweet:2101427997597446636",
+      "sourceHash": "87645fbe7f2605b9",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Personal agents are the ultimate manifestation of “build something that agents...",
+      "url": "https://x.com/levie/status/2101427997597446636",
+      "generatedAt": "2026-09-21T01:20:40.037Z",
+      "summary": {
+        "title": "Aaron Levie：个人智能体是“构建智能体想要的东西”的终极体现",
+        "summary": "Aaron Levie 在这条推文中提出，个人智能体（Personal agents）是“构建智能体想要的东西”这一理念的终极体现。他以产品 Muse 为例，指出这类产品的形态要求用户能够将任务完全交给智能体，并确保其端到端完成。为此，智能体必须能够成功操作用户的工具或使用自己的工具来完成任务，例如使用用户的 MCP 或 CLI、轻松浏览网站、进行交易等。这意味着新的注意力竞争不再直接来自用户，而是来自智能体。那些能让智能体最好地订餐、处理电商交易、预订航班、与本地经济互动以及与我们的数据和信息交互的工具，将被使用得最多。Levie 认为，这将是自 App Store 以来消费科技领域最大的机遇和变革。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "个人智能体是“构建智能体想要的东西”的终极体现。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "产品形态",
+            "text": "像 Muse 这样的产品，其形态是你希望能够将任务交给智能体，并确保它端到端完全完成。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "能力要求",
+            "text": "智能体必须能够成功操作用户的工具或使用自己的工具来完成任务，例如使用你的 MCP 或 CLI、轻松浏览网站、能够进行交易等。",
+            "reference": "推文第三句"
+          },
+          {
+            "label": "注意力转移",
+            "text": "你需要竞争的新注意力不是来自用户本身，而是来自智能体。",
+            "reference": "推文第四句"
+          },
+          {
+            "label": "工具价值",
+            "text": "那些能让智能体最好地订餐、处理电商交易、预订航班、与本地经济互动以及与我们的数据和信息交互的工具，将被使用得最多。",
+            "reference": "推文第五句"
+          },
+          {
+            "label": "行业影响",
+            "text": "这最终将是自 App Store 以来消费科技领域最大的机遇和变革。",
+            "reference": "推文最后一句"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2101340098356990058:ee4098c302b1ff67": {
+      "itemId": "tweet:2101340098356990058",
+      "sourceHash": "ee4098c302b1ff67",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：I spend ~2 hours a day programming, building side projects, tinkering...",
+      "url": "https://x.com/nikunj/status/2101340098356990058",
+      "generatedAt": "2026-09-21T01:20:47.902Z",
+      "summary": {
+        "title": "VC 为何每天花 2 小时写代码：AI 时代投资的必修课",
+        "summary": "Nikunj Kothari 在推文中回应了外界对他作为 VC 却每天花约 2 小时编程、做副业、捣鼓新仓库的疑问。他指出，当前 AI 领域变化极快，若不亲自动手实践，很难真正理解未来趋势。他提出投资 AI 时代需要理解三个层面：模型能力（通过阅读技术论文把握模型改进方向）、基础设施（模型完成长程任务所需的工具）、应用层（让模型帮助构建自主公司的框架）。他强调，虽然可以通过与研究者、创始人交流来学习，但他本人更擅长通过动手实践来学习，并鼓励其他人每天抽出时间动手尝试，坚持 10 天就会同样着迷。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "与其他时代不同，现在事物发展如此之快，如果你不亲自动手实践，我实在无法理解人们如何能了解接下来会发生什么。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "如果你想在 AI 时代投资，很简单：1）你必须理解模型能力，才能看到下一代模型将在哪些方面改进——阅读技术论文（模型研究）仍有大量 alpha；2）你需要看到它们需要什么工具才能成功并完成更长的长程任务（基础设施）；3）你需要理解使这些模型能够帮助构建自主公司的框架能力（应用层）。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "我每天大约花 2 小时编程、构建副业项目、痴迷地捣鼓、尝试新仓库……基本上每天都会收到一条私信问“你不是 VC 吗，为什么要做这些？”",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "我从来都不擅长不亲自动手就学会东西，所以只是倾向于用我最擅长的方式学习。而且这真的很有趣！",
+            "reference": "推文原文"
+          },
+          {
+            "label": "建议",
+            "text": "我对其他想学习的人的建议是：开始行动，每天找时间捣鼓。一旦你坚持了 10 天，我相信你也会同样着迷！",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:dc9ebcb5-ad83-4eae-a945-dd1af0de0aad:d069e4a35673af33": {
+      "itemId": "podcast:dc9ebcb5-ad83-4eae-a945-dd1af0de0aad",
+      "sourceHash": "d069e4a35673af33",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "The MAD Podcast with Matt Turck: When AI Improves Itself | Richard Socher (Recursive)",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "generatedAt": "2026-09-21T01:21:30.099Z",
+      "summary": {
+        "title": "当AI改进自身：Richard Socher谈递归自我改进与科学革命",
+        "summary": "Richard Socher是AI领域被引用次数最多的研究者之一，现创立Recursive公司并融资6.5亿美元，专注于递归自我改进（AI改进AI）。他认为任何可模拟的事物AI都能解决，递归自我改进将带来巨大突破。他指出科学进步已放缓，尽管研究人员和资金增加，但抗生素、病毒、癌症和基础物理学等领域缺乏根本性突破，原因包括知识碎片化、缺乏通才、学术界不鼓励过于新颖的想法。AI有望像微积分之于物理学那样帮助整合复杂知识，生成式AI不仅限于聊天机器人，还能预测蛋白质结构等科学问题。AI在可模拟和可验证的领域（如游戏、数学、编程）将具有超人类能力。Recursive计划先专注于AI自我改进，再扩展到自然科学，特别是生物学。生物学正从阅读科学转变为可编程的工程科学。他提到2018年在Salesforce训练了蛋白质语言模型ProGen，第一作者Ali Madani后来创立Profluent公司，与礼来签订数十亿美元合同，开发出比CRISPR Cas9更好的基因编辑蛋白质。美国临床试验变得困难且昂贵，许多公司转向中国或澳大利亚。他不相信AI的“硬起飞”，认为生物学等领域受物理和现实约束，进展会加速但不会瞬间完成。AI正在改变生物技术投资格局，公司现在能在6到18个月内拥有多个处于二期临床试验的药物。他认为AI对就业的影响取决于产品需求的价格弹性。他相信AI将在治愈多种癌症中发挥重要作用，并对AI设计吃微塑料的细菌、改进核聚变控制、开发更好电池材料等持乐观态度。他提到不丹以国民幸福指数衡量发展。他在Salesforce期间构建了AI经济学家，使用强化学习在模拟社会中提出税收政策，发现能恢复Saez公式并处理时间序列决策。他认为美国因身份政治和特殊利益集团难以采用AI经济政策建议，而新加坡或中国更可能尝试。他提出科学发现的四大支柱：获取全世界信息并进行推理、现实本身的模型、模拟、真实世界。自驱动机器人实验室是未来方向，但投资上目前尚早，预计2-3年后成熟。Parallel Bio已获FDA批准跳过某些动物试验。智能体群体将尽可能多地自动化科学过程，模拟开放式的进化过程。计算是最大的约束，未来需要决定哪些问题值得投入计算资源。Recursive的目标是构建递归自我改进的超级智能，自动化知识发现和科学发现，已展示其系统在特定问题上超越人类数月或数年的努力，并能构建新的CUDA内核。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "任何可以模拟的事物，AI都能解决。在你意识到之前，你就进入了递归自我改进的循环，我们相信这将是一个巨大的解锁。",
+            "reference": "00:00 - 00:19"
+          },
+          {
+            "label": "数据",
+            "text": "Richard Socher是AI领域被引用次数最多的研究者之一，刚刚为Recursive融资6.5亿美元，该公司专注于递归自我改进。",
+            "reference": "00:19 - 00:47"
+          },
+          {
+            "label": "观点",
+            "text": "科学进步已经放缓，尽管研究人员和资金增加，但许多领域如抗生素、病毒、癌症和基础物理学缺乏根本性突破。",
+            "reference": "01:39 - 02:07"
+          },
+          {
+            "label": "类比",
+            "text": "AI之于生物学，就像微积分之于物理学，它将帮助我们把非常复杂的碎片重新编织在一起。",
+            "reference": "06:15 - 07:47"
+          },
+          {
+            "label": "案例",
+            "text": "2018年在Salesforce训练了蛋白质语言模型ProGen，第一作者Ali Madani后来创立Profluent公司，与礼来签订数十亿美元合同，开发出比CRISPR Cas9更好的基因编辑蛋白质。",
+            "reference": "28:09 - 31:01"
+          },
+          {
+            "label": "观点",
+            "text": "AI对就业的影响取决于产品需求的价格弹性；例如插画师需求弹性低，而程序员需求弹性高。",
+            "reference": "34:40 - 36:09"
+          },
+          {
+            "label": "案例",
+            "text": "在Salesforce期间构建了AI经济学家，使用强化学习在模拟社会中提出税收政策，发现能恢复Saez公式并处理时间序列决策。",
+            "reference": "45:48 - 50:10"
+          },
+          {
+            "label": "观点",
+            "text": "计算是最大的约束，未来人类将不得不决定什么问题值得解决，以及给解决该问题多少计算资源。",
+            "reference": "34:40 - 36:09"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2101342055352201519:19c3c051b7ab5a5a": {
+      "itemId": "tweet:2101342055352201519",
+      "sourceHash": "19c3c051b7ab5a5a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：My next podcast episode is almost guaranteed to save you some money. It's with...",
+      "url": "https://x.com/petergyang/status/2101342055352201519",
+      "generatedAt": "2026-09-21T01:21:34.502Z",
+      "summary": {
+        "title": "Peter Yang 预告播客：六个 ChatGPT 个人理财提示词帮你省钱",
+        "summary": "Peter Yang 在 X 上预告其播客下一集将邀请 OpenAI 的 ChatGPT Finances 产品负责人 Eric Bloch，分享六个实用的个人理财提示词，帮助用户主动发现税务节省、最大化信用卡奖励、创建交互式财务预测（如财务独立路径）等。该集播客将于次日发布，Peter 强调这集内容几乎肯定能为听众省钱。推文获得了 82 个赞、5 次转发和 13 条回复，显示了一定的关注度。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我的下一集播客几乎肯定能帮你省点钱。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "嘉宾",
+            "text": "嘉宾是我的朋友 Eric Bloch，他是 OpenAI 的 ChatGPT Finances 产品负责人。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "提示词用途",
+            "text": "我请他分享六个实用的个人理财提示词，任何人都可以尝试：1. 主动发现税务节省；2. 最大化信用卡奖励；3. 创建交互式预测，比如你的财务独立路径……等等。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "行动号召",
+            "text": "订阅以在明天获取完整节目。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
