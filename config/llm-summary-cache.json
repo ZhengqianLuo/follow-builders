@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-21T01:21:34.503Z",
+  "updatedAt": "2026-09-22T01:43:48.940Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -11890,6 +11890,196 @@
           {
             "label": "行动号召",
             "text": "订阅以在明天获取完整节目。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2101862331345154469:7e50d963991122c0": {
+      "itemId": "tweet:2101862331345154469",
+      "sourceHash": "7e50d963991122c0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：My “armchair” thoughts on the personal agent race: 1. Muse is poised to become...",
+      "url": "https://x.com/petergyang/status/2101862331345154469",
+      "generatedAt": "2026-09-22T01:43:10.992Z",
+      "summary": {
+        "title": "Peter Yang 对个人智能体竞赛的“纸上谈兵”式思考",
+        "summary": "Peter Yang 在推文中分享了他对个人智能体（personal agent）竞赛的观察与预测。他认为 Meta 的 Muse 凭借直观的 app 体验和 Meta 在旗下所有产品中的大力推广，有望成为领导者，并可能成为继 Facebook 之后 Meta 最成功的自研应用，规模远超 Threads。ChatGPT 虽然拥有 10 亿以上用户，在模型能力、计算机使用和语音方面可能逐项优于 Muse，但难以同时兼顾工作与个人场景，且企业版与消费者版共用同一 UX 的挑战很大；他本人已因 Work/Codex 的混淆而改用 Grok Bot 处理工作。Grok Bot 专注工作场景，并非 Muse 的直接竞争对手，其看涨逻辑在于它可能演变为面向团队的多智能体协作平台，类似“多玩家版的 agentic Slack”。Google 是黑马，其个人智能体 Spark 目前只是 Gemini 的二级标签页，Google 需要更激进地将 Spark 打造为主体验，但 Google 在多玩家 AI 方面记录不佳。多玩家（multiplayer）能力是当前所有厂商尚未解决的空白，例如无法在 Muse 聊天中拉入配偶共同规划假期，也无法在 ChatGPT 或 Grok Bot 线程中拉入同事；目前多玩家 AI 仅停留在 Slack 中标记 bot 的层面。Peter 认为这将是下一个重大突破。他目前的个人 AI 栈为：Muse 用于个人事务，Grok Bot 用于云任务，Claude 用于特定用例，ChatGPT 用于其他。他建议用户设计可移植的个人技能和文件，以便在不同智能体之间轻松迁移，避免在工具间切换浪费时间。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Muse 有望成为个人智能体竞赛的领导者。该应用直观易用，Meta 正在其所有产品中大力推广。一旦使用 Muse，你就会意识到让智能体寄生在 iMessage 等现有消息应用中意义不大。除非 Meta 算力耗尽，否则这将成为继 Facebook 之后该公司最成功的自研应用，规模远超 Threads。",
+            "reference": "推文第1点"
+          },
+          {
+            "label": "观点",
+            "text": "ChatGPT 可能仍是个人智能体领导者，因为它已有 10 亿以上用户，且 OpenAI 的模型、计算机使用和语音能力逐项可能优于 Muse。但很难用一个产品同时服务工作和个人场景，更难用同一 UX 同时服务企业和消费者。",
+            "reference": "推文第2点"
+          },
+          {
+            "label": "案例",
+            "text": "即使在工作场景，我也开始使用 Grok Bot，因为 ChatGPT 的 Work/Codex 划分仍然太令人困惑。",
+            "reference": "推文第2点"
+          },
+          {
+            "label": "观点",
+            "text": "Grok Bot 并非 Muse 的直接竞争对手，因为它专注于工作。多个 bot 自然适合基于团队的知识工作。我看涨 Grok Bot 的理由是：它距离成为面向 bot 和人类的多人 agentic Slack 只差几个功能。",
+            "reference": "推文第3点"
+          },
+          {
+            "label": "观点",
+            "text": "Google 显然是黑马候选。所有这些个人智能体都依赖 Gmail、Google Calendar 和 Google 应用的数据。Google 有自己的个人智能体 Spark，但据我上次查看，它只是 Gemini 中的一个二级标签页。我认为 Google 需要更激进地将 Spark 打造为主体验，使其直观且能与 Muse 竞争。不过 Google 在多人 AI 方面记录不佳。",
+            "reference": "推文第4点"
+          },
+          {
+            "label": "观点",
+            "text": "说到多人（multiplayer），目前还没有人解决这个问题。我无法轻松地将配偶添加到 Muse 聊天中一起规划假期，也无法将同事拉入 ChatGPT 或 Grok Bot 线程。今天的多人 AI 大多只是在 Slack 中标记 bot。每个主要提供商可能都在研究这个，我认为这将是下一个重大突破。",
+            "reference": "推文第5点"
+          },
+          {
+            "label": "案例",
+            "text": "我目前的个人 AI 栈是：Muse 用于个人事务，Grok Bot 用于云任务，Claude 用于特定用例，ChatGPT 用于其他一切。",
+            "reference": "推文第5点"
+          },
+          {
+            "label": "建议",
+            "text": "每个人都应该设计自己的个人技能和文件，使其易于在不同 harness 和 agent 之间移植。否则，你将花费一半时间在工具之间迁移。",
+            "reference": "推文第5点"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2101846262840799251:ec2da8e4bbb091a3": {
+      "itemId": "tweet:2101846262840799251",
+      "sourceHash": "ec2da8e4bbb091a3",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：The thoroughness with which agents can test and QA software is unrivaled. I...",
+      "url": "https://x.com/rauchg/status/2101846262840799251",
+      "generatedAt": "2026-09-22T01:43:17.322Z",
+      "summary": {
+        "title": "Guillermo Rauch：AI 代理测试与 QA 软件的彻底性无与伦比",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中分享了他对 AI 代理在软件测试与质量保证方面能力的惊叹。他描述了一个具体案例：他指出了一个移动端（应用内）浏览器中的渲染问题，AI 代理随即展开了极其深入的排查，包括重现问题、模拟环境、修复、部署和验证。代理甚至创建了一个临时的 Vercel 部署，并将其投放到 iPhone 模拟器上进行测试。Rauch 强调，这种工作强度和彻底性是人类无法比拟的，人类会耗尽精力、进行外推或寄希望于问题自行解决。他预测，未来的软件将拥有前所未有的质量和性能，并认为这一转变令人惊叹。该推文获得了 376 个赞、19 次转发和 53 条回复，反映了业界对 AI 代理在软件开发中潜力的关注。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 代理测试和 QA 软件的彻底性是无与伦比的。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例描述",
+            "text": "我指出了一个移动端（应用内）浏览器中的渲染问题，代理深入到了魔多深渊去重现、模拟、修复、部署和验证。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "具体行动",
+            "text": "它创建了一个临时的 Vercel 部署，并将其投放到 iPhone 模拟器上进行测试！",
+            "reference": "推文中段"
+          },
+          {
+            "label": "对比人类",
+            "text": "人类永远无法匹配这种强度。我们会耗尽精力，我们会外推，我们会希望它能成功。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "未来预测",
+            "text": "未来的软件将拥有我们从未体验过的质量和性能。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "情感表达",
+            "text": "看到这种转变真是令人惊叹。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:2ecd3b38-aca0-11f1-b6c4-13e4bbce7d30:64e4e23a5984835d": {
+      "itemId": "podcast:2ecd3b38-aca0-11f1-b6c4-13e4bbce7d30",
+      "sourceHash": "64e4e23a5984835d",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "No Priors: Coinbase’s Everything Exchange: Agentic Finance, Stablecoins, and Tokenization with CEO Brian Armstrong",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "generatedAt": "2026-09-22T01:43:43.414Z",
+      "summary": {
+        "title": "Coinbase 的“万物交易所”：代理金融、稳定币与代币化——CEO Brian Armstrong 访谈",
+        "summary": "本期播客中，Coinbase CEO Brian Armstrong 阐述了公司从加密货币交易所向“万物交易所”（Everything Exchange）转型的愿景，核心是将所有资产类别上链，包括股票、商品、加密货币、衍生品和预测市场。他重点讨论了代理金融（Agentic Finance）的兴起：AI 代理需要金融服务，而传统支付系统对低于 1 美元的交易不划算（信用卡最低费用约 30 美分加百分比），约 76% 的代理电商交易金额低于 30 美分，因此加密轨道和自托管钱包成为解决方案。Coinbase 已推出多项举措：孵化 X402 协议用于代理支付并捐赠给 Linux 基金会，推出 Coinbase Business 帮助企业接受稳定币支付，开发 AI 顾问和 AI 代理账户，以及内部使用 AI 进行编码、风险预防和客户支持，并构建“大脑”系统存储历史数据供 AI 代理使用。稳定币支付增长迅速，即使比特币价格下跌，稳定币支付仍在增长。Coinbase 还推出了代币化股票产品（目前仅在美国以外地区可用），使全球约 40 亿无法获得经纪账户的人能够投资高质量资产。预测市场增长迅猛，推出几个月内收入运行率达到 1 亿美元，季度环比增长超过 100%，Armstrong 甚至设想扩展到“人生大问题”的预测市场。此外，Armstrong 还分享了他对生物科技（New Limit 公司，表观遗传重编程，首个临床试验针对酒精性肝病）、认知增强、基因编辑和经济特区的兴趣。他认为未来五年 Coinbase 的重点是代理金融和稳定币支付，目标是将加密用户从数亿扩展到十亿以上。",
+        "excerpts": [
+          {
+            "label": "数据",
+            "text": "约 76% 的代理电商交易金额低于 30 美分，而信用卡或借记卡交易的最低费用通常为 30 美分固定费用加一定百分比，因此传统支付系统对代理交易不划算。",
+            "reference": "00:00 - 00:19"
+          },
+          {
+            "label": "观点",
+            "text": "Coinbase 希望为 AI 代理提供金融服务，避免 AI 代理“无银行账户”。AI 代理可以通过简单命令创建自己的金融账户，使用自托管钱包和加密轨道，无需 KYC。",
+            "reference": "00:19 - 00:37; 04:04 - 04:26"
+          },
+          {
+            "label": "案例",
+            "text": "Coinbase 孵化了 X402 协议用于代理支付，并已捐赠给 Linux 基金会，Google、Cloudflare 和 AWS 等公司参与合作。",
+            "reference": "06:02 - 06:23"
+          },
+          {
+            "label": "数据",
+            "text": "Coinbase 的 88% 收入来自非比特币交易，表明其业务已多元化。",
+            "reference": "18:37 - 18:55"
+          },
+          {
+            "label": "数据",
+            "text": "Coinbase 的预测市场增长迅速，推出几个月内收入运行率达到 1 亿美元，季度环比增长超过 100%。",
+            "reference": "21:54 - 22:11"
+          },
+          {
+            "label": "观点",
+            "text": "Brian Armstrong 认为预测市场可以扩展到“人生大问题”，如上帝是否存在、进化论与智能设计等，这些市场没有明确的结算日期，但人们可以就概率变化进行投注。",
+            "reference": "23:19 - 23:58"
+          },
+          {
+            "label": "观点",
+            "text": "Brian Armstrong 认为未来五年 Coinbase 的重点是代理金融（Agentic Finance）和稳定币支付，目标是将加密用户从数亿扩展到十亿以上。",
+            "reference": "36:17 - 36:41"
+          },
+          {
+            "label": "案例",
+            "text": "Brian Armstrong 通过举办晚宴探讨生物科技趋势，最终催生了 New Limit 公司，专注于表观遗传重编程。New Limit 已建立实验室，利用 AI 进行大规模筛选，并已成功在人类化小鼠模型中重编程至少一种人类细胞类型。首个一期临床试验将于明年启动，针对酒精性肝病（ALD）。",
+            "reference": "26:27 - 32:52"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2101742225906655315:9bbf91ffa2e7eb75": {
+      "itemId": "tweet:2101742225906655315",
+      "sourceHash": "9bbf91ffa2e7eb75",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：Jokingly thinking of starting a new cloud kitchen called “next day curry”.....",
+      "url": "https://x.com/nikunj/status/2101742225906655315",
+      "generatedAt": "2026-09-22T01:43:48.939Z",
+      "summary": {
+        "title": "Nikunj Kothari 戏言开“隔夜咖喱”云厨房：剩菜更好吃？",
+        "summary": "Nikunj Kothari 在 X 上开玩笑说要开一家名为“next day curry”的云厨房，做法是点最好的咖喱，存放一夜，第二天再端给顾客。他一边吃着剩下的满洲菜（Manchurian），一边提出这个想法，并说拉面、印度菜、泰式咖喱等食物隔夜后味道更好。他承认这可能会冒犯纯粹主义者，但坚持认为隔夜后味道更佳。这条推文以幽默方式探讨了“剩菜更好吃”这一常见饮食体验，并引发了对食物风味随时间变化的讨论。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "开玩笑说要开一家叫“next day curry”的云厨房，点最好的咖喱，存放一夜，第二天再端给顾客。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "一边吃着剩下的满洲菜（Manchurian），一边提出这个想法。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "类比",
+            "text": "拉面、印度菜、泰式咖喱等食物隔夜后也有同样的体验——味道更好。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "这可能冒犯纯粹主义者，但隔夜后味道确实好得多。",
             "reference": "推文结尾"
           }
         ],
