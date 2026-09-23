@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-22T01:43:48.940Z",
+  "updatedAt": "2026-09-23T01:38:00.696Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -12080,6 +12080,56 @@
           {
             "label": "观点",
             "text": "这可能冒犯纯粹主义者，但隔夜后味道确实好得多。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2102186665863463199:35f7449bb1712bd7": {
+      "itemId": "tweet:2102186665863463199",
+      "sourceHash": "35f7449bb1712bd7",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：I have been using Codex as my primary \"agent\" for such a long time that I...",
+      "url": "https://x.com/nikunj/status/2102186665863463199",
+      "generatedAt": "2026-09-23T01:38:00.696Z",
+      "summary": {
+        "title": "Nikunj Kothari：Codex 在 Mac 上无可匹敌，期待其面向大众的发布",
+        "summary": "Nikunj Kothari 在推文中分享了他长期使用 Codex 作为主要智能体的体验。他指出，由于自己使用 Codex 时间很长，以至于忘记了普通人从未使用过它。他提到 Instinct 和 Muse 在手机浏览器上表现出色，展示了零配置下优秀智能体对大众的形态，但 Codex 在 Mac 上凭借 Computer Use 能力（感谢 AriX 和 Sky 团队）在所有工作中无可匹敌。他举例说，可以尝试将手动工作流交给 Codex 一次性完成。他期待 Codex 即将面向大众发布的智能体，并希望官方能展示其工作能力并降低上手门槛。他认为当前是这些产品的黄金时代，作为客户非常幸运。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我使用 Codex 作为主要智能体已经很久了，以至于我忘记了普通人从未使用过它。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "Instinct 和 Muse 很棒，尤其是在手机上用于浏览器，它们向大众展示了零配置的优秀智能体是什么样子。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "但 Mac 上的 Codex 凭借 Computer Use 能力在所有工作中无可匹敌（感谢 AriX 和 Sky 团队）。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "尝试一个你手动执行的工作流，把它交给 Codex 一次性完成。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "我迫不及待想看到他们即将面向大众发布的智能体，据报道他们正准备发布。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "建议",
+            "text": "我唯一的请求是展示其工作能力，并让人们更容易上手。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "类比",
+            "text": "作为所有这些产品的客户，这是一个特权时代——真正的黄金时代！",
             "reference": "推文结尾"
           }
         ],
