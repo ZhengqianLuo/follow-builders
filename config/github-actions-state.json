@@ -10380,7 +10380,127 @@
       "title": "Guillermo Rauch：In addition to our type-safe TypeSafe @aisdk API (get it?), you can now use Jev...",
       "url": "https://x.com/rauchg/status/2102205684544852121",
       "sentAt": "2026-09-23T01:38:02.289Z"
+    },
+    "tweet:2102463847714247142": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：GPT-6 Sol and Luna are out. Not only are they a very significant improvement...",
+      "url": "https://x.com/thsottiaux/status/2102463847714247142",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "topic:Thibault Sottiaux：GPT-6 Sol and Luna are out. Not only are they a very significant improvement...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：GPT-6 Sol and Luna are out. Not only are they a very significant improvement...",
+      "url": "https://x.com/thsottiaux/status/2102463847714247142",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "tweet:2102440619616682120": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：We have been focusing on efficiency and intelligence for all. Very proud of the...",
+      "url": "https://x.com/thsottiaux/status/2102440619616682120",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "topic:Thibault Sottiaux：We have been focusing on efficiency and intelligence for all. Very proud of the...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：We have been focusing on efficiency and intelligence for all. Very proud of the...",
+      "url": "https://x.com/thsottiaux/status/2102440619616682120",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "tweet:2102439069053747549": {
+      "type": "tweet",
+      "title": "Boris Cherny：Opus 5.5 is a really good model. It's been my daily driver the last few weeks....",
+      "url": "https://x.com/bcherny/status/2102439069053747549",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "topic:Boris Cherny：Opus 5.5 is a really good model. It's been my daily driver the last few weeks....": {
+      "type": "topic",
+      "title": "Boris Cherny：Opus 5.5 is a really good model. It's been my daily driver the last few weeks....",
+      "url": "https://x.com/bcherny/status/2102439069053747549",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "tweet:2102509507415048245": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Maybe our cutest launch so far. But still packing the biggest punch....",
+      "url": "https://x.com/thsottiaux/status/2102509507415048245",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "topic:Thibault Sottiaux：Maybe our cutest launch so far. But still packing the biggest punch....": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Maybe our cutest launch so far. But still packing the biggest punch....",
+      "url": "https://x.com/thsottiaux/status/2102509507415048245",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "tweet:2102548686303854790": {
+      "type": "tweet",
+      "title": "Thariq：the right way to use model capabilities is not to ship 10x more features to...",
+      "url": "https://x.com/trq212/status/2102548686303854790",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "topic:Thariq：the right way to use model capabilities is not to ship 10x more features to...": {
+      "type": "topic",
+      "title": "Thariq：the right way to use model capabilities is not to ship 10x more features to...",
+      "url": "https://x.com/trq212/status/2102548686303854790",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "tweet:2102469008079679640": {
+      "type": "tweet",
+      "title": "Sam Altman：Startups are naturally good at this; it is hard to keep a bigger company good...",
+      "url": "https://x.com/sama/status/2102469008079679640",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "topic:Sam Altman：Startups are naturally good at this; it is hard to keep a bigger company good...": {
+      "type": "topic",
+      "title": "Sam Altman：Startups are naturally good at this; it is hard to keep a bigger company good...",
+      "url": "https://x.com/sama/status/2102469008079679640",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "tweet:2102543349102338309": {
+      "type": "tweet",
+      "title": "Boris Cherny：I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple...",
+      "url": "https://x.com/bcherny/status/2102543349102338309",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "topic:Boris Cherny：I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple...": {
+      "type": "topic",
+      "title": "Boris Cherny：I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple...",
+      "url": "https://x.com/bcherny/status/2102543349102338309",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "tweet:2102468713866055872": {
+      "type": "tweet",
+      "title": "Sam Altman：michelle embodies this as much as anyone openai is so, so lucky to have...",
+      "url": "https://x.com/sama/status/2102468713866055872",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "topic:Sam Altman：michelle embodies this as much as anyone openai is so, so lucky to have...": {
+      "type": "topic",
+      "title": "Sam Altman：michelle embodies this as much as anyone openai is so, so lucky to have...",
+      "url": "https://x.com/sama/status/2102468713866055872",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "tweet:2102438365455167883": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Love the tastefulness with which anthropic ships. Main reason I got excited...",
+      "url": "https://x.com/rauchg/status/2102438365455167883",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "topic:Guillermo Rauch：Love the tastefulness with which anthropic ships. Main reason I got excited...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Love the tastefulness with which anthropic ships. Main reason I got excited...",
+      "url": "https://x.com/rauchg/status/2102438365455167883",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "tweet:2102437713781944397": {
+      "type": "tweet",
+      "title": "Cat Wu：Claude Opus 5.5 is now the default model in Claude Code and the Claude app,...",
+      "url": "https://x.com/_catwu/status/2102437713781944397",
+      "sentAt": "2026-09-24T01:35:18.815Z"
+    },
+    "topic:Cat Wu：Claude Opus 5.5 is now the default model in Claude Code and the Claude app,...": {
+      "type": "topic",
+      "title": "Cat Wu：Claude Opus 5.5 is now the default model in Claude Code and the Claude app,...",
+      "url": "https://x.com/_catwu/status/2102437713781944397",
+      "sentAt": "2026-09-24T01:35:18.815Z"
     }
   },
-  "updatedAt": "2026-09-23T01:38:02.289Z"
+  "updatedAt": "2026-09-24T01:35:18.815Z"
 }

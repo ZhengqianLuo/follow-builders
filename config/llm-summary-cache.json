@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-23T01:38:00.696Z",
+  "updatedAt": "2026-09-24T01:35:16.408Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -12131,6 +12131,207 @@
             "label": "类比",
             "text": "作为所有这些产品的客户，这是一个特权时代——真正的黄金时代！",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2102463847714247142:98a9b9cdbb16973c": {
+      "itemId": "tweet:2102463847714247142",
+      "sourceHash": "98a9b9cdbb16973c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：GPT-6 Sol and Luna are out. Not only are they a very significant improvement...",
+      "url": "https://x.com/thsottiaux/status/2102463847714247142",
+      "generatedAt": "2026-09-24T01:34:49.075Z",
+      "summary": {
+        "title": "GPT-6 Sol 与 Luna 发布：全面升级、API 降价 50%，并为订阅用户提供重置额度",
+        "summary": "Thibault Sottiaux 在 X 上宣布 GPT-6 的 Sol 和 Luna 两个版本正式发布。他称这两个模型不仅在各项指标上都有显著提升，尤其在写作和整体体验的“一试便知”质量上表现突出。同时，API 价格永久性下调 50%，使两个模型在大量新用例中具备可行性，并让现有订阅用户的用量也得到延伸。此外，所有 Plus、Pro 和 Business 用户的账户中都将加载一次性的“banked reset”（重置额度）。该推文获得了超过 2.3 万点赞和 1500 余次转发，引发广泛关注。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "GPT-6 Sol 和 Luna 不仅在各方面都有非常显著的提升，在写作和整体的“一试便知”质量上也是如此。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "API 价格永久性下调 50%，使两个模型在大量新用例中具备可行性，并让现有订阅用户的用量也得到延伸。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "所有 Plus、Pro 和 Business 用户的账户中都将加载一次性的“banked reset”（重置额度）。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "Let's go!",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2102439069053747549:5ffe3f3ffdc3ffa0": {
+      "itemId": "tweet:2102439069053747549",
+      "sourceHash": "5ffe3f3ffdc3ffa0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Boris Cherny：Opus 5.5 is a really good model. It's been my daily driver the last few weeks....",
+      "url": "https://x.com/bcherny/status/2102439069053747549",
+      "generatedAt": "2026-09-24T01:34:54.552Z",
+      "summary": {
+        "title": "Boris Cherny：Opus 5.5 成为日常主力模型，在 HAProxy 移植任务中比 Fable 5.1 快且省",
+        "summary": "Boris Cherny 在推文中表示，Opus 5.5 是一个非常好的模型，过去几周一直是他的日常主力。他分享了一个对比实验：让 Opus 5.5 和 Fable 5.1 分别将 HAProxy 从 C 移植到 Rust。两个模型都通过了几乎所有的 HAProxy 测试，但 Opus 5.5 仅用 9.5 小时完成，而 Fable 5.1 用了 12 小时，并且 Opus 5.5 的成本低了 51%。这条推文获得了 6778 个赞、228 次转发和 312 条回复，反映了社区对模型性能和成本效益的关注。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Opus 5.5 是一个非常好的模型，过去几周一直是他的日常主力。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "让 Opus 5.5 和 Fable 5.1 分别将 HAProxy 从 C 移植到 Rust，两个模型都通过了几乎所有的 HAProxy 测试。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "数据",
+            "text": "Opus 5.5 完成移植耗时 9.5 小时，Fable 5.1 耗时 12 小时。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "数据",
+            "text": "Opus 5.5 的成本比 Fable 5.1 低 51%。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "互动",
+            "text": "该推文获得 6778 个赞、228 次转发和 312 条回复。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2102543349102338309:a50d60686c08f906": {
+      "itemId": "tweet:2102543349102338309",
+      "sourceHash": "a50d60686c08f906",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Boris Cherny：I used Opus 5.5 to formally verify the Claude Agent SDK using Lean. A couple...",
+      "url": "https://x.com/bcherny/status/2102543349102338309",
+      "generatedAt": "2026-09-24T01:35:02.510Z",
+      "summary": {
+        "title": "Boris Cherny：用 Opus 5.5 和 Lean 形式化验证 Claude Agent SDK，发现 16 个 bug",
+        "summary": "Boris Cherny 在 X 上分享了他使用 Opus 5.5 结合 Lean 对 Claude Agent SDK 进行形式化验证的实践。他仅用几个简短提示就生成了 16 个 PR，修复了各种 bug 和竞态条件。他还提到 TLA+ 同样有效，有时会将 Lean 和 TLA+ 结合使用，以检查数据流、并发和状态管理方面的问题。Cherny 坦言自己并不精通这两种语言，但 Claude 对它们非常擅长。他认为这种方法对于形式化建模代码、发现人类可能忽略的 bug 非常有用，并提出了形式化验证是否将成为编程（或至少是找 bug）未来的思考。该推文获得了 3324 个赞、165 次转发和 258 条回复，引发了关于 AI 辅助形式化验证的广泛讨论。",
+        "excerpts": [
+          {
+            "label": "核心实践",
+            "text": "我用 Opus 5.5 通过 Lean 对 Claude Agent SDK 进行了形式化验证。几个简短的提示就产生了 16 个 PR，修复了各种 bug 和竞态条件。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "工具组合",
+            "text": "TLA+ 也很好用。我有时会结合 Lean 和 TLA+ 来检查数据流、并发和状态管理方面的问题。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "个人能力与 AI 能力对比",
+            "text": "这两种语言我都不太懂，但 Claude 对它们都非常擅长。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "方法价值",
+            "text": "这种方法对于形式化建模你的代码、发现人类可能不会注意到的 bug 非常有用。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "未来展望",
+            "text": "形式化验证会是编程（或者至少是找 bug）的未来吗？",
+            "reference": "推文正文"
+          },
+          {
+            "label": "社区反响",
+            "text": "该推文获得 3324 个赞、165 次转发和 258 条回复，显示 AI 辅助形式化验证话题热度很高。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": [
+          {
+            "label": "视频演示",
+            "url": "https://x.com/bcherny/status/2102543349102338309",
+            "note": "推文中附有视频，展示了使用 Opus 5.5 和 Lean 进行形式化验证并生成 PR 的过程。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2102438365455167883:419a43abf06aa4e3": {
+      "itemId": "tweet:2102438365455167883",
+      "sourceHash": "419a43abf06aa4e3",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Love the tastefulness with which anthropic ships. Main reason I got excited...",
+      "url": "https://x.com/rauchg/status/2102438365455167883",
+      "generatedAt": "2026-09-24T01:35:08.814Z",
+      "summary": {
+        "title": "Guillermo Rauch 盛赞 Anthropic 发布品味，称 AI 时代应推动设计前沿",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中表达了对 Anthropic 产品发布品味的欣赏，认为其发布方式优雅克制。他由此联想到自己当初对 Web 'headless'（无头）模式感到兴奋的原因：任何页面都可以呈现任意奇思妙想或独特形态。Rauch 进一步指出，在 AI 时代，没有理由不去推动设计的前沿。他附上了一个 Next.js 的示例链接，称这是 Next.js 的最佳表现。该推文获得了 1418 个赞、34 次转发和 63 条回复，反映出社区对 AI 与设计创新结合的关注。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "欣赏 Anthropic 发布产品的品味（tastefulness）。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "当初对 Web 'headless' 感到兴奋的主要原因是：任何页面都可以呈现任意奇思妙想或独特形态。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "有了 AI，没有理由不去推动设计的前沿。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "案例",
+            "text": "附上 Next.js 示例链接，称这是 Next.js 的最佳表现。",
+            "reference": "推文末尾链接"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2102437713781944397:44c9190292457788": {
+      "itemId": "tweet:2102437713781944397",
+      "sourceHash": "44c9190292457788",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Cat Wu：Claude Opus 5.5 is now the default model in Claude Code and the Claude app,...",
+      "url": "https://x.com/_catwu/status/2102437713781944397",
+      "generatedAt": "2026-09-24T01:35:16.408Z",
+      "summary": {
+        "title": "Claude Opus 5.5 成为 Claude Code 与 App 默认模型，效率提升且限额更耐用",
+        "summary": "Anthropic 员工 Cat Wu 宣布 Claude Opus 5.5 现已成为 Claude Code 和 Claude 应用（包括 Cowork）的默认模型，覆盖 Pro、Max 和 Team 计划。她表示自己已将 Opus 5.5 作为日常主力模型，欣赏其清晰的沟通能力和模仿用户写作风格的能力。团队决定在所有产品中默认采用中等努力程度（effort medium），该设置在智能水平上与 Fable 5.1 相当，但速度更快。此外，与 Opus 5 相比，Opus 5.5 的速率限制将提升 25%，意味着用户可用额度更耐用。Cat Wu 鼓励用户给 Opus 5.5 布置有挑战性的任务并反馈体验。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Claude Opus 5.5 现已成为 Claude Code 和 Claude 应用（包括 Cowork）的默认模型，适用于 Pro、Max 和 Team 计划。",
+            "reference": "https://x.com/_catwu/status/2102437713781944397"
+          },
+          {
+            "label": "金句",
+            "text": "我一直在日常使用 Opus 5.5，很喜欢它清晰的沟通能力以及模仿我写作风格的能力。",
+            "reference": "https://x.com/_catwu/status/2102437713781944397"
+          },
+          {
+            "label": "数据",
+            "text": "与 Opus 5 相比，Opus 5.5 的速率限制将提升 25%，意味着你的额度可以多使用 25%。",
+            "reference": "https://x.com/_catwu/status/2102437713781944397"
+          },
+          {
+            "label": "类比",
+            "text": "我们在所有产品中默认采用中等努力程度（effort medium），这在智能水平上与 Fable 5.1 相当，但速度更快。",
+            "reference": "https://x.com/_catwu/status/2102437713781944397"
+          },
+          {
+            "label": "观点",
+            "text": "给 Opus 5.5 一个雄心勃勃的任务，然后告诉我们你的想法！",
+            "reference": "https://x.com/_catwu/status/2102437713781944397"
           }
         ],
         "materials": []
