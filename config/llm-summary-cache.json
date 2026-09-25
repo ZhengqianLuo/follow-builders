@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-24T01:35:16.408Z",
+  "updatedAt": "2026-09-25T01:43:03.118Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -12335,6 +12335,192 @@
           }
         ],
         "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2102840851538080172:3a8d4e2b2c7127cf": {
+      "itemId": "tweet:2102840851538080172",
+      "sourceHash": "3a8d4e2b2c7127cf",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：You can now discover tools, agents and expert partners on Claude Marketplace....",
+      "url": "https://x.com/claudeai/status/2102840851538080172",
+      "generatedAt": "2026-09-25T01:42:34.028Z",
+      "summary": {
+        "title": "Claude 推出 Marketplace：一站式发现工具、智能体与专家合作伙伴",
+        "summary": "Claude 官方宣布推出 Marketplace，用户现在可以在其中发现工具、智能体和专家合作伙伴。该平台支持添加 Slack、Notion 等连接器和插件，购买来自 Cursor、CrowdStrike 等公司的智能体和产品，以及与 Accenture、Deloitte 等服务合作伙伴合作扩展能力。这一举措将 Claude 从单一模型扩展为生态平台，旨在降低集成门槛并促进企业级应用。",
+        "excerpts": [
+          {
+            "label": "核心功能",
+            "text": "你现在可以在 Claude Marketplace 上发现工具、智能体和专家合作伙伴。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "连接器与插件",
+            "text": "添加 Slack 和 Notion 等连接器和插件。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "购买智能体与产品",
+            "text": "从 Cursor 和 CrowdStrike 等公司购买智能体和产品。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "服务合作伙伴",
+            "text": "与 Accenture 和 Deloitte 等服务合作伙伴一起扩展规模。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "生态扩展",
+            "text": "Claude 从单一模型走向生态平台，集成第三方工具与企业服务。",
+            "reference": "推文整体语境"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2102820148629614685:39e620269b219228": {
+      "itemId": "tweet:2102820148629614685",
+      "sourceHash": "39e620269b219228",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Muse, Instinct, OpenClaw, Claude Code… All successful agents have 3 key...",
+      "url": "https://x.com/rauchg/status/2102820148629614685",
+      "generatedAt": "2026-09-25T01:42:43.562Z",
+      "summary": {
+        "title": "Guillermo Rauch：成功智能体的三大组件与可拆解云架构",
+        "summary": "Guillermo Rauch 在推文中总结了成功 AI 智能体（如 Muse、Instinct、OpenClaw、Claude Code）共有的三个关键组件：大脑（模型与逻辑框架）、手（工具、计算机、浏览器）和文件（记忆、技能、代码库）。他指出，简单做法是将所有组件放在一台有状态的计算机（如 Mac Mini）上运行，但为了在云端经济高效地运行智能体，需要将这些组件拆解。大脑部分可在 Fluid compute 中运行，并通过 Workflow 使事件日志持久化以保证可靠性；手部可由专用浏览器集群（如 Browserbase/Kernel）、沙箱计算机或轻量工具（如 just-bash）承担；文件部分此前缺乏解耦存储方案，因此他宣布推出 Drives，作为 Sandbox 的配套外部磁盘，允许在不启动完整智能体计算机的情况下直接读写文件，例如运行每晚的记忆整合任务。他强调，将智能体拆分为独立部分不仅能大幅优化成本，还能显著提升安全性和可审计性，甚至认为不这样做就无法运行安全的智能体。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "所有成功的智能体都有三个关键组件：大脑（模型、逻辑框架）、手（工具、计算机、浏览器）和文件（记忆、技能、代码库）。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "简单做法",
+            "text": "简单的方法是把所有这些组件塞进一台有状态的计算机（比如 Mac Mini），你可以在上面运行 claude 或 fx，用 caffeinate 让它全天运行，它有存储，还安装了 CLI 和应用程序。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "云架构拆解",
+            "text": "如果你想在云端经济高效地运行智能体，就需要开始拆解这些部分：大脑的框架可以在 Fluid compute 中运行，通过 Workflow 使事件日志持久化，以应对重启、发布和崩溃；手可以是专用浏览器集群（如 Browserbase/Kernel）、沙箱计算机或更轻量的工具（如 just-bash）。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "新产品发布",
+            "text": "今天推出 Sandbox 的完美伴侣：Drives。我们为智能体提供了计算机，现在给你可以随时挂载的“外部磁盘”。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "应用场景",
+            "text": "想象一下，你想每晚运行一个记忆整合的定时任务（“做梦”），你可以直接读写文件，而无需“启动”智能体的完整计算机。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "安全与审计",
+            "text": "将智能体拆分为独立部分不仅能大幅优化成本，还能显著提升安全性和可审计性。我认为不这样做就无法运行安全的智能体。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2102933485795369213:22967ffe651a1321": {
+      "itemId": "tweet:2102933485795369213",
+      "sourceHash": "22967ffe651a1321",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Ryo Lu：efficiency, productivity, speed we keep worshipping these words like they are...",
+      "url": "https://x.com/ryolu_/status/2102933485795369213",
+      "generatedAt": "2026-09-25T01:42:56.002Z",
+      "summary": {
+        "title": "效率、生产力、速度：我们为何在崇拜中迷失了思考",
+        "summary": "Ryo Lu 在这条推文中对当前 AI 行业盲目崇拜效率、生产力和速度的现象提出了尖锐批评。他指出，人们不断追求更快的交付、更多的合并、更多的代理管理，将每一小时都转化为产出，却失去了深度思考的时间。真正的思考不是反应、优化、总结或清空队列，而是与问题共处足够久，让真实意图浮现，找到运动之下的目的，并质疑被加速的事物是否应该存在。AI 本可以成为新的画布，帮助人们创造陌生、个人化、不可能的事物，如工具、世界、诗歌、游戏、界面、电影、语言和仪式，让更多人触及自己想象力的形状。但现实中，AI 却大量沦为内容工厂，制造更多内容、漏斗、工单和伪装成价值的虚假工作。即使能合并 2000 个 PR、管理 500 个代理、醒来看到机器整夜运转的仪表盘，如果每天只睡 5 小时、不再与人交谈、不再学习历史、不再玩耍、不再漫步、不再感到惊喜，这一切又有何意义？速度不是意义，规模不是智慧，自动化不是自由。真正的危险不是 AI 让我们懒惰，而是让我们无休止地忙碌，在找到意图之前就拥有无限生产，在发展品味之前就拥有无限执行，在学会静止之前就拥有无限运动。真正的边界不是更快的速度，而是辨别力：知道什么不该做，知道何时停止，知道最有生产力的事可能是睡觉、读历史、给朋友打电话、和猫玩耍、不带追踪地散步，或盯着天花板直到虚假的紧迫感消散。工具应该给我们更多生活，而不是把生活变成工具。如果 AI 要重要，它不应只帮我们生产更多，而应帮我们变得更像人、更有想象力、更自由。否则，它只是没有人类的旧工厂。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我们不断崇拜效率、生产力、速度这些词，仿佛它们就是我们活着的意义：更快交付、更多合并、管理更多代理、压缩每个循环、移除每个暂停、把每个小时都变成产出。但如果没有时间深度思考，无尽的生产又有何意义？",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "真正的思考不是反应、优化、总结或清空队列，而是与一个问题共处足够久，让你的真实意图开始浮现，找到运动之下的目的，质疑被加速的事物是否应该存在。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "AI 本可以成为新的画布，一种创造陌生、个人化、不可能之事物的方式——工具、世界、诗歌、游戏、界面、电影、语言、仪式——让更多人触及自己想象力的形状。但相反，它大量沦为内容工厂：更多内容、更多漏斗、更多工单、更多伪装成价值的虚假工作。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "你可以合并 2000 个 PR，管理 500 个代理，醒来看到仪表盘证明机器在你睡觉时仍在运转。但如果你每天只睡 5 小时，这有什么意义？如果你不再与其他人交谈、不再学习过去、不再玩耍、不再漫步、不再感到惊喜，这有什么意义？",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "金句",
+            "text": "速度不是意义，规模不是智慧，自动化不是自由——如果它只是让每个人都跑得更快。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "观点",
+            "text": "危险不是 AI 让我们懒惰，而是 AI 让我们无休止地忙碌：在找到意图之前就给予无限生产，在发展品味之前就给予无限执行，在学会静止之前就给予无限运动。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "金句",
+            "text": "也许真正的边界不是更快的速度，而是辨别力：知道什么不该做，知道何时停止，知道最有生产力的事可能是睡觉、读历史、给朋友打电话、和猫玩耍、不带追踪地散步，或盯着天花板直到虚假的紧迫感消散。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "金句",
+            "text": "工具应该给我们更多生活，而不是把生活变成工具。如果 AI 要重要，它不应只帮我们生产更多，而应帮我们变得更像人、更有想象力、更自由。否则，它只是没有人类的旧工厂。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2102650014552182920:f3b5fa38aec5183f": {
+      "itemId": "tweet:2102650014552182920",
+      "sourceHash": "f3b5fa38aec5183f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Swyx：can confirm. ran @latentspacepod AINews side by side with 6 Sol and the...",
+      "url": "https://x.com/swyx/status/2102650014552182920",
+      "generatedAt": "2026-09-25T01:43:03.118Z",
+      "summary": {
+        "title": "Swyx 实测：5.5 Opus 成为 AINews 新默认模型，对比 6 Sol 差异显著",
+        "summary": "Swyx 在推文中确认，他将 Latent Space 播客的 AINews 栏目分别用 6 Sol 和 5.5 Opus 运行，发现两者表现差异巨大。5.5 Opus 在报道的简洁性和品味上明显更优，且比 5 Opus 产生的“slop”（低质冗余内容）更少。因此，他决定将 5.5 Opus 作为 AINews 今后的默认模型。该推文附带了对比截图，展示了两个模型生成内容的差异，并引发了关于模型选择、AI 新闻生成质量以及“slop”定义的讨论。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Swyx 确认：将 AINews 用 6 Sol 和 5.5 Opus 并排运行，差异如同昼夜。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "决策",
+            "text": "5.5 Opus 成为 AINews 今后的默认模型。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "评价",
+            "text": "5.5 Opus 的报道更加简洁、有品味，且比 5 Opus 产生的“slop”少得多。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "证据",
+            "text": "推文附带了对比截图链接，展示两个模型生成内容的差异。",
+            "reference": "https://t.co/oloSDxf0q7 和 https://t.co/P6AXDlBKNP"
+          }
+        ],
+        "materials": [
+          {
+            "label": "对比截图",
+            "url": "https://t.co/oloSDxf0q7",
+            "note": "查看 6 Sol 与 5.5 Opus 生成 AINews 的并排对比，直观感受差异。"
+          },
+          {
+            "label": "AINews 示例",
+            "url": "https://t.co/P6AXDlBKNP",
+            "note": "查看 5.5 Opus 生成的 AINews 示例，了解其简洁有品味的风格。"
+          }
+        ]
       }
     }
   }
