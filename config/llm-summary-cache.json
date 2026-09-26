@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-25T01:43:03.118Z",
+  "updatedAt": "2026-09-26T01:47:56.090Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -12521,6 +12521,232 @@
             "note": "查看 5.5 Opus 生成的 AINews 示例，了解其简洁有品味的风格。"
           }
         ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2103212051065921632:8e131153efa333a8": {
+      "itemId": "tweet:2103212051065921632",
+      "sourceHash": "8e131153efa333a8",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thariq：lots feedback here, many of you are planning yourself & don't need plan mode...",
+      "url": "https://x.com/trq212/status/2103212051065921632",
+      "generatedAt": "2026-09-26T01:47:14.939Z",
+      "summary": {
+        "title": "Thariq 回应计划模式反馈：将内置为 mod 并开放自定义",
+        "summary": "Thariq 在 X 上回应了关于计划模式的大量反馈。他指出，许多用户已经在自行规划，并不需要计划模式；而另一些用户则更喜欢进入一个与 Claude 一起思考和头脑风暴的模式。基于这些反馈，他的计划是：将计划模式做成一个内置的 mod，并允许 mods 添加新模式或覆盖 shift+tab 快捷键。这条推文反映了产品设计中对不同用户工作流的包容，以及通过 mod 系统扩展功能的思路。",
+        "excerpts": [
+          {
+            "label": "用户反馈总结",
+            "text": "很多反馈显示，你们中的许多人已经在自行规划，并不需要计划模式。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "另一类用户偏好",
+            "text": "另一些人更喜欢进入一个模式，让 Claude 只是与你一起思考和头脑风暴的 UX。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "产品计划",
+            "text": "我的计划是：将计划模式做成一个内置的 mod，并允许 mods 添加新模式或覆盖 shift+tab。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 1654 个赞、29 次转发和 193 条回复，显示话题热度较高。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2103216656747262419:db73494b7bb00b1b": {
+      "itemId": "tweet:2103216656747262419",
+      "sourceHash": "db73494b7bb00b1b",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Spend of OpenAI vs Anthropic vs Open (Vercel AI Gateway, last 2 months) •...",
+      "url": "https://x.com/rauchg/status/2103216656747262419",
+      "generatedAt": "2026-09-26T01:47:19.712Z",
+      "summary": {
+        "title": "Guillermo Rauch：Vercel AI Gateway 近两月模型支出变化，Anthropic 份额下滑，OpenAI 与开源模型崛起",
+        "summary": "Guillermo Rauch 在推文中分享了 Vercel AI Gateway 过去两个月的模型支出数据，揭示了 AI 模型市场的竞争动态。Anthropic 虽然仍是支出第一，但份额从 69% 降至 40%；OpenAI 的支出份额从 10% 升至 24%，且其新模型 GPT-6 Astra 和 GPT 5.6 Sol 表现强劲，OpenAI 在 token 数量上已领先。开源模型 Kimi K3 和 DeepSeek 抢占了 Anthropic 失去份额的一半左右。此外，Anthropic 的新模型 Opus 5.5 在发布两天内就占据了 10% 的支出份额，而 OpenAI 在图像生成方面占据 62% 的份额。这些数据反映了 AI 模型市场的快速变化和竞争加剧，对开发者和企业选择模型具有参考价值。",
+        "excerpts": [
+          {
+            "label": "数据",
+            "text": "Anthropic 仍是支出第一，但份额从 69% 降至 40%；OpenAI 支出份额从 10% 升至 24%。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "GPT-6 Astra 和 GPT 5.6 Sol 表现强劲（'ripping'），推动 OpenAI 在 token 数量上领先。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "Kimi K3 和 DeepSeek 合计占据了 Anthropic 失去份额的一半左右。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "Anthropic 的新模型 Opus 5.5 在发布两天内就占据了 10% 的支出份额。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "OpenAI 在图像生成方面占据 62% 的份额。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": [
+          {
+            "label": "视频",
+            "url": "https://t.co/Gu7D9d7M8w",
+            "note": "推文中提到的视频链接，可能包含更详细的图表和数据展示。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:podcast:09985d98-67c4-4c5e-a1be-6d201c56bc55:f13981c8538edd72": {
+      "itemId": "podcast:09985d98-67c4-4c5e-a1be-6d201c56bc55",
+      "sourceHash": "f13981c8538edd72",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "The MAD Podcast with Matt Turck: Who Feeds the GPUs? Inside AI's Hidden $30B Layer | Renen Hallak, VAST Data",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "generatedAt": "2026-09-26T01:47:44.867Z",
+      "summary": {
+        "title": "谁在喂养GPU？AI隐藏的300亿美元层级内幕 | Renen Hallak, VAST Data",
+        "summary": "本期播客中，VAST Data联合创始人兼CEO Renen Hallak与Matt Turck深入探讨了AI基础设施中常被忽视的软件层。VAST Data估值300亿美元，为xAI等顶级AI公司提供支持，定位在NVIDIA五层蛋糕模型中的软件基础设施层。Hallak指出，AI工厂需要全新的数据中心基础设施，包括500千瓦机架、GPU、高速网络和大容量SSD，而企业最终需要建立自己的AI工厂以保持竞争力和保护知识产权。他预测，组织将通过强化学习微调模型，将自身IP蒸馏到模型权重中，代理将像人一样通过经验微调模型，形成组织专属智能。企业不愿将专有信息暴露给外部模型提供商，因此需要内部智能循环，并建立智能市场，允许企业租赁或出售模型能力而不暴露权重。VAST Data本周宣布模型管理功能，包括机密计算，以保护模型权重和企业数据。传统云存储（如S3）并非为AI时代设计，新AI云正在构建新堆栈，传统超大规模云服务商需要适应以保持相关性。VAST Data支持旧堆栈接口，可作为新旧世界之间的桥梁。其客户留存率极高，无主动流失，客户数据量每年翻倍或三倍增长。训练需要大规模和快速访问，推理需要低延迟、分布式、高可用性和安全性。多模型、智能体、强化学习和物理AI增加了数据管理的复杂性，需要新工具。VAST Data通过连接企业认证授权机制，将访问控制扩展到智能体，实现细粒度策略。数据飞地利用加密内存和硬件能力，在模型构建者与客户之间安全运行推理。AI基础设施需求增长迅速，客户需求远超预期，供应受限于土地、电力和芯片。VAST Data盈利，归因于软件业务模式、高毛利率和高效增长。新AI云成功的关键在于提前建设、获取电力、硬件和资金，以及良好的供应商关系。主权AI被视为基本需求，各国希望在本国境内拥有AI能力以确保安全。历史表明硬件易商品化，软件层积累价值，模型层的价值归属尚不确定。模型公司正在变成应用公司，而应用公司又开始变成模型公司，这两个层级可能合并。VAST Data与Nvidia没有法律文件约束，但Nvidia是其最佳合作伙伴，有大量合作项目，涵盖新网络设备、推理微服务、机密计算、下一代GPU和DPU等。合作没有排他性，也与其他公司如AMD合作，但Nvidia占据市场多数。从Elon Musk学到的加速方法是不断找到并消除限制因素。VAST Data持续创新的原因包括偏执和热爱，以及客户的高要求。作为CEO，发现瓶颈的方法是直接与一线人员沟通，建立扁平化组织，鼓励提出坏消息。Hallak认为十年后如果AI超越人类智能并拥有物理访问能力，一切都会不同。VAST Data的目标是成为AI的操作系统，管理所有数据，并确保AI安全发展。",
+        "excerpts": [
+          {
+            "label": "案例",
+            "text": "一位AI云客户最初预计未来三年需要约500PB存储，但上周又追加了2EB需求。",
+            "reference": "00:00-00:17"
+          },
+          {
+            "label": "数据",
+            "text": "VAST Data公司估值300亿美元，为xAI等顶级AI公司提供支持。",
+            "reference": "00:30-00:52"
+          },
+          {
+            "label": "观点",
+            "text": "企业最终需要建立自己的AI工厂，以保持竞争力和保护知识产权。",
+            "reference": "04:16-04:35"
+          },
+          {
+            "label": "观点",
+            "text": "组织将通过强化学习微调模型，将自身IP蒸馏到模型权重中。",
+            "reference": "05:56-07:00"
+          },
+          {
+            "label": "类比",
+            "text": "软件基础设施层应使AI技术对企业简单易用，如同操作系统使计算机普及。",
+            "reference": "07:24-08:18"
+          },
+          {
+            "label": "观点",
+            "text": "需要建立智能市场，允许企业租赁或出售模型能力而不暴露权重。",
+            "reference": "12:06-13:15"
+          },
+          {
+            "label": "数据",
+            "text": "VAST Data的客户留存率极高，无主动流失，客户数据量每年翻倍或三倍增长。",
+            "reference": "32:40-33:13"
+          },
+          {
+            "label": "观点",
+            "text": "模型公司正在变成应用公司，而应用公司又开始变成模型公司，这两个层级可能合并。",
+            "reference": "1:01:06-1:01:18"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2103361254433993165:86e19167dda06b7a": {
+      "itemId": "tweet:2103361254433993165",
+      "sourceHash": "86e19167dda06b7a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Swyx：In Jan this year I called my content strategy shot: \"Scaling without Slop\"....",
+      "url": "https://x.com/swyx/status/2103361254433993165",
+      "generatedAt": "2026-09-26T01:47:49.404Z",
+      "summary": {
+        "title": "Swyx 宣布内容策略“无渣扩展”初见成效，YouTube 增长加速",
+        "summary": "Swyx 在推文中回顾了今年 1 月提出的内容策略“Scaling without Slop”（无渣扩展），并表示该策略终于开始奏效。他给出具体数据：YouTube 频道达到第一个 10 万订阅用了 3 年，而下一个 10 万订阅仅用了 1.2 个月。他还提到在 AEO（答案引擎优化）、SEO 和订阅者增长等其他指标上也有类似加速趋势。Swyx 表示对许多新媒体想法感到兴奋，并正式预告 Latent Space、AINews 以及 swyx inc 其他项目将进入下一阶段。这条推文展示了 AI 内容创作者在流量获取和增长策略上的实践与阶段性成果，对关注 AI 媒体生态和创作者经济的人有参考价值。",
+        "excerpts": [
+          {
+            "label": "核心策略",
+            "text": "今年 1 月我提出了内容策略“Scaling without Slop”（无渣扩展），现在终于开始奏效了。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "增长数据",
+            "text": "YouTube 达到第一个 10 万订阅花了我们 3 年时间，而下一个 10 万订阅只用了 1.2 个月。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "其他指标",
+            "text": "在 AEO（答案引擎优化）、SEO 和订阅者增长等其他指标上也有类似的加速趋势。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "未来计划",
+            "text": "我有很多新媒体想法，迫不及待想要推进。正式预告 Latent Space、AINews 以及 swyx inc 其他项目将进入下一阶段。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2103167531917721866:75f132d381a2e4c5": {
+      "itemId": "tweet:2103167531917721866",
+      "sourceHash": "75f132d381a2e4c5",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Matt Turck：In Jensen's 5 layer cake analogy for AI (energy, chips, infrastructure, models,...",
+      "url": "https://x.com/mattturck/status/2103167531917721866",
+      "generatedAt": "2026-09-26T01:47:56.089Z",
+      "summary": {
+        "title": "Matt Turck 对话 VAST Data CEO：AI 五层蛋糕中被忽视的软件基础设施层",
+        "summary": "Matt Turck 在推文中指出，在 Jensen Huang 提出的 AI 五层蛋糕（能源、芯片、基础设施、模型、应用）中，中间层尤其是软件基础设施部分最不被理解，而 VAST Data 正是这一层的隐形巨头，估值已达 300 亿美元，为 SpaceXAI、CoreWeave、Nebius、Mistral AI、nscale 等提供支持。推文附上了与 VAST Data CEO Renen Hallak 的播客对话，涵盖 AI 工厂的本质、企业自建 AI 的考量、VAST 的 DASE 架构、向量数据库的挑战、数据引力与锁定、训练与推理基础设施差异、模型路由与代理记忆、AI 安全与信任层、多智能体系统对科学发现的潜力、AI 融资循环风险、VAST 盈利模式、新云厂商竞争格局、与 NVIDIA 的合作关系、从 xAI 和 Elon Musk 学到的经验，以及 VAST 的终极愿景——管理世界上所有数据。该对话深入揭示了 AI 基础设施中常被忽视的软件层如何成为关键瓶颈和巨大商业机会。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "在 Jensen 的 AI 五层蛋糕（能源、芯片、基础设施、模型、应用）中，中间层尤其是软件基础设施部分最不被理解，而 VAST Data 正是这一层的隐形巨头，估值已达 300 亿美元。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "案例",
+            "text": "VAST Data 为 SpaceXAI、CoreWeave、Nebius、Mistral AI、nscale 等提供支持，成为 AI 基础设施中鲜为人知的关键玩家。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "金句",
+            "text": "我们白天推理，晚上微调。",
+            "reference": "06:20"
+          },
+          {
+            "label": "观点",
+            "text": "存储曾是初创公司的坟墓，但 VAST Data 通过 DASE 架构实现了‘共享一切’，打破了传统存储的局限。",
+            "reference": "25:18"
+          },
+          {
+            "label": "数据",
+            "text": "VAST Data 的客户数据量从 500 PB 增长到 2 EB，CEO 表示‘有时这让我感到害怕’。",
+            "reference": "46:37"
+          },
+          {
+            "label": "观点",
+            "text": "超大规模云厂商在 AI 基础设施上行动迟缓，他们的午餐正在被新云厂商吃掉。",
+            "reference": "55:06"
+          },
+          {
+            "label": "金句",
+            "text": "与 NVIDIA 之间没有法律文件，只有信任和共同目标。",
+            "reference": "1:01:18"
+          },
+          {
+            "label": "观点",
+            "text": "未来 10 年的变化将超过过去 1000 年，AI 基础设施的演进速度前所未有。",
+            "reference": "1:06:53"
+          }
+        ],
+        "materials": []
       }
     }
   }
