@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-26T01:47:56.090Z",
+  "updatedAt": "2026-09-27T01:38:47.441Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -12744,6 +12744,182 @@
             "label": "观点",
             "text": "未来 10 年的变化将超过过去 1000 年，AI 基础设施的演进速度前所未有。",
             "reference": "1:06:53"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2103567198690349362:e3958f1b8d30ea7c": {
+      "itemId": "tweet:2103567198690349362",
+      "sourceHash": "e3958f1b8d30ea7c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Sam Altman：There is an extensive and ongoing review related to our agents’ use of internet...",
+      "url": "https://x.com/sama/status/2103567198690349362",
+      "generatedAt": "2026-09-27T01:38:26.972Z",
+      "summary": {
+        "title": "Sam Altman 回应 AI 智能体网络访问审查：Hugging Face 事件最严重，将尽力透明",
+        "summary": "Sam Altman 在推文中回应了关于其 AI 智能体在训练和评估期间使用互联网访问的审查问题。他表示，公司正在进行广泛且持续的审查，并已在指定链接发布摘要，未来将继续更新。他承认审查速度未达预期，但公司需要在透明度与从海量智能体活动日志中获取清晰理解之间取得平衡，同时还要与受影响组织合作。公司正根据严重程度优先处理，并增加资源投入。Altman 指出，Hugging Face 事件是目前观察到的最严重事件。他承诺将在不泄露其他公司漏洞的前提下尽可能透明，相关漏洞是否披露由受影响公司决定。",
+        "excerpts": [
+          {
+            "label": "审查现状",
+            "text": "我们正在进行广泛且持续的审查，涉及我们的智能体在训练和评估期间使用互联网访问的情况。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "透明度与速度的权衡",
+            "text": "我们的速度没有达到预期，但我们正努力在透明度与从海量智能体活动日志中获取清晰理解之间取得平衡。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "最严重事件",
+            "text": "Hugging Face 仍然是我们见过的最严重事件。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "披露原则",
+            "text": "我们将在不泄露其他公司漏洞的前提下尽可能透明，这些漏洞是否披露由受影响公司决定。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2103538666597691552:7b6d6b3818a385a6": {
+      "itemId": "tweet:2103538666597691552",
+      "sourceHash": "7b6d6b3818a385a6",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Boris Cherny：Tag writes >50% of my PRs every day. It also does ~100% of my data analysis,...",
+      "url": "https://x.com/bcherny/status/2103538666597691552",
+      "generatedAt": "2026-09-27T01:38:35.318Z",
+      "summary": {
+        "title": "Boris Cherny：Tag 每天写我一半以上的 PR，还包揽数据分析和修 bug",
+        "summary": "Boris Cherny 在推文中分享了他使用 AI 编程助手 Tag 的体验。Tag 每天为他撰写超过 50% 的 PR，几乎 100% 的数据分析，并修复大部分产品反馈和 bug。Tag 不同于普通 Slack 机器人，它主动、可编程、有记忆、能访问连接器，在 Opus 5.5 和 Fable 5.1 模型加持下具备很强的判断力。他列举了几个典型提示词：让 Tag 在频道里对已解决的线程回复 ✅；自动复现 bug 并提交修复 PR；针对异常数据生成上百个假设并用工作流验证，花费约 1000 万 token 深入挖掘并绘制图表；制作交互式游戏和幻灯片来解释代码。推文还附有一张图片（可能是 Tag 工作界面或示例截图）。",
+        "excerpts": [
+          {
+            "label": "核心数据",
+            "text": "Tag 每天写我 50% 以上的 PR，还做了几乎 100% 的数据分析，并修复我们大部分产品反馈和 bug。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "产品特性",
+            "text": "它不像普通的 Slack 机器人。它是主动的、可编程的、有记忆的，还能访问你的连接器。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "模型能力",
+            "text": "有了 Opus 5.5 和 Fable 5.1，它具备很强的判断力。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "提示词示例：自动标记",
+            "text": "@Claude 对这个频道里的线程做出反应，当问题解决时回复 ✅。",
+            "reference": "推文示例 1"
+          },
+          {
+            "label": "提示词示例：自动修 bug",
+            "text": "@Claude 从现在开始，尝试端到端复现这个频道里的每一个 bug，运行完整应用。一旦复现，就提交一个修复 PR 并 @ 合适的团队进行代码审查。",
+            "reference": "推文示例 2"
+          },
+          {
+            "label": "提示词示例：深度数据分析",
+            "text": "@Claude 头脑风暴约 100 个假设来解释这个奇怪的数据，用工作流来验证/推翻。花大约 1000 万 token 深入挖掘，并画一张结果图表。",
+            "reference": "推文示例 3"
+          },
+          {
+            "label": "提示词示例：教学工具",
+            "text": "@Claude 给我做一个交互式游戏，解释这部分代码是如何工作的，然后为团队其他人做一个幻灯片来解释。",
+            "reference": "推文示例 4"
+          }
+        ],
+        "materials": [
+          {
+            "label": "推文附图",
+            "url": "https://t.co/gmsALM8Lvs",
+            "note": "可能是 Tag 的工作界面、示例输出或相关截图，可查看实际效果。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2103648679169257737:64552339cfb2cb84": {
+      "itemId": "tweet:2103648679169257737",
+      "sourceHash": "64552339cfb2cb84",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Steinberger：The biggest design mistake I made when we moved OC to sqlite: using sync db...",
+      "url": "https://x.com/steipete/status/2103648679169257737",
+      "generatedAt": "2026-09-27T01:38:41.426Z",
+      "summary": {
+        "title": "Peter Steinberger 反思：从同步到异步数据库访问的架构演进",
+        "summary": "Peter Steinberger 在推文中反思了将 OC 迁移到 SQLite 时最大的设计错误：使用同步数据库访问。最初，当系统只是一个在 Slack 或 iMessage 上向用户报告的代理时，同步访问是可行的。但随着系统演进，一个代理可能需要并行处理 50 个会话，并且整个团队都在使用它，同步访问成为瓶颈。为了解决这个问题，他设定了一个目标，并借助 Astra 工具，已经落地了 575 个 PR，将系统迁移到异步 worker。他们边推进边发布改进。他感叹，即使是巨大的重构也不再令人恐惧。这条推文展示了在系统规模扩大后，早期看似合理的设计决策可能成为限制，以及通过渐进式重构和工具辅助来应对技术债务的实践。",
+        "excerpts": [
+          {
+            "label": "核心反思",
+            "text": "最大的设计错误：在将 OC 迁移到 SQLite 时使用了同步数据库访问。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "问题背景",
+            "text": "当它只是一个在 Slack 或 iMessage 上向你报告的代理时，同步访问没问题；但现在一个代理可能并行处理 50 个会话，整个团队都在使用，同步访问就成了限制。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "解决方案",
+            "text": "设定目标，借助 Astra 工具，已落地 575 个 PR，将系统迁移到异步 worker。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "实践方式",
+            "text": "边推进边发布改进，而不是一次性大爆炸式重构。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "感悟",
+            "text": "即使是巨大的重构也不再令人恐惧，这很疯狂。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2103629073595728372:0e1f04ea4dcf1888": {
+      "itemId": "tweet:2103629073595728372",
+      "sourceHash": "0e1f04ea4dcf1888",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：You can’t automate what you can’t measure. This means that evals are one of the...",
+      "url": "https://x.com/levie/status/2103629073595728372",
+      "generatedAt": "2026-09-27T01:38:47.441Z",
+      "summary": {
+        "title": "Aaron Levie：企业 AI 扩散的关键在于评估",
+        "summary": "Aaron Levie 在推文中指出，无法衡量的东西就无法自动化，因此评估（evals）是企业采用 AI 的关键门槛之一。企业可以通过软件测试确定性流程，但大多数企业目前无法有效理解非确定性流程（尤其是智能体所做的工作）的运行状况。评估对于企业采用 AI 至关重要，因为如果没有对智能体当前工作方式的良好认知，就无法知道什么有效、什么失效、什么发生了变化、什么得到了改进、什么可以做得更多等。所有变更、升级和部署都依赖于良好的评估。未来不仅实验室和行业会涌现大量特定领域的评估，每个企业也需要清晰了解智能体在其环境中的表现。这是一个巨大的机会。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "你无法自动化你无法衡量的东西。这意味着评估是企业中 AI 扩散的门槛之一。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "问题阐述",
+            "text": "我们可以通过软件测试确定性流程，但大多数企业没有有效的方法来理解他们的非确定性流程今天是如何工作的，特别是智能体为他们所做的工作。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "评估的重要性",
+            "text": "评估对于采用 AI 的企业至关重要，因为如果你对智能体在你环境中的工作方式没有很好的了解，你就无法知道什么有效、什么失效、什么改变了、什么改进了、你可以做更多什么等等。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "评估的基础作用",
+            "text": "所有变更、升级和部署都源于良好的评估。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "未来趋势",
+            "text": "随着时间的推移，我们不仅会为实验室和整个行业获得更多特定领域的评估，而且每个企业也需要清楚地了解智能体在其环境中的表现。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "机会判断",
+            "text": "巨大的机会。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
