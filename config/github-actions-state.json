@@ -10860,7 +10860,127 @@
       "title": "Aaron Levie：You can’t automate what you can’t measure. This means that evals are one of the...",
       "url": "https://x.com/levie/status/2103629073595728372",
       "sentAt": "2026-09-27T01:38:49.088Z"
+    },
+    "tweet:2103911959544610829": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Resets all propagated. That will be all. Have a fantastic weekend.",
+      "url": "https://x.com/thsottiaux/status/2103911959544610829",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "topic:Thibault Sottiaux：Resets all propagated. That will be all. Have a fantastic weekend.": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Resets all propagated. That will be all. Have a fantastic weekend.",
+      "url": "https://x.com/thsottiaux/status/2103911959544610829",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "tweet:2103951116648280266": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Hello world, Lisa Rauch 👧. What an amazing and beautiful world to be born in....",
+      "url": "https://x.com/rauchg/status/2103951116648280266",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "topic:Guillermo Rauch：Hello world, Lisa Rauch 👧. What an amazing and beautiful world to be born in....": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Hello world, Lisa Rauch 👧. What an amazing and beautiful world to be born in....",
+      "url": "https://x.com/rauchg/status/2103951116648280266",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "tweet:2103939888513274147": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Reject non-understanding. Slop grenades are not just code and PRs. We run a...",
+      "url": "https://x.com/rauchg/status/2103939888513274147",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "topic:Guillermo Rauch：Reject non-understanding. Slop grenades are not just code and PRs. We run a...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Reject non-understanding. Slop grenades are not just code and PRs. We run a...",
+      "url": "https://x.com/rauchg/status/2103939888513274147",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "tweet:2103897226154328502": {
+      "type": "tweet",
+      "title": "Thariq：Just about 1 year ago I posted one of the first posts about using Claude Code...",
+      "url": "https://x.com/trq212/status/2103897226154328502",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "topic:Thariq：Just about 1 year ago I posted one of the first posts about using Claude Code...": {
+      "type": "topic",
+      "title": "Thariq：Just about 1 year ago I posted one of the first posts about using Claude Code...",
+      "url": "https://x.com/trq212/status/2103897226154328502",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "tweet:2103883264054505493": {
+      "type": "tweet",
+      "title": "Peter Steinberger：Now I see why some people talk about AGI. This is so clever!...",
+      "url": "https://x.com/steipete/status/2103883264054505493",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "topic:Peter Steinberger：Now I see why some people talk about AGI. This is so clever!...": {
+      "type": "topic",
+      "title": "Peter Steinberger：Now I see why some people talk about AGI. This is so clever!...",
+      "url": "https://x.com/steipete/status/2103883264054505493",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "tweet:2103989902476259702": {
+      "type": "tweet",
+      "title": "Garry Tan：This is my favorite way to fix bugs now @capydotai with GStack /autoplan on a...",
+      "url": "https://x.com/garrytan/status/2103989902476259702",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "topic:Garry Tan：This is my favorite way to fix bugs now @capydotai with GStack /autoplan on a...": {
+      "type": "topic",
+      "title": "Garry Tan：This is my favorite way to fix bugs now @capydotai with GStack /autoplan on a...",
+      "url": "https://x.com/garrytan/status/2103989902476259702",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "tweet:2103932595956506885": {
+      "type": "tweet",
+      "title": "Garry Tan：Be chalant Don’t LARP https://t.co/IoqHpwiuEV",
+      "url": "https://x.com/garrytan/status/2103932595956506885",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "topic:Garry Tan：Be chalant Don’t LARP https://t.co/IoqHpwiuEV": {
+      "type": "topic",
+      "title": "Garry Tan：Be chalant Don’t LARP https://t.co/IoqHpwiuEV",
+      "url": "https://x.com/garrytan/status/2103932595956506885",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "tweet:2104066667361992892": {
+      "type": "tweet",
+      "title": "Peter Yang：Not sure what happened to Claude limits they went from barely usable to...",
+      "url": "https://x.com/petergyang/status/2104066667361992892",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "topic:Peter Yang：Not sure what happened to Claude limits they went from barely usable to...": {
+      "type": "topic",
+      "title": "Peter Yang：Not sure what happened to Claude limits they went from barely usable to...",
+      "url": "https://x.com/petergyang/status/2104066667361992892",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "tweet:2104003094615052443": {
+      "type": "tweet",
+      "title": "Peter Yang：I am using @antigravity for the first time (to try Google's new audio APIs) and...",
+      "url": "https://x.com/petergyang/status/2104003094615052443",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "topic:Peter Yang：I am using @antigravity for the first time (to try Google's new audio APIs) and...": {
+      "type": "topic",
+      "title": "Peter Yang：I am using @antigravity for the first time (to try Google's new audio APIs) and...",
+      "url": "https://x.com/petergyang/status/2104003094615052443",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "tweet:2103850415930708437": {
+      "type": "tweet",
+      "title": "Dan Shipper：i wrote a novelization of Plato’s Protagoras then i had Opus 5.5 turn it into a...",
+      "url": "https://x.com/danshipper/status/2103850415930708437",
+      "sentAt": "2026-09-28T01:50:36.302Z"
+    },
+    "topic:Dan Shipper：i wrote a novelization of Plato’s Protagoras then i had Opus 5.5 turn it into a...": {
+      "type": "topic",
+      "title": "Dan Shipper：i wrote a novelization of Plato’s Protagoras then i had Opus 5.5 turn it into a...",
+      "url": "https://x.com/danshipper/status/2103850415930708437",
+      "sentAt": "2026-09-28T01:50:36.302Z"
     }
   },
-  "updatedAt": "2026-09-27T01:38:49.088Z"
+  "updatedAt": "2026-09-28T01:50:36.302Z"
 }

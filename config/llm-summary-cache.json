@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-27T01:38:47.441Z",
+  "updatedAt": "2026-09-28T01:50:34.122Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -12919,6 +12919,41 @@
           {
             "label": "机会判断",
             "text": "巨大的机会。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2103939888513274147:37f850b5ab4dbb4f": {
+      "itemId": "tweet:2103939888513274147",
+      "sourceHash": "37f850b5ab4dbb4f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Reject non-understanding. Slop grenades are not just code and PRs. We run a...",
+      "url": "https://x.com/rauchg/status/2103939888513274147",
+      "generatedAt": "2026-09-28T01:50:34.121Z",
+      "summary": {
+        "title": "拒绝不理解：警惕“AI 垃圾手榴弹”对阅读价值的侵蚀",
+        "summary": "Guillermo Rauch 在推文中警告，AI 生成的“垃圾手榴弹”不仅限于代码和 PR，更危险的是人们可能因被大量低质量、未经核实的 AI 文本轰炸而彻底贬低“阅读”本身的价值。他举例一个近期走红的帖子，声称某性能提升归功于编译器变更，但该 PR 描述中 AI 自己都指出提升并非来自编译器变更，而是算法和数据结构的改变，并暗示类似收益本可通过其他方式获得。Rauch 强调，他希望 AI 服务于理解宇宙、增强人类认知与创造力，而非助长不求甚解的风气。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "拒绝不理解。垃圾手榴弹不只是代码和 PR。我们面临一个真实风险：由于不断被低质量、未经核实的 AI 文本轰炸，人们会彻底贬低“阅读”本身的价值。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "有一个帖子正在走红，声称某性能提升归功于编译器变更。但该 PR 描述中，AI 自己告诉作者：提升并非来自编译器变更，而是算法和数据结构的改变。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "推论",
+            "text": "这意味着类似的性能收益本可以通过其他方式获得，而非必须依赖编译器变更。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "愿景",
+            "text": "我希望 AI 服务于理解宇宙、增强人类认知与创造力。",
             "reference": "推文结尾"
           }
         ],
