@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-28T01:50:34.122Z",
+  "updatedAt": "2026-09-29T02:39:02.787Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -12954,6 +12954,101 @@
           {
             "label": "愿景",
             "text": "我希望 AI 服务于理解宇宙、增强人类认知与创造力。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2104428800134013205:77eb0032dac76cfd": {
+      "itemId": "tweet:2104428800134013205",
+      "sourceHash": "77eb0032dac76cfd",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：I¹ ported my Mini web browser to Rust & Swift. It's faster, more secure, and...",
+      "url": "https://x.com/rauchg/status/2104428800134013205",
+      "generatedAt": "2026-09-29T02:38:54.651Z",
+      "summary": {
+        "title": "Guillermo Rauch 将迷你浏览器移植到 Rust 与 Swift：更快、更安全、更原生",
+        "summary": "Vercel CEO Guillermo Rauch 在 X 上宣布，他已将自己开发的迷你浏览器从 Electron + Bun 技术栈移植到 Rust 与 Swift。新版本速度更快、安全性更高，并且迭代体验出乎意料地好。他借助 cef crate 打包最新的 Chromium 内核，获得类似 Safari 的界面体验但保留 Chrome 的兼容性；通过 fx acp 嵌入智能代理，无需让应用臃肿，该代理通过 ACP 协议与本地 fx CLI 通信，再由 fx 通过 MCP 服务器管理浏览器。放弃 Electron 后，他实现了 Liquid Glass 视觉效果、更快的启动速度和更 Mac 原生的手感，尤其是精细的焦点和输入控制，在 JavaScript 中曾是噩梦，现在开箱即用。Rauch 认为原生是桌面和云端的未来，整个软件世界将比人们预想的更快“原生化”，这与 DHH 在 Rails World 上的暗示一致。他还提到 Vercel 对 Fluid 的投资将支持这一趋势，无论开发者选择 Rust、Go、Zig 还是 scriptc。该浏览器基于某平台构建，使用了 Opus 5.5 和 Sol 6 模型。在过程中他了解到 MCP 工具暴露的新方式，认为这将更安全、更直接。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "原生是未来，无论是在桌面端还是云端。我怀疑整个软件世界将比人们意识到的更快“原生化”，正如 DHH 在 Rails World 上暗示的那样。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "技术选型",
+            "text": "借助 cef crate，我可以打包最新的 Chromium。fx acp 让我能够嵌入一个代理而不会让应用臃肿。它通过 ACP 与我的本地 fx CLI 通信，然后 fx 可以通过 MCP 服务器管理浏览器。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "体验对比",
+            "text": "放弃 Electron 后，我获得了 Liquid Glass、更快的启动速度和更 Mac 原生的感觉。像精细的焦点和输入控制这样的小事，在 JS 中是噩梦，现在开箱即用。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "开发感受",
+            "text": "它更快、更安全，而且令人震惊的是，比 Electron + Bun 更容易迭代。我一直想要 Safari 那样的用户体验，但……Chrome 😁。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "生态支持",
+            "text": "很高兴 Vercel 对 Fluid 的投资将有助于支持这一趋势，无论你选择 Rust、Go、Zig 还是 scriptc……",
+            "reference": "推文原文"
+          },
+          {
+            "label": "构建工具",
+            "text": "基于 https://t.co/OL0LzGsXKY 构建，使用了 Opus 5.5 和 Sol 6。",
+            "reference": "推文脚注 1"
+          },
+          {
+            "label": "新发现",
+            "text": "在这个过程中我了解到了 https://t.co/sJoQWFreGF，现在我对此非常兴奋。这将允许一种更安全、更直接的方式来暴露 MCP 工具。",
+            "reference": "推文脚注 2"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2104350592290406849:95a22898e86ae609": {
+      "itemId": "tweet:2104350592290406849",
+      "sourceHash": "95a22898e86ae609",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Interesting to think about all the implications in a world where agents begin...",
+      "url": "https://x.com/levie/status/2104350592290406849",
+      "generatedAt": "2026-09-29T02:39:02.787Z",
+      "summary": {
+        "title": "Aaron Levie 谈智能体时代的经济影响：摩擦减少，竞争加剧，新市场解锁",
+        "summary": "Aaron Levie 在这条推文中思考了当智能体（agents）开始为用户做出最佳或最高效选择时，经济领域可能出现的各种影响。他认为，一方面，传统上依赖客户转换习惯时产生的摩擦而获益的部分经济领域将受到冲击，因为智能体会降低转换成本，导致竞争急剧加剧，直到颠覆性替代方案与现有企业之间达到某种平衡。另一方面，许多因摩擦而受阻的市场将受益，智能体通过大幅降低购买产品或服务的难度，解锁大量经济活动，例如医疗保健、旅行、本地服务、某些信息服务以及全新市场。Levie 强调，无论怎样，一个由不知疲倦地为用户及其目标工作的智能体所深度中介的未来，不可能与今天完全相同，并感叹这将是一个疯狂的时代。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "在一个智能体开始为用户做出最佳或最高效选择的世界里，思考所有影响是很有趣的。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "一方面，经济中有一部分受益于客户在改变习惯时传统上遇到的摩擦。在这些市场中，转换成本将下降，竞争将急剧加剧，直到颠覆性替代方案与现有企业之间达到某种平衡。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "另一方面，许多市场因大量摩擦而受损，智能体将通过使购买产品或服务变得容易得多，开始解锁各种经济活动，这些产品或服务以前摩擦太大。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "医疗保健、旅行、本地服务、某些信息服务以及其他全新市场可能是智能体的净受益者。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "无论如何，一个由不知疲倦地为我们及我们的目标工作的智能体所深度中介的未来，不可能与今天完全相同。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "金句",
+            "text": "将会很疯狂。",
             "reference": "推文结尾"
           }
         ],
