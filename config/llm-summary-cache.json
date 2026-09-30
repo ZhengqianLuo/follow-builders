@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-29T02:39:02.787Z",
+  "updatedAt": "2026-09-30T02:16:39.767Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -13053,6 +13053,172 @@
           }
         ],
         "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2104660926373023830:dbaf02458326c0b0": {
+      "itemId": "tweet:2104660926373023830",
+      "sourceHash": "dbaf02458326c0b0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thariq：A lot of times when I talk about higher level abstractions like projects,...",
+      "url": "https://x.com/trq212/status/2104660926373023830",
+      "generatedAt": "2026-09-30T02:16:19.588Z",
+      "summary": {
+        "title": "Thariq：用 Sonnet 5.5 构建工作流，别太担心 token 成本",
+        "summary": "Thariq 在这条推文中回应了关于使用高层抽象（如 projects、claude tag 和动态工作流）时常见的 token 成本担忧。他认为，随着 Sonnet 和 Opus 5.5 等模型的推出，这类智能已经变得非常易得，因此不应因成本而却步。他特别建议在构建工作流时尝试 Sonnet 5.5，暗示其性价比或能力足以支撑更复杂的抽象设计。推文获得了 1691 个赞、40 次转发和 127 条回复，显示该话题在 AI 开发者社区中引起了广泛共鸣。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "当谈到 projects、claude tag 和动态工作流等高层抽象时，我经常听到对 token 成本的担忧。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "有了 Sonnet 和 Opus 5.5，我认为这类智能应该非常易得。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "建议",
+            "text": "在构建工作流时，尤其要试试 Sonnet 5.5。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 1691 个赞、40 次转发和 127 条回复，显示话题热度。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2104823812042940713:ae7e995dc336f04c": {
+      "itemId": "tweet:2104823812042940713",
+      "sourceHash": "ae7e995dc336f04c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Hi, Tomorrow we are re-opening the Pro $200 subscriptions to new subscribers,...",
+      "url": "https://x.com/thsottiaux/status/2104823812042940713",
+      "generatedAt": "2026-09-30T02:16:29.458Z",
+      "summary": {
+        "title": "Thibault Sottiaux 宣布 Pro $200 订阅重新开放，并调整用量计算方式",
+        "summary": "Thibault Sottiaux 在 X 上宣布，将于次日重新开放 Pro $200 订阅给新用户，但同时会改变该订阅的用量计算方式。他坦言，如果算一下账，新的 Pro $200 计划相比旧的 Pro $200 计划，在 API 支出上实际会少一半。他解释这样做的原因：首先，他们不想在其他方面妥协，并承诺不会重新引入 5 小时限制，让用户可以自由使用每周用量；其次，他们保证订阅用户随着时间的推移总能完成更多工作，且质量不断提升，因为模型效率提高和 API 降价会让用户每花一美元获得更多价值；第三，他们不想给自己制造人为抬高 API 标价的动机，而是希望继续快速降价并提升模型能力，本周推出的 GPT-6 Sol 和 GPT-6 Luna 价格已降至之前的一半；第四，次日订阅中还会增加不消耗用量的新内容，但他暂不透露具体是什么。他希望在明天的大公告之前先透明地分享这一变化，让用户理解后再迎接好消息。",
+        "excerpts": [
+          {
+            "label": "核心变化",
+            "text": "明天我们将重新向新用户开放 Pro $200 订阅，但同时我们也在改变它的用量计算方式。实际上，如果你算一下，相比旧的 Pro $200 计划，它在 API 支出上会净减少一半。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "不重新引入 5 小时限制",
+            "text": "我们不想在其他方面妥协，并承诺不会重新引入 5 小时限制，这样你就可以在想用的时候充分使用每周的用量。",
+            "reference": "推文 (a) 点"
+          },
+          {
+            "label": "订阅价值随时间提升",
+            "text": "在订阅上，我们保证随着时间的推移，你总能完成更多工作，并且质量水平不断提高。这意味着由于模型变得更高效，以及我们以 API 降价的形式传递改进，你每花一美元将继续获得更多价值。",
+            "reference": "推文 (b) 点"
+          },
+          {
+            "label": "避免人为抬高 API 标价",
+            "text": "我们不想给自己制造人为抬高 API 标价的动机，让它看起来你得到了很多（并通过折扣等方式变通）。相反，我们希望继续快速降低价格并提升 API 上模型的能力。",
+            "reference": "推文 (c) 点"
+          },
+          {
+            "label": "本周模型降价",
+            "text": "本周我们推出了 GPT-6 Sol 和 GPT-6 Luna，价格是之前的一半。",
+            "reference": "推文 (c) 点"
+          },
+          {
+            "label": "订阅将增加不消耗用量的内容",
+            "text": "明天，我们会在订阅中增加更多不消耗用量的东西，我还不会透露那是什么。",
+            "reference": "推文 (d) 点"
+          },
+          {
+            "label": "提前透明沟通",
+            "text": "我想在明天所有重大公告之前保持透明。订阅中会有很多令人兴奋的新东西，让它超级有吸引力，但我想确保提前分享这一变化，这样你们都能在好消息轰炸之前理解它。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2104660502723072281:e38de91ce625ec1e": {
+      "itemId": "tweet:2104660502723072281",
+      "sourceHash": "e38de91ce625ec1e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：We migrated https://t.co/ftag8z6AlW with as little intervention as possible,...",
+      "url": "https://x.com/rauchg/status/2104660502723072281",
+      "generatedAt": "2026-09-30T02:16:34.189Z",
+      "summary": {
+        "title": "Guillermo Rauch：迁移到 Vercel 后构建提速约70%，绘制提速约75%",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中宣布，他们以尽可能少的人工干预完成了一次网站迁移，目的是证明 Vercel 的速度优势。迁移后构建速度提升约70%，绘制速度提升约75%。团队从迁移过程中提炼出两项 AI 技能，并计划回馈社区。该工作负载已相当成熟，且包含大量前任服务商的特定习惯，但整体工作仍在一周内完成。Rauch 最后总结：如果构建、渲染、交付都很快，那它就在 Vercel 上。",
+        "excerpts": [
+          {
+            "label": "数据",
+            "text": "迁移后构建速度提升约70%，绘制速度提升约75%。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "迁移的工作负载已相当成熟，且包含大量前任服务商的特定习惯，但整体工作仍在一周内完成。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "我们从迁移过程中提炼出两项 AI 技能，并会分享回社区。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "如果构建、渲染、交付都很快，那它就在 Vercel 上。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2104639552170377399:1c393847b199c1cc": {
+      "itemId": "tweet:2104639552170377399",
+      "sourceHash": "1c393847b199c1cc",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Cat Wu：Sonnet 5.5 is here! In Claude Code, users get ~30% more tasks done compared to...",
+      "url": "https://x.com/_catwu/status/2104639552170377399",
+      "generatedAt": "2026-09-30T02:16:39.767Z",
+      "summary": {
+        "title": "Cat Wu：Sonnet 5.5 发布，Claude Code 任务完成量提升约30%",
+        "summary": "Cat Wu 在 X 上宣布 Sonnet 5.5 已上线。在 Claude Code 中，用户完成的任务量相比 Sonnet 5 提升约 30%。新模型更智能，完成相同工作所需 token 更少。推文附带一个演示：用工具调用清理一院子的落叶，Sonnet 5.5 比 Sonnet 5 快 24 秒，且少用 6K token，省下的时间让她可以阅读。推文包含两个链接，可能指向演示视频或相关页面。",
+        "excerpts": [
+          {
+            "label": "数据",
+            "text": "在 Claude Code 中，用户完成的任务量相比 Sonnet 5 提升约 30%。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "它更智能，所以完成相同工作需要的 token 更少。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "这里它用工具调用清理一院子的落叶，比 Sonnet 5 快 24 秒，少用 6K token。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "类比",
+            "text": "省下的时间让她可以阅读 :)",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": [
+          {
+            "label": "演示视频/截图",
+            "url": "https://t.co/X5RHENqRjS",
+            "note": "可能展示 Sonnet 5.5 在 Claude Code 中用工具调用清理落叶的演示"
+          },
+          {
+            "label": "相关链接",
+            "url": "https://t.co/xlyQigZW57",
+            "note": "可能指向 Sonnet 5.5 的发布说明或更多信息"
+          }
+        ]
       }
     }
   }
