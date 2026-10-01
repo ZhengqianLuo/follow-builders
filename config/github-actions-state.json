@@ -11220,7 +11220,127 @@
       "title": "Cat Wu：Sonnet 5.5 is here! In Claude Code, users get ~30% more tasks done compared to...",
       "url": "https://x.com/_catwu/status/2104639552170377399",
       "sentAt": "2026-09-30T02:16:41.796Z"
+    },
+    "tweet:2104995014208258235": {
+      "type": "tweet",
+      "title": "Sam Altman：Dots are here! A new way to use AI that works 24/7 for you; get more of your...",
+      "url": "https://x.com/sama/status/2104995014208258235",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "topic:Sam Altman：Dots are here! A new way to use AI that works 24/7 for you; get more of your...": {
+      "type": "topic",
+      "title": "Sam Altman：Dots are here! A new way to use AI that works 24/7 for you; get more of your...",
+      "url": "https://x.com/sama/status/2104995014208258235",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "tweet:2104994601140711896": {
+      "type": "tweet",
+      "title": "Sam Altman：Ultrafast is so fast I do not ever want to go back",
+      "url": "https://x.com/sama/status/2104994601140711896",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "topic:Sam Altman：Ultrafast is so fast I do not ever want to go back": {
+      "type": "topic",
+      "title": "Sam Altman：Ultrafast is so fast I do not ever want to go back",
+      "url": "https://x.com/sama/status/2104994601140711896",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "tweet:2104994395980533804": {
+      "type": "tweet",
+      "title": "Sam Altman：6.1 Sol at 1/5th of the price of Astra, and 95% cache read discount! Extremely...",
+      "url": "https://x.com/sama/status/2104994395980533804",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "topic:Sam Altman：6.1 Sol at 1/5th of the price of Astra, and 95% cache read discount! Extremely...": {
+      "type": "topic",
+      "title": "Sam Altman：6.1 Sol at 1/5th of the price of Astra, and 95% cache read discount! Extremely...",
+      "url": "https://x.com/sama/status/2104994395980533804",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "tweet:2105105086506840421": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：We will have a few million dots online within days, working on all sorts of...",
+      "url": "https://x.com/thsottiaux/status/2105105086506840421",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "topic:Thibault Sottiaux：We will have a few million dots online within days, working on all sorts of...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：We will have a few million dots online within days, working on all sorts of...",
+      "url": "https://x.com/thsottiaux/status/2105105086506840421",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "tweet:2105065127892734076": {
+      "type": "tweet",
+      "title": "Thariq：have you tried telling Claude \"we have the power to do anything, please be...",
+      "url": "https://x.com/trq212/status/2105065127892734076",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "topic:Thariq：have you tried telling Claude \"we have the power to do anything, please be...": {
+      "type": "topic",
+      "title": "Thariq：have you tried telling Claude \"we have the power to do anything, please be...",
+      "url": "https://x.com/trq212/status/2105065127892734076",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "tweet:2105102820706058498": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：It was so nice to connect with so many of you in person at DevDay. Immaculate...",
+      "url": "https://x.com/thsottiaux/status/2105102820706058498",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "topic:Thibault Sottiaux：It was so nice to connect with so many of you in person at DevDay. Immaculate...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：It was so nice to connect with so many of you in person at DevDay. Immaculate...",
+      "url": "https://x.com/thsottiaux/status/2105102820706058498",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "tweet:2105178959327756396": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：What’s up dot",
+      "url": "https://x.com/thsottiaux/status/2105178959327756396",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "topic:Thibault Sottiaux：What’s up dot": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：What’s up dot",
+      "url": "https://x.com/thsottiaux/status/2105178959327756396",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "tweet:2105043144975011982": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：AI SDK has hit 30M weekly downloads. One-shotted this video in fframes +...",
+      "url": "https://x.com/rauchg/status/2105043144975011982",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "topic:Guillermo Rauch：AI SDK has hit 30M weekly downloads. One-shotted this video in fframes +...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：AI SDK has hit 30M weekly downloads. One-shotted this video in fframes +...",
+      "url": "https://x.com/rauchg/status/2105043144975011982",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "tweet:2105096296831017078": {
+      "type": "tweet",
+      "title": "Zara Zhang：I made a marketing website for my water bottle The whole thing was done by Opus...",
+      "url": "https://x.com/zarazhangrui/status/2105096296831017078",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "topic:Zara Zhang：I made a marketing website for my water bottle The whole thing was done by Opus...": {
+      "type": "topic",
+      "title": "Zara Zhang：I made a marketing website for my water bottle The whole thing was done by Opus...",
+      "url": "https://x.com/zarazhangrui/status/2105096296831017078",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "tweet:2105148927599423752": {
+      "type": "tweet",
+      "title": "Nikunj Kothari：Two random honest thoughts on the market right now.. First is on people: It's...",
+      "url": "https://x.com/nikunj/status/2105148927599423752",
+      "sentAt": "2026-10-01T02:17:18.203Z"
+    },
+    "topic:Nikunj Kothari：Two random honest thoughts on the market right now.. First is on people: It's...": {
+      "type": "topic",
+      "title": "Nikunj Kothari：Two random honest thoughts on the market right now.. First is on people: It's...",
+      "url": "https://x.com/nikunj/status/2105148927599423752",
+      "sentAt": "2026-10-01T02:17:18.203Z"
     }
   },
-  "updatedAt": "2026-09-30T02:16:41.796Z"
+  "updatedAt": "2026-10-01T02:17:18.203Z"
 }

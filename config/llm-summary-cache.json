@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-09-30T02:16:39.767Z",
+  "updatedAt": "2026-10-01T02:17:16.305Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -13219,6 +13219,157 @@
             "note": "可能指向 Sonnet 5.5 的发布说明或更多信息"
           }
         ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2105105086506840421:0e4e194c8758a76b": {
+      "itemId": "tweet:2105105086506840421",
+      "sourceHash": "0e4e194c8758a76b",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：We will have a few million dots online within days, working on all sorts of...",
+      "url": "https://x.com/thsottiaux/status/2105105086506840421",
+      "generatedAt": "2026-10-01T02:17:02.964Z",
+      "summary": {
+        "title": "Thibault Sottiaux：几天内将有数百万个 dot 上线，在庞大社区中处理各种任务",
+        "summary": "Thibault Sottiaux 在推文中宣布，他们的产品 dot 将在几天内拥有数百万个在线实例，这些 dot 将在一个多样化且庞大的社区中处理各种任务。他表达了对用户反馈的期待，希望了解用户喜欢什么以及哪些地方还不够神奇。他个人在使用 2-3 天后，通过教 dot 了解自己的偏好和想法，感受到了体验的跃升。dot 学习速度很快，能变得非常有用，并且能自主承担令人惊讶的宏大任务。团队正在从用户使用主 dot 的方式中学习，之后才会发布创建整个 dot 团队的能力。这条推文获得了 3634 个赞、95 次转发和 933 条回复，显示出社区的高度关注。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "几天内我们将有数百万个 dot 在线，在一个如此多样和庞大的社区中处理各种事情。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "期待从你们所有人那里学习你们喜欢什么，以及哪些地方还不觉得神奇。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "案例",
+            "text": "我个人在教它更多关于我的偏好和想法后，使用 2-3 天后感觉到了一个跃升。",
+            "reference": "推文第三句"
+          },
+          {
+            "label": "观点",
+            "text": "它学习得非常快，能变得最有用，并且可以自主承担令人惊讶的宏大任务。",
+            "reference": "推文第四句"
+          },
+          {
+            "label": "观点",
+            "text": "我们正在从你们如何使用你们的主 dot 中学习，之后才会发布创建整个 dot 团队的能力。",
+            "reference": "推文最后一句"
+          },
+          {
+            "label": "数据",
+            "text": "这条推文获得了 3634 个赞、95 次转发和 933 条回复。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2105043144975011982:7da3e0cbb8b94d12": {
+      "itemId": "tweet:2105043144975011982",
+      "sourceHash": "7da3e0cbb8b94d12",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：AI SDK has hit 30M weekly downloads. One-shotted this video in fframes +...",
+      "url": "https://x.com/rauchg/status/2105043144975011982",
+      "generatedAt": "2026-10-01T02:17:08.604Z",
+      "summary": {
+        "title": "AI SDK 周下载量突破 3000 万，作者用 Rust 和 GPU 渲染视频庆祝",
+        "summary": "Guillermo Rauch 宣布 AI SDK 的周下载量已达到 3000 万次。他使用 fframes、一个未具名的工具（链接指向 https://t.co/3Z4NESzNKd）以及 opus 一次性生成了一个视频。他要求 𝚏𝚡 查看 https://t.co/dnlawxpWR6 并突出显示 500 万、1000 万、2000 万和 3000 万的里程碑。该视频是用 Rust 编写并在 GPU 上渲染的。他感谢了 @neogoose_btw。",
+        "excerpts": [
+          {
+            "label": "数据",
+            "text": "AI SDK 周下载量达到 3000 万次。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "作者使用 fframes + 一个未具名工具 + opus 一次性生成了庆祝视频。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "作者要求 𝚏𝚡 查看特定链接并突出显示 500 万、1000 万、2000 万和 3000 万的里程碑。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "技术细节",
+            "text": "视频是用 Rust 编写并在 GPU 上渲染的。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "致谢",
+            "text": "作者感谢了 @neogoose_btw。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": [
+          {
+            "label": "视频",
+            "url": "https://t.co/dS4UpwzbbN",
+            "note": "庆祝 AI SDK 下载量里程碑的视频，展示了 500 万、1000 万、2000 万和 3000 万的里程碑。"
+          },
+          {
+            "label": "数据来源",
+            "url": "https://t.co/dnlawxpWR6",
+            "note": "作者要求 𝚏𝚡 查看的链接，可能包含下载量数据或图表。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2105148927599423752:56538820f80a1dd6": {
+      "itemId": "tweet:2105148927599423752",
+      "sourceHash": "56538820f80a1dd6",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：Two random honest thoughts on the market right now.. First is on people: It's...",
+      "url": "https://x.com/nikunj/status/2105148927599423752",
+      "generatedAt": "2026-10-01T02:17:16.305Z",
+      "summary": {
+        "title": "Nikunj Kothari：当前市场下，传教士难寻，护城河已非单一要素",
+        "summary": "Nikunj Kothari 在推文中分享了对当前市场的两点坦诚思考。第一点关于人：现在比以往更难找到“传教士”型创业者。他看到联合创始人离开自己创办的公司去加入“明显”的赢家；上市公司 CEO 离职加入实验室；创始人随时离开并重新加入新实验室；公司被“Windsurf 化”，只有被选中的人才能加入未来公司；创始人以分档估值融资，却不考虑后续员工因 409A 估值过高而无法早期行权。作为早期投资人，他们押注的是人，而当这些人随时离开，剩下的公司通常只剩空壳。现在似乎是雇佣兵的好时代，尽管仍有传教士存在，但每个人都感觉像雇佣兵。第二点关于防御性：关于护城河的讨论很多，但他想指出的是，在当前变化速度下，护城河不再是“单一”的东西。尤其在应用层，真正的护城河是无数件做好的小事，且很多是隐性的。竞争激烈，新进入者一夜之间出现，必须深入细节才能弄清一家公司为何不同，其产品、技术和 GTM 的综合优势是什么。但往往最终又回到“真正的防御性是创始人”，而创始人的防御性在于执行速度和适应市场的能力。这已成为每个创始人的新标准，因为已没有“蓝海”市场，即使有，稍有热度的公司也会一夜之间引来大量竞争者。尽管他自认为擅长发现有创始人市场契合度的人，但当前环境让他感到艰难，同时考验着他的所有先验认知和耐心。他知道并非所有人都是如此，但感觉每个人都只想捞一笔，而不在乎自己想建立的事业遗产。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "现在比以往更难找到传教士。我看到人们离开自己联合创办的公司，去加入那些“明显”的赢家。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "公司被 Windsurf 化，只有被选中的人才能加入未来公司。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "创始人以分档估值融资，却不考虑下一个加入的员工将面临 409A 估值过高，导致早期行权变得不可能。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "作为早期投资人，我们通常只是押注于人。当这些人随时离开，剩下的公司通常就变成了空壳。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "护城河不再是“单一”的东西。尤其在应用层，护城河是无数件做好的小事，而且很多是隐性的。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "观点",
+            "text": "真正的防御性最终又回到创始人身上，而创始人的防御性在于执行速度和适应市场的能力。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "观点",
+            "text": "已经没有蓝海市场了。即使有，任何稍有热度的公司都会在一夜之间引来大量竞争者。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "感受",
+            "text": "感觉每个人都只想捞一笔，而不在乎自己想建立的事业遗产。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
       }
     }
   }
