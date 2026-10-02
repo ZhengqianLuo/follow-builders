@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-01T02:17:16.305Z",
+  "updatedAt": "2026-10-02T02:26:16.641Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -13367,6 +13367,191 @@
             "label": "感受",
             "text": "感觉每个人都只想捞一笔，而不在乎自己想建立的事业遗产。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2105464274747527543:d2ed62342904f6f9": {
+      "itemId": "tweet:2105464274747527543",
+      "sourceHash": "d2ed62342904f6f9",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：GPT-6.1 Sol is our most demanded model pretty much ever both across both the...",
+      "url": "https://x.com/thsottiaux/status/2105464274747527543",
+      "generatedAt": "2026-10-02T02:25:57.976Z",
+      "summary": {
+        "title": "GPT-6.1 Sol 需求空前，OpenAI 扩容提速",
+        "summary": "OpenAI 的 Thibault Sottiaux 在 X 上表示，GPT-6.1 Sol 是公司有史以来需求最高的模型，无论是 API 还是订阅服务都面临巨大压力。在 ChatGPT 和 Codex 中，系统曾处于高负载状态，但团队已上线更多容量，预计未来几小时内速度将大幅改善，达到昨日服务速度的近两倍。这条动态反映了 GPT-6.1 Sol 发布后的市场热度，以及 OpenAI 在应对突发流量时的快速扩容能力。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "GPT-6.1 Sol 是 OpenAI 有史以来需求最高的模型，覆盖 API 和订阅服务。",
+            "reference": "https://x.com/thsottiaux/status/2105464274747527543"
+          },
+          {
+            "label": "现状描述",
+            "text": "ChatGPT 和 Codex 曾处于高负载状态，但已上线更多容量。",
+            "reference": "https://x.com/thsottiaux/status/2105464274747527543"
+          },
+          {
+            "label": "预期改善",
+            "text": "未来几小时内速度将大幅改善，达到昨日服务速度的近两倍。",
+            "reference": "https://x.com/thsottiaux/status/2105464274747527543"
+          },
+          {
+            "label": "数据佐证",
+            "text": "该推文获得 8735 个赞、358 次转发和 1025 条回复，显示极高关注度。",
+            "reference": "https://x.com/thsottiaux/status/2105464274747527543"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2105370680485417401:5e1f0a895127a96f": {
+      "itemId": "tweet:2105370680485417401",
+      "sourceHash": "5e1f0a895127a96f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：Claude Founder House is coming to SF Tech Week (Oct 6–8) and Stockholm (Oct...",
+      "url": "https://x.com/claudeai/status/2105370680485417401",
+      "generatedAt": "2026-10-02T02:26:01.459Z",
+      "summary": {
+        "title": "Claude 创始人聚会即将登陆旧金山科技周与斯德哥尔摩",
+        "summary": "Claude 官方宣布将于 10 月 6 日至 8 日在旧金山科技周期间，以及 10 月 14 日在斯德哥尔摩举办 Founder House 活动。活动面向创始人、CEO 和开发者，内容包括与 Claude 团队的讲座、工作坊和办公时间，并提供与其他 Claude 开发者交流的机会。推文强调无论身份如何，都能找到适合自己的环节。该活动为 Claude 生态的构建者提供了直接接触官方团队和同行的线下机会，有助于加深对 Claude 平台的理解与合作。",
+        "excerpts": [
+          {
+            "label": "活动时间与地点",
+            "text": "Claude Founder House 将于 10 月 6 日至 8 日在旧金山科技周期间举办，并于 10 月 14 日在斯德哥尔摩举办。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "活动内容",
+            "text": "活动包括与 Claude 团队的讲座、工作坊和办公时间，以及与其他 Claude 开发者交流的时间。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "目标受众",
+            "text": "无论你是创始人、CEO 还是开发者，都能找到适合你的环节。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "活动链接",
+            "text": "推文附有活动详情链接：https://t.co/LiXccCEV7t",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2105354449795621179:11c12bddb04659e7": {
+      "itemId": "tweet:2105354449795621179",
+      "sourceHash": "11c12bddb04659e7",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：There's a huge opportunity right now in being the deployment layer for AI into...",
+      "url": "https://x.com/levie/status/2105354449795621179",
+      "generatedAt": "2026-10-02T02:26:08.189Z",
+      "summary": {
+        "title": "Aaron Levie：AI 部署层正成为巨大机会，企业落地远比想象复杂",
+        "summary": "Box CEO Aaron Levie 在推文中指出，当前将 AI 部署到经济活动中存在巨大机会，但企业工作流改造的复杂度远超预期。AI 应用层将以软件和智能体的形式出现，同时催生新的服务公司机会。企业需要将遗留系统迁移到云端、更新数据组织与访问、以新方式连接软件与智能体、为智能体重构工作流、设计人机协同（HITL）、生成并维护评估（evals），并随新模型发布持续更新整个系统。Levie 强调，AI 部署不同于传统软件部署：传统软件实施后客户自行运行，而 AI 智能体交付的是实际工作增强，涉及完全不同的实施与赋能流程。这将催生大量新型公司，并按行业、公司规模和内部问题分化。传统系统集成商（SI）将现代化转型，新进入者也会涌现。现在是成为 FDE（前端部署工程师）或 FDE 公司的绝佳时机。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "当前成为 AI 进入经济的部署层存在巨大机会。企业更换工作流所需的工作量往往远超任何人意识到的或期望的程度。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "应用层形态",
+            "text": "显然，AI 的应用层将以软件和智能体的形式呈现，但同时也开辟了新的服务公司机会。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "部署任务清单",
+            "text": "遗留系统需要迁移到云端，数据组织和访问需要更新，软件需要以新方式连接到智能体，工作流需要为智能体重构，人机协同（HITL）需要为流程设计，评估需要生成和维护，整个系统需要随着新模型发布和新能力出现而持续更新。完整清单可能更长。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "AI 部署与软件部署的本质区别",
+            "text": "AI 不同于单纯的软件部署。软件通常是对现有、理解透彻的技术类别进行实施，然后退后一步，客户继续运行。而 AI 智能体交付的是对组织的实际工作增强，这带来完全不同的复杂性。你不再部署公司仅仅被赋能的工具，而是在流程中部署工作产出。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "市场分化与机会",
+            "text": "这将催生大量新型公司，并为现有公司提供将 AI 扩散到组织中的新玩法。我们将看到按行业、公司规模和公司内部问题划分的不同方法。传统系统集成商将现代化和适应（有些显然适应得不好），新进入者也会在这一窗口期创立。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "职业建议",
+            "text": "现在是成为 FDE（前端部署工程师）或 FDE 公司的绝佳时机。",
+            "reference": "推文最后一句"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2105390544096841942:8db4d92bf6f34e26": {
+      "itemId": "tweet:2105390544096841942",
+      "sourceHash": "8db4d92bf6f34e26",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：If you run a service and want to get in front of 20M+ developers and the...",
+      "url": "https://x.com/rauchg/status/2105390544096841942",
+      "generatedAt": "2026-10-02T02:26:12.426Z",
+      "summary": {
+        "title": "Guillermo Rauch 推广 Connect：为开发者与智能体简化服务连接",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中推广其新产品 Connect，面向拥有服务的开发者。他指出，随着代码生成成本趋近于零，构建应用或智能体的真正挑战在于连接各种服务。Connect 旨在让开发者及其智能体更轻松、更安全地接入第三方服务。他批评当前构建智能体时普遍使用静态凭证（如 API 密钥）的做法，认为这既带来糟糕的开发者体验，也构成巨大的安全风险。Connect 通过更安全的连接机制解决了这一问题，适用于智能体和应用。推文获得了 441 个赞、20 次转发和 51 条回复，显示出一定的社区关注度。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "随着代码现在变得‘免费’，构建的最终挑战是连接各种东西。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "Connect 对智能体和应用来说都更简单、更安全。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "构建智能体的世界充斥着静态凭证。你应该给你构建的每个智能体或应用一堆密钥。这是开发者体验的地狱，但也是一个巨大的责任。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "推文互动数据：441 个赞，20 次转发，51 条回复。",
+            "reference": "推文互动统计"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2105352889665564838:c7240f596d342518": {
+      "itemId": "tweet:2105352889665564838",
+      "sourceHash": "c7240f596d342518",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Google Labs：💠 Opal shines on in Skills! 💠 When we launched Opal in Google Labs, it was an...",
+      "url": "https://x.com/GoogleLabs/status/2105352889665564838",
+      "generatedAt": "2026-10-02T02:26:16.641Z",
+      "summary": {
+        "title": "Google Labs 宣布 Opal 实验将于 2026 年 11 月 17 日关闭，其成果已融入 Gemini 的 Skills 功能",
+        "summary": "Google Labs 在 X 上宣布，其 Opal 实验将于 2026 年 11 月 17 日关闭。Opal 最初是 Google Labs 推出的一个实验项目，旨在探索用户如何自定义工作流程。用户的创造力启发了 Gems by Labs 的诞生，并最终支持了 Gemini App 中 Skills 功能的全球发布。Skills 是一种更快的方式，可以在聊天中自动化重复任务并保存自定义指令，它建立在从 Opal 中获得的经验之上。Google Labs 对用户表示感谢，并强调 Opal 的精神将在用户未来构建的每一个 Skill 中延续。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Opal 最初是一个实验，旨在了解用户如何自定义工作流程，用户的创造力启发了 Gems by Labs，并支持了 Gemini App 中 Skills 的全球发布。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "Skills 是一种更快的方式，可以在聊天中自动化重复任务并保存自定义指令，它建立在从 Opal 中获得的经验之上。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "Opal 实验将于 2026 年 11 月 17 日关闭，无论用户是在 https://t.co/YOHh8P89yg 上构建迷你应用，还是在 Gemini 中尝试 Gems，都感谢他们塑造了可定制 AI 的未来。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "类比",
+            "text": "Opal 的精神将在用户未来构建的每一个 Skill 中延续。",
+            "reference": "推文原文"
           }
         ],
         "materials": []
