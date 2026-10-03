@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-02T02:26:16.641Z",
+  "updatedAt": "2026-10-03T02:12:27.901Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -13552,6 +13552,126 @@
             "label": "类比",
             "text": "Opal 的精神将在用户未来构建的每一个 Skill 中延续。",
             "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2105819303471976479:c5e25214e089a7e8": {
+      "itemId": "tweet:2105819303471976479",
+      "sourceHash": "c5e25214e089a7e8",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Andrej Karpathy：We'll be spending a lot more time trying to understand the outputs of language...",
+      "url": "https://x.com/karpathy/status/2105819303471976479",
+      "generatedAt": "2026-10-03T02:12:19.633Z",
+      "summary": {
+        "title": "Andrej Karpathy：理解语言模型输出的新方式",
+        "summary": "Andrej Karpathy 在推文中提出，随着语言模型能力增强，我们将花费更多时间理解其输出。他分享了一系列提升可读性的技巧：使用 ASD-STE100 受控语言规范让写作更清晰；要求模型生成图表或图像以简化信息处理；输出 HTML 网页以获得交互式体验；以及最看好的是生成定制讲解视频，例如模仿 3Blue1Brown 风格并配合语音旁白。他认为，随着智能和代码日益丰富，我们可以要求生成大型、定制化、可丢弃的软件制品（如网页应用、视频讲解），这些在以前毫无意义，但现在能极大帮助监督和理解。他鼓励读者突破边界，尝试这些新输出格式。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我们将花费更多时间试图理解语言模型的输出。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "技巧",
+            "text": "让 LLM 用 ASD-STE100 受控语言解释事物，这种规范最初为航空航天维护文档开发，对写作风格有严格约束，通常更易读。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "技巧",
+            "text": "要求 LLM 创建图表或图像，比纯文字更容易处理、解析和理解。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "技巧",
+            "text": "要求输出 HTML 格式，可以得到美观、交互式的网页，LLM 在前端方面越来越擅长，能创造漂亮的体验和动画。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "观点",
+            "text": "我最看好的输出格式是完全定制/定制的讲解视频，可以针对任意主题生成，例如“创建一个 3b1b 风格的视频讲解 X，使用我的 ElevenLabs API 密钥进行语音旁白”。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "观点",
+            "text": "随着 LLM 变得更好，它们将自主完成越来越多的基础工作，我们的工作将更多地上升到抽象层面的监督和理解。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "观点",
+            "text": "由于智能和代码日益丰富，你可以要求生成大型、定制、可丢弃的软件制品（如网页应用、视频讲解），这在以前毫无意义，但现在能极大帮助监督和理解。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2105721630051692804:97328c4934775e7a": {
+      "itemId": "tweet:2105721630051692804",
+      "sourceHash": "97328c4934775e7a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：For two weeks, start a design, deck, or doc in the Claude app, and the work...",
+      "url": "https://x.com/claudeai/status/2105721630051692804",
+      "generatedAt": "2026-10-03T02:12:23.786Z",
+      "summary": {
+        "title": "Claude 推出限时优惠：应用内开启设计、演示文稿或文档，后续对话用量减半",
+        "summary": "Claude 官方账号宣布，从 2026 年 10 月 1 日起的两周内，用户在 Claude 应用中开启一个设计、演示文稿（deck）或文档（doc）项目，该对话后续的工作将享受 50% 的用量限制减免。官方推荐使用 Claude Sonnet 5.5 模型，称其具有出色的设计审美，生成的幻灯片几乎无需修改。推文附带的链接可能指向活动详情或示例。该优惠旨在鼓励用户尝试 Claude 在视觉和文档创作方面的能力，降低使用成本，吸引更多创作者和办公用户。",
+        "excerpts": [
+          {
+            "label": "优惠活动",
+            "text": "两周内，在 Claude 应用中开启一个设计、演示文稿或文档，该对话后续工作用量限制减少 50%。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "推荐模型",
+            "text": "官方推荐使用 Claude Sonnet 5.5，称其具有强大的设计眼光，生成的幻灯片几乎无需编辑。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "活动时间",
+            "text": "活动从推文发布时开始，持续两周（2026 年 10 月 1 日起）。",
+            "reference": "推文发布时间"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 6667 个赞、339 次转发和 217 条回复，显示较高关注度。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2105756563302723721:15f05cb1f213f30b": {
+      "itemId": "tweet:2105756563302723721",
+      "sourceHash": "15f05cb1f213f30b",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Boris Cherny：Mods are absolutely insane. You can now customize Claude to work and look the...",
+      "url": "https://x.com/bcherny/status/2105756563302723721",
+      "generatedAt": "2026-10-03T02:12:27.900Z",
+      "summary": {
+        "title": "Boris Cherny：Mods 太疯狂了，现在只需提示就能自定义 Claude 的工作方式和外观",
+        "summary": "Boris Cherny 在推文中兴奋地表示，Claude 的 Mods 功能令人震惊。用户现在只需通过提示（prompting）就能自定义 Claude 的工作方式和外观，使其符合个人偏好。他强调每个人的工作方式不同，因此没有必要让所有人都拥有完全相同的 Claude 体验。用户可以将 Claude 变成自己的专属工具，并且可以将 Mods 作为插件分享，让其他人也能尝试。这条推文展示了 Claude 在个性化和可扩展性方面的重大进步，暗示了 AI 助手从通用工具向个人化平台转变的趋势。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "Mods 绝对疯狂。你现在只需通过提示就能自定义 Claude 的工作方式和外观，使其符合你的需求。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "个性化理念",
+            "text": "每个人的工作方式不同，所以没有理由每个人都拥有完全相同的 Claude 体验。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "行动号召",
+            "text": "让 Claude 成为你自己的，并将 Mods 作为插件分享，这样其他人也可以尝试你的 Mods。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 3542 个赞、152 次转发和 241 条回复，显示社区对 Mods 功能的高度关注。",
+            "reference": "推文元数据"
           }
         ],
         "materials": []

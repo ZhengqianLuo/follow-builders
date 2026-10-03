@@ -11460,7 +11460,127 @@
       "title": "Peter Yang：Google cooked on Gemini 4! Now they just need to be more competitive on coding...",
       "url": "https://x.com/petergyang/status/2105393240392585359",
       "sentAt": "2026-10-02T02:26:19.119Z"
+    },
+    "tweet:2105819303471976479": {
+      "type": "tweet",
+      "title": "Andrej Karpathy：We'll be spending a lot more time trying to understand the outputs of language...",
+      "url": "https://x.com/karpathy/status/2105819303471976479",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "topic:Andrej Karpathy：We'll be spending a lot more time trying to understand the outputs of language...": {
+      "type": "topic",
+      "title": "Andrej Karpathy：We'll be spending a lot more time trying to understand the outputs of language...",
+      "url": "https://x.com/karpathy/status/2105819303471976479",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "tweet:2105843926221660585": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies...",
+      "url": "https://x.com/thsottiaux/status/2105843926221660585",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "topic:Thibault Sottiaux：Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Global reset landing tomorrow 10am PST for all paid ChatGPT accounts. Apologies...",
+      "url": "https://x.com/thsottiaux/status/2105843926221660585",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "tweet:2105688354834756036": {
+      "type": "tweet",
+      "title": "Sam Altman：Also, 6.1 Sol was our fastest-growing model ever, and was a bit slow under...",
+      "url": "https://x.com/sama/status/2105688354834756036",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "topic:Sam Altman：Also, 6.1 Sol was our fastest-growing model ever, and was a bit slow under...": {
+      "type": "topic",
+      "title": "Sam Altman：Also, 6.1 Sol was our fastest-growing model ever, and was a bit slow under...",
+      "url": "https://x.com/sama/status/2105688354834756036",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "tweet:2105721630051692804": {
+      "type": "tweet",
+      "title": "Claude：For two weeks, start a design, deck, or doc in the Claude app, and the work...",
+      "url": "https://x.com/claudeai/status/2105721630051692804",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "topic:Claude：For two weeks, start a design, deck, or doc in the Claude app, and the work...": {
+      "type": "topic",
+      "title": "Claude：For two weeks, start a design, deck, or doc in the Claude app, and the work...",
+      "url": "https://x.com/claudeai/status/2105721630051692804",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "tweet:2105739098640298253": {
+      "type": "tweet",
+      "title": "Sam Altman：You should be able to use your AI subscription wherever you need:...",
+      "url": "https://x.com/sama/status/2105739098640298253",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "topic:Sam Altman：You should be able to use your AI subscription wherever you need:...": {
+      "type": "topic",
+      "title": "Sam Altman：You should be able to use your AI subscription wherever you need:...",
+      "url": "https://x.com/sama/status/2105739098640298253",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "tweet:2105756563302723721": {
+      "type": "tweet",
+      "title": "Boris Cherny：Mods are absolutely insane. You can now customize Claude to work and look the...",
+      "url": "https://x.com/bcherny/status/2105756563302723721",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "topic:Boris Cherny：Mods are absolutely insane. You can now customize Claude to work and look the...": {
+      "type": "topic",
+      "title": "Boris Cherny：Mods are absolutely insane. You can now customize Claude to work and look the...",
+      "url": "https://x.com/bcherny/status/2105756563302723721",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "tweet:2105723481413550427": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：The future is verification-engineering. Proofs, (e2e) tests, benchmarks,...",
+      "url": "https://x.com/rauchg/status/2105723481413550427",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "topic:Guillermo Rauch：The future is verification-engineering. Proofs, (e2e) tests, benchmarks,...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：The future is verification-engineering. Proofs, (e2e) tests, benchmarks,...",
+      "url": "https://x.com/rauchg/status/2105723481413550427",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "tweet:2105704619704029435": {
+      "type": "tweet",
+      "title": "Nan Yu：There is only One True SaaS Layout. You may not like it, but this is what peak...",
+      "url": "https://x.com/thenanyu/status/2105704619704029435",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "topic:Nan Yu：There is only One True SaaS Layout. You may not like it, but this is what peak...": {
+      "type": "topic",
+      "title": "Nan Yu：There is only One True SaaS Layout. You may not like it, but this is what peak...",
+      "url": "https://x.com/thenanyu/status/2105704619704029435",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "tweet:2105778011635400949": {
+      "type": "tweet",
+      "title": "Peter Steinberger：\"Today, we’re releasing two Cloudflare-trained decision models, Clef and...",
+      "url": "https://x.com/steipete/status/2105778011635400949",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "topic:Peter Steinberger：\"Today, we’re releasing two Cloudflare-trained decision models, Clef and...": {
+      "type": "topic",
+      "title": "Peter Steinberger：\"Today, we’re releasing two Cloudflare-trained decision models, Clef and...",
+      "url": "https://x.com/steipete/status/2105778011635400949",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "tweet:2105862010521219406": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：You can ask your dot to \"create a pet and set it as your avatar\". It can be...",
+      "url": "https://x.com/thsottiaux/status/2105862010521219406",
+      "sentAt": "2026-10-03T02:12:29.634Z"
+    },
+    "topic:Thibault Sottiaux：You can ask your dot to \"create a pet and set it as your avatar\". It can be...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：You can ask your dot to \"create a pet and set it as your avatar\". It can be...",
+      "url": "https://x.com/thsottiaux/status/2105862010521219406",
+      "sentAt": "2026-10-03T02:12:29.634Z"
     }
   },
-  "updatedAt": "2026-10-02T02:26:19.119Z"
+  "updatedAt": "2026-10-03T02:12:29.634Z"
 }
