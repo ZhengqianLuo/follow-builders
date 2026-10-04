@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-03T02:12:27.901Z",
+  "updatedAt": "2026-10-04T02:48:20.018Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -13672,6 +13672,41 @@
             "label": "互动数据",
             "text": "该推文获得 3542 个赞、152 次转发和 241 条回复，显示社区对 Mods 功能的高度关注。",
             "reference": "推文元数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2106189841813934140:dd9100c9fdf2fe71": {
+      "itemId": "tweet:2106189841813934140",
+      "sourceHash": "dd9100c9fdf2fe71",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Sam Altman：The contrast between hanging up the last phone call of the day of high-stakes...",
+      "url": "https://x.com/sama/status/2106189841813934140",
+      "generatedAt": "2026-10-04T02:48:20.018Z",
+      "summary": {
+        "title": "Sam Altman：高压决策与童真之爱的反差，人生最奇异也最美好的体验",
+        "summary": "OpenAI CEO Sam Altman 在推文中分享了一种个人生活体验：白天结束一连串高风险决策电话后，一分钟后走进家门，迎接他的是孩子们纯粹的爱——他们想笑、想玩、想展示当天每一个新发现。他称这种从高压工作到家庭温暖的反差，是人生中经历过的最奇异也最美好的事情。这条推文展现了科技领袖在高压工作与家庭生活之间的情感切换，以及他对这种对比的珍视。推文获得超过1.2万点赞、319次转发和623条回复，引发许多人对工作与家庭平衡、情感反差体验的共鸣。",
+        "excerpts": [
+          {
+            "label": "金句",
+            "text": "挂掉一天中最后一个高风险决策电话，一分钟后走进家门，迎接你的是孩子们纯粹的爱——他们想笑、想玩、想展示当天每一个新发现。这种反差是我人生中经历过的最奇异也最美好的事情。",
+            "reference": "推文全文"
+          },
+          {
+            "label": "观点",
+            "text": "Sam Altman 将高压工作与家庭温暖之间的快速切换描述为一种独特的人生体验，强调其奇异与美好并存。",
+            "reference": "推文全文"
+          },
+          {
+            "label": "案例",
+            "text": "作为 OpenAI CEO，Sam Altman 日常涉及大量高风险决策，但他特别珍视回家后与孩子互动的纯粹时刻。",
+            "reference": "推文全文"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 12,438 次点赞、319 次转发和 623 条回复，显示其引发广泛共鸣。",
+            "reference": "互动数据"
           }
         ],
         "materials": []
