@@ -11820,7 +11820,127 @@
       "title": "Aaron Levie：AI agent adoption is still very bimodal right now. You have coding and coding...",
       "url": "https://x.com/levie/status/2106583814709633413",
       "sentAt": "2026-10-05T02:15:04.003Z"
+    },
+    "tweet:2106845241357824205": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Over the next 28 days, each day we’ll either ship one thing that is a clear...",
+      "url": "https://x.com/thsottiaux/status/2106845241357824205",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "topic:Thibault Sottiaux：Over the next 28 days, each day we’ll either ship one thing that is a clear...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Over the next 28 days, each day we’ll either ship one thing that is a clear...",
+      "url": "https://x.com/thsottiaux/status/2106845241357824205",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "tweet:2106863842450133114": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：DHH is fundamentally right about Rust. For context, Vercel has been undergoing...",
+      "url": "https://x.com/rauchg/status/2106863842450133114",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "topic:Guillermo Rauch：DHH is fundamentally right about Rust. For context, Vercel has been undergoing...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：DHH is fundamentally right about Rust. For context, Vercel has been undergoing...",
+      "url": "https://x.com/rauchg/status/2106863842450133114",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "tweet:2106848085267902815": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Working on a new little project. The 𝚁𝙴𝙰𝙳𝙼𝙴 is fully written by hand,...",
+      "url": "https://x.com/rauchg/status/2106848085267902815",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "topic:Guillermo Rauch：Working on a new little project. The 𝚁𝙴𝙰𝙳𝙼𝙴 is fully written by hand,...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Working on a new little project. The 𝚁𝙴𝙰𝙳𝙼𝙴 is fully written by hand,...",
+      "url": "https://x.com/rauchg/status/2106848085267902815",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "tweet:2106893015063421357": {
+      "type": "tweet",
+      "title": "Aaron Levie：We’re already starting to see what kind of new jobs AI is creating. AI requires...",
+      "url": "https://x.com/levie/status/2106893015063421357",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "topic:Aaron Levie：We’re already starting to see what kind of new jobs AI is creating. AI requires...": {
+      "type": "topic",
+      "title": "Aaron Levie：We’re already starting to see what kind of new jobs AI is creating. AI requires...",
+      "url": "https://x.com/levie/status/2106893015063421357",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "tweet:2106802940879192260": {
+      "type": "tweet",
+      "title": "Aaron Levie：This metric may tell us more about the business model of consumer AI than the...",
+      "url": "https://x.com/levie/status/2106802940879192260",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "topic:Aaron Levie：This metric may tell us more about the business model of consumer AI than the...": {
+      "type": "topic",
+      "title": "Aaron Levie：This metric may tell us more about the business model of consumer AI than the...",
+      "url": "https://x.com/levie/status/2106802940879192260",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "tweet:2106885457212825983": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：It’s hard to fathom https://t.co/OL0LzGtvAw getting even faster, but it’s now…...",
+      "url": "https://x.com/rauchg/status/2106885457212825983",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "topic:Guillermo Rauch：It’s hard to fathom https://t.co/OL0LzGtvAw getting even faster, but it’s now…...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：It’s hard to fathom https://t.co/OL0LzGtvAw getting even faster, but it’s now…...",
+      "url": "https://x.com/rauchg/status/2106885457212825983",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "tweet:2106892868564431255": {
+      "type": "tweet",
+      "title": "Dan Shipper：dot has become my primary interface to AI over the last few weeks. my dot's...",
+      "url": "https://x.com/danshipper/status/2106892868564431255",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "topic:Dan Shipper：dot has become my primary interface to AI over the last few weeks. my dot's...": {
+      "type": "topic",
+      "title": "Dan Shipper：dot has become my primary interface to AI over the last few weeks. my dot's...",
+      "url": "https://x.com/danshipper/status/2106892868564431255",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "tweet:2106926956554195018": {
+      "type": "tweet",
+      "title": "Peter Yang：I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess...",
+      "url": "https://x.com/petergyang/status/2106926956554195018",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "topic:Peter Yang：I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess...": {
+      "type": "topic",
+      "title": "Peter Yang：I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess...",
+      "url": "https://x.com/petergyang/status/2106926956554195018",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "tweet:2106897211766530299": {
+      "type": "tweet",
+      "title": "Peter Yang：I asked Sam, co-founder of @meetgranola, how he feels about people skipping his...",
+      "url": "https://x.com/petergyang/status/2106897211766530299",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "topic:Peter Yang：I asked Sam, co-founder of @meetgranola, how he feels about people skipping his...": {
+      "type": "topic",
+      "title": "Peter Yang：I asked Sam, co-founder of @meetgranola, how he feels about people skipping his...",
+      "url": "https://x.com/petergyang/status/2106897211766530299",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "podcast:e2eb4b88-b7c1-11f1-a5c5-4b2557d321bc": {
+      "type": "podcast",
+      "title": "No Priors: Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee",
+      "url": "https://www.youtube.com/watch?v=TCpRwJBQvW0",
+      "sentAt": "2026-10-06T03:13:03.988Z"
+    },
+    "topic:No Priors: Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee": {
+      "type": "topic",
+      "title": "No Priors: Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee",
+      "url": "https://www.youtube.com/watch?v=TCpRwJBQvW0",
+      "sentAt": "2026-10-06T03:13:03.988Z"
     }
   },
-  "updatedAt": "2026-10-05T02:15:04.003Z"
+  "updatedAt": "2026-10-06T03:13:03.988Z"
 }

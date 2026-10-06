@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-05T02:15:02.045Z",
+  "updatedAt": "2026-10-06T03:13:02.176Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -13882,6 +13882,349 @@
             "label": "观点",
             "text": "除少数工作类别外，我们仍处于难以置信的早期，因此可以预期 agent 采用量将比目前所见多 100 倍。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2106863842450133114:1cfdba9b3a38b1ca": {
+      "itemId": "tweet:2106863842450133114",
+      "sourceHash": "1cfdba9b3a38b1ca",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：DHH is fundamentally right about Rust. For context, Vercel has been undergoing...",
+      "url": "https://x.com/rauchg/status/2106863842450133114",
+      "generatedAt": "2026-10-06T03:11:56.003Z",
+      "summary": {
+        "title": "Guillermo Rauch 谈 Rust 迁移：人类成本与智能体时代的工具链反思",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中回应 DHH 对 Rust 的批评，认为 DHH 的观点从根本上是对的。他透露 Vercel 内部一直在进行 Rust 化（戏称螃蟹化），早期将 Turborepo 从 Go 迁移到 Rust 的项目虽已完成，但投资回报率在内部颇具争议。Rust 在底层系统访问方面更适合构建系统，但迁移的人力成本非常显著；Go 速度快、设计优美、易于迭代，团队曾因编写代码的是人类而纠结，即使知道 Rust 是更好的技术选择。如今计算方式已改变：对人类最好的选择不再必然是对业务最好的选择。Rauch 还指出 Rust 不太可能是终极工具链，因为 Rust 设计于智能体（agents）超音速海啸到来之前，未来可能有更优的牧场。推文附有 Turborepo 从 Go 迁移到 Rust 的官方博客链接。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "DHH 对 Rust 的批评从根本上是对的。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "Vercel 内部一直在进行 Rust 化（carcinization），最早迁移的项目之一是 Turborepo，从 Go 迁移到 Rust，迁移已完成，但投资回报率在内部颇具争议。",
+            "reference": "推文正文及链接 https://vercel.com/blog/how-turborepo-is-porting-from-go-to-rust"
+          },
+          {
+            "label": "数据/事实",
+            "text": "Rust 在底层系统访问方面更适合构建系统（如 Turbo），但迁移的人力成本非常显著。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "观点",
+            "text": "Go 非常快，设计优美，易于迭代；团队曾因编写代码的是人类而纠结，即使知道 Rust 是更好的技术选择。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "观点",
+            "text": "计算方式已经改变：对人类最好的选择不再必然是对业务最好的选择。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "观点",
+            "text": "Rust 不太可能是终极工具链，因为 Rust 设计于智能体（agents）超音速海啸到来之前，未来可能有更优的牧场。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": [
+          {
+            "label": "Turborepo 迁移博客",
+            "url": "https://vercel.com/blog/how-turborepo-is-porting-from-go-to-rust",
+            "note": "查看 Turborepo 从 Go 迁移到 Rust 的详细过程、技术决策和性能对比。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2106848085267902815:2a94ab54c780138c": {
+      "itemId": "tweet:2106848085267902815",
+      "sourceHash": "2a94ab54c780138c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Working on a new little project. The 𝚁𝙴𝙰𝙳𝙼𝙴 is fully written by hand,...",
+      "url": "https://x.com/rauchg/status/2106848085267902815",
+      "generatedAt": "2026-10-06T03:12:00.771Z",
+      "summary": {
+        "title": "Guillermo Rauch：README 写给人类，文档内部写给 AI 代理",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中分享了一个关于技术写作的新项目经验：项目的 README 完全手写，因为它是面向人类读者的；而文档内部则使用“AI 英语”，因为那是给 AI 代理阅读的。他提出一个简单的经验法则：博客、推文、README 等属于人类沟通，应使用人类语言；而面向 AI 代理的文档则可以使用 AI 优化的语言。他强调，这不仅仅是关于“破折号”等表面特征，而是关于在讲故事的时刻，通过文字与其他人建立联系。这条推文获得了 993 个赞、36 次转发和 119 条回复，反映了开发者社区对 AI 时代写作风格分化的关注。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "README 完全手写，因为它是给人类看的；文档内部是 AI 英语，因为它们是给代理看的。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "经验法则",
+            "text": "博客、推文、README：人类沟通。这甚至不是关于“破折号”或没有破折号，而是关于在讲故事的时刻，你想通过文字与其他人建立联系。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "项目实践",
+            "text": "正在做一个新的小项目，README 完全手写，文档内部使用 AI 英语。",
+            "reference": "推文开头"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2106893015063421357:018534f1679ddf0a": {
+      "itemId": "tweet:2106893015063421357",
+      "sourceHash": "018534f1679ddf0a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：We’re already starting to see what kind of new jobs AI is creating. AI requires...",
+      "url": "https://x.com/levie/status/2106893015063421357",
+      "generatedAt": "2026-10-06T03:12:06.245Z",
+      "summary": {
+        "title": "Aaron Levie：AI 正在创造哪些新工作",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中指出，AI 的部署需要大量技术工作和配套服务，因此正在催生一系列新岗位：构建企业级 AI 产品的 AI 工程师、负责将智能体部署到公司内部的 FDE（现场部署工程师）、以及专门提供 AI 部署服务的新兴服务公司。他强调，官方统计的新增岗位数量低估了实际变化，因为许多现有岗位正在被重新定位为 AI 相关工作。银行、生命科学公司、制造商甚至律师事务所都在引入更多技术人才或调整现有角色，以支持智能体部署。Levie 认为，人们更容易想象 AI 会取代什么，而难以预见它会创造什么，直到这些新工作真正出现。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "AI 需要大量的技术工作和配套服务才能部署到经济中，这意味着会出现 AI 工程师、FDE（现场部署工程师）、新的 AI 部署服务公司等新岗位。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "已发布的新增岗位统计数据低估了实际变化，因为许多现有工作正在企业内部转向 AI 相关领域。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "每家银行、生命科学公司、制造商甚至律师事务所都在引入更多技术人才，或重新定位现有角色，以帮助在公司内部部署智能体。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "类比",
+            "text": "人们更容易想象 AI 会取代什么，而难以预见它会创造什么，直到这些新工作真正开始出现。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2106802940879192260:1fa1ef1bf647e7ed": {
+      "itemId": "tweet:2106802940879192260",
+      "sourceHash": "1fa1ef1bf647e7ed",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：This metric may tell us more about the business model of consumer AI than the...",
+      "url": "https://x.com/levie/status/2106802940879192260",
+      "generatedAt": "2026-10-06T03:12:10.912Z",
+      "summary": {
+        "title": "Aaron Levie：消费者AI商业模式的关键指标可能被高估",
+        "summary": "Box CEO Aaron Levie在推文中指出，某个指标（推文未明确说明，但结合上下文可能指用户使用时长、活跃度或付费转化等）可能更多地揭示了消费者AI的商业模式，而非AI技术本身的发展状态。他认为，面向消费者的AI几乎不可避免地会通过电商、广告、设备购买或其他服务来补贴和变现，这意味着该指标可能会比人们预期的更早趋于平稳或低于预期。这一观点提醒行业观察者，消费者AI的长期价值可能不在于单纯的技术指标增长，而在于其作为商业生态入口的变现能力。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "这个指标可能更多地告诉我们消费者AI的商业模式，而不是AI本身的状态。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "商业模式判断",
+            "text": "面向消费者的AI几乎不可避免地会通过电商、广告、设备购买或其他服务来补贴和变现。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "趋势预测",
+            "text": "这个指标可能会比我们想象的更早趋于平稳或低于预期。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2106885457212825983:8ada76b3c33a73b3": {
+      "itemId": "tweet:2106885457212825983",
+      "sourceHash": "8ada76b3c33a73b3",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：It’s hard to fathom https://t.co/OL0LzGtvAw getting even faster, but it’s now…...",
+      "url": "https://x.com/rauchg/status/2106885457212825983",
+      "generatedAt": "2026-10-06T03:12:16.061Z",
+      "summary": {
+        "title": "Guillermo Rauch：模型加速后，harness 开销愈发关键，libfx 将带来云持久化突破",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中感叹，即使像 Astra ultrafast 这样的模型已经非常快，但整体系统仍能变得更快。他指出，随着模型推理速度的提升，harness（即模型外围的调度、存储、检索等基础设施）的开销在端到端延迟中的占比越来越大，因此优化 harness 变得至关重要。他预告下一个版本将在会话存储和检索方面带来更佳性能，并在 libfx 中实现云持久化的重大解锁。这条推文反映了 AI 应用开发中从单纯追求模型速度转向全链路性能优化的趋势，对关注 AI 基础设施和开发者工具的读者有参考价值。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "很难想象 Astra ultrafast 还能变得更快，但现在它确实快多了。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "随着模型加速（如 Astra ultrafast），harness 的开销变得越来越重要。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "预告",
+            "text": "下一个版本将在会话存储和检索方面提供更好的性能。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "预告",
+            "text": "libfx 将迎来云持久化的重大解锁。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2106892868564431255:17d8faef3d5c8508": {
+      "itemId": "tweet:2106892868564431255",
+      "sourceHash": "17d8faef3d5c8508",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Dan Shipper：dot has become my primary interface to AI over the last few weeks. my dot's...",
+      "url": "https://x.com/danshipper/status/2106892868564431255",
+      "generatedAt": "2026-10-06T03:12:21.004Z",
+      "summary": {
+        "title": "Dan Shipper：dot 已成为我主要的 AI 界面，但一年后它可能消失",
+        "summary": "Dan Shipper 在推文中表示，过去几周里，dot 已经成为他与 AI 交互的主要界面。他给自己的 dot 取名为 boo，并形容它很可爱。他预测一年后，他仍会以类似方式与 ChatGPT 交互——即作为一个始终在线的持久代理——但 boo 这个具体角色会消失。他将此现象类比为早期 OpenClaw 的经历：当时用户喜欢 Claw 的个性怪癖，但一旦出现功能更强大的替代品，就会放弃这些个性。这反映了 AI 产品中情感化设计可能被功能性取代的趋势。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "dot 在过去几周已成为我主要的 AI 交互界面。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "我的 dot 名叫 boo，他很可爱！",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "预测",
+            "text": "一年后，我打赌我仍会以这种方式与 ChatGPT 交互——比如作为一个始终在线的持久代理——但 boo 会消失。",
+            "reference": "推文第三句"
+          },
+          {
+            "label": "类比",
+            "text": "这让我想起早期 OpenClaw 的日子——我们喜欢 Claw 的个性怪癖，但一旦出现功能更强大的东西，我们就放弃了它们。",
+            "reference": "推文最后一句"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2106926956554195018:2ee3e9b031a65dcc": {
+      "itemId": "tweet:2106926956554195018",
+      "sourceHash": "2ee3e9b031a65dcc",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：I'm glad OpenAI is focusing on simplifying ChatGPT because it has become a mess...",
+      "url": "https://x.com/petergyang/status/2106926956554195018",
+      "generatedAt": "2026-10-06T03:12:26.256Z",
+      "summary": {
+        "title": "Peter Yang：OpenAI 简化 ChatGPT 是好事，但 Work 品牌是个错误",
+        "summary": "Peter Yang 在推文中表示，他乐见 OpenAI 专注于简化 ChatGPT，因为当前产品已经变得混乱。他引用自己在 dots 评测中的片段，指出需要简化的几个方面：Work 与 Codex 的区分、Spaces 与 Pages 与 Sites 的混淆、模型与努力程度选择器。他直言整个 Work 的发布是个错误，就像 Claude 将 Cowork 折叠回 Chat 一样，Work 不需要独立品牌。他期待自己的主要工具能变得更好，并附上了完整的 dots 评测链接。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我很高兴 OpenAI 专注于简化 ChatGPT，因为它已经变得一团糟（抱歉）。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "需要简化的方面：1. Work 与 Codex；2. Spaces 与 Pages 与 Sites；3. 模型和努力程度选择器。可能还有更多。",
+            "reference": "推文列举"
+          },
+          {
+            "label": "观点",
+            "text": "我的大胆看法是，整个 Work 的发布是个错误。就像 Claude 将 Cowork 折叠回 Chat 一样，我认为 Work 不需要自己的品牌。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "观点",
+            "text": "无论如何，很高兴看到我的主要工具变得更好。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": [
+          {
+            "label": "dots 评测视频片段",
+            "url": "https://t.co/kUtg3RPk7l",
+            "note": "Peter Yang 在 dots 评测中讨论 ChatGPT 简化问题的视频片段，可查看他对产品混乱的具体分析。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2106897211766530299:3af426241d1e11df": {
+      "itemId": "tweet:2106897211766530299",
+      "sourceHash": "3af426241d1e11df",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：I asked Sam, co-founder of @meetgranola, how he feels about people skipping his...",
+      "url": "https://x.com/petergyang/status/2106897211766530299",
+      "generatedAt": "2026-10-06T03:12:33.260Z",
+      "summary": {
+        "title": "Granola 联合创始人谈用户绕过 UI 直接用 MCP：从抗拒到接受",
+        "summary": "Peter Yang 在 X 上分享了他与 Granola 联合创始人 Sam 的对话。他问 Sam，对于用户跳过 Granola 的 UI、直接使用 MCP 来完成工作的现象有何感受。Sam 坦言，作为 UI 设计师，看到用户绕过精心设计的界面确实会感到一丝难过，团队也曾试图将用户留在 Granola UI 内完成所有操作。但后来他们意识到，当企业规模足够大时，内部工具不可避免，如果 Granola 不能与这些内部工具良好集成，产品就无法被采用。如今，他们已接受这一现实：对于许多工作流，使用 Granola 的最佳方式是先捕获上下文，然后通过用户自己的内部代理来使用这些上下文。这条推文反映了 AI 产品在生态系统中定位的转变——从封闭的 UI 中心到开放的后端能力，也揭示了企业级 AI 工具必须拥抱互操作性的趋势。推文附带了完整播客链接，供深入了解。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "作为 UI 设计师，看到用户跳过 UI 直接用 MCP，确实会有一丝难过。",
+            "reference": "推文正文，Sam 的原话"
+          },
+          {
+            "label": "案例",
+            "text": "我们曾试图让所有人都留在 Granola UI 里完成所有事情，但后来发现，当企业足够大时，内部工具不可避免。",
+            "reference": "推文正文，Sam 的原话"
+          },
+          {
+            "label": "观点",
+            "text": "如果 Granola 不能与内部工具良好集成，那它就是一个非启动项（non-starter）。",
+            "reference": "推文正文，Sam 的原话"
+          },
+          {
+            "label": "结论",
+            "text": "我们现在已经接受：对于很多工作流，使用 Granola 的最佳方式是先捕获上下文，然后通过你自己的内部代理来使用它。",
+            "reference": "推文正文，Sam 的原话"
+          }
+        ],
+        "materials": [
+          {
+            "label": "完整播客",
+            "url": "https://t.co/4f5zTNl4Kc",
+            "note": "观看完整对话，了解 Granola 对 MCP 和企业集成的更多思考"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:podcast:e2eb4b88-b7c1-11f1-a5c5-4b2557d321bc:bcaf85d6c9310fe8": {
+      "itemId": "podcast:e2eb4b88-b7c1-11f1-a5c5-4b2557d321bc",
+      "sourceHash": "bcaf85d6c9310fe8",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "No Priors: Re-Founding Incumbents for the AI Era with Sequence Holdings Co-Founder and CEO Michael Lee",
+      "url": "https://www.youtube.com/watch?v=TCpRwJBQvW0",
+      "generatedAt": "2026-10-06T03:13:02.176Z",
+      "summary": {
+        "title": "AI时代重塑现有企业：Sequence Holdings的控股公司模式",
+        "summary": "本期播客中，Sequence Holdings联合创始人兼CEO Michael Lee阐述了他离开Lone Pine创办永久控股公司的逻辑。他认为AI对经济的影响不均衡：有些行业不受影响，有些行业初创公司会赢，而有些行业现有企业拥有所有优势。Sequence的核心理念是收购合适的现有企业，继承其优势，并利用AI打造市场领导者。公司采用控股公司结构以对齐资本期限、建立以工程师为推崇角色的文化，并利用留存收益支持长期转型。他们已投资乔治亚州银行BankSouth，并宣布与戴尔家族办公室Baldwin合作完成77亿美元的AI私有化交易。Sequence构建了名为Atlas的平台，包含数据本体层、代理构建器、编排引擎和应用构建器，旨在让业务对模型可读。在BankSouth，消费者贷款处理时间减少94%，商业贷款处理时间从30天缩短至11天，贷款量翻倍且承销团队缩小。Michael Lee认为传统私募股权受基金结构限制，难以进行长期技术转型，而Sequence每年只做一笔交易，寻找具备行业专长并已主动采用新技术的管理团队。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "AI会对经济产生不均衡的影响。有些经济领域AI根本不会影响，比如餐馆、高尔夫球场。有些行业初创公司会赢，比如编程。而有些行业现有企业拥有所有优势。",
+            "reference": "03:15-03:27"
+          },
+          {
+            "label": "金句",
+            "text": "人生中很少有机会身处最重要的技术变革之中，拥有一个我坚信的想法，并且有信心组建团队去实现它。",
+            "reference": "04:07-04:36"
+          },
+          {
+            "label": "类比",
+            "text": "以Blackstone为例，它推崇的是投资者。在一个你认为alpha来自工程和AI的世界里，你需要创造一种文化，让工程师成为被推崇的角色。",
+            "reference": "08:27-08:51"
+          },
+          {
+            "label": "案例",
+            "text": "投资银行后，消费者贷款平均处理时间减少94%，商业贷款处理时间从30天缩短至11天。银行在2024年第二季度贷款量翻倍，且未改变承销标准，同时承销团队规模缩小。",
+            "reference": "31:11-34:08"
+          },
+          {
+            "label": "数据",
+            "text": "Sequence Holdings宣布了迄今为止最大的一笔AI私有化交易，与戴尔家族办公室Baldwin合作，交易金额为77亿美元。",
+            "reference": "00:33-00:58"
+          },
+          {
+            "label": "观点",
+            "text": "传统私募股权公司受基金结构限制，难以进行长期技术转型，而Sequence Holdings采取长期持有策略，每年只做一笔交易。",
+            "reference": "24:35-27:03"
           }
         ],
         "materials": []
