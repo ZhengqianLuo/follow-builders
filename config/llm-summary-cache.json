@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-06T03:13:02.176Z",
+  "updatedAt": "2026-10-07T02:34:45.239Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -14225,6 +14225,131 @@
             "label": "观点",
             "text": "传统私募股权公司受基金结构限制，难以进行长期技术转型，而Sequence Holdings采取长期持有策略，每年只做一笔交易。",
             "reference": "24:35-27:03"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2107119811444748555:15c3482e4b7d3493": {
+      "itemId": "tweet:2107119811444748555",
+      "sourceHash": "15c3482e4b7d3493",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Introducing gdp-ts: Ghosts of Departed Proofs for TypeScript. gdp-ts is a...",
+      "url": "https://x.com/rauchg/status/2107119811444748555",
+      "generatedAt": "2026-10-07T02:34:33.970Z",
+      "summary": {
+        "title": "Guillermo Rauch 推出 gdp-ts：用“已逝证明的幽灵”为 TypeScript 带来编译期安全约束",
+        "summary": "Vercel CEO Guillermo Rauch 在 X 上宣布推出 gdp-ts（Ghosts of Departed Proofs for TypeScript），这是一个库、linter 和 AI 技能，旨在通过“证明”机制实现更安全的 API 设计。其核心思想是：敏感函数要求调用方提供已执行授权检查的“证明”，类型检查器在编译期验证这些证明，从而防止团队和 AI 代理发布灾难性的安全漏洞。Rauch 指出，这类模式在 Haskell 等生态中早已存在，但过去因人工代码审查负担和认知/语法开销而局限于小众。如今情况反转：AI 代理编写的代码量已超出人类审查能力，而代理在带有硬约束的紧密循环中表现优异，正如 Rust 借用检查器的兴起所示。gdp-ts 的 README 和示例模拟了 Vercel API 的真实产品约束：修改项目密码需要提供特定角色和特定权利的证明。Rauch 感谢 Matt Noonan 和 Ollie Charles 在该领域的研究。该工具将类型系统从单纯的数据形状检查扩展到业务逻辑和安全策略的静态验证，为 TypeScript 生态引入了更强的正确性保障，尤其适合 AI 辅助开发场景。",
+        "excerpts": [
+          {
+            "label": "核心概念",
+            "text": "gdp-ts 是一个库、linter 和 AI 技能，用于更安全的 API 设计。在该契约下，敏感函数要求调用方提供已执行授权检查的“证明”，类型检查器在编译期验证这些证明，防止团队和代理发布灾难性的安全漏洞。",
+            "reference": "原文第一段"
+          },
+          {
+            "label": "历史背景",
+            "text": "这类模式已存在相当长时间，尤其在 Haskell 等生态中，但人工代码审查以及认知和语法开销使这些解决方案局限于小众。",
+            "reference": "原文第一段"
+          },
+          {
+            "label": "范式转变",
+            "text": "现在情况反转了。代理编写的代码比我们能审查的还多，而且它们在带有硬约束的紧密循环中表现出色，这些约束会让我们感到沮丧。我们看到了 Rust、借用检查器、代码美学争论等的兴起。",
+            "reference": "原文第一段"
+          },
+          {
+            "label": "真实案例",
+            "text": "README 和示例模拟了真实的 Vercel API 产品约束：修改项目密码需要提供特定角色和特定权利的证明。",
+            "reference": "原文第一段"
+          },
+          {
+            "label": "致谢",
+            "text": "感谢 Matt Noonan 和 Ollie Charles 在该领域的研究。",
+            "reference": "原文第一段"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2107246891977335049:275415769de5b378": {
+      "itemId": "tweet:2107246891977335049",
+      "sourceHash": "275415769de5b378",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Ryo Lu：remembering Steve i grew up with beige boxes. then i moved to Canada and saw...",
+      "url": "https://x.com/ryolu_/status/2107246891977335049",
+      "generatedAt": "2026-10-07T02:34:41.070Z",
+      "summary": {
+        "title": "Ryo Lu 追忆乔布斯：从米色 PC 到 iMac G4，设计如何改变人生",
+        "summary": "Ryo Lu 在乔布斯逝世周年之际，以个人成长经历追忆乔布斯对其人生的深远影响。他从小使用米色 PC，移居加拿大后初见 iMac G4，被其美感震撼，因买不起 Mac 而自学改造 PC 界面，由此踏入界面设计领域。他反复观看乔布斯发布会 DVD，学习产品中的用心与展示的喜悦。从 iPod nano 到 iPhone，他感受到无限可能。然而乔布斯去世后，他观察到行业陷入循环：不断微调、优化供应链、增加用户停留时间，却缺乏真正伟大而真诚的产品。发布会越来越电影化，但缺少现场演示的人情味。技术进步带来更快、更薄、更多摄像头、更智能的机器，却让人更孤独。他呼吁少花精力打败人类，多从人们的生活中学习并改善生活。他常自问“乔布斯会怎么做”，遗憾未能共事，但乔布斯的作品改变了他的人生轨迹。他引用“只有那些疯狂到以为自己能改变世界的人，才能真正改变世界”，并坚信仍有值得用心创造的事物，能带给他人如他初见 iMac 时的感动。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我从小用米色 PC，移居加拿大后看到 iMac G4，惊叹电脑怎能如此美丽。买不起 Mac，就把自己的 PC 改造成 Mac 的样子，由此进入界面设计。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "我烧录乔布斯发布会的 DVD，反复观看学习。产品中充满用心，展示产品时充满喜悦。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "乔布斯去世后，我们陷入循环：不断微调、优化供应链、增加用户停留时间，却缺少真正伟大而真诚的产品。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "观点",
+            "text": "发布会越来越电影化，但我仍怀念现场演示：台上的人玩着自己参与创造的东西，有兴奋、有玩笑、有意外，充满人情味。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "观点",
+            "text": "我们让电脑更快、手机更薄、摄像头更多、机器更智能，却变得更疏离和孤独。我们花太多精力试图打败人类，我希望花更多时间从人们的生活中学习并改善生活。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "金句",
+            "text": "“只有那些疯狂到以为自己能改变世界的人，才能真正改变世界。”",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2107283615247999257:eef05eb54527c35e": {
+      "itemId": "tweet:2107283615247999257",
+      "sourceHash": "eef05eb54527c35e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：A decent amount of agent adoption and deployment is bottlenecked by being able...",
+      "url": "https://x.com/levie/status/2107283615247999257",
+      "generatedAt": "2026-10-07T02:34:45.238Z",
+      "summary": {
+        "title": "Aaron Levie：智能体落地瓶颈在于真实工作环境中的测试与优化",
+        "summary": "Box CEO Aaron Levie 在推文中指出，当前智能体（agent）的采用和部署在很大程度上受限于能否在“真实”工作环境中对其进行测试、调优和优化。这些环境包括智能体需要访问的文件、CRM 系统、电子邮件等。他强调，如果不了解智能体在评估集上的执行表现，以及它们在模型变更或工作流升级后的未来表现，就无法真正掌握智能体的性能。目前每家企业都不得不逐一完成这些工作，过程缓慢且繁琐。Levie 预测，未来每家企业都将需要专门人员来管理评估、构建和运行评估的基础设施以及模拟环境等，这是一个巨大的市场空间。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "智能体的采用和部署在很大程度上受限于能否在“真实”工作环境中对其进行测试、调优和优化。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "具体瓶颈",
+            "text": "这些环境包括智能体需要访问的文件、CRM 环境、电子邮件等。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "关键论证",
+            "text": "如果不了解智能体在评估集上的执行表现，以及它们在模型变更或工作流升级后的未来表现，就无法真正掌握智能体的性能。",
+            "reference": "推文第三句"
+          },
+          {
+            "label": "现状痛点",
+            "text": "目前每家企业都不得不逐一完成这些工作，过程缓慢且繁琐。",
+            "reference": "推文第四句"
+          },
+          {
+            "label": "未来预测",
+            "text": "未来每家企业都将需要专门人员来管理评估、构建和运行评估的基础设施以及模拟环境等，这是一个巨大的市场空间。",
+            "reference": "推文最后一句"
           }
         ],
         "materials": []
