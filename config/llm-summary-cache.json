@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-07T02:34:45.239Z",
+  "updatedAt": "2026-10-08T02:49:21.223Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -14350,6 +14350,106 @@
             "label": "未来预测",
             "text": "未来每家企业都将需要专门人员来管理评估、构建和运行评估的基础设施以及模拟环境等，这是一个巨大的市场空间。",
             "reference": "推文最后一句"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2107676072871600470:131bcf05387dd6d4": {
+      "itemId": "tweet:2107676072871600470",
+      "sourceHash": "131bcf05387dd6d4",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：We shipped four things that were deemed good to great and some math proofs, but...",
+      "url": "https://x.com/thsottiaux/status/2107676072871600470",
+      "generatedAt": "2026-10-08T02:49:11.202Z",
+      "summary": {
+        "title": "Thibault Sottiaux：社区投票要求重置，我们照做了",
+        "summary": "Thibault Sottiaux 在 X 上发布动态，表示团队发布了四项被认为从好到优秀的功能以及一些数学证明，但社区投票结果明确要求重置。他提到自己曾校准过投票，似乎游戏规则偏向重置一方，但当前规则如此，因此重置已经执行。该动态获得超过一万点赞、近五百转发和一千四百多条回复，反映出社区对重置决定的强烈关注和讨论。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我们发布了四项被认为从好到优秀的功能以及一些数学证明，但投票结果很明确，社区要求重置。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "我确实校准过它，似乎游戏规则偏向重置一方，但当前规则就是如此。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "因此……重置已经执行。享受吧！",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 10173 个赞、497 次转发和 1487 条回复。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2107565388250874193:40bf57c21ad24295": {
+      "itemId": "tweet:2107565388250874193",
+      "sourceHash": "40bf57c21ad24295",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Boris Cherny：I am surprised that people are surprised this is how I prompt Claude. Talk to...",
+      "url": "https://x.com/bcherny/status/2107565388250874193",
+      "generatedAt": "2026-10-08T02:49:16.883Z",
+      "summary": {
+        "title": "Boris Cherny：像对同事一样给 Claude 下指令，无需过度结构化提示",
+        "summary": "Boris Cherny 在这条推文中表达了对人们惊讶于他提示 Claude 的方式感到意外。他认为，与 Claude 交流应该像与同事交流一样自然，大多数任务不需要过度结构化或规定性的提示。他回顾了 Sonnet 3.5 时代提示的重要性，但现在更重要的是向模型传达三件事：想要它做什么、希望它投入多少努力、以及它应如何验证自己做了正确的事。这条推文获得了大量互动，反映了 AI 提示理念的转变。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我惊讶于人们对我这样提示 Claude 感到惊讶。像对同事一样和 Claude 说话。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "提示没有秘密。对于大多数任务，不需要过度结构化或规定性——给 Claude 一个目标，它自己会想办法。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "在 Sonnet 3.5 时代，你的提示很重要。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "如今，更重要的是向模型传达：1. 你想让它做什么 2. 你希望它投入多少努力 3. 它应该如何验证自己做了正确的事。",
+            "reference": "推文后段"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2107574195978641911:e198bb7518b950c0": {
+      "itemId": "tweet:2107574195978641911",
+      "sourceHash": "e198bb7518b950c0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：The Every team runs as much work as possible through agents. To help the whole...",
+      "url": "https://x.com/claudeai/status/2107574195978641911",
+      "generatedAt": "2026-10-08T02:49:21.222Z",
+      "summary": {
+        "title": "Claude 团队用 Managed Agents 构建公司级智能体，并开放给订阅用户",
+        "summary": "Claude 官方账号分享了一个团队实践：The Every 团队尽可能多地将工作交给智能体处理。为了让整个团队在新模型发布时能共享技能，他们在 Claude Managed Agents 上构建了一个公司级智能体，所有成员都在 Slack 中使用。这个智能体在内部流行起来后，团队将其发布给了订阅用户。这展示了企业如何通过托管智能体实现团队协作和技能共享，并将内部工具产品化。",
+        "excerpts": [
+          {
+            "label": "实践案例",
+            "text": "The Every 团队尽可能多地将工作交给智能体处理。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "解决方案",
+            "text": "为了帮助整个团队在新模型发布时共享技能，他们在 Claude Managed Agents 上构建了一个公司级智能体，所有成员都在 Slack 中使用。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "产品化路径",
+            "text": "这个智能体在内部流行起来后，团队将其发布给了订阅用户。",
+            "reference": "推文原文"
           }
         ],
         "materials": []
