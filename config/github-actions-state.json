@@ -12180,7 +12180,127 @@
       "title": "Sam Altman：and thank you to the untold number of people who put in the technical work,...",
       "url": "https://x.com/sama/status/2107691577015755196",
       "sentAt": "2026-10-08T02:49:23.415Z"
+    },
+    "tweet:2107800195748737042": {
+      "type": "tweet",
+      "title": "Google Labs：🚨NEW EXPERIMENT 🚨 Playground is an experimental gaming platform that lets you...",
+      "url": "https://x.com/GoogleLabs/status/2107800195748737042",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "topic:Google Labs：🚨NEW EXPERIMENT 🚨 Playground is an experimental gaming platform that lets you...": {
+      "type": "topic",
+      "title": "Google Labs：🚨NEW EXPERIMENT 🚨 Playground is an experimental gaming platform that lets you...",
+      "url": "https://x.com/GoogleLabs/status/2107800195748737042",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "tweet:2107894060229034197": {
+      "type": "tweet",
+      "title": "Claude：One more thing: we’re halving the price of cache reads on Claude Sonnet 5.5, to...",
+      "url": "https://x.com/claudeai/status/2107894060229034197",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "topic:Claude：One more thing: we’re halving the price of cache reads on Claude Sonnet 5.5, to...": {
+      "type": "topic",
+      "title": "Claude：One more thing: we’re halving the price of cache reads on Claude Sonnet 5.5, to...",
+      "url": "https://x.com/claudeai/status/2107894060229034197",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "tweet:2107924408597950702": {
+      "type": "tweet",
+      "title": "Sam Altman：ChatGPT can now generate a custom UI for you! https://t.co/ZdGRMAEjQX",
+      "url": "https://x.com/sama/status/2107924408597950702",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "topic:Sam Altman：ChatGPT can now generate a custom UI for you! https://t.co/ZdGRMAEjQX": {
+      "type": "topic",
+      "title": "Sam Altman：ChatGPT can now generate a custom UI for you! https://t.co/ZdGRMAEjQX",
+      "url": "https://x.com/sama/status/2107924408597950702",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "tweet:2108040921044639779": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Confirmed landed across all accounts. How are we doing so far?...",
+      "url": "https://x.com/thsottiaux/status/2108040921044639779",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "topic:Thibault Sottiaux：Confirmed landed across all accounts. How are we doing so far?...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Confirmed landed across all accounts. How are we doing so far?...",
+      "url": "https://x.com/thsottiaux/status/2108040921044639779",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "tweet:2107913738791596286": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Will be there by EOD PST.",
+      "url": "https://x.com/thsottiaux/status/2107913738791596286",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "topic:Thibault Sottiaux：Will be there by EOD PST.": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Will be there by EOD PST.",
+      "url": "https://x.com/thsottiaux/status/2107913738791596286",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "tweet:2108021247301062894": {
+      "type": "tweet",
+      "title": "Thariq：the most common failure case I see is when people are working outside their...",
+      "url": "https://x.com/trq212/status/2108021247301062894",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "topic:Thariq：the most common failure case I see is when people are working outside their...": {
+      "type": "topic",
+      "title": "Thariq：the most common failure case I see is when people are working outside their...",
+      "url": "https://x.com/trq212/status/2108021247301062894",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "tweet:2107894054142787877": {
+      "type": "tweet",
+      "title": "Claude：Haiku 5.5 shows major improvements across almost all of our alignment...",
+      "url": "https://x.com/claudeai/status/2107894054142787877",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "topic:Claude：Haiku 5.5 shows major improvements across almost all of our alignment...": {
+      "type": "topic",
+      "title": "Claude：Haiku 5.5 shows major improvements across almost all of our alignment...",
+      "url": "https://x.com/claudeai/status/2107894054142787877",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "tweet:2107894057615987198": {
+      "type": "tweet",
+      "title": "Claude：Haiku 5.5 is available now on all platforms, including Amazon Web Services,...",
+      "url": "https://x.com/claudeai/status/2107894057615987198",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "topic:Claude：Haiku 5.5 is available now on all platforms, including Amazon Web Services,...": {
+      "type": "topic",
+      "title": "Claude：Haiku 5.5 is available now on all platforms, including Amazon Web Services,...",
+      "url": "https://x.com/claudeai/status/2107894057615987198",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "tweet:2107934939287273551": {
+      "type": "tweet",
+      "title": "Amjad Masad：Math was bound to fall first. The purer the field the easier it is for AI to...",
+      "url": "https://x.com/amasad/status/2107934939287273551",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "topic:Amjad Masad：Math was bound to fall first. The purer the field the easier it is for AI to...": {
+      "type": "topic",
+      "title": "Amjad Masad：Math was bound to fall first. The purer the field the easier it is for AI to...",
+      "url": "https://x.com/amasad/status/2107934939287273551",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "tweet:2108056577697882402": {
+      "type": "tweet",
+      "title": "Aaron Levie：The compute needed for the stage of AI we’re about to enter is going to be...",
+      "url": "https://x.com/levie/status/2108056577697882402",
+      "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "topic:Aaron Levie：The compute needed for the stage of AI we’re about to enter is going to be...": {
+      "type": "topic",
+      "title": "Aaron Levie：The compute needed for the stage of AI we’re about to enter is going to be...",
+      "url": "https://x.com/levie/status/2108056577697882402",
+      "sentAt": "2026-10-09T03:00:43.597Z"
     }
   },
-  "updatedAt": "2026-10-08T02:49:23.415Z"
+  "updatedAt": "2026-10-09T03:00:43.597Z"
 }

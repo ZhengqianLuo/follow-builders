@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-08T02:49:21.223Z",
+  "updatedAt": "2026-10-09T03:00:41.660Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -14450,6 +14450,41 @@
             "label": "产品化路径",
             "text": "这个智能体在内部流行起来后，团队将其发布给了订阅用户。",
             "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2108056577697882402:d7ff519634ba9d16": {
+      "itemId": "tweet:2108056577697882402",
+      "sourceHash": "d7ff519634ba9d16",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：The compute needed for the stage of AI we’re about to enter is going to be...",
+      "url": "https://x.com/levie/status/2108056577697882402",
+      "generatedAt": "2026-10-09T03:00:41.659Z",
+      "summary": {
+        "title": "Aaron Levie：AI 下一阶段所需算力将极其惊人",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中指出，AI 即将进入的新阶段将需要极其庞大的算力。他列举了多种即将普及的智能体应用场景：个人智能体、为企业防御的智能体集群、审查所有代码安全问题的智能体、在工作流中处理几乎所有企业数据的智能体、以及 7x24 小时在后台工作的智能体等。这些智能体不仅需要海量的推理 token，还需要配套的计算机、网络、文件系统等基础设施。Levie 强调，推理量将持续呈数量级增长，而目前我们仅处于这一大规模建设周期的早期阶段。该观点凸显了 AI 从模型训练转向大规模推理部署后，对底层基础设施的长期且巨大的需求，值得关注 AI 产业投资与算力供应链的读者重视。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 下一阶段所需的算力将是疯狂的。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "应用场景列举",
+            "text": "个人智能体、为企业防御的智能体集群、审查所有代码安全问题的智能体、在工作流中处理几乎所有企业数据的智能体、7x24 小时后台工作的智能体等。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "需求构成",
+            "text": "这需要推理量持续呈数量级增长，以及智能体在 token 之外所需的基础设施，如计算机、网络、文件系统等。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "阶段判断",
+            "text": "我们仅处于这一大规模建设周期的早期阶段。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
