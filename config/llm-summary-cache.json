@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-09T03:00:41.660Z",
+  "updatedAt": "2026-10-10T02:33:48.442Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -14485,6 +14485,236 @@
             "label": "阶段判断",
             "text": "我们仅处于这一大规模建设周期的早期阶段。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2108426594054533545:46d8c61b9b0b0558": {
+      "itemId": "tweet:2108426594054533545",
+      "sourceHash": "46d8c61b9b0b0558",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：This sounds weird, but it is actually probably a good policy. Even if you don’t...",
+      "url": "https://x.com/levie/status/2108426594054533545",
+      "generatedAt": "2026-10-10T02:32:40.196Z",
+      "summary": {
+        "title": "Aaron Levie：对AI友善是一项好政策，即使你不认为AI有意识",
+        "summary": "Box CEO Aaron Levie 在推文中表示，虽然听起来奇怪，但对AI友善可能是一项好政策。他本人并不认为AI有意识，但指出未来模型会基于大量人类与AI互动的数据进行训练，如果训练数据中充满人类对AI的粗鲁行为，模型可能会学到这些行为模式。为了获得安全且对齐的模型，我们可能希望AI在训练数据中有大量良好的互动。Levie 认为 Anthropic 可能持有更极端的信念，但即使没有，这样表述政策也是合理的。他将此比作一种轻松的帕斯卡赌注：对AI友善，成本很低，潜在收益却可能很大。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "即使你不相信AI有意识（我也不信），你也不希望未来的模型在无尽的人类对模型粗鲁的内容上训练。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "论证逻辑",
+            "text": "模型只理解它们训练过的数据，或它们在交互中遇到的内容，所以如果你想要安全且对齐的模型，我们可能希望AI在训练数据中有大量良好的互动。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "对Anthropic政策的评论",
+            "text": "Anthropic 可能持有比这更极端的信念（尽管即使他们没有，你可能也想这样措辞政策），但这对于AI来说是一种轻松的帕斯卡赌注。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "行动建议",
+            "text": "对AI友善就好。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2108236391641706813:7920dbc00f0765e5": {
+      "itemId": "tweet:2108236391641706813",
+      "sourceHash": "7920dbc00f0765e5",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Madhu Guru：There are massive startup opportunities hiding in plain sight : every layer of...",
+      "url": "https://x.com/realmadhuguru/status/2108236391641706813",
+      "generatedAt": "2026-10-10T02:32:47.437Z",
+      "summary": {
+        "title": "Madhu Guru：代理时代，计算栈每一层都藏着巨大创业机会",
+        "summary": "Madhu Guru 在推文中指出，为 AI 代理（agents）重建计算栈的每一层都蕴含着巨大的创业机会。过去几年，业界主要聚焦于让企业软件为代理做好准备，例如通过 API、连接器和 MCP（模型上下文协议）。如今，个人代理正在推动消费级产品进行同样的变革，电子商务只是早期案例。这只是冰山一角。他建议创业者思考计算栈的其余部分：桌面和移动操作系统需要将代理视为一等用户；云基础设施需要为代理直接操作而构建；身份、权限和安全体系需要为成千上万个代表我们行事的代理而设计；界面需要同时服务于代理和人类用户，或支持两者协作。他鼓励寻找创业想法的人逐层审视计算栈，并追问：当主要用户变成代理时，什么必须改变？",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "计算栈的每一层都需要为代理重建，其中隐藏着巨大的创业机会。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "行业现状",
+            "text": "过去几年，大部分焦点都放在让企业软件为代理做好准备：API、连接器、MCP。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "趋势判断",
+            "text": "现在个人代理正在迫使消费级产品进行同样的变革——电子商务是一个早期例子。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "机会领域",
+            "text": "桌面和移动操作系统需要将代理视为一等用户；云基础设施需要为代理直接操作而构建。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "机会领域",
+            "text": "身份、权限和安全体系需要为成千上万个代表我们行事的代理而设计。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "机会领域",
+            "text": "界面需要同时服务于代理和人类用户，或支持两者协作。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "行动建议",
+            "text": "如果你在寻找创业想法，逐层审视计算栈并追问：当主要用户变成代理时，什么必须改变？",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:28c38604-c0da-11f1-8b1e-33a0102fe4b6:a70df7d9db41f5b0": {
+      "itemId": "podcast:28c38604-c0da-11f1-8b1e-33a0102fe4b6",
+      "sourceHash": "a70df7d9db41f5b0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Training Data: Google's AI Infrastructure Chief, Amin Vahdat, on the Physics &amp; Economics of Frontier AI",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "generatedAt": "2026-10-10T02:33:33.282Z",
+      "summary": {
+        "title": "谷歌AI基础设施负责人Amin Vahdat谈前沿AI的物理与经济学",
+        "summary": "本期播客中，谷歌AI基础设施负责人Amin Vahdat深入探讨了AI数据中心与通用数据中心的差异、TPU芯片的演进、大规模集群的故障管理、硬件与模型的协同设计、智能体工作负载带来的新挑战，以及电力、空间和开放标准等长期约束。他指出AI基础设施的核心特征是专业化，谷歌用“goodput”而非FLOPS来衡量真实性能，在10万加速器规模下故障频繁发生，需要每六个月将有效服务容量翻倍。TPU项目始于2013年，2026年发布了8I和8T两款芯片，分别面向推理和训练。谷歌与DeepMind深度合作，甚至用Gemini设计未来Gemini的硬件。长时程智能体的兴起使请求间隔从秒级缩短到毫秒级，对CPU、网络和存储的需求激增。电力是最根本的约束，谷歌倾向于与公用事业合作供电。旧TPU折旧寿命约六年，更换以pod为单位。谷歌支持开放标准，避免锁定，同时支持TPU、GPU和其他加速器。AI已显著提升硬件工程生产力，谷歌甚至认真考虑轨道数据中心作为“登月计划”。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "AI数据中心与非AI数据中心的主要区别在于专业化程度，AI基础设施通常是目的性构建的，与硬件共同设计。",
+            "reference": "01:55 - 03:21"
+          },
+          {
+            "label": "数据",
+            "text": "存储机架功率密度为10-40千瓦，而TPU或GPU机架今天轻松达到数百千瓦。",
+            "reference": "03:21 - 03:56"
+          },
+          {
+            "label": "概念",
+            "text": "谷歌用“goodput”而非FLOPS来衡量AI基础设施性能，它指在真实故障条件下交付的有效吞吐量。",
+            "reference": "05:42 - 07:18"
+          },
+          {
+            "label": "数据",
+            "text": "在10万加速器规模下，故障频繁发生，可能每天多次甚至每小时多次，且故障原因呈长尾分布。",
+            "reference": "10:39 - 11:10"
+          },
+          {
+            "label": "观点",
+            "text": "谷歌需要每六个月左右将有效服务容量翻倍，其中软件优化带来的提升与硬件相当甚至更多。",
+            "reference": "13:04 - 13:33"
+          },
+          {
+            "label": "案例",
+            "text": "谷歌与DeepMind深度合作，DeepMind提出的模型优化可能促使谷歌修改正在开发中的芯片设计，甚至延迟流片以获得显著性能提升。",
+            "reference": "26:23 - 27:38"
+          },
+          {
+            "label": "数据",
+            "text": "长时程智能体的兴起使请求间隔从秒级缩短到毫秒级，且需要大量CPU进行推理和状态管理，导致对CPU、网络和存储的需求大幅增加。",
+            "reference": "34:38 - 36:24"
+          },
+          {
+            "label": "观点",
+            "text": "电力是谷歌面临的最根本约束，其他约束可以随时间解决，但电力是长期绑定问题。谷歌倾向于与公用事业公司合作供电，仅在极少数情况下采用自发电。",
+            "reference": "43:00 - 44:29"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2108410378233549106:4ed3e611a063792b": {
+      "itemId": "tweet:2108410378233549106",
+      "sourceHash": "4ed3e611a063792b",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：Met a close friend who’s also a seed stage founder today.. They have been...",
+      "url": "https://x.com/nikunj/status/2108410378233549106",
+      "generatedAt": "2026-10-10T02:33:42.030Z",
+      "summary": {
+        "title": "种子期创始人的三条出路：蟑螂模式、转向热门赛道或卖身",
+        "summary": "Nikunj Kothari 分享了他与一位种子期创始人朋友的对话，该朋友公司收入接近100万美元，但跑道缩短，且认为模型能力尚未跟上其产品愿景。Nikunj 指出他每周至少两次遇到类似情况，并总结种子期创始人在此阶段只有三个选择：1）若对公司有强烈信念，则像蟑螂一样生存，实现默认盈利，等待能力成熟后再大举融资；2）转向一个更相关且高速增长的领域，利用不公平优势快速抓住新能力；3）出售公司或被收购，加入更成熟的公司，一两年后再创业。他强调从种子轮到A轮的跨越门槛每月都在提高，传统指标已不再适用，当前共识市场中只有少数类别能获得VC强烈追捧。他直言不讳地分享这些观点，认为了解市场现状比抱怨更重要。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "在这个时刻，你基本上只有三个选择：1）如果你对公司有强烈的信念，就做一只蟑螂，实现默认盈利。一旦能力到位，你感受到需求，就去融一大轮，然后全力以赴。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "找到一个更相关且正在疯狂增长的垂直领域。借助新出现的能力，利用不公平优势快速抢占。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "出售/被收购，加入一家更有雄心的公司，他们已经解决了很多你还没解决的问题。然后在一两年后，当你找到下一个想做的事情时，再回来创办新公司。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "我每周至少两次遇到完全相同的对话。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "从种子轮到A轮的跨越门槛每个月都在变得更难。老派的指标已经不再相关，在这个共识市场中，只有少数几个类别在VC方面有巨大的吸引力。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "你可以哀叹这是市场的现状，但最好知道正在发生什么，而不是对实际发生的事情视而不见。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2108404561413349695:9040ac54cc3f9541": {
+      "itemId": "tweet:2108404561413349695",
+      "sourceHash": "9040ac54cc3f9541",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：We’ve loved seeing so many founders join the Claude Startups program....",
+      "url": "https://x.com/claudeai/status/2108404561413349695",
+      "generatedAt": "2026-10-10T02:33:48.442Z",
+      "summary": {
+        "title": "Claude 暂停初创企业计划中的团队与 API 额度优惠，因需求远超预期",
+        "summary": "Claude 官方账号发布推文，宣布由于申请人数远超预期（数十万申请者），不得不暂停 Claude Startups 计划中的 Claude Team 和 1000 美元 API 额度优惠。已领取优惠的用户不受影响，优惠仍保留在账户中；已申请或已获批但未领取的用户将重新审核，部分已获批账户可能无法获得优惠。所有已接受的计划成员仍可使用 Startup Stack 和 Applied AI 办公时间。Claude Max 或 Team 计划用户的每月 API 额度照常可用。官方对造成的不便表示歉意，并承诺尽快让用户开始构建。",
+        "excerpts": [
+          {
+            "label": "需求超预期",
+            "text": "我们低估了对该计划的需求，需要暂停 Claude Team 和 1000 美元 API 额度优惠。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "申请规模",
+            "text": "有数十万申请者，我们正在重新审核申请，以便该计划能服务尽可能多的初创企业。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "已领取用户不受影响",
+            "text": "如果你已经领取了 Claude 优惠，它们仍将保留在你的账户中。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "未领取用户面临重新审核",
+            "text": "如果你已申请或已获批但尚未领取优惠，我们正在重新审核你的申请。不幸的是，这意味着一些已获批的账户将无法获得优惠。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "其他权益保留",
+            "text": "所有已接受的计划成员仍可使用 Startup Stack 和 Applied AI 办公时间。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "现有付费用户不受影响",
+            "text": "如果你使用 Claude Max 或 Team 计划，你的每月 API 额度照常可在 Console 中使用。",
+            "reference": "推文原文"
           }
         ],
         "materials": []

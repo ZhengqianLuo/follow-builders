@@ -12300,7 +12300,127 @@
       "title": "Aaron Levie：The compute needed for the stage of AI we’re about to enter is going to be...",
       "url": "https://x.com/levie/status/2108056577697882402",
       "sentAt": "2026-10-09T03:00:43.597Z"
+    },
+    "tweet:2108349826727588000": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Today, we are announcing ChatGPT. It is here: https://t.co/Pgk3THSyOJ",
+      "url": "https://x.com/thsottiaux/status/2108349826727588000",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "topic:Thibault Sottiaux：Today, we are announcing ChatGPT. It is here: https://t.co/Pgk3THSyOJ": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Today, we are announcing ChatGPT. It is here: https://t.co/Pgk3THSyOJ",
+      "url": "https://x.com/thsottiaux/status/2108349826727588000",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "tweet:2108275041276420573": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Day 4/ We have improved steering to be instant, leading to the model now...",
+      "url": "https://x.com/thsottiaux/status/2108275041276420573",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "topic:Thibault Sottiaux：Day 4/ We have improved steering to be instant, leading to the model now...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Day 4/ We have improved steering to be instant, leading to the model now...",
+      "url": "https://x.com/thsottiaux/status/2108275041276420573",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "tweet:2108271559928389679": {
+      "type": "tweet",
+      "title": "Claude：Starting today, Claude Docs, Slides, and Design are out of beta and available...",
+      "url": "https://x.com/claudeai/status/2108271559928389679",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "topic:Claude：Starting today, Claude Docs, Slides, and Design are out of beta and available...": {
+      "type": "topic",
+      "title": "Claude：Starting today, Claude Docs, Slides, and Design are out of beta and available...",
+      "url": "https://x.com/claudeai/status/2108271559928389679",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "tweet:2108426594054533545": {
+      "type": "tweet",
+      "title": "Aaron Levie：This sounds weird, but it is actually probably a good policy. Even if you don’t...",
+      "url": "https://x.com/levie/status/2108426594054533545",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "topic:Aaron Levie：This sounds weird, but it is actually probably a good policy. Even if you don’t...": {
+      "type": "topic",
+      "title": "Aaron Levie：This sounds weird, but it is actually probably a good policy. Even if you don’t...",
+      "url": "https://x.com/levie/status/2108426594054533545",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "tweet:2108312534222778407": {
+      "type": "tweet",
+      "title": "Thariq：whoops I hit send and went to a meeting, didn't realize the repo wasnt public-...",
+      "url": "https://x.com/trq212/status/2108312534222778407",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "topic:Thariq：whoops I hit send and went to a meeting, didn't realize the repo wasnt public-...": {
+      "type": "topic",
+      "title": "Thariq：whoops I hit send and went to a meeting, didn't realize the repo wasnt public-...",
+      "url": "https://x.com/trq212/status/2108312534222778407",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "tweet:2108236391641706813": {
+      "type": "tweet",
+      "title": "Madhu Guru：There are massive startup opportunities hiding in plain sight : every layer of...",
+      "url": "https://x.com/realmadhuguru/status/2108236391641706813",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "topic:Madhu Guru：There are massive startup opportunities hiding in plain sight : every layer of...": {
+      "type": "topic",
+      "title": "Madhu Guru：There are massive startup opportunities hiding in plain sight : every layer of...",
+      "url": "https://x.com/realmadhuguru/status/2108236391641706813",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "podcast:28c38604-c0da-11f1-8b1e-33a0102fe4b6": {
+      "type": "podcast",
+      "title": "Training Data: Google's AI Infrastructure Chief, Amin Vahdat, on the Physics &amp; Economics of Frontier AI",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "topic:Training Data: Google's AI Infrastructure Chief, Amin Vahdat, on the Physics &amp; Economics of Frontier AI": {
+      "type": "topic",
+      "title": "Training Data: Google's AI Infrastructure Chief, Amin Vahdat, on the Physics &amp; Economics of Frontier AI",
+      "url": "https://www.youtube.com/playlist?list=PLOhHNjZItNnMm5tdW61JpnyxeYH5NDDx8",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "tweet:2108410378233549106": {
+      "type": "tweet",
+      "title": "Nikunj Kothari：Met a close friend who’s also a seed stage founder today.. They have been...",
+      "url": "https://x.com/nikunj/status/2108410378233549106",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "topic:Nikunj Kothari：Met a close friend who’s also a seed stage founder today.. They have been...": {
+      "type": "topic",
+      "title": "Nikunj Kothari：Met a close friend who’s also a seed stage founder today.. They have been...",
+      "url": "https://x.com/nikunj/status/2108410378233549106",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "tweet:2108404561413349695": {
+      "type": "tweet",
+      "title": "Claude：We’ve loved seeing so many founders join the Claude Startups program....",
+      "url": "https://x.com/claudeai/status/2108404561413349695",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "topic:Claude：We’ve loved seeing so many founders join the Claude Startups program....": {
+      "type": "topic",
+      "title": "Claude：We’ve loved seeing so many founders join the Claude Startups program....",
+      "url": "https://x.com/claudeai/status/2108404561413349695",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "tweet:2108279490510193078": {
+      "type": "tweet",
+      "title": "Aaron Levie：We built Box Mount to allow developers to mount Box as a file system directly...",
+      "url": "https://x.com/levie/status/2108279490510193078",
+      "sentAt": "2026-10-10T02:33:50.270Z"
+    },
+    "topic:Aaron Levie：We built Box Mount to allow developers to mount Box as a file system directly...": {
+      "type": "topic",
+      "title": "Aaron Levie：We built Box Mount to allow developers to mount Box as a file system directly...",
+      "url": "https://x.com/levie/status/2108279490510193078",
+      "sentAt": "2026-10-10T02:33:50.270Z"
     }
   },
-  "updatedAt": "2026-10-09T03:00:43.597Z"
+  "updatedAt": "2026-10-10T02:33:50.270Z"
 }
