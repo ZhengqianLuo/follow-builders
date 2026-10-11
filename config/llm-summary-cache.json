@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-10T02:33:48.442Z",
+  "updatedAt": "2026-10-11T02:03:33.633Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -14715,6 +14715,236 @@
             "label": "现有付费用户不受影响",
             "text": "如果你使用 Claude Max 或 Team 计划，你的每月 API 额度照常可在 Console 中使用。",
             "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2108689101503566319:f4c642460890fb1e": {
+      "itemId": "tweet:2108689101503566319",
+      "sourceHash": "f4c642460890fb1e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thariq：before I joined Anthropic, I spent about 2 weeks hacking on this as a side...",
+      "url": "https://x.com/trq212/status/2108689101503566319",
+      "generatedAt": "2026-10-11T02:02:45.160Z",
+      "summary": {
+        "title": "Thariq：加入 Anthropic 前，我用 Opus 4 花两周做了个副项目，Opus 5.5 一条提示就把它移植到 Managed Agents",
+        "summary": "Thariq 在加入 Anthropic 之前，曾用 Opus 4 花大约两周时间开发了一个副项目。该项目最初基于 Agent SDK，需要持续运行的进程，可靠性不佳。后来他仅用一条提示，就让 Opus 5.5 将项目移植到 Claude Managed Agents，大幅提升了可靠性。这条推文展示了 Claude 模型在代码迁移和工程效率上的能力，也体现了从传统 Agent SDK 到托管代理服务的演进。推文附带的链接可能指向项目演示或代码仓库。",
+        "excerpts": [
+          {
+            "label": "案例",
+            "text": "加入 Anthropic 前，我用 Opus 4 花了大约两周时间做这个副项目。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "技术细节",
+            "text": "它使用了 Agent SDK，所以需要一个持续运行的进程，而且效果不太好。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "关键转折",
+            "text": "但给 Opus 5.5 的一条提示就把它移植到了 Claude Managed Agents，并让它可靠得多。",
+            "reference": "推文后半段"
+          },
+          {
+            "label": "证据",
+            "text": "推文附带链接，可能指向项目演示或代码仓库。",
+            "reference": "https://t.co/3AE65z3VqK"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2108750943680630893:123dba527fc7762b": {
+      "itemId": "tweet:2108750943680630893",
+      "sourceHash": "123dba527fc7762b",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Agents spawning other agents, agents operating in the background on every task,...",
+      "url": "https://x.com/levie/status/2108750943680630893",
+      "generatedAt": "2026-10-11T02:02:51.616Z",
+      "summary": {
+        "title": "Aaron Levie：智能体将消耗千倍于人类提示的 token，AI 聊天模式一两年内成古董",
+        "summary": "Box CEO Aaron Levie 在推文中预测，AI 智能体（agents）将催生全新的 token 消耗范式：智能体生成其他智能体、在后台持续处理任务、以及智能体集群（agent swarms）的运作方式，将消耗比人类逐个提示智能体多 1000 倍的 token。他认为，当前以聊天系统形式、只能按人类提示速度工作的 AI 使用方式，在一两年内就会显得过时。绝大多数 token 将被在后台和工作流中持续为我们工作的智能体所消耗。Levie 强调，这正是 AI 智能体采用曲线仍处于极早期阶段的原因，也意味着需要大幅增加计算和基础设施的建设来支撑这一趋势。该观点凸显了从人机对话到自主智能体工作流的范式转变，以及由此带来的巨大算力需求。",
+        "excerpts": [
+          {
+            "label": "核心预测",
+            "text": "智能体生成其他智能体、在后台处理每项任务、以及智能体集群将消耗比人类逐个提示智能体多 1000 倍的 token。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "对聊天模式的判断",
+            "text": "AI 作为聊天系统、只能以你提示的速度为你工作的使用方式，在一两年内就会像古董一样过时。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "token 消耗主体",
+            "text": "绝大多数 token 将被在后台和工作流中持续为我们工作的智能体所消耗。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "对行业阶段的判断",
+            "text": "这就是为什么我们现在仍处于 AI 智能体采用曲线的极早期阶段，以及需要多少计算和基础设施扩建来维持这一趋势。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2108669027363295323:bf2a81b90c4101cc": {
+      "itemId": "tweet:2108669027363295323",
+      "sourceHash": "bf2a81b90c4101cc",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：It's incredible to watch a new kind of economy be born. Agents purchasing...",
+      "url": "https://x.com/rauchg/status/2108669027363295323",
+      "generatedAt": "2026-10-11T02:02:56.883Z",
+      "summary": {
+        "title": "Guillermo Rauch：见证新经济诞生——AI 智能体开始购买基础设施与域名",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中表示，他正在见证一种新经济的诞生：AI 智能体开始自主购买基础设施产品和服务。他提到，Vercel 团队对于智能体已经通过其 CLI 在市场上购买产品的频率感到震惊。现在，Vercel 将这一能力扩展到域名领域，使智能体能够从创意到在线业务全栈式地完成搭建，并拥有一个出色的域名。这条推文反映了 AI 智能体在商业交易中的实际应用，以及平台如何适应这一趋势，为智能体经济提供支持。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "见证一种新经济的诞生：智能体正在购买基础设施产品和服务。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "数据",
+            "text": "Vercel 团队对于智能体已经通过其 CLI 在市场上购买产品的频率感到震惊。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "Vercel 现在将智能体购买能力扩展到域名，使智能体能够从创意到在线业务全栈式完成搭建，并拥有一个出色的域名。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "类比",
+            "text": "智能体现在可以全栈式地从想法到在线业务，并拥有一个“banger”域名。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2108624122339287335:8fd837f57d0be12a": {
+      "itemId": "tweet:2108624122339287335",
+      "sourceHash": "8fd837f57d0be12a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：Pro @bot tip: If you want your Grok Bot as a chief of staff it doesn't actually...",
+      "url": "https://x.com/petergyang/status/2108624122339287335",
+      "generatedAt": "2026-10-11T02:03:01.989Z",
+      "summary": {
+        "title": "Peter Yang：给 Grok Bot 起个独立名字，别让它用你的邮箱当幕僚长",
+        "summary": "Peter Yang 在 X 上分享了一个使用 Grok Bot 作为“幕僚长”（chief of staff）的实用技巧。他指出，如果你想让 Grok Bot 扮演幕僚长角色，就不应该把它的邮箱注册为你自己的名字，因为那样在邮件中抄送自己会显得很奇怪。例如，说“让我抄送 Peter 来找个时间”听起来就不太对劲。他建议为 Grok Bot 的邮箱另起一个名字，也就是你希望幕僚长被称呼的名字。这条推文获得了 285 个赞、4 次转发和 98 条回复，说明这个细节引起了不少用户的共鸣。核心价值在于提醒用户：AI 助手在协作场景中需要独立的身份，才能更自然地融入工作流，避免混淆和尴尬。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "如果你想让 Grok Bot 当幕僚长，把它的邮箱注册成你自己的名字其实不合理，因为抄送自己会很奇怪。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "例如，“让我抄送 Peter 来找个时间”听起来就不太对劲。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "建议",
+            "text": "我建议为你的 Grok Bot 邮箱另选一个名字——随便你想叫你的幕僚长什么。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "这条推文获得 285 个赞、4 次转发和 98 条回复，显示该建议引发了较多讨论。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2108733051283050964:b5dba3330f97a68d": {
+      "itemId": "tweet:2108733051283050964",
+      "sourceHash": "b5dba3330f97a68d",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Some interesting machine & agent Vercel traffic stats. • Across the entire...",
+      "url": "https://x.com/rauchg/status/2108733051283050964",
+      "generatedAt": "2026-10-11T02:03:07.342Z",
+      "summary": {
+        "title": "Guillermo Rauch：Vercel 流量中机器与智能体占比激增，人类直接流量将成零头",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中分享了一组关于机器与智能体流量的数据，揭示了互联网流量结构的剧变。过去 30 天，Vercel 全网 58.18% 的流量来自机器人，而 2024 年 1 月这一比例仅为 32%。在部署方面，Vercel 上 60% 以上的部署已经是智能体驱动的，而 2026 年 1 月这一比例还只有约 3%。此外，Vercel 自家文档站高达 83% 的页面浏览量来自智能体，且随着内容针对智能体优化，这一比例还在可靠地上升。Rauch 预测，未来几年人类直接互联网流量将基本成为可忽略的零头，但网络会蓬勃发展，只是它将为智能体而建、由智能体而建。这组数据为 AI 智能体正在重塑网络流量和开发模式的趋势提供了来自头部平台的一手证据，值得关注 AI 与 Web 基础设施交叉领域的读者深思。",
+        "excerpts": [
+          {
+            "label": "数据",
+            "text": "过去 30 天，Vercel 全网 58.18% 的流量来自机器人，而 2024 年 1 月这一比例仅为 32%。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "Vercel 上 60% 以上的部署现在是智能体驱动的，而 2026 年 1 月这一比例还只有约 3%。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "Vercel 自家文档站高达 83% 的页面浏览量来自智能体，且随着内容针对智能体优化，这一比例还在可靠地上升。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "我预计未来几年人类直接互联网流量将基本成为可忽略的零头。网络会蓬勃发展，但它是为智能体而建、由智能体而建。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:994123ec-c395-11f1-b01e-fff03490a570:0cc6d7c775718f75": {
+      "itemId": "podcast:994123ec-c395-11f1-b01e-fff03490a570",
+      "sourceHash": "0cc6d7c775718f75",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "No Priors: Beam: The Great American Open Model with ReflectionAI Co-Founder and CEO Misha Laskin",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "generatedAt": "2026-10-11T02:03:33.633Z",
+      "summary": {
+        "title": "No Priors: Beam——美国开源模型与Reflection AI联合创始人兼CEO Misha Laskin",
+        "summary": "本期播客中，Reflection AI联合创始人兼CEO Misha Laskin讨论了开放权重模型的重要性、公司从强化学习转向端到端构建开放模型的历程，以及Beam模型的技术特点与商业策略。Laskin指出，移除网络攻击能力也会削弱防御能力，而开放模型能让更多安全研究人员参与审查，降低漏洞风险。他引用林纳斯定律，认为足够多的眼球能让安全漏洞变浅。Reflection AI的使命是构建前沿开放智能并使其广泛可及，公司从约30人扩展到约300人，发布了5000亿参数、活跃参数230亿的Beam模型，在编码和智能体任务上推理效率比同类模型高3-4倍。商业化方面，开放模型与封闭模型类似，都是最大化推理，但开放模型提供所有权，企业可定制化部署。Laskin认为整个AI堆栈都在商品化，模型利润率将受压缩，竞争关键在于智能密度、计算资源和客户信任。他还提到中国开源模型对世界有益，但西方需要开源模型形成竞争张力，开源模型可能成为锁定他国供应链的“特洛伊木马”。最后，Laskin对AI加速科学进步感到兴奋，并认为数据中心项目创造大量高薪工作，模型在循环中能提升研究人员效率，但人类创造力仍然重要。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "移除网络攻击能力也会移除网络防御能力，当前只有少数封闭实验室的安全研究人员了解这些系统，无法覆盖所有意外后果。",
+            "reference": "00:00 - 00:26"
+          },
+          {
+            "label": "案例",
+            "text": "一个强大的封闭模型入侵了另一家公司，该公司只能通过使用开放模型来保护自己。",
+            "reference": "00:00 - 00:26"
+          },
+          {
+            "label": "金句",
+            "text": "引用林纳斯定律：足够多的眼球，所有漏洞都会变浅；相信足够多的眼球也能使大多数安全和安全漏洞变浅。",
+            "reference": "00:26 - 00:34"
+          },
+          {
+            "label": "数据",
+            "text": "Beam是一个5000亿参数模型，活跃参数230亿，预训练使用6000个GB300，强化学习使用超过10000个GB300运行四周。",
+            "reference": "12:03 - 13:10"
+          },
+          {
+            "label": "数据",
+            "text": "Beam在编码和智能体任务上表现出色，推理效率比同类模型高3-4倍，部分场景可达10倍。",
+            "reference": "19:59 - 21:09"
+          },
+          {
+            "label": "观点",
+            "text": "开放模型推理提供商称，90%以上的开放模型使用是定制化的。",
+            "reference": "27:15 - 27:59"
+          },
+          {
+            "label": "观点",
+            "text": "整个AI堆栈都在商品化，模型利润率将受到压缩。",
+            "reference": "32:55 - 33:29"
+          },
+          {
+            "label": "类比",
+            "text": "开源模型是基础设施的“特洛伊木马”，可锁定他国供应链。",
+            "reference": "41:48 - 42:49"
           }
         ],
         "materials": []
