@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-17T01:24:32.941Z",
+  "updatedAt": "2026-10-19T01:30:55.755Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -15776,6 +15776,176 @@
             "label": "观点",
             "text": "AI 不会导致递归自我改进（RSI），因为人们总是忽视边际收益递减，类似神经架构搜索的历史。",
             "reference": "Speaker 1 | 1:03:24 - 1:04:27"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2111525362446520466:93b77827c3f6818e": {
+      "itemId": "tweet:2111525362446520466",
+      "sourceHash": "93b77827c3f6818e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：The biggest misread of anyone predicting the end of software engineering was...",
+      "url": "https://x.com/levie/status/2111525362446520466",
+      "generatedAt": "2026-10-19T01:29:54.672Z",
+      "summary": {
+        "title": "Aaron Levie：软件工程不会终结，反而会渗透一切",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中反驳了“软件工程将因自动化而终结”的预测。他认为，这种预测最大的误判在于假设世界只需要固定数量的软件，自动化会减少对人力的需求。但现实恰恰相反：几乎所有事物都在变成软件。由于 AI 智能体能够使用工具、操作计算机、即时编写软件并以远超人类的速度处理数据，我们现在可以将“软件”应用于以往无法合理数字化的各种问题。这导致工程在经济中的重要性不降反升，因为我们现在能够工程化比以往更多的系统和流程。例如，银行开展新型交易时工程师往往是首选；生命科学领域的研究和实验室工作越来越以工程为中心；制造业的供应链自动化也离不开工程。越来越多的工作呈现出软件问题的形态。Levie 指出，未来我们确实不再手动编码，但几乎所有东西都将由代码构成，因此理解代码的人将处于极佳的位置。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "预测软件工程终结的人最大的误读是：以为世界只需要一定数量的软件，自动化会减少对人力的需求。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "核心观点",
+            "text": "实际情况恰恰相反：几乎所有事物都在变成软件。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "技术驱动",
+            "text": "因为智能体可以使用工具、操作计算机、即时编写软件，并以类似人类但快得多的速度处理数据，我们现在可以把“软件”应用到以前无法合理数字化的各种问题上。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "经济影响",
+            "text": "这导致工程在经济中的重要性上升，因为我们现在能够工程化比以往更多的系统和流程。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "行业案例",
+            "text": "银行做新型交易时工程师往往是首选；生命科学领域的研究和实验室工作越来越以工程为中心；制造业的供应链自动化也全是工程。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "趋势判断",
+            "text": "越来越多的工作呈现出软件问题的形态。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "未来展望",
+            "text": "未来我们确实不再手动编码，但几乎所有东西都将由代码构成，因此理解代码的人将处于极佳的位置。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2111494912562888939:dc3aaeb663dd367c": {
+      "itemId": "tweet:2111494912562888939",
+      "sourceHash": "dc3aaeb663dd367c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Amjad Masad：To clarify: Replit remains model agnostic. Our users can choose Anthropic...",
+      "url": "https://x.com/amasad/status/2111494912562888939",
+      "generatedAt": "2026-10-19T01:29:58.736Z",
+      "summary": {
+        "title": "Replit 澄清：保持模型无关，OpenAI 为当前首选合作伙伴",
+        "summary": "Replit 创始人 Amjad Masad 在 X 上澄清，Replit 依然保持模型无关（model agnostic），用户可以选择 Anthropic 模型以及其他多种支持的模型。他在 TechCrunch Disrupt 大会上的发言被误解为 Replit 将独家采用 OpenAI 模型，实际上他的意思是 OpenAI 现在是 Replit 的首选合作伙伴，基于性能、成本和合作关系的强度，为 Agent 提供动力。Replit 的理念是给用户模型选择权，同时优化默认体验，以最佳性能、最佳价格提供最好的服务。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Replit 依然保持模型无关，用户可以选择 Anthropic 模型以及其他多种支持的模型。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "澄清",
+            "text": "在 TechCrunch Disrupt 上的发言被误解，实际意思是 OpenAI 现在是 Replit 的首选合作伙伴，基于性能、成本和合作关系的强度，为 Agent 提供动力。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "理念",
+            "text": "我们相信给用户模型选择权，同时优化默认体验，以最佳性能、最佳价格提供最好的服务。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:8a1c6546-cdae-4bef-883d-56cb734967df:6d3bf389301be2e4": {
+      "itemId": "podcast:8a1c6546-cdae-4bef-883d-56cb734967df",
+      "sourceHash": "6d3bf389301be2e4",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "The MAD Podcast with Matt Turck: What Happens When Billions of AI Agents Hit Your Database? (Andy Pavlo)",
+      "url": "https://www.youtube.com/@DataDrivenNYC/videos",
+      "generatedAt": "2026-10-19T01:30:50.282Z",
+      "summary": {
+        "title": "当数十亿 AI 代理涌入你的数据库，会发生什么？",
+        "summary": "本期播客中，卡内基梅隆大学教授 Andy Pavlo 与 Matt Turck 深入探讨了 AI 代理对数据库系统的冲击与未来趋势。Pavlo 指出，向量数据库早在 2016 年就已存在，但直到 RAG 兴起才真正流行，其核心优势是近似最近邻搜索，用于语义查询而非精确关键词搜索。如今向量索引已成为数据库系统的标准功能，不再是差异化因素。代理的兴起带来了数据库分支（branching）的需求，用于开发和测试，避免影响生产数据库；同时代理可能因误操作删除数据库，需要设置防护栏（guardrails）来防止灾难。代理与人类在数据库交互上目前没有本质区别，但代理可以 24/7 运行，导致查询量可能增加 10 到 100 倍。代理生成的 SQL 查询可能比人类使用 BI 工具生成的查询更简单，但这一点尚不确定。Pavlo 认为一切皆数据库，文件系统也是数据库，代理记忆应存储在数据库系统中。代理在构建应用时倾向于推荐 PostgreSQL，因为模型训练数据中 PostgreSQL 相关内容较多。Pavlo 在向 AI 提问时经常被引用自己的课程材料，需要特别要求排除。他对图数据库持强烈意见，认为不需要原生图数据库，关系数据库通过 SQL 或 API 支持图遍历即可。SQL 标准在 2023 年增加了属性图查询支持，Oracle 已支持，Postgres 原计划今年支持但延迟或回滚。对于 OLTP 场景，Postgres 通常是首选；分析场景则另当别论。文本到 SQL 的基准测试（如 Spider）可能被模型训练过，导致结果虚高；实际应用中准确率可能只有 60%。一家大型银行通过多年投资丰富的语义层，将文本到 SQL 的准确率从 60% 提升到 99.5%。MCP（模型上下文协议）由 Anthropic 推出，被广泛采用，本质上是 REST 接口，用于代理与数据系统之间的标准通信。MCP 并非万能，但作为标准接口有利于互操作；其效率不高，因为发送人类可读文本，但足够好用。AI 代理可以构建数据库系统，Pavlo 在 CMU 的课程项目中，代理已能完成所有作业。数据库系统开发传统上需要十年，但代理可以加速开发，已有公司使用代理构建数据库。超过 60% 的开源数据库系统有来自 AI 代理的提交。Pavlo 在 CMU 的研究项目 Peloton 旨在实现自驱动数据库，早期面临训练数据不足的挑战。LLM 在数据库调优方面可达到 85% 的效果，且速度快，适合大多数用户。Pavlo 加入 ClickHouse 是因为其研究方向与 ClickHouse 的发展方向直接相关，包括 ClickHouse 系统本身及其 Postgres 服务，他可以在真实生产工作负载上评估研究想法并快速推向生产。Pavlo 在 2016 年曾怀疑 ClickHouse 是 vaporware，因为其功能过于强大，但后来证实是真实的。ClickHouse 的核心架构包括列式存储、向量化执行、内置压缩和日志结构存储，这些思想源自 Snowflake 和 VectorWise 等先前研究，但在 2016 年是开源的创新。ClickHouse 的用例包括 AI 代理遥测的实时观察、金融市场、欺诈检测等需要快速摄取和毫秒级复杂查询的场景。ClickHouse 公司通过提供 Postgres 服务、监控/可视化/可观测性栈以及 LLM 可观测性（收购 LengthFuse）来扩展产品线，Pavlo 认为这些举措合理。数据库市场趋势是分析型数据库公司增加事务型（OLTP）产品，如 Databricks 收购 Neon、Snowflake 收购 Crunchy，ClickHouse 也提供 Postgres 服务。Pavlo 认为从分析型数据库起步再增加 OLTP 产品是更明智的商业路径，但无法证明原因。混合事务/分析处理（HTAP）系统一直存在挑战，因为组织内不同团队（OLTP 和 OLAP）都希望使用各自领域的最佳系统，导致混合系统难以推广。向量数据库不会消失，它们将演变为通用系统（如 Postgres）或类似 Elasticsearch 的专用系统；Pavlo 认为 Turbo Puffer 在向量搜索的成本性能比上表现突出。Pavlo 认为图数据库是糟糕的想法，因为关系数据库通过优化可以高效处理图遍历，且 SQL 标准已支持属性图查询；他与人在 Hacker News 上打赌图数据库市场不会超过关系数据库。GPU 数据库是将查询执行卸载到 GPU 的数据系统，历史上多次尝试但受限于 PCIe 带宽和成本；NVIDIA 正在推动这一领域，但经济性存疑。Pavlo 认为 AI 代理工作负载可能对数据库系统架构产生重大影响，但目前尚不清楚具体变化，这是他在 ClickHouse 正在探索的问题。数据库领域在 2010 年代经历了爆发式发展，包括 SQL 与 NoSQL 之争，以及 Databricks、Snowflake、ClickHouse 等系统的兴起，但近期发展似乎有所放缓。数据库领域经历过多次活跃与停滞的周期：1970-80 年代关系型数据库活跃，1990 年代市场围绕 Oracle、IBM、Teradata 等大企业固化，2000-2010 年代再次活跃。与 AI 领域的发展速度相比，其他领域都显得停滞，AI 的发展速度在计算机科学史上前所未有。关系模型是数据表示的基础，不会因为 AI 而需要彻底抛弃，但可以在实现上进行优化以提高效率。SQL 可能会像汇编语言一样，虽然不再被直接编写，但作为底层仍然重要；尝试替换 SQL 可能是徒劳的。AI 代理的工作负载可能并不需要全新的数据系统，但向量查找等新特性需要额外的操作符和索引。ClickHouse、Snowflake、Databricks 等分析型数据库在核心架构上相似，真正的差异化在于用户界面、开发者体验、数据摄取和互操作性等外围功能。ClickHouse 在核心内核上与其他系统相似，但在外围功能上有所改进，这有助于扩大系统的使用范围。Pavlo 将自己加入 ClickHouse 比作嘻哈组合 Run the Jewels（由 El-P 和 Killer Mike 组成），认为双方各自独立但结合后效果很好。Pavlo 在博客文章中使用了嘻哈比喻，并试探 ClickHouse 是否接受这种风格，同时提到没有在文章中提及 Larry Ellison。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "向量数据库的核心优势是近似最近邻搜索，用于语义查询而非精确关键词搜索。",
+            "reference": "02:32 - 02:58"
+          },
+          {
+            "label": "数据",
+            "text": "代理可以 24/7 运行，导致查询量可能增加 10 到 100 倍。",
+            "reference": "13:40 - 13:59"
+          },
+          {
+            "label": "案例",
+            "text": "一家大型银行通过多年投资丰富的语义层，将文本到 SQL 的准确率从 60% 提升到 99.5%。",
+            "reference": "24:50 - 25:13"
+          },
+          {
+            "label": "数据",
+            "text": "超过 60% 的开源数据库系统有来自 AI 代理的提交。",
+            "reference": "30:16 - 30:42"
+          },
+          {
+            "label": "观点",
+            "text": "LLM 在数据库调优方面可达到 85% 的效果，且速度快，适合大多数用户。",
+            "reference": "34:24 - 34:44"
+          },
+          {
+            "label": "类比",
+            "text": "Pavlo 将自己加入 ClickHouse 比作嘻哈组合 Run the Jewels，认为双方各自独立但结合后效果很好。",
+            "reference": "1:15:36 - 1:15:50"
+          },
+          {
+            "label": "观点",
+            "text": "SQL 可能会像汇编语言一样，虽然不再被直接编写，但作为底层仍然重要；尝试替换 SQL 可能是徒劳的。",
+            "reference": "1:11:00 - 1:11:21"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2111508293818671449:f65e3cc21d333fa7": {
+      "itemId": "tweet:2111508293818671449",
+      "sourceHash": "f65e3cc21d333fa7",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：If you have way too many apps and agents (45!) connected to your Google account...",
+      "url": "https://x.com/petergyang/status/2111508293818671449",
+      "generatedAt": "2026-10-19T01:30:55.754Z",
+      "summary": {
+        "title": "Peter Yang 分享审计 Google 账户第三方应用连接的提示词",
+        "summary": "Peter Yang 在推文中分享了一个用于审计 Google 账户中过多第三方应用和智能体（他本人连接了 45 个）的提示词。该提示词要求 AI 助手：1）审查所有连接类别中的每个应用，并询问用户哪些仍在使用，而不是猜测；2）打开每个应用的详细信息，区分基本的 Google 登录与访问 Gmail、Drive、Calendar 等数据的权限；3）建议保留、断开连接或询问用户，解释理由和可能停止工作的功能，标记广泛权限、不熟悉的提供商和重复条目；4）在更改任何内容之前展示建议，仅断开用户明确批准的应用，然后验证它们已被移除，不删除应用账户或取消订阅。这条推文的价值在于提供了一个可复用的提示词模板，帮助用户系统性地清理 Google 账户的第三方访问权限，降低数据泄露和隐私风险。",
+        "excerpts": [
+          {
+            "label": "案例",
+            "text": "Peter Yang 自己连接了 45 个应用和智能体到 Google 账户，数量过多，需要审计。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "审计时应询问用户哪些应用仍在使用，而不是由 AI 猜测。",
+            "reference": "提示词第 1 点"
+          },
+          {
+            "label": "观点",
+            "text": "需要区分基本的 Google 登录与访问 Gmail、Drive、Calendar 等数据的权限，以识别高风险应用。",
+            "reference": "提示词第 2 点"
+          },
+          {
+            "label": "观点",
+            "text": "建议保留、断开或询问用户，并解释理由和可能停止工作的功能，同时标记广泛权限、不熟悉的提供商和重复条目。",
+            "reference": "提示词第 3 点"
+          },
+          {
+            "label": "观点",
+            "text": "在更改任何内容之前展示建议，仅断开用户明确批准的应用，然后验证它们已被移除，不删除应用账户或取消订阅。",
+            "reference": "提示词第 4 点"
           }
         ],
         "materials": []
