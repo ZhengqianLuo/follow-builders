@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-19T01:30:55.755Z",
+  "updatedAt": "2026-10-20T01:58:57.886Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -15946,6 +15946,131 @@
             "label": "观点",
             "text": "在更改任何内容之前展示建议，仅断开用户明确批准的应用，然后验证它们已被移除，不删除应用账户或取消订阅。",
             "reference": "提示词第 4 点"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2112034063934742720:c518026002429598": {
+      "itemId": "tweet:2112034063934742720",
+      "sourceHash": "c518026002429598",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Our team worked with OpenCode to have their users who are also OpenAI API...",
+      "url": "https://x.com/thsottiaux/status/2112034063934742720",
+      "generatedAt": "2026-10-20T01:58:43.996Z",
+      "summary": {
+        "title": "Thibault Sottiaux 宣布与 OpenCode 合作，帮助受攻击影响的 OpenAI API 客户恢复业务并退款",
+        "summary": "Thibault Sottiaux 在推文中表示，其团队与 OpenCode 合作，帮助那些同时是 OpenAI API 客户的 OpenCode 用户恢复业务，并退还因攻击而被扣取的任何积分。此外，用户还可以申请 Daybreak Blue 访问权限，以使用其网络许可设置进行防御。他呼吁不要等到必须处理安全事件时才行动，并强调团队随时准备提供帮助。这条推文展示了在安全事件后，服务提供商如何主动协助受影响用户，并推广其防御性安全产品。",
+        "excerpts": [
+          {
+            "label": "合作行动",
+            "text": "我们的团队与 OpenCode 合作，让那些同时是 OpenAI API 客户的用户恢复业务，并退还攻击中可能被扣取的任何积分。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "防御资源",
+            "text": "你可以申请 Daybreak Blue 访问权限，使用我们的网络许可设置进行防御。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "行动呼吁",
+            "text": "不要等到必须处理安全事件时才行动。我们随时准备提供帮助。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2112051081014649303:65f866c10e951711": {
+      "itemId": "tweet:2112051081014649303",
+      "sourceHash": "65f866c10e951711",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Here’s why agent swarms are going to be a very big deal. We can finally make...",
+      "url": "https://x.com/levie/status/2112051081014649303",
+      "generatedAt": "2026-10-20T01:58:52.158Z",
+      "summary": {
+        "title": "Aaron Levie：为什么 agent swarms 将是一件大事",
+        "summary": "Aaron Levie 在这条推文中阐述了 agent swarms（智能体集群）将产生重大影响的原因。他指出，我们终于可以将算力作为经济中大量重要任务的关键变量，这在以前是不可能的。世界上有大量工作本质上只受限于我们投入研究、数据处理、发现工作、运行测试等的时间。这些工作都受制于我们规划、执行、审查和协调工作流中所有事情的能力。这意味着相对于它们的经济价值，我们今天实际上很少做这些工作。Agent swarms 是第一次真正能够并行化这些工作的能力，理论上，唯一重要的参数是你向问题投入多少算力。网络安全、生命科学或材料科学研究、交易、QA 测试、数据处理以及许多其他领域，一旦模型在这些任务上足够好，本质上就是受算力约束的问题。突破在于，在一个智能体可以使用工具、编写代码、处理数据、具有强大领域深度并能相互协调的世界里，你可以通过设定正确的目标并向问题投入足够的 token 来开始解决任意复杂的问题。这改变了许多领域，甚至改变了这些领域的竞争动态。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "我们终于可以将算力作为经济中大量重要任务的关键变量，这在以前是不可能的。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "瓶颈分析",
+            "text": "世界上有大量工作本质上只受限于我们投入研究、数据处理、发现工作、运行测试等的时间。这些工作都受制于我们规划、执行、审查和协调工作流中所有事情的能力。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "经济价值对比",
+            "text": "这意味着相对于它们的经济价值，我们今天实际上很少做这些工作。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "Agent swarms 的定义",
+            "text": "Agent swarms 是第一次真正能够并行化这些工作的能力，理论上，唯一重要的参数是你向问题投入多少算力。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "应用领域",
+            "text": "网络安全、生命科学或材料科学研究、交易、QA 测试、数据处理以及许多其他领域，一旦模型在这些任务上足够好，本质上就是受算力约束的问题。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "突破性机制",
+            "text": "在一个智能体可以使用工具、编写代码、处理数据、具有强大领域深度并能相互协调的世界里，你可以通过设定正确的目标并向问题投入足够的 token 来开始解决任意复杂的问题。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "影响范围",
+            "text": "这改变了许多领域，甚至改变了这些领域的竞争动态。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2111970651326267529:efeebb0d300e0dcf": {
+      "itemId": "tweet:2111970651326267529",
+      "sourceHash": "efeebb0d300e0dcf",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：Make work trials the norm for hiring instead of interviews. From @APompliano:...",
+      "url": "https://x.com/petergyang/status/2111970651326267529",
+      "generatedAt": "2026-10-20T01:58:57.886Z",
+      "summary": {
+        "title": "Peter Yang：用工作试用取代面试，让招聘更高效",
+        "summary": "Peter Yang 在推文中引用 Anthony Pompliano 的观点，主张将工作试用作为招聘常态，而非传统面试。Pompliano 分享了一个案例：他们有一个具体功能需要开发，直接对候选人说‘你有两周时间，把它做出来’。候选人虽然有些疑问并试图了解情况，但最终完成了功能。Pompliano 认为，这种方式让他无需质疑候选人能否胜任工作，而且没有浪费四周时间，还直接上线了一个新功能。推文附带了完整播客链接，并标注了互动数据（12 次点赞、20 条回复）。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "让工作试用成为招聘常态，而不是面试。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "我们有一个具体功能要开发，就直接对候选人说：‘你有两周时间，把它做出来。’",
+            "reference": "引用 Pompliano 的话"
+          },
+          {
+            "label": "案例",
+            "text": "他有一些疑问，试图了解情况……但他把它做出来了。",
+            "reference": "引用 Pompliano 的话"
+          },
+          {
+            "label": "金句",
+            "text": "老兄，我不用再质疑你能不能在这里工作了。",
+            "reference": "引用 Pompliano 的话"
+          },
+          {
+            "label": "数据",
+            "text": "我们没有浪费四周时间才达到那个点，我们直接上线了一个新功能。",
+            "reference": "引用 Pompliano 的话"
+          },
+          {
+            "label": "链接",
+            "text": "观看完整节目：https://t.co/83Atcrj78o",
+            "reference": "推文末尾"
           }
         ],
         "materials": []
