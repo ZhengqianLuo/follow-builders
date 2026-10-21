@@ -13500,7 +13500,127 @@
       "title": "Peter Yang：Make work trials the norm for hiring instead of interviews. From @APompliano:...",
       "url": "https://x.com/petergyang/status/2111970651326267529",
       "sentAt": "2026-10-20T01:59:00.092Z"
+    },
+    "tweet:2112268918681485431": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Day 15/ We're cooked https://t.co/ciJpOJlmOn",
+      "url": "https://x.com/thsottiaux/status/2112268918681485431",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "topic:Thibault Sottiaux：Day 15/ We're cooked https://t.co/ciJpOJlmOn": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Day 15/ We're cooked https://t.co/ciJpOJlmOn",
+      "url": "https://x.com/thsottiaux/status/2112268918681485431",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "tweet:2112219173288120531": {
+      "type": "tweet",
+      "title": "Thariq：I think most people multi-tasking with agents could benefit from slowing down...",
+      "url": "https://x.com/trq212/status/2112219173288120531",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "topic:Thariq：I think most people multi-tasking with agents could benefit from slowing down...": {
+      "type": "topic",
+      "title": "Thariq：I think most people multi-tasking with agents could benefit from slowing down...",
+      "url": "https://x.com/trq212/status/2112219173288120531",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "tweet:2112247046082363821": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：We open sourced a *really fast* HTML artifact builder. It's powered by libfx,...",
+      "url": "https://x.com/rauchg/status/2112247046082363821",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "topic:Guillermo Rauch：We open sourced a *really fast* HTML artifact builder. It's powered by libfx,...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：We open sourced a *really fast* HTML artifact builder. It's powered by libfx,...",
+      "url": "https://x.com/rauchg/status/2112247046082363821",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "tweet:2112432076767289678": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Day 15/ Nevermind, we're still cooking... and reset. Enjoy....",
+      "url": "https://x.com/thsottiaux/status/2112432076767289678",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "topic:Thibault Sottiaux：Day 15/ Nevermind, we're still cooking... and reset. Enjoy....": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Day 15/ Nevermind, we're still cooking... and reset. Enjoy....",
+      "url": "https://x.com/thsottiaux/status/2112432076767289678",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "tweet:2112278352514162834": {
+      "type": "tweet",
+      "title": "Garry Tan：Multiplayer agents as group chat seems quite inevitable and Wabi's built it...",
+      "url": "https://x.com/garrytan/status/2112278352514162834",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "topic:Garry Tan：Multiplayer agents as group chat seems quite inevitable and Wabi's built it...": {
+      "type": "topic",
+      "title": "Garry Tan：Multiplayer agents as group chat seems quite inevitable and Wabi's built it...",
+      "url": "https://x.com/garrytan/status/2112278352514162834",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "tweet:2112194000639967590": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：More free AI https://t.co/9Jd42XA7rw",
+      "url": "https://x.com/rauchg/status/2112194000639967590",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "topic:Guillermo Rauch：More free AI https://t.co/9Jd42XA7rw": {
+      "type": "topic",
+      "title": "Guillermo Rauch：More free AI https://t.co/9Jd42XA7rw",
+      "url": "https://x.com/rauchg/status/2112194000639967590",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "tweet:2112256718281551955": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：1,000 tokens per second btw https://t.co/BdATqYu71F",
+      "url": "https://x.com/rauchg/status/2112256718281551955",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "topic:Guillermo Rauch：1,000 tokens per second btw https://t.co/BdATqYu71F": {
+      "type": "topic",
+      "title": "Guillermo Rauch：1,000 tokens per second btw https://t.co/BdATqYu71F",
+      "url": "https://x.com/rauchg/status/2112256718281551955",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "tweet:2112404676436222170": {
+      "type": "tweet",
+      "title": "Aaron Levie：The big bitter lesson question in the applied AI layer is that as models get...",
+      "url": "https://x.com/levie/status/2112404676436222170",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "topic:Aaron Levie：The big bitter lesson question in the applied AI layer is that as models get...": {
+      "type": "topic",
+      "title": "Aaron Levie：The big bitter lesson question in the applied AI layer is that as models get...",
+      "url": "https://x.com/levie/status/2112404676436222170",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "tweet:2112230653924192274": {
+      "type": "tweet",
+      "title": "Dan Shipper：so proud of Quinten + Ajay and team! they've been pushing the boundaries of...",
+      "url": "https://x.com/danshipper/status/2112230653924192274",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "topic:Dan Shipper：so proud of Quinten + Ajay and team! they've been pushing the boundaries of...": {
+      "type": "topic",
+      "title": "Dan Shipper：so proud of Quinten + Ajay and team! they've been pushing the boundaries of...",
+      "url": "https://x.com/danshipper/status/2112230653924192274",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "tweet:2112219327881761008": {
+      "type": "tweet",
+      "title": "Nikunj Kothari：A few weeks ago, I was ranting about multiplayer AI experiences and that's when...",
+      "url": "https://x.com/nikunj/status/2112219327881761008",
+      "sentAt": "2026-10-21T01:49:59.879Z"
+    },
+    "topic:Nikunj Kothari：A few weeks ago, I was ranting about multiplayer AI experiences and that's when...": {
+      "type": "topic",
+      "title": "Nikunj Kothari：A few weeks ago, I was ranting about multiplayer AI experiences and that's when...",
+      "url": "https://x.com/nikunj/status/2112219327881761008",
+      "sentAt": "2026-10-21T01:49:59.879Z"
     }
   },
-  "updatedAt": "2026-10-20T01:59:00.092Z"
+  "updatedAt": "2026-10-21T01:49:59.879Z"
 }

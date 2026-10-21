@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-20T01:58:57.886Z",
+  "updatedAt": "2026-10-21T01:49:57.978Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -16071,6 +16071,137 @@
             "label": "链接",
             "text": "观看完整节目：https://t.co/83Atcrj78o",
             "reference": "推文末尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2112247046082363821:ed120ca7e5a10c55": {
+      "itemId": "tweet:2112247046082363821",
+      "sourceHash": "ed120ca7e5a10c55",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：We open sourced a *really fast* HTML artifact builder. It's powered by libfx,...",
+      "url": "https://x.com/rauchg/status/2112247046082363821",
+      "generatedAt": "2026-10-21T01:49:45.180Z",
+      "summary": {
+        "title": "Guillermo Rauch 开源超快 HTML artifact 构建器，基于 libfx 让 AI 代理更耐用",
+        "summary": "Vercel CEO Guillermo Rauch 宣布开源了一个“非常快”的 HTML artifact 构建器，它由 libfx 驱动，使 AI 代理更加耐用。他提到，为 v0 构建底层管道以应对服务器崩溃、不稳定的 LLM 和函数限制曾是一项巨大的痛苦，而现在这一切变得简单、免费且开源。他还分享了一个用该工具在几分钟内构建的浮动容器示例，称其令人愉悦且只是 HTML。该推文获得了 1662 个赞、102 次转发和 149 条回复，显示出社区对高效、健壮的 AI 代理基础设施的浓厚兴趣。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "我们开源了一个非常快的 HTML artifact 构建器，它由 libfx 驱动，使代理变得耐用。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "痛点描述",
+            "text": "为 v0 构建底层管道以应对服务器崩溃、不稳定的 LLM 和函数限制曾是一项巨大的痛苦。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "价值主张",
+            "text": "现在它变得简单、免费且开源。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "案例展示",
+            "text": "我在几分钟内构建了这个浮动容器……它令人愉悦，而且只是 HTML！",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "社区反响",
+            "text": "该推文获得 1662 个赞、102 次转发和 149 条回复，显示开发者对高效 AI 代理工具的高度关注。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": [
+          {
+            "label": "开源项目链接",
+            "url": "https://t.co/aUP1vKeIsP",
+            "note": "查看开源 HTML artifact 构建器的代码仓库和文档"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2112404676436222170:d02fdc42d247b49b": {
+      "itemId": "tweet:2112404676436222170",
+      "sourceHash": "d02fdc42d247b49b",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：The big bitter lesson question in the applied AI layer is that as models get...",
+      "url": "https://x.com/levie/status/2112404676436222170",
+      "generatedAt": "2026-10-21T01:49:51.893Z",
+      "summary": {
+        "title": "模型越强，应用层越需要领域深耕：Aaron Levie 论 AI 的苦涩教训",
+        "summary": "Box CEO Aaron Levie 在推文中探讨了应用层 AI 的“苦涩教训”问题：随着基础模型能力不断增强，企业应如何将智能扩散到业务中。他提出一个反直觉观点：模型越强大、越能处理长任务和工具调用，按领域进行差异化的空间反而越大，而非越小。在模型能力有限时，应用只能做“套壳”，因为交付的只是定制提示词或有限 RAG 返回的 token。但在智能体使用工具、任务运行数小时或数天、工作流触发智能体、需要协调智能体群体达成目标、数据源领域特定、模型路由需要领域特定路由、实施需要真正的工作流变革管理（而非“只需在聊天框输入”）的世界里，系统的专业化程度很可能大幅提升。Levie 承认这不适用于所有场景，越接近大模型实验室核心用例，差异化越难。但他预测，在安全、生命科学、医疗、金融、制造等领域，将出现以前不切实际的自主系统。未来几年将充满乐趣和疯狂。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "模型越强，按领域进行差异化的能力反而上升，而不是下降。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "对比论证",
+            "text": "当模型能力有限时，你只能做一个“套壳”，因为你实际上只是用自定义提示词或有限的 RAG 把 token 返回给用户。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "未来场景",
+            "text": "在智能体使用工具、任务运行数小时或数天、工作流触发智能体、需要协调智能体群体达成目标、数据源领域特定、模型路由需要领域特定路由、实施需要真正的工作流变革管理的世界里，系统的专业化程度会大幅提升。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "适用范围",
+            "text": "这并不适用于所有场景——越接近大模型实验室的核心用例，差异化就越难。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "行业预测",
+            "text": "我们将在安全、生命科学、医疗、金融、制造等许多领域看到以前不切实际的自主系统。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2112219327881761008:784fb0955880a199": {
+      "itemId": "tweet:2112219327881761008",
+      "sourceHash": "784fb0955880a199",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：A few weeks ago, I was ranting about multiplayer AI experiences and that's when...",
+      "url": "https://x.com/nikunj/status/2112219327881761008",
+      "generatedAt": "2026-10-21T01:49:57.978Z",
+      "summary": {
+        "title": "Nikunj Kothari 谈 Wabi 2.0：多智能体 AI 体验的正确范式",
+        "summary": "Nikunj Kothari 在推文中分享了他对 Wabi 2.0 的体验。他此前对多智能体 AI 体验持批评态度，但 Wabi 2.0 让他立即着迷。他认为当前个人智能体分为两类：单机版（如 iMessage 或 Muse）难以在多任务中区隔，而自建多聊天 Hermes 智能体虽可共享上下文但永久存在。Wabi 2.0 引入了编排器（主智能体）和针对特定主题的临时聊天范式，这些聊天可共享、主动生成且无需永久保留。他举例说明纽约旅行和 2025 年税务的聊天在任务完成后自动归档。他批评该产品过于主动、应用有待改进，但认为这是值得尝试的优秀产品，并强调自己并非付费推广或投资者。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Wabi 2.0 的范式是编排器（主智能体）加上针对单一目的的主题临时聊天，这些聊天可以共享、主动生成，并且不需要永久存在。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "对于最近的纽约之行，Wabi 根据它看到的航班信息生成了聊天，在需要时提供帮助，旅行结束后该聊天被归档。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "2025 年的税务聊天也在任务完成后被归档。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "当前个人智能体分为两类：单机版（如 iMessage 或 Muse）在多任务时难以区隔；自建多聊天 Hermes 智能体虽可共享上下文但永久存在。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "批评",
+            "text": "Wabi 2.0 目前过于主动，应用本身还有改进空间，需要调整这两方面。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "声明",
+            "text": "作者强调自己既不是付费推广，也不是投资者，只是粉丝。",
+            "reference": "推文原文"
           }
         ],
         "materials": []
