@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-21T01:49:57.978Z",
+  "updatedAt": "2026-10-22T01:41:00.167Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -16202,6 +16202,166 @@
             "label": "声明",
             "text": "作者强调自己既不是付费推广，也不是投资者，只是粉丝。",
             "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2112592264686149749:645b722fb34b82a6": {
+      "itemId": "tweet:2112592264686149749",
+      "sourceHash": "645b722fb34b82a6",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：There were reports of usage draining faster than anticipated for some users...",
+      "url": "https://x.com/thsottiaux/status/2112592264686149749",
+      "generatedAt": "2026-10-22T01:40:43.382Z",
+      "summary": {
+        "title": "Thibault Sottiaux 回应部分用户用量异常消耗问题",
+        "summary": "Thibault Sottiaux 在 X 上发布动态，回应周末部分用户用量消耗速度超出预期的问题。团队已识别出约 40,000 个账户存在用量限制不一致的情况，即实际应用的用量与用户所选套餐不符。团队正在逐一联系受影响的用户，并已修正该问题。对于受影响的用户，将向其账户添加积分作为补偿。Sottiaux 为此错误致歉。该动态获得 10601 次点赞、325 次转发和 2501 条回复，显示用户对此问题高度关注。",
+        "excerpts": [
+          {
+            "label": "问题描述",
+            "text": "周末有报告称部分用户的用量消耗速度比预期更快。",
+            "reference": "原文开头"
+          },
+          {
+            "label": "影响范围",
+            "text": "已识别出约 40,000 个账户存在用量限制不一致的问题。",
+            "reference": "原文中段"
+          },
+          {
+            "label": "问题原因",
+            "text": "实际应用的用量与用户实际选择的套餐不符。",
+            "reference": "原文中段"
+          },
+          {
+            "label": "处理措施",
+            "text": "团队正在逐一联系所有受影响的用户，并已修正该问题。",
+            "reference": "原文后段"
+          },
+          {
+            "label": "补偿方案",
+            "text": "如果用户受到影响，将向其账户添加积分。",
+            "reference": "原文后段"
+          },
+          {
+            "label": "道歉声明",
+            "text": "Sottiaux 表示：“抱歉我们搞错了。”",
+            "reference": "原文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2112658577110520122:f0b65cad97d83573": {
+      "itemId": "tweet:2112658577110520122",
+      "sourceHash": "f0b65cad97d83573",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Much like we did with @aisdk, we're bringing a truly open-source,...",
+      "url": "https://x.com/rauchg/status/2112658577110520122",
+      "generatedAt": "2026-10-22T01:40:48.898Z",
+      "summary": {
+        "title": "Guillermo Rauch：为所有 harness 带来真正开源、运行时无关的持久化方案",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中宣布，继 @aisdk 之后，他们将把支撑 @eve 和 Workflows 的持久化基础设施扩展到所有 harness，包括 Pi 和 OpenCode，并支持本地、Vercel 或自托管部署。他强调该方案是真正开源且运行时无关的，旨在让 AI 代理具备持久化能力。他还提到一个有趣的事实：即使是 Claude Code 和 Codex 也能通过这种方式获得持久化和可观测性，但指出这些工具目前并非为嵌入而设计，因此与 Pi 或 Fx 相比，效率更低、可移植性更差，并且需要额外的沙箱环境。这条推文展示了 Vercel 在 AI 开发工具领域的开源策略和生态扩展意图，对关注 AI 代理基础设施的开发者有参考价值。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "就像我们为 @aisdk 所做的那样，我们正在带来一个真正开源、运行时无关的解决方案来利用持久化能力。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "扩展范围",
+            "text": "我们将把支撑 @eve 和 Workflows 的持久化基础设施扩展到所有 harness，比如 Pi 和 OpenCode。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "部署灵活性",
+            "text": "支持本地、Vercel 或 DIY 部署。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "有趣事实",
+            "text": "即使是 Claude Code 和 Codex 也能通过这种方式变得持久化（并且可观测！）。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "限制说明",
+            "text": "问题在于：它们（Claude Code 和 Codex）目前并非为嵌入而设计，这使得它们与 Pi 或 Fx 相比效率更低、可移植性更差，并且需要额外的沙箱环境。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2112605703219347503:811a731cc73bf831": {
+      "itemId": "tweet:2112605703219347503",
+      "sourceHash": "811a731cc73bf831",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Steinberger：Astra did the planning, Sol 6.1 did the coding. I found that the workflow of...",
+      "url": "https://x.com/steipete/status/2112605703219347503",
+      "generatedAt": "2026-10-22T01:40:53.223Z",
+      "summary": {
+        "title": "Peter Steinberger：Astra 规划、Sol 6.1 编码，双智能体工作流优于子代理",
+        "summary": "Peter Steinberger 分享了他使用 Astra 和 Sol 6.1 的实践经验：让 Astra 负责规划，Sol 6.1 负责编码，并发现通过提示 Astra 在工作树（worktrees）中运行 codex cli 的工作流，远比依赖子代理（subagents）更有效。他还引入第二个智能体来监督工作，确保 Astra 不偏离轨道，类似于 /goal 功能，但由第二个智能体进行挑战而非同一智能体审查文本文件。他为此编写了一个 OC 插件来实现这个“智能目标”功能。该推文获得了 161 个赞、10 次转发和 13 条回复，反映了社区对多智能体协作工作流的兴趣。",
+        "excerpts": [
+          {
+            "label": "核心工作流",
+            "text": "Astra 负责规划，Sol 6.1 负责编码。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "关键发现",
+            "text": "提示 Astra 在工作树中运行 codex cli 的工作流，远比依赖子代理更有效。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "监督机制",
+            "text": "第二个智能体监督工作，确保 Astra 不偏离轨道，类似于 /goal 但由第二个智能体挑战。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "工具实现",
+            "text": "为此编写了一个 OC 插件来实现这个“智能目标”功能。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2112769686798832013:fa820789ebde4acf": {
+      "itemId": "tweet:2112769686798832013",
+      "sourceHash": "fa820789ebde4acf",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Pretty cool that we clearly have an emerging form factor for what AI might look...",
+      "url": "https://x.com/levie/status/2112769686798832013",
+      "generatedAt": "2026-10-22T01:41:00.167Z",
+      "summary": {
+        "title": "Aaron Levie：AI 正从 LLM 包装器迈向专用自主系统",
+        "summary": "Aaron Levie 在推文中指出，AI 正在形成一种新的形态：针对特定任务或领域的自主系统。这比之前的 LLM 包装器时代有了巨大飞跃，因为现在人们可以将更复杂的工作交给智能体，并相信它能可靠完成（仍有人类参与）。他分析了三个关键驱动因素：1）模型工具和计算机使用能力的提升，使智能体能够像人一样操作外部数据系统和软件，甚至自己构建缺失的软件；2）模型在各垂直领域的能力持续增强，能在法律、生物研究、代码安全、供应链等方面做出更好的判断；3）沙箱、文件系统、数据管道等基础设施的成熟，支持长时间运行、处理复杂任务和大规模数据。结合合适的用户体验、实施和变革管理，这些自主系统将在企业工作流中变得非常强大，已在 IT 自动化、网络运营、药物发现、制造、AI 研究等领域出现，未来可能覆盖经济中的每个角色。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 正在形成一种新兴形态：针对特定任务或领域的自主系统，这是对 LLM 包装器时代的巨大飞跃。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "关键论证",
+            "text": "工具和计算机使用能力的提升，使智能体能够像人一样执行工作流，甚至自己构建缺失的软件，这是一个巨大的解锁。",
+            "reference": "推文第 1 点"
+          },
+          {
+            "label": "关键论证",
+            "text": "模型在各垂直领域的能力持续增强，能在法律、生物研究、代码安全、供应链等方面做出更好的判断，尽管直觉仍不如人类，但会不断改善。",
+            "reference": "推文第 2 点"
+          },
+          {
+            "label": "关键论证",
+            "text": "沙箱、文件系统、数据管道等基础设施的成熟，支持长时间运行、处理复杂任务和大规模数据，这些组件一年前还很少能用于 AI。",
+            "reference": "推文第 3 点"
+          },
+          {
+            "label": "应用案例",
+            "text": "自主系统已出现在 IT 自动化、网络运营、药物发现、制造、AI 研究等领域，未来可能覆盖经济中的每个角色。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
