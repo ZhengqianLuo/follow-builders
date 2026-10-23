@@ -13740,7 +13740,127 @@
       "title": "Aaron Levie：Pretty cool that we clearly have an emerging form factor for what AI might look...",
       "url": "https://x.com/levie/status/2112769686798832013",
       "sentAt": "2026-10-22T01:41:02.128Z"
+    },
+    "tweet:2112913060709228764": {
+      "type": "tweet",
+      "title": "Peter Steinberger：That PHP vulnerability that’s gonna cause havoc this week was found with…...",
+      "url": "https://x.com/steipete/status/2112913060709228764",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "topic:Peter Steinberger：That PHP vulnerability that’s gonna cause havoc this week was found with…...": {
+      "type": "topic",
+      "title": "Peter Steinberger：That PHP vulnerability that’s gonna cause havoc this week was found with…...",
+      "url": "https://x.com/steipete/status/2112913060709228764",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "tweet:2113029655095836957": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Dot, Dotter, Dottest",
+      "url": "https://x.com/thsottiaux/status/2113029655095836957",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "topic:Thibault Sottiaux：Dot, Dotter, Dottest": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Dot, Dotter, Dottest",
+      "url": "https://x.com/thsottiaux/status/2113029655095836957",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "tweet:2112984669943968099": {
+      "type": "tweet",
+      "title": "Claude：Claude Duet is an early research preview, available through a waitlist on Pro...",
+      "url": "https://x.com/claudeai/status/2112984669943968099",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "topic:Claude：Claude Duet is an early research preview, available through a waitlist on Pro...": {
+      "type": "topic",
+      "title": "Claude：Claude Duet is an early research preview, available through a waitlist on Pro...",
+      "url": "https://x.com/claudeai/status/2112984669943968099",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "tweet:2112984666437546104": {
+      "type": "tweet",
+      "title": "Claude：We designed Claude Duet around Claude Opus 5.5, which gives it the judgment to...",
+      "url": "https://x.com/claudeai/status/2112984666437546104",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "topic:Claude：We designed Claude Duet around Claude Opus 5.5, which gives it the judgment to...": {
+      "type": "topic",
+      "title": "Claude：We designed Claude Duet around Claude Opus 5.5, which gives it the judgment to...",
+      "url": "https://x.com/claudeai/status/2112984666437546104",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "tweet:2112984667758510197": {
+      "type": "tweet",
+      "title": "Claude：Claude Duet draws on years of our safety and security work on agents. It never...",
+      "url": "https://x.com/claudeai/status/2112984667758510197",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "topic:Claude：Claude Duet draws on years of our safety and security work on agents. It never...": {
+      "type": "topic",
+      "title": "Claude：Claude Duet draws on years of our safety and security work on agents. It never...",
+      "url": "https://x.com/claudeai/status/2112984667758510197",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "tweet:2113029854417600834": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Fully included in the Pro plan, doesn't draw on your weekly usage.",
+      "url": "https://x.com/thsottiaux/status/2113029854417600834",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "topic:Thibault Sottiaux：Fully included in the Pro plan, doesn't draw on your weekly usage.": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Fully included in the Pro plan, doesn't draw on your weekly usage.",
+      "url": "https://x.com/thsottiaux/status/2113029854417600834",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "tweet:2112997559463506059": {
+      "type": "tweet",
+      "title": "Dan Shipper：BREAKING: @AnthropicAI just launched Duet, its always-on personal agent. It’s...",
+      "url": "https://x.com/danshipper/status/2112997559463506059",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "topic:Dan Shipper：BREAKING: @AnthropicAI just launched Duet, its always-on personal agent. It’s...": {
+      "type": "topic",
+      "title": "Dan Shipper：BREAKING: @AnthropicAI just launched Duet, its always-on personal agent. It’s...",
+      "url": "https://x.com/danshipper/status/2112997559463506059",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "tweet:2112988751576330487": {
+      "type": "tweet",
+      "title": "Cat Wu：We heard your feedback that you want Claude to proactively take more off your...",
+      "url": "https://x.com/_catwu/status/2112988751576330487",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "topic:Cat Wu：We heard your feedback that you want Claude to proactively take more off your...": {
+      "type": "topic",
+      "title": "Cat Wu：We heard your feedback that you want Claude to proactively take more off your...",
+      "url": "https://x.com/_catwu/status/2112988751576330487",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "tweet:2113050053724221732": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Vercel has proactively rolled out Firewall-level mitigations for today's...",
+      "url": "https://x.com/rauchg/status/2113050053724221732",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "topic:Guillermo Rauch：Vercel has proactively rolled out Firewall-level mitigations for today's...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Vercel has proactively rolled out Firewall-level mitigations for today's...",
+      "url": "https://x.com/rauchg/status/2113050053724221732",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "tweet:2112964214818283917": {
+      "type": "tweet",
+      "title": "Aaron Levie：Cyber is going to be one of the most profound aspects of AI. We now have a...",
+      "url": "https://x.com/levie/status/2112964214818283917",
+      "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "topic:Aaron Levie：Cyber is going to be one of the most profound aspects of AI. We now have a...": {
+      "type": "topic",
+      "title": "Aaron Levie：Cyber is going to be one of the most profound aspects of AI. We now have a...",
+      "url": "https://x.com/levie/status/2112964214818283917",
+      "sentAt": "2026-10-23T01:44:02.561Z"
     }
   },
-  "updatedAt": "2026-10-22T01:41:02.128Z"
+  "updatedAt": "2026-10-23T01:44:02.561Z"
 }

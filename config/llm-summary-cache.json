@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-22T01:41:00.167Z",
+  "updatedAt": "2026-10-23T01:44:00.794Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -16361,6 +16361,147 @@
           {
             "label": "应用案例",
             "text": "自主系统已出现在 IT 自动化、网络运营、药物发现、制造、AI 研究等领域，未来可能覆盖经济中的每个角色。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2112997559463506059:78a181809f307d22": {
+      "itemId": "tweet:2112997559463506059",
+      "sourceHash": "78a181809f307d22",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Dan Shipper：BREAKING: @AnthropicAI just launched Duet, its always-on personal agent. It’s...",
+      "url": "https://x.com/danshipper/status/2112997559463506059",
+      "generatedAt": "2026-10-23T01:43:50.574Z",
+      "summary": {
+        "title": "Dan Shipper：Anthropic 发布常驻个人代理 Duet，我两周测试后从 ChatGPT 转向五五开",
+        "summary": "Dan Shipper 在推文中宣布 Anthropic 刚刚发布了 Duet，一个常驻的个人代理（always-on personal agent），并称这是他第一次愿意称之为专业工具的个人代理。他和团队已经测试了两周，自己的使用习惯从主要使用 ChatGPT 转变为 ChatGPT 和 Claude 大约五五开，这是近一年来他花在 Anthropic 产品上最多的时间。Duet 的特点包括：拥有独立于 Claude 的 App，覆盖 iOS、Android 和 Web，界面干净易懂；采用频道（channels）来组织工作和生活的不同领域，而不是单一聊天；内置待办清单，让用户不会丢失正在处理的事项并随时查看状态；可以在 App 内轻松撰写和编辑文档、幻灯片等。但 Duet 还不是“幕僚长”级别的代理：它能看见电脑上的 Claude 会话但不能指挥它们；邮件草稿质量不如 dot；语音仅支持转录，无法进行口语对话。Dan 的结论是氛围很好，他每天都会打开 Duet，值得一试，并附上了代理对比页面链接，完整的 Vibe Check 即将发布在 @every。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "这是第一个我会称之为专业工具的个人代理。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "数据",
+            "text": "测试两周后，我从主要使用 ChatGPT 转变为 ChatGPT 和 Claude 大约五五开，这是近一年来我花在 Anthropic 产品上最多的时间。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "案例",
+            "text": "Duet 拥有独立于 Claude 的 App，在 iOS、Android 和 Web 上运行，界面干净易懂。",
+            "reference": "推文要点一"
+          },
+          {
+            "label": "案例",
+            "text": "Duet 用频道来组织工作和生活的不同领域，而不是只有一个聊天窗口。",
+            "reference": "推文要点二"
+          },
+          {
+            "label": "案例",
+            "text": "Duet 内置待办清单，让你不会丢失正在处理的事项，并随时查看状态。",
+            "reference": "推文要点三"
+          },
+          {
+            "label": "案例",
+            "text": "你可以在 App 内轻松撰写和编辑文档、幻灯片等。",
+            "reference": "推文要点四"
+          },
+          {
+            "label": "观点",
+            "text": "它还不是幕僚长：能看见电脑上的 Claude 会话但不能指挥它们；邮件草稿不如 dot；语音仅转录，无法口语对话。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "观点",
+            "text": "我的结论：氛围很好，我每天都会打开 Duet，值得一试。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": [
+          {
+            "label": "代理对比页面",
+            "url": "https://t.co/fZyTorNK4p",
+            "note": "查看 Duet 与其他个人代理的对比详情"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2113050053724221732:5b4f85c8b15d46c1": {
+      "itemId": "tweet:2113050053724221732",
+      "sourceHash": "5b4f85c8b15d46c1",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Vercel has proactively rolled out Firewall-level mitigations for today's...",
+      "url": "https://x.com/rauchg/status/2113050053724221732",
+      "generatedAt": "2026-10-23T01:43:55.494Z",
+      "summary": {
+        "title": "Vercel 在官方补丁发布前主动部署防火墙级缓解措施，应对 Node.js RCE 漏洞",
+        "summary": "Vercel CEO Guillermo Rauch 在 X 上宣布，针对当天披露的 Node.js 远程代码执行（RCE）漏洞，Vercel 已在官方补丁发布之前主动推出了防火墙级别的缓解措施。所有部署的所有流量都会自动受到保护，无需用户操作。Vercel 正在积极监控并逐步推出托管运行时升级。该推文获得了 1449 个赞、58 次转发和 81 条回复，表明社区对此高度关注。这一举措体现了平台在安全响应上的主动性和对用户业务的保护能力，值得关注的是 Vercel 如何在补丁空窗期通过边缘防火墙拦截攻击流量，以及后续运行时升级的节奏和影响。",
+        "excerpts": [
+          {
+            "label": "核心行动",
+            "text": "Vercel 已主动推出防火墙级缓解措施，以应对今天的 Node.js RCE 漏洞，且是在官方补丁发布之前。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "保护范围",
+            "text": "所有部署的所有流量都会自动受到保护，用户无需采取任何行动。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "后续计划",
+            "text": "Vercel 正在积极监控并逐步推出托管运行时升级。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "社区关注度",
+            "text": "该推文获得 1449 个赞、58 次转发和 81 条回复，显示开发者社区对此次安全事件的广泛关注。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2112964214818283917:9ef7603d0d094348": {
+      "itemId": "tweet:2112964214818283917",
+      "sourceHash": "9ef7603d0d094348",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Cyber is going to be one of the most profound aspects of AI. We now have a...",
+      "url": "https://x.com/levie/status/2112964214818283917",
+      "generatedAt": "2026-10-23T01:44:00.794Z",
+      "summary": {
+        "title": "Aaron Levie：AI 将重塑网络安全，代理将成攻防核心",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中指出，网络安全将成为 AI 最深远的影响领域之一。AI 代理提供了不知疲倦的劳动力，能够发现、修补或攻击任何系统与软件。企业将利用代理识别现有系统和基础设施中长期存在的风险，攻击者则利用代理加速发现环境中的漏洞。防御方同样使用代理抵御攻击、发现异常模式以保护数据。我们正进入一个新的网络安全体制，由于可以扫描每条日志、查看每行代码、分析流量并以前所未有的规模处理数据，这一循环所消耗的 token 量可能比当前想象的高出 100 倍。企业将比以往更加重视网络、系统、软件、数据、身份和设备的管理。代理在很大程度上将成为这些挑战的解决方案，但整个过程仍需人类参与。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "网络安全将成为 AI 最深远的影响领域之一。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "我们拥有了一支不知疲倦的劳动力，能够发现、修补或攻击任何系统与软件。",
+            "reference": "推文"
+          },
+          {
+            "label": "观点",
+            "text": "攻击者将利用代理加速发现环境中的漏洞，防御方同样使用代理抵御攻击并发现异常模式。",
+            "reference": "推文"
+          },
+          {
+            "label": "数据",
+            "text": "我们可能在这一循环上消耗的 token 量比现在想象的高出 100 倍。",
+            "reference": "推文"
+          },
+          {
+            "label": "观点",
+            "text": "企业将比以往更加重视网络、系统、软件、数据、身份和设备的管理。",
+            "reference": "推文"
+          },
+          {
+            "label": "观点",
+            "text": "代理在很大程度上将成为这些挑战的解决方案，但整个过程仍需人类参与。",
             "reference": "推文结尾"
           }
         ],
