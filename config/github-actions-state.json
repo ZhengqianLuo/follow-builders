@@ -13860,7 +13860,127 @@
       "title": "Aaron Levie：Cyber is going to be one of the most profound aspects of AI. We now have a...",
       "url": "https://x.com/levie/status/2112964214818283917",
       "sentAt": "2026-10-23T01:44:02.561Z"
+    },
+    "tweet:2113360845409583307": {
+      "type": "tweet",
+      "title": "Claude：Starting next week, sessions across Claude web, desktop, and mobile apps will...",
+      "url": "https://x.com/claudeai/status/2113360845409583307",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "topic:Claude：Starting next week, sessions across Claude web, desktop, and mobile apps will...": {
+      "type": "topic",
+      "title": "Claude：Starting next week, sessions across Claude web, desktop, and mobile apps will...",
+      "url": "https://x.com/claudeai/status/2113360845409583307",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "tweet:2113492187770175603": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Day 18/ Decisions API is GA, OpenResponses joined the Linux Foundation, we...",
+      "url": "https://x.com/thsottiaux/status/2113492187770175603",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "topic:Thibault Sottiaux：Day 18/ Decisions API is GA, OpenResponses joined the Linux Foundation, we...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Day 18/ Decisions API is GA, OpenResponses joined the Linux Foundation, we...",
+      "url": "https://x.com/thsottiaux/status/2113492187770175603",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "tweet:2113380122468454765": {
+      "type": "tweet",
+      "title": "Claude：Claude Models on Google Cloud (Anthropic managed) is now generally available....",
+      "url": "https://x.com/claudeai/status/2113380122468454765",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "topic:Claude：Claude Models on Google Cloud (Anthropic managed) is now generally available....": {
+      "type": "topic",
+      "title": "Claude：Claude Models on Google Cloud (Anthropic managed) is now generally available....",
+      "url": "https://x.com/claudeai/status/2113380122468454765",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "tweet:2113162413008884099": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Lands tomorrow before 10am PST.",
+      "url": "https://x.com/thsottiaux/status/2113162413008884099",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "topic:Thibault Sottiaux：Lands tomorrow before 10am PST.": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Lands tomorrow before 10am PST.",
+      "url": "https://x.com/thsottiaux/status/2113162413008884099",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "tweet:2113333859907747871": {
+      "type": "tweet",
+      "title": "Boris Cherny：Agent Skills started as an experiment in Claude Code. Many across the industry...",
+      "url": "https://x.com/bcherny/status/2113333859907747871",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "topic:Boris Cherny：Agent Skills started as an experiment in Claude Code. Many across the industry...": {
+      "type": "topic",
+      "title": "Boris Cherny：Agent Skills started as an experiment in Claude Code. Many across the industry...",
+      "url": "https://x.com/bcherny/status/2113333859907747871",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "tweet:2113399539227136084": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：It’s time to kill “static credentials”. Attacks and breaches can happen. But...",
+      "url": "https://x.com/rauchg/status/2113399539227136084",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "topic:Guillermo Rauch：It’s time to kill “static credentials”. Attacks and breaches can happen. But...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：It’s time to kill “static credentials”. Attacks and breaches can happen. But...",
+      "url": "https://x.com/rauchg/status/2113399539227136084",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "tweet:2113492502355562875": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Landing tomorrow before 10am PST together with a small ship.",
+      "url": "https://x.com/thsottiaux/status/2113492502355562875",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "topic:Thibault Sottiaux：Landing tomorrow before 10am PST together with a small ship.": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Landing tomorrow before 10am PST together with a small ship.",
+      "url": "https://x.com/thsottiaux/status/2113492502355562875",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "tweet:2113283272130412684": {
+      "type": "tweet",
+      "title": "Swyx：Opus 5.5 is the best work estimator model i've ever used. This is calibration...",
+      "url": "https://x.com/swyx/status/2113283272130412684",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "topic:Swyx：Opus 5.5 is the best work estimator model i've ever used. This is calibration...": {
+      "type": "topic",
+      "title": "Swyx：Opus 5.5 is the best work estimator model i've ever used. This is calibration...",
+      "url": "https://x.com/swyx/status/2113283272130412684",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "tweet:2113359027682050352": {
+      "type": "tweet",
+      "title": "Swyx：imo this is the right attitude - dont blame AI for finding the bugs, just...",
+      "url": "https://x.com/swyx/status/2113359027682050352",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "topic:Swyx：imo this is the right attitude - dont blame AI for finding the bugs, just...": {
+      "type": "topic",
+      "title": "Swyx：imo this is the right attitude - dont blame AI for finding the bugs, just...",
+      "url": "https://x.com/swyx/status/2113359027682050352",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "tweet:2113386454907007444": {
+      "type": "tweet",
+      "title": "Alex Albert：One side quest that would be so much fun to try right now is running a bunch of...",
+      "url": "https://x.com/alexalbert__/status/2113386454907007444",
+      "sentAt": "2026-10-24T01:47:18.750Z"
+    },
+    "topic:Alex Albert：One side quest that would be so much fun to try right now is running a bunch of...": {
+      "type": "topic",
+      "title": "Alex Albert：One side quest that would be so much fun to try right now is running a bunch of...",
+      "url": "https://x.com/alexalbert__/status/2113386454907007444",
+      "sentAt": "2026-10-24T01:47:18.750Z"
     }
   },
-  "updatedAt": "2026-10-23T01:44:02.561Z"
+  "updatedAt": "2026-10-24T01:47:18.750Z"
 }

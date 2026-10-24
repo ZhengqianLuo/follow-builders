@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-23T01:44:00.794Z",
+  "updatedAt": "2026-10-24T01:47:16.956Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -16503,6 +16503,71 @@
             "label": "观点",
             "text": "代理在很大程度上将成为这些挑战的解决方案，但整个过程仍需人类参与。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2113399539227136084:236fce6df71db67e": {
+      "itemId": "tweet:2113399539227136084",
+      "sourceHash": "236fce6df71db67e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：It’s time to kill “static credentials”. Attacks and breaches can happen. But...",
+      "url": "https://x.com/rauchg/status/2113399539227136084",
+      "generatedAt": "2026-10-24T01:47:13.067Z",
+      "summary": {
+        "title": "Guillermo Rauch：是时候终结“静态凭证”了",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中呼吁行业共同淘汰静态凭证（static credentials），转向类似 TLS 加密普及的“自毁密钥”机制。他指出攻击和数据泄露不可避免，但如果窃贼只能偷到会自毁的密钥，数据与令牌的安全性将大幅提升。他类比当年行业合力为每个网站部署 TLS（绿色锁）加密，如今应同样推动 OIDC（OpenID Connect）领域的变革。该推文获得 1268 次点赞、52 次转发和 109 条回复，引发关于身份认证与凭证管理的讨论。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "是时候终结“静态凭证”了。攻击和数据泄露可能发生，但想象一下，如果窃贼只能偷到“自毁密钥”来访问你的数据和令牌。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "类比",
+            "text": "行业曾经联合起来为每个网站提供“绿色锁”加密（TLS）。让我们也为 OIDC 这样做吧！",
+            "reference": "推文正文"
+          },
+          {
+            "label": "行动号召",
+            "text": "让我们为 OIDC 这样做吧！💪",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2113283272130412684:19e28004ff8369e7": {
+      "itemId": "tweet:2113283272130412684",
+      "sourceHash": "19e28004ff8369e7",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Swyx：Opus 5.5 is the best work estimator model i've ever used. This is calibration...",
+      "url": "https://x.com/swyx/status/2113283272130412684",
+      "generatedAt": "2026-10-24T01:47:16.955Z",
+      "summary": {
+        "title": "Swyx：Opus 5.5 是我用过最好的工作量估算模型",
+        "summary": "Swyx 在推文中高度评价 Opus 5.5 模型，称其为“我用过的最好的工作量估算模型”。他指出，随着我们将越来越多的工作委托给 AI，校准 AI 的工作量估算变得日益重要。Swyx 强调，不应再用人类的工作节奏来估算 AI 的完成时间——例如，人类可能需要 2-3 个工作日，而一个热情、不知疲倦且可高度并行化的 AGI 可能在 2-3 小时内完成。这条推文反映了 AI 能力跃升后，人类需要重新调整对 AI 工作产出的预期和管理方式。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "Opus 5.5 是我用过的最好的工作量估算模型。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "背景与重要性",
+            "text": "随着我们将越来越多的工作委托给 AI，这种校准变得越来越重要。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "对比人类与 AI 的工作节奏",
+            "text": "不要告诉我它需要 2-3 个工作日（人类会这样做），而对你——一个热情、不知疲倦、可尴尬地并行化的 AGI——来说，2-3 小时就能完成。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "对 AI 特性的描述",
+            "text": "热情、不知疲倦、可尴尬地并行化的 AGI。",
+            "reference": "推文后半部分"
           }
         ],
         "materials": []
