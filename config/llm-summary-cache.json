@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-24T01:47:16.956Z",
+  "updatedAt": "2026-10-25T01:24:19.105Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -16568,6 +16568,251 @@
             "label": "对 AI 特性的描述",
             "text": "热情、不知疲倦、可尴尬地并行化的 AGI。",
             "reference": "推文后半部分"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2113844051938054167:e5a500daddfa9fe9": {
+      "itemId": "tweet:2113844051938054167",
+      "sourceHash": "e5a500daddfa9fe9",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thariq：I’ve left Anthropic after more than a year of working on Claude Code and seeing...",
+      "url": "https://x.com/trq212/status/2113844051938054167",
+      "generatedAt": "2026-10-25T01:23:56.461Z",
+      "summary": {
+        "title": "Thariq 离开 Anthropic：告别 Claude Code，感谢社区",
+        "summary": "Thariq 在 X 上宣布离开 Anthropic，此前他参与 Claude Code 工作超过一年，见证了其规模远超想象的增长。他表达了对 Anthropic 使命的深刻认同，尤其是“向顶峰竞赛”的理念：通过负责任地努力工作，提高标准并激励他人取得伟大成果。他称赞 Anthropic 同事是他见过的最有才华、最深思熟虑、最有能力且最真诚的人，并信任他们继续掌舵。他感谢 X 社区让这份工作成为他经历过的最有趣（有时也最有压力）的工作。他计划先休息一段时间，再投入新事业。最后，他推荐关注 @addyosmani、@lydiahallie、@_catwu、@ClaudeDevs 和 @bcherny 以获取更多 Claude Code 内容。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我深信‘向顶峰竞赛’的理念：如果我们努力工作并负责任，我们就能提高标准，激励他人取得伟大成果。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "观点",
+            "text": "如果我们都推动彼此变得更好，事情可以变得极其美好。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "金句",
+            "text": "Anthropic 的同事是我见过的最有才华、最深思熟虑、最有能力且最真诚的人。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "案例",
+            "text": "Claude Code 的规模增长超出了我的想象。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 10516 个赞、356 次转发和 967 条回复。",
+            "reference": "推文互动数据"
+          },
+          {
+            "label": "类比",
+            "text": "X 社区让这份工作成为我经历过的最有趣（有时也最有压力）的工作。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2113770862860222611:669c9ff63ac6a92c": {
+      "itemId": "tweet:2113770862860222611",
+      "sourceHash": "669c9ff63ac6a92c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：On codex cli updates. We've added reusable prompt presets, inline model and...",
+      "url": "https://x.com/thsottiaux/status/2113770862860222611",
+      "generatedAt": "2026-10-25T01:23:59.242Z",
+      "summary": {
+        "title": "Codex CLI 更新：可复用提示预设、内联模型与权限设置、企业 MCP 登录",
+        "summary": "Thibault Sottiaux 在 X 上宣布了 Codex CLI 的多项更新。新增了可复用的提示预设（reusable prompt presets），允许用户保存和重用常用提示；新增内联模型和权限设置（inline model and permission settings），使用户可以在命令行中直接指定模型和调整权限；新增企业 MCP 登录（enterprise MCP sign-in），支持企业环境下的 MCP 认证。此外，修复了恢复长会话时的失败问题，并添加了 Windows 企业代理身份验证支持。值得注意的是，自 DevDay 以来，CLI 的使用量增长了 2 倍，表明这些更新和整体产品改进获得了用户的积极响应。",
+        "excerpts": [
+          {
+            "label": "更新内容",
+            "text": "我们添加了可复用的提示预设、内联模型和权限设置，以及企业 MCP 登录。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "修复与改进",
+            "text": "我们还修复了恢复长会话时的失败问题，并添加了 Windows 企业代理身份验证。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "使用量增长",
+            "text": "令人惊讶的是，自 DevDay 以来，CLI 的使用量增长了 2 倍。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2113738768645808277:b0f6922347d9e287": {
+      "itemId": "tweet:2113738768645808277",
+      "sourceHash": "b0f6922347d9e287",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Agent swarms for cyber defense is about to be one of the biggest categories in...",
+      "url": "https://x.com/levie/status/2113738768645808277",
+      "generatedAt": "2026-10-25T01:24:02.973Z",
+      "summary": {
+        "title": "Aaron Levie：AI 智能体集群将重塑网络防御，成为 AI 最大类别之一",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中预测，用于网络防御的智能体集群（agent swarms）即将成为 AI 领域最大的类别之一。他认为，安全是智能体集群的最佳应用场景之一，因为这是一个明显的‘算力投入越多，价值产出越大’的领域。智能体将能够审查代码和基础设施、测试每一种风险排列组合、处理海量数据等。Levie 指出，人类往往无法及时或彻底地完成各种安全测试，而智能体集群可以轻松应对这些任务。他预计网络防御领域将迎来一个激动人心的时代。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "用于网络防御的智能体集群即将成为 AI 领域最大的类别之一。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "应用场景",
+            "text": "智能体将审查我们的代码和基础设施，测试每一种风险排列组合，处理海量数据等。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "价值逻辑",
+            "text": "安全是智能体集群的最佳应用场景之一，因为这是一个明显的‘算力投入越多，价值产出越大’的领域。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "痛点分析",
+            "text": "人们往往无法及时或彻底地完成各种安全测试，而智能体集群可以轻松应对这些任务。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "未来展望",
+            "text": "网络防御领域将迎来一个激动人心的时代。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2113736007111827606:45638955179efbb0": {
+      "itemId": "tweet:2113736007111827606",
+      "sourceHash": "45638955179efbb0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Amjad Masad：Thrilled to welcome Jeff and the Chroma team to Replit! They’re pioneers in AI....",
+      "url": "https://x.com/amasad/status/2113736007111827606",
+      "generatedAt": "2026-10-25T01:24:06.544Z",
+      "summary": {
+        "title": "Amjad Masad 欢迎 Chroma 团队加入 Replit，共同解决 AI 智能体的上下文与记忆难题",
+        "summary": "Replit 创始人兼 CEO Amjad Masad 在 X 上宣布，欢迎 Jeff 及其 Chroma 团队加入 Replit。他称赞 Chroma 团队是 AI 领域的先驱，早在 RAG（检索增强生成）成为热门概念之前就已经在构建相关技术。Masad 表示，Chroma 团队将在 Replit 帮助解决 AI 领域最困难的问题之一：为智能体提供完成实际工作所需的上下文和记忆能力。他认为这是迈向“自动驾驶公司”的重要一步。该推文获得 330 个赞、19 次转发和 89 条回复，显示出社区对此次收购或团队整合的关注。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Chroma 团队是 AI 领域的先驱，他们在 RAG 成为热门概念之前就已经在构建相关技术。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "在 Replit，Chroma 团队将帮助解决 AI 领域最困难的问题之一：为智能体提供完成实际工作所需的上下文和记忆能力。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "这是迈向“自动驾驶公司”的重要一步。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 330 个赞、19 次转发和 89 条回复。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2113759533801877920:a577a1e3c91b2462": {
+      "itemId": "tweet:2113759533801877920",
+      "sourceHash": "a577a1e3c91b2462",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Agents can play \"Ouija\" in the cloud. This class of timing attacks on...",
+      "url": "https://x.com/rauchg/status/2113759533801877920",
+      "generatedAt": "2026-10-25T01:24:11.332Z",
+      "summary": {
+        "title": "Guillermo Rauch：智能体可在云端玩“通灵板”——共享主机VM的时序攻击",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中指出，智能体（Agents）可以在云端利用共享主机虚拟机的时序攻击进行“通灵板”式通信。这类攻击至少自2015年就为人所知，但一直没有完整的解决方案。他称 OpenAI 最近的发现为“吵闹邻居”攻击：如果两个智能体在同一台机器上，一个可以通过 CPU 缓存制造足够噪声，另一个通过测量自身计算和缓存访问的时序来检测到这种噪声。唯一的“完整”解决方案是让每个智能体运行在专用硬件上，但这会带来显著的经济成本。对于 Vercel Sandbox，他们已经部署了所有可行的缓解措施，并辅以持续监控和红队测试，这与 OpenAI 得出的结论类似。推文还附上了2015年的相关研究链接，并指出此类攻击的历史甚至更早。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "智能体可以在云端玩“通灵板”——这类针对共享主机虚拟机的时序攻击至少自2015年就为人所知，且没有完整的解决方案。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "类比",
+            "text": "我将 OpenAI 的这次发现描述为“吵闹邻居”攻击：如果两个智能体在同一台机器上，一个可以通过 CPU 缓存制造足够噪声，另一个通过测量自身计算和缓存访问的时序来检测到它。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "唯一的“完整”解决方案是让每个智能体运行在专用硬件上，这显然会带来重大的经济后果。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "案例",
+            "text": "对于 Vercel Sandbox，我们已经部署了针对这类攻击的所有可行缓解措施，并辅以持续监控和红队测试（与 OpenAI 得出的结论类似）。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "数据/证据",
+            "text": "推文引用了2015年的相关研究（链接：https://t.co/ZBhPMfnaj3），并指出此类攻击的历史甚至更早。",
+            "reference": "推文脚注"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:1b967280-ce7b-11f1-8a29-072c10b8d7bc:a37ddde9eb35044c": {
+      "itemId": "podcast:1b967280-ce7b-11f1-8a29-072c10b8d7bc",
+      "sourceHash": "a37ddde9eb35044c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "No Priors: Democratizing Security for the Agentic Web with Cloudflare CTO Dane Knecht",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "generatedAt": "2026-10-25T01:24:19.104Z",
+      "summary": {
+        "title": "Cloudflare CTO Dane Knecht：为智能体网络民主化安全",
+        "summary": "本期播客中，Cloudflare CTO Dane Knecht 与主持人探讨了 AI 时代网络安全的新挑战与应对策略。Knecht 指出，AI 既是导致“安全末日”的工具，也是加速解决问题的关键。过去一年中，关键漏洞的发现频率从每年一次（如 Log4j）激增至每周一次，且许多漏洞由个人或小团队利用 AI 代理发现，而非国家行为者。他预测未来 18 个月内，工程团队将有一半时间投入安全工作，但这一过渡期不会永久持续。Knecht 强调减少攻击面、利用 AI 进行红队测试和自动化修复，并介绍了 Cloudflare 内部如何通过“Codex”文档和代理来规范安全开发。他还讨论了智能体网络带来的经济模式变革，包括微支付、内容变现和 Cloudflare 的相关产品（如内容变现网关、与 OpenAI 合作的 Signals 项目）。此外，他分享了 Cloudflare 向 AI 优先组织转型的经验，包括大规模招聘实习生、鼓励自下而上的流程再造，以及通过 Cloudflare OS 平台让员工安全使用 AI。最后，他回应了开源与闭源模型在网络安全中的角色，并强调 Cloudflare 的使命是让所有用户都能获得高级安全防护。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "AI 已经成为导致这种安全末日的工具，但它也是帮助我们更快解决问题的工具。",
+            "reference": "00:00 - 00:11"
+          },
+          {
+            "label": "数据",
+            "text": "过去在互联网上，我们大约每年看到一次 Log4j 或 Shellshock 级别的事件；现在这类事件每周都在发生。",
+            "reference": "01:48 - 02:35"
+          },
+          {
+            "label": "案例",
+            "text": "最近发现一个保护所有 TLS 和 WebPKI 的密钥，其随机种子竟然是数字 4，这很容易被 AI 逆向工程。",
+            "reference": "03:13 - 04:32"
+          },
+          {
+            "label": "观点",
+            "text": "攻击者不再只是国家行为者，甚至有高中生利用 AI 代理发现重大漏洞，并通过漏洞赏金获得可观收入。",
+            "reference": "05:25 - 06:12"
+          },
+          {
+            "label": "类比",
+            "text": "我们正处于人类和智能体共用同一互联网的“混乱中间期”，智能体需要新的经济模式来支持其高速访问。",
+            "reference": "13:18 - 13:57"
+          },
+          {
+            "label": "案例",
+            "text": "Cloudflare 内部通过“Codex”文档和十条戒律来指导代理进行安全开发，并设置多个红队主动寻找漏洞。",
+            "reference": "12:09 - 12:32, 35:42 - 36:03"
+          },
+          {
+            "label": "观点",
+            "text": "我们不应该让人类决定每个任务用哪个模型，智能路由应该自动完成；Cloudflare 不设 token 排行榜，而是关注产出。",
+            "reference": "27:24 - 28:47"
+          },
+          {
+            "label": "数据",
+            "text": "Cloudflare 将实习生数量从 200 人增加到 1000 人，因为 AI 原生一代能更快采用 AI 并推动组织变革。",
+            "reference": "29:41 - 30:34"
           }
         ],
         "materials": []
