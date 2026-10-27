@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-26T01:28:23.187Z",
+  "updatedAt": "2026-10-27T02:17:44.406Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -16998,6 +16998,177 @@
             "label": "观点",
             "text": "这不是赞助内容，我只是单纯喜欢这个产品。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2114391265655816315:c143ed6e9a75c1a5": {
+      "itemId": "tweet:2114391265655816315",
+      "sourceHash": "c143ed6e9a75c1a5",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Good assessment of the on the ground reality for security in most large...",
+      "url": "https://x.com/levie/status/2114391265655816315",
+      "generatedAt": "2026-10-27T02:17:00.739Z",
+      "summary": {
+        "title": "Aaron Levie：大型企业安全现状评估与AI代理带来的新机遇",
+        "summary": "Aaron Levie 在这条推文中对当前大型企业安全现状进行了评估。他指出，企业面临的风险面日益碎片化且愈发复杂，需要持续跟进大量库、工具以及庞大的基础设施、数据和代码，大多数大型企业都难以跟上，更不用说小型初创公司或非科技企业。许多企业需要现代化其技术栈，数据高度分散导致无法实时掌握风险状态，部分系统权限过于宽泛，另一些则依赖安全隐匿。Levie 认为，一旦数据和基础设施得到改善，AI 代理群（agent swarms）就能帮助保护环境，它们可以分散执行、利用各种安全工具、测试攻击路径、分析日志、处理企业数据以评估风险等级。这种能力仅在最近几个月才出现，得益于长时运行代理和计算机使用能力的进步。他看好这一领域在身份、防火墙、网络、代码扫描、数据保护等安全栈各层的巨大机会，并认为这是对攻防能力平衡持乐观态度的原因之一，但前提是企业必须先把基础工作做好。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "大型企业当前的安全现状：风险面碎片化且日益复杂，企业难以解决。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "大多数大型企业都难以跟上安全要求，更不用说小型初创公司或非科技企业。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "数据高度分散导致企业无法实时了解风险状态，部分系统权限过宽，另一些依赖安全隐匿。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "一旦数据和基础设施改善，AI代理群可以分散执行、利用安全工具、测试攻击、分析日志、评估风险。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "观点",
+            "text": "这种AI代理能力仅在最近几个月才出现，得益于长时运行代理和计算机使用能力的进步。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "观点",
+            "text": "这是安全栈各层（身份、防火墙、网络、代码扫描、数据保护等）的巨大机会，也是攻防平衡乐观的原因之一，但前提是做好基础工作。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2114507378532229214:cb754023b9bd2b7f": {
+      "itemId": "tweet:2114507378532229214",
+      "sourceHash": "cb754023b9bd2b7f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：Here’s how to use Claude to copy any video shorts style in a few minutes. From...",
+      "url": "https://x.com/petergyang/status/2114507378532229214",
+      "generatedAt": "2026-10-27T02:17:07.218Z",
+      "summary": {
+        "title": "用 Claude 几分钟复制任意短视频风格",
+        "summary": "Peter Yang 转发了 Jake Moran 的分享，介绍 HyperFrames 工作室新增的原生功能：用户只需上传或选择一个参考片段，然后在提示词中描述想要修改的内容，即可快速复制任意短视频的风格。该功能允许用户明确灵感来源，并应用不同的字体或颜色，同时保持结构上的相似性。推文还附带了完整的 AI 视频编辑教程链接。这一功能降低了视频风格模仿的门槛，为创作者提供了高效的风格迁移工具。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我们把这个作为原生功能添加到了 HyperFrames 工作室。你只需上传或选择一个参考片段，然后在提示词中描述你想要改变的内容。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "案例",
+            "text": "你可以看到我们是从哪里汲取灵感的，并应用不同的字体或不同的颜色。它在结构上仍然是相同的想法。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 245 个赞、15 次转发和 28 条回复，显示了一定的关注度。",
+            "reference": "推文互动数据"
+          },
+          {
+            "label": "类比",
+            "text": "用 Claude 复制任意短视频风格，就像用参考图快速生成同风格图像一样，但针对的是视频短片。",
+            "reference": "推文标题及正文"
+          }
+        ],
+        "materials": [
+          {
+            "label": "AI 视频编辑教程",
+            "url": "https://t.co/1seCb77tGJ",
+            "note": "推文中提到的完整教程链接，可查看具体操作演示。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:podcast:6fed676e-c84d-11f1-a40c-678dc1ca0b76:e046a7608e421440": {
+      "itemId": "podcast:6fed676e-c84d-11f1-a40c-678dc1ca0b76",
+      "sourceHash": "e046a7608e421440",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "No Priors: The Changing Physics of Cybersecurity and Drug Development with OpenAI President Greg Brockman",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "generatedAt": "2026-10-27T02:17:40.295Z",
+      "summary": {
+        "title": "OpenAI总裁Greg Brockman谈网络安全与药物研发的物理变革",
+        "summary": "本期播客中，OpenAI总裁Greg Brockman与主持人探讨了AI如何改变网络安全和药物研发的底层逻辑。在网络安全方面，Brockman指出软件正变得廉价，而安全支出应远超软件支出，因为现有系统根本性不安全，安全是事后添加的。他介绍了OpenAI的Daybreak计划，向防御者提供峰值智能模型以查找漏洞，并承诺10亿美元帮助前线防御者。AI还可用于形式化验证和审计供应链，未来AI辅助编写的代码将更安全，但过渡期网络攻击可能增加。在药物研发方面，Brockman认为药物发现是AI最明确的应用领域，神经网络应能破解生物学语言。传统药物开发需15年、15亿美元，AI有望大幅缩短时间和降低成本。此外，Brockman还讨论了AI在数学领域的里程碑（解决百年难题）、主动代理DOTS、无UI交互趋势，以及OpenAI拥有12亿消费者用户和领先企业业务的独特优势。他强调人类应保持控制权，技术应增强人类能动性。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "软件在某种程度上正成为进入壁垒，网络安全支出、安全支出实际上应远超软件支出。",
+            "reference": "00:00 - 00:19"
+          },
+          {
+            "label": "数据",
+            "text": "OpenAI发布了GPT-six，并向超过十亿人推出。",
+            "reference": "01:08 - 01:25"
+          },
+          {
+            "label": "案例",
+            "text": "AI能够解决百年数学难题，证明AI可以产生新知识，OpenAI发布了近400个已解决的重要开放数学问题。",
+            "reference": "01:29 - 02:36, 05:13 - 06:21"
+          },
+          {
+            "label": "数据",
+            "text": "药物开发通常需要15年，花费约15亿美元，其中临床前阶段约1500万美元，临床试验约14亿美元。",
+            "reference": "12:27 - 13:11"
+          },
+          {
+            "label": "观点",
+            "text": "药物发现是AI最明确且最重要的应用领域，神经网络没有理由在自然语言上比在生物学上表现更好。",
+            "reference": "13:11 - 14:18"
+          },
+          {
+            "label": "案例",
+            "text": "OpenAI推出了名为DOTS的主动代理，它始终在线，能整合邮件、Slack等信息，主动提醒用户待办事项和日程冲突。",
+            "reference": "18:46 - 19:44"
+          },
+          {
+            "label": "数据",
+            "text": "OpenAI拥有12亿ChatGPT消费者用户，同时拥有领先的编程和企业业务，这是其独特优势。",
+            "reference": "21:46 - 22:36"
+          },
+          {
+            "label": "观点",
+            "text": "最好的用户界面是没有界面，AI将趋向于通过语音或消息等方式交互。",
+            "reference": "23:37 - 24:58"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2114255477907570865:dd353f7e331f103f": {
+      "itemId": "tweet:2114255477907570865",
+      "sourceHash": "dd353f7e331f103f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Zara Zhang：Great interview. Most people overestimate the importance of one huge launch and...",
+      "url": "https://x.com/zarazhangrui/status/2114255477907570865",
+      "generatedAt": "2026-10-27T02:17:44.406Z",
+      "summary": {
+        "title": "Zara Zhang：低估每日持续输出，高估单次大型发布",
+        "summary": "Zara Zhang 在推文中分享了她对一个访谈的认同，并提炼出核心观点：大多数人高估了一次大型发布的重要性，而低估了每天在时间线上持续露出的力量。她建议建立一个每天制作视频的系统，这比花费数万美元制作单个发布视频更有效。这条推文获得了 256 个赞、16 次转发和 27 条回复，反映了创作者群体中对持续内容生产策略的共鸣。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "大多数人高估了一次大型发布的重要性，而低估了每天在时间线上持续露出的力量。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "建议",
+            "text": "建立一个每天制作视频的系统，比花费数万美元制作单个发布视频更有效。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 256 个赞、16 次转发和 27 条回复，显示创作者群体对此观点的共鸣。",
+            "reference": "推文互动数据"
           }
         ],
         "materials": []
