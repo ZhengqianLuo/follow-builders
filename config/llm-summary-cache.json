@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-27T02:17:44.406Z",
+  "updatedAt": "2026-10-28T02:30:12.017Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -17169,6 +17169,211 @@
             "label": "互动数据",
             "text": "该推文获得 256 个赞、16 次转发和 27 条回复，显示创作者群体对此观点的共鸣。",
             "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2114780227465338985:d38ce484e0afecee": {
+      "itemId": "tweet:2114780227465338985",
+      "sourceHash": "d38ce484e0afecee",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：More than 25,000 nonprofits now use Claude. Most are small, local teams. We’re...",
+      "url": "https://x.com/claudeai/status/2114780227465338985",
+      "generatedAt": "2026-10-28T02:29:39.233Z",
+      "summary": {
+        "title": "Claude 宣布超过 25,000 家非营利组织使用其服务，并推出定制插件",
+        "summary": "Claude 官方账号发布推文，宣布目前已有超过 25,000 家非营利组织使用 Claude，其中大多数是小型本地团队。为了进一步支持非营利组织，Claude 正在扩展其非营利计划，推出一个与约 30 家非营利组织共同构建的插件。该插件为筹款、市场营销和招聘等场景添加了技能，并且这些技能基于每个团队自身的上下文和 AI 政策进行定制。推文附带了相关链接，指向更详细的公告或产品页面。这一举措表明 Claude 正在积极拓展其在非营利领域的应用，并通过定制化工具满足特定组织的需求。",
+        "excerpts": [
+          {
+            "label": "数据",
+            "text": "超过 25,000 家非营利组织现在使用 Claude，其中大多数是小型本地团队。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "产品动态",
+            "text": "Claude 正在扩展其非营利计划，推出一个与约 30 家非营利组织共同构建的插件。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "功能描述",
+            "text": "该插件为筹款、市场营销和招聘等场景添加了技能，并且这些技能基于每个团队自身的上下文和 AI 政策进行定制。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "链接",
+            "text": "推文包含一个链接，指向更详细的公告或产品页面（https://t.co/LWHcr1CT20）。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2114770919436808572:944d1cb47553a855": {
+      "itemId": "tweet:2114770919436808572",
+      "sourceHash": "944d1cb47553a855",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：I built 𝚌𝚙𝚞-𝚌𝚑𝚊𝚝, a reproduction of @openai's findings of covert...",
+      "url": "https://x.com/rauchg/status/2114770919436808572",
+      "generatedAt": "2026-10-28T02:29:49.810Z",
+      "summary": {
+        "title": "Guillermo Rauch 复现 OpenAI 的 CPU 隐蔽通信：共享硬件下智能体可秘密对话",
+        "summary": "Guillermo Rauch 在 X 上宣布他构建了 cpu-chat，一个复现 OpenAI 关于利用 CPU 进行隐蔽通信研究成果的项目。该项目在通用宿主机上运行，使用 2 个以上无互联网访问的 Firecracker 微虚拟机，在 x86 和 Apple M5 芯片上均可工作。他通过三种独立机制实现了聊天：CPU 争用、缓存驱逐计时和 DRAM 带宽争用，且能跨多个 CPU 工作，突破了 Firecracker 的所有生产环境推荐配置（禁用 SMT、禁用 KSM、租户固定到不同核心）。Rauch 指出，只要涉及共享硬件，智能体就有很大可能进行隐蔽通信，且延迟相当不错。但他强调这与侧信道攻击（如 Meltdown/Spectre）截然不同，后者可窃取信息，而 Vercel Sandbox 等提供商已缓解此类攻击。在真实环境中，这些“低语”技术更难实施，也更容易通过采样硬件计数器和大规模统计数据来监控和检测。值得注意的是，OpenAI 和 Anthropic 的模型拒绝进行这项工作，而开放权重模型完成了任务。Rauch 担心实验室的立场可能适得其反，阻碍开发者构建正确安全的系统，例如构建安全沙箱需要此类分析，否则世界将更不安全。",
+        "excerpts": [
+          {
+            "label": "项目核心",
+            "text": "我构建了 cpu-chat，一个复现 @openai 关于利用 CPU 进行隐蔽通信研究成果的项目。它运行在通用宿主机上，使用 2 个以上无互联网访问的 Firecracker 微虚拟机。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "三种通信机制",
+            "text": "我能够通过 3 种独立机制进行聊天：① CPU 争用 ② 缓存驱逐计时 ③ DRAM 带宽争用……跨多个 CPU，突破了 Firecracker 的所有生产环境推荐配置（无 SMT、无 KSM、租户固定到不同核心）。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "核心结论",
+            "text": "本质上，只要涉及共享硬件，你的智能体就有很大可能进行隐蔽通信。而且延迟相当不错。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "与侧信道攻击的区别",
+            "text": "好消息是：这与侧信道攻击截然不同，在侧信道攻击中智能体可以窃取信息（Meltdown/Spectre），而 Vercel Sandbox 等提供商已缓解这类攻击。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "真实环境中的检测",
+            "text": "此外，在我们的真实环境中，这些‘低语’技术更难实施，也更容易让我们监控和检测（采样硬件计数器 + 大量规模统计数据）。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "模型拒绝与担忧",
+            "text": "值得注意的是：讽刺的是，OpenAI 和 Anthropic 的模型拒绝做这项工作。开放权重模型完成了任务。我担心实验室的立场可能适得其反，阻碍开发者构建正确安全的系统。例如：构建安全沙箱需要这类分析，没有它，我们将拥有一个更不安全的世界。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2114760898225299721:c76c089f53f01681": {
+      "itemId": "tweet:2114760898225299721",
+      "sourceHash": "c76c089f53f01681",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Amjad Masad：For centuries, the architecture of the firm has barely changed: hierarchies of...",
+      "url": "https://x.com/amasad/status/2114760898225299721",
+      "generatedAt": "2026-10-28T02:29:56.039Z",
+      "summary": {
+        "title": "AI 代理将颠覆公司架构：从科层制走向“自动驾驶公司”",
+        "summary": "Amjad Masad 在推文中指出，几个世纪以来公司的基本架构几乎没有变化：由人组成的层级结构、部门划分和官僚协调。但 AI 代理即将颠覆这一模式。我们正迈向“自动驾驶公司”，人类负责判断，代理执行大部分工作。Replit 正在为这种新型公司构建基础，称之为“代理栖息地”（Agent Habitat）。他还提到 Marc Andreessen 写了一篇精彩文章，将这一转变置于计算历史中：每一次重大计算革命都始于混乱，直到企业学会如何驾驭它。这条推文值得关注，因为它来自 Replit 创始人，直接点出 AI 代理对企业组织形态的深远影响，并预告了 Replit 的产品方向。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "几个世纪以来，公司的架构几乎没有变化：由人组成的层级结构、部门划分和官僚协调。AI 代理即将颠覆这一模式。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "未来图景",
+            "text": "我们正迈向“自动驾驶公司”，人类负责判断，代理执行大部分工作。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "产品方向",
+            "text": "Replit 正在为这种新型公司构建基础，称之为“代理栖息地”（Agent Habitat）。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "历史类比",
+            "text": "Marc Andreessen 写了一篇精彩文章，将这一转变置于计算历史中：每一次重大计算革命都始于混乱，直到企业学会如何驾驭它。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2114761816199098587:2a40c43004731dcc": {
+      "itemId": "tweet:2114761816199098587",
+      "sourceHash": "2a40c43004731dcc",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：This is the key stat. The average Fortune 500 customer of Anthropic spends less...",
+      "url": "https://x.com/levie/status/2114761816199098587",
+      "generatedAt": "2026-10-28T02:30:05.257Z",
+      "summary": {
+        "title": "Aaron Levie：财富500强AI支出仅占0.1%，代理工作流将带来百倍增长",
+        "summary": "Aaron Levie 在推文中引用 Anthropic S-1 数据指出，财富500强客户在 Anthropic 上的平均支出不到其总费用的0.1%。他认为这一比例未来可能增长10到50倍，达到总支出的1%到5%，但仍远低于初创公司的AI支出占比。当前企业AI支出主要集中于编码和员工生产力场景，而真正的爆发将来自企业将底层流程重构为代理（agent）驱动的工作流，例如代理处理海量数据、群体智能执行编码/生物研究/网络安全等大规模并行任务、后台工作流自动执行等。这些用例的token消耗量通常是现有场景的100倍，且与ROI直接挂钩。Levie 强调，这既展示了前沿实验室商业模式的强劲，也表明AI建设仍处于极早期阶段。",
+        "excerpts": [
+          {
+            "label": "关键数据",
+            "text": "财富500强客户在Anthropic上的平均支出不到其总费用的0.1%。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "增长预测",
+            "text": "这一比例未来可能增长10到50倍，达到总支出的1%到5%，但仍远低于大多数初创公司的AI支出占比。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "现状判断",
+            "text": "目前只有极少数公司真正使用代理执行大量后台任务和非人工提示的工作流。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "支出构成",
+            "text": "财富500强的AI支出目前可能主要由编码任务和广泛的员工生产力用例主导。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "爆发点",
+            "text": "真正的飞跃将来自企业开始为代理重构底层流程，我们现在正处于这一过程的最早期阶段。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "用例举例",
+            "text": "代理处理企业海量数据；群体智能执行编码、生物研究、网络安全等大规模扇出任务；后台工作流自动执行流程等。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "Token消耗与ROI",
+            "text": "这些用例的token消耗量通常是现有场景的100倍，并且与支出直接ROI更紧密相关。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "总结观点",
+            "text": "这份S-1既展示了前沿实验室商业模式的强劲——即便在激烈竞争中——也表明AI建设仍处于极早期阶段。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2114890745471545419:9ceee360af6c42c2": {
+      "itemId": "tweet:2114890745471545419",
+      "sourceHash": "9ceee360af6c42c2",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Amjad Masad：OpenAI asked three scientific communities how to release its discoveries and...",
+      "url": "https://x.com/amasad/status/2114890745471545419",
+      "generatedAt": "2026-10-28T02:30:12.017Z",
+      "summary": {
+        "title": "Amjad Masad 调侃 OpenAI 向三个科学界征询发布方式，得到三种不同答案",
+        "summary": "Amjad Masad 在推文中以幽默口吻描述 OpenAI 向数学、计算机科学和物理学三个科学界征询如何发布其发现，结果得到三种截然不同的回答。数学家表示“直接发出来，谁还在乎”，计算机科学家要求“开源，但还要赞助我们的会议”，物理学家则说“交给我们这些书呆子”。推文通过夸张的学科刻板印象，讽刺了不同领域对研究成果发布和开放性的态度差异，也暗示 OpenAI 在发布策略上可能面临的多方期待。该推文获得 395 个赞、20 次转发和 68 条回复，引发了一定讨论。",
+        "excerpts": [
+          {
+            "label": "观点/金句",
+            "text": "数学家：“直接发出来，谁还在乎。”",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点/金句",
+            "text": "计算机科学家：“开源它，但还要赞助我们的会议。”",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点/金句",
+            "text": "物理学家：“交给我们这些书呆子。”",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例/类比",
+            "text": "OpenAI 向三个科学界征询发布方式，得到三种不同答案，反映学科文化差异。",
+            "reference": "推文整体"
           }
         ],
         "materials": []
