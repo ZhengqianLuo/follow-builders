@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-28T02:30:12.017Z",
+  "updatedAt": "2026-10-29T02:37:40.247Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -17377,6 +17377,153 @@
           }
         ],
         "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2115135857669881939:cb58a0606ab4315a": {
+      "itemId": "tweet:2115135857669881939",
+      "sourceHash": "cb58a0606ab4315a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thariq：experimenting with a lil personal project: an AI-native macOS dock with custom...",
+      "url": "https://x.com/trq212/status/2115135857669881939",
+      "generatedAt": "2026-10-29T02:37:22.048Z",
+      "summary": {
+        "title": "Thariq 实验 AI 原生 macOS Dock：自定义模式与实时活动分类",
+        "summary": "独立开发者 Thariq 在 X 上分享了一个个人实验项目：一个 AI 原生的 macOS Dock，支持自定义模式（如写作、构建等），帮助用户保持专注。该 Dock 中的 AI 代理能够定制模式行为并添加新模式，同时利用名为 jev 的工具实时分类用户活动和通知，并据此采取行动。推文附有一段演示视频，展示了 Dock 的交互和 AI 代理的工作方式。该推文获得 8262 次点赞、215 次转发和 432 条回复，引发社区对 AI 驱动桌面交互和专注工具的讨论。",
+        "excerpts": [
+          {
+            "label": "项目定位",
+            "text": "一个 AI 原生的 macOS Dock，带有自定义模式（写作、构建等），帮助我保持专注。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "AI 代理能力",
+            "text": "我的代理能够定制模式行为并添加新模式。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "实时分类工具",
+            "text": "它使用 jev 实时分类我的活动和通知，并据此采取行动。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "演示视频",
+            "text": "推文附带视频链接，展示 Dock 的界面和 AI 代理的实时响应。",
+            "reference": "https://t.co/yplDQUwTv5"
+          },
+          {
+            "label": "社区反响",
+            "text": "推文获得 8262 次点赞、215 次转发和 432 条回复，显示较高的关注度。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": [
+          {
+            "label": "演示视频",
+            "url": "https://t.co/yplDQUwTv5",
+            "note": "观看 AI 原生 macOS Dock 的实际操作，包括模式切换、代理定制和 jev 实时分类的效果。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2115305369799110905:c2221e0a156dfb1e": {
+      "itemId": "tweet:2115305369799110905",
+      "sourceHash": "c2221e0a156dfb1e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：This is correct. The vast majority of enterprise workflows have not actually...",
+      "url": "https://x.com/levie/status/2115305369799110905",
+      "generatedAt": "2026-10-29T02:37:31.576Z",
+      "summary": {
+        "title": "Aaron Levie：企业级AI代理应用远未普及，但拐点已至",
+        "summary": "Aaron Levie 在推文中指出，绝大多数企业工作流尚未真正应用 AI 代理，当前经济中此类部署可能不足 1%。他认为这既源于企业技术采用速度，更受限于 AI 自身能力。但如今随着计算机使用、长时运行代理、工具链改进及周边基础设施的成熟，AI 代理开始能够处理更复杂的工作流。他预测将出现自我改进系统，可针对任意工作流目标提升执行率；同时代理集群（agent swarms）这一新兴形态允许组织按需投入算力，让代理自主完成任务。Levie 强调，真正的变革不在于终端用户用提示词驱动代理完成特定任务，而在于组织重构底层工作流以充分利用代理。这将对金融、生命科学、医疗保健等信息密集型领域产生巨大影响，当前正是构建和部署此类系统的良机。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "绝大多数企业工作流实际上还没有以任何有意义的方式应用代理。目前经济中这类部署可能不到 1%。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "目前最多只有少数自动化系统会对 LLM 做一次单次调用以做出决策或提供反馈，但几乎没有真正的“自动化”。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "现在随着计算机使用、长时运行代理、工具链改进和周边基础设施的发展，我们终于到了可以开始将代理应用于更复杂工作流的节点。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "预测",
+            "text": "我们将看到自我改进系统，它们可以接受任意工作流目标，并在大量实例中提升执行率。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "类比/概念",
+            "text": "随着代理集群（agent swarms）这一新兴形态的出现，你可以选择向一个问题投入任意数量的算力，代理就会去完成工作。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "观点",
+            "text": "这不再是关于终端用户提示代理为他们完成特定任务，而是组织重新设计底层工作流，以在流程中利用代理。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "预测",
+            "text": "这将对金融、生命科学、医疗保健和其他信息密集型领域产生巨大影响。现在就有大量机会来构建和部署这些系统。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2115193524152860771:bf415c9a10815e5a": {
+      "itemId": "tweet:2115193524152860771",
+      "sourceHash": "bf415c9a10815e5a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Garry Tan：The @capydotai software factory renormalization of your GitHub contribution...",
+      "url": "https://x.com/garrytan/status/2115193524152860771",
+      "generatedAt": "2026-10-29T02:37:40.246Z",
+      "summary": {
+        "title": "Garry Tan 展示 Capy 软件工厂如何重塑 GitHub 贡献热力图",
+        "summary": "Garry Tan 在推文中分享了自己 GitHub 贡献热力图的截图，并指出 Capy 软件工厂（@capydotai）正在真实地改变他的贡献颜色分布。他提到自己以前在 token 产出上并不懈怠，但现在通过 Capy Captains（在 GStack 和 GBrain 上同时运行 10 到 20 个子代理），PR 的数量和频率显著提升，变得“又热又重”。这条推文展示了 AI 驱动的软件工厂对个人开发者产出模式的实质性影响，以及多代理并行工作流在真实项目中的落地效果。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Capy 软件工厂对 GitHub 贡献颜色的重新归一化是真实的。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "Garry Tan 展示了自己的 GitHub 贡献热力图，作为 Capy 软件工厂效果的直观证据。",
+            "reference": "推文配图"
+          },
+          {
+            "label": "数据",
+            "text": "通过 Capy Captains，同时运行 10 到 20 个子代理在 GStack 和 GBrain 上。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "金句",
+            "text": "我以前在 token 产出上并不懈怠，但现在 PR 变得又热又重。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "类比",
+            "text": "将 GitHub 贡献热力图的颜色变化称为“重新归一化”，暗示 AI 工具从根本上改变了开发者的贡献模式。",
+            "reference": "推文开头"
+          }
+        ],
+        "materials": [
+          {
+            "label": "GitHub 贡献热力图截图",
+            "url": "https://t.co/cCDEI6d0Xu",
+            "note": "查看 Garry Tan 的 GitHub 贡献热力图，观察颜色分布变化，直观感受 Capy 软件工厂对提交频率和强度的影响。"
+          },
+          {
+            "label": "Capy 软件工厂相关截图",
+            "url": "https://t.co/15R8aFycyA",
+            "note": "查看 Capy 软件工厂或 Capy Captains 的界面或运行状态截图，了解多代理并行工作流的实际运行情况。"
+          }
+        ]
       }
     }
   }
