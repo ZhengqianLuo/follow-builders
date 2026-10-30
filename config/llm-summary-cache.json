@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-29T02:37:40.247Z",
+  "updatedAt": "2026-10-30T02:45:57.781Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -17524,6 +17524,41 @@
             "note": "查看 Capy 软件工厂或 Capy Captains 的界面或运行状态截图，了解多代理并行工作流的实际运行情况。"
           }
         ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2115588390414581916:3330888ddf61f538": {
+      "itemId": "tweet:2115588390414581916",
+      "sourceHash": "3330888ddf61f538",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：Team is working on this but it's not rolling out just yet, sorry for any...",
+      "url": "https://x.com/thsottiaux/status/2115588390414581916",
+      "generatedAt": "2026-10-30T02:45:57.781Z",
+      "summary": {
+        "title": "Thibault Sottiaux 回应 Chat/Work 功能整合传闻：团队正在推进，但尚未发布",
+        "summary": "Thibault Sottiaux 在 X 上回应了关于 Chat 与 Work 功能整合的传闻。他澄清该功能尚未推出，团队正在开发中，计划在今年某个时候将 Chat 和 Work 的最佳能力整合在一起，但会谨慎推进，不急于发布。他为此前可能造成的困惑道歉，并表示很快会有更多信息分享。这条推文获得了 3920 个赞、234 次转发和 1215 条回复，显示用户对该功能高度关注。",
+        "excerpts": [
+          {
+            "label": "澄清功能状态",
+            "text": "团队正在开发这个功能，但目前还没有推出，抱歉造成了困惑。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "整合计划",
+            "text": "计划是在今年某个时候将 Chat 和 Work 的最佳能力整合在一起。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "谨慎推进",
+            "text": "我们会谨慎推进，不急于求成。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "后续信息",
+            "text": "很快会有更多信息分享。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
       }
     }
   }
