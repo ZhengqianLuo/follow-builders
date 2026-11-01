@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-10-31T02:38:26.901Z",
+  "updatedAt": "2026-11-01T02:25:16.940Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -17731,6 +17731,81 @@
             "label": "观点",
             "text": "演讲者认为 2026 年最被高估的趋势是家庭清洁机器人。",
             "reference": "1:05:25 - 1:05:26"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2116220869479428500:6a03dd11185e64a3": {
+      "itemId": "tweet:2116220869479428500",
+      "sourceHash": "6a03dd11185e64a3",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：We’re renaming our Max plans: Max 5x → Max Max 20x → Ultra Max is still...",
+      "url": "https://x.com/claudeai/status/2116220869479428500",
+      "generatedAt": "2026-11-01T02:25:12.259Z",
+      "summary": {
+        "title": "Claude 调整 Max 订阅计划命名并放宽 Ultra 账户限制",
+        "summary": "Claude 官方宣布对其 Max 订阅计划进行重命名：原 Max 5x 更名为 Max，原 Max 20x 更名为 Ultra Max，而 Ultra 计划名称保持不变。价格方面，Ultra Max 仍为每月 100 美元，Ultra 仍为每月 200 美元。现有订阅用户无需任何操作。此外，从即日起，大多数现有 Ultra 订阅用户的 5 小时使用限制将被移除；新账户在通过验证前仍保留临时限制，以防止欺诈和滥用，验证通过后会收到邮件通知。每周使用限制保持不变。官方提供了计划详情链接。",
+        "excerpts": [
+          {
+            "label": "计划重命名",
+            "text": "Max 5x 更名为 Max，Max 20x 更名为 Ultra Max，Ultra 名称不变。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "价格不变",
+            "text": "Ultra Max 仍为每月 100 美元，Ultra 仍为每月 200 美元。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "现有用户无需操作",
+            "text": "如果你是订阅用户，无需进行任何操作。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "移除 5 小时限制",
+            "text": "从今天起，大多数现有 Ultra 账户的 5 小时限制将被移除。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "新账户临时限制",
+            "text": "新账户在通过验证前保留临时限制，以防止欺诈和滥用；验证通过后会收到邮件通知。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "每周限制不变",
+            "text": "每周使用限制保持不变。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2116121832919122164:afae33f007fc5847": {
+      "itemId": "tweet:2116121832919122164",
+      "sourceHash": "afae33f007fc5847",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Steinberger：Bullish on Andy Yen and Proton. He gets it. The culture war, or rather the loss...",
+      "url": "https://x.com/steipete/status/2116121832919122164",
+      "generatedAt": "2026-11-01T02:25:16.940Z",
+      "summary": {
+        "title": "Peter Steinberger 看好 Andy Yen 与 Proton：理解工程师在 AI 冲击下的身份焦虑",
+        "summary": "Peter Steinberger 在推文中表达了对 Andy Yen 和 Proton 的看好，认为 Andy Yen 真正理解了当前工程师群体在 AI 重塑职业角色时所经历的文化战争或身份失落感。Steinberger 表示自己对此感同身受，同时也理解 Andy Yen 作为企业经营者，在给予工程师两年时间学习、适应和成长后，耐心可能有限。这条推文反映了 AI 时代技术领导者对团队转型压力的复杂态度，既承认工程师的情感困境，也强调企业需要向前推进的现实。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "看好 Andy Yen 和 Proton，他真正理解了这件事。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "文化战争，或者更准确地说，一些工程师在 AI 重新定义我们工作时感受到的身份失落，这很艰难；我感同身受。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "也理解他经营着一家企业，在我们已经有两年的时间去消化、学习、改变和成长之后，他的耐心可能有限。",
+            "reference": "推文后段"
           }
         ],
         "materials": []
