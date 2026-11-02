@@ -14940,7 +14940,127 @@
       "title": "Guillermo Rauch：An agent on every desktop https://t.co/RwAVBTCNPk",
       "url": "https://x.com/rauchg/status/2116345666108854781",
       "sentAt": "2026-11-01T02:25:18.575Z"
+    },
+    "tweet:2116692529970311254": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Banked 1/2",
+      "url": "https://x.com/thsottiaux/status/2116692529970311254",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "topic:Thibault Sottiaux：Banked 1/2": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Banked 1/2",
+      "url": "https://x.com/thsottiaux/status/2116692529970311254",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "tweet:2116652002830963114": {
+      "type": "tweet",
+      "title": "Aaron Levie：This is one of the better litmus tests for whether you’re pushing your use of...",
+      "url": "https://x.com/levie/status/2116652002830963114",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "topic:Aaron Levie：This is one of the better litmus tests for whether you’re pushing your use of...": {
+      "type": "topic",
+      "title": "Aaron Levie：This is one of the better litmus tests for whether you’re pushing your use of...",
+      "url": "https://x.com/levie/status/2116652002830963114",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "tweet:2116642586387730593": {
+      "type": "tweet",
+      "title": "Swyx：join me all the way on the light side guys low effort + critique loop >...",
+      "url": "https://x.com/swyx/status/2116642586387730593",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "topic:Swyx：join me all the way on the light side guys low effort + critique loop >...": {
+      "type": "topic",
+      "title": "Swyx：join me all the way on the light side guys low effort + critique loop >...",
+      "url": "https://x.com/swyx/status/2116642586387730593",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "tweet:2116640529232609515": {
+      "type": "tweet",
+      "title": "Garry Tan：> Why does the worst rise to the top in a society rife with broken politics?...",
+      "url": "https://x.com/garrytan/status/2116640529232609515",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "topic:Garry Tan：> Why does the worst rise to the top in a society rife with broken politics?...": {
+      "type": "topic",
+      "title": "Garry Tan：> Why does the worst rise to the top in a society rife with broken politics?...",
+      "url": "https://x.com/garrytan/status/2116640529232609515",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "podcast:01a18ea6-94fa-7850-937b-c5c57b469b6a": {
+      "type": "podcast",
+      "title": "Latent Space: Using Agents for Long-Horizon Financial Work — Aman Singh, Arca",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "topic:Latent Space: Using Agents for Long-Horizon Financial Work — Aman Singh, Arca": {
+      "type": "topic",
+      "title": "Latent Space: Using Agents for Long-Horizon Financial Work — Aman Singh, Arca",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "tweet:2116653171741470990": {
+      "type": "tweet",
+      "title": "Matt Turck：A classic that never goes out of style 🎃👻 https://t.co/4AiSR3Qg4L",
+      "url": "https://x.com/mattturck/status/2116653171741470990",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "topic:Matt Turck：A classic that never goes out of style 🎃👻 https://t.co/4AiSR3Qg4L": {
+      "type": "topic",
+      "title": "Matt Turck：A classic that never goes out of style 🎃👻 https://t.co/4AiSR3Qg4L",
+      "url": "https://x.com/mattturck/status/2116653171741470990",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "tweet:2116710688550994042": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：This would go so hard in SF https://t.co/RgE7UIADws",
+      "url": "https://x.com/rauchg/status/2116710688550994042",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "topic:Guillermo Rauch：This would go so hard in SF https://t.co/RgE7UIADws": {
+      "type": "topic",
+      "title": "Guillermo Rauch：This would go so hard in SF https://t.co/RgE7UIADws",
+      "url": "https://x.com/rauchg/status/2116710688550994042",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "tweet:2116773135668404286": {
+      "type": "tweet",
+      "title": "Swyx：btw @karpathy uses medium on opus 5.5 on his latest project (Hackertube...",
+      "url": "https://x.com/swyx/status/2116773135668404286",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "topic:Swyx：btw @karpathy uses medium on opus 5.5 on his latest project (Hackertube...": {
+      "type": "topic",
+      "title": "Swyx：btw @karpathy uses medium on opus 5.5 on his latest project (Hackertube...",
+      "url": "https://x.com/swyx/status/2116773135668404286",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "tweet:2116624458198982668": {
+      "type": "tweet",
+      "title": "Nikunj Kothari：First snow is always special ❄️ https://t.co/FzWYVB4HUl",
+      "url": "https://x.com/nikunj/status/2116624458198982668",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "topic:Nikunj Kothari：First snow is always special ❄️ https://t.co/FzWYVB4HUl": {
+      "type": "topic",
+      "title": "Nikunj Kothari：First snow is always special ❄️ https://t.co/FzWYVB4HUl",
+      "url": "https://x.com/nikunj/status/2116624458198982668",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "tweet:2116732887265656978": {
+      "type": "tweet",
+      "title": "Peter Yang：Halloween is honestly the best holiday and should be held every quarter",
+      "url": "https://x.com/petergyang/status/2116732887265656978",
+      "sentAt": "2026-11-02T02:40:48.695Z"
+    },
+    "topic:Peter Yang：Halloween is honestly the best holiday and should be held every quarter": {
+      "type": "topic",
+      "title": "Peter Yang：Halloween is honestly the best holiday and should be held every quarter",
+      "url": "https://x.com/petergyang/status/2116732887265656978",
+      "sentAt": "2026-11-02T02:40:48.695Z"
     }
   },
-  "updatedAt": "2026-11-01T02:25:18.575Z"
+  "updatedAt": "2026-11-02T02:40:48.695Z"
 }

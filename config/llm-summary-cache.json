@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-01T02:25:16.940Z",
+  "updatedAt": "2026-11-02T02:40:46.789Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -17806,6 +17806,171 @@
             "label": "观点",
             "text": "也理解他经营着一家企业，在我们已经有两年的时间去消化、学习、改变和成长之后，他的耐心可能有限。",
             "reference": "推文后段"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2116652002830963114:db029b968a4e409a": {
+      "itemId": "tweet:2116652002830963114",
+      "sourceHash": "db029b968a4e409a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：This is one of the better litmus tests for whether you’re pushing your use of...",
+      "url": "https://x.com/levie/status/2116652002830963114",
+      "generatedAt": "2026-11-02T02:40:19.931Z",
+      "summary": {
+        "title": "Aaron Levie：检验你是否充分运用 AI 的试金石",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中提出一个判断个人或团队是否充分挖掘 AI 潜力的简单标准：如果你现在做的事情在 AI 出现之前也能完成，那说明你还没有把 AI 用到位。他指出，大约六个月前，AI 最多只能帮你更快地产出原本就能做的东西；但现在，与 AI 协作的产出应该大幅超越过去的水平，而且用时更短。他列举了多个领域的例子：产品原型不仅要功能完整、可交互，还应该具备比以往更有意义的改进；工程架构应能实现过去无法企及的性能提升；项目研究应穷尽所有维度的事实；用 AI 实现的业务流程应彻底改变运作方式，并从历史失败中学习，这是人类无法做到的。Levie 认为我们正进入一个 AI 在大多数维度上比人类更聪明的时期，尽管智能仍然参差不齐，但将 AI 与人类优势结合，能产生质变的结果。因此，他的核心测试是：如果你现在做的和 AI 出现前一样，那你就没有充分推动 AI 的使用。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "如果你现在做的事情在 AI 出现之前也能完成，那说明你很可能没有充分运用 AI。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "时间节点判断",
+            "text": "大约六个月前，AI 最多只能帮你更快地产出原本就能做的东西；但现在，与 AI 协作的产出应该大幅超越过去的水平，而且用时更短。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "产品原型案例",
+            "text": "产品原型不仅要功能完整、可交互，还应该具备比以往更有意义的改进。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "工程架构案例",
+            "text": "工程架构应能实现过去无法企及的性能提升。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "研究案例",
+            "text": "项目研究应穷尽所有维度的事实，覆盖每一个可能的分析角度。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "业务流程案例",
+            "text": "用 AI 实现的业务流程应彻底改变运作方式，并从历史失败中学习，这是人类无法做到的。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "AI 智能判断",
+            "text": "我们正进入一个 AI 在大多数维度上比人类更聪明的时期，尽管智能仍然参差不齐，但将 AI 与人类优势结合，能产生质变的结果。",
+            "reference": "推文后段"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2116640529232609515:9448785cf8f9f0d0": {
+      "itemId": "tweet:2116640529232609515",
+      "sourceHash": "9448785cf8f9f0d0",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Garry Tan：> Why does the worst rise to the top in a society rife with broken politics?...",
+      "url": "https://x.com/garrytan/status/2116640529232609515",
+      "generatedAt": "2026-11-02T02:40:27.857Z",
+      "summary": {
+        "title": "Garry Tan：为何最坏的人能在政治崩坏的社会中登顶？",
+        "summary": "Garry Tan 在推文中引用了一段关于政治体制如何筛选领导者的论述，核心观点是：当宏大计划失败时，就需要强制手段，而体制不会提拔最优秀的人，只会选择那些毫无顾忌的人。为了团结多数人支持计划，最有效的方法是树立共同敌人，如富人、外国人或异见者。这段文字揭示了政治运作中常见的阴暗逻辑：理想主义让位于实用主义，道德底线被牺牲，社会被仇恨和分裂所驱动。Garry Tan 作为 Y Combinator 总裁和知名投资人，分享此观点可能意在警示科技与创业生态中同样存在的权力与道德问题，或对当前政治环境表达不满。推文获得 119 个赞、10 次转发和 19 条回复，显示其观点引发了一定讨论。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "当计划失败时——而它总是会失败——就需要强制手段。你需要愿意做诚实之人拒绝做的事的人。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "体制不会提拔最优秀的人；它选择那些毫无顾忌的人。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "为了团结多数人支持计划，没有什么比树立共同敌人更有效：富人、外国人、异见者。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "为什么最坏的人能在政治崩坏的社会中登顶？",
+            "reference": "推文开头提问"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:01a18ea6-94fa-7850-937b-c5c57b469b6a:06aa06044184ab92": {
+      "itemId": "podcast:01a18ea6-94fa-7850-937b-c5c57b469b6a",
+      "sourceHash": "06aa06044184ab92",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Latent Space: Using Agents for Long-Horizon Financial Work — Aman Singh, Arca",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "generatedAt": "2026-11-02T02:40:40.273Z",
+      "summary": {
+        "title": "用智能体做长周期金融工作——Aman Singh，Arca",
+        "summary": "本期播客采访了Arca的AI平台负责人Aman Singh。Arca是一家AI原生财富管理公司，近期融资6400万美元。Aman介绍了他们如何利用AI智能体处理长周期金融任务，例如税务规划、投资组合调整等。Arca并非SaaS公司，而是直接运营金融业务，因此可以标准化工作流程，让智能体主动参与。他们使用Anthropic和OpenAI的前沿模型，但保持模型无关性，通过内部基准测试选择模型。智能体负责分析、生成计划，但资金移动和客户沟通需要人类介入。系统具备长期记忆和每日反思机制，以支持跨越多天的任务。安全方面采用确定性护栏、LLM验证、提示注入检测和数据外泄防护。合规性通过默认审计日志实现。Arca还利用决策模型（如Jev）来纠正模型在金融知识上的错误。他们通过收集人类反馈并每晚运行元智能体来改进系统。Aman强调，Arca的优势在于作为AI原生公司，智能体主动提示人类，而非人类提示智能体。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "智能体提示人的次数比人提示智能体的次数多。这是一种主动的、24/7运行的服务。",
+            "reference": "00:00:00"
+          },
+          {
+            "label": "观点",
+            "text": "AI在Arca的角色不是取代顾问，而是取代顾问周围的所有工作。客户不直接与AI交互，而是通过人类顾问体验更高水平的服务。",
+            "reference": "00:01:30"
+          },
+          {
+            "label": "案例",
+            "text": "一个税务账单的例子：客户发邮件要求变现10万美元，智能体负责分析资金分配和最优变现方式，但实际执行交易需要人类介入。整个过程可能持续10天。",
+            "reference": "00:05:00"
+          },
+          {
+            "label": "数据",
+            "text": "Arca最近融资6400万美元，用于AI原生财富管理公司。",
+            "reference": "00:00:30"
+          },
+          {
+            "label": "观点",
+            "text": "我们不是SaaS公司，我们就是公司本身。因此我们可以标准化工作方式，让智能体以标准方式参与。",
+            "reference": "00:12:00"
+          },
+          {
+            "label": "案例",
+            "text": "一个潜在客户发现其现有顾问收取了未披露的费用，且并非受托人。智能体通过分析文件发现了这一点，展示了细节关注能力。",
+            "reference": "00:20:00"
+          },
+          {
+            "label": "观点",
+            "text": "拥有智能体记忆的所有权是影响业务的关键。如果交给其他提供商，就会失去构建独特业务所需的控制力。",
+            "reference": "00:15:00"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2116773135668404286:a1f3e859b2ea5f86": {
+      "itemId": "tweet:2116773135668404286",
+      "sourceHash": "a1f3e859b2ea5f86",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Swyx：btw @karpathy uses medium on opus 5.5 on his latest project (Hackertube...",
+      "url": "https://x.com/swyx/status/2116773135668404286",
+      "generatedAt": "2026-11-02T02:40:46.789Z",
+      "summary": {
+        "title": "Swyx：Karpathy 新项目用 Opus 5.5 的 medium 档，努力程度之争就像 tabs vs spaces",
+        "summary": "Swyx 在推文中提到，Karpathy 今天发布的新项目 Hackertube 使用了 Claude Opus 5.5 的 medium 档位。他借此评论道，对 AI 模型努力程度（effort levels）持有强烈意见，就像编程界关于 tabs 和 spaces 的争论一样，本质上是个人偏好问题，可以按需调整。不过 Swyx 也幽默地表示，他自己的偏好肯定比别人的更优越。这条推文反映了 AI 社区中关于模型推理强度选择的讨论，以及开发者对这类配置的个人化态度。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "对努力程度（effort levels）持有强烈意见，就像我们这个时代的 tabs vs spaces 之争。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "案例",
+            "text": "Karpathy 今天发布的最新项目 Hackertube 使用了 Opus 5.5 的 medium 档位。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "金句",
+            "text": "按自己的口味调整就好，不过我的偏好肯定比你的更优越。",
+            "reference": "推文正文"
           }
         ],
         "materials": []
