@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-02T02:40:46.789Z",
+  "updatedAt": "2026-11-03T03:59:40.610Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -17971,6 +17971,276 @@
             "label": "金句",
             "text": "按自己的口味调整就好，不过我的偏好肯定比你的更优越。",
             "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2116957135661945283:3865b1f21bd4038d": {
+      "itemId": "tweet:2116957135661945283",
+      "sourceHash": "3865b1f21bd4038d",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Andrej Karpathy：Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had...",
+      "url": "https://x.com/karpathy/status/2116957135661945283",
+      "generatedAt": "2026-11-03T03:58:31.471Z",
+      "summary": {
+        "title": "Andrej Karpathy 周末黑客项目 HackerTube：用 Claude 过滤 HN 评论打造更优 YouTube 推荐",
+        "summary": "Andrej Karpathy 在推文中分享了他的周末黑客项目 HackerTube。他因不满 YouTube 的推荐系统，让 Claude 分析了 Hacker News 上 20 年间的 4300 万条评论，筛选出 6454 个被反复推荐的视频，从而构建了一个显著提升观看体验的推荐列表。整个过程仅用约 2 小时，借助 Claude Code 和 Opus 5.5 模型完成。HackerTube 无需登录即可提供优质推荐，状态保存在本地浏览器会话中；视频缩略图取自视频中间的代表性帧，而非用户上传的经过 A/B 测试高度优化的缩略图；底层数据以 zip 文件形式提供，用户可让 Claude 基于此生成自己的版本。Karpathy 还详细描述了开发过程：他使用 Claude Code（Mac 桌面应用）和 Opus 5.5（Medium effort 模式）作为默认工具，仅通过对话让 Claude 完成所有工作，自己只在浏览器中协助完成三项手动任务：在 Google Cloud UI 创建 API 密钥以查询 YouTube 视频元数据、启动 VPS 服务器用于部署、购买域名。服务器启动后，他将 IP 交给 Claude，指示其更新、安全加固、部署和优化代码，Claude 完成了全部工作。Karpathy 感叹许多原本需要数周甚至数月才能完成的项目现在可以轻松实现，并反问还有哪些事情是我们尚未想到的。",
+        "excerpts": [
+          {
+            "label": "项目动机",
+            "text": "我受够了 YouTube 的推荐，于是让 Claude 过滤了 Hacker News 上 20 年间的 4300 万条评论，筛选出 6454 个被反复推荐的视频。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "效果评价",
+            "text": "观看体验显著提升，整个过程约 2 小时，使用 Opus 5.5 完成。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "产品特点",
+            "text": "无需登录即可获得优质推荐（状态保存在本地浏览器会话中）；缩略图是视频中间的代表性帧，而非用户上传的经过 A/B 测试高度优化的缩略图。",
+            "reference": "推文列表"
+          },
+          {
+            "label": "数据开放",
+            "text": "底层数据来自评论分析，打包为一个 zip 文件，你可以让 Claude 基于它生成你自己的版本。",
+            "reference": "推文列表"
+          },
+          {
+            "label": "开发流程",
+            "text": "我使用 Claude Code（Mac 桌面应用），默认用 Opus 5.5 的 Medium effort 模式。我只和 Claude 对话，让它做所有事情，我唯一手动协助的是在浏览器中完成三项任务：在 Google Cloud UI 创建 API 密钥、启动 VPS 服务器、购买域名。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "自动化部署",
+            "text": "服务器启动后，我把 IP 给 Claude，告诉它更新、安全加固、部署和优化代码，它完成了全部工作。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "感慨与展望",
+            "text": "许多原本需要数周甚至数月才能完成的项目，现在可以轻松搞定。我们还有什么没想到的呢？",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2117000819623243925:932632158c5f356a": {
+      "itemId": "tweet:2117000819623243925",
+      "sourceHash": "932632158c5f356a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Own your intelligence. Anyone that opposes this has something to sell you...",
+      "url": "https://x.com/rauchg/status/2117000819623243925",
+      "generatedAt": "2026-11-03T03:58:39.270Z",
+      "summary": {
+        "title": "Guillermo Rauch：拥有你的智能，警惕想卖回给你的人",
+        "summary": "Vercel CEO Guillermo Rauch 在 X 上发布了一条关于 AI 所有权与开源生态的推文。他主张个人和开发者应当拥有自己的智能（intelligence），任何反对这一观点的人往往是想向你推销东西——甚至可能是把你自己的智能卖回给你。他呼吁本地模型需要继续扩散，虽然当前那些“绝对巨无霸”式的大规模模型在本地运行还不可行，但最佳策略是保持选项开放。具体而言，要拥有自己的工具链（harness）、数据、连接和运行时，也就是拥有自己的智能体（agents），并拥抱开源。这条推文获得了 2251 个赞、222 次转发和 242 条回复，反映了 AI 社区对模型所有权、本地化部署和开源生态的持续关注。Rauch 的观点与当前 AI 行业关于模型集中化与去中心化、用户数据主权以及开源与闭源竞争的讨论高度相关，为开发者和企业提供了在技术快速演进中保持自主性的行动框架。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "拥有你的智能。任何反对这一点的人，都有东西要卖给你（也许是把你的智能卖回给你）。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "行动呼吁",
+            "text": "本地模型需要继续扩散。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "现实判断",
+            "text": "那些“绝对巨无霸”式的大规模模型目前在本地可能还无法运行，所以你的最佳选择确实是保持选项开放。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "具体建议",
+            "text": "拥有你的工具链、数据、连接、运行时：也就是你的智能体。拥抱开源。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "社区反响",
+            "text": "推文获得 2251 个赞、222 次转发和 242 条回复，显示该话题在 AI 社区引发广泛共鸣。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:899611ab-5215-4e00-b177-4be18b8bdb5f:66854dbfd82351b1": {
+      "itemId": "podcast:899611ab-5215-4e00-b177-4be18b8bdb5f",
+      "sourceHash": "66854dbfd82351b1",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Unsupervised Learning: Ep 95: Modal CEO on the Future of Inference, the Chaos of the GPU Market &amp; Origins of the Sandbox Bet",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "generatedAt": "2026-11-03T03:59:20.017Z",
+      "summary": {
+        "title": "Modal CEO 谈推理未来、GPU 市场乱象与 Sandbox 赌注起源",
+        "summary": "本期播客中，Modal CEO 深入探讨了 GPU 市场的混乱现状、Modal 从无服务器函数到 AI 推理平台的转型历程，以及 Sandbox 产品爆发式增长背后的故事。他指出 GPU 市场交易方式原始，类似“露天毒品市场”，计算资源形态多样难以标准化，因此不适合在交易所买卖。Modal 每周进行两到三笔计算资源交易，与 25 家云服务商合作，通过聚合容量和自动故障处理提高可靠性。Modal 最初产品为无服务器函数，后因 ChatGPT 和 Stable Diffusion 的出现转向 AI 工作负载，并于 2023 年推出 Sandbox 产品，2025 年因模型代码生成能力提升而爆发式增长，目前占收入三分之一，年化运行率 3 亿美元。DeepSeek 的出现促使 Modal 进入 LLM 推理市场，目前 LLM 推理也占收入三分之一。Modal 自研文件系统、容器运行时和调度器，不使用 Kubernetes 和 Docker，以实现极快的冷启动。在推理优化方面投入大量资源，包括 KV 缓存、高效内核、量化等，并积极拥抱开源。CEO 认为推理市场将出现激烈竞争，单纯提供 token 服务会商品化，差异化在于更高效的服务和提供完整平台。Modal 的差异化优势在于提供多种产品的组合，包括沙箱、强化学习、微调、批处理等，客户倾向于购买多产品工具集。Modal 的客户包括 Cognition、Ramp、Suno、Runway、Decagon、DoorDash、生物技术公司和机器人公司等。CEO 强调资源分配是首要任务，需要果断暂停低优先级项目。Modal 的代码中约 95% 由 AI 代理编写，但资深工程师仍需要监督代理，软件工程师短期内不会被取代。资深工程师比初级工程师更积极采用 AI 代理，因为代理能帮助他们快速实现想法。Modal 需要应对代理生成代码带来的弃用问题，因为代理训练数据包含旧代码，导致弃用窗口需要延长。Modal 通过自动化管道让 LLM 持续编写代码并测试，以发现代理的弱点，并优化代理推荐 Modal 的可能性。CEO 对低延迟推理、训练和虚拟机支持等领域持乐观态度，认为所有软件最终都会变成代理式，但具体架构尚不明确，因此专注于构建持久的基础设施。Modal 的收入从 200 万美元增长到超过 10 亿美元运行率，仅用了三年时间。CEO 认为新云是可行的商业模式，但增长昂贵，需要大量债务融资，资本效率低。新云公司杠杆高，股权价值波动大，但 GPU 寿命比预期长，残值高，可能赚钱。一些新实验室可能因 GPU 承诺的隐性杠杆而面临风险，若后续融资失败，可能转向新云模式或转售 GPU。CEO 认为大多数公司不会训练自己的模型，但大型公司会进行后训练，后训练市场有吸引力但需产品化。成功的公司最终会成为多产品公司，但不会扩展到所有领域，Modal 将专注于相邻集群。CEO 改变了对沙盒机会规模的看法，认为其增长超出预期。他认为编码代理不会减少对工程师的需求，长期看需求会增加，但短期新毕业生可能面临困难。在构建 Modal 时学到需要同时推进多项工作，而不是顺序进行，以加快速度。他认为瑞典科技创业成功源于成功创造成功的飞轮效应和瑞典人的创业精神。他预测未来 12 个月 GPU 租赁价格将上涨，因为 Anthropic 和 OpenAI 等公司盈利能力强，不会放缓容量采购。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "GPU市场目前非常不成熟，类似“露天毒品市场”，交易方式原始，效率低下。",
+            "reference": "00:04-00:17"
+          },
+          {
+            "label": "数据",
+            "text": "Modal每周进行两到三笔计算资源交易，与25家云服务商合作，并持续增加。",
+            "reference": "01:49-02:10"
+          },
+          {
+            "label": "案例",
+            "text": "计算资源获取渠道混乱，常通过非正式方式如WhatsApp群、酒店大堂会面、私人关系等。",
+            "reference": "02:27-03:04"
+          },
+          {
+            "label": "数据",
+            "text": "Modal于2023年推出Sandbox产品，2025年因模型代码生成能力提升而爆发式增长，目前占收入三分之一，年化运行率3亿美元。",
+            "reference": "07:13-07:58"
+          },
+          {
+            "label": "观点",
+            "text": "DeepSeek的出现促使Modal进入LLM推理市场，目前LLM推理也占收入三分之一。",
+            "reference": "08:21-09:12"
+          },
+          {
+            "label": "案例",
+            "text": "Modal自研文件系统、容器运行时和调度器，不使用Kubernetes和Docker，以实现极快的冷启动。",
+            "reference": "10:43-11:21"
+          },
+          {
+            "label": "观点",
+            "text": "推理市场将出现激烈竞争，单纯提供token服务会商品化，差异化在于更高效的服务和提供完整平台。",
+            "reference": "21:49-22:13"
+          },
+          {
+            "label": "数据",
+            "text": "Modal的代码中约95%由AI代理编写，但资深工程师仍需要监督代理，软件工程师短期内不会被取代。",
+            "reference": "27:43-28:19"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2116946320674152810:c7449da7854cb7cb": {
+      "itemId": "tweet:2116946320674152810",
+      "sourceHash": "c7449da7854cb7cb",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：I wish I could just use one AI tool but right now there are clear winners in...",
+      "url": "https://x.com/petergyang/status/2116946320674152810",
+      "generatedAt": "2026-11-03T03:59:25.405Z",
+      "summary": {
+        "title": "Peter Yang：希望只用一款 AI 工具，但目前各品类各有赢家",
+        "summary": "Peter Yang 在这条推文中表达了他希望只用一款 AI 工具就能完成所有任务的愿望，但现实是不同品类中已有明显的领先者。他列举了三个主要类别及其当前赢家：浏览器/计算机使用方面是 ChatGPT 与 Codex；设计/视频编辑/“品味”方面是 Claude；24/7 智能体和定时任务方面是 Grok Bot。此外，他还提到 Gemini 在写作方面被低估，但需要更多测试。这条推文反映了 AI 工具生态的碎片化现状，以及用户对统一体验的渴望，同时为关注 AI 工具选择的读者提供了实用的参考。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我希望只用一款 AI 工具，但目前每个品类都有明显的赢家。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "浏览器/计算机使用：ChatGPT + Codex 是当前赢家。",
+            "reference": "推文列举"
+          },
+          {
+            "label": "案例",
+            "text": "设计/视频编辑/“品味”：Claude 是当前赢家。",
+            "reference": "推文列举"
+          },
+          {
+            "label": "案例",
+            "text": "24/7 智能体和定时任务：Grok Bot 是当前赢家。",
+            "reference": "推文列举"
+          },
+          {
+            "label": "观点",
+            "text": "Gemini 在写作方面被低估了，但我还需要更多测试。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2117134917847093491:470aa35b332cc745": {
+      "itemId": "tweet:2117134917847093491",
+      "sourceHash": "470aa35b332cc745",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Increasingly this will be the new job description for a lot of roles, not just...",
+      "url": "https://x.com/levie/status/2117134917847093491",
+      "generatedAt": "2026-11-03T03:59:32.986Z",
+      "summary": {
+        "title": "Aaron Levie：AI 代理将重塑知识工作，人人成为代理团队的管理者",
+        "summary": "Aaron Levie 在这条推文中提出，AI 代理正在从根本上改变知识工作的性质。他认为，我们正从“代理帮助我们更高效地完成工作”的阶段，转向“我们帮助代理完成工作”的阶段。这意味着许多角色的工作描述将发生根本变化，从个人贡献者转变为管理一组 AI 代理的经理。Levie 指出，影响最大的领域将是信息密集型工作，如编程、网络安全、法律、生物技术和工程等。他进一步分析，这种转变将打破传统知识工作中“工作时间与产出”之间的线性关系，因为代理可以并行执行任务，理论上可以无限扩展产出。Levie 强调，那些更早发现这一趋势并围绕其调整运营方式的个人和组织，将在工作流程中获得复合收益。这条推文为理解 AI 代理对就业市场和工作方式的深远影响提供了前瞻性视角。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "我们正从‘代理帮助我们更高效地完成工作’的世界，转向‘我们帮助代理完成工作’的世界。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "角色转变",
+            "text": "这将使这些职位上的每个人都变成一组代理的经理，而不是仅借助 AI 增加一些杠杆的个人贡献者。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "影响领域",
+            "text": "影响最大的领域将是信息密集型工作，如编程、网络安全、法律、生物技术、工程等。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "杠杆解耦",
+            "text": "在这些工作中，你的杠杆将开始与‘工作时间与产出’的正常比率脱钩。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "历史对比",
+            "text": "在知识工作的历史上，你主要能调整的变量是工作时间（假设才能、协调和战略水平固定）。现在我们已经分离了这些变量，因为代理可以为我们并行工作。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "行动建议",
+            "text": "更早发现这一点并围绕其调整运营的个人和组织，将在工作流程中获得复合收益。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2117059131349868790:0e2f1799d0320c97": {
+      "itemId": "tweet:2117059131349868790",
+      "sourceHash": "0e2f1799d0320c97",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：Upcoming episodes of Behind the Craft: 1. Ashley Alexander Ashley is VP of...",
+      "url": "https://x.com/petergyang/status/2117059131349868790",
+      "generatedAt": "2026-11-03T03:59:40.609Z",
+      "summary": {
+        "title": "Peter Yang 预告 Behind the Craft 播客即将上线四期深度访谈",
+        "summary": "Peter Yang 在 X 上预告其播客 Behind the Craft 即将上线的四期节目，分别邀请 OpenAI 产品副总裁 Ashley Alexander、Anthropic 设计师 Nate Parrott、AI 编程技能课程讲师 Matt Pocock，以及被 a16z 合伙人称为“全球最 AI 化游戏公司”创始人的 Jacob Sansbury。四期内容分别围绕 AI 在照护癌症亲人中的角色、如何避免 AI 设计出“垃圾感”、如何用 AI 技能构建软件工厂，以及 10 人团队年耗 3200 万美元 Claude 算力的游戏公司实践。Peter 强调他选择嘉宾的标准是“真正的 builder 和实践者”，并邀请订阅以获取全部节目。",
+        "excerpts": [
+          {
+            "label": "嘉宾与主题",
+            "text": "Ashley Alexander 是 OpenAI 产品副总裁，我们将坦诚对话，聊她照顾患癌父母的经历，以及 ChatGPT 和 AI 能在哪些方面提供帮助。",
+            "reference": "推文第1条"
+          },
+          {
+            "label": "嘉宾与主题",
+            "text": "Nate Parrott 是 Anthropic 设计师，负责 Claude Design、Dashboard、Motion 等，他会现场演示一个真实案例，坦诚分享如何让 Claude 避免设计出 AI 垃圾。",
+            "reference": "推文第2条"
+          },
+          {
+            "label": "数据",
+            "text": "Matt Pocock 的 AI 编程技能课程在 GitHub 上获得超过 30 万颗星。",
+            "reference": "推文第3条"
+          },
+          {
+            "label": "案例",
+            "text": "Jacob Sansbury 的公司被 a16z 合伙人称为全球最 AI 化的游戏公司，仅 10 人团队，每年在 Claude 上花费 3200 万美元。",
+            "reference": "推文第4条"
+          },
+          {
+            "label": "选人标准",
+            "text": "我所有访谈都尽量找真正的 builder 和实践者，聊我真正关心的话题。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
