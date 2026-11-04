@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-03T03:59:40.610Z",
+  "updatedAt": "2026-11-04T03:07:47.121Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -18240,6 +18240,116 @@
           {
             "label": "选人标准",
             "text": "我所有访谈都尽量找真正的 builder 和实践者，聊我真正关心的话题。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:youtube:bJBEFzlKPoQ:f905d351e089a524": {
+      "itemId": "podcast:youtube:bJBEFzlKPoQ",
+      "sourceHash": "f905d351e089a524",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Latent Space: Building Legal Agents When You Can't See the Data - Jacob Lauritzen, CTO of Legora",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "generatedAt": "2026-11-04T03:07:32.010Z",
+      "summary": {
+        "title": "当你看不到数据时如何构建法律智能体——Legora CTO Jacob Lauritzen",
+        "summary": "本期播客中，Legora CTO Jacob Lauritzen 分享了从法律研究助手到多任务法律智能体的产品演进，以及如何在客户数据高度机密、无法查看真实使用痕迹的约束下构建评估体系。Legora 最初是一个结合瑞典法律和搜索工具的 ChatGPT 式产品，现已扩展到起草、编辑 Word 文件、文件整理和复杂分析等功能，并开发了被行业采用的 Tabular Review 功能，用于批量提取和审查协议，可处理多达一百万个单元格。公司约一年前从助手模式转向代理模式，在代理中使用多种模型并根据任务进行路由，同时为用户提供模型选择器。由于无法查看用户数据，Legora 依靠由工程师和律师组成的评估团队，通过模拟包含大量文件的尽职调查项目等 RL 环境来构建评估集，并用热图跟踪模型在不同任务上的表现变化。Jacob 认为法律工作不需要 Mythos 级别的智能，但复杂分析仍需要更多智能。Legora 正在从单纯执行工作扩展到编排工作，推出 Lists、Intake 和 Portal 等功能。公司基础设施托管在 Azure 上，因为律所最初不信任 AWS 但信任微软。在模型选择上，Legora 采用仲裁策略，根据不同任务选择最合适的模型，包括开源模型和前沿模型，并计划针对法律研究等特定任务使用开放权重模型进行后训练。Jacob 强调搜索、分析和起草是定制重点，并指出嵌入模型仍有大量优化空间，不应使用默认嵌入。他还讨论了前向部署工程师和法律工程师的角色差异，以及 API 业务起步较晚的原因。对于未来，Jacob 预测大型并购交易会使用 Legora，而小型企业可能用 Claude 处理部分法律事务，并认为大模型实验室不会因竞争而切断 Legora。Legora 已启动法学院项目，并建议为 CS 背景的学生提供法学院奖学金。公司正在纽约、斯德哥尔摩、伦敦招聘工程师。",
+        "excerpts": [
+          {
+            "label": "产品起源",
+            "text": "一切始于一个结合瑞典法律和搜索工具的 ChatGPT 式产品，最初只做法律研究。",
+            "reference": "00:00:00"
+          },
+          {
+            "label": "Tabular Review 功能",
+            "text": "Tabular Review 可以处理多达一百万个单元格，用于大规模文件审查，传统上需要律师助理团队长时间工作，现在 AI 工具可以替代。",
+            "reference": "00:00:00"
+          },
+          {
+            "label": "评估挑战",
+            "text": "由于客户数据高度机密，Legora 无法查看用户的实际使用痕迹，只能通过评估团队模拟用户行为来构建评估集。",
+            "reference": "00:00:00"
+          },
+          {
+            "label": "模型选择",
+            "text": "Fable 和 Opus 过于啰嗦，Astra 在起草方面表现较好且更简洁。",
+            "reference": "00:00:00"
+          },
+          {
+            "label": "嵌入模型建议",
+            "text": "嵌入模型上仍有大量优化空间，不应使用默认嵌入，应定制嵌入，并确保多语言支持。",
+            "reference": "00:00:00"
+          },
+          {
+            "label": "未来预测",
+            "text": "大型并购交易会使用 Legora，而小型企业可能用 Claude 处理部分法律事务；大模型实验室不会因竞争而切断 Legora。",
+            "reference": "00:00:00"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2117338179535810957:1b6b53dd40ed40a7": {
+      "itemId": "tweet:2117338179535810957",
+      "sourceHash": "1b6b53dd40ed40a7",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Stateless sandboxes are the wrong benchmark. Agents are only useful if they...",
+      "url": "https://x.com/rauchg/status/2117338179535810957",
+      "generatedAt": "2026-11-04T03:07:38.720Z",
+      "summary": {
+        "title": "Guillermo Rauch：无状态沙盒是错误基准，Agent 需要自带工作空间",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中批评当前以无状态沙盒作为 AI Agent 评测基准的做法，认为 Agent 只有在拥有自己的工作空间（包括身份、技能、代码仓库、记忆等）时才能真正发挥作用。他透露 Vercel Sandbox 团队在延迟和吞吐量 SLO 上表现优异，同时优先保障可靠性和安全性，并已在全球 19 个区域部署集群，每周发布新功能，客户需求以每周两位数百分比的速度增长。这条推文反映了 AI Agent 基础设施从单纯执行环境向持久化、个性化工作空间演进的趋势，对开发者工具和云服务商有重要参考价值。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "无状态沙盒是错误的基准。Agent 只有在拥有自己的工作空间（身份、技能、仓库、记忆等）时才有用。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "产品进展",
+            "text": "Vercel Sandbox 团队在延迟和吞吐量 SLO 上表现出色，同时优先考虑可靠性和安全性。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "规模数据",
+            "text": "已在 19 个全球区域部署集群，每周发布新功能，客户需求以每周两位数百分比的速度增长。",
+            "reference": "推文后半段"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2117333424403042330:519ee65244adbd0a": {
+      "itemId": "tweet:2117333424403042330",
+      "sourceHash": "519ee65244adbd0a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：The best model for writing & editing is held back by its harness. I just had...",
+      "url": "https://x.com/petergyang/status/2117333424403042330",
+      "generatedAt": "2026-11-04T03:07:47.120Z",
+      "summary": {
+        "title": "Peter Yang：最好的写作与编辑模型被其外壳拖累",
+        "summary": "Peter Yang 在推文中分享了一次实际体验：他同时让 ChatGPT 和 Gemini 为一篇正在撰写的帖子提供文案修改建议。ChatGPT 的建议几乎都很糟糕，而 Gemini 的建议却非常出色。然而，问题在于 Gemini 所在的 Antigravity 环境似乎没有可用的浏览器操作功能，导致他不得不把 Gemini 的所有编辑建议手动粘贴回 ChatGPT，以便在浏览器中完成修改。他发这条推文是希望 Antigravity 能更快地大幅改进。这条推文反映了当前 AI 写作工具的一个普遍痛点：底层模型能力很强，但产品外壳（harness）的交互和集成能力限制了用户体验，尤其是跨工具协作时的不便。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "最好的写作与编辑模型被其外壳（harness）拖累了。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "我同时让 ChatGPT 和 Gemini 为一篇正在写的帖子提供文案修改建议。ChatGPT 的建议几乎都很糟糕，但 Gemini 的建议实际上非常棒。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "痛点",
+            "text": "不幸的是，Antigravity 似乎没有可用的浏览器操作功能，所以我基本上必须把 Gemini 的所有编辑建议粘贴回 ChatGPT，才能在浏览器里完成修改。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "期望",
+            "text": "发这条推文是希望 Antigravity 能更快地大幅改进。",
             "reference": "推文结尾"
           }
         ],
