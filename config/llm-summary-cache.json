@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-04T03:07:47.121Z",
+  "updatedAt": "2026-11-05T03:37:55.027Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -18351,6 +18351,241 @@
             "label": "期望",
             "text": "发这条推文是希望 Antigravity 能更快地大幅改进。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2117794005165748448:949b9732dbcbb342": {
+      "itemId": "tweet:2117794005165748448",
+      "sourceHash": "949b9732dbcbb342",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Sam Altman：People should always be in control of the future. OpenAI is against the notion...",
+      "url": "https://x.com/sama/status/2117794005165748448",
+      "generatedAt": "2026-11-05T03:36:22.821Z",
+      "summary": {
+        "title": "Sam Altman：人类必须始终掌控未来，不应将控制权让渡给超级智能",
+        "summary": "OpenAI CEO Sam Altman 在 X 上发布了一条简短但立场鲜明的推文，强调人类必须始终掌控未来。他明确反对一种观点：即人类可以被降格为仅仅执行“AI 系统认为值得奖励的行为”的角色。Altman 认为，人们不应将未来的控制权让渡给超级智能，并且这一要求应当从根本上约束 AI 的发展进程。这条推文获得了超过一万次点赞和两千多条回复，引发了关于 AI 治理、人类自主性与技术发展边界的广泛讨论。Altman 的表述延续了他此前多次公开呼吁对 AI 进行审慎监管的立场，但此次更直接地指向了“人类角色被 AI 定义”的风险，凸显了在追求 AGI 过程中保持人类主体性的核心关切。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "人们应该始终掌控未来。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "反对立场",
+            "text": "OpenAI 反对这样一种观念：即人类被降格为只做“AI 系统认为值得奖励的事情”是可以接受的。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "关键要求",
+            "text": "人们不应将未来的控制权让渡给超级智能。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "约束条件",
+            "text": "这一要求应当从根本上约束 AI 的进步。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 10,173 次点赞、528 次转发和 2,312 条回复，显示话题热度极高。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2117731934340337676:8bda6a59ac85037f": {
+      "itemId": "tweet:2117731934340337676",
+      "sourceHash": "8bda6a59ac85037f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Cat Wu：Friday was my last day at Anthropic. Two years ago, when Claude Code was a...",
+      "url": "https://x.com/_catwu/status/2117731934340337676",
+      "generatedAt": "2026-11-05T03:36:33.730Z",
+      "summary": {
+        "title": "Cat Wu 离开 Anthropic：从内部工具到行业定义产品的两年",
+        "summary": "Cat Wu 在推特上宣布周五是她在 Anthropic 的最后一天。她回顾了自己与 Claude Code 的缘分：两年前 Claude Code 还只是一个内部小工具时，她让它构建一个强化学习环境，自己只进行指导而没有手写一行代码，结果成功了，这让她着迷并加入了团队。她描述了产品的发展历程：最初发布时，大多数人手动批准每个权限提示，主要用 Claude 来回答问题、写测试；而如今，默认设置是信任 Claude 的判断来自动批准，Claude 可以执行大规模迁移和构建新产品。她感谢了 Claude Code、Cowork 和 Tag 背后的团队，称这些产品是团队数千个伟大想法的结晶；也感谢用户拥抱新的工作方式，用户的反馈塑造了产品，用户的故事让工作充满意义。她期待看到用户接下来创造的东西。这条推文获得了 9473 个赞、260 次转发和 830 条回复，反映了社区对她在 Claude Code 发展中所做贡献的认可。",
+        "excerpts": [
+          {
+            "label": "个人经历",
+            "text": "两年前，当 Claude Code 还只是一个内部小工具时，我让它构建一个强化学习环境。我指导了它几十个小时，但从未手动写过一行代码。它成功了，我被迷住了，于是加入了团队。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "产品演变",
+            "text": "最初发布时，大多数人手动批准每个权限提示，主要用 Claude 来回答问题和写测试。如今，默认设置是信任 Claude 的判断来自动批准。Claude 执行大规模迁移并构建新产品。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "团队致谢",
+            "text": "感谢 Claude Code、Cowork 和 Tag 背后不可思议的团队。这些产品是你们数千个伟大想法的结晶。我会想念与你们共事的时光。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "用户致谢",
+            "text": "感谢我们的用户拥抱一种新的工作方式。你们持续的反馈塑造了我们发布的许多内容，你们的故事让这份工作如此有意义。期待看到你们接下来创造的东西！",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2117734833824948373:4bf9007cb042965d": {
+      "itemId": "tweet:2117734833824948373",
+      "sourceHash": "4bf9007cb042965d",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：I've been looking forward to this day, because Vercel has an internal security...",
+      "url": "https://x.com/rauchg/status/2117734833824948373",
+      "generatedAt": "2026-11-05T03:36:44.948Z",
+      "summary": {
+        "title": "Vercel 发布内部安全代理，将自动代码审计能力开放给所有开发者",
+        "summary": "Vercel 创始人 Guillermo Rauch 宣布，公司内部使用的安全代理（代号 hacker）现已作为产品向所有开发者开放。该代理能够自动审计每一行代码，且不依赖开发者主动提示或模型随机性，能发现其他代理遗漏的安全问题。Rauch 强调，该产品由 Vercel 安全团队完全自研，无论代码是否托管在 Vercel 上均可使用，只需在仓库中启用即可大幅提升安全感。他认为，企业不能仅靠工程师的技能、提示词或模型权重来保证代码安全，而这款产品相当于将一支安全团队以软件形式交付，是目前最接近“下载一个安全团队”的解决方案。",
+        "excerpts": [
+          {
+            "label": "产品核心能力",
+            "text": "Vercel 内部有一个安全代理，效果惊人，每一行代码都会被自动审计。现在你也可以获得同样的能力，只需在所有仓库上启用它（无论是否托管在 Vercel 上），你的安心感将大幅提升。",
+            "reference": "原文第1-3句"
+          },
+          {
+            "label": "产品优势",
+            "text": "你会看到它捕捉到其他所有代理都遗漏的问题。",
+            "reference": "原文第4句"
+          },
+          {
+            "label": "安全理念",
+            "text": "你不能只指望工程师拥有某种技能、提示“请确保安全”，或者赌模型权重让代码一开始就是好的。",
+            "reference": "原文第5句"
+          },
+          {
+            "label": "开发背景",
+            "text": "另一个很酷的事情是，这完全是由我们的安全团队开发的。很多公司现在可能正疯狂地招人，如果你想以软件形式“下载一个安全团队”，这是你今天能获得的最接近的东西。",
+            "reference": "原文第6-8句"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2117505799937577263:37e793d69aa64239": {
+      "itemId": "tweet:2117505799937577263",
+      "sourceHash": "37e793d69aa64239",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：The divergence in AI output weirdly may be the highest it’s ever been, even...",
+      "url": "https://x.com/levie/status/2117505799937577263",
+      "generatedAt": "2026-11-05T03:36:55.702Z",
+      "summary": {
+        "title": "Aaron Levie：AI 输出差异达到历史最高，生产力上限从 30-50% 跃升至 5-10 倍",
+        "summary": "Aaron Levie 在推文中指出，尽管 AI 的采用范围比以往任何时候都广，但 AI 输出之间的差异却达到了历史最高。几年前，即使在能力最匹配的领域（如编程），最优秀的使用者也只能获得 30-50% 的生产力提升，且需要花费大量时间清理模型错误，上下文窗口有限，交互高度同步。如今，模型能够以有限的人类交互完成更长的任务，支持智能体工作的框架可以承担更大的任务，模型在越来越多的领域基于更好的数据集训练，人工干预大幅减少，并且系统支持同时与多个智能体协作。在短短两年内，生产力提升的上限从 30-50% 跃升至可能的 5-10 倍（取决于领域）。因此，处于技术前沿与完全不关注 AI 之间的产出差距可能达到一个数量级，并且随着递归自我改进（RSI）的进展，这一差距只会进一步扩大。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 输出之间的差异可能达到了历史最高，尽管采用范围比以往任何时候都广。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "历史对比",
+            "text": "几年前，即使在能力最匹配的领域（如编程），最优秀的使用者也只能获得 30-50% 的生产力提升，且需要花费大量时间清理模型错误，上下文窗口有限，交互高度同步。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "当前进展",
+            "text": "现在模型能够以有限的人类交互完成更长的任务，支持智能体工作的框架可以承担更大的任务，模型在越来越多的领域基于更好的数据集训练，人工干预大幅减少，并且系统支持同时与多个智能体协作。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "数据对比",
+            "text": "在短短两年内，生产力提升的上限从 30-50% 跃升至可能的 5-10 倍（取决于领域）。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "影响判断",
+            "text": "处于技术前沿与完全不关注 AI 之间的产出差距可能达到一个数量级，并且随着递归自我改进（RSI）的进展，这一差距只会进一步扩大。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:4248d1df-1156-4e68-b67a-5f3cfd063aea:21816caee6b47096": {
+      "itemId": "podcast:4248d1df-1156-4e68-b67a-5f3cfd063aea",
+      "sourceHash": "21816caee6b47096",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Unsupervised Learning: Ep 96: Nebius CTO on Racing the Hyperscalers Before AWS Wakes Up",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "generatedAt": "2026-11-05T03:37:45.913Z",
+      "summary": {
+        "title": "Nebius CTO：在 AWS 觉醒前与超大规模云厂商赛跑",
+        "summary": "本期播客采访了 AI 云厂商 Nebius 的 CTO，探讨其从 Yandex 分拆后的定位、与超大规模云厂商的竞争策略，以及 AI 基础设施的现状与未来。Nebius 定位为 AI 云，而非传统云，目标是与 AWS、Google Cloud 竞争。其核心观点是软件是护城河，因此硬件团队仅 40-50 人，软件团队约 200 人，强调软件优先。Nebius 在部分芯片世代中率先构建大规模集群，遇到并解决新问题，并向 NVIDIA 反馈。客户工作负载主要分为训练和推理，但存储需求巨大，吞吐量可达 700GB/s。客户差异主要在于成熟度：新实验室关注 GPU、存储、性能、可用性，企业客户更关注合规、安全。Nebius 构建通用云平台，硬件层面不针对特定工作负载优化，优化在软件层进行。95% 的客户不使用原版开源模型，而是使用修改或微调后的模型。针对特定用例的模型可以更小，只需保留前沿智能和推理能力用于特定任务子集。企业采用 AI 时更关注结果的可预测性和时间，而非成本。Nebius 希望在所有推理优化方面处于前沿，包括模型优化、压缩和投机解码，并为此收购了一家公司。Nebius 还收购了 Tavoli，一家网络搜索公司，因其产品和市场推广能力。Nebius 完全控制其数据中心内部建设，无论设施是自有还是租赁。AI 建设的主要瓶颈是执行能力，而非单一资源短缺。超大规模云服务商因芯片短缺和内部需求，未能更快进入 AI 云市场。未来 AI 云市场将类似传统云市场，存在大型玩家和众多利基玩家。OpenAI 与 Base ten 的合作是为了提供开放模型选项，同时保持用户在其生态系统中。演讲者过去一年对 AI 编码能力的看法发生了改变，从认为无用变为日常工具。完全自主的代理生成的代码会被标记，且不会接触核心服务，因为存在风险。演讲者虽然身处 AI 革命中，但对自主代理持保守态度，因为了解其内部运作。Nebius 在构建过程中最大的错误是低估了单个客户所需的规模。五年前 30 兆瓦的数据中心是大型设施，但现在可能不足以满足单个客户。四年前网络附加存储的吞吐量是数百兆字节或吉字节每秒，现在客户从单个共享文件系统获取 700 吉字节每秒。演讲者不再关注模型变大或变聪明，而是关注新的架构和方法，但目前没有看到值得下注的。演讲者更感兴趣的是代理侧的结果优化，即从按请求计费转向按结果计费。Nebius 内部有一个小型研究团队在研究如何提高达到结果的可能性，不仅通过改变模型，还通过优化工具和 harness。现代 AI 工作负载中，代理可能长时间不调用 LLM，而是执行代码和工具，这导致 CPU 消耗增加。演讲者认为未来 AI 采用的关键在于代理场景的可靠性和结果的可达性，模型外的优化循环很重要。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Nebius 定位为 AI 云，而非“新云”，目标是与 AWS 和 Google Cloud 竞争。",
+            "reference": "02:52-03:48"
+          },
+          {
+            "label": "数据",
+            "text": "95% 的客户不使用原版开源模型，而是使用修改或微调后的模型。",
+            "reference": "Speaker 1 | 26:43 - 27:09"
+          },
+          {
+            "label": "观点",
+            "text": "企业采用 AI 时更关注结果的可预测性和时间，而非成本。",
+            "reference": "Speaker 1 | 27:48 - 28:31"
+          },
+          {
+            "label": "案例",
+            "text": "Nebius 收购了一家公司以获取模型优化、压缩和投机解码方面的人才。",
+            "reference": "Speaker 1 | 29:27 - 29:52"
+          },
+          {
+            "label": "观点",
+            "text": "AI 建设的主要瓶颈是执行能力，而非单一资源短缺。",
+            "reference": "Speaker 1 | 34:55 - 35:14"
+          },
+          {
+            "label": "数据",
+            "text": "四年前网络附加存储的吞吐量是数百兆字节或吉字节每秒，现在客户从单个共享文件系统获取 700 吉字节每秒。",
+            "reference": "Speaker 1 | 56:36 - 56:57"
+          },
+          {
+            "label": "观点",
+            "text": "演讲者更感兴趣的是代理侧的结果优化，即从按请求计费转向按结果计费。",
+            "reference": "Speaker 1 | 58:36 - 59:05"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2117679157035602065:abc462007df73f45": {
+      "itemId": "tweet:2117679157035602065",
+      "sourceHash": "abc462007df73f45",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Swyx：As part of the most insane AIE lineup to end 2026, we're also excited to...",
+      "url": "https://x.com/swyx/status/2117679157035602065",
+      "generatedAt": "2026-11-05T03:37:55.027Z",
+      "summary": {
+        "title": "Swyx 宣布 AIE 2026 压轴主题：Raising your Ambition",
+        "summary": "Swyx 在推文中宣布了 AIE（AI Engineer）大会 2026 年底最重磅的阵容，并揭晓了最后一个主题：Raising your Ambition。该主题将邀请多位知名工程师和创始人，包括 jxnlco、trq212、jarredsumner、sqs、mitsuhiko、dexhorthy、BuiltByJustin（StrongDM Dark Factory），以及一位特别嘉宾 echelon，他将进行自克隆整个 Adobe 套件以来的首次大型公开演讲，分享其方法和未来计划。活动将在旧金山线下聚集 1000 名顶尖智能体工程师，并通过 YouTube 直播覆盖 200 万月活用户。推文附有报名链接，号召大家参与。",
+        "excerpts": [
+          {
+            "label": "活动规模",
+            "text": "在旧金山线下聚集 1000 名顶尖智能体工程师，并通过 YouTube 直播覆盖 200 万月活用户。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "特别嘉宾",
+            "text": "echelon 将进行自克隆整个 Adobe 套件以来的首次大型公开演讲，分享其方法和未来计划。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "主题阵容",
+            "text": "Raising your Ambition 主题邀请 jxnlco、trq212、jarredsumner、sqs、mitsuhiko、dexhorthy、BuiltByJustin（StrongDM Dark Factory）等。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "活动性质",
+            "text": "这是 AIE 2026 年底最重磅的阵容，也是最后一个主题。",
+            "reference": "推文原文"
           }
         ],
         "materials": []

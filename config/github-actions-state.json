@@ -15300,7 +15300,127 @@
       "title": "Peter Yang：The best model for writing & editing is held back by its harness. I just had...",
       "url": "https://x.com/petergyang/status/2117333424403042330",
       "sentAt": "2026-11-04T03:07:48.878Z"
+    },
+    "tweet:2117794005165748448": {
+      "type": "tweet",
+      "title": "Sam Altman：People should always be in control of the future. OpenAI is against the notion...",
+      "url": "https://x.com/sama/status/2117794005165748448",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "topic:Sam Altman：People should always be in control of the future. OpenAI is against the notion...": {
+      "type": "topic",
+      "title": "Sam Altman：People should always be in control of the future. OpenAI is against the notion...",
+      "url": "https://x.com/sama/status/2117794005165748448",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "tweet:2117746467058405665": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Things will change again and again and again. We’re still very early and agents...",
+      "url": "https://x.com/thsottiaux/status/2117746467058405665",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "topic:Thibault Sottiaux：Things will change again and again and again. We’re still very early and agents...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Things will change again and again and again. We’re still very early and agents...",
+      "url": "https://x.com/thsottiaux/status/2117746467058405665",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "tweet:2117731934340337676": {
+      "type": "tweet",
+      "title": "Cat Wu：Friday was my last day at Anthropic. Two years ago, when Claude Code was a...",
+      "url": "https://x.com/_catwu/status/2117731934340337676",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "topic:Cat Wu：Friday was my last day at Anthropic. Two years ago, when Claude Code was a...": {
+      "type": "topic",
+      "title": "Cat Wu：Friday was my last day at Anthropic. Two years ago, when Claude Code was a...",
+      "url": "https://x.com/_catwu/status/2117731934340337676",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "tweet:2117670540148347273": {
+      "type": "tweet",
+      "title": "Thariq：this is basically the bitter lesson at work the smartest models will need fewer...",
+      "url": "https://x.com/trq212/status/2117670540148347273",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "topic:Thariq：this is basically the bitter lesson at work the smartest models will need fewer...": {
+      "type": "topic",
+      "title": "Thariq：this is basically the bitter lesson at work the smartest models will need fewer...",
+      "url": "https://x.com/trq212/status/2117670540148347273",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "tweet:2117693181651542387": {
+      "type": "tweet",
+      "title": "Boris Cherny：Signing in to your company's plugins one by one is annoying, so we let Claude...",
+      "url": "https://x.com/bcherny/status/2117693181651542387",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "topic:Boris Cherny：Signing in to your company's plugins one by one is annoying, so we let Claude...": {
+      "type": "topic",
+      "title": "Boris Cherny：Signing in to your company's plugins one by one is annoying, so we let Claude...",
+      "url": "https://x.com/bcherny/status/2117693181651542387",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "tweet:2117734833824948373": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：I've been looking forward to this day, because Vercel has an internal security...",
+      "url": "https://x.com/rauchg/status/2117734833824948373",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "topic:Guillermo Rauch：I've been looking forward to this day, because Vercel has an internal security...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：I've been looking forward to this day, because Vercel has an internal security...",
+      "url": "https://x.com/rauchg/status/2117734833824948373",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "tweet:2117505799937577263": {
+      "type": "tweet",
+      "title": "Aaron Levie：The divergence in AI output weirdly may be the highest it’s ever been, even...",
+      "url": "https://x.com/levie/status/2117505799937577263",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "topic:Aaron Levie：The divergence in AI output weirdly may be the highest it’s ever been, even...": {
+      "type": "topic",
+      "title": "Aaron Levie：The divergence in AI output weirdly may be the highest it’s ever been, even...",
+      "url": "https://x.com/levie/status/2117505799937577263",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "tweet:2117761721750475146": {
+      "type": "tweet",
+      "title": "Amjad Masad：We’re deep in the chaotic phase of enterprise adoption of agents and vibe...",
+      "url": "https://x.com/amasad/status/2117761721750475146",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "topic:Amjad Masad：We’re deep in the chaotic phase of enterprise adoption of agents and vibe...": {
+      "type": "topic",
+      "title": "Amjad Masad：We’re deep in the chaotic phase of enterprise adoption of agents and vibe...",
+      "url": "https://x.com/amasad/status/2117761721750475146",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "podcast:4248d1df-1156-4e68-b67a-5f3cfd063aea": {
+      "type": "podcast",
+      "title": "Unsupervised Learning: Ep 96: Nebius CTO on Racing the Hyperscalers Before AWS Wakes Up",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "topic:Unsupervised Learning: Ep 96: Nebius CTO on Racing the Hyperscalers Before AWS Wakes Up": {
+      "type": "topic",
+      "title": "Unsupervised Learning: Ep 96: Nebius CTO on Racing the Hyperscalers Before AWS Wakes Up",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "tweet:2117679157035602065": {
+      "type": "tweet",
+      "title": "Swyx：As part of the most insane AIE lineup to end 2026, we're also excited to...",
+      "url": "https://x.com/swyx/status/2117679157035602065",
+      "sentAt": "2026-11-05T03:37:57.391Z"
+    },
+    "topic:Swyx：As part of the most insane AIE lineup to end 2026, we're also excited to...": {
+      "type": "topic",
+      "title": "Swyx：As part of the most insane AIE lineup to end 2026, we're also excited to...",
+      "url": "https://x.com/swyx/status/2117679157035602065",
+      "sentAt": "2026-11-05T03:37:57.391Z"
     }
   },
-  "updatedAt": "2026-11-04T03:07:48.878Z"
+  "updatedAt": "2026-11-05T03:37:57.391Z"
 }
