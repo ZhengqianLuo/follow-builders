@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-06T03:31:32.083Z",
+  "updatedAt": "2026-11-07T03:00:32.378Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -18696,6 +18696,176 @@
             "label": "合作目标",
             "text": "将 AI 驱动的软件创建能力带给日本企业，帮助克服劳动力短缺、加速创新并解锁全新商业机会。",
             "reference": "推文后段"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2118403114890137895:104d0677cf325b84": {
+      "itemId": "tweet:2118403114890137895",
+      "sourceHash": "104d0677cf325b84",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：Introducing Personal Finance in Claude, in beta in the US. Connect the accounts...",
+      "url": "https://x.com/claudeai/status/2118403114890137895",
+      "generatedAt": "2026-11-07T02:59:39.522Z",
+      "summary": {
+        "title": "Claude 推出个人理财功能（美国测试版）：连接账户，用日常语言解答资金问题",
+        "summary": "Claude 官方宣布在美国推出个人理财功能（beta 测试）。用户可以选择连接自己的金融账户，Claude 将基于用户自己的余额和交易记录，用日常语言回答资金相关问题。该功能为只读访问，Claude 不能移动、管理或投资用户的资金。这一功能将 AI 助手从通用问答延伸到个人财务场景，强调隐私和只读权限，旨在降低用户对数据安全的顾虑。推文获得 3 万点赞、1488 次转发和 1058 条回复，显示较高的关注度。",
+        "excerpts": [
+          {
+            "label": "核心功能",
+            "text": "连接你选择的账户，Claude 用日常语言回答你的资金问题，基于你自己的余额和交易记录。",
+            "reference": "原文"
+          },
+          {
+            "label": "安全与权限",
+            "text": "访问是只读的，Claude 不能移动、管理或投资你的钱。",
+            "reference": "原文"
+          },
+          {
+            "label": "发布范围",
+            "text": "该功能目前在美国进行 beta 测试。",
+            "reference": "原文"
+          },
+          {
+            "label": "用户互动",
+            "text": "推文获得 30096 次点赞、1488 次转发和 1058 条回复，显示较高关注度。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2118440831355068671:5f07db3d6a09cb48": {
+      "itemId": "tweet:2118440831355068671",
+      "sourceHash": "5f07db3d6a09cb48",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：“Doing stuff for you over time” is the killer app of agents. Muse and Instinct...",
+      "url": "https://x.com/rauchg/status/2118440831355068671",
+      "generatedAt": "2026-11-07T02:59:45.378Z",
+      "summary": {
+        "title": "Guillermo Rauch：代理的杀手级应用是“长期为你做事”",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中提出，AI 代理的杀手级应用是“长期为你做事”（Doing stuff for you over time）。他以 Vercel 的 Muse 和 Instinct 为例，说明代理能够在夜间整合记忆、早晨提醒事项、并在距离上次交互 N 天后主动发消息。他强调 Vercel Schedules 是“加强版 Cron”，支持运行时定义、无限扩展，并且位于 Sandbox 之外，从而可以按需经济高效地调用计算资源。这条推文揭示了代理从单次问答向持续、主动、基于时间维度的服务演进的趋势，并展示了 Vercel 在基础设施层面对此类场景的支持。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "“Doing stuff for you over time” is the killer app of agents.（“长期为你做事”是代理的杀手级应用。）",
+            "reference": "推文开头"
+          },
+          {
+            "label": "产品案例",
+            "text": "Muse 和 Instinct 会在夜间整合记忆，早晨提醒你事项，并在距离上次交互 N 天后主动给你发消息。",
+            "reference": "推文中部"
+          },
+          {
+            "label": "技术类比",
+            "text": "Vercel Schedules 就像加强版的 Cron（Cron on steroids）。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "技术特性",
+            "text": "Vercel Schedules 可以在运行时定义、无限扩展，并且位于 Sandbox 之外，从而可以按需经济高效地调用计算资源。",
+            "reference": "推文后半部分"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:9e93ce06-533a-4c12-aecb-7c10e60bb02a:c623dbe3e7932f0c": {
+      "itemId": "podcast:9e93ce06-533a-4c12-aecb-7c10e60bb02a",
+      "sourceHash": "c623dbe3e7932f0c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Unsupervised Learning: Ep 97: Jev Creator on Decision Models, Benchmark Fatigue &amp; Why the Labs Missed It",
+      "url": "https://www.youtube.com/@RedpointAI",
+      "generatedAt": "2026-11-07T03:00:24.526Z",
+      "summary": {
+        "title": "Jev Creator 谈决策模型、基准疲劳与实验室为何错过",
+        "summary": "本期播客中，Jev 的创建者 Jogo 深入探讨了 AI 行业的现状与未来。他批评 Anthropic 的估值被高估，认为其部分基于对 AI 能力的误解，如“让 AI 治愈癌症”这类不切实际的期望。Jogo 反思自己在 OpenAI 时并非使命驱动，但现在对 Jev 项目充满使命感。他指出，尽管 AI 模型聪明，但生产力统计显示其并不实用，且“分发”不是答案，许多公司因此受挫。他提出思考：LLM 调用中多大比例是供人类消费（如风格、散文）还是供计算机消费（如位操作），并认为机器原生是未来。Jogo 将 JEV 称为“系统一模型”，认为 AI 压缩后的形态偏向系统一，因此应诚实沟通其弱点，这对软件可能极有价值。他反对基准测试，认为其误导开发者，导致过度承诺和交付不足，损害领域信任。Jogo 还讨论了编码代理的现状与未来，指出 KV 缓存对编码代理的限制，并设想多代理共享上下文、语义压缩等未来形态。他认为多模态会降低智能，文本任务将先于图像任务自动化。Jogo 强调可靠性是 JEV 的护城河，并提到杰文斯悖论尚未完全实现。他估计编码代理平均提升工程生产力 20-40%，但取决于用例和用户技能。最后，Jogo 呼吁人们摆脱 LLM 带来的缺乏代理感，重新开始构建，让 AI 成为创造和乐趣的力量。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Jogo 认为 Anthropic 的预期被高估，因为部分估值基于对 AI 未来的误解，如“让 AI 治愈癌症”类似“何不食肉糜”。",
+            "reference": "00:06 - 00:32"
+          },
+          {
+            "label": "观点",
+            "text": "Jogo 认为 AI 虽然聪明，但生产力统计显示其并不实用，且“分发”不是答案，因为许多公司因此受挫。",
+            "reference": "02:33 - 03:08"
+          },
+          {
+            "label": "观点",
+            "text": "Jogo 提出思考：LLM 调用中多大比例是供人类消费（如风格、散文）还是供计算机消费（如位操作），并认为机器原生是未来。",
+            "reference": "03:33 - 04:24"
+          },
+          {
+            "label": "观点",
+            "text": "Jogo 将 JEV 称为“系统一模型”，认为 AI 压缩后的形态偏向系统一，因此应诚实沟通其弱点，这对软件可能极有价值。",
+            "reference": "07:13 - 08:01"
+          },
+          {
+            "label": "观点",
+            "text": "Jogo 反对基准测试，认为其误导开发者，导致过度承诺和交付不足，损害领域信任。",
+            "reference": "20:07 - 20:26"
+          },
+          {
+            "label": "观点",
+            "text": "Jogo 解释 KV 缓存对编码代理的限制：设计围绕 KV 缓存，导致路由和子代理效率低下，状态管理类似全局变量，上下文退化。",
+            "reference": "27:14 - 29:39"
+          },
+          {
+            "label": "数据",
+            "text": "Jev 估计编码代理平均提升工程生产力 20-40%，但取决于用例和用户技能，长期可能有技能退化和技术债务。",
+            "reference": "55:04 - 55:25"
+          },
+          {
+            "label": "观点",
+            "text": "Jev 认为实验室的最大优势不是模型、产品或分发，而是金融工程，尤其在计算方面。",
+            "reference": "50:42 - 51:14"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2118498574497665316:a8c6da43fd8961e8": {
+      "itemId": "tweet:2118498574497665316",
+      "sourceHash": "a8c6da43fd8961e8",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：We’re going to have 100X more agents in the enterprise working with our data...",
+      "url": "https://x.com/levie/status/2118498574497665316",
+      "generatedAt": "2026-11-07T03:00:32.377Z",
+      "summary": {
+        "title": "Aaron Levie：企业中将有百倍于人类的 AI 代理，非结构化数据访问是关键",
+        "summary": "Box CEO Aaron Levie 在推文中预测，企业中 AI 代理的数量将比人类员工多 100 倍，它们将与企业的数据和系统深度协作。每个 AI 代理部署的核心挑战在于能否获取关键上下文以做出决策、进行研究或执行任务。他指出，企业 90% 的数据是非结构化的，这些关键上下文存在于文档、合同、营销资产、研究材料、财务计划、设计文件等中。因此，需要有效的方式让代理访问这些关键企业内容。Box 宣布与 NVIDIA 合作，提供高级上下文检索，结合词汇和语义搜索，确保 AI 代理能找到最相关的信息，同时遵守企业安全、访问控制和数据治理政策，使代理只能访问其被允许的数据。Levie 对与 NVIDIA 和 Jensen Huang 的合作表示兴奋，并用“Files 🤝 GPUs”形象地表达了文件与算力的结合。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "企业中 AI 代理的数量将比人类员工多 100 倍，它们将与我们的数据和系统协作。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "每个 AI 代理部署的核心在于能否成功获取关键上下文以做出决策、进行研究或执行任务。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "数据",
+            "text": "企业 90% 的数据是非结构化的，关键上下文存在于文档、合同、营销资产、研究材料、财务计划、设计文件等中。",
+            "reference": "推文第三句"
+          },
+          {
+            "label": "案例",
+            "text": "Box 与 NVIDIA 合作，提供高级上下文检索，结合词汇和语义搜索，确保 AI 代理能找到最相关的信息。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "观点",
+            "text": "所有检索都遵守企业安全、访问控制和数据治理政策，代理只能访问其被允许的数据。",
+            "reference": "推文后半部分"
+          },
+          {
+            "label": "类比",
+            "text": "Files 🤝 GPUs，文件与 GPU 的结合。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
