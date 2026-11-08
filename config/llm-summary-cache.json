@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-07T03:00:32.378Z",
+  "updatedAt": "2026-11-08T02:38:47.893Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -18866,6 +18866,137 @@
             "label": "类比",
             "text": "Files 🤝 GPUs，文件与 GPU 的结合。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2118856239719608353:774c695325746707": {
+      "itemId": "tweet:2118856239719608353",
+      "sourceHash": "774c695325746707",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Generative UI for conversational agents. Combining @aisdk with Chat SDK and...",
+      "url": "https://x.com/rauchg/status/2118856239719608353",
+      "generatedAt": "2026-11-08T02:38:07.176Z",
+      "summary": {
+        "title": "生成式 UI：对话式智能体的新交互范式",
+        "summary": "Guillermo Rauch 在推文中提出，将 AI SDK 与 Chat SDK 及 json-render 结合，可以在 Slack、Teams 等平台上直接从 LLM 输出生成用户界面，实现对话式智能体的生成式 UI。他认为这将成为人机交互（HAI）的主导范式。推文附带的链接指向一个演示或文档，展示了这一技术组合的实际效果。该观点值得关注，因为它指出了从纯文本对话向动态生成界面演进的趋势，可能改变企业级聊天机器人和智能体的交互方式。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "生成式 UI 用于对话式智能体，结合 AI SDK、Chat SDK 和 json-render，可以直接从 LLM 到 UI，适用于 Slack 和 Teams 等平台。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "趋势判断",
+            "text": "我相信这将成为人机交互（HAI）的主导范式。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "技术组合",
+            "text": "使用 @aisdk、Chat SDK 和 json-render 实现从 LLM 到 UI 的转换。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "平台适用性",
+            "text": "在 Slack 和 Teams 等平台上实现生成式 UI。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": [
+          {
+            "label": "演示/文档链接",
+            "url": "https://t.co/MHxtLyoy7t",
+            "note": "查看生成式 UI 的实际效果或技术说明"
+          },
+          {
+            "label": "附加链接",
+            "url": "https://t.co/tRgxRi5Hey",
+            "note": "可能包含相关资源或截图"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:podcast:01a1a3f4-4773-7ef4-9673-59b03a12c34b:ba885e4d26aa5f19": {
+      "itemId": "podcast:01a1a3f4-4773-7ef4-9673-59b03a12c34b",
+      "sourceHash": "ba885e4d26aa5f19",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Latent Space: Controlling Biology - Fabian Theis, Helmholtz Munich",
+      "url": "https://www.youtube.com/@LatentSpacePod",
+      "generatedAt": "2026-11-08T02:38:44.026Z",
+      "summary": {
+        "title": "控制生物学：Fabian Theis 谈虚拟细胞与实验指导",
+        "summary": "Fabian Theis 在播客中介绍了其团队在虚拟细胞和扰动预测方面的最新进展。他提出 Lab Compass，一种逆向生成模型，可在已有前向世界模型的情况下指导实验以达到特定状态。Theis 回顾了虚拟细胞概念的发展，指出其团队早在 2019 年就发表了 SEGen 论文，使用非线性模型在潜在空间进行线性变换进行扰动预测，但由于当时数据集和问题较简单，模型未被广泛采用。他认为虚拟细胞常被等同于扰动预测，但这过于简化。Theis 强调扰动空间正在爆炸式增长，例如 Pars Bio 的 giga lab 在单个实验中测量了 1000 万个转录组，以及多种细胞系的全 CRISPR 敲除和上千种药物的处理。他主张需要超越细胞系，进行类器官扰动，以研究多细胞系统。Theis 解释了转录组学是测量每个细胞中约两万个基因的表达水平，形成高维向量，扰动是对细胞的外部输入。他提到在数据稀缺的情况下，混合模型可能更有效，但随着数据增加，纯数据驱动模型可能占优，并以 AlphaFold 为例说明模型可以自动学习物理约束。Theis 认为当模型表现出规模化行为时，人们会开始信任这些模型。他们的对比学习论文 SC concept 已显示出较强的规模化行为，并在 Hugging Face 上有一个包含三亿五千万个细胞、参数高达一亿的模型。对于扰动预测，Theis 认为纯表示学习不是正确的方法，需要结合世界模型类型的方法。扰动预测模型本质上是一种世界模型，形式为 F(X, A)，预测下一个状态 X'。他们的团队通常使用 scConcert 学习表示，然后使用流匹配等生成模型来建模扰动下的状态转移。cell flow 论文已被 Nature Methods 接收，表明这些方法在生成扰动效果方面更好，但依赖于良好的潜在空间。scConcert 潜在空间已扩展到多物种，包含十六个不同物种。在细胞类型预测等简单任务中，逻辑回归等线性模型仍然接近最先进水平，但在跨器官的细胞类型预测中，非线性模型（如 scTab）有显著提升。Arc 研究所举办的虚拟细胞挑战赛中，获胜模型基于流匹配，表明非线性方法在复杂扰动预测中是必要的。Theis 还谈到了学生毕业后的去向，以及 NVIDIA 从他们团队招聘人才。他认为在面试中展示实际应用经验比单纯改进模型更有优势。Theis 认为当前最激动人心的前沿是指导实验，从映射和预测转向主动引导实验。他们开发了 Lab Compass，并与剑桥大学的实验人员合作进行了三四轮实验室循环迭代改进模型。Theis 指出建立计算与实验的整合文化很困难，需要说服实验人员投入时间进行验证。他认为目前引入机器人技术还为时过早，因为实验周期仍然较长。最终愿景是对整个实验循环进行强化学习，但目前更多是主动学习。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Fabian Theis 提出 Lab Compass，一种逆向生成模型，可在已有前向世界模型的情况下指导实验以达到特定状态。",
+            "reference": "00:00:00"
+          },
+          {
+            "label": "数据",
+            "text": "Pars Bio 的 giga lab 在单个实验中测量了 1000 万个转录组，标志着数据规模的新水平。",
+            "reference": "00:00:00"
+          },
+          {
+            "label": "观点",
+            "text": "Theis 认为虚拟细胞常被等同于扰动预测，但这过于简化。",
+            "reference": "00:00:00"
+          },
+          {
+            "label": "案例",
+            "text": "AlphaFold 的例子说明，随着数据增加，模型可以自动学习物理约束，而不需要人为强加。",
+            "reference": "00:00:00"
+          },
+          {
+            "label": "数据",
+            "text": "在 Hugging Face 上，他们有一个包含三亿五千万个细胞、参数可能高达一亿的模型，并且观察到良好的规模化行为开始出现。",
+            "reference": "00:00:00"
+          },
+          {
+            "label": "观点",
+            "text": "对于扰动预测（虚拟细胞），纯表示学习不是正确的方法，需要结合世界模型类型的方法。",
+            "reference": "00:00:00"
+          },
+          {
+            "label": "案例",
+            "text": "Arc 研究所举办的虚拟细胞挑战赛中，获胜模型基于流匹配，表明非线性方法在复杂扰动预测中是必要的。",
+            "reference": "00:00:00"
+          },
+          {
+            "label": "观点",
+            "text": "Theis 认为当前最激动人心的前沿是指导实验，从映射和预测转向主动引导实验。",
+            "reference": "00:00:00"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2118905788915982341:d760e035253dbce8": {
+      "itemId": "tweet:2118905788915982341",
+      "sourceHash": "d760e035253dbce8",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Swyx：we are committing to weekly coverage of the Anthropic IPO all the way until it...",
+      "url": "https://x.com/swyx/status/2118905788915982341",
+      "generatedAt": "2026-11-08T02:38:47.893Z",
+      "summary": {
+        "title": "Swyx 宣布将每周跟踪 Anthropic IPO 直至其成行或告吹",
+        "summary": "AI 工程师与投资人 Swyx 在 X 上宣布，他将与好友 Jamin Ball 合作，每周对 Anthropic 的 IPO 进行跟踪报道，直到 IPO 真正发生或确定不会发生。Swyx 提到自己曾覆盖过阿里巴巴、Atlassian 等大型 IPO，此次将重新戴上股票对冲基金分析师的帽子，与 AI 工程师的视角结合。他还调侃 Jamin Ball 正在挑战 Tomasz Tunguz 作为这一代‘作家型 VC’的地位。这条推文反映了 AI 行业对 Anthropic 上市的高度关注，以及技术社区与金融分析视角的融合趋势。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我们承诺每周对 Anthropic 的 IPO 进行跟踪报道，直到它真的发生或确定不会发生。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "案例",
+            "text": "我曾覆盖过从阿里巴巴到 Atlassian 的大型 IPO，现在要再次戴上股票对冲基金分析师的帽子，与 AI 工程师的帽子一起使用。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "金句",
+            "text": "这次是和我的好朋友 Jamin Ball 一起，他正在挑战 Tomasz Tunguz，争夺这一代‘作家型 VC’的头衔。",
+            "reference": "推文正文"
           }
         ],
         "materials": []
