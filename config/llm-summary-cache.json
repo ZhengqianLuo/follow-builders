@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-08T02:38:47.893Z",
+  "updatedAt": "2026-11-09T02:52:31.212Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -18997,6 +18997,121 @@
             "label": "金句",
             "text": "这次是和我的好朋友 Jamin Ball 一起，他正在挑战 Tomasz Tunguz，争夺这一代‘作家型 VC’的头衔。",
             "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2119114537442189652:69b4a31f9f0f76f7": {
+      "itemId": "tweet:2119114537442189652",
+      "sourceHash": "69b4a31f9f0f76f7",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Andrej Karpathy：Earlier this week Tristan published his top YouTube channels:...",
+      "url": "https://x.com/karpathy/status/2119114537442189652",
+      "generatedAt": "2026-11-09T02:52:14.501Z",
+      "summary": {
+        "title": "Karpathy 用 Claude Code 三分钟做出 TristanTube：聚合 47K 极客视频的 YouTube 频道",
+        "summary": "Andrej Karpathy 在推文中提到，Tristan 本周早些时候发布了他的顶级 YouTube 频道列表，Karpathy 认为这个列表非常出色，于是决定将其转化为一个名为 TristanTube 的网站。该网站聚合了 47,000 个超级极客视频，并提供了 TV 模式，方便用户轻松观看。Karpathy 特别强调，这个网站是他使用 Claude Code 在 3 分钟内一次性完成的。这条推文展示了 AI 辅助开发工具在快速构建应用方面的潜力，也体现了 Karpathy 对优质内容聚合和分享的热情。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Tristan 发布的顶级 YouTube 频道列表看起来非常出色，因此我决定将其转化为 TristanTube。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "数据",
+            "text": "TristanTube 聚合了 47,000 个超级极客视频。",
+            "reference": "推文中部"
+          },
+          {
+            "label": "功能",
+            "text": "TristanTube 提供 TV 模式，适合轻松观看。",
+            "reference": "推文中部"
+          },
+          {
+            "label": "案例",
+            "text": "使用 Claude Code 在 3 分钟内一次性完成 TristanTube 的开发。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2119111328099168409:db6523910911ba54": {
+      "itemId": "tweet:2119111328099168409",
+      "sourceHash": "db6523910911ba54",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：This sounds extreme and I wouldn’t have believed it even a year ago, but we’re...",
+      "url": "https://x.com/levie/status/2119111328099168409",
+      "generatedAt": "2026-11-09T02:52:21.670Z",
+      "summary": {
+        "title": "Aaron Levie：AI 带来的生产力提升已超一个数量级，且差距仍在扩大",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中表示，尽管一年前他也不会相信，但现在已看到大量例子表明，AI 使生产力比前 AI 时代提升了一到两个数量级。他认为，要实现这种级别的产出，需要合适的工具、对目标领域的深刻理解、相对较新的代码库（有例外）、同时驾驭多个 AI 代理的能力，以及低摩擦的测试和部署环境。Levie 特别指出，这种生产力差距并未随时间缩小，反而在扩大：原本领域知识越深、现在越愿意采用新方法的人，获得的杠杆越大。随着模型能处理更大、更难的问题，这种效应只会加剧。目前这一现象在软件工程中最为显著，但未来会扩展到其他对计算机使用敏感的领域，如科学、建筑/工程/施工（AEC）、金融、网络安全等。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "我们开始看到大量例子，生产力比前 AI 时代提升了一到两个数量级。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "实现条件",
+            "text": "需要合适的工具、对目标领域的深刻理解、相对较新的代码库（有例外）、同时驾驭多个 AI 代理的能力，以及低摩擦的测试和部署环境。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "关键观察",
+            "text": "这种生产力差距并未随时间缩小，反而在扩大：原本领域知识越深、现在越愿意采用新方法的人，获得的杠杆越大。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "趋势判断",
+            "text": "随着模型能处理更大、更难的问题，这种效应只会加剧。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "领域扩展",
+            "text": "目前这一现象在软件工程中最为显著，但未来会扩展到其他对计算机使用敏感的领域，如科学、建筑/工程/施工（AEC）、金融、网络安全等。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2118953909524050288:f0543e0c0a2eef77": {
+      "itemId": "tweet:2118953909524050288",
+      "sourceHash": "f0543e0c0a2eef77",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：The interesting thing about AI agents is that as a theoretical matter, their...",
+      "url": "https://x.com/levie/status/2118953909524050288",
+      "generatedAt": "2026-11-09T02:52:31.211Z",
+      "summary": {
+        "title": "AI 智能体的推理可以“随处运行”，数据中心选址将更灵活",
+        "summary": "Aaron Levie 在这条推文中提出，AI 智能体的推理过程在理论上可以“随处运行”，因为 AI 是少数对用户延迟不太敏感的技术领域之一。随着长时间运行的智能体成为常态，将工作发送到远程的“AI 工厂”并在数据中心内部完成大部分处理、最后只把最终结果返回给用户是可行的。数据可以加密传入这些系统，由智能体处理完后立即丢弃，无需长期存储敏感数据，因此推理过程是临时的，数据中心可被视为“短暂系统”，这改变了数据驻留的考量。由于任务的经济价值远高于延迟敏感度（例如自动化任务能带来 500 美元价值，多花一秒返回也值得），推理不必离用户很近。综合来看，AI 数据中心的部署地点有了更大的灵活性，这对愿意抓住机会的州、国家（甚至太空）来说是巨大的经济机遇，而对放弃机会的州或国家则是损失。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 智能体的推理在理论上可以“随处运行”，AI 是少数对用户延迟不太敏感的技术领域之一。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "趋势判断",
+            "text": "长时间运行的智能体将成为常态，因此可以把工作发送到远程的 AI 工厂，在数据中心内部完成大部分处理，最后只把结果返回给用户。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "数据安全与驻留",
+            "text": "数据可以加密传入这些系统，由智能体处理完后立即丢弃；推理是临时过程，无需长期存储敏感数据，因此 AI 工厂可被视为“短暂系统”，改变了数据驻留的动态。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "经济论证",
+            "text": "任务的经济价值远高于延迟敏感度，例如自动化任务能带来 500 美元价值，多花一秒返回也值得，所以推理不必离用户很近。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "结论与影响",
+            "text": "综合来看，AI 数据中心的部署地点有了更大的灵活性，这对愿意抓住机会的州、国家（甚至太空）是巨大的经济机遇，对放弃机会的州或国家则是损失。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
