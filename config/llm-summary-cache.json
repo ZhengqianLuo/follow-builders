@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-09T02:52:31.212Z",
+  "updatedAt": "2026-11-10T04:44:51.794Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -19111,6 +19111,237 @@
           {
             "label": "结论与影响",
             "text": "综合来看，AI 数据中心的部署地点有了更大的灵活性，这对愿意抓住机会的州、国家（甚至太空）是巨大的经济机遇，对放弃机会的州或国家则是损失。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2119536313712230802:a2e6025d18ba738f": {
+      "itemId": "tweet:2119536313712230802",
+      "sourceHash": "a2e6025d18ba738f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Built a physical simulation of a record player with WebGL2 and Web Audio. It's...",
+      "url": "https://x.com/rauchg/status/2119536313712230802",
+      "generatedAt": "2026-11-10T04:43:14.391Z",
+      "summary": {
+        "title": "用 WebGL2 和 Web Audio 构建黑胶唱机物理模拟",
+        "summary": "Guillermo Rauch 在推文中展示了一个用 WebGL2 和 Web Audio 构建的黑胶唱机物理模拟。该模拟并非直接播放歌曲，而是将歌曲转换为唱片凹槽的物理形状，然后模拟唱针以每秒 384,000 次的频率在凹槽壁上运动，并输出该运动在唱头中感应出的电压信号。因此，爆音、噼啪声、抖晃、内圈音质劣化等黑胶特有的声音特征都是模拟的自然产物。用户还可以像 DJ 一样操作唱片。转换所用的歌曲均为公有领域或 CC 许可，代码已开源，可供他人修改和重新部署。该推文展示了将物理模拟与音频合成相结合的创新方法，为理解黑胶唱片的物理原理和声音特性提供了直观且可交互的演示。",
+        "excerpts": [
+          {
+            "label": "核心方法",
+            "text": "Instead of playing a song, it works by converting it into the physical shape of a groove. Then a simulated stylus rides those walls 384,000 times a second, and you hear the voltage that motion would induce in a cartridge.",
+            "reference": "推文原文"
+          },
+          {
+            "label": "自然产生的音质特征",
+            "text": "So the crackle, the pops, the wow/flutter, the dull inner grooves are natural byproducts of the simulation.",
+            "reference": "推文原文"
+          },
+          {
+            "label": "交互功能",
+            "text": "You can also \"DJ\" the record.",
+            "reference": "推文原文"
+          },
+          {
+            "label": "版权与开源",
+            "text": "The converted songs are in the public domain or CC-licensed. Code is linked for you to remix and re-deploy.",
+            "reference": "推文原文"
+          },
+          {
+            "label": "技术栈",
+            "text": "Built a physical simulation of a record player with WebGL2 and Web Audio.",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": [
+          {
+            "label": "演示链接",
+            "url": "https://t.co/MBNaTfKoai",
+            "note": "可交互的黑胶唱机物理模拟演示，建议打开体验声音效果和 DJ 操作"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:podcast:01a1bcf7-771f-7da1-affb-a7ead0a1434c:2c96a1f98119d940": {
+      "itemId": "podcast:01a1bcf7-771f-7da1-affb-a7ead0a1434c",
+      "sourceHash": "2c96a1f98119d940",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Latent Space: [One Million AI Engineer Special] How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
+      "url": "https://www.youtube.com/watch?v=dpY7YzZo4kE",
+      "generatedAt": "2026-11-10T04:44:29.655Z",
+      "summary": {
+        "title": "斯坦福如何教授 AI 原生工程——Mihail Eric 谈现代软件开发者课程与 Monaco 实践",
+        "summary": "本期节目为庆祝 AI Engineer YouTube 频道达到一百万订阅者，邀请斯坦福大学兼职教授、Monaco AI 负责人 Mihail Eric 分享其开设的 CS 146/146S“现代软件开发者”课程的设计理念与最新进展。课程始于 2024 年 11 月，当时编码代理开始改变开发者工作方式，Mihail 花了九到十个月准备并通过斯坦福委员会审批，于 2025 年秋季首次教授，受到学生好评并获 Business Insider 报道。今年课程相比去年有重大更新，从广泛介绍编码代理应用转向聚焦正在固化的原则，如精细的上下文工程和通过设计架构处理复杂任务。课程面向有计算机科学基础、即将进入职场的学生，强调实践性。Mihail 认为训练有素的 AI 原生工程师对公司非常有价值，但入门门槛提高了，并建议每天花 10 分钟尝试新工具以跟上 AI 领域发展。\n\n在工具方面，Monaco 使用 Devin 进行代码审查，并在多种工具中选择了 Devin；Factory 公司推出了代理就绪度产品，Mihail 认为其在该领域领先。Mihail 不认可特定工具，认为现代编码框架的核心是一个简单的代理循环，约 200 行代码即可实现。在课堂上，他使用 MITMProxy 拦截 Claude Code 的请求和响应，向学生展示其内部提示词，并指出 Claude Code 的系统提示词曾长达约两万 tokens，但后来被大幅缩减，部分内容被融入模型权重。他提出 Repit 框架（研究、提案、计划和实施）适用于大型代码库，并认为上下文工程中子代理的上下文继承和合并是艺术多于科学。他推荐了一些技能（skills），如 Matt Peacock 的 Grill Me 和 Jeffrey Blitz 的 Explain Diff，用于增强理解和交互，并强调使用编码代理时不应关闭大脑。技能是捆绑的技能，可以相互引用，编写技能本身需要技巧，天真地编写技能通常效果不佳。有些人会定期修剪技能，例如 Eugene Yan 会清理不用的技能。Mihail 认为 OpenAI 和 Anthropic 的一些聪明人可能希望技能消失，因为技能感觉草率。\n\nMonaco 是一家位于旧金山的 B 轮公司，构建一体化 AI 原生销售平台，最初针对早期创业公司，从种子轮到 A 轮，然后向上市场拓展。Monaco 构建了自己的代理框架，用于销售用例，包括评分、ICP 定义、管道演变等，并使用 Parallel 和 Exa 进行数据丰富，构建了自己的世界数据库。Monaco 还构建了 Monocoder，基于 Coder 平台，用于扩展工程生产力，以及名为 Hal 的 Slack 机器人，兼具 AI SRE、客户成功和 QA 工程师功能。第一次评估 AI 编码工具时，没有选定任何供应商，因为对现有工具不满意；第二次尝试 Devin 是出于团队自发要求，而非主动推动。目前团队仍在使用 Devin，但其他工具因成熟度不足未被采用。Mihail 是 Devin 的顾问，但已不太参与内部事务。内部 Slack 上往往只传播正面信息，存在信息茧房。\n\n课程第四周和第五周内容有重叠，第四周偏概念基础，第五周偏实践应用。Mihail 强调 agent-ready 代码库是后续多智能体等一切的基础，其核心是可验证性、结构良好、可被智能体理解。课程中会涉及背景智能体和软件工厂，并加入 SRE 相关内容。触发/事件驱动的闭环是软件工厂中智能体启动任务的常见入口。AI SRE 领域，Resolve 和 Night Shift 表现不错。代码审查的减少可能使代码库更易受安全漏洞影响，但具体影响尚不明确，开源软件社区仍在探索代码审查与安全之间的平衡点。有人提议将高依赖的 C/C++ 软件移植到 Rust 以提高安全性和性能，估计成本约 600 万美元。模型实验室提出“Pacing the Frontier”策略，主张放慢速度以确保安全补丁到位后再加速。有人认为模型能解决所有安全问题，但尚未证实，因为模型可能引入新的不同类型的 bug。如果模型能生成完美软件，安全问题将彻底解决，但完美软件是否存在存疑。提前发布软件供安全测试可能无法完全解决问题，因为攻击者可能利用更长时间进行攻击。为 100 个组织提供网络模型可能创造 100 个攻击向量，且这些组织可能容易被攻破。安全领域目前受到高度关注，VC 喜欢投资安全公司，但过去五年只有 Wiz 和 Socket 等少数公司成功。高调安全事件发生后是安全公司的最佳销售时机。模型生成的代码可能引入人类不会犯的 bug，且由于审查减少，开发者对代码内容缺乏了解。代码库中安全关键部分包括数据存储、计费和认证，这些部分不应由模型随意编写，其他部分可以放开。\n\n对话还讨论了未来开发者的角色演变，强调从编写代码转向管理代理和系统。Anthropic 的产品负责人和工程负责人认为他们的角色短期内不会合并。学生应该关注整体系统而非单一工程部分，并鼓励构建公司级项目。学生项目示例包括将设计草图转换为 Vercel 应用，该学生因此获得 Vercel 工作。Steve Yegge 的“psychosis”阶段理论被提及，强调从想法阶段过渡到高级用户阶段。雇主不愿雇佣未经历过“psychosis”并走出的人，因为培训成本高。Boris 的团队采用五阶段模型（从零开始）：门控、辅助、并行、监督自主和 AI 原生。Anthropic 目前处于 Boris 模型的第三阶段（并行），尚未达到第四阶段。动态工作流是一种子代理模式，涉及编写更多代码并按需运行。建议学生制作基准测试和评估，这有助于进入前沿实验室或顶级代理实验室。Sweet Bench 是一个本科项目，来自普林斯顿大学。学生应该雄心勃勃，例如编写浏览器，而不是仅仅将照片转换为应用。",
+        "excerpts": [
+          {
+            "label": "课程定位",
+            "text": "课程不是为初学者设计的，而是为有计算机科学基础、即将进入职场的学生准备的实践课程。",
+            "reference": "11"
+          },
+          {
+            "label": "实验精神",
+            "text": "演讲者强调实验精神，建议每天花10分钟尝试新工具或方法，以跟上AI领域的发展。",
+            "reference": "13"
+          },
+          {
+            "label": "代理循环的简洁性",
+            "text": "演讲者不认可特定工具，但认为现代编码框架的核心是一个简单的代理循环，约200行代码即可实现。",
+            "reference": "16"
+          },
+          {
+            "label": "Claude Code 系统提示词变化",
+            "text": "Claude Code 的系统提示词曾长达约两万 tokens，但后来被大幅缩减，部分内容被融入模型权重。",
+            "reference": "18"
+          },
+          {
+            "label": "技能触发问题",
+            "text": "技能可能在不期望的时候触发，因为触发条件写得不好。",
+            "reference": "26"
+          },
+          {
+            "label": "安全关键代码区域",
+            "text": "代码库中安全关键部分包括数据存储、计费和认证，这些部分不应由模型随意编写，其他部分可以放开。",
+            "reference": "58"
+          },
+          {
+            "label": "学生项目建议",
+            "text": "学生应该雄心勃勃，例如编写浏览器，而不是仅仅将照片转换为应用。",
+            "reference": "70"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2119592080318341128:7405320075f09733": {
+      "itemId": "tweet:2119592080318341128",
+      "sourceHash": "7405320075f09733",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Zara Zhang：I’ve almost stopped using the term “vibe coding” because there’s a negative...",
+      "url": "https://x.com/zarazhangrui/status/2119592080318341128",
+      "generatedAt": "2026-11-10T04:44:33.850Z",
+      "summary": {
+        "title": "Zara Zhang：我几乎不再用“vibe coding”这个词了，因为它带有负面含义",
+        "summary": "Zara Zhang 在推文中表示，她几乎不再使用“vibe coding”这个术语，因为它带有负面含义，暗示使用者没有投入足够努力或灵魂，产出只是“AI 垃圾”。但她指出，人们在使用 AI 编码工具时，往往确实倾注了心血和灵魂，这两者并不矛盾。她呼吁需要一个更好的词来描述这种工作方式。该推文获得 404 个赞、12 次转发和 182 条回复，引发了对 AI 辅助创作中人类投入与术语污名化的讨论。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我几乎不再使用“vibe coding”这个词了，因为它带有负面含义。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "它暗示你没有投入很多努力或灵魂到产出中，只是 AI 垃圾。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "观点",
+            "text": "但很多时候，人们在使用 AI 编码工具时，确实倾注了心血和灵魂。",
+            "reference": "推文第三句"
+          },
+          {
+            "label": "观点",
+            "text": "这两者并不矛盾。",
+            "reference": "推文第四句"
+          },
+          {
+            "label": "观点",
+            "text": "我们需要一个更好的词来描述这种工作方式。",
+            "reference": "推文最后一句"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2119502716770902234:efe2ec87659b0ebb": {
+      "itemId": "tweet:2119502716770902234",
+      "sourceHash": "efe2ec87659b0ebb",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：A good lesson in AI is that you need to check back in on the latest with every...",
+      "url": "https://x.com/levie/status/2119502716770902234",
+      "generatedAt": "2026-11-10T04:44:42.530Z",
+      "summary": {
+        "title": "Aaron Levie：AI 进展需每 3-6 个月重新评估，代理将利用现有系统创造巨大杠杆",
+        "summary": "Aaron Levie 在这条推文中强调，AI 领域的一个关键教训是：需要每隔 3 到 6 个月重新审视最新进展，尝试以前不可能的事情，看看现在是否可行。他指出，过去六个月模型在计算机与工具使用、上下文遗忘减少、推理能力、多模态以及关键领域的深度专业知识方面取得了巨大进步，使模型在执行任务上的能力大幅提升。这开辟了 AI 系统能够自主工作的新方向：任何有 API 的东西（甚至许多没有 API 的东西），都可以预期代理能够控制并利用其作为底层能力来完成流程。这意味着我们不再仅仅依赖模型从零生成一切，而是可以非常有效地利用现有系统（或为它们专门构建的新系统）。这为代理创造了巨大的杠杆：安全代理可以利用现有数据源和网络工具，IT 代理可以跨软件栈可靠地执行工作流，数据代理可以在系统之间迁移数据或流程，架构和设计代理可以利用 CAD 和设计工具等。而且，今天任何不起作用的工具都可能被代理友好型或开源工具所取代。当将这种能力与训练到代理中的领域理解相结合时，就开始为每个工作职能和行业获得自主协作者。Levie 认为，如果带着这种理解去构建，将在 AI 领域开启大量新机会。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 领域的一个好教训是：你需要每隔 3 到 6 个月重新审视最新进展，尝试以前不可能的事情，看看现在是否可行。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "关键论证",
+            "text": "过去六个月，模型在计算机与工具使用、上下文遗忘减少、推理能力、多模态以及关键领域的深度专业知识方面取得了巨大进步，使模型在执行任务上的能力大幅提升。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "趋势判断",
+            "text": "这开辟了 AI 系统能够自主工作的新方向：任何有 API 的东西（甚至许多没有 API 的东西），都可以预期代理能够控制并利用其作为底层能力来完成流程。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "范式转变",
+            "text": "我们不再仅仅依赖模型从零生成一切，而是可以非常有效地利用现有系统（或为它们专门构建的新系统），这为代理创造了巨大的杠杆。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "应用举例",
+            "text": "安全代理可以利用现有数据源和网络工具，IT 代理可以跨软件栈可靠地执行工作流，数据代理可以在系统之间迁移数据或流程，架构和设计代理可以利用 CAD 和设计工具等。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "生态预测",
+            "text": "今天任何不起作用的工具都可能被代理友好型或开源工具所取代。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "最终结论",
+            "text": "当将这种能力与训练到代理中的领域理解相结合时，就开始为每个工作职能和行业获得自主协作者，这将开启大量新机会。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2119592025440092192:6a62a6a2250cc319": {
+      "itemId": "tweet:2119592025440092192",
+      "sourceHash": "6a62a6a2250cc319",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：We’re moving from an era of AI where the output comes roughly at the rate that...",
+      "url": "https://x.com/levie/status/2119592025440092192",
+      "generatedAt": "2026-11-10T04:44:51.793Z",
+      "summary": {
+        "title": "Aaron Levie：AI 正从对话式输出迈向代理集群并行工作，生产力提升不再有上限",
+        "summary": "Aaron Levie 在这条推文中指出，AI 正在经历一个根本性转变：从过去输出速度大致等同于人类与 AI 来回对话的速度，进入到一个可以设定问题、让一组代理（agents）自主完成任意大量工作的新阶段。这意味着生产力提升将从 20-50% 跃升至没有上限的水平。代理集群（agent swarms）以及将复杂工作分散到多个并行执行任务的代理的能力，将在许多领域带来巨大解锁。这一趋势已在编程领域显现，网络安全领域几乎完全是一个‘更多代理审查更多内容将带来更好结果’的问题空间，许多科学领域也正在出现同样的情况，几乎肯定会改变生命科学。最终，任何可以并行化计算机工作以更快完成或达到完全不同质量水平的领域都将受益，而这些恰恰是当今知识工作中最有价值的领域。Levie 强调，人类大脑并不适应即将到来的新场景：计算能力成为可以灵活调配以解决任何问题的变量。我们习惯于认为投入任务的时间与产出相关，大多数知识工作或科学领域历来如此，但这一关联正在被永久改变。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "我们正从 AI 输出速度大致等同于你与 AI 来回对话速度的时代，进入一个你可以为一系列代理设定问题、让它们为你完成任意大量工作的时期。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "生产力提升",
+            "text": "这意味着生产力提升从可能 20-50% 跃升至没有真正上限的提升。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "代理集群",
+            "text": "代理集群以及将复杂工作分散到多个并行执行任务的代理的能力，在许多领域提供了巨大的解锁。",
+            "reference": "推文第三句"
+          },
+          {
+            "label": "领域案例",
+            "text": "这已经在编程领域显现。接下来，网络安全几乎完全是一个更多代理审查更多内容将带来更好结果的问题空间。我们在许多科学领域也看到了同样的情况，这几乎肯定会改变生命科学。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "适用领域",
+            "text": "在任何可以并行化计算机工作以更快完成或达到完全不同质量水平的领域，这一点将越来越成立。而这些恰恰是当今知识工作中最有价值的领域。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "认知转变",
+            "text": "我们的大脑并不真正适应即将到来的新场景：计算能力成为我们可以灵活调配以解决任何问题的变量。我们习惯于认为投入任务的时间与产出相关，大多数知识工作或科学领域历来如此。这一关联正在被永久改变。",
             "reference": "推文结尾"
           }
         ],
