@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-10T04:44:51.794Z",
+  "updatedAt": "2026-11-13T03:30:47.762Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -19343,6 +19343,171 @@
             "label": "认知转变",
             "text": "我们的大脑并不真正适应即将到来的新场景：计算能力成为我们可以灵活调配以解决任何问题的变量。我们习惯于认为投入任务的时间与产出相关，大多数知识工作或科学领域历来如此。这一关联正在被永久改变。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2120671838909194695:9aeeb2efe52b4882": {
+      "itemId": "tweet:2120671838909194695",
+      "sourceHash": "9aeeb2efe52b4882",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Amjad Masad：Why are old stories that were not even covered up all that well become sudden...",
+      "url": "https://x.com/amasad/status/2120671838909194695",
+      "generatedAt": "2026-11-13T03:30:20.006Z",
+      "summary": {
+        "title": "Amjad Masad：旧事为何突然成为国际地缘新闻？时机可疑，谁受益？",
+        "summary": "Amjad Masad 在推文中质疑：一些并未被很好掩盖的旧事，为何突然成为国际和地缘政治新闻？他认为时机可疑，值得追问谁受益、为何是现在。他推测，如果 Jensen（开放模型的首要捍卫者）被扳倒，那么任何希望 AI 封闭、集中和受控的人都会受益。至于为何是现在，中期选举似乎相关，但即将到来的 IPO 也可能是因素。这条推文暗示新闻曝光的背后可能存在利益驱动，而非单纯的信息披露。",
+        "excerpts": [
+          {
+            "label": "核心质疑",
+            "text": "为什么一些并未被很好掩盖的旧事，突然成为国际和地缘政治新闻？时机可疑，值得追问：谁受益，为何是现在？",
+            "reference": "推文开头"
+          },
+          {
+            "label": "受益者推测",
+            "text": "如果 Jensen——开放模型的首要捍卫者——被扳倒，那么任何希望 AI 封闭、集中和受控的人都会受益。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "时机分析",
+            "text": "为何是现在？中期选举似乎相关，但即将到来的 IPO 也可能是因素。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2120649149389627493:2f8b7a1e242ec30b": {
+      "itemId": "tweet:2120649149389627493",
+      "sourceHash": "2f8b7a1e242ec30b",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：Man I am so disappointed in Jensen. So many people looked up to him including...",
+      "url": "https://x.com/petergyang/status/2120649149389627493",
+      "generatedAt": "2026-11-13T03:30:28.335Z",
+      "summary": {
+        "title": "Peter Yang 对 Jensen 的失望：从励志偶像到丑闻主角",
+        "summary": "Peter Yang 在这条推文中表达了对 Jensen（黄仁勋）的极度失望。他提到自己曾将 Jensen 视为榜样，其人生故事极具励志色彩：从洗碗工和服务员一路奋斗成为全球市值最高公司的 CEO，并与大学恋人维持了 41 年的婚姻。然而，近期曝光的丑闻——与一名间谍及一名 NVIDIA 高管有染——彻底颠覆了这一形象。Peter Yang 用强烈的语气质问“到底发生了什么”，并批评 Jensen 在众多可能的人选中偏偏选择了最不该选的对象。这条推文反映了公众对科技领袖道德期望的落差，以及丑闻对个人声誉的毁灭性影响。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Peter Yang 直言对 Jensen 感到极度失望，并指出包括他自己在内的许多人都曾将 Jensen 视为榜样。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "Jensen 的励志故事：从洗碗工和服务员一路奋斗成为全球市值最高公司的 CEO。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "Jensen 与大学恋人维持了 41 年的婚姻，这一细节曾是其个人形象的重要组成部分。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "金句",
+            "text": "“What the hell happened man?”——Peter Yang 用口语化的强烈语气表达震惊与不解。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "观点",
+            "text": "Peter Yang 批评 Jensen 在众多可能的人选中偏偏选择了间谍和 NVIDIA 高管作为出轨对象，认为这是极其糟糕的选择。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2120549258692882702:11ff0b8baadfb4de": {
+      "itemId": "tweet:2120549258692882702",
+      "sourceHash": "11ff0b8baadfb4de",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Google Labs：🚨 NEW LABS EXPERIMENT 🚨 Introducing Tabletop 🎲— our newest experiment built...",
+      "url": "https://x.com/GoogleLabs/status/2120549258692882702",
+      "generatedAt": "2026-11-13T03:30:37.515Z",
+      "summary": {
+        "title": "Google Labs 推出 Tabletop：把“我们该做”变成“我们正在做”的协作实验",
+        "summary": "Google Labs 在 X 上宣布推出名为 Tabletop 的新实验项目，旨在帮助小团体从空想走向行动。用户可以将链接和文件放入一个共享空间，添加成员，并随时向 Tabletop 提出需求，以动态创建自定义空间。推文中列举了多种应用场景：交互式公路旅行地图、晚餐决定转盘、实时匹克球比赛对阵表、周边商品投票板、拖拽式座位表（避免和老板坐一起）。该实验目前仅限美国 18 岁以上用户，需加入等待名单。推文互动量较高（1113 赞、93 转推、43 回复），显示社区对新工具的兴趣。Tabletop 的定位是轻量、灵活、即兴的协作工具，与 Google 现有的 Workspace 产品形成互补，强调“即时生成”和“自定义空间”的能力。",
+        "excerpts": [
+          {
+            "label": "产品定位",
+            "text": "Tabletop 旨在让你的小团体从“我们真应该做这件事”变成“我们正在做这件事”。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "核心功能",
+            "text": "把链接和文件放进一个共享空间，添加你的成员，然后向 Tabletop 提出任何需求，即可随时创建自定义空间。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "应用案例",
+            "text": "交互式公路旅行地图和晚餐决定转盘；实时匹克球比赛对阵表和周边商品投票板；拖拽式座位表（这样你就不会坐在老板旁边）。",
+            "reference": "推文列举"
+          },
+          {
+            "label": "可用性",
+            "text": "目前仅限美国 18 岁以上用户，需要加入等待名单。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "社区反响",
+            "text": "推文获得 1113 个赞、93 次转推和 43 条回复，显示用户对新实验的兴趣。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2120578134177464356:0eef38e9a1117169": {
+      "itemId": "tweet:2120578134177464356",
+      "sourceHash": "0eef38e9a1117169",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aditya Agarwal：There are basically two kinds of companies to build right now. 1. Diffusion of...",
+      "url": "https://x.com/adityaag/status/2120578134177464356",
+      "generatedAt": "2026-11-13T03:30:47.761Z",
+      "summary": {
+        "title": "Aditya Agarwal：当下值得创建的两类公司——AI扩散与AI前沿",
+        "summary": "Aditya Agarwal 在推文中提出，当前值得创建的公司主要分为两类。第一类是“AI扩散”，相当于今天的“垂直SaaS”，核心是将AI能力部署到实际工作场景中，例如 Profound、Cognition、Harvey 等公司，这一领域将涌现大量优秀企业。第二类是“AI前沿”，即利用AI加速科学进步，并基于科学突破构建产品，这是更具潜力的方向，但外部认知度较低。他列举了 South Park Commons 投资组合中的多个案例：Externa 为蛋白质添加数百种新化学构建块，实现药物与疾病的精准匹配；Epana Bio 利用基因组学和AI设计针对疾病细胞起源的自体免疫疗法；VenomicsAI 利用AI加速从毒液中开发药物；Equivariant 为半导体行业提供多物理场建模。此外，还有为AI提供“镐和铲”的基础设施类公司。Agarwal 认为，第二类公司虽然未被充分理解，但将是模型驱动回报的主要来源。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "当前值得创建的公司基本上有两种：AI扩散和AI前沿。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "AI扩散就是今天的“垂直SaaS”，核心是让AI尽可能接近实际工作发生的地方。",
+            "reference": "推文第1点"
+          },
+          {
+            "label": "案例",
+            "text": "AI扩散领域的代表公司包括 Profound、Cognition、Harvey 等。",
+            "reference": "推文第1点"
+          },
+          {
+            "label": "观点",
+            "text": "AI前沿是利用AI加速科学进步，然后基于这些进步构建产品，这是真正有趣的方向，但更难看清。",
+            "reference": "推文第2点"
+          },
+          {
+            "label": "案例",
+            "text": "Externa 为蛋白质添加数百种新化学构建块，使药物设计能够匹配疾病，而不是局限于自然提供的选项。",
+            "reference": "推文第2点"
+          },
+          {
+            "label": "案例",
+            "text": "Epana Bio 利用基因组学和AI设计针对疾病细胞起源的自体免疫疗法。",
+            "reference": "推文第2点"
+          },
+          {
+            "label": "案例",
+            "text": "VenomicsAI 利用AI加速从毒液中开发药物。",
+            "reference": "推文第2点"
+          },
+          {
+            "label": "案例",
+            "text": "Equivariant 为半导体行业提供多物理场建模。",
+            "reference": "推文第2点"
           }
         ],
         "materials": []
