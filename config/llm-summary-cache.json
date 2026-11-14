@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-13T03:30:47.762Z",
+  "updatedAt": "2026-11-14T03:26:40.345Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -19508,6 +19508,91 @@
             "label": "案例",
             "text": "Equivariant 为半导体行业提供多物理场建模。",
             "reference": "推文第2点"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2120966768483262648:dd076cbe48095938": {
+      "itemId": "tweet:2120966768483262648",
+      "sourceHash": "dd076cbe48095938",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：What happens to frameworks in the agents era? to component libraries? to...",
+      "url": "https://x.com/rauchg/status/2120966768483262648",
+      "generatedAt": "2026-11-14T03:26:35.396Z",
+      "summary": {
+        "title": "智能体时代，UI SDK 是让框架与无限生成兼得的“x86 指令集”",
+        "summary": "Guillermo Rauch 在这条推文中探讨了智能体（agents）时代框架、组件库和 shadcn 等 UI 抽象的命运。他认为答案不是抛弃这些抽象，而是“钻得更深”：删除不必要的部分、优化、加速、自动化。他将 UI SDK 比作 x86 指令集，是智能体自发构建新 UI 组件的底层基础。智能体成为新的设计工程师，能够根据具体用例无限、不知疲倦地生成任何 UI。高层、僵化、单一框架的抽象对这种无限创造机器而言如同氪石。Rauch 声称找到了既能拥有蛋糕又能吃掉蛋糕的方法——一个几十年来的梦想：UI SDK 打包了可访问性、性能、内聚性等行为，节省 token、减少错误和精力，同时对可生成的 UI 没有任何限制和权衡。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "在智能体时代，框架、组件库和 shadcn 的出路是钻得更深：删除不必要的部分、优化、加速、自动化。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "类比",
+            "text": "UI SDK 就像 x86 指令集，是智能体自发构建新 UI 组件的底层基础。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "角色定义",
+            "text": "智能体是新的设计工程师，它们准备好构建你要求的任何东西，并根据你的用例量身定制。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "批判",
+            "text": "高层、僵化、单一框架的抽象对于本质上无限、不知疲倦的创造机器来说就像氪石。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "愿景",
+            "text": "我们找到了既能拥有蛋糕又能吃掉蛋糕的方法——一个几十年来的梦想。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "价值主张",
+            "text": "UI SDK 打包了可访问性、性能、内聚性等行为，节省 token、减少错误和精力，同时对可生成的 UI 没有任何限制和权衡。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2120947988143198302:f5aba3e6437eb06e": {
+      "itemId": "tweet:2120947988143198302",
+      "sourceHash": "f5aba3e6437eb06e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Ok this is a big deal. We’ve been testing Gemini 4 Hydrogen in early access...",
+      "url": "https://x.com/levie/status/2120947988143198302",
+      "generatedAt": "2026-11-14T03:26:40.344Z",
+      "summary": {
+        "title": "Aaron Levie：Box 实测 Gemini 4 Hydrogen，快速模型能力大幅跃升",
+        "summary": "Box CEO Aaron Levie 在 X 上透露，Box 已通过其内部 Complex Work Eval 对 Gemini 4 Hydrogen 进行早期测试，结果显示该模型在快速模型类别中实现了显著进步。在准确性上，Hydrogen 比 Gemini 3.8 Flash 高出 5 个百分点；在效率上，完成典型任务的时间不到后者的一半，且 token 消耗减少约 12%。该评测让 Box Agent 使用 Hydrogen 处理金融、咨询、生命科学等行业的企业文档复杂任务，代表真实工作场景。Levie 认为 Hydrogen 将成为许多高效但复杂任务的优秀模型，并宣布该模型即将在 Box AI Studio 中推出，任何客户都能基于它构建自定义智能体。",
+        "excerpts": [
+          {
+            "label": "核心数据",
+            "text": "Hydrogen 在准确性上比 Gemini 3.8 Flash 高出 5 个百分点。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "效率提升",
+            "text": "完成典型任务的时间不到 Gemini 3.8 Flash 的一半，token 消耗减少约 12%。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "评测方法",
+            "text": "Box 使用 Complex Work Eval，让 Box Agent 以 Hydrogen 为模型处理金融、咨询、生命科学等行业的企业文档复杂任务。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "产品落地",
+            "text": "Hydrogen 即将在 Box AI Studio 中推出，任何客户都可以基于它构建自定义智能体。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "评价",
+            "text": "Levie 认为 Hydrogen 将成为许多高效但复杂任务的优秀模型，并称赞 Gemini 团队“definitely cooking”。",
+            "reference": "推文原文"
           }
         ],
         "materials": []
