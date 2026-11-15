@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-14T03:26:40.345Z",
+  "updatedAt": "2026-11-15T02:56:30.900Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -19593,6 +19593,86 @@
             "label": "评价",
             "text": "Levie 认为 Hydrogen 将成为许多高效但复杂任务的优秀模型，并称赞 Gemini 团队“definitely cooking”。",
             "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2121430386685395022:5567b1ba92bf8aba": {
+      "itemId": "tweet:2121430386685395022",
+      "sourceHash": "5567b1ba92bf8aba",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：If you know a loved one suffering from cancer or another long-term illness: 1....",
+      "url": "https://x.com/petergyang/status/2121430386685395022",
+      "generatedAt": "2026-11-15T02:56:25.568Z",
+      "summary": {
+        "title": "Peter Yang 分享用 AI 帮助癌症及长期病患的免费技能",
+        "summary": "Peter Yang 在 X 上发布了一条推文，介绍了一个他开发的免费 AI 技能 /fuck-cancer，旨在帮助癌症或其他长期病患的亲友。他建议用户将病人的所有医疗记录上传到云端文件夹（如 Google Drive），然后让 ChatGPT 或 Claude 安装该技能，并指向该文件夹，即可生成一页摘要、研究临床试验等。他还鼓励用户 fork 该技能并修改以适应其他长期疾病。推文强调利用 AI 的全部力量来对抗严重疾病，获得了 434 个赞、36 次转发和 7 条回复。",
+        "excerpts": [
+          {
+            "label": "操作步骤",
+            "text": "如果你认识患有癌症或其他长期疾病的亲人：1. 上传病人的所有医疗记录（例如到 Google Drive 文件夹）；2. 告诉 ChatGPT 或 Claude 安装我的免费 /fuck-cancer 技能（只需将链接指向它）；3. 将技能指向该文件夹，即可创建一页摘要、研究临床试验等。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "开放修改",
+            "text": "欢迎 fork 该技能并针对其他长期疾病进行修改。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "核心观点",
+            "text": "简而言之：利用 AI 的全部力量来打败该死的疾病。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 434 个赞、36 次转发和 7 条回复。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2121277727940776114:82fe7dfd3bfeb1bc": {
+      "itemId": "tweet:2121277727940776114",
+      "sourceHash": "82fe7dfd3bfeb1bc",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Workflow SDK 5 and Vercel Workflows are a monumental step forward for agents. ◾...",
+      "url": "https://x.com/rauchg/status/2121277727940776114",
+      "generatedAt": "2026-11-15T02:56:30.899Z",
+      "summary": {
+        "title": "Guillermo Rauch：Workflow SDK 5 与 Vercel Workflows 是智能体领域的重大进步",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中宣布 Workflow SDK 5 和 Vercel Workflows 发布，称其为智能体（agents）领域的重大进步。他列举了四项关键改进：一是“首步时间”和“步间时间”大幅缩短，提升了智能体响应速度；二是加倍投入加密与安全，增强数据保护；三是系统可靠性已在大规模场景下得到验证，团队解决了诸多细节问题并演练了多种灾难恢复场景；四是底层持久化日志被抽象为可复用的 durable-harness，可供任何智能体框架使用。该推文获得 345 个赞、8 次转发和 101 条回复，表明社区对智能体基础设施演进的关注。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "Workflow SDK 5 和 Vercel Workflows 是智能体领域的重大进步。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "性能提升",
+            "text": "“首步时间”和“步间时间”大幅改善，意味着智能体启动和连续执行更快。",
+            "reference": "推文第一条要点"
+          },
+          {
+            "label": "安全强化",
+            "text": "加倍投入加密和安全，表明对智能体工作流中数据保护的重视。",
+            "reference": "推文第二条要点"
+          },
+          {
+            "label": "可靠性验证",
+            "text": "系统可靠性已在大规模场景下得到证明，团队解决了诸多细节问题并演练了多种灾难恢复场景。",
+            "reference": "推文第三条要点"
+          },
+          {
+            "label": "可复用组件",
+            "text": "底层持久化日志被抽象为 durable-harness，可供任何智能体框架复用。",
+            "reference": "推文第四条要点"
+          },
+          {
+            "label": "社区反响",
+            "text": "推文获得 345 个赞、8 次转发和 101 条回复，显示社区对智能体工作流基础设施的浓厚兴趣。",
+            "reference": "推文互动数据"
           }
         ],
         "materials": []
