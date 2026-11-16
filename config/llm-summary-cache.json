@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-15T02:56:30.900Z",
+  "updatedAt": "2026-11-16T02:56:35.043Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -19676,6 +19676,178 @@
           }
         ],
         "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2121804295381377342:08bdf386a6a94249": {
+      "itemId": "tweet:2121804295381377342",
+      "sourceHash": "08bdf386a6a94249",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Got to experience the magic of @uisdk. Two prompts of fx + Gemini Argon. Pure...",
+      "url": "https://x.com/rauchg/status/2121804295381377342",
+      "generatedAt": "2026-11-16T02:56:11.611Z",
+      "summary": {
+        "title": "Guillermo Rauch 体验 @uisdk：两个提示词生成纯 Web Components 音频播放器",
+        "summary": "Vercel CEO Guillermo Rauch 在 X 上分享了他使用 @uisdk 的体验。他仅用两个提示词（fx + Gemini Argon）就生成了一个纯 Web Components、无框架的音频播放器界面。该智能体开箱即用地复用了 14 种 UI SDK 行为，包括窗口缩放、拖拽、菜单栏悬停切换、输入自动补全、工具栏焦点漫游、10 段均衡器滑块、作用域热键、ARIA 无障碍以及 WebMCP 智能体控制。Rauch 对此表示惊叹，并附上了演示链接和由 Suno 生成的音乐。这条推文展示了 AI 智能体在 UI 生成与组件复用方面的能力，以及 Web Components 与 WebMCP 等标准在无框架开发中的潜力。",
+        "excerpts": [
+          {
+            "label": "核心体验",
+            "text": "仅用两个提示词（fx + Gemini Argon）就生成了纯 Web Components、无框架的音频播放器界面。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "智能体复用能力",
+            "text": "智能体开箱即用地复用了 14 种 UI SDK 行为，包括窗口缩放、拖拽、菜单栏悬停切换、输入自动补全、工具栏焦点漫游、10 段均衡器滑块、作用域热键、ARIA 无障碍以及 WebMCP 智能体控制。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "技术栈亮点",
+            "text": "强调“Pure Web Components. No framework.”，突出无框架、基于标准的开发方式。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "演示与音乐",
+            "text": "附有演示链接，音乐由 Suno 生成。",
+            "reference": "推文原文及链接"
+          }
+        ],
+        "materials": [
+          {
+            "label": "演示链接",
+            "url": "https://t.co/1Ol3xqKWJz",
+            "note": "查看由两个提示词生成的音频播放器界面及交互效果"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2121649295950762363:14868cdb1208c445": {
+      "itemId": "tweet:2121649295950762363",
+      "sourceHash": "14868cdb1208c445",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：Two very useful prompts to try with Fable 5.2: \"/doctor prompt-audit\": Audits...",
+      "url": "https://x.com/petergyang/status/2121649295950762363",
+      "generatedAt": "2026-11-16T02:56:18.813Z",
+      "summary": {
+        "title": "Peter Yang 推荐 Fable 5.2 两个实用提示词：审计 Claude Code 配置与技能",
+        "summary": "Peter Yang 在 X 上分享了他认为 Fable 5.2 中两个非常实用的提示词。第一个是 \"/doctor prompt-audit\"，它会审计用户的 Claude Code 设置（包括 Claude md、技能和命令），并提出修复建议。第二个是 \"/claude-api prompt-audit [skill name]\"，用于深入审计某个特定技能。Peter Yang 表示，他希望 Claude Code 能在 Anthropic 每次发布新模型时自动建议运行这些审计。他还附上了一个完整教程链接，展示他如何使用 Fable 和 Opus。这条推文获得了 440 个赞、18 次转发和 53 条回复，说明社区对这类自动化审计工具的兴趣。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Peter Yang 认为这两个提示词非常实用，并希望 Claude Code 能在 Anthropic 每次发布新模型时自动建议运行它们。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "\"/doctor prompt-audit\" 会审计 Claude Code 设置（Claude md、技能、命令）并提出修复建议。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "\"/claude-api prompt-audit [skill name]\" 用于深入审计一个特定技能。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 440 个赞、18 次转发和 53 条回复，显示社区对这类工具的关注度。",
+            "reference": "推文互动数据"
+          },
+          {
+            "label": "链接",
+            "text": "Peter Yang 附上了完整教程链接，展示他如何使用 Fable 和 Opus。",
+            "reference": "https://t.co/slyEbWvvqA"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2121686564078297461:41a06f7efb18b612": {
+      "itemId": "tweet:2121686564078297461",
+      "sourceHash": "41a06f7efb18b612",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：AI models are inevitably going to keep getting better and better at all coding,...",
+      "url": "https://x.com/levie/status/2121686564078297461",
+      "generatedAt": "2026-11-16T02:56:27.261Z",
+      "summary": {
+        "title": "Aaron Levie：AI 模型在编码和工具使用上的进步将加速知识工作自动化",
+        "summary": "Aaron Levie 在推文中指出，AI 模型在编码、工具使用、数学等任务上的能力将持续提升，因此能够使用软件或从零生成代码的智能体，其进步速度将超过其他所有知识工作领域。这可能导致只有一小部分工作被自动化，但更可能的情况是，越来越多的工作会变得“编码化”，以适应智能体的优势。近期模型发布已展示智能体生成代码来制作动画视频、游戏、产品 3D 模型等。工具使用能力让智能体可以操作人们日常使用的软件，从而在网络安全、生命科学、金融等领域发挥作用。传统观念认为模型必须无所不知才能产生价值，但实际上，模型真正需要的是有效使用或生成软件的能力，并结合深厚的领域专业知识，在工作流中做出正确判断。这种强大组合将解锁几乎所有其他能力，因此知识工作中智能体的加速发展只会越来越快。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "AI 模型在编码、工具使用、数学等任务上会不断进步，因此能使用软件或生成代码的智能体，其进步速度将超过所有其他知识工作领域。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "工作形态转变",
+            "text": "可能只有一小部分工作被自动化，但更可能的是，越来越多的工作会变得“编码化”，以适应智能体的优势。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "近期案例",
+            "text": "过去几个月的模型发布显示，智能体可以生成代码来制作动画视频、游戏、产品 3D 模型等。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "工具使用价值",
+            "text": "工具使用能力让智能体可以操作人们日常使用的软件，从而在网络安全、生命科学、金融等领域发挥作用。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "关键认知",
+            "text": "传统观念认为模型必须无所不知才能产生价值，但实际上，模型真正需要的是有效使用或生成软件的能力，并结合深厚的领域专业知识，在工作流中做出正确判断。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "结论",
+            "text": "当强大的软件能力与领域专业知识结合，几乎所有其他能力都会被解锁，因此知识工作中智能体的加速发展只会越来越快。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2121739228698886454:9886673a7d4b7f5e": {
+      "itemId": "tweet:2121739228698886454",
+      "sourceHash": "9886673a7d4b7f5e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Subagents on https://t.co/3Z4NESzNKd work so well… extremely delightful....",
+      "url": "https://x.com/rauchg/status/2121739228698886454",
+      "generatedAt": "2026-11-16T02:56:35.043Z",
+      "summary": {
+        "title": "Guillermo Rauch 盛赞子代理：6.33MB 的智能体协作令人愉悦",
+        "summary": "Vercel 创始人 Guillermo Rauch 在 X 上分享了他使用子代理（subagents）的体验，称其工作效果极佳，令人愉悦。他提到所有项目都采用“最智能模型规划 + 快速模型子代理执行”的模式，并指出只需在 ~/.fx/AGENTS.md 中写一行指令即可实现。推文还附带了截图，展示了一个 6.33MB 的智能体配置或运行环境，暗示在极小体积内集成了强大功能。该推文获得 275 个赞、6 次转发和 71 条回复，反映了开发者社区对轻量级多智能体协作模式的关注。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "子代理在 https://t.co/3Z4NESzNKd 上运行得非常好……极其令人愉悦。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "数据",
+            "text": "令人惊叹，6.33MB 中能容纳如此多的优秀功能。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "我所有的项目都是通过最智能的模型进行规划，然后委派给快速模型子代理来构建的。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "操作",
+            "text": "只需在 ~/.fx/AGENTS.md 中写一行指令即可实现。",
+            "reference": "推文末尾"
+          },
+          {
+            "label": "互动",
+            "text": "该推文获得 275 个赞、6 次转发和 71 条回复，显示社区对子代理模式的兴趣。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": [
+          {
+            "label": "截图",
+            "url": "https://t.co/27S2By5smT",
+            "note": "推文附带的截图，可能展示子代理配置或运行界面，可查看具体实现细节。"
+          }
+        ]
       }
     }
   }

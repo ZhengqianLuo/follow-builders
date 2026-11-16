@@ -16380,7 +16380,127 @@
       "title": "Dan Shipper：musing: the most important formula in AI https://t.co/YWBzxClRSb...",
       "url": "https://x.com/danshipper/status/2121243400293007866",
       "sentAt": "2026-11-15T02:56:32.774Z"
+    },
+    "tweet:2121845965997101118": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：Cyber team wants your feedback on Daybreak. Models, codex plugins, blue/red...",
+      "url": "https://x.com/thsottiaux/status/2121845965997101118",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "topic:Thibault Sottiaux：Cyber team wants your feedback on Daybreak. Models, codex plugins, blue/red...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：Cyber team wants your feedback on Daybreak. Models, codex plugins, blue/red...",
+      "url": "https://x.com/thsottiaux/status/2121845965997101118",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "tweet:2121519931741127144": {
+      "type": "tweet",
+      "title": "Amjad Masad：We’ve entered Murphy’s world. Anything that can go wrong will go wrong. With...",
+      "url": "https://x.com/amasad/status/2121519931741127144",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "topic:Amjad Masad：We’ve entered Murphy’s world. Anything that can go wrong will go wrong. With...": {
+      "type": "topic",
+      "title": "Amjad Masad：We’ve entered Murphy’s world. Anything that can go wrong will go wrong. With...",
+      "url": "https://x.com/amasad/status/2121519931741127144",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "tweet:2121804295381377342": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Got to experience the magic of @uisdk. Two prompts of fx + Gemini Argon. Pure...",
+      "url": "https://x.com/rauchg/status/2121804295381377342",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "topic:Guillermo Rauch：Got to experience the magic of @uisdk. Two prompts of fx + Gemini Argon. Pure...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Got to experience the magic of @uisdk. Two prompts of fx + Gemini Argon. Pure...",
+      "url": "https://x.com/rauchg/status/2121804295381377342",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "tweet:2121649295950762363": {
+      "type": "tweet",
+      "title": "Peter Yang：Two very useful prompts to try with Fable 5.2: \"/doctor prompt-audit\": Audits...",
+      "url": "https://x.com/petergyang/status/2121649295950762363",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "topic:Peter Yang：Two very useful prompts to try with Fable 5.2: \"/doctor prompt-audit\": Audits...": {
+      "type": "topic",
+      "title": "Peter Yang：Two very useful prompts to try with Fable 5.2: \"/doctor prompt-audit\": Audits...",
+      "url": "https://x.com/petergyang/status/2121649295950762363",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "tweet:2121768476775989404": {
+      "type": "tweet",
+      "title": "Garry Tan：Do all this and use it with gbrain :-) https://t.co/WxlVS6Elf9",
+      "url": "https://x.com/garrytan/status/2121768476775989404",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "topic:Garry Tan：Do all this and use it with gbrain :-) https://t.co/WxlVS6Elf9": {
+      "type": "topic",
+      "title": "Garry Tan：Do all this and use it with gbrain :-) https://t.co/WxlVS6Elf9",
+      "url": "https://x.com/garrytan/status/2121768476775989404",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "tweet:2121549054173757554": {
+      "type": "tweet",
+      "title": "Amjad Masad：Technology is inherently recursively self-improving and the degree of autonomy...",
+      "url": "https://x.com/amasad/status/2121549054173757554",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "topic:Amjad Masad：Technology is inherently recursively self-improving and the degree of autonomy...": {
+      "type": "topic",
+      "title": "Amjad Masad：Technology is inherently recursively self-improving and the degree of autonomy...",
+      "url": "https://x.com/amasad/status/2121549054173757554",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "tweet:2121686564078297461": {
+      "type": "tweet",
+      "title": "Aaron Levie：AI models are inevitably going to keep getting better and better at all coding,...",
+      "url": "https://x.com/levie/status/2121686564078297461",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "topic:Aaron Levie：AI models are inevitably going to keep getting better and better at all coding,...": {
+      "type": "topic",
+      "title": "Aaron Levie：AI models are inevitably going to keep getting better and better at all coding,...",
+      "url": "https://x.com/levie/status/2121686564078297461",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "tweet:2121739228698886454": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：Subagents on https://t.co/3Z4NESzNKd work so well… extremely delightful....",
+      "url": "https://x.com/rauchg/status/2121739228698886454",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "topic:Guillermo Rauch：Subagents on https://t.co/3Z4NESzNKd work so well… extremely delightful....": {
+      "type": "topic",
+      "title": "Guillermo Rauch：Subagents on https://t.co/3Z4NESzNKd work so well… extremely delightful....",
+      "url": "https://x.com/rauchg/status/2121739228698886454",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "tweet:2121757606801023085": {
+      "type": "tweet",
+      "title": "Swyx：obviously correct, we are so suboptimal in AI UX rn it is crazy esp given...",
+      "url": "https://x.com/swyx/status/2121757606801023085",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "topic:Swyx：obviously correct, we are so suboptimal in AI UX rn it is crazy esp given...": {
+      "type": "topic",
+      "title": "Swyx：obviously correct, we are so suboptimal in AI UX rn it is crazy esp given...",
+      "url": "https://x.com/swyx/status/2121757606801023085",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "tweet:2121727702025765094": {
+      "type": "tweet",
+      "title": "Garry Tan：It turns out paper chart and copper wire and an antiquated system that is...",
+      "url": "https://x.com/garrytan/status/2121727702025765094",
+      "sentAt": "2026-11-16T02:56:37.141Z"
+    },
+    "topic:Garry Tan：It turns out paper chart and copper wire and an antiquated system that is...": {
+      "type": "topic",
+      "title": "Garry Tan：It turns out paper chart and copper wire and an antiquated system that is...",
+      "url": "https://x.com/garrytan/status/2121727702025765094",
+      "sentAt": "2026-11-16T02:56:37.141Z"
     }
   },
-  "updatedAt": "2026-11-15T02:56:32.774Z"
+  "updatedAt": "2026-11-16T02:56:37.141Z"
 }
