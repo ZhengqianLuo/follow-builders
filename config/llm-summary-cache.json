@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-16T02:56:35.043Z",
+  "updatedAt": "2026-11-17T05:10:44.440Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -19848,6 +19848,217 @@
             "note": "推文附带的截图，可能展示子代理配置或运行界面，可查看具体实现细节。"
           }
         ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2122184794209714368:0309270d73416431": {
+      "itemId": "tweet:2122184794209714368",
+      "sourceHash": "0309270d73416431",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：Introducing 𝚡𝚎𝚎𝚝: https://t.co/YaLEMbmKwf. A hermetic, pixel-perfect X post...",
+      "url": "https://x.com/rauchg/status/2122184794209714368",
+      "generatedAt": "2026-11-17T05:09:56.790Z",
+      "summary": {
+        "title": "Guillermo Rauch 推出 xeet：用 Rust/Wasm 实现像素级完美的 X 推文渲染器",
+        "summary": "Vercel CEO Guillermo Rauch 在 X 上宣布推出 xeet，一个用安全 Rust 和 WebAssembly 编写的、封闭且像素级完美的 X 推文渲染器。它不依赖浏览器、网络、文件系统或系统字体，能在约 1 毫秒内将推文渲染为 PNG（渲染 Jack Dorsey 的“setting up my twttr”推文仅需 0.4 毫秒）。Rauch 强调 X 是全球城市广场，媒介即信息，能在发布前预览效果对人类和 AI 代理都很有价值。xeet 的渲染速度比启动浏览器截图快 100 到 1000 倍，同时保持同等精度，复现了 Blink 和 HarfBuzz 的文本整形、1/64 像素换行、RTL 双向文本、28 个 Chirp 字体子集、中日韩/数学/表情符号回退以及“显示更多”规则等。Rauch 指出，这类工程对人类工程师来说几乎不可能完成，但 xeet 被构建为“自动仓库”（autorepo）：一个预言机启动 Chrome 验证数万条文本布局规则，CI 金丝雀监控原始推文的演变，并为代理提交签名 PR。该项目从底层围绕“验证工程”构思，结果不言自明。",
+        "excerpts": [
+          {
+            "label": "核心数据",
+            "text": "xeet 能在约 1 毫秒内将推文渲染为 PNG，渲染 Jack Dorsey 的“setting up my twttr”推文仅需 0.4 毫秒。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "性能对比",
+            "text": "使用 xeet 渲染比启动浏览器并截图快 100 到 1000 倍，但精度同样高。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "技术细节",
+            "text": "xeet 复现了 Blink 和 HarfBuzz 的文本整形、1/64 像素换行、RTL 双向文本、28 个 Chirp 字体子集、中日韩/数学/表情符号回退以及“显示更多”规则等。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "工程理念",
+            "text": "这类工程对人类工程师来说几乎不可能完成，但 xeet 被构建为“自动仓库”：预言机启动 Chrome 验证数万条文本布局规则，CI 金丝雀监控原始推文的演变，并为代理提交签名 PR。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "价值主张",
+            "text": "X 是全球城市广场，媒介即信息。能在发布前预览效果对人类和 AI 代理都很有价值。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2122091033001337134:cb2f21d9c749972f": {
+      "itemId": "tweet:2122091033001337134",
+      "sourceHash": "cb2f21d9c749972f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Dan Shipper：we've been working hard on compounding skills lately (skills that get better...",
+      "url": "https://x.com/danshipper/status/2122091033001337134",
+      "generatedAt": "2026-11-17T05:10:02.203Z",
+      "summary": {
+        "title": "Dan Shipper：我们最近在努力开发“复利技能”，@hammer_mt 终于搞定了",
+        "summary": "Dan Shipper 在推文中透露，团队近期专注于开发“复利技能”（compounding skills），即那些每次使用都会变得更好的技能。他认为 @hammer_mt 终于在这个周末取得了突破。他制作了一个技能来帮助撰写上下文窗口摘要，并使用 autoresearch 进行迭代，直到该技能在摘要方面达到他个人品味的 80%，相比无技能基线有显著提升。他提到完整的文章发布在 @every 的 frontier feed 上，供用户的智能体参考。这条推文展示了 AI 技能开发中通过迭代优化达到实用水平的过程，以及个人品味在评估 AI 输出中的作用。",
+        "excerpts": [
+          {
+            "label": "核心概念",
+            "text": "复利技能（compounding skills）是指每次使用都会变得更好的技能。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "突破声明",
+            "text": "Dan Shipper 认为 @hammer_mt 终于在这个周末攻克了复利技能的开发。",
+            "reference": "推文第一句"
+          },
+          {
+            "label": "具体案例",
+            "text": "他制作了一个技能来帮助撰写上下文窗口摘要，并使用 autoresearch 进行迭代，直到该技能在摘要方面达到他个人品味的 80%，相比无技能基线有显著提升。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "资源指引",
+            "text": "完整的文章发布在 @every 的 frontier feed 上，供用户的智能体参考。",
+            "reference": "推文末尾链接"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2122132596352327816:4b0a84694f5adbe6": {
+      "itemId": "tweet:2122132596352327816",
+      "sourceHash": "4b0a84694f5adbe6",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：\"When you ask Claude to create something, it's operating in a fresh context...",
+      "url": "https://x.com/petergyang/status/2122132596352327816",
+      "generatedAt": "2026-11-17T05:10:09.236Z",
+      "summary": {
+        "title": "Anthropic 工程师谈如何让 Claude 摆脱千篇一律的设计风格",
+        "summary": "Peter Yang 在推文中引用了 Anthropic 工程师 Nate Parrott 的观点，解释了 Claude 在生成设计时为何总是倾向于特定的视觉风格。Nate 指出，当用户要求 Claude 创建应用时，模型会认为自己是在一个全新的上下文中进行创作，因此会“发明”它认为最出色的视觉风格。然而，由于模型在训练中可能只见过一次类似的设计，它误以为这种风格是原创的，导致输出高度同质化——例如衬线字体、米白色背景、橙色以及卡片边缘的条状装饰。为了解决这个问题，Anthropic 在 Claude 的设计提示中明确告知模型：对于这个特定模型，你倾向于过度偏向这两种字体和颜色，除非用户明确要求，否则不要使用它们。Nate 表示这种方法效果显著。推文还附带了完整播客的链接，供读者深入了解。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "当你要求 Claude 创建东西时，它在一个全新的上下文中运作，会想：天哪，用户让我做一个应用，我要发明最出色的视觉风格。",
+            "reference": "推文开头，引用 Nate Parrott 的话"
+          },
+          {
+            "label": "案例",
+            "text": "Claude 生成的设计往往包含衬线字体、米白色背景、橙色以及卡片边缘的条状装饰。",
+            "reference": "推文中段，描述 Claude 的典型设计元素"
+          },
+          {
+            "label": "观点",
+            "text": "在 Claude 的认知里，它只做过一次这样的设计，所以认为这是完全原创的。",
+            "reference": "推文中段，解释同质化原因"
+          },
+          {
+            "label": "案例",
+            "text": "Anthropic 在 Claude 设计提示中明确告知：对于这个特定模型，你倾向于过度偏向这两种字体和颜色，除非用户要求，否则不要使用它们。",
+            "reference": "推文后段，介绍解决方案"
+          },
+          {
+            "label": "数据",
+            "text": "这种方法往往能起到很大帮助。",
+            "reference": "推文后段，Nate 对效果的肯定"
+          }
+        ],
+        "materials": [
+          {
+            "label": "播客完整视频",
+            "url": "https://t.co/HPX5HjXafX",
+            "note": "观看完整播客，了解 Nate Parrott 关于 Claude 设计偏见的更多讨论"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2122060856498524510:9752d121be35ed4f": {
+      "itemId": "tweet:2122060856498524510",
+      "sourceHash": "9752d121be35ed4f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：\"Do you find being a designer more fun now that you can easily prototype...",
+      "url": "https://x.com/petergyang/status/2122060856498524510",
+      "generatedAt": "2026-11-17T05:10:15.525Z",
+      "summary": {
+        "title": "Peter Yang 对话 Nate Parrott：AI 时代设计师的原型迭代速度与真实用户验证",
+        "summary": "Peter Yang 在 X 上分享了他与 Anthropic 设计师 Nate Parrott 的对话片段。Nate 拥有工程背景，曾在 The Browser Company 参与开发 Arc 浏览器，他提到当时团队花费一年时间进行预生产，每个想法需要数周才能构建并验证。如今在 Anthropic，借助 AI 工具，构建原型的时间被压缩到一两天，但将产品交到用户手中并理解他们是否会真正使用的周期并未缩短。这一对比揭示了 AI 对设计流程中‘构建’环节的加速，同时强调了用户验证环节的不可压缩性。该观点对关注 AI 产品设计与迭代效率的从业者有启发意义。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Nate Parrott 认为，在 Anthropic 借助 AI 工具，构建原型的时间从过去的数周压缩到了一到两天，但将产品交到用户手中并理解他们是否会真正使用的周期并未缩短。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "案例",
+            "text": "Nate 在 The Browser Company 开发 Arc 浏览器时，团队花费一年时间进行预生产，每个想法需要数周构建并验证。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "金句",
+            "text": "“So you've really compressed the cycle of building. What you haven't compressed is the cycle of putting it in people's hands and understanding if they're going to use it.”",
+            "reference": "推文正文"
+          },
+          {
+            "label": "背景",
+            "text": "Nate Parrott 拥有工程背景，曾在 The Browser Company 工作，现任职于 Anthropic。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:03f99d40-d8c2-11f1-9c96-7b13ace0b070:63498cb801ea695d": {
+      "itemId": "podcast:03f99d40-d8c2-11f1-9c96-7b13ace0b070",
+      "sourceHash": "63498cb801ea695d",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "No Priors: Tokenization, Agentic Trading, Harmonic: Robinhood's Mission to Expand Ownership with CEO Vlad Tenev",
+      "url": "https://www.youtube.com/@NoPriorsPodcast",
+      "generatedAt": "2026-11-17T05:10:44.440Z",
+      "summary": {
+        "title": "代币化、代理交易与 Harmonic：Robinhood CEO Vlad Tenev 谈扩大所有权的使命",
+        "summary": "本期播客中，Robinhood CEO Vlad Tenev 深入阐述了公司“扩大所有权”的使命，并分享了个人经历如何塑造其商业理念。他出生于东欧，童年经历高通胀和货币贬值，祖父母用铜炊具保值，这让他深刻理解资产所有权的重要性。Tenev 还联合创立了 Harmonic，旨在构建数学超级智能，其模型 Aristotle 曾获国际数学奥林匹克金牌。他批评当前 AI 数学研究过于中心化，主张将工具分发给个人以促进分布式发现。在 Robinhood 的业务层面，Tenev 介绍了多项创新：推出代币化股票和 Robinhood Chain，后者已成为开发者活动增长最快的区块链之一；推出代理交易（Agentic Trading），已有超过 15 万客户开设账户；计划推出 KPI 合约，允许用户直接交易公司关键绩效指标；推出 Robinhood Ventures 基金，让散户投资者可以投资私营公司；并计划将私营公司代币化，实现 24/7 实时交易。此外，Robinhood 被选为 Trump 账户的唯一初始受托人和经纪人，为每个新生儿提供 1000 美元投资于 S&P 500 ETF。Tenev 认为预测市场是新闻的进化，代理交易将使更多人成为量化交易者，并强调童年经历让他能够冷静应对商业挑战，建议领导者培养厚脸皮。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "如果用一个词概括 Robinhood，那就是所有权。",
+            "reference": "01:28 - 01:54"
+          },
+          {
+            "label": "案例",
+            "text": "我的祖父母把资产放在铜炊具里，一拿到工资就换成铜锅。",
+            "reference": "07:56 - 08:23"
+          },
+          {
+            "label": "观点",
+            "text": "我不喜欢最新一波 AI 模型解决数学问题的方式，它太中心化了，更吸引人的模式是把工具交到人们手中。",
+            "reference": "14:49 - 15:29"
+          },
+          {
+            "label": "数据",
+            "text": "我们推出了代理交易，超过 15 万客户在几个月内开设了代理交易账户。",
+            "reference": "28:53 - 29:29"
+          },
+          {
+            "label": "观点",
+            "text": "预测市场是新闻的进化，你可以通过赔率看到正在发生和可能发生的事情。",
+            "reference": "28:14 - 28:47"
+          },
+          {
+            "label": "类比",
+            "text": "Robinhood agents and our MCP can make it easier for more people to be quant traders，类似于编码代理使更多人成为软件工程师。",
+            "reference": "31:28 - 32:23"
+          },
+          {
+            "label": "观点",
+            "text": "高频交易已经存在很久了，市场已适应算法交易，因此代理交易的增长不需要根本性的基础设施或监管变革。",
+            "reference": "34:50 - 35:35"
+          },
+          {
+            "label": "案例",
+            "text": "Robinhood 被选为 Trump 账户的唯一初始受托人和经纪人，与 BNY、财政部和 IRS 合作，为每个新生儿提供 1000 美元投资于 S&P 500 ETF。",
+            "reference": "48:38 - 49:46"
+          }
+        ],
+        "materials": []
       }
     }
   }
