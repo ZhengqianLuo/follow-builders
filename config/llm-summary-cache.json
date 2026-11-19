@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-18T04:37:59.602Z",
+  "updatedAt": "2026-11-19T04:22:26.257Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -20100,6 +20100,206 @@
           {
             "label": "结论",
             "text": "所以基本上 token 消耗只会从这里继续上升。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2122929634916679820:ca56ac81aea20970": {
+      "itemId": "tweet:2122929634916679820",
+      "sourceHash": "ca56ac81aea20970",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：One of the funny reasons for the difference in vibes between the influencers...",
+      "url": "https://x.com/thsottiaux/status/2122929634916679820",
+      "generatedAt": "2026-11-19T04:21:14.981Z",
+      "summary": {
+        "title": "Thibault Sottiaux 解释 6.2 Sol/Astra 模型发布后影响者与大众感受差异的原因",
+        "summary": "Thibault Sottiaux 在推文中解释了为何 6.2 Sol/Astra 模型发布后，影响者与普通用户之间的氛围存在差异。他透露，团队在几周前向少数人提供了早期访问权限，但在最近 3-4 天内对模型进行了大量更改，而影响者制作的视频很可能是在上周基于旧版本录制的，且没有重新测试。他强调，尽管新模型相比 GPT 前代有显著提升，但仍不完美，团队期待未来迭代在品味和使用友好度方面有所改进。他感谢所有反馈，并表示团队听到了用户的声音。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "影响者与大众之间氛围差异的一个有趣原因是：我们几周前给了少数人访问权限，然后在最近 3-4 天做了大量更改，我相当确定这些天内没有重新测试，而视频是上周制作的。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "不要误会，虽然这些模型相比 GPT 前代是一个巨大的飞跃，但它们绝非完美，团队期待未来迭代在品味和使用友好度方面有所改进。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "Love all the feedback and we hear you!",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2122737427970425171:d1b55d76079a0b9b": {
+      "itemId": "tweet:2122737427970425171",
+      "sourceHash": "d1b55d76079a0b9b",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Josh Woodward：Gemini can now do your tasks free of charge in six countries! We’ve built it...",
+      "url": "https://x.com/joshwoodward/status/2122737427970425171",
+      "generatedAt": "2026-11-19T04:21:21.165Z",
+      "summary": {
+        "title": "Josh Woodward 宣布 Gemini 在六国免费执行任务，并推出三大更新",
+        "summary": "Google 的 Josh Woodward 在 X 上宣布，Gemini 现可在美国、日本、韩国、加拿大、澳大利亚和印度六个国家免费为用户执行任务，目标是为日程繁忙的用户节省时间和金钱。此次更新包含三大要点：第一，Gemini 运行在新的 Gemini 4 Hydrogen 模型上，为上述国家数亿用户免费提供任务执行能力；第二，多项高需求功能正在美国率先推出，包括通过 Google Duplex 拨打本地商家电话、通过 Google Pay 支付结账、通过 RCS 在 Android 或 iOS 上向 Gemini 发短信、通过 Gmail 转发邮件给 Gemini、以及通过 Google Password Manager 在不向 Google 外部共享密码的情况下登录网站；第三，Gemini 与 Google Workspace 的集成迎来迄今最大更新，工具触发更可靠，用户无需离开 Gemini 即可完成更多操作，如起草或发送邮件、创建和编辑 Docs 或 Sheets、一次性添加多个日历事件。Woodward 表示期待看到用户首先让 Gemini 完成哪些任务。该推文获得 599 个赞、60 次转发和 69 条回复，反映了社区对 Gemini 免费任务执行和深度集成的高度关注。",
+        "excerpts": [
+          {
+            "label": "核心宣布",
+            "text": "Gemini 现在可以在六个国家免费执行你的任务！我们为那些在课程、会议和接送孩子中任务堆积如山的人打造了它。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "目标",
+            "text": "我们的目标是让 Gemini 完成工作，并在此过程中为你节省时间和金钱。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "模型与覆盖范围",
+            "text": "运行在新的 Gemini 4 Hydrogen 模型上，Gemini 可以为美国、日本、韩国、加拿大、澳大利亚和印度的数亿人免费完成任务。",
+            "reference": "更新 1"
+          },
+          {
+            "label": "新功能列表",
+            "text": "许多高需求功能正在推出，从美国开始：通过 Google Duplex 拨打本地商家电话、通过 Google Pay 支付结账、通过 RCS 在 Android 或 iOS 上向 Gemini 发短信、通过 Gmail 转发邮件给 Gemini、通过 Google Password Manager 在不向 Google 外部共享密码的情况下登录网站。",
+            "reference": "更新 2"
+          },
+          {
+            "label": "Workspace 集成",
+            "text": "我们为 Gemini 与 Google Workspace 的集成带来了迄今最大的更新。工具触发更可靠，你无需离开 Gemini 就能做更多事情。起草或发送邮件、创建和编辑 Docs 或 Sheets、一次性添加多个日历事件。",
+            "reference": "更新 3"
+          },
+          {
+            "label": "行动号召",
+            "text": "准备好交出你的下一个任务了吗？我们迫不及待想看看 Gemini 首先帮你划掉清单上的哪一项。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:01a1e632-c02d-713d-a840-cae7f745d45e:77d7f4cce92cc415": {
+      "itemId": "podcast:01a1e632-c02d-713d-a840-cae7f745d45e",
+      "sourceHash": "77d7f4cce92cc415",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Latent Space: Building Visual Intelligence — Andreas Blattmann &amp; Dustin Podell, Black Forest Labs",
+      "url": "https://www.youtube.com/watch?v=8cGfJOU3AlQ",
+      "generatedAt": "2026-11-19T04:22:13.795Z",
+      "summary": {
+        "title": "构建视觉智能：Black Forest Labs 从图像生成到世界模型与机器人",
+        "summary": "本期播客深入采访了 Black Forest Labs 联合创始人 Andreas Blattmann 和 Dustin Podell，回顾了从潜在扩散到 Flux 系列模型的完整技术演进，并展望了视频建模、机器人技术和多模态世界模型的未来。Andreas 是潜在扩散的共同发明人，该技术后来被 Stable Diffusion 扩展；Dustin 则从自由工程师成长为 Stability AI 模型负责人，并创建了 SDXL、Control LoRA 等关键模型。两人在博士期间相识，发现出生地相距仅 10 英里，后回到德国创立 Black Forest Labs，公司以弗莱堡附近的黑森林命名。他们强调公司并非作为图像生成实验室创立，视频建模才是理解世界运作方式的核心手段。技术方面，SDXL 首次大规模采用多宽高比分桶训练，并引入 refiner 流水线；Stable Video Diffusion 证明了 2D 视频预训练加少量 3D 微调即可获得 3D 理解；SD3 转向流匹配和扩散 Transformer，并发现文本生成能力主要来自更好的数据和建模。Flux.1 在成立三个月后发布，与 xAI 合作；Flux Context 最初是 Dustin 的副业项目，通过少量高质量标注数据实现了高速角色一致性编辑，有望取代 Canva 和 Photoshop 的常规工作流；Flux.2 支持多达 10 张参考图像；Flux.3 则是多模态模型，衍生出视频、图像、动作等多个版本。Flux Action 利用预训练世界模型进行动作预测，可在真实世界、模拟和电脑游戏中运行。公司已筹集 4.5 亿美元，2025 年 12 月收入达 1 亿美元。他们发布了 Context Bench 开放评估集，并讨论了扩散与自回归模型的优劣：自回归数据效率更高，扩散采样更快。展望未来，他们认为 2027 年将是机器人技术之年，制造业将率先应用，单次学习和上下文学习是重要进展。公司总部位于旧金山，正在招聘并希望扩大公众知名度。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Black Forest Labs 并非作为图像生成实验室创立，视频建模才是理解世界运作方式的核心手段。",
+            "reference": "00:00:00 附近，笔记第9条"
+          },
+          {
+            "label": "数据",
+            "text": "Black Forest Labs 总共筹集了 4.5 亿美元资金，截至 2025 年 12 月已实现 1 亿美元收入。",
+            "reference": "00:00:00 附近，笔记第8条"
+          },
+          {
+            "label": "案例",
+            "text": "Flux Context 最初是 Dustin Podell 的副业项目，通过少量高质量标注数据训练，能够实现通用的图像编辑能力，如给衬衫加标志。",
+            "reference": "00:00:00 附近，笔记第29-30条"
+          },
+          {
+            "label": "观点",
+            "text": "自回归模型在数据效率上优于扩散模型，因为每个训练样本能提供最大梯度；但扩散模型在采样速度上优于自回归模型，因为可以通过蒸馏减少步骤。",
+            "reference": "00:00:00 附近，笔记第40-41条"
+          },
+          {
+            "label": "预测",
+            "text": "2027年将是机器人技术的重要年份，预计将出现商业应用和家用机器人；制造业是机器人技术应用的关键领域，因为其环境受限且长尾问题较少。",
+            "reference": "00:00:00 附近，笔记第49、51条"
+          },
+          {
+            "label": "案例",
+            "text": "图像修复是一个意外的大用例，人们用它来修复和着色旧家庭照片，带来积极情感。",
+            "reference": "00:00:00 附近，笔记第55条"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2122746401482592549:c26323b882dc4d6c": {
+      "itemId": "tweet:2122746401482592549",
+      "sourceHash": "c26323b882dc4d6c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Swyx：devin bots are multi-agent teams done right: - always on, proactive (but tuned...",
+      "url": "https://x.com/swyx/status/2122746401482592549",
+      "generatedAt": "2026-11-19T04:22:21.558Z",
+      "summary": {
+        "title": "Swyx：Devin bots 是正确实现的多智能体团队",
+        "summary": "Swyx 在推文中高度评价 Devin bots，认为它们是“多智能体团队的正确实现方式”。他列举了 Devin bots 的核心特性：始终在线、主动但以 ROI 为调优目标；拥有结果而非任务，但可与其他智能体协作；管理子智能体团队并自我审查；可通过电话、短信、Slack 等多种渠道触达；通过交互式工件（Devin Apps）而非冗长聊天进行一致报告，强调“HTML 就是一切”。Swyx 表示自己试用一周后，已将 AEO、QA、跨平台应用移植、个人管理自动化和视频编辑等工作交给 Devin bots，并从本地 agent worktree 迁移到云端。他认为这些 bots 取代了 /goal、ultracode、loop engineering、agent to agent、agent swarms、AI employees 等被炒作的概念。他的主要顿悟是：在 AGI 到来之前，不应追求“AI 员工”，而应追求“比单个任务更高一层的抽象”，即拥有结果的智能体管理者。他类比人类雇主，区分“有主动性”和“只做被要求的事”的员工，并更看重前者。最后提醒初创公司可申请 Devin for Startups 的 65k 额度。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "Devin bots 是正确实现的多智能体团队：始终在线、主动（但以 ROI 为调优）、拥有结果而非任务、管理子智能体并自我审查、可通过多种渠道触达、通过交互式工件而非长聊天进行一致报告。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "个人实践",
+            "text": "试用一周后，我已将 AEO、QA、跨平台应用移植、个人管理自动化和视频编辑工作交给 Devin bots，并从本地 agent worktree 迁移到云端。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "被取代的概念",
+            "text": "这些 bots 取代了 /goal、ultracode、loop engineering、agent to agent、agent swarms、AI employees 等被炒作的概念。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "关键顿悟",
+            "text": "你并不想要“AI 员工”，因为我们还没有 AGI，如果你过度承诺或过度期望就会失败。你想要的是“仅仅”比单个任务更高一层的抽象，而前沿智能体领域的共识是：拥有结果的智能体管理者。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "人类雇主类比",
+            "text": "作为人类雇主，我区分“有主动性”的人（拥有问题领域、发现问题并研究/带来解决方案）和“没有主动性”的人（只做我要求的事、不主动、不提建议）。猜猜我更看重哪一个？",
+            "reference": "推文后段"
+          },
+          {
+            "label": "创业福利",
+            "text": "如果你是初创公司，提醒一下：Devin for Startups 提供 65k 额度，可通过 clanker 申请。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2122862646265520150:c9a879d7032751f9": {
+      "itemId": "tweet:2122862646265520150",
+      "sourceHash": "c9a879d7032751f9",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Swyx：the fact that nobody with decisionmaking power saw this coming a mile away and...",
+      "url": "https://x.com/swyx/status/2122862646265520150",
+      "generatedAt": "2026-11-19T04:22:26.257Z",
+      "summary": {
+        "title": "Swyx 批评 Astra 发布广告，但力挺模型本身",
+        "summary": "Swyx 在推文中表达了对 Astra 6.2 发布广告的批评，认为有决策权的人本应预见并否决该广告，这是他对此发布的主要批评。但他强调模型本身是扎实的小版本改进，尤其在效率方面，这是当前强化学习最重要的三个目标之一，而 Astra 在这方面世界领先。他自称每天都在使用 Astra，认为它是他用过的最好的工作流自动化模型，不再陷入可怕的循环，能通过压缩和技能编写高效学习。他还提到 Astra 正在为 @latentspacepod 和 @aiDotEngineer 运行大量内容发布管道，如果没有它，他们作为自举企业不可能拥有超过 100 万美元/员工的收入效率。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "有决策权的人没有提前预见并否决 6.2 Astra 广告，这是我对 Astra 发布的主要批评。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "模型本身是扎实的小版本改进。效率是当前强化学习最重要的三个目标之一，而他们在这方面世界领先。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "我每天都在使用 Astra，它是我用过的最好的工作流自动化模型，不再陷入可怕的循环，能通过压缩和技能编写高效学习。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "数据",
+            "text": "Astra 正在为 @latentspacepod 和 @aiDotEngineer 运行大量内容发布管道，如果没有它，我们作为自举企业不可能拥有超过 100 万美元/员工的收入效率。",
             "reference": "推文结尾"
           }
         ],
