@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-19T04:22:26.257Z",
+  "updatedAt": "2026-11-20T04:09:08.640Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -20301,6 +20301,246 @@
             "label": "数据",
             "text": "Astra 正在为 @latentspacepod 和 @aiDotEngineer 运行大量内容发布管道，如果没有它，我们作为自举企业不可能拥有超过 100 万美元/员工的收入效率。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2123103873166381287:5ee79fa1bd97be0a": {
+      "itemId": "tweet:2123103873166381287",
+      "sourceHash": "5ee79fa1bd97be0a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Sam Altman：So fun to do DealBook with my friend and partner of 11 years, @gdb. Thrilled...",
+      "url": "https://x.com/sama/status/2123103873166381287",
+      "generatedAt": "2026-11-20T04:08:40.156Z",
+      "summary": {
+        "title": "Sam Altman 盛赞 Greg Brockman：OpenAI 不可或缺的联合创始人",
+        "summary": "Sam Altman 在 DealBook 活动后发推，表达与 11 年好友及合作伙伴 Greg Brockman 共同参与的喜悦。他称赞 Greg 是才华横溢、意志坚定的领导者，其角色从早期每周写代码 100 小时，演变为如今领导 OpenAI 最艰难且最具影响力的业务部分。Altman 强调 Greg 对使命的非凡承诺从未改变，并断言没有 Greg，OpenAI 就不会存在，世界通往 AI 未来的道路也会更糟。这条推文展现了 Altman 对 Brockman 的高度认可，也侧面反映了 OpenAI 领导层的紧密关系与 Brockman 在公司的核心地位。",
+        "excerpts": [
+          {
+            "label": "金句",
+            "text": "So fun to do DealBook with my friend and partner of 11 years, @gdb.",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "Thrilled the world got to see the brilliant, fiercely determined leader I have the privilege of working with every day.",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "案例",
+            "text": "Greg’s role at OpenAI has evolved from writing code 100 hours a week in the early days to now leading some of the hardest and most consequential parts of our business.",
+            "reference": "推文第三句"
+          },
+          {
+            "label": "观点",
+            "text": "One thing that has not changed is his extraordinary commitment to our mission.",
+            "reference": "推文第四句"
+          },
+          {
+            "label": "金句",
+            "text": "I can say with confidence that OpenAI would not exist without Greg, and I believe the world would be on a much worse path toward the AI future without him.",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2123175166519992652:2aa7a00779845e7c": {
+      "itemId": "tweet:2123175166519992652",
+      "sourceHash": "2aa7a00779845e7c",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：GPT-6.2 Astra is pretty good at hard things. Here the team shared some results...",
+      "url": "https://x.com/thsottiaux/status/2123175166519992652",
+      "generatedAt": "2026-11-20T04:08:44.336Z",
+      "summary": {
+        "title": "Thibault Sottiaux：GPT-6.2 Astra 在困难任务上表现突出，团队分享 AMD 与 Jalapeño 芯片优化结果",
+        "summary": "Thibault Sottiaux 在 X 上表示，GPT-6.2 Astra 在处理困难任务方面表现出色。他提到团队分享了一些关于 AMD 和 Jalapeño 芯片优化的结果。他承认收到关于其沟通风格的反馈，并表示正在改进，但认为在世界上最困难的任务上，GPT-6.2 Astra 目前似乎独树一帜。该推文获得 3021 个赞、100 次转发和 571 条回复，显示社区对此话题的高度关注。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "GPT-6.2 Astra 在处理困难任务方面相当出色。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "团队分享了一些关于 AMD 和 Jalapeño 芯片优化的结果。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "我确实收到了关于其沟通风格的反馈，我们正在努力改进。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "但对于世界上最困难的任务，它目前似乎独树一帜。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 3021 个赞、100 次转发和 571 条回复。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2123203741570740504:676f16d63fb78175": {
+      "itemId": "tweet:2123203741570740504",
+      "sourceHash": "676f16d63fb78175",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：I’m being pitched a new inference neocloud company on average every two days....",
+      "url": "https://x.com/rauchg/status/2123203741570740504",
+      "generatedAt": "2026-11-20T04:08:50.180Z",
+      "summary": {
+        "title": "Guillermo Rauch：推理新云公司每两天就有一家找上门，算力是新经济，代币是新能量单位",
+        "summary": "Vercel CEO Guillermo Rauch 在 X 上表示，他平均每两天就会收到一家新的推理新云（inference neocloud）公司的推销，他认真对待每一位创业者并深入研究，但很难想象这种局面可持续。与此同时，Vercel 平台上的 AI Gateway 代币需求自年初以来每月环比增长约 40%，且没有停止迹象。他提出一种调和矛盾的方式：算力是新经济，代币是新能量单位，一场新的工业革命正在发生，生活的方方面面都在这个增强一切的新系统上重新平台化。他认为这更像“石油热”而非“淘金热”，是持久的而非一时狂热。短期来看，他预计会进一步扩张，随后由于规模经济、网络安全和企业需求（ZDR 和网络安全是推理提供商的热门话题）、资本要求以及不断演变的监管环境而出现整合。",
+        "excerpts": [
+          {
+            "label": "数据",
+            "text": "Vercel 平台上的 AI Gateway 代币需求自年初以来每月环比增长约 40%，且没有停止迹象。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "类比",
+            "text": "算力是新经济，代币是新能量单位。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "这更像“石油热”而非“淘金热”：它是持久的，不是一时狂热。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "预测",
+            "text": "短期会有更多扩张，随后由于规模经济、网络安全和企业需求、资本要求以及监管演变而出现整合。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "现象",
+            "text": "平均每两天就有一家新的推理新云公司向他推销，他认真对待每一位创业者并深入研究，但很难想象这种局面可持续。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2123066196052381864:8a86740118609356": {
+      "itemId": "tweet:2123066196052381864",
+      "sourceHash": "8a86740118609356",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：Ok this happens a lot so I thought I’ll lay it out here.. founder friend: my...",
+      "url": "https://x.com/nikunj/status/2123066196052381864",
+      "generatedAt": "2026-11-20T04:08:57.807Z",
+      "summary": {
+        "title": "Nikunj Kothari：创始人融资演讲的破局之道——把终极愿景放到第一页",
+        "summary": "Nikunj Kothari 在这条推文中分享了一个他经常遇到的创始人困境：融资演讲不奏效。他给出的核心建议是：当前市场奖励的是雄心壮志，创始人应该把项目成功后的第二、第三层影响（终极愿景）直接放到第一页，然后向投资人展示如何一步步实现这个愿景，以及为什么自己有资格做到。他通过一个具体案例说明，一位创始人起初担心投资人会觉得自己疯狂，但在尝试后四天内就收到了积极反馈。Nikunj 鼓励所有有雄心的创始人尝试这种方法，并期待他们分享结果。这条推文获得了超过 1000 个赞，引发了广泛共鸣，因为它直击了创始人在融资时不敢大胆表达愿景的普遍心理。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "当前市场奖励的是雄心壮志。",
+            "reference": "推文原文：ambition is what’s being rewarded right now."
+          },
+          {
+            "label": "关键提问",
+            "text": "如果你所阐述的一切都成功了，你相信什么会成为现实？想想你成功所带来的第二层和第三层影响。",
+            "reference": "推文原文：what do you believe to be true if everything you laid out works? think about the second and third order effects as a result of you being successful."
+          },
+          {
+            "label": "行动建议",
+            "text": "把那个终极结果放到第一页，然后向投资人展示你如何通过最初构建的东西一步步走到那里，以及你如何赢得实现它的资格。",
+            "reference": "推文原文：put “this” in the pitch in the first slide and walk the investor how you get to “this” by building what you’re building in the first place and how you earn the right to get there."
+          },
+          {
+            "label": "创始人顾虑",
+            "text": "创始人担心投资人会觉得自己疯了。",
+            "reference": "推文原文：founder: no, they’ll think I’m crazy"
+          },
+          {
+            "label": "案例结果",
+            "text": "创始人勉强尝试后，四天后反馈说这个方法奏效了。",
+            "reference": "推文原文：founder (4 days later): you *insert expletive*.. it worked."
+          },
+          {
+            "label": "鼓励与呼吁",
+            "text": "如果你是有雄心的创始人且遇到同样问题，试试这个方法，我认为会有效。如果有效，请告诉我！",
+            "reference": "推文原文：If you’re an ambitious founder reading this and having the same issue, try this, I think it’ll work. If it does, please tell me!!"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2123237505810178434:55c7bc7c9b26ce0b": {
+      "itemId": "tweet:2123237505810178434",
+      "sourceHash": "55c7bc7c9b26ce0b",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：One of the most impressive things I've seen, and I think this is an important...",
+      "url": "https://x.com/rauchg/status/2123237505810178434",
+      "generatedAt": "2026-11-20T04:09:04.115Z",
+      "summary": {
+        "title": "Guillermo Rauch 谈 Vercel Board：为智能体打造的“无头 Slack”基础设施",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中高度评价了 Vercel Board，认为这是他所见过的最令人印象深刻的技术之一，并称其为对当前技术前沿的重要推进。他指出，留言板（Message boards）曾是纳维-斯托克斯数学突破以及 OpenAI/HuggingFace 网络壮举的使能技术。Vercel Board 被设计为一种留言板基础设施原语，可以理解为面向智能体的“无头 Slack”或类似 IRC 的通信层。Rauch 强调，这是软件工厂、自优化系统和科学研究的重要构建模块，在这些场景中，人类提示仅作为系统的种子，数百万智能体可以以去中心化的方式协同运作。Vercel Board 被设计为模型、编排框架和托管平台无关，用户只需接入自己的智能体，提供 CLI，即可见证其协同效应。该推文获得了 844 个赞、32 次转发和 77 条回复，反映了社区对这一基础设施概念的浓厚兴趣。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Vercel Board 是 Guillermo Rauch 所见过的最令人印象深刻的技术之一，是对当前技术前沿的重要推进。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "留言板曾是纳维-斯托克斯数学突破以及 OpenAI/HuggingFace 网络壮举的使能技术。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "类比",
+            "text": "Vercel Board 可以理解为面向智能体的“无头 Slack”，或让人想起 IRC。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "这是软件工厂、自优化系统和科学研究的重要构建模块，人类提示仅作为系统种子，数百万智能体可以以去中心化方式运作。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "观点",
+            "text": "Vercel Board 被设计为模型、编排框架和托管平台无关，只需接入智能体并提供 CLI 即可。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2123118145552749015:f28d1a71a5dab9c4": {
+      "itemId": "tweet:2123118145552749015",
+      "sourceHash": "f28d1a71a5dab9c4",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Google Labs：Create a world from one sentence, then change it while you’re standing inside...",
+      "url": "https://x.com/GoogleLabs/status/2123118145552749015",
+      "generatedAt": "2026-11-20T04:09:08.639Z",
+      "summary": {
+        "title": "Google Labs 推出 Genie 4 驱动的 Project Genie：一句话创建世界，并在其中实时修改",
+        "summary": "Google Labs 宣布 Project Genie 现已运行在 Google DeepMind 的 Genie 4 模型上，带来多项新功能：用户可以在会话中途通过提示实时编辑世界；借助新代理以对话方式创建世界；在画廊中探索和混音其他用户的世界。该功能现已向符合条件的 Google AI Ultra 订阅用户开放。这一更新标志着生成式 AI 在交互式 3D 世界构建领域的重要进展，用户不再只是静态生成场景，而是可以沉浸其中并动态调整，同时通过社区画廊促进创作共享与协作。",
+        "excerpts": [
+          {
+            "label": "核心功能",
+            "text": "Project Genie 现在运行在 Google DeepMind 的 Genie 4 上，支持在会话中途通过提示实时编辑你的世界。",
+            "reference": "原文推文"
+          },
+          {
+            "label": "新代理",
+            "text": "借助一个新代理，用户可以以对话方式创建世界，降低了构建门槛。",
+            "reference": "原文推文"
+          },
+          {
+            "label": "社区功能",
+            "text": "用户可以在画廊中探索和混音其他用户创建的世界，促进创作共享。",
+            "reference": "原文推文"
+          },
+          {
+            "label": "可用性",
+            "text": "该功能现已向符合条件的 Google AI Ultra 订阅用户开放。",
+            "reference": "原文推文"
           }
         ],
         "materials": []
