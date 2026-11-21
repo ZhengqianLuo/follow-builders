@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-20T04:09:08.640Z",
+  "updatedAt": "2026-11-21T04:08:42.305Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -20541,6 +20541,171 @@
             "label": "可用性",
             "text": "该功能现已向符合条件的 Google AI Ultra 订阅用户开放。",
             "reference": "原文推文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2123557171321561133:e4d495d869a92db5": {
+      "itemId": "tweet:2123557171321561133",
+      "sourceHash": "e4d495d869a92db5",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：We’re also working on a new mobile experience for ChatGPT! It’s easier to get...",
+      "url": "https://x.com/thsottiaux/status/2123557171321561133",
+      "generatedAt": "2026-11-21T04:07:48.619Z",
+      "summary": {
+        "title": "ChatGPT 移动端新体验：为 Pro 用户推出可定制标签栏与专属 dot 标签页",
+        "summary": "Thibault Sottiaux 在 X 上宣布，团队正在为 ChatGPT 开发全新的移动端体验。新设计旨在让用户更便捷地访问常用功能，并发现 ChatGPT 的更多能力。该体验将首先面向拥有 dot 或符合创建 dot 资格的 Pro 用户推出。在新设计中，用户的 dot 将拥有独立标签页，并且可以将 Codex、Projects、Images 等功能固定到底部标签栏，实现个性化定制。部分用户将默认看到新界面，但所有用户都可以随时在“设置 > 新 ChatGPT 设计”中开启或关闭该体验。团队希望在更广泛推出前收集用户反馈。此动态展示了 ChatGPT 在移动端交互上的重要迭代，强调个性化与功能可达性，对关注 AI 产品设计及用户体验的读者具有参考价值。",
+        "excerpts": [
+          {
+            "label": "核心更新",
+            "text": "我们正在为 ChatGPT 打造全新的移动端体验，让你更容易找到喜欢的功能，并发现 ChatGPT 能做什么。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "目标用户",
+            "text": "我们将从拥有 dot 或符合创建 dot 资格的 Pro 用户开始推出。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "个性化定制",
+            "text": "你的 dot 将拥有自己的标签页，你可以将 Codex、Projects、Images 等固定到底部标签栏。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "用户控制",
+            "text": "部分用户会默认看到新体验，但你随时可以在“设置 > 新 ChatGPT 设计”中开启或关闭它。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "反馈征集",
+            "text": "非常期待在更广泛推出之前听到你的反馈！",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2123505400591106113:ca116ffda8b8ba7e": {
+      "itemId": "tweet:2123505400591106113",
+      "sourceHash": "ca116ffda8b8ba7e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：My “is engineering a valuable pursuit” math. An outcome-oriented, creative...",
+      "url": "https://x.com/rauchg/status/2123505400591106113",
+      "generatedAt": "2026-11-21T04:07:54.909Z",
+      "summary": {
+        "title": "Guillermo Rauch：工程价值的新算术——AI 时代工程师的分化",
+        "summary": "Guillermo Rauch 在这条推文中提出了一个关于工程价值的量化框架，用以回应“工程是否仍值得追求”的疑问。他认为，在 AI 时代，工程师的价值分布发生了剧烈分化：以结果为导向、富有创造力的工程师现在相当于“1000 倍工程师”；而那些陷入 tabs vs spaces 之类无谓争论、只见树木不见森林的工程师，则变成了“-10 倍工程师”；普通知识工作者则相当于“2 倍工程师”。这一判断基于他们观察到的初创公司和大型企业客户中的 token 消耗分布：工程师和软件工厂将消耗指数级增长的 token。Rauch 进一步指出，从 Anthropic 的成功中可以得到的启示是：编程是 AI 的第一杀手级应用。这条推文的核心价值在于，它用简洁的倍数模型揭示了 AI 对工程职业的冲击并非均匀分布，而是加剧了价值创造的两极分化，并强调了编程作为 AI 应用核心场景的地位。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "以结果为导向、富有创造力的工程师现在是 1000 倍工程师；纠结于 tabs vs spaces、只见树木不见森林的工程师现在是 -10 倍工程师；普通知识工作者现在是 2 倍工程师。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据支撑",
+            "text": "这一判断也得到我们在初创公司和大型企业客户中观察到的 token 消耗分布的支持。工程师和软件工厂将消耗指数级增长的 token。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "行业启示",
+            "text": "如果要从 Anthropic 的成功中得出一个结论，那就是编程是 AI 的第一杀手级应用。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2123468825538789380:da3b79d2bd5550de": {
+      "itemId": "tweet:2123468825538789380",
+      "sourceHash": "da3b79d2bd5550de",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：𝚟𝚎𝚛𝚌𝚎𝚕 𝚋𝚘𝚊𝚛𝚍 has no heavyweight or opinionated UI. It's infra not...",
+      "url": "https://x.com/rauchg/status/2123468825538789380",
+      "generatedAt": "2026-11-21T04:08:00.332Z",
+      "summary": {
+        "title": "Guillermo Rauch：Vercel Board 是基础设施而非产品，是智能体的“Redux 状态管理器”",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中阐述了 Vercel Board 的定位：它没有重量级或强观点的 UI，是基础设施而非产品。他喜欢将 Board 类比为“智能体的无头 Slack”，因为现在 UI 是免费的，可以为每个用例生成并部署理想的“工厂界面”。安全团队会关注漏洞数量、SEV 分类、已确认与未确认等指标。Rauch 提到在 Vercel 内部，基于 Board 构建的内部工厂有些只是 TUI，或者主要通过 Slack 智能体管理，用户只需关注结果并向智能体提供反馈。他将 Board 比作智能体的 Redux 状态管理器，强调其基础性作用。这条推文获得了 332 个赞、10 次转发和 78 条回复，反映了社区对 AI 智能体基础设施的浓厚兴趣。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "Vercel Board 没有重量级或强观点的 UI，它是基础设施而非产品。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "类比",
+            "text": "我喜欢将 Board 类比为“智能体的无头 Slack”，因为现在 UI 是免费的。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "安全团队会关注漏洞数量、SEV 分类、已确认与未确认等指标。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "内部实践",
+            "text": "我在 Vercel 内部见过基于 Board 构建的内部工厂，有些只是 TUI，或者主要通过 Slack 智能体管理，你只需关注结果并向智能体提供反馈。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "核心类比",
+            "text": "Board 就像智能体的 Redux 状态管理器，它是基础性的。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:8fd14988-e40e-11f1-99ee-ebfb28833f04:a6d4ab394a2469e1": {
+      "itemId": "podcast:8fd14988-e40e-11f1-99ee-ebfb28833f04",
+      "sourceHash": "a6d4ab394a2469e1",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "No Priors: Superintelligence Needs the Physical World with CEO and Co-Founder of Arda Bob McGrew",
+      "url": "https://www.youtube.com/watch?v=_wLzJINt9iQ",
+      "generatedAt": "2026-11-21T04:08:42.304Z",
+      "summary": {
+        "title": "超级智能需要物理世界：Arda CEO Bob McGrew 谈 AI 与制造业的未来",
+        "summary": "Bob McGrew 认为，如果不改变物理世界，就无法实现超级智能。他指出过去十年 AI 对物理世界的影响微乎其微，自动驾驶汽车并未改变汽车本身。他反驳了仅靠自动化研究人员实现递归自我改进的观点，因为研究人员并非瓶颈，GPU 数量才是。当假设生成变得廉价时，物理实验能力将成为稀缺资源。离开 OpenAI 后，他创办 Arda，旨在解决模型强大但未对世界产生大影响的问题。美国制造业竞争力不足的根本原因是劳动力成本，iPhone 每年有 75% 的零件更换，但自动化程度仅约 25%。Arda 的目标是让自动化生产线能在七天内根据产品设计重新配置。传统自动化装配线是封闭世界，类似鲁布·戈德堡机械，设计耗时六个月。AI 可以加速机器设计，校准问题可通过感知和强化学习解决。Arda 与 Anduril 合作构建软件和 AI 平台，已部署到所有产品部门。Arda 首先构建制造工程师的 IDE，然后应用 AI 代理，采用问题优先的方法，使用前沿模型作为编排器。机器人技术的进步主要来自世界表征的改进。前向部署工程模式源于客户不愿分享 IP，产品路线图始于寻找需要功能的客户，通过少数强力用户快速迭代。企业销售中既需要愿景型赞助者，也需要实际用户。大型组织由小团队组成，需逐个问题、逐个团队推进。FDE 策略是产品策略，需将现场学习产品化。超级智能需要物理世界的感知和行动能力。未来十年将出现各种形态的机器人，而非仅人形机器人。工厂建设将日益自动化，包括设计机器工具。自我复制机器可能成为星际扩张的形式，需确保人类受益并保持控制。费米悖论的可能解释是文明以光速扩张，我们只能在它们到达前不久探测到。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "如果不改变物理世界，就无法实现超级智能。",
+            "reference": "00:17 - 00:22"
+          },
+          {
+            "label": "数据",
+            "text": "iPhone 每年有 75% 的零件更换，但自动化程度仅约 25%，其余靠手工组装。",
+            "reference": "14:31 - 14:55"
+          },
+          {
+            "label": "类比",
+            "text": "传统机器人自动化类似于鲁布·戈德堡机械，通过精确的机械设计消除不确定性。",
+            "reference": "22:27 - 23:29"
+          },
+          {
+            "label": "案例",
+            "text": "Arda 的软件显著缩短了虚拟构建时间，从几天缩短到 90 分钟。",
+            "reference": "27:11 - 27:25"
+          },
+          {
+            "label": "观点",
+            "text": "机器人技术的进步主要来自世界表征的改进，而非大量机器人数据。",
+            "reference": "38:58 - 40:13"
+          },
+          {
+            "label": "观点",
+            "text": "超级智能需要物理世界的感知和行动能力，而不仅仅是数据中心内的思考。",
+            "reference": "51:38 - 52:14"
+          },
+          {
+            "label": "观点",
+            "text": "未来十年将出现各种形态的机器人，而非仅人形机器人。",
+            "reference": "52:30 - 53:25"
+          },
+          {
+            "label": "观点",
+            "text": "费米悖论的可能解释：文明以光速扩张，我们只能在它们到达前不久探测到。",
+            "reference": "57:37 - 58:04"
           }
         ],
         "materials": []
