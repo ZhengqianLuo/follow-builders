@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-21T04:08:42.305Z",
+  "updatedAt": "2026-11-22T03:21:20.466Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -20706,6 +20706,171 @@
             "label": "观点",
             "text": "费米悖论的可能解释：文明以光速扩张，我们只能在它们到达前不久探测到。",
             "reference": "57:37 - 58:04"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2123796297836896292:8de7bed109f7c2fc": {
+      "itemId": "tweet:2123796297836896292",
+      "sourceHash": "8de7bed109f7c2fc",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Garry Tan：You don’t need an asset seizure tax You need to encourage building new ideas...",
+      "url": "https://x.com/garrytan/status/2123796297836896292",
+      "generatedAt": "2026-11-22T03:20:22.136Z",
+      "summary": {
+        "title": "Garry Tan：加州不需要资产没收税，需要鼓励创新和明智支出",
+        "summary": "Garry Tan 在这条推文中批评了加州当前的政策方向，认为不应通过资产没收税来解决问题，而应鼓励在加州建设新想法和初创公司。他强调政府需要明智地将资金用于帮助人民的项目。他点名批评象牙塔学者和 SEIU-HNW 工会领袖的观点是错误的。推文附有链接，可能指向相关文章或政策讨论。该观点反映了科技界对加州税收和监管环境的不满，以及对创新生态系统的支持。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "你不需要资产没收税，你需要鼓励在加州建设新想法和初创公司。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "政府角色",
+            "text": "然后你需要一个明智地将资金用于帮助人民的政府。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "批评对象",
+            "text": "象牙塔学者和 SEIU-HNW 工会领袖都错了。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "政策立场",
+            "text": "反对资产没收税，主张通过创新和创业来推动经济发展。",
+            "reference": "推文整体"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2123869175085191298:5495bb6a12036a95": {
+      "itemId": "tweet:2123869175085191298",
+      "sourceHash": "5495bb6a12036a95",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：ISO 42001:2023 is like the \"SOC2 of AI\". It's the first global, independently...",
+      "url": "https://x.com/rauchg/status/2123869175085191298",
+      "generatedAt": "2026-11-22T03:20:27.077Z",
+      "summary": {
+        "title": "Guillermo Rauch：ISO 42001:2023 是 AI 领域的 SOC2",
+        "summary": "Vercel CEO Guillermo Rauch 在推文中将 ISO 42001:2023 比作“AI 的 SOC2”，强调这是首个全球性、经独立审计的标准，用于规范企业构建、评估、监控和治理 AI 系统的方式。他指出，当用户使用 Vercel 的 AI 基础设施时，可以确信该基础设施每年由经认可的第三方进行审计。这一类比旨在向开发者传达：ISO 42001 为 AI 系统提供了类似 SOC2 在信息安全领域的信任背书，而 Vercel 已获得该认证，从而增强了其 AI 服务的可信度。推文获得了 660 个赞、26 次转发和 51 条回复，显示该话题在开发者社区中引发了一定关注。",
+        "excerpts": [
+          {
+            "label": "类比",
+            "text": "ISO 42001:2023 就像 AI 领域的 SOC2。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "标准定义",
+            "text": "这是首个全球性、经独立审计的标准，用于规范公司如何构建、评估、监控和治理 AI 系统。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "信任背书",
+            "text": "当你在 Vercel 上发布和使用 AI 时，现在你知道基础设施每年由经认可的第三方进行审计。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "互动数据",
+            "text": "推文获得 660 个赞、26 次转发和 51 条回复。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2123686350410912145:4854eac45435406f": {
+      "itemId": "tweet:2123686350410912145",
+      "sourceHash": "4854eac45435406f",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：This year we’ve had a clear jump in model capability where instead of telling...",
+      "url": "https://x.com/levie/status/2123686350410912145",
+      "generatedAt": "2026-11-22T03:20:31.688Z",
+      "summary": {
+        "title": "Aaron Levie：模型能力跃升，从精确指令到目标导向的智能体",
+        "summary": "Aaron Levie 在推文中指出，今年模型能力出现了明显跃升：过去需要精确告诉智能体如何设计和开发产品，否则几乎不可能成功；现在，智能体越来越可能给出比人类更好的实现方案，因为它能在更大的解空间中连接各个点。这种趋势将扩展到金融、法律、生命科学、网络安全等几乎所有知识工作领域，因为没有人能掌握所有相关行业知识来想出最佳解决方案。最终，这将重塑我们与 AI 的关系以及部署智能体的方式：不再是明确告诉它们怎么做，而是给出目标并给予足够自由，让它们以最佳方式追求目标。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "今年模型能力出现了明显跃升：与其精确告诉智能体该做什么，不如用这些系统来解决你自己难以定义的问题。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "对比",
+            "text": "一年前，你需要非常清楚地告诉智能体如何设计和开发你的产品想法，否则几乎没有成功的机会。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "现在，智能体越来越可能给出比你自己想到的更好的实现方案，因为它能在比你大得多的解空间中连接各个点。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "预测",
+            "text": "这在几乎所有知识工作领域都将越来越成立，包括金融、法律、生命科学、网络安全等，因为没有人能掌握所有相关行业知识来想出最佳解决方案。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "结论",
+            "text": "最终，这将重塑我们与 AI 的关系以及我们在工作中部署智能体的方式：不再是明确告诉它们，而是给出目标并给予足够自由，让它们以最佳方式追求目标。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:01a1f60c-1b1f-7366-a794-20e0b0bcdc8a:a9111b6bc1755d38": {
+      "itemId": "podcast:01a1f60c-1b1f-7366-a794-20e0b0bcdc8a",
+      "sourceHash": "a9111b6bc1755d38",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Latent Space: Scaling Linear’s GTM to $100M ARR — Cristina Cordova, COO",
+      "url": "https://www.youtube.com/watch?v=x0VSm6IjcDQ",
+      "generatedAt": "2026-11-22T03:21:20.465Z",
+      "summary": {
+        "title": "Latent Space：将 Linear 的 GTM 扩展到 1 亿美元 ARR — Cristina Cordova，COO",
+        "summary": "本期播客中，Linear 首席运营官 Cristina Cordova 分享了她在 Stripe、Notion 和 Linear 的 GTM 经验，以及 Linear 如何从产品驱动增长（PLG）起步，逐步扩展到 1 亿美元 ARR 并进军企业市场。Cristina 在加入 Linear 前完成了一个工作试用项目，制定了 6-12 个月的 GTM 计划，该计划成为她入职后的蓝图。她强调品牌和营销的重要性，使 Linear 成为“必然选择”，同时改进产品内通知和故事讲述。销售团队方面，Linear 不设 SDR，而是招聘有技术产品经验的 AE，并配备解决方案工程师。Linear 坚持不外包支持团队，以保持高质量和快速响应。Cristina 将最初的企业市场目标改为聚焦成长型公司，直到 2025 年才正式进军企业。早期销售策略强调产品显著优于竞品，通过免费试用推动转换；当前策略则转向强调 AI 和代理工作流，认为手动问题跟踪已死，Linear 定位为代理友好工具。Linear 于 2025 年推出 MCP 服务器，一年半内超过 50% 的问题由代理创建，同时应用内使用也在增长。Cristina 认为公司必须将代理工作流集成到工具中，否则用户没有理由使用产品。Linear 正在创建新类别，将大部分资源投入到代理编排和代理式工作管理。Linear 的客户包括大多数前沿 AI 实验室和顶级 AI 公司，这些客户推动 Linear 向代理式方向发展。一些 pre-AI 公司（如 Ramp、Coinbase）在内部构建代理，Linear 为此构建 API 以支持深度集成。Linear 构建了 Triage Intelligence 功能，自动标记、分配和路由传入的 bug 报告和功能请求。Linear 的销售和客户成功团队通过 Gong 录制电话、分享学习，并从客户工作流中学习，再打包成产品功能。Linear 没有 SDR 角色，因为认为 SDR 的首次通话对客户无用，且可通过系统和自动化让 AE 直接进行外联。客户体验团队使用 AI 起草回复，但由人工进行质量检查。解决方案工程师与客户工程师对接，处理深度技术问题、自定义集成和迁移演示。销售周期因客户组织政治和预算而异，有的一个月内由 CEO 自上而下决定，有的长达两年半。许多公司因 AI 预算的出现而更快做出购买决策。Linear 拥有约 40,000 个付费客户，历史上直到六月完全是按席位计费，因此收入增长较慢。部分功能采用基于用量的定价，但核心仍为按席位定价。AI 功能定价基于成本加少量加成，并保持透明。新 AI 功能通常先以免费 beta 形式提供，之后再转为付费。Linear 在 2025 年转向企业市场，但为了构建代理平台和 MCP 服务器等，推迟了一些企业功能。产品路线图最长只规划六个月，以适应快速变化。Linear 的护城河从最初的设计和用户体验，转变为现在的团队和速度。招聘上采取谨慎态度，使用工作试用，并保持工程和产品人员占比。Linear 从 Stripe 借鉴了保持工程和产品人员比例的做法，但避免频繁更换领导层。Linear 重视支持质量，愿意为此支付更高成本，且三年半内未收到过关于支持体验差的升级投诉。Cristina 在 Notion 时，实际喜欢的工作内容并非其正式职责，这促使她考虑转型。她认为早期投资与后期运营不同，她更擅长并喜欢在已有产品市场契合的公司中执行。作为前运营者，Cristina 能更可信地向创始人提供业务帮助，这是她作为投资人的差异化优势。没有运营经验的投资人通常依靠模式识别、人脉网络和引荐来提供价值。从投资人经历中，Cristina 学会了理解投资人的思维、关注的数据和指标，以及如何更好地利用投资人资源。Linear 目前除创始人外只有 Cristina 一位 C 级高管，公司规模约 170 人，倾向保持扁平结构。Cristina 的角色是小型公司的“万金油”，涵盖多种职能，但预期未来会随着团队建设而改变。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "我一般不相信每家公司都需要 COO，你必须真正理解作为创始人你需要什么。",
+            "reference": "Cristina Cordova 在播客中谈到 Linear 为何在约 40 名员工时聘请 COO"
+          },
+          {
+            "label": "数据",
+            "text": "我们于 2025 年推出 MCP 服务器，在短短一年半内，Linear 上创建的问题中有超过 50% 是由代理创建的，同时应用内使用量也在显著上升。",
+            "reference": "Cristina Cordova 讨论 Linear 的代理工作流采用情况"
+          },
+          {
+            "label": "金句",
+            "text": "手动跟踪已死。我们希望您专注于构建更好的产品，我们将构建一个系统，让您能够以极少的手动工作做到这一点。",
+            "reference": "Linear 的转型宣言"
+          },
+          {
+            "label": "案例",
+            "text": "像 Ramp 或 Coinbase 这样的公司决定投资自己的内部团队来构建内部代理，我们实际上需要一个 API，使您能够在 Linear 内创建代理。",
+            "reference": "Cristina Cordova 解释 Linear 为何构建代理 API"
+          },
+          {
+            "label": "观点",
+            "text": "你必须将代理工作流引入你的工具中。否则，人们就没有理由进入你的工具。",
+            "reference": "Cristina Cordova 强调代理工作流集成的重要性"
+          },
+          {
+            "label": "数据",
+            "text": "像 Linear 这样拥有 40,000 个付费客户的企业，历史上直到六月完全是按席位计费，因此从零增长到 1 亿美元收入要困难得多。",
+            "reference": "Cristina Cordova 讨论 Linear 的收入模式"
+          },
+          {
+            "label": "观点",
+            "text": "我们从未设立 SDR，这源于一种信念：销售人员应该能够撰写外发邮件，你可以创建系统、工具和自动化，使 AE 更容易进行外联。",
+            "reference": "Cristina Cordova 解释 Linear 不设 SDR 的原因"
+          },
+          {
+            "label": "金句",
+            "text": "我们的产品路线图最长只规划六个月，以适应快速变化。",
+            "reference": "Cristina Cordova 谈论 Linear 的规划节奏"
           }
         ],
         "materials": []
