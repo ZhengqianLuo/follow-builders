@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-23T03:53:26.122Z",
+  "updatedAt": "2026-11-24T07:01:33.100Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -20971,6 +20971,147 @@
             "label": "互动数据",
             "text": "推文获得 140 个赞、10 次转发、15 条回复。",
             "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2124970294523945328:f2e75d1e2b4f8f91": {
+      "itemId": "tweet:2124970294523945328",
+      "sourceHash": "f2e75d1e2b4f8f91",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：There’s now one way to connect your tools to Claude, teach it a new skill, or...",
+      "url": "https://x.com/claudeai/status/2124970294523945328",
+      "generatedAt": "2026-11-24T07:01:10.147Z",
+      "summary": {
+        "title": "Claude 推出插件：统一连接工具与技能",
+        "summary": "Claude 官方宣布推出插件（plugins）功能，将连接器（connectors）和技能（skills）整合为统一的插件体系。用户现在可以通过一种方式将外部工具连接到 Claude，或教它新技能，或两者兼有。该功能已在 Free、Pro、Max 和 Ultra 计划上线，Team 和 Enterprise 计划即将推出。官方同时提供了包含 10,000+ 插件的浏览页面。这一举措简化了用户扩展 Claude 能力的方式，使其能够更灵活地集成第三方工具和自定义功能，标志着 Claude 在生态开放性上迈出重要一步。",
+        "excerpts": [
+          {
+            "label": "核心功能",
+            "text": "现在有一种方式可以将你的工具连接到 Claude，教它一项新技能，或两者兼有。连接器和技能以插件的形式整合在一起。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "可用计划",
+            "text": "插件已在 Free、Pro、Max 和 Ultra 计划上线，Team 和 Enterprise 计划即将推出。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "插件数量",
+            "text": "浏览 10,000+ 插件。",
+            "reference": "推文正文及链接"
+          },
+          {
+            "label": "生态扩展",
+            "text": "插件将连接器和技能统一，意味着用户不再需要分别管理两种扩展方式，降低了使用门槛。",
+            "reference": "推文正文"
+          }
+        ],
+        "materials": [
+          {
+            "label": "插件浏览页面",
+            "url": "https://t.co/gSwpY9HDPY",
+            "note": "查看可用的 10,000+ 插件列表和分类"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2124929944530587712:7bc3cb2c4fe1b0d1": {
+      "itemId": "tweet:2124929944530587712",
+      "sourceHash": "7bc3cb2c4fe1b0d1",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Claude：Zero data retention (ZDR) with Enterprise Frontier Safeguards (EFS) is now in...",
+      "url": "https://x.com/claudeai/status/2124929944530587712",
+      "generatedAt": "2026-11-24T07:01:16.516Z",
+      "summary": {
+        "title": "Claude 推出企业级零数据保留与前沿防护公开测试版",
+        "summary": "Claude 官方宣布，面向符合条件的企业，零数据保留（ZDR）与 Enterprise Frontier Safeguards（EFS）现已进入公开测试阶段。该功能可在跨多个请求中检测滥用行为，同时保持与 ZDR 的兼容性。该功能是与超过 100 家客户共同开发的，旨在为企业提供更安全、合规的 AI 使用环境。",
+        "excerpts": [
+          {
+            "label": "核心功能",
+            "text": "零数据保留（ZDR）与 Enterprise Frontier Safeguards（EFS）现已面向符合条件的企业进入公开测试阶段。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "功能特点",
+            "text": "该功能可在跨多个请求中检测滥用行为，同时保持与 ZDR 的兼容性。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "开发背景",
+            "text": "该功能是与超过 100 家客户共同开发的。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 5070 个赞、278 次转发和 251 条回复，显示较高的关注度。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2124998553856844186:1be591c667a282db": {
+      "itemId": "tweet:2124998553856844186",
+      "sourceHash": "1be591c667a282db",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：You should feel a significant jump in quality of answers on ChatGPT once rolled...",
+      "url": "https://x.com/thsottiaux/status/2124998553856844186",
+      "generatedAt": "2026-11-24T07:01:25.236Z",
+      "summary": {
+        "title": "ChatGPT 质量将显著提升，年底前应用体验全面优化",
+        "summary": "OpenAI 员工 Thibault Sottiaux 在 X 上发布动态，预告 ChatGPT 将迎来一次显著的质量提升，用户一旦获得更新，就能感受到回答质量的明显飞跃。他提到，团队正在对应用进行多项投资，包括简化应用界面、提升运行速度，以及合并聊天与工作功能，这些改进将在年底前共同带来日常使用体验的大幅改善。该动态获得 4241 次点赞、133 次转发和 823 条回复，引发广泛关注。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "一旦更新推送给你，你应该会感受到 ChatGPT 回答质量的显著飞跃。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "结合我们在简化应用、提升速度以及合并聊天与工作功能方面的所有投入，到年底时，日常使用体验将会有相当大的改善。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 4241 次点赞、133 次转发和 823 条回复，显示用户对 ChatGPT 改进的高度关注。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2125008810041610359:a39f92c1a18199b1": {
+      "itemId": "tweet:2125008810041610359",
+      "sourceHash": "a39f92c1a18199b1",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Amjad Masad：Great meeting with VP @JDVance on Friday to discuss American AI leadership,...",
+      "url": "https://x.com/amasad/status/2125008810041610359",
+      "generatedAt": "2026-11-24T07:01:33.100Z",
+      "summary": {
+        "title": "Amjad Masad 与副总统 JD Vance 会面：美国需在开放权重 AI 领域保持领导地位",
+        "summary": "Replit CEO Amjad Masad 在 X 上发文，透露周五与副总统 JD Vance 会面，讨论了美国 AI 领导力、网络安全和软件基础设施现代化等议题。他特别强调了自己关心的开放权重 AI 问题：美国盟友希望拥有主权 AI，但越来越多地转向中国开放模型；美国本土初创公司也需要一个有竞争力的模型生态。Masad 警告，美国可能赢得前沿 AI 竞赛，却输掉全球 AI 生态系统。他还对 Jensen Huang 重返 Nvidia 表示高兴，称其为美国开放权重 AI 最重要的捍卫者之一。该推文获得 1852 个赞、110 次转发和 130 条回复，反映了业界对美国在开放权重 AI 领域战略的担忧。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "美国可能赢得前沿 AI 竞赛，却输掉全球 AI 生态系统。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "关键论证",
+            "text": "我们的盟友想要主权 AI，并且越来越多地看向中国的开放模型。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "本土关切",
+            "text": "在国内，美国初创公司需要一个有竞争力的模型生态系统。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "人物评价",
+            "text": "很高兴看到 Jensen 回到 Nvidia。他一直是美国开放权重 AI 最重要的捍卫者之一。",
+            "reference": "推文原文"
           }
         ],
         "materials": []
