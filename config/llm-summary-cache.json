@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-24T07:01:33.100Z",
+  "updatedAt": "2026-11-25T05:34:47.016Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -21112,6 +21112,106 @@
             "label": "人物评价",
             "text": "很高兴看到 Jensen 回到 Nvidia。他一直是美国开放权重 AI 最重要的捍卫者之一。",
             "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2124969305674748175:cbdcef7331cb83e7": {
+      "itemId": "tweet:2124969305674748175",
+      "sourceHash": "cbdcef7331cb83e7",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Amjad Masad：New research from Replit on scaling laws for agent swarms. We show that scaling...",
+      "url": "https://x.com/amasad/status/2124969305674748175",
+      "generatedAt": "2026-11-25T05:34:39.401Z",
+      "summary": {
+        "title": "Replit 新研究：智能体集群的扩展法则",
+        "summary": "Replit 创始人 Amjad Masad 在 X 上分享了 Replit 关于智能体集群扩展法则的新研究。研究发现，增加智能体数量可以带来显著的性能提升，但与传统扩展法则不同，更多的计算并不一定转化为更好的结果，智能体的组织方式至关重要。具体数据包括：在固定的两小时窗口内，Opus 5.5 在 NumPy 任务上从单智能体的 3.7 倍加速提升到 32 个智能体的 18.9 倍加速；GPT-6.2 Astra 是最强的单智能体，但在超过 8 个智能体后出现负扩展；模型自发形成了不同的组织结构，去中心化集群比依赖中心协调的集群扩展性更好；问题的可并行性是集群性能的强预测因子；有趣的是，单个模型的智能并不能很好地预测集体智能。Replit 还开源了 Optimization-Bench 以推进这一推理时扩展新维度的研究。",
+        "excerpts": [
+          {
+            "label": "核心发现",
+            "text": "扩展智能体数量可以带来显著的性能提升，但与传统扩展法则不同，更多的计算并不一定转化为更好的结果，智能体的组织方式至关重要。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据案例",
+            "text": "在固定的两小时窗口内，Opus 5.5 在 NumPy 任务上从单智能体的 3.7 倍加速提升到 32 个智能体的 18.9 倍加速。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据案例",
+            "text": "GPT-6.2 Astra 是最强的单智能体，但在超过 8 个智能体后出现负扩展。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "模型自发形成了不同的组织结构，去中心化集群比依赖中心协调的集群扩展性更好。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "问题的可并行性是集群性能的强预测因子。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "单个模型的智能并不能很好地预测集体智能。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "开源",
+            "text": "Replit 开源了 Optimization-Bench，以推进智能体集群这一推理时扩展新维度的研究。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2125089009018040779:553d4cf68d124620": {
+      "itemId": "tweet:2125089009018040779",
+      "sourceHash": "553d4cf68d124620",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：This is a pretty key insight. Services businesses are always held back by their...",
+      "url": "https://x.com/levie/status/2125089009018040779",
+      "generatedAt": "2026-11-25T05:34:47.016Z",
+      "summary": {
+        "title": "Aaron Levie：AI 代理将彻底改变服务业的规模化逻辑",
+        "summary": "Aaron Levie 在这条推文中提出了一个关键洞察：传统服务型企业受限于人力交付能力，规模化只能依靠增加员工数量，且客户永远希望更快、更便宜、更高质量。AI 代理的出现改变了这一计算方式，使产出与投入时间脱钩，单个工程师或设计师可以拥有数十人的产出能力。但 Levie 强调，并非所有工作都应完全交给代理，前端仍需专家来确保代理交付正确的结果。他预测这一模式将在网络安全、广告营销、法律、会计、IT 转型等众多传统人力密集型服务行业出现，并认为现在是创办此类企业或转型现有企业的绝佳时机。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "服务型企业总是受限于向客户交付结果的能力，规模化只能来自增加人头，无论需求多大，能获得的人才总是有限的。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "客户通常总是希望工作完成得更快、价格更低或质量更高。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "代理彻底改变了计算方式，因为现在我们可以以与投入时间脱钩的方式扩展产出。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "一个工程师可以拥有以前几十个工程师的产出；一个设计师可能就能构建整个设计系统和品牌。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "为什么不是全部交给代理？因为关键是在前端仍有专家，确保代理交付正确的结果。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "预测",
+            "text": "我们可能会在网络安全、广告营销、法律、会计、IT 转型等众多历史上仅靠人力的服务行业看到这种模式。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "观点",
+            "text": "现在是创办这类企业或转型现有企业的绝佳时机。",
+            "reference": "推文结尾"
           }
         ],
         "materials": []
