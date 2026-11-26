@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-25T05:34:47.016Z",
+  "updatedAt": "2026-11-26T05:18:02.847Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -21212,6 +21212,322 @@
             "label": "观点",
             "text": "现在是创办这类企业或转型现有企业的绝佳时机。",
             "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2125353849057853876:60151b6a45a0c028": {
+      "itemId": "tweet:2125353849057853876",
+      "sourceHash": "60151b6a45a0c028",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Amjad Masad：America can build the best frontier models and still lose the global AI race....",
+      "url": "https://x.com/amasad/status/2125353849057853876",
+      "generatedAt": "2026-11-26T05:17:02.710Z",
+      "summary": {
+        "title": "美国可能赢得模型竞赛却输掉全球AI竞赛",
+        "summary": "Amjad Masad 在推文中指出，美国即使拥有最前沿的AI模型，也可能在全球AI竞赛中落败。核心原因是各国政府追求“主权AI”，希望在本国土地上、用自己的基础设施、自主控制地运行模型。如果美国公司不满足这一需求，中国公司就会填补空白，各国将从使用中国模型开始，进而采用中国的基础设施和芯片。Masad 以华为在电信领域的成功为例：中国通过提供全球电信基础设施，建立了持久的战略影响力，一旦某个国家围绕你的设备建设网络，就会形成技术专长、供应商关系和未来投资的锁定，替换成本极高且具有破坏性。因此，Jensen Huang 支持美国开放模型生态系统的举动至关重要。开放模型让初创公司有竞争自由，也让各国有理由基于美国技术进行建设。美国需要同时保持前沿领导力和全球采用率，而开放模型是实现这两者的关键。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "美国可以打造最好的前沿模型，却仍然输掉全球AI竞赛。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "主权AI需求",
+            "text": "世界各国政府都想要主权AI：能在自己土地上、用自己的基础设施、在自己的控制下运行的模型。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "竞争威胁",
+            "text": "如果美国公司不满足这一需求，中国公司就会满足。各国会从使用中国模型开始，然后采用中国的基础设施和芯片。",
+            "reference": "推文第三、四句"
+          },
+          {
+            "label": "华为类比",
+            "text": "我们在华为身上看到过类似情形。中国明白，为世界提供电信基础设施会带来持久的战略影响力。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "锁定效应",
+            "text": "一旦一个国家围绕你的设备建设网络，它也会围绕你的设备建立技术专长、供应商关系和未来投资。替换设备变得昂贵且具有破坏性。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "开放模型的重要性",
+            "text": "这就是为什么Jensen支持美国开放模型生态系统如此重要。开放模型让初创公司有竞争自由，也让各国有理由基于美国技术进行建设。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "双重目标",
+            "text": "我们需要前沿领导力和全球采用率。开放模型对于同时实现这两者至关重要。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2125422797304549672:f5e2fa7347603be9": {
+      "itemId": "tweet:2125422797304549672",
+      "sourceHash": "f5e2fa7347603be9",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Steinberger：What a year this has been! Time to reflect and do a blog post over the...",
+      "url": "https://x.com/steipete/status/2125422797304549672",
+      "generatedAt": "2026-11-26T05:17:08.542Z",
+      "summary": {
+        "title": "Peter Steinberger 年终反思：开源与团队协作的一年",
+        "summary": "Peter Steinberger 在 2026 年 11 月 25 日发布的推文中回顾了过去一年。他提到 OpenClaw（OC）项目处于良好状态，在 prosumer 和企业采用中找到了利基市场，多人团队功能是同类最佳。同时，他坦言发布可靠且免费的开源软件非常困难，每天醒来面对大量用户投诉是情感上的挑战，但很高兴团队现在承担了大部分工作。过去一年团队主要专注于确保软件快速、可靠和安全等‘无聊’的部分，例外是新内存系统和即将推出的 OpenClaw ID。最后他展望未来，希望有更多年。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "OC 处于良好状态，我们在 prosumer 和企业采用中找到了利基市场。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "多人团队功能是同类最佳。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "发布可靠且免费的开源软件真的非常非常困难，每天醒来面对无数用户投诉是情感上的挑战。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "我很高兴团队现在承担了大部分工作。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "我们主要专注于确保软件快速、可靠和安全等‘无聊’的部分，例外是新内存系统和即将推出的 OpenClaw ID。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "类比",
+            "text": "为了更多年！",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2125246815884984398:6adab92dc9d7c066": {
+      "itemId": "tweet:2125246815884984398",
+      "sourceHash": "6adab92dc9d7c066",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Peter Yang：I've been using Gemini 4 Neon and @antigravity all weekend and made a free...",
+      "url": "https://x.com/petergyang/status/2125246815884984398",
+      "generatedAt": "2026-11-26T05:17:14.880Z",
+      "summary": {
+        "title": "Peter Yang 分享 Gemini 4 Neon 与 Antigravity 组合的免费视频课程",
+        "summary": "Peter Yang 在推文中表示，他整个周末都在使用 Gemini 4 Neon 和 Antigravity，并制作了一个免费的 17 分钟视频课程，分享如何充分利用这一组合。他总结了几个关键要点：1. Orchestrator 和 /swarm 功能对于规划和构建多智能体系统非常有用，他曾在一次运行中同时使用 42 个智能体；2. /grill-me 是一个内置技能，可以让 Antigravity 提出澄清性问题，帮助用户先完善计划；3. 远程控制功能优于 Claude Code，因为默认所有线程都是活跃的。他还展示了如何将 Antigravity 添加到手机主屏幕以便远程运行。推文附有完整课程链接。该推文获得了 580 个赞、39 次转发和 44 条回复，反映了社区对 AI 开发工具组合的兴趣。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Orchestrator 和 /swarm 功能对于规划和构建多智能体系统非常有用，我曾一次运行 42 个智能体。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "金句",
+            "text": "/grill-me 是一个很棒的内置技能，它让 Antigravity 提出澄清性问题，帮助你先完善计划。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "观点",
+            "text": "远程控制功能比 Claude Code 的更好，因为默认所有线程都是活跃的。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "案例",
+            "text": "我在视频中展示了如何将 Antigravity 添加到手机主屏幕，以便远程运行。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 580 个赞、39 次转发和 44 条回复。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": [
+          {
+            "label": "视频课程",
+            "url": "https://t.co/lmfSTiVBsm",
+            "note": "Peter Yang 的 17 分钟 Antigravity 免费视频课程，演示了 Orchestrator、/swarm、/grill-me 和远程控制等功能。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2125287538911072753:2fb5ea7cc7fcff1a": {
+      "itemId": "tweet:2125287538911072753",
+      "sourceHash": "2fb5ea7cc7fcff1a",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Amjad Masad：Unlike say electricity, token demand grows in step functions as we find ways to...",
+      "url": "https://x.com/amasad/status/2125287538911072753",
+      "generatedAt": "2026-11-26T05:17:20.383Z",
+      "summary": {
+        "title": "Amjad Masad：Token 需求呈阶梯式增长，而非电力式平滑增长",
+        "summary": "Replit CEO Amjad Masad 在推文中提出，与电力等传统资源不同，token 需求并非平滑增长，而是随着我们找到为单个用户投入更多计算能力的方式而呈阶梯式增长。他列举了从自动补全、聊天、智能体、长期自主智能体到智能体集群的演进路径，每一次工具创新都会解锁一个数量级的潜在 token 消耗。但 Masad 也指出，新工具出现与用户学会如何利用它们之间存在滞后。这条推文获得了 215 个赞、11 次转发和 72 条回复，反映了 AI 社区对 token 需求增长模式的关注。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "与电力不同，token 需求呈阶梯式增长，因为我们不断找到为单个用户投入更多计算能力的方法。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "演进路径",
+            "text": "自动补全 -> 聊天 -> 智能体 -> 长期自主智能体 -> 智能体集群，每一次工具创新都会解锁一个数量级的潜在 token 消耗。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "滞后效应",
+            "text": "新工具出现与用户学会如何利用它们之间存在滞后。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 215 个赞、11 次转发和 72 条回复，显示社区对 token 需求增长模式的关注。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2125320020666565096:21e44fc8e88ff01e": {
+      "itemId": "tweet:2125320020666565096",
+      "sourceHash": "21e44fc8e88ff01e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：The main reason https://t.co/3Z4NESzNKd is a CLI (in this day and age!) is that...",
+      "url": "https://x.com/rauchg/status/2125320020666565096",
+      "generatedAt": "2026-11-26T05:17:27.534Z",
+      "summary": {
+        "title": "Guillermo Rauch：为何在当今时代仍选择 CLI 作为智能编码代理内核",
+        "summary": "Guillermo Rauch 在推文中解释，他推出的某个工具（链接指向 https://t.co/3Z4NESzNKd）之所以采用命令行界面（CLI），是因为它本质上是对 𝚕𝚒𝚋𝚏𝚡 的薄封装。其目标是打造最小、最智能的编码代理内核，能够嵌入到各种界面中，包括浏览器、服务器、移动端、桌面、操作系统以及 ADE（可能指 AI 开发环境）等。这条推文反映了作者对 AI 编码代理架构的思考：将核心逻辑与界面解耦，以 CLI 作为最轻量的接入方式，从而最大化可移植性和可嵌入性。推文获得 237 个赞、3 次转发和 50 条回复，显示社区对此话题有一定兴趣。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "该工具采用 CLI 的主要原因是它只是 𝚕𝚒𝚋𝚏𝚡 的一个薄封装。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "目标阐述",
+            "text": "目标是生产最小、最智能的编码代理内核，可嵌入任何界面：浏览器、服务器、移动端、桌面、操作系统、ADE 等。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "架构思路",
+            "text": "通过将核心逻辑（libfx）与界面分离，CLI 成为最轻量的接入方式，便于跨平台嵌入。",
+            "reference": "推文原文及链接"
+          },
+          {
+            "label": "社区反馈",
+            "text": "推文获得 237 个赞、3 次转发和 50 条回复，显示一定关注度。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2125442246543814686:065e5e23113cd7e1": {
+      "itemId": "tweet:2125442246543814686",
+      "sourceHash": "065e5e23113cd7e1",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：This wouldn’t have sounded possible a year ago, but it’s becoming much more...",
+      "url": "https://x.com/levie/status/2125442246543814686",
+      "generatedAt": "2026-11-26T05:17:35.082Z",
+      "summary": {
+        "title": "Aaron Levie：AI 带来的 10 倍产出增益正在公司内部制造巨大差异",
+        "summary": "Aaron Levie 在推文中指出，一年前还难以想象的事情如今正变得合理：基于最新的 AI 模型和工具链进展，团队可以获得 10 倍的产出增益。这导致同一家公司内部不同团队之间的产出水平出现巨大差异，取决于他们采用 AI 的程度。这与以往的技术采用模式不同——传统上，技术采用率通常以公司为单位衡量，因为公司会采用相对标准化的方式部署新技术，例如“某公司已经数字化或上云”，因此团队间的提升大致相同。但 AI 开始呈现出截然不同的景象：即使在同一家公司内部，AI 采用程度最低和最高的团队之间也可能存在 10 倍的产出差距。那些能够重新设计流程、将智能体最佳地部署到工作流中的团队，根据职能不同，生产力可能实现一个数量级的跃升。目前这种现象主要集中在编程领域，但随着更多工作变得与编程相邻，可以预期其他领域也会出现类似结果。这必然会在公司内部引发一些疯狂的动态。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "一年前这听起来不可能，但现在基于最新的 AI 模型和工具链进展，获得 10 倍产出增益正变得越来越合理。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "现象",
+            "text": "同一家公司内部，不同团队之间的产出水平差异巨大，取决于他们采用 AI 的程度。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "对比",
+            "text": "传统上，技术采用率以公司为单位衡量，因为公司会采用相对标准化的方式部署新技术，例如“某公司已经数字化或上云”，因此团队间的提升大致相同。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "数据",
+            "text": "即使在同一家公司内部，AI 采用程度最低和最高的团队之间也可能存在 10 倍的产出差距。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "那些能够重新设计流程、将智能体最佳地部署到工作流中的团队，根据职能不同，生产力可能实现一个数量级的跃升。",
+            "reference": "推文中后段"
+          },
+          {
+            "label": "预测",
+            "text": "目前这种现象主要集中在编程领域，但随着更多工作变得与编程相邻，可以预期其他领域也会出现类似结果。",
+            "reference": "推文后段"
+          },
+          {
+            "label": "结论",
+            "text": "这必然会在公司内部引发一些疯狂的动态。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:36adfe0a-61bd-45ea-8069-54304171e5dd:6a6844432353ac0d": {
+      "itemId": "podcast:36adfe0a-61bd-45ea-8069-54304171e5dd",
+      "sourceHash": "6a6844432353ac0d",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Unsupervised Learning: Ep 98: China Expert on Jensen’s Return",
+      "url": "https://www.youtube.com/watch?v=gkd5eOQGASU",
+      "generatedAt": "2026-11-26T05:18:02.847Z",
+      "summary": {
+        "title": "中国问题专家谈黄仁勋回归：芯片出口、地缘政治与AI未来",
+        "summary": "本期播客是紧急节目，嘉宾Jordan Schneider从地缘政治角度解读黄仁勋被解雇后复职的事件。Jordan将黄仁勋的回归比作拿破仑从厄尔巴岛归来，但认为其地位并不稳固，民主党会强烈反对。他推测董事会同意复职是因为特朗普承诺和解和赦免，涉及NVIDIA向中国军方相关公司出售芯片的丑闻，NVIDIA将面临2500万美元罚款。Jordan指出，NVIDIA一直希望多元化客户，中国超大规模企业如腾讯、阿里巴巴、字节跳动有资金但缺芯片，黄仁勋长期推动对华销售。过去四年存在芯片走私，Super Micro高管用吹风机移除标签以便运输到中国，而Blackwell芯片从未合法进口到中国却实际发生了，黄仁勋基本未采取行动。NVIDIA还设计芯片规避规则，如规则禁止100则制造99，违反法律精神。Bessent和Rubio对黄仁勋不满，因为解放军获得芯片且黄仁勋与疑似中国间谍有染。\n\n播客后半部分讨论了AI的公关和营销问题，目前只有少数人（如编程和数学领域）真正体验到AI能力提升，对大多数人日常生活影响不大。生物技术是AI的一个明确营销方向，但短期内难以实现癌症药物等突破。未来18个月内AI领域可能出现一些有前景的资产，甚至通过紧急同情使用进入临床，但主要是轶事而非大规模应用。特朗普与习近平的对话中提及黄仁勋，特朗普担心黄仁勋若未获工作会去中国公司。关键政策问题是出口管制规则是否会被立即撤销或立法固化。支持向中国出口芯片的论点包括让中国依赖美国技术而非自研，以及通过增加芯片使用量强化供应链和编程生态的护城河。反对论点包括AI是双重用途技术，具有国家安全影响；先进模型和芯片数量直接关系到网络攻击能力；出口管制限制了华为的芯片供应，从而减缓其技术进步。美国在计算能力上保持10-15倍优势，只要不向中国出售EUV光刻机等先进设备并切断远程访问和走私，这种优势可维持5-7年。特朗普政府内部曾有人支持向中国出售芯片，但最终因国家安全担忧而采取行动，两党对此均有强烈关切，AI公司需注意政治风险。中国可能对机器人数据实施出口管制，概率高达75%；中国已开始对AI模型出口实施许可制度，并寻求其他战略技术的杠杆。在CORAL机器人会议上，人形机器人表现令人失望，连DeepMind的机器人也仅能勉强拿起松饼；美国在机器人制造方面可能不如中国，且稀土依赖中国。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Jordan Schneider认为黄仁勋复职像拿破仑从厄尔巴岛归来，但不确定是否稳定，民主党会强烈反对。",
+            "reference": "01:10 - 01:39"
+          },
+          {
+            "label": "案例",
+            "text": "Jordan推测董事会同意复职是因为特朗普承诺和解和赦免，涉及NVIDIA向中国军方相关公司出售芯片，NVIDIA将面临2500万美元罚款。",
+            "reference": "01:57 - 02:56"
+          },
+          {
+            "label": "数据",
+            "text": "过去四年存在芯片走私，Super Micro高管用吹风机移除标签以便运输到中国，Blackwell芯片从未合法进口到中国却实际发生了。",
+            "reference": "04:59 - 06:48"
+          },
+          {
+            "label": "观点",
+            "text": "NVIDIA设计芯片规避规则，如规则禁止100则制造99，违反法律精神并故意忽视违规。",
+            "reference": "07:24 - 07:51"
+          },
+          {
+            "label": "观点",
+            "text": "AI存在公关和营销问题，目前只有少数人（如编程和数学领域）真正体验到其能力提升，对大多数人日常生活影响不大。",
+            "reference": "24:14 - 24:33"
+          },
+          {
+            "label": "案例",
+            "text": "特朗普与习近平的对话中提及黄仁勋，特朗普担心黄仁勋若未获工作会去中国公司。",
+            "reference": "26:04 - 26:20"
+          },
+          {
+            "label": "数据",
+            "text": "美国在计算能力上保持10-15倍优势，只要不向中国出售EUV光刻机等先进设备并切断远程访问和走私，这种优势可维持5-7年。",
+            "reference": "30:04 - 31:23"
+          },
+          {
+            "label": "观点",
+            "text": "中国可能对机器人数据实施出口管制，概率高达75%；中国已开始对AI模型出口实施许可制度，并寻求其他战略技术的杠杆。",
+            "reference": "33:16 - 34:40"
           }
         ],
         "materials": []
