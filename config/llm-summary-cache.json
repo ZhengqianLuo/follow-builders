@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-26T05:18:02.847Z",
+  "updatedAt": "2026-11-27T05:14:12.859Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -21531,6 +21531,248 @@
           }
         ],
         "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2125675533761671405:7a97e641559ae905": {
+      "itemId": "tweet:2125675533761671405",
+      "sourceHash": "7a97e641559ae905",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thariq：I've joined OpenAI! I'm very proud of my time at Anthropic, and I'll continue...",
+      "url": "https://x.com/trq212/status/2125675533761671405",
+      "generatedAt": "2026-11-27T05:13:36.632Z",
+      "summary": {
+        "title": "Thariq 宣布加入 OpenAI，离开 Anthropic",
+        "summary": "Thariq 在 X 上宣布自己已加入 OpenAI，并表达了对在 Anthropic 工作时光的自豪，以及对前同事的持续支持。他认为两家公司在未来都扮演重要角色，但个人在 OpenAI 能做出更大贡献。他提到硅谷人才和思想流动的优势，并列举了多位在 OpenAI 的同事，表示期待与他们一起为超过十亿用户打造 AI 产品。最后他表达了希望改善用户 AI 体验的愿望，并称自己再次为用户服务。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "两家公司在未来都扮演重要角色，但个人在 OpenAI 能做出更大贡献。",
+            "reference": "原文"
+          },
+          {
+            "label": "观点",
+            "text": "硅谷的一大优势是思想和人才的流动。",
+            "reference": "原文"
+          },
+          {
+            "label": "数据",
+            "text": "OpenAI 的产品服务超过十亿人。",
+            "reference": "原文"
+          },
+          {
+            "label": "金句",
+            "text": "我再次为您服务。",
+            "reference": "原文"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2125784147889393806:62bb1f39ba3bd7ee": {
+      "itemId": "tweet:2125784147889393806",
+      "sourceHash": "62bb1f39ba3bd7ee",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Thibault Sottiaux：We made a billing mistake at launch of GPT-6.2 that incorrectly discounted...",
+      "url": "https://x.com/thsottiaux/status/2125784147889393806",
+      "generatedAt": "2026-11-27T05:13:44.325Z",
+      "summary": {
+        "title": "GPT-6.2 计费错误修复：用量消耗加速，附赠重置补偿",
+        "summary": "Thibault Sottiaux 在 X 上发布声明，承认 GPT-6.2 发布时存在计费错误，导致大多数用户的 GPT-6.2 Astra 和 Sol 使用被错误折扣。该错误现已修复，因此相同的工作将消耗更多的计划用量额度。与上周相比，用户将在 GPT-6.2 Astra 上提前 40% 达到限额，在 Sol 上提前 25%。不过，与 6 Astra 和 6.1 Sol 相比，这些模型的使用量仍应更持久。其他模型未受影响，且不会对过去的用量差额收费。作为道歉，将为所有 Go、Plus、Pro 和 Business 用户添加一次银行重置。此声明对订阅用户有直接影响，需重新评估用量预算，同时体现了平台对计费透明度的重视。",
+        "excerpts": [
+          {
+            "label": "核心错误说明",
+            "text": "我们在 GPT-6.2 发布时犯了一个计费错误，错误地为大多数用户折扣了 GPT-6.2 Astra 和 Sol 的使用量。",
+            "reference": "原文第一句"
+          },
+          {
+            "label": "修复后影响",
+            "text": "我们现在已修复此问题，因此相同的工作将消耗更多您的计划用量额度。与上周相比，您在 GPT-6.2 Astra 上达到限额的速度将加快 40%，在 Sol 上加快 25%。",
+            "reference": "原文第二、三句"
+          },
+          {
+            "label": "相对优势",
+            "text": "与 6 Astra 和 6.1 Sol 相比，您仍应看到这些模型的使用量更持久。",
+            "reference": "原文第四句"
+          },
+          {
+            "label": "补偿措施",
+            "text": "作为对错误的小小歉意，我们将为所有 Go、Plus、Pro 和 Business 用户添加一次银行重置。",
+            "reference": "原文最后一句"
+          },
+          {
+            "label": "用户反应",
+            "text": "该推文获得 9460 个赞、563 次转发和 3652 条回复，显示用户对计费变化高度关注。",
+            "reference": "互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2125779541952246039:cf66618d45d8759e": {
+      "itemId": "tweet:2125779541952246039",
+      "sourceHash": "cf66618d45d8759e",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Andrej Karpathy：I asked Claude to populate a Civilization-style game map with real data from...",
+      "url": "https://x.com/karpathy/status/2125779541952246039",
+      "generatedAt": "2026-11-27T05:13:55.434Z",
+      "summary": {
+        "title": "Andrej Karpathy 用 Claude 打造真实数据驱动的文明风格游戏地图",
+        "summary": "Andrej Karpathy 在推文中展示了他让 Claude（Opus 5.5）从美国真实公共数据中构建文明风格游戏地图的实验。Claude 下载并解析了大量公开数据，耗时 7 小时、编写 4.5 万行代码，最终将 31 个真实数据源（包括人口普查局、经济分析局、劳工统计局、能源信息署、国家海洋和大气管理局、美国地质调查局、国防部、国家公园管理局、联邦航空管理局、联邦紧急事务管理局、疾控中心等）整合到一个 25 公里六边形网格上。数据涵盖真实海拔、土地覆盖、GDP、就业、电厂、矿山、港口、机场、军事基地、公园、大学、货运流和灾害等，并转化为文明游戏的语言：例如金币产出对应 GDP，城市区域反映真实产业专业化（圣何塞有校园区，底特律是汽车城），市民对应真实劳动力（圣何塞每 4 名工人中就有 1 名是工程师、程序员或科学家，而全国平均为 1/14），奇观根据公开规则选择（如国家公园按游客量、大学按研发支出）。地图提供 19 种视角（收入、学历、信仰、灾害等）、524 个大都市的城市视图、九位顾问和一个探索器，探索器可将 3100 多个县的任意列数据转化为表格和散点图并与地图联动。Karpathy 提到 Claude 跳过了几个州和领地，项目使用 Claude Code 桌面应用、Opus 5.5 中等模式并开启 ultracode 构建，已部署在指定链接，源码链接在页面“?”中。他表示不确定最终方向，但浏览和把玩很有趣，可能扩展成游戏，不过自己的 Claude 周配额只剩一半，需要他人接手。Claude 还制作了预告片。",
+        "excerpts": [
+          {
+            "label": "数据规模",
+            "text": "Claude 下载并解析了大量公共数据，7 小时和 4.5 万行代码后，整合了 31 个真实数据源，包括人口普查局、经济分析局、劳工统计局、能源信息署、国家海洋和大气管理局、美国地质调查局、国防部、国家公园管理局、联邦航空管理局、联邦紧急事务管理局、疾控中心等。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "文明语言转化",
+            "text": "数据被转化为文明游戏的语言：金币产出对应 GDP，城市区域反映真实产业专业化（圣何塞有校园区，底特律是汽车城），市民对应真实劳动力（圣何塞每 4 名工人中就有 1 名是工程师、程序员或科学家，而全国平均为 1/14）。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "奇观选择规则",
+            "text": "奇观根据公开规则选择，例如国家公园按游客数量，大学按研发支出等。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "探索功能",
+            "text": "提供 19 种视角（收入、学历、信仰、灾害等）、524 个大都市的城市视图、九位顾问和一个探索器，探索器可将 3100 多个县的任意列数据转化为表格和散点图并与地图联动。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "构建方式与限制",
+            "text": "使用 Claude Code 桌面应用、Opus 5.5 中等模式并开启 ultracode 构建，Claude 跳过了几个州和领地，项目已部署，源码链接在页面“?”中。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "作者态度",
+            "text": "Karpathy 表示不确定最终方向，但浏览和把玩很有趣，可能扩展成游戏，不过自己的 Claude 周配额只剩一半，需要他人接手。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": [
+          {
+            "label": "部署链接",
+            "url": "https://t.co/QMhmafXMj5",
+            "note": "可访问实际地图应用，查看真实数据驱动的文明风格地图、19 种视角、城市视图和探索器功能。"
+          },
+          {
+            "label": "源码链接",
+            "url": "https://t.co/QMhmafXMj5",
+            "note": "页面中的“?”提供源码链接，可查看 Claude 生成的 4.5 万行代码和数据处理细节。"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2125638790593274259:79adfa015b06edb4": {
+      "itemId": "tweet:2125638790593274259",
+      "sourceHash": "79adfa015b06edb4",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Sam Altman：We’re now testing Private Inference, our latest offering as part of OpenAI...",
+      "url": "https://x.com/sama/status/2125638790593274259",
+      "generatedAt": "2026-11-27T05:14:00.504Z",
+      "summary": {
+        "title": "Sam Altman 宣布测试 Private Inference，强化企业隐私保护",
+        "summary": "OpenAI 首席执行官 Sam Altman 在 X 上宣布，公司正在小范围客户中测试名为 Private Inference 的新产品，该产品属于 OpenAI Private Intelligence 的一部分。Private Inference 旨在提供更强的隐私保护，使前沿 AI 能够应用于更多工作场景，并强调企业隐私对于健康生态的重要性。此外，他还提到 ZDR（Zero Data Retention）配合 Private Safety Processing 可以实现自动化安全审查，而无需 OpenAI 人员访问底层内容。该推文获得了 7997 个赞、420 次转发和 879 条回复，显示出社区对 AI 隐私问题的关注。",
+        "excerpts": [
+          {
+            "label": "产品发布",
+            "text": "我们正在小范围客户中测试 Private Inference，这是我们 OpenAI Private Intelligence 的最新服务。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "隐私价值",
+            "text": "更强的隐私保护将使前沿 AI 在更多工作中发挥作用，企业隐私对于健康生态至关重要。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "安全机制",
+            "text": "ZDR 配合 Private Safety Processing 可实现自动化安全审查，而无需 OpenAI 人员访问底层内容。",
+            "reference": "推文结尾括号内"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 7997 个赞、420 次转发和 879 条回复，显示 AI 隐私话题热度较高。",
+            "reference": "推文互动统计"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2125482861033824410:5eb6aead1ad23fff": {
+      "itemId": "tweet:2125482861033824410",
+      "sourceHash": "5eb6aead1ad23fff",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Guillermo Rauch：𝚕𝚜𝚡: Finder in the terminal. One-shotted with fx and Gemini Neon + DeepSeek...",
+      "url": "https://x.com/rauchg/status/2125482861033824410",
+      "generatedAt": "2026-11-27T05:14:06.723Z",
+      "summary": {
+        "title": "Guillermo Rauch 用 fx 和 Gemini Neon + DeepSeek 子代理一键构建终端 Finder：lsx",
+        "summary": "Vercel CEO Guillermo Rauch 在 X 上宣布了一个名为 lsx 的新终端工具，它相当于在终端里实现 macOS Finder 的功能。他提到这个工具是用 fx 配合 Gemini Neon 和 DeepSeek 子代理一次性构建完成的。他指示 fx 使用 Kitty 图形协议，并构建内联和交互模式，结果 fx 自主实现了 CLI 快速查看功能。Rauch 特别指出 DeepSeek 承担了大部分繁重工作，而且成本非常低，他只需告诉它使用 DS 1017 快速子代理即可。他还强调 Kitty 图形协议允许 CLI 渲染几乎任何内容，甚至是一个完整的操作系统，并表示自己会去实现。这条推文展示了 AI 辅助编程在快速构建复杂终端应用方面的潜力，以及 Kitty 图形协议在终端体验上的扩展性。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "lsx 是终端里的 Finder，用 fx 和 Gemini Neon + DeepSeek 子代理一次性构建完成。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "案例",
+            "text": "我指示 fx 使用 Kitty 图形协议，并构建内联和交互模式，结果它自主实现了 CLI 快速查看功能。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "数据",
+            "text": "DeepSeek 实际上承担了所有繁重工作，而且成本非常低！我只需告诉它使用 DS 1017 快速子代理。",
+            "reference": "推文脚注 0"
+          },
+          {
+            "label": "观点",
+            "text": "Kitty 图形协议允许 CLI 渲染几乎任何内容！可以说是一个完整的操作系统。我会去实现。",
+            "reference": "推文脚注 1"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2125627281230205435:cbb6b61e49b92713": {
+      "itemId": "tweet:2125627281230205435",
+      "sourceHash": "cbb6b61e49b92713",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Swyx：\"Cost per task is a misleading metric; the scarce resource is human attention,...",
+      "url": "https://x.com/swyx/status/2125627281230205435",
+      "generatedAt": "2026-11-27T05:14:12.858Z",
+      "summary": {
+        "title": "Swyx：每任务成本是误导性指标，稀缺资源是人类注意力而非 token 成本",
+        "summary": "Swyx 在这条推文中批评了用“每任务成本”来评估 AI 模型的做法，认为这是一种误导性指标。他指出，真正的稀缺资源是人类的注意力，而不是 token 成本。他警告人们要警惕那些帕累托前沿图表，这些图表让人误以为可以将每个模型简化为两个数字（如成本和性能），但这种简化可能掩盖了严重的可靠性问题。推文附有两个链接，可能指向相关的图表或讨论。这条推文获得了 289 个赞、14 次转发和 159 条回复，表明在 AI 社区中引起了广泛关注和讨论。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "每任务成本是一个误导性指标；稀缺资源是人类的注意力，而不是 token 成本。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "警告",
+            "text": "要警惕那些帕累托前沿图表，它们让你相信可以将每个模型简化为两个数字；这可能会隐藏一些非常糟糕的可靠性问题。",
+            "reference": "推文正文"
+          },
+          {
+            "label": "互动数据",
+            "text": "该推文获得 289 个赞、14 次转发和 159 条回复，显示其观点在 AI 社区中引发了显著讨论。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": [
+          {
+            "label": "推文附带的链接",
+            "url": "https://t.co/ICtqiXhE4f",
+            "note": "可能指向帕累托前沿图表或相关讨论，用于说明模型简化评估的误导性。"
+          },
+          {
+            "label": "推文附带的链接",
+            "url": "https://t.co/6LJLlCP8tr",
+            "note": "可能指向另一个相关资源，进一步阐述可靠性问题或成本指标批评。"
+          }
+        ]
       }
     }
   }

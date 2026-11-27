@@ -17700,7 +17700,127 @@
       "title": "Unsupervised Learning: Ep 98: China Expert on Jensen’s Return",
       "url": "https://www.youtube.com/watch?v=gkd5eOQGASU",
       "sentAt": "2026-11-26T05:18:05.608Z"
+    },
+    "tweet:2125675533761671405": {
+      "type": "tweet",
+      "title": "Thariq：I've joined OpenAI! I'm very proud of my time at Anthropic, and I'll continue...",
+      "url": "https://x.com/trq212/status/2125675533761671405",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "topic:Thariq：I've joined OpenAI! I'm very proud of my time at Anthropic, and I'll continue...": {
+      "type": "topic",
+      "title": "Thariq：I've joined OpenAI! I'm very proud of my time at Anthropic, and I'll continue...",
+      "url": "https://x.com/trq212/status/2125675533761671405",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "tweet:2125784147889393806": {
+      "type": "tweet",
+      "title": "Thibault Sottiaux：We made a billing mistake at launch of GPT-6.2 that incorrectly discounted...",
+      "url": "https://x.com/thsottiaux/status/2125784147889393806",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "topic:Thibault Sottiaux：We made a billing mistake at launch of GPT-6.2 that incorrectly discounted...": {
+      "type": "topic",
+      "title": "Thibault Sottiaux：We made a billing mistake at launch of GPT-6.2 that incorrectly discounted...",
+      "url": "https://x.com/thsottiaux/status/2125784147889393806",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "tweet:2125779541952246039": {
+      "type": "tweet",
+      "title": "Andrej Karpathy：I asked Claude to populate a Civilization-style game map with real data from...",
+      "url": "https://x.com/karpathy/status/2125779541952246039",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "topic:Andrej Karpathy：I asked Claude to populate a Civilization-style game map with real data from...": {
+      "type": "topic",
+      "title": "Andrej Karpathy：I asked Claude to populate a Civilization-style game map with real data from...",
+      "url": "https://x.com/karpathy/status/2125779541952246039",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "tweet:2125638790593274259": {
+      "type": "tweet",
+      "title": "Sam Altman：We’re now testing Private Inference, our latest offering as part of OpenAI...",
+      "url": "https://x.com/sama/status/2125638790593274259",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "topic:Sam Altman：We’re now testing Private Inference, our latest offering as part of OpenAI...": {
+      "type": "topic",
+      "title": "Sam Altman：We’re now testing Private Inference, our latest offering as part of OpenAI...",
+      "url": "https://x.com/sama/status/2125638790593274259",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "tweet:2125639418849714280": {
+      "type": "tweet",
+      "title": "Sam Altman：I don't think I'd heard the word \"hyperstitioning\" before, but it's a good one....",
+      "url": "https://x.com/sama/status/2125639418849714280",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "topic:Sam Altman：I don't think I'd heard the word \"hyperstitioning\" before, but it's a good one....": {
+      "type": "topic",
+      "title": "Sam Altman：I don't think I'd heard the word \"hyperstitioning\" before, but it's a good one....",
+      "url": "https://x.com/sama/status/2125639418849714280",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "tweet:2125580632814412155": {
+      "type": "tweet",
+      "title": "Garry Tan：I think this clip of Nick Bostrom is quite under-appreciated He inverts “if...",
+      "url": "https://x.com/garrytan/status/2125580632814412155",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "topic:Garry Tan：I think this clip of Nick Bostrom is quite under-appreciated He inverts “if...": {
+      "type": "topic",
+      "title": "Garry Tan：I think this clip of Nick Bostrom is quite under-appreciated He inverts “if...",
+      "url": "https://x.com/garrytan/status/2125580632814412155",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "tweet:2125680562677653743": {
+      "type": "tweet",
+      "title": "Thariq：probably a good time to come clean and say I'm level 5 in WoW",
+      "url": "https://x.com/trq212/status/2125680562677653743",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "topic:Thariq：probably a good time to come clean and say I'm level 5 in WoW": {
+      "type": "topic",
+      "title": "Thariq：probably a good time to come clean and say I'm level 5 in WoW",
+      "url": "https://x.com/trq212/status/2125680562677653743",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "tweet:2125482861033824410": {
+      "type": "tweet",
+      "title": "Guillermo Rauch：𝚕𝚜𝚡: Finder in the terminal. One-shotted with fx and Gemini Neon + DeepSeek...",
+      "url": "https://x.com/rauchg/status/2125482861033824410",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "topic:Guillermo Rauch：𝚕𝚜𝚡: Finder in the terminal. One-shotted with fx and Gemini Neon + DeepSeek...": {
+      "type": "topic",
+      "title": "Guillermo Rauch：𝚕𝚜𝚡: Finder in the terminal. One-shotted with fx and Gemini Neon + DeepSeek...",
+      "url": "https://x.com/rauchg/status/2125482861033824410",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "tweet:2125592156027101584": {
+      "type": "tweet",
+      "title": "Garry Tan：Median growth is 10x Look at this stat and tell me AI is not helping new...",
+      "url": "https://x.com/garrytan/status/2125592156027101584",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "topic:Garry Tan：Median growth is 10x Look at this stat and tell me AI is not helping new...": {
+      "type": "topic",
+      "title": "Garry Tan：Median growth is 10x Look at this stat and tell me AI is not helping new...",
+      "url": "https://x.com/garrytan/status/2125592156027101584",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "tweet:2125627281230205435": {
+      "type": "tweet",
+      "title": "Swyx：\"Cost per task is a misleading metric; the scarce resource is human attention,...",
+      "url": "https://x.com/swyx/status/2125627281230205435",
+      "sentAt": "2026-11-27T05:14:15.001Z"
+    },
+    "topic:Swyx：\"Cost per task is a misleading metric; the scarce resource is human attention,...": {
+      "type": "topic",
+      "title": "Swyx：\"Cost per task is a misleading metric; the scarce resource is human attention,...",
+      "url": "https://x.com/swyx/status/2125627281230205435",
+      "sentAt": "2026-11-27T05:14:15.001Z"
     }
   },
-  "updatedAt": "2026-11-26T05:18:05.608Z"
+  "updatedAt": "2026-11-27T05:14:15.001Z"
 }
