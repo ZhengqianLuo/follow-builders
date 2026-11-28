@@ -1,7 +1,7 @@
 {
   "version": 1,
   "promptVersion": "deep-read-zh-v1",
-  "updatedAt": "2026-11-27T05:14:12.859Z",
+  "updatedAt": "2026-11-28T04:52:05.237Z",
   "summaries": {
     "deep-read-zh-v1:tweet:2071740419030053227:9f69343745e629b3": {
       "itemId": "tweet:2071740419030053227",
@@ -21773,6 +21773,312 @@
             "note": "可能指向另一个相关资源，进一步阐述可靠性问题或成本指标批评。"
           }
         ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2125983591389974980:f684e7d1c7a18d6b": {
+      "itemId": "tweet:2125983591389974980",
+      "sourceHash": "f684e7d1c7a18d6b",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Sam Altman：I am thankful for a lot of things in life, but my family is the best thing that...",
+      "url": "https://x.com/sama/status/2125983591389974980",
+      "generatedAt": "2026-11-28T04:51:04.858Z",
+      "summary": {
+        "title": "Sam Altman 感恩节感言：家庭是生命中最美好的事",
+        "summary": "OpenAI CEO Sam Altman 在感恩节发布推文，表达对家庭的感恩之情。他坦言，在为人父母之前，人们常说的两件事——'有孩子比任何人能解释的都要好'和'时间过得飞快'——都是真的，他无需多言。他特别感谢家人，并提到如果没有 Ollie 的坚定支持和宝贵建议，他可能早已崩溃。这条推文展现了 Altman 作为父亲和伴侣的温情一面，也引发了大量互动（1.3 万点赞、384 次转发、905 条回复），反映出公众对这位科技领袖个人生活的关注。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "家庭是生命中最美好的事，胜过其他一切。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "金句",
+            "text": "有孩子比任何人能解释的都要好，而且时间过得飞快——这两点都是真的。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "案例",
+            "text": "如果没有 Ollie 的坚定支持和宝贵建议，我可能早就疯了。",
+            "reference": "推文结尾"
+          },
+          {
+            "label": "数据",
+            "text": "该推文获得 13,315 次点赞、384 次转发和 905 条回复。",
+            "reference": "推文互动数据"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2125990371897557278:905ce9f27eceb27b": {
+      "itemId": "tweet:2125990371897557278",
+      "sourceHash": "905ce9f27eceb27b",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Sam Altman：Ven was one of the earliest believers that we could use our then-current model...",
+      "url": "https://x.com/sama/status/2125990371897557278",
+      "generatedAt": "2026-11-28T04:51:08.292Z",
+      "summary": {
+        "title": "Sam Altman 悼念 Ven：兼具才华、正确自信与勇气的罕见品质",
+        "summary": "Sam Altman 在推文中悼念 Ven，称他是最早相信可以用当时模型解决千禧年大奖难题的人之一。Altman 指出，世界上聪明人很多，但既聪明又拥有正确自信和勇气、在他人认为不可能的事情上持续推动的人非常罕见且珍贵。他感谢 OpenAI 中有许多同时具备这些品质的人。这条推文是对一位早期贡献者的致敬，也强调了 OpenAI 文化中重视的不仅是智力，更是敢于挑战不可能的精神。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "Ven 是最早相信我们可以用当时的模型解决千禧年大奖难题的人之一。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "观点",
+            "text": "世界上有很多聪明人，但既聪明又拥有正确自信和勇气、在他人认为不可能的事情上持续推动的人非常罕见且珍贵。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "观点",
+            "text": "我很感激 OpenAI 中有这么多人同时具备这些品质。",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2125983542475894821:71321ddf8b720feb": {
+      "itemId": "tweet:2125983542475894821",
+      "sourceHash": "71321ddf8b720feb",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Aaron Levie：Huge opportunity right now to build new services firms from the ground up, or...",
+      "url": "https://x.com/levie/status/2125983542475894821",
+      "generatedAt": "2026-11-28T04:51:13.851Z",
+      "summary": {
+        "title": "Aaron Levie：以智能体为核心，从零打造或转型专业服务公司的巨大机遇",
+        "summary": "Box 联合创始人 Aaron Levie 在推文中指出，当前存在一个巨大机遇：以智能体（agents）为核心，从零开始构建新型专业服务公司，或对现有公司进行转型。他认为，专业服务公司本应具备的领域专长依然至关重要，因为要充分发挥智能体的作用，仍需深厚的领域理解。但现在，借助智能体，项目交付能力获得了 10 倍的乘数效应。这意味着可以提升客户满意度、赢得更多客户、开拓此前不在目标市场中的小型客户，或交付过去难以想象的成果。这一变革将发生在广告、IT 转型、管理咨询、金融等多个领域，这些领域以往完全受限于劳动力产出速度。Levie 强调，这对创业者是巨大机会，同时也不应排除那些决心转型的现有企业，因为现有客户信任能发挥很大作用，但它们必须迅速行动才能成功。",
+        "excerpts": [
+          {
+            "label": "核心观点",
+            "text": "当前存在巨大机遇：以智能体为核心，从零开始构建新型专业服务公司，或对现有公司进行转型。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "关键论证",
+            "text": "专业服务公司本应具备的领域专长依然至关重要，因为要充分发挥智能体的作用，仍需深厚的领域理解。",
+            "reference": "推文第二句"
+          },
+          {
+            "label": "数据/类比",
+            "text": "借助智能体，项目交付能力获得了 10 倍的乘数效应。",
+            "reference": "推文第三句"
+          },
+          {
+            "label": "商业影响",
+            "text": "这意味着可以提升客户满意度、赢得更多客户、开拓此前不在目标市场中的小型客户，或交付过去难以想象的成果。",
+            "reference": "推文第四句"
+          },
+          {
+            "label": "应用领域",
+            "text": "这一变革将发生在广告、IT 转型、管理咨询、金融等多个领域，这些领域以往完全受限于劳动力产出速度。",
+            "reference": "推文第五句"
+          },
+          {
+            "label": "对创业者的建议",
+            "text": "这对创业者是巨大机会，同时也不应排除那些决心转型的现有企业，因为现有客户信任能发挥很大作用，但它们必须迅速行动才能成功。",
+            "reference": "推文最后两句"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2126055939749118294:2f55a05c2edf18dc": {
+      "itemId": "tweet:2126055939749118294",
+      "sourceHash": "2f55a05c2edf18dc",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Zara Zhang：12 tips for people who posted on LinkedIn but now wanna post on X A lot of...",
+      "url": "https://x.com/zarazhangrui/status/2126055939749118294",
+      "generatedAt": "2026-11-28T04:51:23.192Z",
+      "summary": {
+        "title": "从 LinkedIn 转战 X 的 12 条实战建议",
+        "summary": "Zara Zhang 分享了自己一年内在 X 平台增长 8 万粉丝的经验，针对从 LinkedIn 迁移到 X 的创作者给出 12 条具体建议。核心观点是：LinkedIn 是舞台，X 是派对，需要先融入社群再发言；X 无法直接触达决策层，必须先获得大众关注；发帖频率要远高于 LinkedIn，建议每天 3 次甚至更多；发帖要成为条件反射，不要过度思考；大多数帖子表现平平，1/10 不错、1/50 可能爆红是正常现象；至少一半内容应为回应性内容（回复、引用推文）；回复和引用推文有本质区别，前者像私信求关注，后者借他人内容涨粉；先优化信息流，关注领域内大 V 及其互动对象，一周后信息流会完全不同；写作风格要像给熟人发短信，避免 AI 味；发布对自己显而易见的内容，列出客户、投资人、团队常问的 10 个问题；把线下说过的、让人眼前一亮的话立刻发出来；露脸视频更突出，粉丝少于 1000 时不要推销公司，先分享真实观点。这些建议强调真实、高频、融入社群，反对过度包装和 AI 生成内容。",
+        "excerpts": [
+          {
+            "label": "核心类比",
+            "text": "LinkedIn 是一个舞台，X 是一个派对。先找到你的人群，听他们已经在聊什么，搞懂了再开口。",
+            "reference": "第 1 条"
+          },
+          {
+            "label": "平台逻辑差异",
+            "text": "LinkedIn 是职业网络，可以直接触达决策者；X 不行，你必须先获得大众关注，然后对的人才会注意到你。",
+            "reference": "第 2 条"
+          },
+          {
+            "label": "发帖频率",
+            "text": "在 LinkedIn 一周发 3-5 篇就算很多了。我在 X 上每天发 3 次，坚持了 6 个月。一些我关注的公司创始人每天发 5 次。他们不是整天泡在 X 上，只是不过度思考。",
+            "reference": "第 3 条"
+          },
+          {
+            "label": "内容策略",
+            "text": "至少一半的帖子应该是回应性的：回复、引用推文、对别人已说内容的评论。",
+            "reference": "第 6 条"
+          },
+          {
+            "label": "回复与引用推文的区别",
+            "text": "回复就像 LinkedIn 私信，意思是‘注意我’。引用推文是利用别人的内容来增长自己的账号。",
+            "reference": "第 7 条"
+          },
+          {
+            "label": "写作风格",
+            "text": "写得像给熟人发短信。精致会让人反感。每个人都对完美的 AI 腔调过敏。请不要用 AI 或机器人写回复，人们能看出来，可能会拉黑你。",
+            "reference": "第 9 条"
+          },
+          {
+            "label": "内容来源",
+            "text": "把对你来说显而易见的东西发出来。列出客户、投资人和团队问你的前 10 个问题，那就是你的专业领域。看起来太明显不值得说的，恰恰是人们想听的。",
+            "reference": "第 10 条"
+          },
+          {
+            "label": "个人品牌与销售",
+            "text": "露脸，但先别卖东西。在你有大约 1000 个粉丝之前，不要推广你的公司。先分享真实观点。记住：人们关注的是人，不是公司。",
+            "reference": "第 12 条"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:podcast:01a214b9-5541-7a74-8098-e2b949bce219:e61b073cc2e7d093": {
+      "itemId": "podcast:01a214b9-5541-7a74-8098-e2b949bce219",
+      "sourceHash": "e61b073cc2e7d093",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Latent Space: The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+      "url": "https://www.youtube.com/watch?v=Qe9d9dWyED0",
+      "generatedAt": "2026-11-28T04:51:55.233Z",
+      "summary": {
+        "title": "革命 vs 文艺复兴：Thariq Shihipar 谈 AI 时代的软件创造",
+        "summary": "Thariq Shihipar 在 AIE Code Summit 的闭幕演讲中提出了“革命 vs 文艺复兴”的框架：革命代表软件工厂和工业化，使软件更便宜；文艺复兴代表个性化和高质量软件，使构建个人化产品成为可能。他认为 AI 同时具备两者特性，工业革命强调效率和可靠性，文艺复兴则让边际质量提升变得有价值。Thariq 反思了自己过去一年观点的变化，例如曾坚信“Bash 就是一切”和“React 就是一切”，但如今发现模型随着能力提升能适应人类工作方式，甚至可以在 Figma 中绘图。他分享了自己构建游戏时的实践：创建“/human”脚本语言文件夹，通过特殊 linting 规则让代码更像规格说明，便于理解和调整。他提到模型擅长提供默认值，但用户可以通过迭代提升质量。Thariq 正在开发一款名为 Frontier Lab 的卡牌游戏，玩家扮演前沿实验室，通过研究资源和技术树竞争，有多种胜利条件。他使用 Claude 进行模拟，发现经济胜利总是最优，而模型在修复游戏平衡方面表现不佳。此外，他讨论了决策模型、多智能体通信、个人软件构建以及“成就的假肢”概念，认为随着模型能力增强，人类劳动变得高杠杆，需要新的成就假肢来培养能力。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "AI 既是工业革命也是文艺复兴：工业革命强调效率和可靠性，文艺复兴让边际质量提升变得有价值。",
+            "reference": "演讲主题"
+          },
+          {
+            "label": "金句",
+            "text": "模型随着能力提升，不再局限于特定格式，而是能适应人类的工作方式，例如在 Figma 中绘图。",
+            "reference": "Thariq 原话"
+          },
+          {
+            "label": "案例",
+            "text": "Thariq 在构建游戏时创建了名为“/human”的脚本语言文件夹，通过特殊的 linting 规则使代码更像规格说明，便于理解和调整。",
+            "reference": "Thariq 原话"
+          },
+          {
+            "label": "观点",
+            "text": "完美平衡的游戏很无聊，例如石头剪刀布；像英雄联盟这样的游戏因不平衡和高方差而有趣。",
+            "reference": "Thariq 原话"
+          },
+          {
+            "label": "案例",
+            "text": "Thariq 使用 Claude 对 Frontier Lab 进行模拟，发现经济胜利总是最优，而模型在修复游戏平衡方面表现不佳。",
+            "reference": "Thariq 原话"
+          },
+          {
+            "label": "观点",
+            "text": "决策模型很酷，但目前的工具链未充分利用它们，他经常让模型研究决策模型并编写文档。",
+            "reference": "Thariq 原话"
+          },
+          {
+            "label": "类比",
+            "text": "视频游戏被称为“成就的假肢”，为有抱负的年轻人提供高风险的体验，例如成为魔兽世界公会领袖。",
+            "reference": "Thariq 原话"
+          },
+          {
+            "label": "观点",
+            "text": "随着模型能力增强，人类劳动变得高杠杆，需要新的成就假肢来培养能力，例如 AIE 演讲和代币消耗。",
+            "reference": "Thariq 原话"
+          }
+        ],
+        "materials": []
+      }
+    },
+    "deep-read-zh-v1:tweet:2126133563292803100:9a20e519b65bbacd": {
+      "itemId": "tweet:2126133563292803100",
+      "sourceHash": "9a20e519b65bbacd",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Nikunj Kothari：Last Thanksgiving, I was mildly paranoid about forgetting to text folks who I...",
+      "url": "https://x.com/nikunj/status/2126133563292803100",
+      "generatedAt": "2026-11-28T04:52:00.613Z",
+      "summary": {
+        "title": "Nikunj Kothari：用本地脚本解决节日问候遗忘焦虑",
+        "summary": "Nikunj Kothari 在推文中分享了一个个人项目：去年感恩节时，他担心忘记给过去一年中相处较多的人发消息。他发现 iMessage 和 WhatsApp 在电脑上其实是本地数据库，于是利用这一特性开发了完全本地运行的脚本，帮助用户找出应该联系的人并发送问候。他强调脚本不涉及 AI，完全在本地运行，保护隐私。他提供了 GitHub 链接供有同样焦虑的人使用，并祝大家感恩节快乐。",
+        "excerpts": [
+          {
+            "label": "问题起源",
+            "text": "去年感恩节，我有点担心忘记给那些去年一起度过很多时间的人发消息。",
+            "reference": "推文开头"
+          },
+          {
+            "label": "关键发现",
+            "text": "Claude 发现 iMessage 和 WhatsApp 在你电脑上是本地数据库。",
+            "reference": "推文中段"
+          },
+          {
+            "label": "项目性质",
+            "text": "如果你和我一样担心，可以用这里的本地脚本（没有 AI，完全本地）给那些你一起度过时间的人发消息。",
+            "reference": "推文后半段"
+          },
+          {
+            "label": "隐私强调",
+            "text": "完全本地运行，不涉及 AI，保护隐私。",
+            "reference": "推文后半段"
+          },
+          {
+            "label": "节日祝福",
+            "text": "祝大家感恩节快乐 🦃",
+            "reference": "推文结尾"
+          }
+        ],
+        "materials": [
+          {
+            "label": "GitHub 仓库",
+            "url": "https://t.co/agVCIXkP4f",
+            "note": "查看本地脚本的代码和使用说明"
+          }
+        ]
+      }
+    },
+    "deep-read-zh-v1:tweet:2126072968761721013:979be9b64e70a506": {
+      "itemId": "tweet:2126072968761721013",
+      "sourceHash": "979be9b64e70a506",
+      "promptVersion": "deep-read-zh-v1",
+      "title": "Swyx：another good one is https://t.co/z8Wlkvx3E9 - when you refound in public,...",
+      "url": "https://x.com/swyx/status/2126072968761721013",
+      "generatedAt": "2026-11-28T04:52:05.237Z",
+      "summary": {
+        "title": "Swyx：公开重建时，推特是安全的思考空间",
+        "summary": "Swyx 在这条推文中推荐了一个链接（https://t.co/z8Wlkvx3E9），并分享了他对“公开重建”（refound in public）的看法。他认为公开重建有几个好处：第一，能获得来自不会一味迎合你的人的批判性反馈；第二，为原本冷冰冰的企业形象增添人性化色彩；第三，能把“在位者”的故事转变为“挑战者”的故事。同时，他指出推特“并不真实”，因为 99% 的客户根本不会看到你的推文，但 80% 的影响者可能会看到，所以只要不越过奥弗顿窗口，推特其实是一个相当安全的公开思考空间。",
+        "excerpts": [
+          {
+            "label": "观点",
+            "text": "公开重建的好处之一：获得来自不会一味迎合你的人的批判性反馈。",
+            "reference": "推文原文第1点"
+          },
+          {
+            "label": "观点",
+            "text": "公开重建的好处之二：为原本冷冰冰的企业形象增添人性化色彩。",
+            "reference": "推文原文第2点"
+          },
+          {
+            "label": "观点",
+            "text": "公开重建的好处之三：能把“在位者”的故事转变为“挑战者”的故事。",
+            "reference": "推文原文第3点"
+          },
+          {
+            "label": "数据",
+            "text": "99% 的客户根本不会看到你的推文，但 80% 的影响者可能会看到。",
+            "reference": "推文原文"
+          },
+          {
+            "label": "类比",
+            "text": "推特“并不真实”，只要不越过奥弗顿窗口，它其实是一个相当安全的公开思考空间。",
+            "reference": "推文原文"
+          }
+        ],
+        "materials": []
       }
     }
   }
